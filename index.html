@@ -1,0 +1,980 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Talkback</title>
+<meta name="description" content="Daily sound-world brief for audio professionals: gear, plugins, post, live, science and a 9-question audio quiz every morning.">
+<meta name="theme-color" content="#E6E8E3" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#131719" media="(prefers-color-scheme: dark)">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="icon" type="image/png" sizes="64x64" href="assets/favicon-64.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Talkback">
+<meta property="og:title" content="Talkback">
+<meta property="og:description" content="The daily brief for people who work with sound. News, a lesson and a 9-question quiz every morning.">
+<meta property="og:image" content="assets/og-image.png">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<style>:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0}img{max-width:100%}[hidden]{display:none!important}</style>
+</head>
+<body>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: one phone-width column under a console "meter bridge" — period switches with LEDs, scribble-strip category tape, timecoded log entries; signal-3 stories open as full channel strips. */
+:root {
+  --bg: #E6E8E3;
+  --panel: #F4F5F1;
+  --panel-2: #DADDD6;
+  --ink: #1B2125;
+  --muted: #5B6569;
+  --line: #C4C8C0;
+  --link: #1E5C78;
+  --amber: #D99A00;
+  --amber-ink: #3A2A00;
+  --tally: #C8233A;
+  --c-gear: #B07800;
+  --c-speakers: #4F6B2A;
+  --c-instruments: #8A5A2B;
+  --c-plugins: #2F6FA3;
+  --c-software: #6E4FA0;
+  --c-post: #A3367A;
+  --c-live: #C2410C;
+  --c-games: #4338CA;
+  --c-science: #2B8455;
+  --c-hearing: #C0396B;
+  --c-tech: #0F8A8A;
+  --c-industry: #B91C3C;
+  --c-ai: #56606A;
+  --c-craft: #1B2125;
+  --tape-ink: #FFFFFF;
+  --shadow: 0 1px 0 rgba(255,255,255,.7) inset, 0 1px 2px rgba(20,30,35,.12);
+  --f-display: "Big Shoulders Display", "Arial Narrow", Impact, sans-serif;
+  --f-body: "Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #131719; --panel: #1C2225; --panel-2: #252C30; --ink: #E3E6E0; --muted: #8F999D;
+    --line: #2D3539; --link: #82BCD6; --amber: #F2B533; --amber-ink: #2A1E00; --tally: #FF5A6E;
+    --c-gear: #E0A42A; --c-speakers: #9CC264; --c-instruments: #D29A62; --c-plugins: #5D9BD0; --c-software: #9E82CF;
+    --c-post: #E27BBE; --c-live: #F2804A; --c-games: #8F8CF2; --c-science: #4DB47D; --c-hearing: #F27BA6;
+    --c-tech: #3FB8B8; --c-industry: #F0566A; --c-ai: #A7B1BA; --c-craft: #E3E6E0; --tape-ink: #0E1214;
+    --shadow: 0 1px 0 rgba(255,255,255,.04) inset, 0 1px 2px rgba(0,0,0,.4);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #131719; --panel: #1C2225; --panel-2: #252C30; --ink: #E3E6E0; --muted: #8F999D;
+  --line: #2D3539; --link: #82BCD6; --amber: #F2B533; --amber-ink: #2A1E00; --tally: #FF5A6E;
+  --c-gear: #E0A42A; --c-speakers: #9CC264; --c-instruments: #D29A62; --c-plugins: #5D9BD0; --c-software: #9E82CF;
+  --c-post: #E27BBE; --c-live: #F2804A; --c-games: #8F8CF2; --c-science: #4DB47D; --c-hearing: #F27BA6;
+  --c-tech: #3FB8B8; --c-industry: #F0566A; --c-ai: #A7B1BA; --c-craft: #E3E6E0; --tape-ink: #0E1214;
+  --shadow: 0 1px 0 rgba(255,255,255,.04) inset, 0 1px 2px rgba(0,0,0,.4);
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font-family: var(--f-body); font-size: 16px; line-height: 1.55; }
+a { color: var(--link); }
+button { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--amber); outline-offset: 2px; }
+
+.wrap { max-width: 660px; margin: 0 auto; padding: 0 16px; padding-block: 0 48px; }
+
+/* Meter bridge */
+.bridge { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg); padding-block: 14px 10px; border-bottom: 1px solid var(--line); }
+.brand { display: flex; align-items: center; gap: 12px; }
+.logo { flex: none; height: 64px; width: auto; display: block; }
+:root[data-theme="dark"] .logo { filter: invert(1) hue-rotate(180deg) brightness(1.05); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .logo { filter: invert(1) hue-rotate(180deg) brightness(1.05); } }
+.wordmark { font-family: var(--f-display); font-weight: 900; font-size: 34px; line-height: .9; letter-spacing: .02em; text-transform: uppercase; margin: 0; }
+.tagline { font-family: var(--f-mono); font-size: 11px; color: var(--muted); letter-spacing: .06em; text-transform: uppercase; }
+.brand .tc { margin-left: auto; font-family: var(--f-mono); font-size: 12px; color: var(--muted); text-align: right; font-variant-numeric: tabular-nums; }
+.brand .tc b { display: block; color: var(--ink); font-size: 15px; font-weight: 600; }
+
+.switches { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 5px; margin-top: 12px; }
+.sw { appearance: none; border: 1px solid var(--line); background: var(--panel); border-radius: 6px; padding: 7px 4px 6px; cursor: pointer;
+  display: flex; flex-direction: column; align-items: center; gap: 4px; box-shadow: var(--shadow); }
+.sw .led { width: 8px; height: 8px; border-radius: 50%; background: var(--panel-2); border: 1px solid var(--line); }
+.sw .k { font-family: var(--f-display); font-weight: 800; font-size: 15px; line-height: 1; text-transform: uppercase; letter-spacing: .02em; }
+@media (max-width: 400px) { .sw .k { font-size: 13.5px; letter-spacing: 0; } .sw .s { font-size: 8.5px; } }
+.sw .s { font-family: var(--f-mono); font-size: 9.5px; color: var(--muted); letter-spacing: .08em; text-transform: uppercase; }
+.sw[aria-selected="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.sw[aria-selected="true"] .s { color: var(--bg); opacity: .7; }
+.sw[aria-selected="true"] .led { background: var(--tally); border-color: var(--tally); box-shadow: 0 0 8px var(--tally); }
+
+/* Brief header */
+.slate { margin-top: 20px; display: grid; gap: 6px; }
+.slate .row { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: baseline; font-family: var(--f-mono); font-size: 12px; color: var(--muted); letter-spacing: .03em; font-variant-numeric: tabular-nums; }
+.slate h2 { font-family: var(--f-display); font-weight: 800; font-size: clamp(30px, 8vw, 42px); line-height: .98; margin: 2px 0 0; text-transform: uppercase; text-wrap: balance; }
+.meter { display: flex; align-items: center; gap: 8px; }
+.meter .bars { display: flex; gap: 2px; }
+.meter .bars i { width: 5px; height: 12px; border-radius: 1px; background: var(--panel-2); display: block; }
+.meter .bars i.on { background: var(--c-science); }
+.meter .bars i.on.hot { background: var(--amber); }
+.meter .bars i.on.clip { background: var(--tally); }
+.archive { margin-left: auto; }
+.archive select { font: inherit; font-family: var(--f-mono); font-size: 12px; background: var(--panel); color: var(--ink); border: 1px solid var(--line); border-radius: 6px; padding: 4px 6px; max-width: 46vw; }
+
+.lead { margin-top: 16px; font-size: 18px; line-height: 1.5; max-width: 62ch; }
+.lead::first-line { font-weight: 700; }
+
+/* Scribble strip filters */
+.strip { display: flex; gap: 6px; overflow-x: auto; margin-top: 18px; padding-bottom: 4px; scrollbar-width: none; }
+.strip::-webkit-scrollbar { display: none; }
+.chip { flex: none; border: 1px solid var(--line); background: var(--panel); border-radius: 3px; padding: 4px 9px; cursor: pointer;
+  font-family: var(--f-mono); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; display: flex; align-items: center; gap: 6px; }
+.chip .dot { width: 8px; height: 8px; border-radius: 2px; background: var(--cat, var(--muted)); }
+.chip[aria-pressed="true"] { background: var(--cat, var(--ink)); color: var(--tape-ink); border-color: transparent; }
+.chip[aria-pressed="true"] .dot { background: var(--tape-ink); }
+.chip .n { opacity: .65; }
+.chip.bt { --cat: var(--tally); }
+.chip.top { --cat: var(--amber); }
+.chip.fr { --cat: var(--c-science); }
+.btag.free { color: var(--c-science); border-color: var(--c-science); }
+.sect.grp { color: var(--ink); font-weight: 600; }
+.sect.grp::before { content: ""; width: 8px; height: 8px; border-radius: 2px; background: var(--cat); flex: none; }
+
+/* Section labels */
+.sect { margin: 22px 0 0; display: flex; align-items: center; gap: 10px; font-family: var(--f-mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+.sect::after { content: ""; flex: 1; height: 1px; background: var(--line); }
+
+/* Log entries */
+.log { list-style: none; margin: 8px 0 0; padding: 0; display: grid; gap: 0; }
+.entry { padding-block: 16px; border-top: 1px solid var(--line); display: grid; grid-template-columns: minmax(0, 1fr); gap: 6px; }
+.entry:first-child { border-top: 0; }
+.entry .meta { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.tape { display: inline-block; background: var(--cat); color: var(--tape-ink); font-family: var(--f-display); font-weight: 800; font-size: 13px; letter-spacing: .08em;
+  text-transform: uppercase; padding: 2px 8px 1px; border-radius: 2px; transform: rotate(-1deg); }
+.btag { font-family: var(--f-mono); font-size: 10.5px; letter-spacing: .1em; text-transform: uppercase; color: var(--tally); border: 1px solid var(--tally); border-radius: 2px; padding: 1px 6px; }
+.entry .date { font-family: var(--f-mono); font-size: 11.5px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.sig { font-family: var(--f-mono); font-size: 11px; color: var(--muted); display: flex; gap: 2px; align-items: center; }
+.sig i { width: 4px; height: 10px; background: var(--panel-2); display: block; border-radius: 1px; }
+.sig i.on { background: var(--amber); }
+.entry h3 { margin: 0; font-size: 19px; line-height: 1.3; font-weight: 700; text-wrap: balance; }
+.entry .take { margin: 0; color: var(--ink); max-width: 62ch; }
+.entry .take::before { content: "Engineer's take — "; font-family: var(--f-mono); font-size: 11px; letter-spacing: .06em; color: var(--muted); text-transform: uppercase; }
+
+/* Top stories: a full channel strip */
+.entry.top { background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 16px 16px 14px; margin-top: 10px; box-shadow: var(--shadow); }
+.entry.top + .entry.top { margin-top: 12px; }
+.entry.top h3 { font-family: var(--f-display); font-weight: 800; font-size: clamp(24px, 6vw, 30px); line-height: 1.02; text-transform: uppercase; letter-spacing: .01em; }
+.entry.top .take { font-size: 17px; }
+.deep { display: grid; gap: 10px; margin-top: 4px; max-width: 62ch; }
+.deep p { margin: 0; }
+.deep .lbl { font-family: var(--f-mono); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+.todo { margin-top: 2px; border-left: 3px solid var(--cat); padding: 6px 0 6px 12px; max-width: 62ch; }
+.todo b { display: block; font-family: var(--f-mono); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.more { justify-self: start; background: none; border: 0; padding: 2px 0; cursor: pointer; font-family: var(--f-mono); font-size: 12px; color: var(--link); letter-spacing: .03em; }
+
+.entry .foot { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; font-size: 14px; }
+.entry .src { font-family: var(--f-mono); font-size: 12px; overflow-wrap: anywhere; }
+.act { margin-left: auto; display: flex; gap: 6px; }
+.btn { border: 1px solid var(--line); background: var(--panel); border-radius: 5px; padding: 4px 10px; cursor: pointer; font-family: var(--f-mono); font-size: 11.5px; letter-spacing: .04em; box-shadow: var(--shadow); }
+.entry.top .btn { background: var(--bg); }
+.btn[aria-pressed="true"] { background: var(--amber); color: var(--amber-ink); border-color: var(--amber); }
+.btn:disabled { opacity: .5; cursor: default; }
+.answer { margin-top: 4px; background: var(--panel); border: 1px solid var(--line); border-left: 3px solid var(--amber); border-radius: 4px; padding: 10px 12px; font-size: 15px; white-space: pre-wrap; overflow-wrap: anywhere; }
+.answer .note { display: block; margin-top: 6px; font-family: var(--f-mono); font-size: 11px; color: var(--muted); }
+
+/* On the radar */
+.radar { list-style: none; margin: 8px 0 0; padding: 0; display: grid; gap: 0; }
+.radar li { display: grid; grid-template-columns: 92px minmax(0, 1fr); gap: 12px; padding-block: 10px; border-top: 1px dashed var(--line); }
+.radar li:first-child { border-top: 0; }
+.radar .d { font-family: var(--f-mono); font-size: 12px; color: var(--ink); font-variant-numeric: tabular-nums; font-weight: 600; }
+.radar .t { font-weight: 700; }
+.radar .n { color: var(--muted); font-size: 15px; }
+
+/* Craft note */
+.craft { margin-top: 26px; background: var(--ink); color: var(--bg); border-radius: 6px; padding: 18px 18px 16px; }
+.craft .lbl { font-family: var(--f-mono); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; opacity: .7; }
+.craft h3 { font-family: var(--f-display); font-weight: 800; font-size: 26px; line-height: 1; margin: 6px 0 8px; text-transform: uppercase; text-wrap: balance; }
+.craft p { margin: 0; max-width: 62ch; }
+.craft p + p { margin-top: 8px; }
+
+.empty { margin-top: 28px; padding: 22px 18px; border: 1px dashed var(--line); border-radius: 6px; color: var(--muted); }
+.empty b { color: var(--ink); font-family: var(--f-display); font-size: 22px; text-transform: uppercase; display: block; margin-bottom: 4px; }
+.about { margin-top: 40px; padding-top: 18px; border-top: 1px solid var(--line); display: flex; gap: 14px; align-items: flex-start; }
+.about img { flex: none; height: 48px; width: auto; }
+:root[data-theme="dark"] .about img { filter: invert(1) hue-rotate(180deg); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .about img { filter: invert(1) hue-rotate(180deg); } }
+.about b { font-family: var(--f-display); font-weight: 900; font-size: 22px; text-transform: uppercase; letter-spacing: .03em; }
+.about p { margin: 4px 0 0; color: var(--muted); font-size: 14.5px; max-width: 60ch; }
+.about .fine { font-family: var(--f-mono); font-size: 11px; letter-spacing: .02em; }
+.sources { margin-top: 30px; font-family: var(--f-mono); font-size: 11px; color: var(--muted); letter-spacing: .03em; }
+
+
+/* Learn tab */
+.teaser { margin-top: 16px; display: flex; align-items: center; gap: 12px; width: 100%; text-align: left; cursor: pointer; background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 10px 12px; box-shadow: var(--shadow); }
+.teaser .ic { flex: none; width: 34px; height: 34px; border-radius: 50%; display: grid; place-items: center; background: var(--ink); color: var(--bg); font-family: var(--f-mono); font-size: 11px; font-weight: 600; }
+.teaser .tx { min-width: 0; display: grid; }
+.teaser .tx b { font-size: 15px; line-height: 1.3; }
+.teaser .tx span { font-family: var(--f-mono); font-size: 11px; color: var(--muted); letter-spacing: .04em; text-transform: uppercase; }
+.teaser .st { margin-left: auto; flex: none; font-family: var(--f-mono); font-size: 11px; letter-spacing: .06em; text-transform: uppercase; padding: 2px 7px; border-radius: 3px; border: 1px solid var(--line); color: var(--muted); }
+.teaser .st.ok { background: var(--c-science); border-color: var(--c-science); color: var(--tape-ink); }
+.lesson { margin-top: 14px; display: grid; gap: 14px; max-width: 64ch; }
+.lesson .sum { font-size: 18px; line-height: 1.5; margin: 0; }
+.lesson p { margin: 0; }
+.lesson .body { display: grid; gap: 12px; }
+.kbox { border: 1px solid var(--line); background: var(--panel); border-radius: 6px; padding: 12px 14px; display: grid; gap: 6px; }
+.kbox .lbl { font-family: var(--f-mono); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+.kbox ul { margin: 0; padding-left: 18px; display: grid; gap: 4px; }
+.kbox.say { border-left: 3px solid var(--amber); }
+.kbox.warn { border-left: 3px solid var(--tally); }
+.terms { display: grid; gap: 6px; margin: 0; }
+.terms div { display: grid; grid-template-columns: 120px minmax(0, 1fr); gap: 10px; }
+.terms dt { font-family: var(--f-mono); font-size: 12.5px; font-weight: 600; }
+.terms dd { margin: 0; color: var(--ink); }
+@media (max-width: 420px) { .terms div { grid-template-columns: 1fr; gap: 0; } }
+.lvl { font-family: var(--f-mono); font-size: 10.5px; letter-spacing: .1em; text-transform: uppercase; border-radius: 2px; padding: 1px 6px; border: 1px solid currentColor; }
+.lvl.advanced { color: var(--tally); } .lvl.intermediate { color: var(--amber); } .lvl.basic { color: var(--c-science); }
+.quiz { scroll-margin-top: 150px; margin-top: 10px; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 16px; box-shadow: var(--shadow); display: grid; gap: 12px; }
+.qleds { display: flex; gap: 5px; align-items: center; }
+.qleds i { width: 12px; height: 12px; border-radius: 50%; background: var(--panel-2); border: 1px solid var(--line); display: block; }
+.qleds i.cur { border-color: var(--amber); box-shadow: 0 0 0 2px var(--amber); }
+.qleds i.ok { background: var(--c-science); border-color: var(--c-science); }
+.qleds i.no { background: var(--tally); border-color: var(--tally); }
+.qleds span { margin-left: auto; font-family: var(--f-mono); font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.quiz h3 { margin: 0; font-size: 19px; line-height: 1.35; font-weight: 700; text-wrap: pretty; }
+.opts { display: grid; gap: 8px; }
+.opt { display: grid; grid-template-columns: 26px minmax(0, 1fr); gap: 10px; align-items: start; text-align: left; cursor: pointer; background: var(--bg); border: 1px solid var(--line); border-radius: 6px; padding: 10px 12px; font-size: 16px; line-height: 1.4; }
+.opt .l { font-family: var(--f-mono); font-weight: 600; font-size: 12px; width: 22px; height: 22px; border-radius: 4px; display: grid; place-items: center; background: var(--panel-2); }
+.opt:disabled { cursor: default; }
+.opt.right { border-color: var(--c-science); box-shadow: inset 3px 0 0 var(--c-science); }
+.opt.right .l { background: var(--c-science); color: var(--tape-ink); }
+.opt.wrong { border-color: var(--tally); box-shadow: inset 3px 0 0 var(--tally); }
+.opt.wrong .l { background: var(--tally); color: var(--tape-ink); }
+.expl { border-left: 3px solid var(--amber); padding: 4px 0 4px 12px; }
+.expl b { font-family: var(--f-mono); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; display: block; }
+.expl b.ok { color: var(--c-science); } .expl b.no { color: var(--tally); }
+.qrow { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+.big { border: 0; border-radius: 6px; padding: 10px 16px; cursor: pointer; font-family: var(--f-display); font-weight: 800; font-size: 18px; letter-spacing: .06em; text-transform: uppercase; background: var(--ink); color: var(--bg); }
+.big.alt { background: transparent; color: var(--ink); border: 1px solid var(--line); }
+.verdict { font-family: var(--f-display); font-weight: 900; font-size: 44px; line-height: .9; text-transform: uppercase; }
+.verdict.pass { color: var(--c-science); } .verdict.fail { color: var(--tally); }
+.review { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.review li { border-top: 1px dashed var(--line); padding-top: 10px; display: grid; gap: 4px; }
+.review .q { font-weight: 700; }
+.review .a { font-size: 15px; }
+.stats { margin-top: 10px; display: grid; gap: 14px; }
+.tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(96px, 1fr)); gap: 8px; }
+.tile { background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 10px; display: grid; gap: 2px; }
+.tile b { font-family: var(--f-display); font-weight: 800; font-size: 30px; line-height: 1; font-variant-numeric: tabular-nums; }
+.tile span { font-family: var(--f-mono); font-size: 10.5px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.days { display: grid; grid-template-columns: repeat(14, minmax(0, 1fr)); gap: 4px; }
+.days i { aspect-ratio: 1; max-width: 100%; border-radius: 3px; background: var(--panel-2); border: 1px solid var(--line); display: block; }
+.days i.pass { background: var(--c-science); border-color: var(--c-science); }
+.days i.fail { background: var(--tally); border-color: var(--tally); opacity: .75; }
+.days i.today { outline: 2px solid var(--amber); outline-offset: 1px; }
+.cap { font-family: var(--f-mono); font-size: 11px; color: var(--muted); letter-spacing: .04em; }
+.bars2 { display: grid; gap: 8px; }
+.bar2 { display: grid; grid-template-columns: 104px minmax(0, 1fr) 46px; gap: 10px; align-items: center; font-family: var(--f-mono); font-size: 12px; font-variant-numeric: tabular-nums; }
+.bar2 .tr { height: 10px; background: var(--panel-2); border-radius: 2px; overflow: hidden; }
+.bar2 .fl { height: 100%; background: var(--c-science); }
+.bar2 .fl.mid { background: var(--amber); } .bar2 .fl.low { background: var(--tally); }
+.bar2 .v { text-align: right; }
+@media (max-width: 420px) {
+  .radar li { grid-template-columns: 1fr; gap: 2px; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .sw[aria-selected="true"] .led { animation: blink 2.4s ease-in-out infinite; }
+  @keyframes blink { 50% { opacity: .55; } }
+  .entry { animation: in .35s ease both; }
+  @keyframes in { from { transform: translateY(4px); opacity: .4; } }
+}
+</style>
+
+<div class="wrap">
+  <header class="bridge">
+    <div class="brand">
+      <img class="logo" src="assets/logo.png" alt="Talkback logo: a brain and spinal cord drawn as roots" width="28" height="64">
+      <div>
+        <h1 class="wordmark">Talkback</h1>
+        <div class="tagline">Sound-world brief · control room edition</div>
+      </div>
+      <div class="tc" aria-label="Current time"><b id="clock">--:--:--</b><span id="today"></span></div>
+    </div>
+    <div class="switches" role="tablist" aria-label="Brief period">
+      <button class="sw" role="tab" id="sw-day" data-p="day" aria-selected="true"><span class="led"></span><span class="k">Day</span><span class="s">24 h</span></button>
+      <button class="sw" role="tab" id="sw-week" data-p="week" aria-selected="false"><span class="led"></span><span class="k">Week</span><span class="s">7 d</span></button>
+      <button class="sw" role="tab" id="sw-month" data-p="month" aria-selected="false"><span class="led"></span><span class="k">Month</span><span class="s">30 d</span></button>
+      <button class="sw" role="tab" id="sw-year" data-p="year" aria-selected="false"><span class="led"></span><span class="k">Year</span><span class="s">YTD</span></button>
+      <button class="sw" role="tab" id="sw-learn" data-p="learn" aria-selected="false"><span class="led"></span><span class="k">Learn</span><span class="s">quiz</span></button>
+      <button class="sw" role="tab" id="sw-saved" data-p="saved" aria-selected="false"><span class="led"></span><span class="k">Saved</span><span class="s">pins</span></button>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="empty" id="loading"><b>Patching in…</b>Connecting to the brief archive. If nothing appears, open this page in the Claude app while signed in.</div>
+  </main>
+  <footer class="about" id="about">
+    <img src="assets/logo.png" alt="" width="21" height="48">
+    <div>
+      <b>Talkback</b>
+      <p>A daily brief for people who work with sound: studio, post, live, sound design and field recording. New stories, a lesson and a 9-question quiz every morning.</p>
+      <p class="fine">Made in Bolzano, Italy. Briefs are researched and written with AI and linked to their sources.</p>
+    </div>
+  </footer>
+</div>
+
+<script>
+(() => {
+  // Menu order: the hands-on trade first, AI and craft last.
+  const CATS = {
+    gear: "Gear", speakers: "Speakers & Monitoring", instruments: "Instruments",
+    plugins: "Plugins", software: "DAW & Software", post: "Post & Picture", live: "Live & Touring",
+    games: "Game & Interactive", science: "Science", hearing: "Hearing Health", tech: "Tech",
+    industry: "Industry & Business", ai: "AI & Audio", craft: "Craft"
+  };
+  const PERIOD_LABEL = { day: "Daily brief", week: "Weekly brief", month: "Monthly brief", year: "Yearly brief" };
+
+  const state = {
+    period: "day",
+    selectedKey: { day: null, week: null, month: null, year: null },
+    cat: "all",
+    hot: false,
+    briefs: [],
+    loaded: false,
+    saved: loadSaved(),
+    open: {},
+  };
+  let sampleFn = null;
+  // Learn + quiz state
+  const learn = { docs: [], loaded: false, selected: null, run: null, stats: null, statsRef: null, statsSource: "device" };
+
+  function loadSaved() {
+    try { return JSON.parse(localStorage.getItem("tb.saved") || "{}") || {}; } catch (e) { return {}; }
+  }
+  function storeSaved() {
+    try { localStorage.setItem("tb.saved", JSON.stringify(state.saved)); } catch (e) {}
+  }
+  try { const p = localStorage.getItem("tb.period"); if (p && PERIOD_LABEL[p] || p === "saved" || p === "learn") state.period = p; } catch (e) {}
+  if (location.hash && ["day","week","month","year","learn","saved"].includes(location.hash.slice(1))) state.period = location.hash.slice(1);
+
+  const $ = (s, r = document) => r.querySelector(s);
+  const el = (tag, cls, txt) => { const e = document.createElement(tag); if (cls) e.className = cls; if (txt != null) e.textContent = txt; return e; };
+
+  function tick() {
+    const d = new Date();
+    $("#clock").textContent = d.toLocaleTimeString("en-GB", { hour12: false });
+    $("#today").textContent = d.toLocaleDateString("en-GB", { weekday: "short", day: "2-digit", month: "short" });
+  }
+  tick(); setInterval(tick, 1000);
+
+  document.querySelectorAll(".sw").forEach(b => b.addEventListener("click", () => {
+    state.period = b.dataset.p; state.cat = "all"; state.open = {};
+    try { localStorage.setItem("tb.period", state.period); } catch (e) {}
+    render();
+    window.scrollTo({ top: 0 });
+  }));
+
+
+  function itemId(brief, i, it) { return (brief.id || brief.key) + "::" + (it.title || i); }
+  function briefsFor(period) {
+    return state.briefs.filter(b => b.period === period).sort((a, b) => String(b.key).localeCompare(String(a.key)));
+  }
+
+  function meter(n) {
+    const wrap = el("span", "meter");
+    const bars = el("span", "bars");
+    for (let i = 0; i < 12; i++) {
+      const b = el("i");
+      if (i < Math.min(12, n)) { b.className = "on" + (i >= 8 ? " hot" : "") + (i >= 11 ? " clip" : ""); }
+      bars.appendChild(b);
+    }
+    wrap.append(bars, el("span", null, n + " stories"));
+    return wrap;
+  }
+
+  function fmtDate(s) {
+    if (!s) return "";
+    const d = new Date(s + (s.length === 10 ? "T12:00:00" : ""));
+    if (isNaN(d)) return s;
+    return d.toLocaleDateString("en-GB", { day: "2-digit", month: "short", year: "numeric" });
+  }
+  function fmtShort(s) {
+    if (!s) return "";
+    const d = new Date(s + (s.length === 10 ? "T12:00:00" : ""));
+    if (isNaN(d)) return s;
+    return d.toLocaleDateString("en-GB", { day: "2-digit", month: "short" });
+  }
+  function fmtStamp(s) {
+    const d = new Date(s);
+    if (isNaN(d)) return "";
+    return d.toLocaleString("en-GB", { day: "2-digit", month: "short", hour: "2-digit", minute: "2-digit", hour12: false });
+  }
+  function paras(text) { return String(text || "").split(/\n\s*\n/).map(s => s.trim()).filter(Boolean); }
+
+  function deepNode(it) {
+    const box = el("div", "deep");
+    box.appendChild(el("span", "lbl", "Full take"));
+    paras(it.deep).forEach(p => box.appendChild(el("p", null, p)));
+    return box;
+  }
+  function todoNode(it) {
+    const t = el("div", "todo");
+    t.append(el("b", null, "Try this"), document.createTextNode(it.todo));
+    return t;
+  }
+
+  function entryNode(brief, it, i, top) {
+    const id = itemId(brief, i, it);
+    const li = el("li", "entry" + (top ? " top" : ""));
+    li.style.setProperty("--cat", `var(--c-${CATS[it.cat] ? it.cat : "craft"})`);
+    const meta = el("div", "meta");
+    meta.appendChild(el("span", "tape", CATS[it.cat] || it.cat || "News"));
+    if (it.breakthrough) meta.appendChild(el("span", "btag", "Breakthrough"));
+    if (it.free) meta.appendChild(el("span", "btag free", "Free"));
+    if (it.date) meta.appendChild(el("span", "date", fmtDate(it.date)));
+    const sig = el("span", "sig"); sig.title = "Signal strength: how much this matters to a working engineer";
+    for (let k = 1; k <= 3; k++) { const b = el("i"); if (k <= (it.signal || 1)) b.className = "on"; sig.appendChild(b); }
+    meta.appendChild(sig);
+    li.appendChild(meta);
+    li.appendChild(el("h3", null, it.title));
+    if (it.take) li.appendChild(el("p", "take", it.take));
+
+    const hasMore = !!(it.deep || it.todo);
+    if (hasMore) {
+      const expanded = top || state.open[id];
+      if (expanded) {
+        if (it.deep) li.appendChild(deepNode(it));
+        if (it.todo) li.appendChild(todoNode(it));
+      }
+      if (!top) {
+        const m = el("button", "more", expanded ? "Show less ▴" : "Read the full take ▾");
+        m.type = "button";
+        m.setAttribute("aria-expanded", String(!!expanded));
+        m.addEventListener("click", () => { state.open[id] = !state.open[id]; render(); });
+        li.appendChild(m);
+      }
+    }
+
+    const foot = el("div", "foot");
+    if (it.url) {
+      const a = el("a", "src", (it.source || "Source") + " ↗"); a.href = it.url; a.target = "_blank"; a.rel = "noopener";
+      foot.appendChild(a);
+    } else if (it.source) foot.appendChild(el("span", "src", it.source));
+    const act = el("div", "act");
+    const pin = el("button", "btn", state.saved[id] ? "Pinned" : "Pin");
+    pin.setAttribute("aria-pressed", String(!!state.saved[id]));
+    pin.addEventListener("click", () => {
+      if (state.saved[id]) delete state.saved[id];
+      else state.saved[id] = { ...it, from: (PERIOD_LABEL[brief.period] || "") + " · " + (brief.label || brief.key), pinnedAt: new Date().toISOString() };
+      storeSaved(); render();
+    });
+    act.appendChild(pin);
+    if (sampleFn) {
+      const ask = el("button", "btn", "Dig deeper");
+      ask.addEventListener("click", () => digDeeper(it, li, ask));
+      act.appendChild(ask);
+    }
+    foot.appendChild(act);
+    li.appendChild(foot);
+    return li;
+  }
+
+  async function digDeeper(it, li, btn) {
+    let box = li.querySelector(".answer");
+    if (!box) { box = el("div", "answer"); li.appendChild(box); }
+    btn.disabled = true;
+    box.textContent = "Thinking…";
+    const prompt =
+`You brief a working professional sound engineer (film production and post sound, studio recording, live events, sound design, field recording; based in Italy). Go one level deeper on this news item in under 180 words, plain text, no headings, no markdown.
+Cover what is technically new compared with what already exists, who it matters for and why, and one concrete thing to try, check or ask a vendor. If something is uncertain or depends on details not given, say so briefly. Don't invent specs or prices.
+
+Category: ${CATS[it.cat] || it.cat}
+Headline: ${it.title}
+Summary: ${it.take || ""}
+Detail: ${it.deep || ""}
+Source: ${it.source || ""} ${it.url || ""}
+Date: ${it.date || ""}`;
+    try {
+      const { text, truncated } = await sampleFn(prompt, { onText: ({ text }) => { box.textContent = text; } });
+      box.textContent = text;
+      if (truncated) box.appendChild(el("span", "note", "Answer was cut short."));
+    } catch (e) {
+      box.textContent = e && e.text ? e.text : "";
+      const msg = { not_granted: "Dig deeper needs your permission to ask Claude. Reload the page to be asked again.",
+        rate_limited: "Too many questions at once. Wait a minute and try again.",
+        cancelled: "Stopped." }[e && e.code] || "Couldn't get an answer right now. Try again in a moment.";
+      box.appendChild(el("span", "note", msg));
+      if (e && e.code === "not_granted") { sampleFn = null; }
+    } finally {
+      btn.disabled = false;
+    }
+  }
+
+  function renderSaved(main) {
+    const ids = Object.keys(state.saved).sort((a, b) => String(state.saved[b].pinnedAt).localeCompare(String(state.saved[a].pinnedAt)));
+    const slate = el("section", "slate");
+    const row = el("div", "row"); row.append(el("span", null, "PINS · this device"), meter(ids.length));
+    slate.append(row, el("h2", null, "Saved for later"));
+    main.appendChild(slate);
+    if (!ids.length) {
+      const e = el("div", "empty"); e.append(el("b", null, "No pins yet"), document.createTextNode("Tap Pin on any story to keep it here. Pins stay on this phone."));
+      main.appendChild(e); return;
+    }
+    const ul = el("ol", "log");
+    ids.forEach((id, i) => {
+      const it = state.saved[id];
+      const fake = { id: "saved", key: "saved", period: "saved" };
+      const node = entryNode(fake, it, i, false);
+      const pinBtn = node.querySelector(".act .btn");
+      pinBtn.replaceWith(pinBtn.cloneNode(true));
+      const nb = node.querySelector(".act .btn");
+      nb.textContent = "Unpin"; nb.setAttribute("aria-pressed", "true");
+      nb.addEventListener("click", () => { delete state.saved[id]; storeSaved(); render(); });
+      if (it.from) node.querySelector(".meta").appendChild(el("span", "date", "· " + it.from));
+      ul.appendChild(node);
+    });
+    main.appendChild(ul);
+  }
+
+  function render() {
+    document.querySelectorAll(".sw").forEach(b => b.setAttribute("aria-selected", String(b.dataset.p === state.period)));
+    if (location.hash.slice(1) !== state.period) history.replaceState(null, "", "#" + state.period);
+    const main = $("#main");
+    main.replaceChildren();
+    if (state.period === "saved") { renderSaved(main); return; }
+    if (state.period === "learn") { renderLearn(main); return; }
+
+    const list = briefsFor(state.period);
+    if (!state.loaded) {
+      const e = el("div", "empty"); e.append(el("b", null, "Patching in…"), document.createTextNode("Connecting to the brief archive."));
+      main.appendChild(e); return;
+    }
+    if (!list.length) {
+      const e = el("div", "empty");
+      e.append(el("b", null, "No " + state.period + " brief yet"),
+        document.createTextNode("The morning run writes a daily brief every day at 07:00 (Rome), a weekly one on Mondays, a monthly one on the 1st, and refreshes the yearly brief each month."));
+      main.appendChild(e); return;
+    }
+    let brief = list.find(b => b.key === state.selectedKey[state.period]) || list[0];
+
+    const slate = el("section", "slate");
+    const row = el("div", "row");
+    row.appendChild(el("span", null, (PERIOD_LABEL[brief.period] || "Brief").toUpperCase()));
+    if (brief.range) row.appendChild(el("span", null, brief.range));
+    const items = (brief.items || []);
+    row.appendChild(meter(items.length));
+    if (list.length > 1) {
+      const wrapSel = el("label", "archive");
+      const sel = el("select"); sel.id = "archive-" + state.period; sel.setAttribute("aria-label", "Earlier briefs");
+      list.forEach(b => { const o = el("option", null, b.label || b.key); o.value = b.key; if (b.key === brief.key) o.selected = true; sel.appendChild(o); });
+      sel.addEventListener("change", () => { state.selectedKey[state.period] = sel.value; state.cat = "all"; state.open = {}; render(); });
+      wrapSel.appendChild(sel); row.appendChild(wrapSel);
+    }
+    slate.appendChild(row);
+    slate.appendChild(el("h2", null, brief.headline || brief.label || brief.key));
+    const r2 = el("div", "row");
+    if (brief.generated) r2.appendChild(el("span", null, "Mixed " + fmtStamp(brief.generated)));
+    if (brief.label) r2.appendChild(el("span", null, brief.label));
+    slate.appendChild(r2);
+    main.appendChild(slate);
+
+    if (brief.lead) main.appendChild(el("p", "lead", brief.lead));
+    if (brief.period === "day") { const t = learnTeaser(); if (t) main.appendChild(t); }
+
+    // filters
+    const counts = {};
+    let bt = 0, fr = 0;
+    items.forEach(it => { counts[it.cat] = (counts[it.cat] || 0) + 1; if (it.breakthrough) bt++; if (it.free) fr++; });
+    const strip = el("div", "strip"); strip.setAttribute("role", "toolbar"); strip.setAttribute("aria-label", "Filter by category");
+    const mk = (key, label, n, cls) => {
+      const c = el("button", "chip" + (cls ? " " + cls : "")); c.type = "button";
+      if (key !== "all" && key !== "breakthrough" && key !== "free") c.style.setProperty("--cat", `var(--c-${key})`);
+      c.setAttribute("aria-pressed", String(state.cat === key));
+      if (key !== "all") c.appendChild(el("span", "dot"));
+      c.append(el("span", null, label), el("span", "n", String(n)));
+      c.addEventListener("click", () => { state.cat = state.cat === key ? "all" : key; render(); });
+      return c;
+    };
+    strip.appendChild(mk("all", "All", items.length));
+    const topN = items.filter(it => (it.signal || 1) >= 3).length;
+    if (topN) {
+      const tc = el("button", "chip top"); tc.type = "button"; tc.setAttribute("aria-pressed", String(state.hot));
+      tc.append(el("span", "dot"), el("span", null, "Top stories"), el("span", "n", String(topN)));
+      tc.addEventListener("click", () => { state.hot = !state.hot; render(); });
+      strip.appendChild(tc);
+    }
+    if (bt) strip.appendChild(mk("breakthrough", "Breakthroughs", bt, "bt"));
+    if (fr) strip.appendChild(mk("free", "Free", fr, "fr"));
+    Object.keys(CATS).forEach(k => { if (counts[k]) strip.appendChild(mk(k, CATS[k], counts[k])); });
+    main.appendChild(strip);
+
+    const shown = items.map((it, i) => [it, i])
+      .filter(([it]) => state.cat === "all" || (state.cat === "breakthrough" ? it.breakthrough : state.cat === "free" ? it.free : it.cat === state.cat))
+      .filter(([it]) => !state.hot || (it.signal || 1) >= 3);
+    const tops = shown.filter(([it]) => (it.signal || 1) >= 3);
+    const rest = shown.filter(([it]) => (it.signal || 1) < 3);
+
+    if (tops.length) {
+      main.appendChild(el("div", "sect", "Top of the hour"));
+      const ul = el("ol", "log");
+      tops.forEach(([it, i]) => ul.appendChild(entryNode(brief, it, i, true)));
+      main.appendChild(ul);
+    }
+    if (rest.length) {
+      // Group the rest by section, in menu order, so a long brief stays scannable.
+      const grouped = state.cat === "all" && rest.length > 6;
+      if (!grouped) {
+        if (tops.length) main.appendChild(el("div", "sect", "Also on the desk"));
+        const ul = el("ol", "log");
+        rest.forEach(([it, i]) => ul.appendChild(entryNode(brief, it, i, false)));
+        main.appendChild(ul);
+      } else {
+        const order = Object.keys(CATS);
+        const rank = k => { const r = order.indexOf(k); return r < 0 ? order.length : r; };
+        const groups = {};
+        rest.forEach(pair => { const k = CATS[pair[0].cat] ? pair[0].cat : "other"; (groups[k] = groups[k] || []).push(pair); });
+        Object.keys(groups).sort((a, b) => rank(a) - rank(b)).forEach(k => {
+          const s = el("div", "sect grp", (CATS[k] || "More") + " · " + groups[k].length);
+          s.style.setProperty("--cat", `var(--c-${CATS[k] ? k : "craft"})`);
+          main.appendChild(s);
+          const ul = el("ol", "log");
+          groups[k].forEach(([it, i]) => ul.appendChild(entryNode(brief, it, i, false)));
+          main.appendChild(ul);
+        });
+      }
+    }
+    if (!shown.length) {
+      const ul = el("ol", "log");
+      const e = el("li", "entry"); e.appendChild(el("p", null, state.hot ? "No top stories in this view. Turn off Top stories to see everything." : "Nothing in this category."));
+      ul.appendChild(e); main.appendChild(ul);
+    }
+
+    const radar = Array.isArray(brief.radar) ? brief.radar.filter(r => r && r.title) : [];
+    if (radar.length && state.cat === "all" && !state.hot) {
+      main.appendChild(el("div", "sect", "On the radar"));
+      const ul = el("ul", "radar");
+      radar.forEach(r => {
+        const li = el("li");
+        li.appendChild(el("span", "d", r.when || fmtShort(r.date) || ""));
+        const body = el("div");
+        const t = el("div", "t");
+        if (r.url) { const a = el("a", null, r.title); a.href = r.url; a.target = "_blank"; a.rel = "noopener"; t.appendChild(a); }
+        else t.textContent = r.title;
+        body.appendChild(t);
+        if (r.note) body.appendChild(el("div", "n", r.note));
+        li.appendChild(body);
+        ul.appendChild(li);
+      });
+      main.appendChild(ul);
+    }
+
+    if (brief.craft && brief.craft.title) {
+      const c = el("section", "craft");
+      c.append(el("div", "lbl", "Craft & mindset · desk note"), el("h3", null, brief.craft.title));
+      paras(brief.craft.body).forEach(p => c.appendChild(el("p", null, p)));
+      main.appendChild(c);
+    }
+    main.appendChild(el("p", "sources", "Each story links to its source. Briefs are researched and written with AI, then checked against the linked sources. Takes are editorial summaries for working engineers; check specs and prices at the source before buying."));
+  }
+
+
+  // ---------- Learn: daily lesson + 9-question quiz ----------
+  const LEVELS = ["advanced", "intermediate", "basic"];
+  const LEVEL_LABEL = { advanced: "Advanced", intermediate: "Intermediate", basic: "Basic" };
+  function romeKey(d) {
+    try { return new Intl.DateTimeFormat("en-CA", { timeZone: "Europe/Rome", year: "numeric", month: "2-digit", day: "2-digit" }).format(d); }
+    catch (e) { return d.toISOString().slice(0, 10); }
+  }
+  function emptyStats() { return { v: 1, attempts: 0, passAttempts: 0, answered: 0, correct: 0, days: {}, levels: {}, topics: {} }; }
+  function loadLocalStats() { try { const s = JSON.parse(localStorage.getItem("tb.quiz") || "null"); return s && s.v ? s : null; } catch (e) { return null; } }
+  function saveStats() {
+    try { localStorage.setItem("tb.quiz", JSON.stringify(learn.stats)); } catch (e) {}
+    if (learn.statsRef) learn.statsRef.set(learn.stats).catch(() => {});
+  }
+  function learnDocs() { return learn.docs.slice().sort((a, b) => String(b.key).localeCompare(String(a.key))); }
+  function currentLearn() { const l = learnDocs(); return l.find(d => d.key === learn.selected) || l[0] || null; }
+  function dayStat(key) { return (learn.stats && learn.stats.days[key]) || null; }
+
+  function learnTeaser() {
+    const d = learnDocs()[0];
+    if (!d || !d.lesson) return null;
+    const b = el("button", "teaser"); b.type = "button";
+    const st = dayStat(d.key);
+    b.append(el("span", "ic", "9Q"));
+    const tx = el("span", "tx"); tx.append(el("span", null, "Today's lesson & quiz"), el("b", null, d.lesson.title)); b.appendChild(tx);
+    b.appendChild(el("span", "st" + (st && st.passed ? " ok" : ""), st ? (st.passed ? "Passed" : "Retry") : "Start"));
+    b.addEventListener("click", () => { state.period = "learn"; learn.selected = d.key; try { localStorage.setItem("tb.period", "learn"); } catch (e) {} render(); window.scrollTo({ top: 0 }); });
+    return b;
+  }
+
+  function shuffle(a) { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
+  function startRun(doc) {
+    const qs = (doc.quiz && doc.quiz.questions) || [];
+    learn.run = { key: doc.key, idx: 0, picked: qs.map(() => null), order: qs.map(q => shuffle(q.options.map((_, i) => i))), finished: false };
+  }
+
+  function renderLearn(main) {
+    if (!learn.loaded) { const e = el("div", "empty"); e.append(el("b", null, "Patching in…"), document.createTextNode("Loading today's lesson.")); main.appendChild(e); return; }
+    const doc = currentLearn();
+    if (!doc) {
+      const e = el("div", "empty"); e.append(el("b", null, "No lesson yet"), document.createTextNode("The morning run writes a new lesson and a 9-question quiz every day at 07:00 (Rome)."));
+      main.appendChild(e); renderStats(main); return;
+    }
+    const L = doc.lesson || {};
+    const slate = el("section", "slate");
+    const row = el("div", "row");
+    row.appendChild(el("span", null, "DAILY LESSON"));
+    if (doc.label) row.appendChild(el("span", null, doc.label));
+    if (L.topic) row.appendChild(el("span", null, L.topic));
+    const list = learnDocs();
+    if (list.length > 1) {
+      const wrapSel = el("label", "archive");
+      const sel = el("select"); sel.id = "archive-learn"; sel.setAttribute("aria-label", "Earlier lessons");
+      list.forEach(b => { const st = dayStat(b.key); const o = el("option", null, (st && st.passed ? "✓ " : "") + (b.label || b.key) + " · " + ((b.lesson && b.lesson.title) || "")); o.value = b.key; if (b.key === doc.key) o.selected = true; sel.appendChild(o); });
+      sel.addEventListener("change", () => { learn.selected = sel.value; learn.run = null; render(); });
+      wrapSel.appendChild(sel); row.appendChild(wrapSel);
+    }
+    slate.appendChild(row);
+    slate.appendChild(el("h2", null, L.title || "Today's lesson"));
+    main.appendChild(slate);
+
+    const ls = el("section", "lesson");
+    if (L.summary) ls.appendChild(el("p", "sum", L.summary));
+    if (L.body) { const b = el("div", "body"); paras(L.body).forEach(t => b.appendChild(el("p", null, t))); ls.appendChild(b); }
+    if (Array.isArray(L.keyPoints) && L.keyPoints.length) {
+      const k = el("div", "kbox"); k.appendChild(el("span", "lbl", "Remember"));
+      const ul = el("ul"); L.keyPoints.forEach(t => ul.appendChild(el("li", null, t))); k.appendChild(ul); ls.appendChild(k);
+    }
+    if (L.sayIt) { const k = el("div", "kbox say"); k.append(el("span", "lbl", "Say it in one line"), el("p", null, L.sayIt)); ls.appendChild(k); }
+    if (L.inPractice) { const k = el("div", "kbox"); k.append(el("span", "lbl", "On the job"), el("p", null, L.inPractice)); ls.appendChild(k); }
+    if (L.mistake) { const k = el("div", "kbox warn"); k.append(el("span", "lbl", "Common mistake"), el("p", null, L.mistake)); ls.appendChild(k); }
+    if (Array.isArray(L.terms) && L.terms.length) {
+      const k = el("div", "kbox"); k.appendChild(el("span", "lbl", "Terms"));
+      const dl = el("dl", "terms"); L.terms.forEach(t => { const r = el("div"); r.append(el("dt", null, t.term), el("dd", null, t.def)); dl.appendChild(r); }); k.appendChild(dl); ls.appendChild(k);
+    }
+    main.appendChild(ls);
+
+    main.appendChild(el("div", "sect", "Quiz · 9 questions · pass with 9/9"));
+    const box = el("section", "quiz"); box.id = "quizbox";
+    main.appendChild(box);
+    renderQuiz(box, doc);
+
+    renderStats(main);
+  }
+
+  function renderQuiz(box, doc) {
+    box.replaceChildren();
+    const qs = (doc.quiz && doc.quiz.questions) || [];
+    if (!qs.length) { box.appendChild(el("p", null, "No quiz for this day.")); return; }
+    const st = dayStat(doc.key);
+    const run = learn.run && learn.run.key === doc.key ? learn.run : null;
+
+    if (!run) {
+      const r = el("div", "qrow");
+      r.appendChild(el("span", "cap", st ? `${st.attempts} attempt${st.attempts === 1 ? "" : "s"} · best ${st.best}/9` + (st.passed ? " · passed" : "") : "Questions run from advanced to basic. One wrong answer and you go again."));
+      box.appendChild(r);
+      const go = el("button", "big", st ? (st.passed ? "Take it again" : "Try again") : "Start quiz"); go.type = "button";
+      go.addEventListener("click", () => { startRun(doc); renderQuiz(box, doc); box.scrollIntoView({ block: "start" }); });
+      box.appendChild(go);
+      return;
+    }
+
+    const leds = el("div", "qleds");
+    qs.forEach((q, i) => {
+      const p = run.picked[i]; const c = el("i");
+      if (p != null) c.className = p === q.answer ? "ok" : "no"; else if (i === run.idx && !run.finished) c.className = "cur";
+      leds.appendChild(c);
+    });
+
+    if (run.finished) {
+      const score = qs.reduce((n, q, i) => n + (run.picked[i] === q.answer ? 1 : 0), 0);
+      leds.appendChild(el("span", null, score + "/9"));
+      box.appendChild(leds);
+      const pass = score === qs.length;
+      box.appendChild(el("div", "verdict " + (pass ? "pass" : "fail"), pass ? "Passed" : "Not yet"));
+      box.appendChild(el("p", null, pass ? "Nine out of nine. You know this material." : `${score} of ${qs.length} right. Only a clean 9/9 passes. Read the explanations below and go again; the options are reshuffled each time.`));
+      const wrong = qs.map((q, i) => [q, i]).filter(([q, i]) => run.picked[i] !== q.answer);
+      if (wrong.length) {
+        const ul = el("ul", "review");
+        wrong.forEach(([q, i]) => {
+          const li = el("li");
+          const m = el("div", "qrow"); m.appendChild(el("span", "lvl " + q.level, LEVEL_LABEL[q.level] || q.level)); if (q.topic) m.appendChild(el("span", "cap", q.topic));
+          li.append(m, el("div", "q", q.q), el("div", "a", "Your answer: " + q.options[run.picked[i]]), el("div", "a", "Correct: " + q.options[q.answer]));
+          if (q.explain) li.appendChild(el("div", "a", q.explain));
+          ul.appendChild(li);
+        });
+        box.appendChild(ul);
+      }
+      const r = el("div", "qrow");
+      const again = el("button", "big", pass ? "Take it again" : "Try again"); again.type = "button";
+      again.addEventListener("click", () => { startRun(doc); renderQuiz(box, doc); box.scrollIntoView({ block: "start" }); });
+      r.appendChild(again);
+      box.appendChild(r);
+      return;
+    }
+
+    const i = run.idx, q = qs[i], picked = run.picked[i];
+    leds.appendChild(el("span", null, (i + 1) + "/9"));
+    box.appendChild(leds);
+    const m = el("div", "qrow"); m.appendChild(el("span", "lvl " + q.level, LEVEL_LABEL[q.level] || q.level)); if (q.topic) m.appendChild(el("span", "cap", q.topic));
+    box.appendChild(m);
+    box.appendChild(el("h3", null, q.q));
+    const opts = el("div", "opts");
+    run.order[i].forEach((oi, pos) => {
+      const b = el("button", "opt"); b.type = "button";
+      b.append(el("span", "l", "ABCD"[pos] || String(pos + 1)), el("span", null, q.options[oi]));
+      if (picked != null) {
+        b.disabled = true;
+        if (oi === q.answer) b.classList.add("right");
+        else if (oi === picked) b.classList.add("wrong");
+      }
+      b.addEventListener("click", () => { if (run.picked[i] != null) return; run.picked[i] = oi; renderQuiz(box, doc); });
+      opts.appendChild(b);
+    });
+    box.appendChild(opts);
+    if (picked != null) {
+      const ok = picked === q.answer;
+      const ex = el("div", "expl"); ex.append(el("b", ok ? "ok" : "no", ok ? "Correct" : "Wrong — this attempt can't pass"), el("p", null, q.explain || ""));
+      box.appendChild(ex);
+      const r = el("div", "qrow");
+      const last = i === qs.length - 1;
+      const nx = el("button", "big", last ? "See result" : "Next question"); nx.type = "button";
+      nx.addEventListener("click", () => {
+        if (last) { run.finished = true; recordAttempt(doc, run); render(); setTimeout(() => { const b = document.getElementById("quizbox"); if (b) b.scrollIntoView({ block: "start" }); }, 0); }
+        else { run.idx++; renderQuiz(box, doc); box.scrollIntoView({ block: "start" }); }
+      });
+      r.appendChild(nx);
+      if (!ok && !last) {
+        const rs = el("button", "big alt", "Restart now"); rs.type = "button";
+        rs.addEventListener("click", () => { run.finished = true; recordAttempt(doc, run); startRun(doc); render(); setTimeout(() => { const b = document.getElementById("quizbox"); if (b) b.scrollIntoView({ block: "start" }); }, 0); });
+        r.appendChild(rs);
+      }
+      box.appendChild(r);
+    }
+  }
+
+  function recordAttempt(doc, run) {
+    const qs = doc.quiz.questions;
+    const s = learn.stats || (learn.stats = emptyStats());
+    let score = 0, answered = 0;
+    qs.forEach((q, i) => {
+      const p = run.picked[i]; if (p == null) return;
+      answered++;
+      const ok = p === q.answer; if (ok) score++;
+      const lv = s.levels[q.level] || (s.levels[q.level] = { r: 0, t: 0 }); lv.t++; if (ok) lv.r++;
+      if (q.topic) { const tp = s.topics[q.topic] || (s.topics[q.topic] = { r: 0, t: 0 }); tp.t++; if (ok) tp.r++; }
+    });
+    const pass = score === qs.length;
+    s.attempts++; if (pass) s.passAttempts++;
+    s.answered += answered; s.correct += score;
+    const d = s.days[doc.key] || (s.days[doc.key] = { attempts: 0, passed: false, best: 0, firstTry: false });
+    d.attempts++; d.best = Math.max(d.best, score);
+    if (pass) { if (!d.passed && d.attempts === 1) d.firstTry = true; d.passed = true; }
+    d.last = new Date().toISOString();
+    if (d.title == null && doc.lesson) d.title = doc.lesson.title;
+    saveStats();
+  }
+
+  function streaks(s) {
+    const days = s.days || {};
+    const passedKeys = Object.keys(days).filter(k => days[k].passed).sort();
+    let best = 0, run = 0, prev = null;
+    passedKeys.forEach(k => {
+      const t = new Date(k + "T12:00:00Z").getTime();
+      run = prev != null && Math.round((t - prev) / 864e5) === 1 ? run + 1 : 1;
+      best = Math.max(best, run); prev = t;
+    });
+    let cur = 0;
+    const now = new Date();
+    let cursor = new Date(romeKey(now) + "T12:00:00Z");
+    if (!(days[romeKey(now)] && days[romeKey(now)].passed)) cursor = new Date(cursor.getTime() - 864e5);
+    while (days[cursor.toISOString().slice(0, 10)] && days[cursor.toISOString().slice(0, 10)].passed) { cur++; cursor = new Date(cursor.getTime() - 864e5); }
+    return { cur, best };
+  }
+
+  function renderStats(main) {
+    main.appendChild(el("div", "sect", "Your quiz stats"));
+    const s = learn.stats || emptyStats();
+    const wrap = el("section", "stats");
+    const passedDays = Object.values(s.days).filter(d => d.passed).length;
+    const firstTry = Object.values(s.days).filter(d => d.firstTry).length;
+    const { cur, best } = streaks(s);
+    const tiles = el("div", "tiles");
+    const tile = (v, l) => { const t = el("div", "tile"); t.append(el("b", null, String(v)), el("span", null, l)); return t; };
+    tiles.append(
+      tile(passedDays, "Days passed"),
+      tile(cur, "Current streak"),
+      tile(best, "Best streak"),
+      tile(s.attempts ? Math.round(100 * s.passAttempts / s.attempts) + "%" : "–", "Pass rate"),
+      tile(firstTry, "First-try passes"),
+      tile(s.answered ? Math.round(100 * s.correct / s.answered) + "%" : "–", "Answers right"));
+    wrap.appendChild(tiles);
+
+    const strip = el("div", "days"); strip.setAttribute("aria-label", "Last 14 days");
+    const today = new Date(romeKey(new Date()) + "T12:00:00Z");
+    for (let k = 13; k >= 0; k--) {
+      const key = new Date(today.getTime() - k * 864e5).toISOString().slice(0, 10);
+      const d = s.days[key]; const c = el("i");
+      c.className = (d ? (d.passed ? "pass" : "fail") : "") + (k === 0 ? " today" : "");
+      c.title = key + (d ? (d.passed ? " · passed" : ` · best ${d.best}/9`) : " · not taken");
+      strip.appendChild(c);
+    }
+    const sd = el("div"); sd.append(strip, el("div", "cap", "Last 14 days · green passed · red attempted · amber ring today"));
+    wrap.appendChild(sd);
+
+    const lv = el("div", "bars2");
+    LEVELS.forEach(k => {
+      const x = s.levels[k] || { r: 0, t: 0 };
+      const pct = x.t ? Math.round(100 * x.r / x.t) : 0;
+      const r = el("div", "bar2"); const tr = el("div", "tr"); const fl = el("div", "fl" + (pct < 60 ? " low" : pct < 85 ? " mid" : ""));
+      fl.style.width = (x.t ? pct : 0) + "%"; tr.appendChild(fl);
+      r.append(el("span", null, LEVEL_LABEL[k]), tr, el("span", "v", x.t ? pct + "%" : "–"));
+      lv.appendChild(r);
+    });
+    const lw = el("div"); lw.append(el("div", "cap", "Accuracy by level"), lv);
+    wrap.appendChild(lw);
+
+    const weak = Object.entries(s.topics).filter(([, x]) => x.t >= 2).map(([t, x]) => [t, x.r / x.t, x]).sort((a, b) => a[1] - b[1]).slice(0, 4).filter(w => w[1] < 1);
+    if (weak.length) {
+      const wb = el("div", "bars2");
+      weak.forEach(([t, pr, x]) => {
+        const pct = Math.round(pr * 100);
+        const r = el("div", "bar2"); const tr = el("div", "tr"); const fl = el("div", "fl" + (pct < 60 ? " low" : pct < 85 ? " mid" : ""));
+        fl.style.width = pct + "%"; tr.appendChild(fl);
+        r.append(el("span", null, t), tr, el("span", "v", `${x.r}/${x.t}`));
+        wb.appendChild(r);
+      });
+      const ww = el("div"); ww.append(el("div", "cap", "Topics to review"), wb);
+      wrap.appendChild(ww);
+    }
+    wrap.appendChild(el("div", "cap", learn.statsSource === "account" ? "Stats are saved to your account and follow you across devices." : "Stats are saved on this device only."));
+    main.appendChild(wrap);
+  }
+
+  render();
+
+  // Static-site loader: data/index.json lists the brief and lesson files.
+  (async () => {
+    learn.stats = loadLocalStats();
+    const get = async (path) => { const r = await fetch(path, { cache: "no-cache" }); if (!r.ok) throw new Error(path + " " + r.status); return r.json(); };
+    try {
+      const idx = await get("data/index.json");
+      const [briefs, lessons] = await Promise.all([
+        Promise.all((idx.briefs || []).map(f => get("data/briefs/" + f).then(d => ({ id: f.replace(/\.json$/, ""), ...d })).catch(() => null))),
+        Promise.all((idx.learn || []).map(f => get("data/learn/" + f).then(d => ({ id: f.replace(/\.json$/, ""), ...d })).catch(() => null)))
+      ]);
+      state.briefs = briefs.filter(Boolean);
+      learn.docs = lessons.filter(d => d && d.key && d.quiz);
+    } catch (e) {
+      state.loaded = true; learn.loaded = true; render();
+      const m = $("#main"); const box = el("div", "empty");
+      box.append(el("b", null, "Archive offline"), document.createTextNode("The briefs couldn't load. Check your connection and reload the page."));
+      m.prepend(box);
+      return;
+    }
+    state.loaded = true; learn.loaded = true;
+    render();
+  })();
+})();
+</script>
+
+</body>
+</html>

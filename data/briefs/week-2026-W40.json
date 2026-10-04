@@ -1,0 +1,175 @@
+{
+ "craft": {
+  "body": "The Oasis tapes are an extreme case, but most engineers have a drive of old multitracks and board mixes they were never really entitled to keep.\n\nOnce a year, sort your archive by client. Delete or return what your contracts do not cover, and write down what you keep and why. It protects you legally, and a lean, well-labelled archive is also faster to work from when a client calls back for a recall.",
+  "title": "Archive like the band is watching"
+ },
+ "generated": "2026-10-04T11:30:00+02:00",
+ "headline": "Courts, consoles and implanted microphones",
+ "items": [
+  {
+   "cat": "ai",
+   "date": "2026-09-30",
+   "deep": "The case involved non-generative AI, and MBW and Forbes both say it does not settle the Suno and Udio cases directly. But it sets the tone. Copying protected works to build a product that competes with them failed the fair-use test, and the music industry argued that licensing markets for training data already exist.\n\nThe same week, Japan's Tokyo District Court held (in Kenjiro Tsuda v. TikTok) that unauthorised use of a performer's voice can infringe publicity rights. Taken together with GEMA's July win over Suno in Munich, the trend in the US, EU and Japan runs the same way: training data and voices need permission.",
+   "signal": 3,
+   "source": "Music Business Worldwide",
+   "take": "The US Third Circuit upheld the ruling against ROSS Intelligence, which trained a legal-research AI on Westlaw editorial content. The RIAA and NMPA backed Thomson Reuters with a joint brief. It is the first appellate fair-use loss for AI training.",
+   "title": "Appeals court: training a competing AI on copyrighted work isn't fair use",
+   "todo": "Ask the vendors of AI tools in your chain (denoise, separation, voice) what their models were trained on, and keep the answer on file for clients who ask.",
+   "url": "https://www.musicbusinessworldwide.com/us-appeals-court-rejects-fair-use-defense-over-ai-training-as-thomson-reuters-wins-copyright-case-backed-by-riaa-and-nmpa/"
+  },
+  {
+   "cat": "live",
+   "date": "2026-09-30",
+   "deep": "The band's position is simple. A buyer would own the tapes, not the recordings on them. For live engineers this is the clearest public warning in years. Desk recordings, multitrack virtual soundchecks and rehearsal captures made on a job are almost never yours to exploit, even decades later.\n\nThe practical risk today is quieter than an auction. It shows up as a hard drive of client multitracks you keep 'for reference', or a clip you post to show off your mix.",
+   "signal": 3,
+   "source": "Mix",
+   "take": "Oasis, Sony Music and Big Brother Recordings went to court in London to block the sale of former FOH engineer Huw Richards' archive. It holds 209 DATs, 73 cassettes and 3 MiniDiscs recorded off the desk from 1995 to 2001, covering 63 concerts and more than 100 hours of rehearsals and soundchecks. The lot, valued at about £1.6m, was withdrawn from the 3 October auction.",
+   "title": "Oasis sues ex-FOH engineer to stop board-tape auction",
+   "todo": "Check your rider or contract for a clause on who owns recordings made on the gig, and keep client multitracks only as long as the contract allows.",
+   "url": "https://www.mixonline.com/news/oasis-sues-former-foh-engineer-over-board-tapes"
+  },
+  {
+   "breakthrough": true,
+   "cat": "hearing",
+   "date": "2026-09-30",
+   "deep": "MED-EL is based in Innsbruck, just over the Brenner from Bolzano. The engineering problem is the one sound people know well: a microphone that picks up sound through skin while rejecting body noise. Users report they can hear while sleeping, swimming and charging, which external processors do not allow.\n\nIndependent outcome data are still limited. HearingTracker points out that the trials so far were small, with 6 and then 30 patients reporting hearing comparable to conventional implants.",
+   "signal": 2,
+   "source": "IEEE Spectrum",
+   "take": "MED-EL's TICI UNICO puts every part under the skin, including the microphone, processor and rechargeable battery. It weighs 20 g, runs up to 40 hours on a 1–1.5 hour charge, and is designed to keep at least 24 hours per charge for 15 years. It has European approval, and the first four commercial implantations took place on launch day.",
+   "title": "MED-EL implants the first cochlear implant with its microphone under the skin",
+   "url": "https://spectrum.ieee.org/fully-implantable-cochlear-implant"
+  },
+  {
+   "breakthrough": true,
+   "cat": "tech",
+   "date": "2026-09-30",
+   "deep": "Conventional MEMS mics are tiny but noisy, which is why they live in phones and not on boom poles. A self-noise of 14 dBA puts sensiBel's optical capsule close to a good small-diaphragm condenser, in a part that costs and measures like a chip.\n\nThat opens the way for cheap high-order ambisonic and beamforming arrays for field recording, venue measurement and spatial capture. NOVA32 is a development kit with no price given, so expect products built on it to come later.",
+   "signal": 2,
+   "source": "audioXpress",
+   "take": "sensiBel's new development kit puts 32 of its optical MEMS microphones in a spiral array with 24-bit/48 kHz output over USB. Each SBM100B capsule is rated at 80 dBA SNR, 14 dBA self-noise, 146 dB SPL overload and 132 dB dynamic range. It targets acoustic cameras, beamforming and noise mapping.",
+   "title": "sensiBel NOVA32: optical MEMS mics with near-condenser specs",
+   "url": "https://audioxpress.com/news/sensibel-nova-enables-high-resolution-acoustic-scanning-with-optical-mems-microphones"
+  },
+  {
+   "cat": "live",
+   "date": "2026-09-28",
+   "deep": "I/O covers eight MADI sets, onboard Dante, a MultiMode Optocore interface with 504 extra paths, AES/EBU and LTC. Master bus modes run from LR to 5.1. No price was given.\n\nExpect it on riders for large tours and festivals. The mix of native Dante and Optocore makes it easier to drop into rental systems that run both.",
+   "signal": 2,
+   "source": "ProSoundWeb",
+   "take": "The new live console has 256 input channels, 128 aux and group buses, a 48x48 matrix, three 17-inch touchscreens and 38 motorised faders. Processing includes 128 Nodal Processing instances, 64 Mustard strips and 16 Spice Rack slots. It weighs 93 kg and comes in single- and dual-engine versions plus a Quantum638T theatre edition.",
+   "title": "DiGiCo Quantum638: 256 channels, onboard Dante and Optocore",
+   "url": "https://www.prosoundweb.com/digico-announces-new-quantum638-mixing-console/"
+  },
+  {
+   "cat": "games",
+   "date": "2026-10-01",
+   "deep": "FMOD and Audiokinetic's Wwise between them carry most interactive audio in games. Licensing, pricing and roadmap under a hardware company are the open questions, since nothing has been announced yet.\n\nIf you do game or interactive installation work, keep a copy of your current FMOD version and licence terms.",
+   "signal": 2,
+   "source": "audioXpress",
+   "take": "Bose has acquired Firelight, the Australian company behind FMOD, one of the two dominant game-audio middleware engines. Bose says it wants to grow in games and in VR/AR, automotive and other settings where audio responds to events.",
+   "title": "Bose buys FMOD developer Firelight Technologies",
+   "url": "https://audioxpress.com/news/bose-acquires-fmod-developer-firelight-technologies-to-expand-interactive-audio-business"
+  },
+  {
+   "cat": "software",
+   "date": "2026-10-02",
+   "deep": "DP has a loyal following among composers working to picture. Built-in Atmos rendering and HFR sync make it a cheaper route to immersive scoring stems without a separate renderer. It runs on macOS 12.7 or later and Windows 11.",
+   "signal": 2,
+   "source": "Sound On Sound",
+   "take": "MOTU's DP12 adds Dolby Atmos mixing with layouts up to 9.1.6 and binaural monitoring, AI stem separation, an Arrangement Strip and high frame rate video from 47.952 to 120 fps. Full version $499; upgrade $195.",
+   "title": "Digital Performer 12: Atmos to 9.1.6, stem separation and HFR video",
+   "url": "https://www.soundonsound.com/news/motu-digital-performer-12-now-available"
+  },
+  {
+   "cat": "post",
+   "date": "2026-10-01",
+   "deep": "Eclipsa is the first serious open alternative to Atmos for streaming. Samsung co-developed it, and a Pro Tools plugin workflow for YouTube uploads was shown at the event. For now Atmos stays the deliverable for Netflix, Apple and cinema.\n\nIf you mix immersive music or branded content for YouTube, it is worth a test render.",
+   "signal": 2,
+   "source": "Mix",
+   "take": "Google sponsored Mix Sound for Film & TV for the first time and showed Eclipsa Audio, an open immersive format (IAMF) co-developed with Samsung. It was presented as tools and delivery specs for streaming full-bandwidth immersive audio to the home, demonstrated on a 7.1.4 consumer system.",
+   "title": "Google's Eclipsa Audio pitches immersive streaming to film mixers",
+   "url": "https://www.mixonline.com/business/seen-on-the-scene-mix-sound-for-film-tv-2026-part-ii"
+  },
+  {
+   "cat": "gear",
+   "date": "2026-09-28",
+   "deep": "These are the boxes that put older preamps, interfaces and MADI consoles onto a Dante network without replacing them. Each has a 3-inch screen, an internal routing matrix and a headphone output, and the ADAT models support SMUX up to 192 kHz.",
+   "signal": 2,
+   "source": "Production Expert",
+   "take": "Three new units replace the old VERTO range. The VERTOpro MX bridges dual MADI (128x128 at 48 kHz), and the VERTOpro 64 and 32 bridge eight or four ADAT ports. All carry 64x64 Dante channels at 48 kHz over dual Gigabit ports with AES67 compatibility. Price is still to be announced.",
+   "title": "Ferrofish VERTOpro: ADAT and MADI onto Dante",
+   "url": "https://www.production-expert.com/production-expert-1/ferrofish-launches-vertopro-series-of-dante-converters-and-routers-with-adat-and-madi"
+  },
+  {
+   "cat": "live",
+   "date": "2026-10-01",
+   "deep": "Immersive live and theatre shows are often limited by system time in the venue. Preparing object positions and cues on headphones beforehand moves that work out of the expensive hours. It needs Create.Control v1.4. No price was given.",
+   "signal": 2,
+   "source": "ProSoundWeb",
+   "take": "d&b's new standalone engine for its Soundscape immersive platform runs on macOS and Windows. It takes up to 64 inputs from a DAW via d&b AudioBridge and renders them binaurally. Shows can be built and auditioned without a Soundscape processor or a PA.",
+   "title": "d&b vCore: program Soundscape shows on headphones",
+   "url": "https://www.prosoundweb.com/db-audiotechnik-unveils-new-vcore-for-soundscape-preproduction/"
+  },
+  {
+   "cat": "ai",
+   "date": "2026-09-30",
+   "deep": "ElevenLabs is already in many localisation and temp-VO pipelines, and it now has the money to go further into dubbing and ADR. For post sound this mainly raises a contract question: who approves and owns a synthetic voice in the final mix.",
+   "signal": 1,
+   "source": "Music Business Worldwide",
+   "take": "The voice-AI company completed a $300m employee tender at a $22bn valuation, up from $11bn in February. Its ElevenMusic platform holds licences from Merlin, Kobalt, Believe and Universal.",
+   "title": "ElevenLabs doubles its valuation to $22bn",
+   "url": "https://www.musicbusinessworldwide.com/elevenlabs-valuation-doubles-to-22b-four-times-that-of-ai-music-rival-suno/"
+  },
+  {
+   "cat": "live",
+   "date": "2026-10-02",
+   "signal": 2,
+   "source": "Mix",
+   "take": "Touring engineer Gryphon Graham's iOS and web app converts riders and input lists into stage plots, labels and native show files for Avid, Allen & Heath, DiGiCo, Behringer/Midas and Yamaha desks. Free tier with X32/M32 export; Pro is $59.",
+   "title": "Load-In turns riders into stage plots and console files",
+   "url": "https://www.mixonline.com/technology/news-products/touring-engineer-launches-load-in-software"
+  },
+  {
+   "cat": "plugins",
+   "date": "2026-09-29",
+   "signal": 1,
+   "source": "Sound On Sound",
+   "take": "Loud is a perceived-loudness maximiser with automatic gain compensation and a multiband limiter. Wide is a stereo widener and mono-to-stereo upmixer with a mono-compatibility option. Both handle up to 16 channels, so they work on immersive stems. Intro prices $49 and $99.",
+   "title": "Zynaptiq Loud & Wide: loudness and width up to 16 channels",
+   "url": "https://www.soundonsound.com/news/zynaptiq-introduce-loud-wide"
+  },
+  {
+   "cat": "instruments",
+   "date": "2026-10-01",
+   "deep": "It shows on-device AI sound generation reaching hardware instruments. It is crowdfunded, more than half a year from shipping and has no dedicated main output, so treat it as a sign of where things are going rather than a buy.",
+   "signal": 1,
+   "source": "Gearnews",
+   "take": "The prototype sampler runs neural 'audio model bending' and generative models on the device, with no internet. It has an onboard mic, MIDI and CV, and the maker says the models were trained only on licensed audio. $770, delivery expected May 2027.",
+   "title": "Thoughtful Things Engram: an AI groovebox on Kickstarter",
+   "url": "https://www.gearnews.com/thoughtful-things-engram-synth/"
+  }
+ ],
+ "key": "2026-W40",
+ "label": "Week 40 · 2026",
+ "lead": "A US appeals court ruled that training a competing AI on copyrighted work is not fair use, and Oasis went to court to stop a former FOH engineer's board tapes being auctioned. Both point to rights getting tighter around every recording. On the engineering side, an Innsbruck company implanted a cochlear implant with its microphone under the skin, optical MEMS mics reached near-condenser specs, and DiGiCo launched a 256-channel console.",
+ "period": "week",
+ "radar": [
+  {
+   "date": "2026-10-30",
+   "note": "Immersive and spatial audio take centre stage.",
+   "title": "AES Show Nashville, 30 Oct – 1 Nov",
+   "url": "https://www.prosoundweb.com/immersive-spatial-audio-to-take-center-stage-at-aes-show-nashville-2026/"
+  },
+  {
+   "note": "A summary-judgment decision in the label suits against Suno could set the US rule for generative music AI.",
+   "title": "Massachusetts ruling on AI training and unlicensed recordings",
+   "when": "Pending"
+  },
+  {
+   "note": "No changes announced yet. Watch for pricing or roadmap news.",
+   "title": "Bose's plans for FMOD licensing",
+   "when": "Pending"
+  }
+ ],
+ "range": "28 Sep – 4 Oct 2026"
+}

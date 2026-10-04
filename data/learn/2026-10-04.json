@@ -1,0 +1,165 @@
+{
+ "generated": "2026-10-04T12:30:00+02:00",
+ "key": "2026-10-04",
+ "label": "Sun 4 Oct 2026",
+ "lesson": {
+  "body": "Resistance turns energy into heat and is the same at every frequency. Reactance stores and releases energy instead. A capacitor's reactance falls as frequency rises (Xc = 1/2πfC), and an inductor's rises (XL = 2πfL). Impedance (Z) is the combination of the two. That is why a single number on a spec sheet is only a 'nominal' value: an 8 Ω loudspeaker can dip close to 3 Ω in one band and rise well above 30 Ω at its bass resonance.\n\nModern audio connects equipment by voltage bridging, not impedance matching. A low source impedance drives an input with a much higher impedance, roughly ten times or more, so nearly all the signal voltage arrives. A dynamic mic of about 150–300 Ω feeds a preamp input of about 1.5–3 kΩ. A line output of around 100 Ω feeds an input of 10 kΩ or more. A power amp's output impedance is a small fraction of an ohm against a 4–8 Ω speaker. Matching 600 Ω to 600 Ω comes from telephone lines and old broadcast practice, where very long lines and power transfer mattered. It is rarely what you want today.\n\nImpedance becomes audible when that rule is broken. A guitar pickup has a high, inductive source impedance, so plugged into a 10 kΩ line input it loses level and top end. That is why it needs a Hi-Z input of about 1 MΩ or a DI. A high source impedance driving a long cable forms a low-pass filter with the cable's capacitance. Ribbon and some dynamic mics change tone with preamp input impedance, which is why some preamps let you switch it. A headphone amp with high output impedance changes the frequency response of headphones whose impedance varies with frequency.",
+  "inPractice": "On your next session with a dynamic or ribbon mic, switch the preamp's input impedance (if it has the option) and listen to the low end and presence change. When a bass or keyboard sounds dull through a line input, put it through a DI before you reach for EQ.",
+  "keyPoints": [
+   "Impedance = resistance + reactance; it varies with frequency, measured in ohms.",
+   "Bridging: low-impedance outputs into inputs about 10× higher or more. Don't 'match' unless a spec says so.",
+   "Nominal speaker and headphone impedances are averages; the real curve swings widely.",
+   "High-Z sources (guitar pickups, piezos) need about 1 MΩ inputs or a DI box.",
+   "Keep source impedance low when driving long cables, or the cable capacitance rolls off the highs."
+  ],
+  "level": "core",
+  "mistake": "Thinking impedances must be 'matched'. Into a 600 Ω load, a modern line output loses level and may distort. What matters is that the input impedance is well above the output impedance.",
+  "sayIt": "Impedance is how hard a circuit pushes back against an audio signal; we keep outputs low and inputs high so the signal arrives without losing level or tone.",
+  "summary": "Impedance is the total opposition a circuit offers to an alternating signal, measured in ohms (Ω). It combines plain resistance with reactance from capacitance and inductance, so unlike resistance it changes with frequency.",
+  "terms": [
+   {
+    "def": "Frequency-dependent opposition from capacitance or inductance, in ohms.",
+    "term": "Reactance (X)"
+   },
+   {
+    "def": "Connecting a low-impedance output to a much higher-impedance input so voltage transfers almost fully.",
+    "term": "Bridging"
+   },
+   {
+    "def": "High-impedance input (about 1 MΩ) for instruments with passive pickups.",
+    "term": "Hi-Z"
+   },
+   {
+    "def": "Load impedance divided by the amplifier's output impedance (plus cable); how well the amp controls the driver.",
+    "term": "Damping factor"
+   },
+   {
+    "def": "A single representative figure for a component whose real impedance varies with frequency.",
+    "term": "Nominal impedance"
+   }
+  ],
+  "title": "Impedance, explained properly",
+  "topic": "Electronics & signal flow"
+ },
+ "quiz": {
+  "questions": [
+   {
+    "answer": 0,
+    "explain": "Output and load form a voltage divider. Where the headphone impedance is low, more voltage drops across the amp's 10 Ω and that band gets quieter. A common rule of thumb is to keep output impedance at or below one eighth of the headphone's minimum impedance.",
+    "level": "advanced",
+    "options": [
+     "The frequency response changes, because the output impedance and the varying headphone impedance form a frequency-dependent voltage divider",
+     "Nothing audible, because headphones only respond to current",
+     "Stereo crosstalk rises, but frequency response is unaffected",
+     "The amp clips in the bass because the impedance rises there"
+    ],
+    "q": "A headphone amp with a 10 Ω output impedance drives headphones whose impedance swings from 30 Ω to 120 Ω across the spectrum. What happens?",
+    "topic": "Impedance"
+   },
+   {
+    "answer": 1,
+    "explain": "Damping factor is the load divided by everything in series on the source side: 8 / (0.02 + 0.2) ≈ 36. Cable resistance often limits real-world damping far more than the amp's quoted figure, so keep speaker runs short and thick.",
+    "level": "advanced",
+    "options": [
+     "About 400",
+     "About 36",
+     "About 8",
+     "It depends only on the amplifier, so still about 400"
+    ],
+    "q": "An amp with 0.02 Ω output impedance drives an 8 Ω speaker through cable with 0.2 Ω round-trip resistance. Roughly what is the effective damping factor at the speaker?",
+    "topic": "Impedance"
+   },
+   {
+    "answer": 1,
+    "explain": "A 5 ms delay is half a cycle (180°) at 100 Hz and at odd multiples of it, and a full cycle at 200 Hz and its multiples, so the sum forms a comb filter. A polarity flip inverts every frequency at once with no time shift, which is a different thing.",
+    "level": "advanced",
+    "options": [
+     "It is the same as flipping the polarity of one track",
+     "It cancels around 100 Hz, 300 Hz, 500 Hz and so on, and reinforces at 200 Hz, 400 Hz…: a comb filter",
+     "It cancels all frequencies equally",
+     "It only affects frequencies above 5 kHz"
+    ],
+    "q": "You sum two identical tracks, one delayed by 5 ms. Which statement is true?",
+    "topic": "Phase & polarity"
+   },
+   {
+    "answer": 1,
+    "explain": "Common-mode rejection depends on equal impedances from each conductor to ground. Noise picked up equally on both wires is cancelled by the differential input. Many balanced outputs do send an inverted signal on pin 3, but it's the impedance balance, not that mirror signal, that rejects the noise.",
+    "level": "intermediate",
+    "options": [
+     "The cold wire carries an inverted copy of the signal",
+     "Both conductors have equal impedance to ground, so noise induces equally on both and the differential input cancels it",
+     "The shield carries the audio, protecting it",
+     "Balanced lines run at a higher voltage, so noise is relatively smaller"
+    ],
+    "q": "What actually makes a balanced connection reject interference?",
+    "topic": "Balanced lines"
+   },
+   {
+    "answer": 1,
+    "explain": "Passive pickups need a load of around 1 MΩ. A 10 kΩ input loads them heavily, which loses level and treble. Use a Hi-Z input or a DI box.",
+    "level": "intermediate",
+    "options": [
+     "A louder, brighter signal",
+     "A quieter, duller signal, because the input loads the pickup's high, inductive source impedance",
+     "No change, since impedance only matters for speakers",
+     "A hum caused by a ground loop"
+    ],
+    "q": "You plug a passive bass guitar straight into a 10 kΩ line input. What do you hear?",
+    "topic": "Impedance"
+   },
+   {
+    "answer": 1,
+    "explain": "Keeping the second mic at least three times as far from the source as the first keeps its spill about 9 dB or more lower, so the comb filtering when the two are summed is much milder.",
+    "level": "intermediate",
+    "options": [
+     "Proximity effect",
+     "Comb filtering when one source reaches two mics at different times",
+     "Plosives",
+     "Wind noise"
+    ],
+    "q": "What is the 3:1 rule in multi-mic recording meant to reduce?",
+    "topic": "Microphone technique"
+   },
+   {
+    "answer": 2,
+    "explain": "Impedance, resistance and reactance are all measured in ohms (Ω).",
+    "level": "basic",
+    "options": [
+     "Volts",
+     "Farads",
+     "Ohms",
+     "Decibels"
+    ],
+    "q": "What unit is impedance measured in?",
+    "topic": "Impedance"
+   },
+   {
+    "answer": 1,
+    "explain": "Pin 1 is shield or ground, pin 2 is hot (+) and pin 3 is cold (−). This is the AES14/IEC standard, and the 'pin 2 hot' convention is now universal.",
+    "level": "basic",
+    "options": [
+     "1 hot, 2 cold, 3 ground",
+     "1 ground/shield, 2 hot, 3 cold",
+     "1 cold, 2 ground, 3 hot",
+     "1 ground, 2 cold, 3 hot"
+    ],
+    "q": "In a standard balanced XLR (AES/IEC wiring), what are pins 1, 2 and 3?",
+    "topic": "Connectors"
+   },
+   {
+    "answer": 1,
+    "explain": "Every sample of one copy is the negative of the other, so they sum to zero. Partial cancellation of this kind is why a polarity check on multi-mic sources matters.",
+    "level": "basic",
+    "options": [
+     "Twice the level",
+     "Silence (total cancellation)",
+     "A 3 dB boost",
+     "A comb filter"
+    ],
+    "q": "You mix a signal with a polarity-inverted copy of itself at exactly the same level. What do you get?",
+    "topic": "Phase & polarity"
+   }
+  ]
+ }
+}

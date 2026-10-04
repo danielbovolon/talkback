@@ -1,0 +1,123 @@
+{
+ "craft": {
+  "body": "New interfaces lead with 32-bit specs, but in most rooms the noise floor lives somewhere else: ground loops, a shared mains strip, an unbalanced cable run, a laptop charger. Before upgrading, record ten seconds of silence through your current chain with gain where you actually use it, then look at a spectrum. Hum at 50 Hz and its harmonics means a grounding problem, and no converter will fix it.",
+  "title": "Find the noise before you buy the converter"
+ },
+ "generated": "2026-10-04T00:10:00+02:00",
+ "headline": "Bose buys FMOD; interfaces go 32-bit",
+ "items": [
+  {
+   "cat": "industry",
+   "date": "2026-10-01",
+   "signal": 3,
+   "source": "audioXpress",
+   "take": "FMOD is one of the two dominant interactive-audio middleware platforms, next to Audiokinetic's Wwise (owned by Sony). Bose says the deal grows its gaming, VR/AR and automotive audio work. Terms are confidential and nothing has been said yet about licensing, so if you deliver game or installation audio built on FMOD, watch the indie licence terms in the coming months.",
+   "title": "Bose acquires Firelight Technologies, maker of FMOD",
+   "url": "https://audioxpress.com/news/bose-acquires-fmod-developer-firelight-technologies-to-expand-interactive-audio-business"
+  },
+  {
+   "cat": "gear",
+   "date": "2026-10-01",
+   "signal": 2,
+   "source": "Gearnews",
+   "take": "A refresh of UA's entry range with 32-bit conversion, tone-shaping preamps and LUNA integration. Useful as a compact location or travel rig; for film work, check real-world dynamic range and the clock/sync options before trusting 32-bit as a headline spec.",
+   "title": "Universal Audio Volt Gen 2 and Volt Max: six new USB interfaces",
+   "url": "https://www.gearnews.com/"
+  },
+  {
+   "cat": "gear",
+   "date": "2026-10-01",
+   "signal": 2,
+   "source": "Gearnews",
+   "take": "Pitched as an everyday studio workhorse. Notable because Austrian Audio is now part of Audiotonix alongside DPA, so expect tighter integration with the group's console and wireless brands over time.",
+   "title": "Austrian Audio OC616 multipattern condenser",
+   "url": "https://www.gearnews.com/"
+  },
+  {
+   "cat": "gear",
+   "date": "2026-10-02",
+   "signal": 1,
+   "source": "Gearnews",
+   "take": "A premium stage dynamic for vocal duties. Worth a shootout against your current live vocal mics if you run events, especially for feedback rejection on loud stages.",
+   "title": "sE Electronics V8 Stage handheld dynamic",
+   "url": "https://www.gearnews.com/"
+  },
+  {
+   "cat": "plugins",
+   "date": "2026-10-01",
+   "signal": 2,
+   "source": "Gearnews",
+   "take": "Two new mixing and mastering processors from the company behind UNVEIL and UNFILTER, known for unusual spectral DSP. Trial them on dialogue stems as well as music: their restoration tools have often found a second life in post.",
+   "title": "zynaptiq releases LOUD and WIDE",
+   "url": "https://www.gearnews.com/"
+  },
+  {
+   "cat": "plugins",
+   "date": "2026-10-02",
+   "signal": 2,
+   "source": "KVR Audio",
+   "take": "A dynamic spatial reverb (VST3/AU/AAX). Dynamic reverbs duck their tail under the dry signal, which keeps dialogue and vocals intelligible without automating sends.",
+   "title": "W. A. Production Asymo Reverb",
+   "url": "https://www.kvraudio.com/news"
+  },
+  {
+   "cat": "plugins",
+   "date": "2026-10-02",
+   "signal": 1,
+   "source": "KVR Audio",
+   "take": "Another tool where you describe the result in words and it sets processing. Useful to know where this category is heading; judge it on gain staging and whether you can see and override every move it makes.",
+   "title": "AudioBrain MixBrain V3: prompt-driven mixing for macOS",
+   "url": "https://www.kvraudio.com/news"
+  },
+  {
+   "cat": "plugins",
+   "date": "2026-10-03",
+   "signal": 1,
+   "source": "KVR Audio",
+   "take": "A free granular sampler in VST3, AU and CLAP. Good for turning field recordings into textures and drones without leaving the DAW.",
+   "title": "Free: FRCTL Audio GRNi Lite granular sampler",
+   "url": "https://www.kvraudio.com/news"
+  },
+  {
+   "cat": "plugins",
+   "date": "2026-10-02",
+   "signal": 1,
+   "source": "KVR Audio",
+   "take": "Blue Cat's free plugins are reliable utilities. Worth updating if you rely on them in older sessions.",
+   "title": "Blue Cat Audio Free Amp 2.0 and a free-suite refresh",
+   "url": "https://www.kvraudio.com/news"
+  },
+  {
+   "cat": "software",
+   "date": "2026-10-02",
+   "signal": 1,
+   "source": "Sound On Sound",
+   "take": "The free iPad synth can now load inside DAWs that host AUv3, which makes it usable for quick sketching on the move.",
+   "title": "Roland Zenology GX on iPad now runs as an AUv3 plugin",
+   "url": "https://www.soundonsound.com/news"
+  },
+  {
+   "cat": "tech",
+   "date": "2026-10-02",
+   "signal": 2,
+   "source": "audioXpress",
+   "take": "Consumer headphones that read brain activity to track focus, at $499. Not a monitoring tool, but a sign of where personal audio is going: listening devices that measure the listener.",
+   "title": "Neurable One: ANC headphones with 12 EEG sensors",
+   "url": "https://audioxpress.com/news"
+  },
+  {
+   "cat": "tech",
+   "date": "2026-09-30",
+   "signal": 1,
+   "source": "audioXpress",
+   "take": "A dense array aimed at beamforming and high-resolution acoustic detection. Relevant if you are curious about array-based capture and sound-source localisation for field work.",
+   "title": "sensiBel NOVA32: a 32-microphone array for acoustic detection",
+   "url": "https://audioxpress.com/news"
+  }
+ ],
+ "key": "2026-10-03",
+ "label": "Sat 3 Oct 2026",
+ "lead": "The game-audio world got a new landlord this week, as Bose bought the company behind FMOD. Elsewhere it was a busy launch window ahead of the AES Show: new interfaces from Universal Audio, a multipattern workhorse from Austrian Audio, and another wave of AI-assisted mixing tools.",
+ "period": "day",
+ "range": "1–3 Oct 2026"
+}

@@ -1,0 +1,172 @@
+{
+ "craft": {
+  "body": "This month's alliance of SFX libraries is a reminder that field recordings and designed sounds have real value, including as AI training data.\n\nKeep a simple register of your original recordings: date, place, gear, and who holds rights. When you deliver sounds to a client, say in writing whether they get a licence for this production only or full ownership. It is the same discipline the big libraries use, scaled to one person.",
+  "title": "Treat your own recordings as assets"
+ },
+ "generated": "2026-10-04T11:30:00+02:00",
+ "headline": "Rights tighten, microphones shrink",
+ "items": [
+  {
+   "cat": "ai",
+   "date": "2026-09-30",
+   "deep": "The case involved non-generative AI, and MBW and Forbes both say it does not settle the Suno and Udio cases directly. But it sets the tone. Copying protected works to build a product that competes with them failed the fair-use test, and the music industry argued that licensing markets for training data already exist.\n\nThe same week, Japan's Tokyo District Court held (in Kenjiro Tsuda v. TikTok) that unauthorised use of a performer's voice can infringe publicity rights. Taken together with GEMA's July win over Suno in Munich, the trend in the US, EU and Japan runs the same way: training data and voices need permission.",
+   "signal": 3,
+   "source": "Music Business Worldwide",
+   "take": "The US Third Circuit upheld the ruling against ROSS Intelligence, which trained a legal-research AI on Westlaw editorial content. The RIAA and NMPA backed Thomson Reuters with a joint brief. It is the first appellate fair-use loss for AI training.",
+   "title": "Appeals court: training a competing AI on copyrighted work isn't fair use",
+   "todo": "Ask the vendors of AI tools in your chain (denoise, separation, voice) what their models were trained on, and keep the answer on file for clients who ask.",
+   "url": "https://www.musicbusinessworldwide.com/us-appeals-court-rejects-fair-use-defense-over-ai-training-as-thomson-reuters-wins-copyright-case-backed-by-riaa-and-nmpa/"
+  },
+  {
+   "cat": "industry",
+   "date": "2026-09-24",
+   "deep": "The alliance names two problems. 'Data piracy' means libraries used to train AI models without permission or payment. 'Sync piracy' means sounds used in productions without the right licence. It argues that sound is the third pillar of audio rights next to music and voice, which have had far more attention.\n\nFor sound designers and field recordists this cuts both ways. Your own recordings deserve protection, and the libraries you license will scrutinise usage more closely. Anyone can join by signing the petition at professionalsoundalliance.org.",
+   "signal": 3,
+   "source": "Production Expert",
+   "take": "Sound-effects companies and post veterans formed the Professional Sound Alliance to push for fair licensing of professional sound effects in film, TV, games and AI training. It is chaired by Pro Sound Effects founder Douglas Price, with Boom Library's Pierre Langer, Sound Ideas, re-recording mixer Karol Urban and Mark Mangini involved.",
+   "title": "Professional Sound Alliance launches against AI 'data piracy' of SFX",
+   "todo": "Check the EULAs of the libraries you use most for clauses on AI training and on sharing sounds with clients, and add an AI-training clause to licences for your own recordings.",
+   "url": "https://www.production-expert.com/production-expert-1/new-professional-sound-alliance-launched-to-tackle-ai-and-sync-piracy"
+  },
+  {
+   "cat": "live",
+   "date": "2026-09-30",
+   "deep": "The band's position is simple. A buyer would own the tapes, not the recordings on them. For live engineers this is the clearest public warning in years. Desk recordings, multitrack virtual soundchecks and rehearsal captures made on a job are almost never yours to exploit, even decades later.\n\nThe practical risk today is quieter than an auction. It shows up as a hard drive of client multitracks you keep 'for reference', or a clip you post to show off your mix.",
+   "signal": 2,
+   "source": "Mix",
+   "take": "Oasis, Sony Music and Big Brother Recordings went to court in London to block the sale of former FOH engineer Huw Richards' archive. It holds 209 DATs, 73 cassettes and 3 MiniDiscs recorded off the desk from 1995 to 2001, covering 63 concerts and more than 100 hours of rehearsals and soundchecks. The lot, valued at about £1.6m, was withdrawn from the 3 October auction.",
+   "title": "Oasis sues ex-FOH engineer to stop board-tape auction",
+   "todo": "Check your rider or contract for a clause on who owns recordings made on the gig, and keep client multitracks only as long as the contract allows.",
+   "url": "https://www.mixonline.com/news/oasis-sues-former-foh-engineer-over-board-tapes"
+  },
+  {
+   "cat": "industry",
+   "date": "2026-09-22",
+   "deep": "Wireless mics and IEMs in Italy work mostly in the gaps between TV channels in this band. If broadcasters lose 614–694 MHz to mobile, radio mics lose it too. That is what happened to the 800 MHz band and later the 700 MHz band.\n\nThese decisions take years, but they decide what your next UHF system is worth. Digital systems with tighter channel spacing, and alternatives such as Sennheiser's WMAS-based Spectera, matter more as the band narrows.",
+   "signal": 2,
+   "source": "Broadband TV News",
+   "take": "Ahead of WRC-27, the EBU asked for continued protection of the 470–694 MHz band beyond 2030 and opposed an early review of 614–694 MHz. Its submission notes that the band also carries PMSE, including wireless microphones, across the EU.",
+   "title": "EBU fights to keep UHF TV spectrum, and wireless mics with it, past 2030",
+   "todo": "Before buying a new UHF system, check which frequency range it covers against the current Italian PMSE allocation.",
+   "url": "https://www.broadbandtvnews.com/2026/09/22/ebu-pushes-for-dtt-spectrum-protection-beyond-2030/"
+  },
+  {
+   "breakthrough": true,
+   "cat": "science",
+   "date": "2026-09-17",
+   "deep": "Until now there were two options for modulation effects. You could move air mechanically, as a real Leslie's spinning horn does, or process the signal digitally before it reaches a speaker. The Nottingham team's approach sits between the two. Motion is simulated electronically, but the Doppler and phase effects form acoustically around the listener, so they interact with the room the way a real cabinet does.\n\nThe researchers call it the first significant innovation in sound effects since digital modelling in the 1990s. That is a big claim, and no specs or speaker counts were published in the release. The idea of electronically moved sound fields could also suit installations and spatial sound design.",
+   "signal": 2,
+   "source": "EurekAlert / University of Nottingham",
+   "take": "University of Nottingham engineers built a rotary speaker effect from a circular speaker array, published in the Journal of the AES. The signal moves electronically around the array, so the phase modulation happens in the air of the room instead of inside a plugin.",
+   "title": "A Leslie effect with no moving parts, from a ring of speakers",
+   "url": "https://www.eurekalert.org/news-releases/1144435"
+  },
+  {
+   "breakthrough": true,
+   "cat": "hearing",
+   "date": "2026-09-30",
+   "deep": "MED-EL is based in Innsbruck, just over the Brenner from Bolzano. The engineering problem is the one sound people know well: a microphone that picks up sound through skin while rejecting body noise. Users report they can hear while sleeping, swimming and charging, which external processors do not allow.\n\nIndependent outcome data are still limited. HearingTracker points out that the trials so far were small, with 6 and then 30 patients reporting hearing comparable to conventional implants.",
+   "signal": 2,
+   "source": "IEEE Spectrum",
+   "take": "MED-EL's TICI UNICO puts every part under the skin, including the microphone, processor and rechargeable battery. It weighs 20 g, runs up to 40 hours on a 1–1.5 hour charge, and is designed to keep at least 24 hours per charge for 15 years. It has European approval, and the first four commercial implantations took place on launch day.",
+   "title": "MED-EL implants the first cochlear implant with its microphone under the skin",
+   "url": "https://spectrum.ieee.org/fully-implantable-cochlear-implant"
+  },
+  {
+   "breakthrough": true,
+   "cat": "tech",
+   "date": "2026-09-30",
+   "deep": "Conventional MEMS mics are tiny but noisy, which is why they live in phones and not on boom poles. A self-noise of 14 dBA puts sensiBel's optical capsule close to a good small-diaphragm condenser, in a part that costs and measures like a chip.\n\nThat opens the way for cheap high-order ambisonic and beamforming arrays for field recording, venue measurement and spatial capture. NOVA32 is a development kit with no price given, so expect products built on it to come later.",
+   "signal": 2,
+   "source": "audioXpress",
+   "take": "sensiBel's new development kit puts 32 of its optical MEMS microphones in a spiral array with 24-bit/48 kHz output over USB. Each SBM100B capsule is rated at 80 dBA SNR, 14 dBA self-noise, 146 dB SPL overload and 132 dB dynamic range. It targets acoustic cameras, beamforming and noise mapping.",
+   "title": "sensiBel NOVA32: optical MEMS mics with near-condenser specs",
+   "url": "https://audioxpress.com/news/sensibel-nova-enables-high-resolution-acoustic-scanning-with-optical-mems-microphones"
+  },
+  {
+   "cat": "ai",
+   "date": "2026-09-18",
+   "deep": "About six suits against Suno are now pending in Massachusetts federal court, including one from Jason Isbell over identity exploitation. Suno reports more than 100 million users. For delivery work it means Suno-generated music is still contested by two of the three majors.",
+   "signal": 2,
+   "source": "Boston.com",
+   "take": "The two majors filed a new suit in Massachusetts alleging Suno trained its v6 model on more than 60,000 of their recordings, and possibly millions more. Their 2024 case is still running. Warner settled and signed a licensing deal with Suno around the v6 launch.",
+   "title": "Universal and Sony sue Suno again over its v6 model",
+   "url": "https://www.boston.com/news/local-news/2026/09/27/major-record-labels-sue-cambridge-based-ai-platform-again/"
+  },
+  {
+   "cat": "software",
+   "date": "2026-09-18",
+   "deep": "With Ableton, Pro Tools and now DP offering built-in separation, standalone splitters are turning into specialist tools for restoration rather than everyday utilities. Built-in Atmos rendering makes DP12 a lower-cost option for composers who deliver immersive stems to picture.",
+   "signal": 2,
+   "source": "Mix",
+   "take": "DP12 adds Dolby Atmos mixing up to 9.1.6 with binaural monitoring, AI stem separation into drums, bass, vocals, guitar, strings and brass, an Arrangement Strip and high frame rate video. $499 full, $195 upgrade.",
+   "title": "MOTU Digital Performer 12 ships with Atmos and stem separation",
+   "url": "https://www.mixonline.com/technology/news-products/digital-performer-12-debuts-with-stem-separation-dolby-atmos-mixing"
+  },
+  {
+   "cat": "live",
+   "date": "2026-09-28",
+   "deep": "I/O covers eight MADI sets, onboard Dante, a MultiMode Optocore interface with 504 extra paths, AES/EBU and LTC. Master bus modes run from LR to 5.1. No price was given.\n\nExpect it on riders for large tours and festivals. The mix of native Dante and Optocore makes it easier to drop into rental systems that run both.",
+   "signal": 2,
+   "source": "ProSoundWeb",
+   "take": "The new live console has 256 input channels, 128 aux and group buses, a 48x48 matrix, three 17-inch touchscreens and 38 motorised faders. Processing includes 128 Nodal Processing instances, 64 Mustard strips and 16 Spice Rack slots. It weighs 93 kg and comes in single- and dual-engine versions plus a Quantum638T theatre edition.",
+   "title": "DiGiCo Quantum638: 256 channels, onboard Dante and Optocore",
+   "url": "https://www.prosoundweb.com/digico-announces-new-quantum638-mixing-console/"
+  },
+  {
+   "cat": "gear",
+   "date": "2026-09-21",
+   "signal": 2,
+   "source": "Mix",
+   "take": "The KK 104 A (cardioid) and KK 105 A (supercardioid) fit Spectera, EW-D, EW-DX and Digital 6000/9000 handhelds. They have a fixed low-cut, an integrated pop screen and lower handling noise than the KK 204/205, and reached dealers at the end of September.",
+   "title": "Neumann condenser heads for Sennheiser wireless handhelds",
+   "url": "https://www.mixonline.com/technology/news-products/neumann-debuts-kk-104-a-kk-105-a-wireless-capsule-heads"
+  },
+  {
+   "cat": "speakers",
+   "date": "2026-09-22",
+   "deep": "Bluetooth latency has kept wireless headphones out of tracking and editing. Under 6 ms is low enough for overdubs and picture sync. The mono and side buttons make it a handy QC tool away from the monitors. Battery life is up to 21 hours.",
+   "signal": 2,
+   "source": "Sonic State",
+   "take": "LEWITT's closed-back LW6 uses an ultra-wideband link that sends uncompressed audio with under 6 ms latency and about 5 m range, plus USB-C, 3.5 mm and Bluetooth. Onboard DSP adds a 5-band EQ, monitor simulation and mono, side and L-R swap checks. EUR 599.",
+   "title": "LEWITT LW6: wireless studio headphones with under 6 ms latency",
+   "url": "https://sonicstate.com/news/2026/09/22/lewitt-releases-lw6-wireless-studio-headphones/"
+  },
+  {
+   "cat": "gear",
+   "date": "2026-09-22",
+   "signal": 1,
+   "source": "Newsshooter",
+   "take": "Up to four transmitters and four receivers, isolated four-track recording over USB-C (32-bit float on iOS), and three noise-reduction levels. It runs on 2.4 GHz, so no UHF licence is needed, but it suffers in crowded RF. Kits from $99 to $179.",
+   "title": "Hollyland LARK M3: four-channel 2.4 GHz wireless from $99",
+   "url": "https://www.newsshooter.com/2026/09/22/hollyland-lark-m3/"
+  },
+  {
+   "cat": "instruments",
+   "date": "2026-09-23",
+   "signal": 1,
+   "source": "CDM",
+   "take": "Elektron stopped the sharing of firmware hacks and mods on Elektronauts and its channels from 16 September, citing a surge of custom firmware, much of it apparently AI-assisted, and risks to devices and IP. Discussion is still allowed, and community firmware keeps appearing elsewhere.",
+   "title": "Elektron bans sharing firmware hacks on its forums",
+   "url": "https://cdm.link/elektron-on-hacks-and-mods/"
+  }
+ ],
+ "key": "2026-09",
+ "label": "September 2026",
+ "lead": "September was the month the rules around audio got tighter. Sound-effects companies formed an alliance against AI 'data piracy', Universal and Sony sued Suno again, a US appeals court rejected fair use for AI training, and Oasis went after a former FOH engineer's tapes. In the lab, a speaker array recreated the Leslie effect with no moving parts and the first fully implanted cochlear implant went into patients. In the studio, DP12 put Atmos and stem separation into another DAW.",
+ "period": "month",
+ "radar": [
+  {
+   "date": "2026-10-30",
+   "note": "Immersive and spatial audio track.",
+   "title": "AES Show Nashville, 30 Oct – 1 Nov",
+   "url": "https://www.prosoundweb.com/immersive-spatial-audio-to-take-center-stage-at-aes-show-nashville-2026/"
+  },
+  {
+   "note": "World radio conference where UHF spectrum for TV and wireless mics is negotiated.",
+   "title": "WRC-27",
+   "when": "2027"
+  }
+ ],
+ "range": "1–30 Sep 2026"
+}
