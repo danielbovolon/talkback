@@ -1,0 +1,280 @@
+{
+  "craft": {
+    "body": "Today's tinnitus trial is a reminder that hearing problems are treatable, but only if someone measures them. A baseline audiogram, done when your ears feel fine, gives you and any future audiologist something to compare against. Book it after a quiet day, not the morning after a show, or you will measure temporary threshold shift instead of your real hearing.\n\nKeep a copy of the result with your work records and repeat it every year or two. If a ringing lasts more than a day after a job, or one ear starts to sound duller than the other, go back early. Changes caught soon are easier to manage, and your ears are the one tool you cannot replace.",
+    "title": "Get a baseline audiogram before you need one"
+  },
+  "generated": "2026-10-07T07:05:00+02:00",
+  "headline": "Italy questions Suno's fine print",
+  "items": [
+    {
+      "cat": "ai",
+      "date": "2026-10-06",
+      "deep": "This is a consumer-protection case about unfair contract terms. It is not a copyright ruling on how Suno trained its models; that question sits with the US label lawsuits and with the GEMA case Suno lost in Germany. The point that matters most for creators is moral rights. Under Italian copyright law (L. 633/1941) the right to be named as author and to object to distortion of a work cannot be given away, so a blanket waiver in a click-through contract is hard to enforce here.\n\nThe other clauses are a practical warning. A provider that can close your account and remove the content at any time, for any reason, is not a safe place to store anything you deliver to a client. The case also gives Italian trade associations a formal route to comment during the consultation.\n\nNothing has been decided yet. Suno did not comment to MBW, and the authority can still accept changes to the terms instead of fining.",
+      "signal": 3,
+      "source": "Music Business Worldwide",
+      "take": "The AGCM is examining the Suno terms that took effect on 3 September 2026. It objects to clauses that let Suno change the service and prices without giving a reason, close accounts and delete content at any time without notice, and require users to waive their moral rights. It also objects to mandatory arbitration in Massachusetts and very broad liability limits. Fines for unfair terms run from €5,000 to €10 million, and a public consultation opens in the coming weeks.",
+      "title": "Italy's competition authority opens a case on Suno's terms of service",
+      "todo": "If a client brings AI-generated elements into a job, keep local copies, note in the delivery paperwork which parts were generated and with which tool, and read the tool's ownership clause before you sign off.",
+      "url": "https://www.musicbusinessworldwide.com/suno-faces-investigation-in-italy-over-its-terms-of-service/"
+    },
+    {
+      "breakthrough": true,
+      "cat": "hearing",
+      "date": "2026-10-06",
+      "deep": "Sound therapy has been used for tinnitus for decades, but most of the evidence came from studies without a proper control. Here the placebo group wore hearing aids that did not amplify, everyone got the same standard counselling, and neither patients nor assessors knew who had which device. A 13-point fall on the TFI is usually taken as clinically meaningful, so both active treatments cleared that bar and placebo did not.\n\nThe limits are clear. Patients used the assigned device for six weeks and then chose their own setup for six more, so the study covers three months only. There was no amplification-only group in the randomised phase. Results apply to people with mild hearing loss and chronic tinnitus, not to normal hearing or to more severe loss.\n\nFor engineers, tinnitus is a common outcome of long exposure. The useful message is that it can often be managed, and that a clinic visit is worth more than waiting for it to fade.",
+      "signal": 3,
+      "source": "Hearing Health & Technology Matters",
+      "take": "A double-blind trial at six French tinnitus clinics, published in Scientific Reports, compared a sound generator, sound generation plus hearing-aid amplification, and a placebo device. 145 adults with mild hearing loss in both ears enrolled and 128 were analysed. Tinnitus Functional Index scores fell about 21 points with the sound generator, 18 with the combined treatment and 6 with placebo. 88%, 77% and 33% respectively reported a meaningful improvement.",
+      "title": "Placebo-controlled trial: sound generators cut tinnitus distress",
+      "todo": "If you have tinnitus that lasts beyond a day after a loud job, book a full audiogram and ask the audiologist specifically about sound-generator therapy.",
+      "url": "https://hearinghealthmatters.org/hearing-news-watch/2026/tinnitus-mild-hearing-loss-sound-therapy/"
+    },
+    {
+      "cat": "post",
+      "date": "2026-10-06",
+      "deep": "Live sport in Atmos is not new; UK broadcasters have offered Atmos football for several seasons. What is new is a global series with a very loud, wide-band soundtrack moving to object-based delivery on a streaming platform that reaches mostly earbuds and soundbars. That puts the work on the downmix and on binaural rendering, not only on the height channels.\n\nF1 is a hard mix. Engines dominate the spectrum, commentary must stay intelligible at home, and team radio is compressed, band-limited speech. How Apple places these elements, and whether radio or commentary is carried as separate objects, has not been disclosed. No details on the outside broadcast setup or the mixing team were given.\n\nThe practical point is demand. Every major sports property that adopts Atmos needs mixers who can build a live immersive mix that still works in stereo, and monitoring rooms to check it.",
+      "signal": 3,
+      "source": "9to5Mac",
+      "take": "Apple will carry its F1 coverage in Dolby Atmos from the US Grand Prix weekend in Austin, starting 23 October, alongside the existing Dolby Vision picture. The mix includes team radio, commentary, engine sound, on-track battles and pit lane. It costs nothing extra on supported devices, but the rights deal is US only. Apple has not said how the mix will be produced.",
+      "title": "Apple TV's Formula 1 coverage switches to Dolby Atmos from 23 October",
+      "todo": "If you mix live or broadcast, practise checking a 5.1.4 or 7.1.4 mix in stereo and binaural at the same time, and note which elements move or disappear in the fold-down.",
+      "url": "https://9to5mac.com/2026/10/06/formula-1-on-apple-tv-is-getting-dolby-atmos-starting-this-month/"
+    },
+    {
+      "cat": "software",
+      "date": "2026-10-05",
+      "deep": "The new versions are new plugin IDs, so old sessions will still look for the iLok builds. Apogee says to keep the old versions installed and authorised so older projects open as they were. That matters for anyone with archived mixes or post sessions that may come back for revisions.\n\nThe Mod EQ 6 and Mod Comp change is the sharper one. Sessions using them will need the old plugins forever, or a manual swap and a check by ear, because the replacement tools will not recall the same settings.",
+      "signal": 2,
+      "source": "Mix",
+      "take": "All Apogee plugins now ship through Plugin Alliance, which, like Brainworx and Apogee Electronics, sits under Dirk Ulrich's company RCKFRC. Existing owners get the new versions free, with resizable windows and three activations instead of two, and no iLok. Mod EQ 6 and Mod Comp are not carried over; their owners get free premium EQ and compressor plugins from the Plugin Alliance catalogue instead.",
+      "title": "Apogee plugins move to Plugin Alliance and drop iLok",
+      "todo": "Keep the old Apogee iLok plugins installed, and add a note to any archived session that uses Mod EQ 6 or Mod Comp.",
+      "url": "https://www.mixonline.com/business/apogee-plug-ins-move-to-plugin-alliance"
+    },
+    {
+      "cat": "plugins",
+      "date": "2026-10-06",
+      "deep": "Drum replacement has long relied on per-track triggering with threshold tweaks and a second pass to fix missed or false hits. Seeing and editing the detected hits directly is the main workflow change, and ARA 2 removes the need to play the track through in real time.\n\nKit Mode on the bus is useful for quick demos or rescues, but with bleed between mics, results will depend on how clean the detection is. Test it on a real multitrack with spill before trusting it on a client mix. VST3, AU and AAX plus a standalone app; Windows 10+ and macOS 10.13+.",
+      "signal": 2,
+      "source": "Sound On Sound",
+      "take": "WaveMachine Labs has rebuilt Drumagog, its first major update in over 20 years. Detected hits appear on the waveform for timing and velocity editing, the library is ranked by how closely sounds match your track, every hit can be exported as MIDI, and ARA 2 lets compatible DAWs read the whole track at once. Kit Mode, in the $199 Platinum edition, replaces a full kit from one instance on the drum bus; Pro is $99.",
+      "title": "Drumagog 6 is rebuilt, with ARA 2 and whole-kit replacement",
+      "url": "https://www.soundonsound.com/news/wavemachine-labs-drumagog-6-arrives"
+    },
+    {
+      "cat": "plugins",
+      "date": "2026-10-06",
+      "deep": "Free mastering chains rarely come in AAX with proper loudness and true-peak meters, so this is a useful spare for Pro Tools users. It is handy for quick reference masters, client previews and loudness checks on stems.\n\nIt will not replace a dedicated limiter for final delivery, but having LUFS and true-peak readings in the same window as the limiter makes it easy to see whether a preview is near a streaming or broadcast target.",
+      "free": true,
+      "signal": 2,
+      "source": "Bedroom Producers Blog",
+      "take": "HoRNet's Butterfly, normally €37.99, is free until 10 October through Bedroom Producers Blog with the code BPBBUTTERFLY and a free HoRNet account. It combines up to six EQ bands, a compressor, a clipper and a limiter in one window, with momentary, short-term and integrated LUFS and true-peak metering. AU, VST, VST3 and AAX; macOS 10.11+ with native Apple Silicon, Windows 7+.",
+      "title": "Free until 10 October: HoRNet Butterfly mastering chain",
+      "todo": "Claim it before Friday and keep the installer in your archive, as the offer ends on 10 October.",
+      "url": "https://bedroomproducersblog.com/2026/10/06/bpb-exclusive-hornet-butterfly/"
+    },
+    {
+      "cat": "industry",
+      "date": "2026-10-06",
+      "deep": "Unmatched money is what's left when a stream can't be linked to a registered song and its owners. Once it is distributed by market share, the chance to claim that specific month is gone, and the money goes to whoever is already well registered.\n\nThis matters for producers and engineers who have writing or co-writing credits on music streamed in the US, including Italian writers whose works reach The MLC only through a publisher or administrator. Missing splits, wrong ISRC-to-work links or unregistered co-writes are the usual reasons money goes unmatched.",
+      "signal": 2,
+      "source": "Music Business Worldwide",
+      "take": "The US Mechanical Licensing Collective has paid out $4.2 billion of nearly $5 billion processed since January 2021, with over 100,000 members and a match rate above 92%. From April 2027 it will distribute unmatched royalties song by song, pro rata, starting with January 2021 usage, about $6 million for that month. Publishers and administrators must pass at least 50% of that money to songwriters.",
+      "title": "The MLC will pay out unclaimed royalties by market share from April 2027",
+      "todo": "If you have writing credits, search your songs in The MLC's public database and check that your share and the recordings are linked correctly.",
+      "url": "https://www.musicbusinessworldwide.com/the-mlc-has-paid-out-more-than-4-2bn-to-songwriters-and-publishers-to-date-and-will-begin-market-share-distributions-of-unmatched-and-unclaimed-royalties-in-april-2027/"
+    },
+    {
+      "cat": "gear",
+      "date": "2026-10-06",
+      "deep": "A normal measurement setup chains a capsule, phantom power, a preamp, an interface and a calibration file that must stay paired with the right mic. Putting the converter and the calibration in the mic removes most of that, and matched, time-synced units make multi-position measurements easier.\n\nThe product is aimed at industrial monitoring and acoustic testing, and the article does not say whether it runs on PoE or which measurement software supports it. The 128 dB SPL ceiling is fine for rooms and monitors but low for close measurements of large PA.",
+      "signal": 2,
+      "source": "audioXpress",
+      "take": "The Hague-based RESONIKS has launched a measurement mic with the converter built in and a single locking M12 Ethernet connection. It covers 20 Hz–80 kHz within ±0.5 dB, samples at up to 192 kHz, has 22.5 dB(A) self-noise and overloads at 128 dB SPL (10% THD). Calibration data is stored in each mic, units match within ±0.5 dB, and an optional ARK141 hub syncs up to 14 mics to within 100 ns. €1,170 each.",
+      "title": "RESONIKS MPK801: a measurement microphone on an Ethernet cable",
+      "url": "https://audioxpress.com/news/resoniks-introduces-mpk-ethernet-measurement-microphone-with-hz-khz-bandwidth"
+    },
+    {
+      "cat": "live",
+      "date": "2026-10-06",
+      "deep": "Long coax runs lose RF signal and pick up noise, so in large venues the fix is often to convert to fibre at the antenna and back to RF at the receivers. That keeps receive antennas close to where performers actually stand without losing signal.\n\nThe story is a useful reference design from Wisycom, an Italian maker. It also shows that most dropout problems are about antenna placement and cabling, not the receivers themselves.",
+      "signal": 2,
+      "source": "FOH",
+      "take": "Sutter Health Park in Sacramento, temporary home of the Oakland A's, has replaced a wireless system that dropped out during MLB broadcasts. Sacramento Production Services fitted ten Wisycom antennas: four in the outfield, fed over fibre with BFL-T2 and BFL-R2 links, and six in pairs across the stands, roof and concourse. The setup uses MAT244 combiners, LFA wideband and ADFA active directional antennas; the farthest outfield point is about 460 ft from the nearest antenna.",
+      "title": "Wisycom antenna-over-fibre fixes RF dropouts at a ballpark",
+      "url": "https://fohonline.com/newsroom/news/sutter-health-park-upgrades-with-wisycom-wireless-system/"
+    },
+    {
+      "cat": "ai",
+      "date": "2026-10-05",
+      "deep": "The article covers text only, but the same AI Act duty applies to providers of systems that generate synthetic audio, including voices and music. Expect watermarks or metadata in TTS, voice-cloning and generative audio tools used in EU work, and expect clients and broadcasters to start asking how AI-generated elements in a mix are labelled.\n\nFor post and ADR, the open question is whether processing with a watermarked tool leaves marks in the final mix, and whether later edits remove them. Vendors have not published much on that.",
+      "signal": 2,
+      "source": "TechCrunch",
+      "take": "OpenAI will add an invisible watermark to text from ChatGPT and Codex for EU users in the coming weeks. Developers using the API anywhere can opt in, and only approved researchers get the detector. TechCrunch links the move to the AI Act transparency rules in force since 2 August 2026, which require AI-generated content to be marked so other systems can detect it.",
+      "title": "AI Act in practice: OpenAI will watermark ChatGPT text in the EU",
+      "todo": "Ask the vendors of any voice or generative audio tool you use how they meet the AI Act marking rules, and keep the answer with your project notes.",
+      "url": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/"
+    },
+    {
+      "cat": "post",
+      "date": "2026-10-05",
+      "deep": "Small Atmos rooms need the same speaker management as large stages: level, delay and bass management per speaker, plus quick switching between formats. Many people buy an MTRX or a dedicated controller for this. Reichman's point is that an interface with enough DSP and AES outputs can do the job if you set it up carefully.\n\nIt is a single user's experience rather than a review, but it is a useful checklist of what a monitor controller for immersive work must handle.",
+      "signal": 2,
+      "source": "Production Expert",
+      "take": "Re-recording mixer Nathaniel Reichman revisits his Metric Halo monitoring setup. It gives ganged 7.1.4 level control with per-speaker bass management, delay and EQ, and runs Atmos, 5.1, binaural and stereo monitoring together at 48 or 96 kHz. The Satellite Computer Port moves 16–32 channels of monitoring or streaming to a second computer. He calls it economical next to Avid MTRX, but gives no prices.",
+      "title": "Metric Halo interfaces as an Atmos monitor controller, six years on",
+      "url": "https://www.production-expert.com/production-expert-1/using-metric-halo-interfaces-as-an-immersive-monitor-controller-revisited"
+    },
+    {
+      "cat": "live",
+      "date": "2026-10-06",
+      "signal": 1,
+      "source": "FOH",
+      "take": "The Box at Trilith LIVE in Fayetteville, Georgia, has a 180° thrust stage with no seat more than 75 ft away. It uses seven hangs of d&b XSL and A-Series, five hangs of cardioid SL-Sub and 44S front fills in the stage lifts. Two DS100 processors run En-Scene and En-Space, with 15 ArrayCalc presets, and the room is prepared for a future 360° layout.",
+      "title": "A 2,200-seat venue opens with d&b Soundscape as the house system",
+      "url": "https://fohonline.com/featured/the-box-at-trilith-live-opens-with-db-soundscape-system/"
+    },
+    {
+      "cat": "plugins",
+      "date": "2026-10-05",
+      "signal": 1,
+      "source": "Bedroom Producers Blog",
+      "take": "DEVPROAUDIO's REVERSIDE uses two engines: up to 200 early reflections set by room size and absorption, and 14 diffusion models for the tail. You place source and listener in a 3D room and position direct sound, early reflections and tail separately, with M/S and spectral panning. $135 / €120; VST3 and CLAP on Windows and macOS, AU on macOS.",
+      "title": "REVERSIDE places source and listener in a 3D room",
+      "url": "https://bedroomproducersblog.com/2026/10/05/devproaudio-reverside-reverb/"
+    },
+    {
+      "cat": "plugins",
+      "date": "2026-10-06",
+      "free": true,
+      "signal": 1,
+      "source": "KVR Audio",
+      "take": "Places offers six invented spaces plus concert hall, hall, room and three plates, with 0–500 ms pre-delay, mono and stereo modes and no reported latency. It is free as VST3 on Windows, macOS and Linux, and as AU on macOS.",
+      "title": "Free: Leit Audio Places, an algorithmic reverb with 12 spaces",
+      "url": "https://www.kvraudio.com/news/leit-audio-releases-places---free-algorithmic-reverb-plugin-with-twelve-distinct-spaces-vst3-and-au-68808"
+    },
+    {
+      "cat": "plugins",
+      "date": "2026-10-06",
+      "free": true,
+      "signal": 1,
+      "source": "KVR Audio",
+      "take": "TapeEngine has 20 modules, including wow, flutter, drift, dropouts, crosstalk, head bump and six noise types such as hiss and hum, plus a single condition control from pristine to broken. It is useful for ageing archive-style sound in post. Free, VST3 for Windows 10+ only.",
+      "title": "Free: PhotonDSP TapeEngine for worn and broken tape",
+      "url": "https://www.kvraudio.com/news/photondsp-releases-tapeengine---free-tape-simulator-plugin-vst3-windows-68913"
+    },
+    {
+      "cat": "plugins",
+      "date": "2026-10-06",
+      "signal": 1,
+      "source": "KVR Audio",
+      "take": "Foam is a tempo-synced reverb that ducks its own tail by up to 36 dB from the input or an external sidechain, with a tail shaper and zero latency. It keeps long tails out of the way of dialogue or vocals without extra routing. $49, macOS 11+ only, VST3, AU and AAX.",
+      "title": "Carbonated Audio Foam: a reverb that ducks itself",
+      "url": "https://www.kvraudio.com/news/carbonated-audio-releases-foam---tempo-synced-ducking-reverb-for-macos-vst3-au-aax-68921"
+    },
+    {
+      "cat": "plugins",
+      "date": "2026-10-06",
+      "free": true,
+      "signal": 1,
+      "source": "KVR Audio",
+      "take": "KERN Audio has added AAX to all six of its plugins, including Smooth (resonance suppression), Warm, Wide, Push and Open. Check, a free mono-compatibility analyser, is now usable in Pro Tools too. The paid plugins are $29 each on macOS and Windows.",
+      "title": "KERN Audio comes to Pro Tools, and its mono checker stays free",
+      "url": "https://www.kvraudio.com/news/kern-audio-adds-aax-to-all-six-plugins-pro-tools-macos-and-windows-68715"
+    },
+    {
+      "cat": "ai",
+      "date": "2026-10-06",
+      "signal": 1,
+      "source": "KVR Audio",
+      "take": "sonicLAB's SPATAI uses a language model to move sound objects and sends the coordinates to renderers such as L-Acoustics L-ISA, Holophonix, TiMax2, SpatRevolution, IRCAM Spat, IEM and Yamaha AFC. Version 3 adds MCP support so it can be driven from Claude Desktop or ChatGPT; KVR says processing stays local with no token cost. £20, free update for owners, VST2/VST3/AU.",
+      "title": "SPATAI v3 moves spatial objects from a chat prompt",
+      "url": "https://www.kvraudio.com/news/soniclab-releases-spatai-v3-68928"
+    },
+    {
+      "cat": "instruments",
+      "date": "2026-10-06",
+      "signal": 1,
+      "source": "Sonic State",
+      "take": "UDO's DMNO ON is an 8-voice, two-part hybrid synth with two FPGA oscillators and an analogue stereo filter per voice, a binaural 3D mode and DSP effects. It has a built-in 2-in/2-out USB audio interface. Sonic State lists it at £2,099, coming soon, with an ONM-1 control expander at £659.",
+      "title": "UDO DMNO ON: the DMNO synth in desktop form with a USB interface",
+      "url": "https://sonicstate.com/news/2026/10/06/udo-dmno-on-desktop-system/"
+    },
+    {
+      "cat": "instruments",
+      "date": "2026-10-06",
+      "signal": 1,
+      "source": "Synthtopia",
+      "take": "Capicola is a 12HP module that stretches stereo audio in real time, with time and pitch (±12 semitones) set separately. It also detects and slices transients, and has two envelope followers. It processes at 48 kHz/24-bit, costs $389.99, and its firmware is open source.",
+      "title": "Hermetic Capicola: real-time time-stretching in Eurorack",
+      "url": "https://www.synthtopia.com/content/2026/10/06/hermetic-modular-capicola-brings-real-time-time-stretching-to-eurorack/"
+    },
+    {
+      "cat": "live",
+      "date": "2026-10-06",
+      "signal": 1,
+      "source": "Gearnews",
+      "take": "HK Audio's updated modular column PA uses 90°×5° columns with six 3.25-inch drivers and tool-free SnapLock stacking. Subs are a 10-inch 110 Sub A ($1,622 / €1,699) and a 15-inch 115 Sub A ($2,333 / €2,499), with a column at $565 / €599. FOH lists Milan AVB networking and app-based EQ, delay and limiting. Pre-orders are open, with shipping in November 2026.",
+      "title": "HK Audio ELEMENTS MK2 column system ships in November",
+      "url": "https://www.gearnews.com/hk-audio-elements-mk2-live/"
+    },
+    {
+      "cat": "live",
+      "date": "2026-10-05",
+      "signal": 1,
+      "source": "FOH",
+      "take": "Famous Engineering's 3U A.P.E. server hosts third-party plugins at shows, with an Intel Core i9-14900K, 64 GB of RAM and up to 192 kHz/24-bit. I/O options are MADI, Dante or Milan, with dual redundant 700 W power supplies and redundant networking. No price, latency figure or ship date has been given.",
+      "title": "Famous A.P.E.: a rugged plugin server for FOH with Dante or Milan",
+      "url": "https://fohonline.com/blogs/new-gear/famous-engineering-famous-ape-plug-in-server/"
+    },
+    {
+      "cat": "hearing",
+      "date": "2026-10-06",
+      "signal": 1,
+      "source": "HearingTracker",
+      "take": "Montpellier biotech Sensorion has French clearance to start clinical trials of SENS-601, a gene therapy for hearing loss caused by GJB-family mutations, which account for about 22% of genetic hearing loss. There are no human safety or efficacy data yet, and enrolment and trial phase were not reported.",
+      "title": "Sensorion gets French approval to trial gene therapy SENS-601",
+      "url": "https://news.hearingtracker.com/news/5917bfac-87d2-4a78-bd8a-0271c70477f0"
+    },
+    {
+      "cat": "science",
+      "date": "2026-10-05",
+      "signal": 1,
+      "source": "Scienmag",
+      "take": "A study in iScience used AudioMoth recorders at 27 sites across Israel, recording full-spectrum at 96 kHz for 1,151 nights, to log 95,473 bat encounters from 11 species. Urban sites ran about 2 °C warmer, and city bats reacted less to wind, temperature and moonlight. It shows how far cheap passive recorders now go in research.",
+      "title": "1,151 nights of AudioMoth recordings show city bats ride out the weather",
+      "url": "https://scienmag.com/city-life-shields-bats-from-weather-swings-landmark-acoustic-survey-reveals/"
+    }
+  ],
+  "key": "2026-10-07",
+  "label": "Wed 7 Oct 2026",
+  "lead": "Italy's competition authority has opened a case against Suno's terms of service, including a clause that makes users give up moral rights, which Italian law does not allow. A placebo-controlled trial gives the best evidence so far that sound generators reduce tinnitus distress. Apple will carry its US Formula 1 coverage in Dolby Atmos from 23 October, another big live property moving to object-based audio. On the tools side, Apogee's plugins move to Plugin Alliance without iLok, Drumagog is rebuilt after 20 years, and a solid free mastering chain is on offer until Friday.",
+  "period": "day",
+  "radar": [
+    {
+      "date": "2026-10-10",
+      "note": "Claim the mastering chain with code BPBBUTTERFLY before it returns to €37.99.",
+      "title": "HoRNet Butterfly free offer ends",
+      "url": "https://bedroomproducersblog.com/2026/10/06/bpb-exclusive-hornet-butterfly/"
+    },
+    {
+      "date": "2026-10-23",
+      "note": "Starts with the US Grand Prix weekend in Austin; US only.",
+      "title": "F1 on Apple TV goes Dolby Atmos",
+      "url": "https://9to5mac.com/2026/10/06/formula-1-on-apple-tv-is-getting-dolby-atmos-starting-this-month/"
+    },
+    {
+      "date": "2026-10-30",
+      "note": "The first AES Convention in Nashville, with an immersive and spatial audio focus.",
+      "title": "AES Show Nashville, 30 Oct – 1 Nov",
+      "url": "https://www.prosoundweb.com/immersive-spatial-audio-to-take-center-stage-at-aes-show-nashville-2026/"
+    },
+    {
+      "note": "Italian trade associations and consumer groups will be able to comment on the AGCM website.",
+      "title": "AGCM consultation on Suno's terms",
+      "url": "https://www.musicbusinessworldwide.com/suno-faces-investigation-in-italy-over-its-terms-of-service/",
+      "when": "Coming weeks"
+    }
+  ],
+  "range": "5–7 Oct 2026"
+}

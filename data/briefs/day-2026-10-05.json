@@ -1,0 +1,267 @@
+{
+  "craft": {
+    "body": "Free tools like Plug-in Bench and the new no-iLok Soft Limit make it a good week to clean your plugin folder. Keep a simple list of every plugin you use on paid work, with version, format, licence type and whether it is confirmed on your current OS.\n\nBefore an OS or DAW update, test the list on a spare machine or a cloned drive, and keep old installers and old versions until every live session has been printed or archived. A session that opens with missing plugins in front of a client costs more than any update saves.",
+    "title": "Audit plugins before the session, not during it"
+  },
+  "generated": "2026-10-05T07:20:00+02:00",
+  "headline": "Milan desks, licensed AI, free fixes",
+  "items": [
+    {
+      "cat": "live",
+      "date": "2026-10-01",
+      "deep": "Until now a RIVAGE feeding a Milan-native PA, such as a Meyer GALAXY or d&b system on Milan, usually went through Dante and a separate bridge, or through AES3 or analogue. With a Milan card in the console the desk can join that network directly. Milan's clocking and stream reservation are defined by the protocol, so you get fewer boxes and fewer clock domains to argue about at line check.\n\nThe card does 64x64 at 96 kHz. That is plenty for PA and matrix feeds, but it is not a stagebox network, which stays on Dante or TWINLANe. The press material does not say how redundancy is set up on the card, so check before you rely on it. The rest of the update is ecosystem work: smaller DM5 desks and RUio utility boxes can now be watched and controlled from the RIVAGE surface, which helps on festival and corporate builds that mix sizes of Yamaha gear.",
+      "signal": 3,
+      "source": "TPi",
+      "take": "RIVAGE PM firmware V7.20 adds support for the AuviTran AV-HY64-AVB card, which carries up to 64 inputs and 64 outputs at 96 kHz on AVB Milan networks. The update also brings DM5 and DM5 Compact consoles, the RUio1608SB-D, RUio0804-D and RUio16FLX-D I/O units and DME5/DME3 processors into the RIVAGE system for monitoring and control.",
+      "title": "Yamaha RIVAGE PM firmware 7.20 puts the flagship on Milan networks",
+      "todo": "If you mix on RIVAGE into Milan PA systems, ask the system tech or rental house whether they plan to stock the AV-HY64-AVB card before you spec a bridge.",
+      "url": "https://www.tpimagazine.com/new-yamaha-rivage-pm-firmware-to-enhance-connectivity-and-control/"
+    },
+    {
+      "cat": "ai",
+      "date": "2026-10-02",
+      "deep": "This is the other side of the litigation story. While UMG and Sony keep suing Suno, all three majors now own part of a rival model trained on their licensed catalogues. 'Trained on licensed data' is turning into a sales line, and clients and music supervisors will start to ask which tools were used and what they were trained on.\n\nFor working engineers the near-term effect is in tools, not in replacing sessions. Short instrumental beds, stingers and editable snippets are the stated target, and humming or beatboxing to steer the output is a production workflow, not a consumer toy. Nothing in the report covers output ownership, pricing for professional use or how stems are delivered. Until those terms are public, treat generated material as library content with unclear rights.",
+      "signal": 3,
+      "source": "TechCrunch",
+      "take": "TechCrunch reports that Sean Parker is steering Stability AI towards music. In late August it raised $76M from Sony, Warner and Universal, which also licensed their catalogues for training. It has since released three audio models and music-editing software that make instrumentals and snippets from text, and an update will let users hum or beatbox to steer the output.",
+      "title": "Stability AI rebuilds itself around licensed music generation",
+      "todo": "Add a line to your delivery notes that lists any generative tools used and their licence terms, so the question is answered before it is asked.",
+      "url": "https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music/"
+    },
+    {
+      "cat": "plugins",
+      "date": "2026-10-03",
+      "deep": "Match EQ is old, but most free versions are static. This one compares the dynamic range of each band between reference and source, so it can behave more like a multiband tool that pulls a part towards the reference only when it strays.\n\nThe Carve mode is the useful one for post and mixing. Put dialogue on the sidechain and let a music or ambience bus give way only where the voice lives, cut-only, without hand-drawing a dozen notches. Zero Latency mode drops the dynamics and goes minimum-phase, so it can sit in a tracking or live chain. As with any match EQ, the result is only as good as the reference and its level match: feed it a reference at a different loudness or with different content and it will chase the wrong thing.",
+      "free": true,
+      "signal": 2,
+      "source": "Bedroom Producers Blog",
+      "take": "Polarity MEQ learns a reference spectrum and builds a matching EQ curve, with adjustable dynamic behaviour and Mean or Median averaging across a reference library. A sidechain Carve mode makes cut-only space for one source against another, and there are Mid/Side, a 4096-sample Mastering mode and a minimum-phase Zero Latency mode. VST3, CLAP, LV2 and standalone on Windows, macOS and Linux, plus AU on Mac; no account or iLok.",
+      "title": "Free: Polarity MEQ, a dynamic match EQ with a carve mode",
+      "todo": "Try Carve on a music bus keyed from the dialogue bus and compare it against your usual manual dip at 2–4 kHz.",
+      "url": "https://bedroomproducersblog.com/2026/10/03/polarity-meq-dynamic/"
+    },
+    {
+      "cat": "plugins",
+      "date": "2026-10-02",
+      "deep": "Soft Limit was a staple on tracking and mastering chains because it rounds off overs gently before they hit the converter, rather than acting as a loud brickwall. At 16 samples of latency it is light enough to leave on a channel while tracking.\n\nThe catch is housekeeping. Version 1.1.0 installs separately from the old Apogee/iLok edition, so old sessions that used the iLok version will not load the new one in its place. Keep the old install until those sessions are archived or printed.",
+      "free": true,
+      "signal": 2,
+      "source": "Bedroom Producers Blog",
+      "take": "Plugin Alliance now adds Apogee Soft Limit to every free account automatically, with no coupon. It models the soft peak limiter from Apogee's AD-500 converter, with 4x, 8x or 16x oversampling at a fixed 16 samples of latency. VST3, AU, AAX Native and AAX AudioSuite.",
+      "title": "Apogee Soft Limit is free again, now without iLok",
+      "todo": "Check older Pro Tools sessions for the iLok version of Soft Limit before you uninstall it.",
+      "url": "https://bedroomproducersblog.com/2026/10/02/apogee-soft-limit-free-again/"
+    },
+    {
+      "cat": "post",
+      "date": "2026-10-04",
+      "deep": "Most location-sound articles cover gear. This one is about conditions: remote access to set, constant rain and surf, and child actors who move unpredictably and cannot be re-miked every take. Schurr's approach leans on the boom operator and on accepting the natural soundscape rather than fighting it.\n\nThe ambisonic ambiences are worth noting. Capturing first-order ambisonics on location costs little time and gives the post team a set of matching beds they can decode to stereo, 5.1 or Atmos later. The article also covers a naming scheme for those ambiences, which is the detail that decides whether post actually uses them.",
+      "signal": 2,
+      "source": "A Sound Effect",
+      "take": "A Sound Effect talks to Singapore-based mixer Ande Schurr about recording the Netflix/BBC Lord of the Flies in the Langkawi archipelago and Monkey Man. Topics include keeping gear dry through tropical storms, hiding lavs on boys' costumes, booming beach and wave scenes, and recording ambisonic ambiences overnight with a Sennheiser Ambeo and a Zoom H3-VR.",
+      "title": "Production sound in the rain: Ande Schurr on Lord of the Flies",
+      "todo": "On your next exterior shoot, record five minutes of ambisonic room tone per location with a clear name, even if nobody asked for it.",
+      "url": "https://www.asoundeffect.com/lord-of-the-flies-sound/"
+    },
+    {
+      "breakthrough": true,
+      "cat": "hearing",
+      "date": "2026-10-01",
+      "deep": "Age-related hearing loss is usually treated as wear and tear on hair cells. This work points at the blood-labyrinth barrier and at a hormone signal upstream of it, which gives drug developers a target that is not the hair cell itself.\n\nIt is a mouse study. Nobody has shown the same chain in humans, and partial restoration of the barrier in mice is a long way from a treatment. For engineers the practical message has not changed: noise damage and ageing add up, and protection now is the only proven measure. But this is one of the few lines of work aimed at the slow loss that ends most mixing careers.",
+      "signal": 2,
+      "source": "Scienmag (Aging Cell)",
+      "take": "A study in Aging Cell reports that as the hormone IGF-1 declines with age, a chain of damage follows in the inner ear and ends with a breakdown of its protective blood barrier. In the study, 85% of aged mice had impaired hearing, with thresholds raised from 4 to 32 kHz. Giving IGF-1, or blocking the TGF-beta receptor, partly restored the barrier and improved thresholds.",
+      "title": "Mouse study links falling IGF-1 to age-related hearing loss",
+      "url": "https://scienmag.com/aging-hormone-signal-reveals-hidden-trigger-of-age-related-hearing-loss/"
+    },
+    {
+      "cat": "software",
+      "date": "2026-10-01",
+      "deep": "With macOS 27 out and Rosetta 2 no longer installed by default, many engineers are checking plugins one at a time. Doing that inside a big session risks crashing the session. A standalone bench lets you load each plugin, throw parameter changes at it and read the reported latency before it goes anywhere near client work.\n\nIt is aimed partly at developers, with hot reload and screenshot tools, but the stress test and latency report are useful to anyone auditing a plugin folder after an OS update.",
+      "free": true,
+      "signal": 2,
+      "source": "Bedroom Producers Blog",
+      "take": "Plug-in Bench is a free host for VST3 and AU on macOS 11+ and VST3 on Windows 10+. It feeds plugins test signals, files, live input, MIDI or sidechain, reports CPU, latency and memory, and runs a 'Move Parameters' stress test that catches crashes and bad parameter values. Free with name and email registration, for three computers.",
+      "title": "Free: Klein Soundworks Plug-in Bench tests plugins outside the DAW",
+      "todo": "Run your ten most-used plugins through the stress test on a spare machine before you update your main rig.",
+      "url": "https://bedroomproducersblog.com/2026/10/01/klein-soundworks-plug-in-bench/"
+    },
+    {
+      "cat": "science",
+      "date": "2026-10-03",
+      "deep": "This is population data, not a lab result, and it shows an association, not proof of cause. Its size makes it hard to dismiss, and it gives a number to something acousticians argue for when they design buildings: a quiet side matters.\n\nFor engineers it is useful context in two places. When you advise on studio or home-studio builds, façade isolation and room layout affect wellbeing, not just recordings. And when you work on noise assessments or community events, the cost of chronic exposure is now measured on a very large sample.",
+      "signal": 2,
+      "source": "Scienmag (Lancet Regional Health – Europe)",
+      "take": "A Danish study in The Lancet Regional Health – Europe followed 2,941,456 adults aged 25–65 for a mean of 12 years. Each 11.7 dB rise in five-year mean road noise at the loudest façade was linked to a 4% higher risk of depression. A quiet side of the home, more than about 10 dB quieter than the loud side, appeared protective.",
+      "title": "Road noise raises depression risk in a study of 2.9 million adults",
+      "url": "https://scienmag.com/traffic-noise-raises-depression-risk-in-landmark-study-of-nearly-three-million-adults/"
+    },
+    {
+      "cat": "plugins",
+      "date": "2026-10-03",
+      "deep": "Wide synths, stereo-miked bass instruments and some reverbs put anti-phase energy in the low mids, which vanishes on mono phones and club systems. The usual fixes are to mono the lows with an M/S filter or to rebuild the part. PhaXer instead rotates phase in the chosen band to raise correlation, which keeps some width above it.\n\nThe developer is clear that it is not for aligning separate mic tracks. Check the result in mono and on the correlation meter, because phase rotation can change transients.",
+      "free": true,
+      "signal": 2,
+      "source": "Bedroom Producers Blog",
+      "take": "PhaXer v2.1 is now free. It improves left-right phase correlation within one stereo signal, targeted at a chosen frequency band, for when the low end loses weight in mono. It has a correlation meter at 1/1, 1/3 or 1/6-octave resolution, and v2.1 adds linear filtering. AU, VST, VST3 and AAX on macOS 10.15+ and Windows 10/11.",
+      "title": "Free: Soundins PhaXer fixes stereo phase correlation in a band",
+      "url": "https://bedroomproducersblog.com/2026/10/03/soundins-phaxer-free/"
+    },
+    {
+      "cat": "plugins",
+      "date": "2026-10-02",
+      "free": true,
+      "signal": 1,
+      "source": "Bedroom Producers Blog",
+      "take": "RiverFlux Audio's Relic bundle has five compressors (opto, tube opto, VCA, FET and stereo vari-mu), five EQs and two tape machines, with up to 8x oversampling. VST3 and CLAP on Windows and Linux, plus AU on Mac. Name-your-price on Gumroad; no AAX, and the Mac download is 617 MB.",
+      "title": "Free: RiverFlux Relic, 12 analogue-style processors",
+      "url": "https://bedroomproducersblog.com/2026/10/02/riverflux-audio-relic/"
+    },
+    {
+      "cat": "hearing",
+      "date": "2026-10-04",
+      "signal": 1,
+      "source": "Hearing Health & Technology Matters",
+      "take": "US audiologists and the American Suppressor Association launched an annual Ear SHIELD Day on 2 October. Their figures put gunshot peaks at about 130–175 dB, with suppressors cutting about 7–32 dB depending on firearm, ammunition and setting. Their message is to use suppressors and fitted protection together.",
+      "title": "Ear SHIELD Day puts numbers on gunfire exposure",
+      "todo": "If you record gunfire for film or game libraries, plan protection for the whole crew, including whoever stands near the recorder, not only the shooter.",
+      "url": "https://hearinghealthmatters.org/hearing-news-watch/2026/ear-shield-day-noise/"
+    },
+    {
+      "cat": "gear",
+      "date": "2026-10-02",
+      "free": true,
+      "signal": 1,
+      "source": "Zoom",
+      "take": "Zoom released H6studio v1.60 and H5studio v1.70. The updates fix stereo link resetting after a reboot when the EXH-6e capsule is fitted, and the line output level not being kept after a reboot.",
+      "title": "Zoom H6studio and H5studio firmware fixes settings lost on reboot",
+      "todo": "Update before your next job if you use either recorder with a camera link on the line out.",
+      "url": "https://zoomcorp.com/en/us/news/h6studio-h5studio-update/"
+    },
+    {
+      "cat": "live",
+      "date": "2026-10-01",
+      "signal": 1,
+      "source": "ProSoundWeb",
+      "take": "The 2,195-seat Dreyfoos Hall in West Palm Beach replaced 18-year-old MICA arrays with 12 TIGRA per side, an ULTRA-X centre cluster and balcony fills, and ten 1800-LFC subs in gradient arrays. Two GALAXY 408 processors with Spacemap Go and an Avid S6L 32D run on redundant Milan AVB, with dual Ethernet to every loudspeaker.",
+      "title": "Kravis Center pairs Meyer TIGRA with 1800-LFC subs on Milan",
+      "url": "https://www.prosoundweb.com/kravis-center-in-florida-first-to-incorporate-meyer-sound-tigra-1800-lfc-combination/"
+    },
+    {
+      "cat": "live",
+      "date": "2026-10-01",
+      "signal": 1,
+      "source": "TV Tech",
+      "take": "Mesh Broadcast Services in British Columbia fitted a 36-fader Calrec Argo M in its 40-foot Eclipse truck, with three Type R analogue I/O boxes and a DirectOut Prodigy MX for MADI and Dante. It debuted on the six-week Vancouver FIFA Fan Festival and runs 10–12 events a month.",
+      "title": "Small OB truck builds around Calrec Argo M with Dante and MADI",
+      "url": "https://www.tvtechnology.com/production/remote-production/mesh-broadcast-services-adds-calrec-argo-m-console"
+    },
+    {
+      "cat": "gear",
+      "date": "2026-10-04",
+      "signal": 1,
+      "source": "Sound On Sound",
+      "take": "The second-generation MV6 adds an adjustable auto-level mode, an adjustable real-time denoiser, a five-band EQ with speech, singing and instrument presets, and a digital pop filter. It costs $169 and is available now.",
+      "title": "Shure MV6 Gen 2 adds an adjustable denoiser to a $169 USB mic",
+      "url": "https://www.soundonsound.com/news/shures-mv6-gets-gen-2-upgrade"
+    },
+    {
+      "cat": "instruments",
+      "date": "2026-10-02",
+      "signal": 1,
+      "source": "Synth Anatomy",
+      "take": "The Larynx is a 37-key keyboard version of the SER-2020 formant synth, with two CEM3340 oscillators, three CEM3350 filters and 16 vowel-formant presets, plus MPE, CV, delay, arpeggiator and sequencer. Fifty units at €1,124.09 introductory, normally €1,249.",
+      "title": "AnalogFX Larynx: an analogue formant synth with a keyboard",
+      "url": "https://synthanatomy.com/2026/10/analogfx-larynx-the-ser-2020-formant-analog-keyboard-synthesizer-with-extras.html"
+    },
+    {
+      "cat": "instruments",
+      "date": "2026-10-01",
+      "free": true,
+      "signal": 1,
+      "source": "Synth Anatomy",
+      "take": "A free firmware update for the $399 Coral Eurorack voice adds six engines, from 21 to 27, plus a drone mode. A browser tool lets users build their own firmware with up to ten engine slots.",
+      "title": "OXI Coral 3.0 firmware adds six engines and custom builds",
+      "url": "https://synthanatomy.com/2026/10/oxi-instruments-coral-3-0-synth-voice-gets-new-engines-and-build-your-own-firmware.html"
+    },
+    {
+      "cat": "instruments",
+      "date": "2026-10-02",
+      "signal": 1,
+      "source": "Mixdown",
+      "take": "The EP-2350 FX MIC has echo, spring, 'pixie' and robot effects, four sample slots, a lever for live control and presets loaded as JSON files. It runs on two AAA batteries or USB-C and outputs line level on 3.5 mm. Price was not reported.",
+      "title": "teenage engineering EP-2350: a handheld mic with built-in effects",
+      "url": "https://mixdownmag.com.au/news/introducing-teenage-engineering-ep-2350-fx-mic/"
+    },
+    {
+      "cat": "software",
+      "date": "2026-10-04",
+      "signal": 1,
+      "source": "CDM",
+      "take": "Aaltoverb is in beta on Linux as a $35 CLAP plugin, tested on Ubuntu and Mint. Aalto 2 is due this autumn for Mac, Windows and Linux with CLAP, as a free upgrade for Aalto owners.",
+      "title": "Madrona Labs ships its first Linux plugin; Aalto 2 due this autumn",
+      "url": "https://cdm.link/aalto2-aaltoverb-linux/"
+    },
+    {
+      "cat": "science",
+      "date": "2026-10-03",
+      "signal": 1,
+      "source": "Scienmag (Complex & Intelligent Systems)",
+      "take": "Researchers at Donghua University solved for the positions and starting phases of active noise-control speakers in one optimisation and report an average 17.2 dB reduction in target zones. The results are from MATLAB and COMSOL simulations only, not a real room.",
+      "title": "Algorithm places anti-noise speakers and sets their phase together",
+      "url": "https://scienmag.com/smarter-anti-noise-hybrid-algorithm-places-speakers-and-phases-to-quiet-rooms/"
+    },
+    {
+      "cat": "industry",
+      "date": "2026-10-02",
+      "signal": 1,
+      "source": "Digital Music News",
+      "take": "YouTube says it will reduce the reach of Shorts re-uploaded from other creators without added material, and of channels that mainly aggregate. No rollout date was given, and it is not clear how AI remixes will be treated.",
+      "title": "YouTube Shorts will cut reach for re-uploaded content",
+      "url": "https://www.digitalmusicnews.com/2026/10/02/youtube-shorts-prioritize-original-content/"
+    },
+    {
+      "cat": "industry",
+      "date": "2026-10-02",
+      "signal": 1,
+      "source": "Digital Music News",
+      "take": "Universal Music Group hired Òscar Celma, formerly of Pandora and Spotify, as SVP of applied AI and machine learning. At BandLab, president Ivan Chen became CEO.",
+      "title": "UMG hires an applied-AI chief; BandLab gets a new CEO",
+      "url": "https://www.digitalmusicnews.com/2026/10/02/music-industry-hires-oct-2-2026/"
+    },
+    {
+      "cat": "hearing",
+      "date": "2026-10-01",
+      "signal": 1,
+      "source": "HearingTracker",
+      "take": "Starkey's new hearing aids use a G4 processor running four neural networks in parallel for sound processing, plus sleep tracking. Hearing Tracker notes there is no peer-reviewed or clinical data behind the claims yet.",
+      "title": "Starkey Omega AI+ runs four neural networks at once",
+      "url": "https://news.hearingtracker.com/news/42243a92-5765-487d-8e06-3cf8857ad4e6"
+    }
+  ],
+  "key": "2026-10-05",
+  "label": "Mon 5 Oct 2026",
+  "lead": "Yamaha's flagship RIVAGE console can now join Milan networks directly, which removes a bridge between the desk and many Meyer and d&b systems. Stability AI is rebuilding around music generation trained on catalogues licensed by all three majors, while those same labels keep suing Suno. A quiet weekend still brought useful free tools: a dynamic match EQ with a carve mode, Apogee's Soft Limit without iLok, and a bench for stress-testing plugins after the macOS 27 update. On the science side, a large Danish study ties road noise to depression risk and a mouse study points at a new target for age-related hearing loss.",
+  "period": "day",
+  "radar": [
+    {
+      "date": "2026-10-15",
+      "note": "LOUD is $49 until then (then $99) and WIDE $99 (then $149).",
+      "title": "Zynaptiq LOUD and WIDE intro prices end",
+      "url": "https://www.production-expert.com/production-expert-1/zynaptiq-releases-loud-and-wide-plug-ins-plus-refreshed-master-iii-and-zap-vi-bundles"
+    },
+    {
+      "date": "2026-10-16",
+      "note": "Free evening panel at Teatro Giuditta Pasta on voice cloning, training data and rights, with Universal Music Publishing Ricordi's Claudio Buja; booking required.",
+      "title": "Music and AI roundtable, Saronno",
+      "url": "https://ilsaronno.it/2026/10/03/musica-e-intelligenza-artificiale-al-pasta-esperti-di-diritto-dautore-editori-e-ricercatori-e-22simba"
+    },
+    {
+      "date": "2026-10-30",
+      "note": "Immersive sessions include mixing stereo, Atmos and Eclipsa from one session.",
+      "title": "AES Show Nashville, 30 Oct – 1 Nov",
+      "url": "https://www.prosoundweb.com/immersive-spatial-audio-to-take-center-stage-at-aes-show-nashville-2026/"
+    }
+  ],
+  "range": "1–5 Oct 2026"
+}

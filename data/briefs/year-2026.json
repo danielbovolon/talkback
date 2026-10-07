@@ -1,166 +1,166 @@
 {
- "craft": {
-  "body": "This year Atmos, MPEG-H and binaural delivery moved into ordinary DAWs. The tools will keep changing; the formats last longer. Spend a day with the actual delivery specs you are likely to meet (bed and object counts, loudness targets, binaural render modes) so that when a client asks for immersive delivery, the conversation is about creative choices rather than technical surprises.",
-  "title": "Learn the formats, not just the tools"
- },
- "generated": "2026-10-04T11:30:00+02:00",
- "headline": "Consolidation, AI rules, new transducers",
- "items": [
-  {
-   "cat": "industry",
-   "date": "2026-02-02",
-   "signal": 3,
-   "source": "Newsshooter",
-   "take": "The group behind Allen & Heath, DiGiCo, Calrec, SSL and Sound Devices adds premium mics and wireless, with completion expected in the first half of 2026. One owner now spans a large share of the chain from capsule to console, which can mean tighter integration and less competition on price.",
-   "title": "Audiotonix to acquire DPA Microphones, Wisycom and Austrian Audio",
-   "url": "https://www.newsshooter.com/2026/02/02/audiotonix-acquires-dpa-microphones-wisycom-and-austrian-audio/"
+  "craft": {
+    "body": "This year Atmos, MPEG-H and binaural delivery moved into ordinary DAWs. The tools will keep changing; the formats last longer. Spend a day with the actual delivery specs you are likely to meet (bed and object counts, loudness targets, binaural render modes) so that when a client asks for immersive delivery, the conversation is about creative choices rather than technical surprises.",
+    "title": "Learn the formats, not just the tools"
   },
-  {
-   "cat": "ai",
-   "date": "2026-07-31",
-   "deep": "2026 is the year AI music moved from 'sue first' to a split market. Warner, BMG and Believe licensed Suno, and ElevenLabs' music platform signed licences that include Universal. Meanwhile UMG and Sony filed a second suit against Suno, and courts in Germany and the US ruled against unlicensed training.\n\nFor engineers in Europe the German ruling matters most, because it applies where you deliver. Clients are starting to ask where AI-generated material came from, and you should be able to answer.",
-   "signal": 3,
-   "source": "Reed Smith",
-   "take": "Munich Regional Court I largely granted GEMA's claims against Suno in July, finding that memorised songs in a model infringe even if training happened outside the EU, and rejecting AI Act compliance as a defence. In September a US appeals court ruled that training a competing AI on copyrighted work is not fair use.",
-   "title": "GEMA beats Suno in Munich; US appeals court rejects AI fair use",
-   "todo": "Keep a one-line note in each project of any AI tool or AI-generated material used, and on what licence.",
-   "url": "https://www.reedsmith.com/our-insights/blogs/viewpoints/102nfis/gema-notches-a-second-transatlantic-ai-copyright-win-in-germany/"
-  },
-  {
-   "cat": "games",
-   "date": "2026-10-01",
-   "signal": 3,
-   "source": "audioXpress",
-   "take": "Interactive-audio middleware is now split between a Sony-owned Wwise and a Bose-owned FMOD. Watch licensing for indie game work.",
-   "title": "Bose acquires Firelight Technologies (FMOD)",
-   "url": "https://audioxpress.com/news/bose-acquires-fmod-developer-firelight-technologies-to-expand-interactive-audio-business"
-  },
-  {
-   "cat": "software",
-   "date": "2026-05-01",
-   "signal": 3,
-   "source": "Mixdown",
-   "take": "Track Pin keeps key tracks visible in large sessions; speech-to-text data now survives AudioSuite, Commit, Consolidate and export; MPEG-H immersive authoring via the Fraunhofer renderer (Studio and Ultimate). The transcription change is a real time-saver for dialogue editors.",
-   "title": "Pro Tools 2026.4: Track Pin, MPEG-H, transcription that survives edits",
-   "url": "https://mixdownmag.com.au/news/pro-tools-2026-4-update-track-pin-mpeg-h-immersive-audio-and-massive-x-player/"
-  },
-  {
-   "breakthrough": true,
-   "cat": "speakers",
-   "date": "2026-08-27",
-   "deep": "Flat-panel and surface radiators trade the pistonic motion of a cone for a panel that bends and vibrates across its area. The pay-off is very wide, even dispersion and less boundary interference when mounted on a wall. That matters most for surround and height channels heard from many seats.\n\nPanel speakers have historically struggled with low-frequency output, distortion and transient precision compared with good cone monitors. Ascendo published no price or measurements, so treat it as a technology to audition rather than a reference monitor. It is aimed at home cinema, but the same idea is spreading to installation and immersive rooms.",
-   "signal": 2,
-   "source": "audioXpress",
-   "take": "Ascendo previewed a full-range on-wall speaker at CEDIA that replaces cones and tweeters with one composite radiating surface. It claims dispersion of nearly 180 degrees up to 20 kHz, where conventional drivers beam. The design grew out of the company's 28-inch flat carbon-composite subwoofer.",
-   "title": "Surfaces become the speaker: Ascendo's flat radiating-surface design",
-   "url": "https://audioxpress.com/news/ascendo-previews-full-range-composite-radiating-surface-technology"
-  },
-  {
-   "breakthrough": true,
-   "cat": "hearing",
-   "date": "2026-09-30",
-   "deep": "MED-EL is based in Innsbruck, just over the Brenner from Bolzano. The engineering problem is the one sound people know well: a microphone that picks up sound through skin while rejecting body noise. Users report they can hear while sleeping, swimming and charging, which external processors do not allow.\n\nIndependent outcome data are still limited. HearingTracker points out that the trials so far were small, with 6 and then 30 patients reporting hearing comparable to conventional implants.",
-   "signal": 2,
-   "source": "IEEE Spectrum",
-   "take": "MED-EL's TICI UNICO puts every part under the skin, including the microphone, processor and rechargeable battery. It weighs 20 g, runs up to 40 hours on a 1–1.5 hour charge, and is designed to keep at least 24 hours per charge for 15 years. It has European approval, and the first four commercial implantations took place on launch day.",
-   "title": "MED-EL implants the first cochlear implant with its microphone under the skin",
-   "url": "https://spectrum.ieee.org/fully-implantable-cochlear-implant"
-  },
-  {
-   "cat": "industry",
-   "date": "2026-04-24",
-   "signal": 3,
-   "source": "Opus",
-   "take": "After Warner settled with Suno and Udio and UMG with Udio in late 2025, Suno's talks with UMG and Sony stalled in April 2026 and litigation continues. For working engineers the practical point is provenance: know whether AI-generated material in a session is licensed before it ships.",
-   "title": "AI music: licensed deals for some, lawsuits for others",
-   "url": "https://www.opus.pro/blog/ai-music-news-april-2026"
-  },
-  {
-   "breakthrough": true,
-   "cat": "hearing",
-   "date": "2026-04-23",
-   "deep": "It covers one inherited form of deafness, not noise-induced loss, so it does not change the case for protecting your ears. It is still the first proof that a gene therapy can restore hearing in people, which opens the way for work on other causes.",
-   "signal": 2,
-   "source": "Regeneron",
-   "take": "Regeneron's Otarmeni treats severe-to-profound deafness caused by OTOF gene mutations. In its 20-person trial, 80% met the main goal at 24 weeks and 42% reached normal hearing, including whisper detection, at 48 weeks.",
-   "title": "FDA approves the first gene therapy for genetic hearing loss",
-   "url": "https://investor.regeneron.com/news-releases/news-release-details/otarmenitm-lunsotogene-parvec-cwha-approved-fda-first-and-only"
-  },
-  {
-   "breakthrough": true,
-   "cat": "science",
-   "date": "2026-09-17",
-   "deep": "Until now there were two options for modulation effects. You could move air mechanically, as a real Leslie's spinning horn does, or process the signal digitally before it reaches a speaker. The Nottingham team's approach sits between the two. Motion is simulated electronically, but the Doppler and phase effects form acoustically around the listener, so they interact with the room the way a real cabinet does.\n\nThe researchers call it the first significant innovation in sound effects since digital modelling in the 1990s. That is a big claim, and no specs or speaker counts were published in the release. The idea of electronically moved sound fields could also suit installations and spatial sound design.",
-   "signal": 2,
-   "source": "EurekAlert / University of Nottingham",
-   "take": "University of Nottingham engineers built a rotary speaker effect from a circular speaker array, published in the Journal of the AES. The signal moves electronically around the array, so the phase modulation happens in the air of the room instead of inside a plugin.",
-   "title": "A Leslie effect with no moving parts, from a ring of speakers",
-   "url": "https://www.eurekalert.org/news-releases/1144435"
-  },
-  {
-   "cat": "software",
-   "date": "2026-09-17",
-   "signal": 2,
-   "source": "Mixonline",
-   "take": "Native Atmos up to 9.1.6 or binaural plus AI stems. Immersive mixing is now a baseline DAW feature rather than a premium add-on.",
-   "title": "MOTU Digital Performer 12: Atmos and stem separation",
-   "url": "https://www.mixonline.com/technology/news-products/digital-performer-12-debuts-with-stem-separation-dolby-atmos-mixing"
-  },
-  {
-   "cat": "software",
-   "date": "2026-05-05",
-   "signal": 2,
-   "source": "Ableton",
-   "take": "Link Audio streams multichannel audio between devices on a local network with automatic latency handling, and stem separation now works on time selections. Free for Live 12 owners.",
-   "title": "Ableton Live 12.4: Link Audio and better stem separation",
-   "url": "https://www.ableton.com/en/blog/live-12-4-is-out-now/"
-  },
-  {
-   "breakthrough": true,
-   "cat": "science",
-   "date": "2026-05-21",
-   "deep": "Personal sound zones usually need ultrasonic parametric speakers or large DSP-driven arrays. A passive printed lens is cheap and silent. The spot is small and close, so the first uses are likely kiosks, exhibits and car headrests rather than rooms.",
-   "signal": 2,
-   "source": "EurekAlert / Penn State",
-   "take": "Penn State researchers built a 6-inch metasurface that focuses audio into a spot about an inch wide, roughly 4 inches from the speaker. The level drops by up to 50 dB just 2 inches outside the spot, it reaches down to 38 Hz, and it needs no electronics or DSP.",
-   "title": "A passive 3D-printed metasurface beams a private 'sound spot'",
-   "url": "https://www.eurekalert.org/news-releases/1129216"
-  },
-  {
-   "cat": "gear",
-   "date": "2026-05-10",
-   "signal": 2,
-   "source": "Matrixsynth",
-   "take": "Highlights included Elektron's Outbox, the Boredbrain Xcelon SL mixer and new Bastl, WMD and Xaoc modules. The modular world keeps growing as a sound-design source.",
-   "title": "Superbooth 2026, Berlin",
-   "url": "https://www.matrixsynth.com/2026/05/superbooth-2026-twelve-things-that.html"
-  },
-  {
-   "cat": "hearing",
-   "date": "2026-04-28",
-   "signal": 1,
-   "source": "EurekAlert / JASA",
-   "take": "Researchers in Québec and at Le Mans University 3D-printed passive earplugs with several Helmholtz resonators tuned to different frequencies. The aim is to cut low-frequency leakage and the boomy sound of your own voice that makes people take plugs out. No attenuation figures were released.",
-   "title": "Meta-earplugs with tuned resonators target low-end leak and occlusion",
-   "url": "https://www.eurekalert.org/news-releases/1125791"
-  }
- ],
- "key": "2026",
- "label": "2026 so far",
- "lead": "Three forces shaped 2026 so far. Ownership concentrated, with Audiotonix adding DPA, Wisycom and Austrian Audio and Bose buying FMOD. AI moved into every DAW while courts in Germany and the US ruled against unlicensed training. And the physics moved too: flat surfaces that radiate full-range sound, a Leslie effect with no moving parts, a fully implanted cochlear implant and the first gene therapy to restore hearing.",
- "period": "year",
- "radar": [
-  {
-   "date": "2026-10-30",
-   "note": "The AES Show's first year in Nashville, with an immersive focus.",
-   "title": "AES Show Nashville, 30 Oct – 1 Nov",
-   "url": "https://www.prosoundweb.com/immersive-spatial-audio-to-take-center-stage-at-aes-show-nashville-2026/"
-  },
-  {
-   "note": "UHF spectrum for TV and wireless mics is on the table.",
-   "title": "WRC-27",
-   "when": "2027"
-  }
- ],
- "range": "1 Jan – 4 Oct 2026"
+  "generated": "2026-10-04T11:30:00+02:00",
+  "headline": "Consolidation, AI rules, new transducers",
+  "items": [
+    {
+      "cat": "industry",
+      "date": "2026-02-02",
+      "signal": 3,
+      "source": "Newsshooter",
+      "take": "The group behind Allen & Heath, DiGiCo, Calrec, SSL and Sound Devices adds premium mics and wireless, with completion expected in the first half of 2026. One owner now spans a large share of the chain from capsule to console, which can mean tighter integration and less competition on price.",
+      "title": "Audiotonix to acquire DPA Microphones, Wisycom and Austrian Audio",
+      "url": "https://www.newsshooter.com/2026/02/02/audiotonix-acquires-dpa-microphones-wisycom-and-austrian-audio/"
+    },
+    {
+      "cat": "ai",
+      "date": "2026-07-31",
+      "deep": "2026 is the year AI music moved from 'sue first' to a split market. Warner, BMG and Believe licensed Suno, and ElevenLabs' music platform signed licences that include Universal. Meanwhile UMG and Sony filed a second suit against Suno, and courts in Germany and the US ruled against unlicensed training.\n\nFor engineers in Europe the German ruling matters most, because it applies where you deliver. Clients are starting to ask where AI-generated material came from, and you should be able to answer.",
+      "signal": 3,
+      "source": "Reed Smith",
+      "take": "Munich Regional Court I largely granted GEMA's claims against Suno in July, finding that memorised songs in a model infringe even if training happened outside the EU, and rejecting AI Act compliance as a defence. In September a US appeals court ruled that training a competing AI on copyrighted work is not fair use.",
+      "title": "GEMA beats Suno in Munich; US appeals court rejects AI fair use",
+      "todo": "Keep a one-line note in each project of any AI tool or AI-generated material used, and on what licence.",
+      "url": "https://www.reedsmith.com/our-insights/blogs/viewpoints/102nfis/gema-notches-a-second-transatlantic-ai-copyright-win-in-germany/"
+    },
+    {
+      "cat": "games",
+      "date": "2026-10-01",
+      "signal": 3,
+      "source": "audioXpress",
+      "take": "Interactive-audio middleware is now split between a Sony-owned Wwise and a Bose-owned FMOD. Watch licensing for indie game work.",
+      "title": "Bose acquires Firelight Technologies (FMOD)",
+      "url": "https://audioxpress.com/news/bose-acquires-fmod-developer-firelight-technologies-to-expand-interactive-audio-business"
+    },
+    {
+      "cat": "software",
+      "date": "2026-05-01",
+      "signal": 3,
+      "source": "Mixdown",
+      "take": "Track Pin keeps key tracks visible in large sessions; speech-to-text data now survives AudioSuite, Commit, Consolidate and export; MPEG-H immersive authoring via the Fraunhofer renderer (Studio and Ultimate). The transcription change is a real time-saver for dialogue editors.",
+      "title": "Pro Tools 2026.4: Track Pin, MPEG-H, transcription that survives edits",
+      "url": "https://mixdownmag.com.au/news/pro-tools-2026-4-update-track-pin-mpeg-h-immersive-audio-and-massive-x-player/"
+    },
+    {
+      "breakthrough": true,
+      "cat": "speakers",
+      "date": "2026-08-27",
+      "deep": "Flat-panel and surface radiators trade the pistonic motion of a cone for a panel that bends and vibrates across its area. The pay-off is very wide, even dispersion and less boundary interference when mounted on a wall. That matters most for surround and height channels heard from many seats.\n\nPanel speakers have historically struggled with low-frequency output, distortion and transient precision compared with good cone monitors. Ascendo published no price or measurements, so treat it as a technology to audition rather than a reference monitor. It is aimed at home cinema, but the same idea is spreading to installation and immersive rooms.",
+      "signal": 2,
+      "source": "audioXpress",
+      "take": "Ascendo previewed a full-range on-wall speaker at CEDIA that replaces cones and tweeters with one composite radiating surface. It claims dispersion of nearly 180 degrees up to 20 kHz, where conventional drivers beam. The design grew out of the company's 28-inch flat carbon-composite subwoofer.",
+      "title": "Surfaces become the speaker: Ascendo's flat radiating-surface design",
+      "url": "https://audioxpress.com/news/ascendo-previews-full-range-composite-radiating-surface-technology"
+    },
+    {
+      "breakthrough": true,
+      "cat": "hearing",
+      "date": "2026-09-30",
+      "deep": "MED-EL is based in Innsbruck, just over the Brenner from Bolzano. The engineering problem is the one sound people know well: a microphone that picks up sound through skin while rejecting body noise. Users report they can hear while sleeping, swimming and charging, which external processors do not allow.\n\nIndependent outcome data are still limited. HearingTracker points out that the trials so far were small, with 6 and then 30 patients reporting hearing comparable to conventional implants.",
+      "signal": 2,
+      "source": "IEEE Spectrum",
+      "take": "MED-EL's TICI UNICO puts every part under the skin, including the microphone, processor and rechargeable battery. It weighs 20 g, runs up to 40 hours on a 1–1.5 hour charge, and is designed to keep at least 24 hours per charge for 15 years. It has European approval, and the first four commercial implantations took place on launch day.",
+      "title": "MED-EL implants the first cochlear implant with its microphone under the skin",
+      "url": "https://spectrum.ieee.org/fully-implantable-cochlear-implant"
+    },
+    {
+      "cat": "industry",
+      "date": "2026-04-24",
+      "signal": 3,
+      "source": "Opus",
+      "take": "After Warner settled with Suno and Udio and UMG with Udio in late 2025, Suno's talks with UMG and Sony stalled in April 2026 and litigation continues. For working engineers the practical point is provenance: know whether AI-generated material in a session is licensed before it ships.",
+      "title": "AI music: licensed deals for some, lawsuits for others",
+      "url": "https://www.opus.pro/blog/ai-music-news-april-2026"
+    },
+    {
+      "breakthrough": true,
+      "cat": "hearing",
+      "date": "2026-04-23",
+      "deep": "It covers one inherited form of deafness, not noise-induced loss, so it does not change the case for protecting your ears. It is still the first proof that a gene therapy can restore hearing in people, which opens the way for work on other causes.",
+      "signal": 2,
+      "source": "Regeneron",
+      "take": "Regeneron's Otarmeni treats severe-to-profound deafness caused by OTOF gene mutations. In its 20-person trial, 80% met the main goal at 24 weeks and 42% reached normal hearing, including whisper detection, at 48 weeks.",
+      "title": "FDA approves the first gene therapy for genetic hearing loss",
+      "url": "https://investor.regeneron.com/news-releases/news-release-details/otarmenitm-lunsotogene-parvec-cwha-approved-fda-first-and-only"
+    },
+    {
+      "breakthrough": true,
+      "cat": "science",
+      "date": "2026-09-17",
+      "deep": "Until now there were two options for modulation effects. You could move air mechanically, as a real Leslie's spinning horn does, or process the signal digitally before it reaches a speaker. The Nottingham team's approach sits between the two. Motion is simulated electronically, but the Doppler and phase effects form acoustically around the listener, so they interact with the room the way a real cabinet does.\n\nThe researchers call it the first significant innovation in sound effects since digital modelling in the 1990s. That is a big claim, and no specs or speaker counts were published in the release. The idea of electronically moved sound fields could also suit installations and spatial sound design.",
+      "signal": 2,
+      "source": "EurekAlert / University of Nottingham",
+      "take": "University of Nottingham engineers built a rotary speaker effect from a circular speaker array, published in the Journal of the AES. The signal moves electronically around the array, so the phase modulation happens in the air of the room instead of inside a plugin.",
+      "title": "A Leslie effect with no moving parts, from a ring of speakers",
+      "url": "https://www.eurekalert.org/news-releases/1144435"
+    },
+    {
+      "cat": "software",
+      "date": "2026-09-17",
+      "signal": 2,
+      "source": "Mixonline",
+      "take": "Native Atmos up to 9.1.6 or binaural plus AI stems. Immersive mixing is now a baseline DAW feature rather than a premium add-on.",
+      "title": "MOTU Digital Performer 12: Atmos and stem separation",
+      "url": "https://www.mixonline.com/technology/news-products/digital-performer-12-debuts-with-stem-separation-dolby-atmos-mixing"
+    },
+    {
+      "cat": "software",
+      "date": "2026-05-05",
+      "signal": 2,
+      "source": "Ableton",
+      "take": "Link Audio streams multichannel audio between devices on a local network with automatic latency handling, and stem separation now works on time selections. Free for Live 12 owners.",
+      "title": "Ableton Live 12.4: Link Audio and better stem separation",
+      "url": "https://www.ableton.com/en/blog/live-12-4-is-out-now/"
+    },
+    {
+      "breakthrough": true,
+      "cat": "science",
+      "date": "2026-05-21",
+      "deep": "Personal sound zones usually need ultrasonic parametric speakers or large DSP-driven arrays. A passive printed lens is cheap and silent. The spot is small and close, so the first uses are likely kiosks, exhibits and car headrests rather than rooms.",
+      "signal": 2,
+      "source": "EurekAlert / Penn State",
+      "take": "Penn State researchers built a 6-inch metasurface that focuses audio into a spot about an inch wide, roughly 4 inches from the speaker. The level drops by up to 50 dB just 2 inches outside the spot, it reaches down to 38 Hz, and it needs no electronics or DSP.",
+      "title": "A passive 3D-printed metasurface beams a private 'sound spot'",
+      "url": "https://www.eurekalert.org/news-releases/1129216"
+    },
+    {
+      "cat": "gear",
+      "date": "2026-05-10",
+      "signal": 2,
+      "source": "Matrixsynth",
+      "take": "Highlights included Elektron's Outbox, the Boredbrain Xcelon SL mixer and new Bastl, WMD and Xaoc modules. The modular world keeps growing as a sound-design source.",
+      "title": "Superbooth 2026, Berlin",
+      "url": "https://www.matrixsynth.com/2026/05/superbooth-2026-twelve-things-that.html"
+    },
+    {
+      "cat": "hearing",
+      "date": "2026-04-28",
+      "signal": 1,
+      "source": "EurekAlert / JASA",
+      "take": "Researchers in Québec and at Le Mans University 3D-printed passive earplugs with several Helmholtz resonators tuned to different frequencies. The aim is to cut low-frequency leakage and the boomy sound of your own voice that makes people take plugs out. No attenuation figures were released.",
+      "title": "Meta-earplugs with tuned resonators target low-end leak and occlusion",
+      "url": "https://www.eurekalert.org/news-releases/1125791"
+    }
+  ],
+  "key": "2026",
+  "label": "2026 so far",
+  "lead": "Three forces shaped 2026 so far. Ownership concentrated, with Audiotonix adding DPA, Wisycom and Austrian Audio and Bose buying FMOD. AI moved into every DAW while courts in Germany and the US ruled against unlicensed training. And the physics moved too: flat surfaces that radiate full-range sound, a Leslie effect with no moving parts, a fully implanted cochlear implant and the first gene therapy to restore hearing.",
+  "period": "year",
+  "radar": [
+    {
+      "date": "2026-10-30",
+      "note": "The AES Show's first year in Nashville, with an immersive focus.",
+      "title": "AES Show Nashville, 30 Oct – 1 Nov",
+      "url": "https://www.prosoundweb.com/immersive-spatial-audio-to-take-center-stage-at-aes-show-nashville-2026/"
+    },
+    {
+      "note": "UHF spectrum for TV and wireless mics is on the table.",
+      "title": "WRC-27",
+      "when": "2027"
+    }
+  ],
+  "range": "1 Jan – 4 Oct 2026"
 }

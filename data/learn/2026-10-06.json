@@ -1,0 +1,170 @@
+{
+  "generated": "2026-10-06T07:05:00+02:00",
+  "key": "2026-10-06",
+  "label": "Tue 6 Oct 2026",
+  "lesson": {
+    "body": "The EU and NIOSH treat damage as proportional to sound energy. A 3 dB rise doubles the energy, so it halves the safe time. This is the 3 dB exchange rate, or equal-energy rule. NIOSH recommends 85 dB(A) for 8 hours, which gives 88 dB(A) for 4 hours, 91 for 2 hours, 94 for 1 hour, 97 for 30 minutes and 100 for 15 minutes. The US OSHA legal limit uses 90 dB(A) for 8 hours with a 5 dB exchange rate. That is far more lenient at high levels: OSHA allows 100 dB(A) for 2 hours, while NIOSH allows only 15 minutes.\n\nTo get LEX,8h from a measured level, use LEX,8h = LAeq,T + 10·log10(T / 8 h). Two hours at 94 dB(A) gives 94 + 10·log10(0.25) = 94 − 6 = 88 dB(A). Noise dose is the same idea expressed as a percentage: dose = (actual time / allowed time) × 100. Four hours at 91 dB(A) under NIOSH is 4 / 2 = 200%. Doses from different parts of the day add up: half your allowance at FOH plus half on a loud stage makes 100%.\n\nIn the EU, Directive 2003/10/EC sets three thresholds (Italy uses the same values in D.Lgs. 81/2008). At the lower action value of 80 dB(A) LEX,8h or 135 dB(C) peak, the employer must provide information and make hearing protection available. At the upper action value of 85 dB(A) or 137 dB(C) peak, protection must be worn and a noise-reduction programme is required. The exposure limit value of 87 dB(A) or 140 dB(C) peak must never be exceeded at the ear, and this is the one value that takes the protector's attenuation into account. For audiences, the WHO Global Standard for Safe Listening Venues and Events (2022) sets 100 dB LAeq over any 15 minutes.\n\nIn practice, a mixer standing at 98 dB(A) at FOH reaches 85 dB(A) LEX,8h in about 25 minutes. Earplugs only help if they fit. The SNR or NRR printed on the box is measured in a lab with an ideal fit, and real-world attenuation is often much lower. Flat-response musicians' plugs with custom moulds, IEMs at controlled levels, and taking breaks during soundcheck are what keep your dose down. Damage can also happen without a lasting change in the audiogram: animal studies show noise can destroy the synapses between hair cells and nerve fibres even after the threshold recovers.",
+    "inPractice": "At your next show, run a free SPL app or a meter with LAeq at your mix position for the full set. Compute your LEX,8h with the formula above, then add the soundcheck time and see how much of your daily allowance you used.",
+    "keyPoints": [
+      "3 dB exchange rate: every +3 dB halves the allowed time",
+      "LEX,8h = LAeq,T + 10·log10(T / 8 h)",
+      "EU and Italy: 80 dB(A) lower action, 85 upper action, 87 limit (at the ear, with protection)",
+      "Peak thresholds: 135, 137 and 140 dB(C)",
+      "Dose % = actual time / allowed time × 100, and doses across the day add up",
+      "Labelled SNR/NRR is a lab figure; real-world fit usually gives less"
+    ],
+    "level": "core",
+    "mistake": "Many people think 85 dB(A) is a hard line that is safe below and dangerous above. It is an 8-hour average. Ninety minutes at 92 dB(A) is already well over, and short periods below 85 don't cancel out loud ones.",
+    "sayIt": "Hearing damage depends on how loud it is and for how long. Every 3 dB louder halves the time you can safely spend there.",
+    "summary": "Noise damage depends on the total sound energy reaching the ear over time, not on level alone. Exposure rules convert a working day's noise into one number, the daily noise exposure level LEX,8h: the steady A-weighted level that would deliver the same energy over 8 hours. Each regulation sets action values and limits against that number.",
+    "terms": [
+      {
+        "def": "Daily noise exposure level: the steady A-weighted level that would give the same sound energy over an 8-hour working day.",
+        "term": "LEX,8h"
+      },
+      {
+        "def": "Equivalent continuous A-weighted sound level over a period T, an energy average.",
+        "term": "LAeq,T"
+      },
+      {
+        "def": "How many dB increase halves the allowed exposure time: 3 dB under the EU and NIOSH, 5 dB under OSHA.",
+        "term": "Exchange rate"
+      },
+      {
+        "def": "Highest instantaneous C-weighted sound pressure level, used for impulse limits such as 135, 137 and 140 dB(C).",
+        "term": "LCpeak"
+      },
+      {
+        "def": "Single-number attenuation ratings for hearing protectors, measured in the lab (SNR in the EU, NRR in the US).",
+        "term": "SNR / NRR"
+      },
+      {
+        "def": "Loss of synapses between inner hair cells and auditory nerve fibres after noise, which can occur without a lasting threshold shift.",
+        "term": "Cochlear synaptopathy"
+      }
+    ],
+    "title": "Noise dose: exchange rates, LEX,8h and exposure limits",
+    "topic": "Hearing and psychoacoustics"
+  },
+  "quiz": {
+    "questions": [
+      {
+        "answer": 2,
+        "explain": "LEX,8h = 94 + 10·log10(2/8) = 94 − 6 = 88 dB(A), which is above the EU upper action value of 85. Traps: subtracting only 3 dB for a single halving (91), or using 20·log and subtracting 12 dB (82).",
+        "level": "advanced",
+        "options": [
+          "94 dB(A)",
+          "91 dB(A)",
+          "88 dB(A)",
+          "82 dB(A)"
+        ],
+        "q": "An engineer is exposed to a steady 94 dB(A) for 2 hours and to negligible noise for the rest of the day. What is their daily exposure LEX,8h?",
+        "topic": "Hearing protection"
+      },
+      {
+        "answer": 3,
+        "explain": "At 91 dB(A) the allowed time is 8 h halved twice, which is 2 h. Four hours divided by 2 hours is 200%. Under OSHA's 5 dB rule the same exposure would score much lower, which is why the rule matters.",
+        "level": "advanced",
+        "options": [
+          "50%",
+          "100%",
+          "400%",
+          "200%"
+        ],
+        "q": "Using the NIOSH criterion (85 dB(A) for 8 hours, 3 dB exchange rate), what noise dose does 4 hours at 91 dB(A) produce?",
+        "topic": "Hearing protection"
+      },
+      {
+        "answer": 0,
+        "explain": "34.3 cm at 343 m/s is a 1 ms delay. The first notch falls where the delay equals half a period: f = 1/(2 × 0.001 s) = 500 Hz, with further notches at 1.5, 2.5 kHz and so on. 1 kHz is the first frequency where they add again in phase.",
+        "level": "advanced",
+        "options": [
+          "500 Hz",
+          "250 Hz",
+          "1 kHz",
+          "343 Hz"
+        ],
+        "q": "Two microphones pick up the same source. Mic B is 34.3 cm further away than mic A (c = 343 m/s). Summed at equal level, where is the first comb-filter notch?",
+        "topic": "Phase & polarity"
+      },
+      {
+        "answer": 1,
+        "explain": "Ratings come from lab testing with trained subjects and a careful fit. In real use, shallow or rushed insertion reduces the attenuation a lot, so fit matters more than the number on the box.",
+        "level": "intermediate",
+        "options": [
+          "SNR is measured with C-weighting only",
+          "The rating comes from lab tests with an ideal fit; real-world insertion is often poor",
+          "SNR ratings only apply above 4 kHz",
+          "Foam plugs lose all attenuation after one hour"
+        ],
+        "q": "A foam earplug is labelled SNR 30 dB. Why might a user get much less than 30 dB of real protection?",
+        "topic": "Hearing protection"
+      },
+      {
+        "answer": 3,
+        "explain": "The input is 12 dB over the threshold. At 4:1 that becomes 3 dB over, so the output is −20 + 3 = −17 dBFS, which is 9 dB of gain reduction. A common mistake is to divide the whole input level by the ratio.",
+        "level": "intermediate",
+        "options": [
+          "−14 dBFS",
+          "−20 dBFS",
+          "−11 dBFS",
+          "−17 dBFS"
+        ],
+        "q": "A hard-knee compressor has its threshold at −20 dBFS and a 4:1 ratio. A steady tone goes in at −8 dBFS. With no make-up gain, what level comes out once the compressor has settled?",
+        "topic": "Compression"
+      },
+      {
+        "answer": 0,
+        "explain": "0 dBu is 0.775 V RMS, so +4 dBu = 0.775 × 10^(4/20) ≈ 1.23 V. 1.0 V is 0 dBV, and 1.58 V would be +4 dBV. Mixing up dBu and dBV is the usual trap.",
+        "level": "intermediate",
+        "options": [
+          "About 1.23 V",
+          "0.775 V",
+          "1.0 V",
+          "About 1.58 V"
+        ],
+        "q": "What RMS voltage corresponds to the professional line level of +4 dBu?",
+        "topic": "Gain staging"
+      },
+      {
+        "answer": 2,
+        "explain": "At 85 dB(A) LEX,8h (or 137 dB(C) peak), protection must be used. 80 dB(A) is the lower action value, where protection must be made available. 87 dB(A) is the limit value at the ear, which takes protection into account.",
+        "level": "basic",
+        "options": [
+          "80 dB(A)",
+          "87 dB(A)",
+          "85 dB(A)",
+          "90 dB(A)"
+        ],
+        "q": "Under the EU noise directive (and Italy's D.Lgs. 81/2008), at what daily exposure must workers wear hearing protection (the upper exposure action value)?",
+        "topic": "Hearing protection"
+      },
+      {
+        "answer": 1,
+        "explain": "Inverse square law: intensity falls to a quarter, which is 20·log10(2) ≈ 6 dB of SPL. 3 dB per doubling applies to an idealised line source in its near field.",
+        "level": "basic",
+        "options": [
+          "3 dB",
+          "6 dB",
+          "10 dB",
+          "12 dB"
+        ],
+        "q": "In a free field, by how much does the level from a point source drop when you double your distance from it?",
+        "topic": "Acoustics"
+      },
+      {
+        "answer": 3,
+        "explain": "P48 supplies +48 V DC through matched resistors on pins 2 and 3, with pin 1 as the return. P12 and P24 also exist in the standard but are much less common on studio preamps.",
+        "level": "basic",
+        "options": [
+          "+12 V",
+          "+24 V",
+          "+9 V",
+          "+48 V"
+        ],
+        "q": "What is the standard phantom-power voltage on most professional mic preamps (IEC 61938 P48)?",
+        "topic": "Microphones"
+      }
+    ]
+  }
+}

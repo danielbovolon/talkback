@@ -1,0 +1,166 @@
+{
+  "generated": "2026-10-07T07:05:00+02:00",
+  "key": "2026-10-07",
+  "label": "Wed 7 Oct 2026",
+  "lesson": {
+    "body": "At low frequencies most monitors radiate almost equally in all directions, so energy goes backwards as well as forwards. That energy hits the front wall behind the speaker and comes back towards you. For a listener on axis, the reflected path is about twice the distance d from the speaker's acoustic centre to the wall, so the reflection arrives with a delay of 2d/c. Where that extra path equals half a wavelength, the two waves are out of phase and cancel. The first and deepest cancellation is at f = c / (4d). With c = 343 m/s, a speaker 1 m from the wall has its first null near 86 Hz; at 0.5 m it moves to about 172 Hz; at 2 m it falls to about 43 Hz. Further nulls follow at 3, 5, 7… times that frequency, getting shallower because the reflection is weaker at higher frequencies.\n\nThe same thing happens with every nearby boundary: side walls, the floor and the desk. Each distance gives its own null, and when two distances are similar, the dips pile up in one region. At very low frequencies, where the wall is much less than a quarter wavelength away, the reflection adds in phase instead, giving boundary gain of up to about +6 dB per boundary in theory. This is why monitors have 'half space', 'quarter space' or bass-tilt switches.\n\nYou cannot fix an SBIR null with EQ. Boosting the frequency raises the direct and reflected sound equally, so they still cancel, and you only spend amplifier and driver headroom. The fixes are geometric. Move the speaker very close to the wall, so the first null moves above the woofer's working range, or flush-mount it so there is no gap at all. Alternatively, move it far enough away that the null falls below the range the speaker reproduces strongly, or use a subwoofer placed near the wall with a crossover chosen to avoid the null. Thick porous absorption behind the speaker helps only if it is deep enough; a panel needs to approach a quarter wavelength in depth to be effective, which at 86 Hz is about 1 m.\n\nSBIR is easy to measure. Put a measurement mic at the listening position, sweep one speaker at a time, and look for a dip whose frequency moves when you move the speaker. In post rooms, height and surround speakers close to walls and ceilings show the same effect, and so do PA subs placed near a stage wall.",
+    "inPractice": "Measure one monitor at your mix position with REW or similar, then move it 20 cm closer to the wall and measure again. Note how the low-frequency dip moves, and pick the position where it does the least damage before you touch any EQ.",
+    "keyPoints": [
+      "First SBIR null: f = c / (4d), with d from the acoustic centre to the boundary.",
+      "1 m from the wall gives about 86 Hz; 0.5 m gives about 172 Hz.",
+      "Further nulls fall at 3, 5, 7 × that frequency and get shallower.",
+      "EQ cannot fill an SBIR null; it only wastes headroom.",
+      "Fix it with placement: very close, flush-mounted or far from the boundary.",
+      "SBIR dips move when the speaker moves; room modes do not."
+    ],
+    "level": "deeper",
+    "mistake": "Many people boost the missing bass with room-correction EQ. A cancellation is a timing problem, not a level problem, so the boost does not help and can push the woofer into distortion.",
+    "sayIt": "The wall behind your speakers sends some of the bass back late enough to cancel itself out, so a certain band disappears at your chair, and moving the speakers is the only real cure.",
+    "summary": "Speaker-boundary interference is the comb-filter pattern created when sound from a loudspeaker reflects off a nearby wall, floor or desk and combines with the direct sound at the listening position. The delayed reflection cancels the direct sound at frequencies where it arrives half a wavelength late, producing a deep dip in the low-frequency response that depends on the distance to the boundary.",
+    "terms": [
+      {
+        "def": "Speaker-boundary interference response: the comb filtering caused by reflections from boundaries close to a loudspeaker.",
+        "term": "SBIR"
+      },
+      {
+        "def": "The point from which a loudspeaker's sound appears to radiate at a given frequency; used to measure distances for SBIR and alignment.",
+        "term": "Acoustic centre"
+      },
+      {
+        "def": "The low-frequency level increase when a source is close to a boundary and its reflection adds in phase, up to about +6 dB per boundary in theory.",
+        "term": "Boundary gain"
+      },
+      {
+        "def": "Building the speaker into the wall so its front baffle is level with the wall surface, removing the rear-wall reflection gap.",
+        "term": "Flush mounting"
+      },
+      {
+        "def": "A frequency response with regularly spaced peaks and dips, caused by adding a signal to a delayed copy of itself.",
+        "term": "Comb filter"
+      }
+    ],
+    "title": "Speaker-boundary interference (SBIR)",
+    "topic": "Studio acoustics and monitoring"
+  },
+  "quiz": {
+    "questions": [
+      {
+        "answer": 1,
+        "explain": "The first null is where the extra path (about 2d) equals half a wavelength, so f = c / (4d) = 343 / 3.44 ≈ 100 Hz. Using c / (2d) by mistake gives 200 Hz, the trap answer.",
+        "level": "advanced",
+        "options": [
+          "About 50 Hz",
+          "About 100 Hz",
+          "About 200 Hz",
+          "About 400 Hz"
+        ],
+        "q": "A monitor's acoustic centre is 0.86 m from the wall behind it. Taking c = 343 m/s and a listener on axis, at roughly what frequency is the first SBIR null from that wall?",
+        "topic": "Acoustics"
+      },
+      {
+        "answer": 2,
+        "explain": "Sabine's formula in metric units is RT60 = 0.161 × V / A = 0.161 × 100 / 20 ≈ 0.81 s. Dropping the 0.161 constant gives 5 s, and slipping a decimal place gives 8.05 s.",
+        "level": "advanced",
+        "options": [
+          "0.32 s",
+          "1.61 s",
+          "0.81 s",
+          "8.05 s"
+        ],
+        "q": "A room has a volume of 100 m³ and total absorption of 20 m² sabins. Using Sabine's formula, what is the RT60?",
+        "topic": "Acoustics"
+      },
+      {
+        "answer": 3,
+        "explain": "0 dBFS is 18 dB above −18 dBFS, so the output is +4 + 18 = +22 dBu. The alignment level fixes one point, and every dB of digital level above it adds one dB of analogue level.",
+        "level": "advanced",
+        "options": [
+          "+18 dBu",
+          "+4 dBu",
+          "+14 dBu",
+          "+22 dBu"
+        ],
+        "q": "A converter is aligned so that a −18 dBFS sine wave reads +4 dBu at its analogue output. What analogue level corresponds to 0 dBFS?",
+        "topic": "Gain staging"
+      },
+      {
+        "answer": 0,
+        "explain": "The null comes from the direct sound and its delayed reflection being out of phase. Any boost reaches both equally, so they still cancel at the listening position.",
+        "level": "intermediate",
+        "options": [
+          "Because the reflection is boosted by the same amount, so the cancellation remains and you only use up headroom",
+          "Because monitor DSP cannot apply boosts below 200 Hz",
+          "Because EQ moves the null to a lower frequency",
+          "Because boosting a narrow band causes aliasing"
+        ],
+        "q": "Why can't you fill an SBIR null by boosting that frequency with EQ?",
+        "topic": "Acoustics"
+      },
+      {
+        "answer": 1,
+        "explain": "f = c / (4d): at 1 m it is about 86 Hz, and at 0.25 m it is 343 / 1 ≈ 343 Hz. Moving closer pushes the null up; it only leaves the useful range when the gap is very small or zero, as with flush mounting.",
+        "level": "intermediate",
+        "options": [
+          "It moves down to about 43 Hz",
+          "It moves up to about 343 Hz",
+          "It stays at about 86 Hz but gets deeper",
+          "It disappears at all frequencies"
+        ],
+        "q": "You move a monitor from 1 m to 0.25 m from the front wall (c = 343 m/s). What happens to the first SBIR null?",
+        "topic": "Acoustics"
+      },
+      {
+        "answer": 3,
+        "explain": "Masking spreads more upwards in frequency than downwards, especially at high levels. This is why loud low-mid content can hide detail above it, while high content rarely masks the low end.",
+        "level": "intermediate",
+        "options": [
+          "At frequencies well below 1 kHz",
+          "Equally at all frequencies",
+          "Only at exactly 2 kHz",
+          "At frequencies somewhat above 1 kHz"
+        ],
+        "q": "A loud 1 kHz tone is playing. Where is it most effective at masking quieter tones?",
+        "topic": "Psychoacoustics"
+      },
+      {
+        "answer": 0,
+        "explain": "SBIR is an acoustic effect: a reflection from a nearby boundary arrives late and adds to or cancels the direct sound depending on frequency. It is not caused by wiring or electronics.",
+        "level": "basic",
+        "options": [
+          "Reflections from nearby walls, floor or desk combining with the direct sound",
+          "Electrical interference between speaker cables",
+          "Two speakers wired in opposite polarity",
+          "Clipping in the monitor's amplifier"
+        ],
+        "q": "What causes speaker-boundary interference (SBIR)?",
+        "topic": "Acoustics"
+      },
+      {
+        "answer": 2,
+        "explain": "A cardioid's null is at 180°. Super- and hypercardioids have nulls off to the sides of the rear (roughly 110–130°) and a small rear lobe, so a wedge straight behind suits a cardioid best.",
+        "level": "basic",
+        "options": [
+          "Omnidirectional",
+          "Figure-8",
+          "Cardioid",
+          "Hypercardioid"
+        ],
+        "q": "A wedge monitor sits directly behind a vocal mic (at 180°). Which polar pattern has its deepest rejection in that direction?",
+        "topic": "Live sound"
+      },
+      {
+        "answer": 3,
+        "explain": "Sustain is a level, not a time: after attack and decay, the envelope stays at the sustain level until the key is released. Attack, decay and release are all times.",
+        "level": "basic",
+        "options": [
+          "Attack",
+          "Decay",
+          "Release",
+          "Sustain"
+        ],
+        "q": "In an ADSR envelope, which stage sets the level that holds while a key stays pressed?",
+        "topic": "Synthesis"
+      }
+    ]
+  }
+}

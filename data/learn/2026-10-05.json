@@ -1,0 +1,165 @@
+{
+  "generated": "2026-10-05T07:20:00+02:00",
+  "key": "2026-10-05",
+  "label": "Mon 5 Oct 2026",
+  "lesson": {
+    "body": "Sampling takes a snapshot of the voltage fs times a second. At 48 kHz that is every 20.8 microseconds. The sampling theorem (Nyquist–Shannon) says that if the input is band-limited below fs/2, those snapshots hold all the information, and an ideal reconstruction filter rebuilds the original waveform exactly, not an approximation. So 44.1 kHz covers content up to 22.05 kHz and 48 kHz up to 24 kHz, both above the roughly 20 kHz limit of young human hearing.\n\nThe condition matters. A component above Nyquist produces exactly the same samples as one below it, so the converter cannot tell them apart. It appears at |f − n·fs|, the distance to the nearest multiple of the sample rate. A 30 kHz tone sampled at 48 kHz lands at 18 kHz, and a 40 kHz tone lands at 8 kHz. Aliases are not harmonically related to the source, so they sound like dirty, inharmonic tones that move the wrong way when the pitch moves. That is why every ADC has an anti-aliasing low-pass filter before the sampling stage, and every DAC has a reconstruction filter after it. Modern delta-sigma converters sample at a very high internal rate and use steep digital filters to bring the rate down, which is how they get flat response close to 20 kHz.\n\nThe problem returns inside the computer. Anything nonlinear, such as saturation, clipping, fast limiting or FM synthesis, creates new harmonics, and some of them land above Nyquist and fold back. Oversampling runs the process at two to sixteen times the rate, filters off the excess and comes back down. The cost is CPU and a little latency, like the 16 samples Apogee's Soft Limit adds at any oversampling setting. Linear processes such as gain, EQ and most reverbs create no new frequencies, so they have no aliasing to remove, although some EQs oversample to keep their curves accurate near Nyquist.\n\nHigher session rates have practical uses. At 96 kHz, recordings keep content up to 48 kHz, so sound designers can pitch them down an octave and still fill the audible band. Film and TV work at 48 kHz because that is the video standard. Whatever the rate, check that content above about 20 kHz is not hitting IEMs, tweeters or a later process that will fold it back.",
+    "inPractice": "Put a sine sweep from 1 kHz to 20 kHz through your favourite saturation plugin at 48 kHz with oversampling off, and watch a spectrum analyser: aliases show up as tones that fall while the sweep rises. Turn oversampling on and compare, then decide where it is worth the CPU in your template.",
+    "keyPoints": [
+      "Nyquist frequency = fs / 2: 22.05 kHz at 44.1 kHz, 24 kHz at 48 kHz.",
+      "Content above Nyquist folds back to |f − n·fs|: 30 kHz at 48 kHz becomes 18 kHz.",
+      "Anti-aliasing filters before the ADC and reconstruction filters after the DAC are part of every converter.",
+      "Nonlinear plugins create harmonics that can alias; oversampling reduces this at a CPU and latency cost.",
+      "Properly reconstructed digital audio is a smooth waveform, not a staircase."
+    ],
+    "level": "core",
+    "mistake": "Many people think samples make a stepped 'staircase' that higher rates smooth out. The reconstruction filter rebuilds a smooth waveform, and a higher rate only extends the bandwidth; it does not make audible content more accurate.",
+    "sayIt": "Digital audio captures everything below half the sample rate perfectly, and anything above that has to be filtered out first or it comes back as false tones lower down.",
+    "summary": "A digital system measures the signal at a fixed rate, the sample rate fs. The sampling theorem says a signal can be rebuilt exactly if it contains nothing at or above half that rate, the Nyquist frequency fs/2. Anything above Nyquist does not disappear: it folds back into the audio band as aliasing.",
+    "terms": [
+      {
+        "def": "How many times per second the signal is measured, e.g. 48,000 Hz.",
+        "term": "Sample rate (fs)"
+      },
+      {
+        "def": "Half the sample rate; the highest frequency a system can represent.",
+        "term": "Nyquist frequency"
+      },
+      {
+        "def": "Content above Nyquist that folds back into the audio band as a false frequency.",
+        "term": "Aliasing"
+      },
+      {
+        "def": "A low-pass filter that removes content above Nyquist before sampling.",
+        "term": "Anti-aliasing filter"
+      },
+      {
+        "def": "Running a process at a multiple of the sample rate so new harmonics stay below the raised Nyquist, then filtering and converting back.",
+        "term": "Oversampling"
+      }
+    ],
+    "title": "Sampling, Nyquist and aliasing",
+    "topic": "Digital audio"
+  },
+  "quiz": {
+    "questions": [
+      {
+        "answer": 0,
+        "explain": "Aliases land at |f − n·fs|. The nearest multiple of 48 kHz is 48 kHz itself, so 48 − 30 = 18 kHz. It cannot stay at 30 kHz because nothing above Nyquist (24 kHz) can be represented.",
+        "level": "advanced",
+        "options": [
+          "18 kHz",
+          "30 kHz",
+          "6 kHz",
+          "24 kHz"
+        ],
+        "q": "A 30 kHz tone reaches a 48 kHz converter with no anti-aliasing filter. At what frequency does it appear in the recording?",
+        "topic": "Digital audio"
+      },
+      {
+        "answer": 2,
+        "explain": "The first axial mode is f = c / 2L = 343 / 8.6 ≈ 40 Hz. Forgetting the factor of 2 gives 80 Hz, which is the second mode.",
+        "level": "advanced",
+        "options": [
+          "About 80 Hz",
+          "About 160 Hz",
+          "About 40 Hz",
+          "About 20 Hz"
+        ],
+        "q": "Two parallel walls are 4.3 m apart. Taking the speed of sound as 343 m/s, what is the lowest axial room mode between them?",
+        "topic": "Acoustics"
+      },
+      {
+        "answer": 3,
+        "explain": "Uncorrelated signals add in power, so two equal ones give +3 dB: −57 dBFS. +6 dB applies only to identical, in-phase (correlated) signals.",
+        "level": "advanced",
+        "options": [
+          "−63 dBFS",
+          "−60 dBFS",
+          "−54 dBFS",
+          "−57 dBFS"
+        ],
+        "q": "You sum two uncorrelated noise sources, each measuring −60 dBFS RMS. What is the RMS level of the sum?",
+        "topic": "Gain staging"
+      },
+      {
+        "answer": 2,
+        "explain": "Saturation creates new harmonics, and those above fs/2 alias back into the audible band. Running the process at a higher internal rate keeps them above the audio band until they are filtered out. It usually adds latency rather than removing it.",
+        "level": "intermediate",
+        "options": [
+          "To lower their latency",
+          "To increase the bit depth of the output",
+          "So harmonics created above Nyquist do not fold back as inharmonic aliases",
+          "To widen the stereo image"
+        ],
+        "q": "Why do many saturation and clipper plugins offer oversampling?",
+        "topic": "Digital audio"
+      },
+      {
+        "answer": 3,
+        "explain": "This is the precedence (Haas) effect: for short delays of a few milliseconds, the sounds fuse and localisation follows the first arrival. Clear echoes appear only at much longer delays.",
+        "level": "intermediate",
+        "options": [
+          "Dead centre",
+          "As two separate echoes",
+          "At the right speaker",
+          "At or towards the left speaker"
+        ],
+        "q": "Two speakers play the same signal at equal level. At your seat, the left speaker's sound arrives 5 ms before the right's. Where do you hear the source?",
+        "topic": "Psychoacoustics"
+      },
+      {
+        "answer": 1,
+        "explain": "EBU R128 sets −23 LUFS integrated with a −1 dBTP maximum. −24 LKFS and −2 dBTP is the US ATSC A/85 practice, and −14 or −16 LUFS are common streaming references.",
+        "level": "intermediate",
+        "options": [
+          "−16 LUFS and −1 dBTP",
+          "−23 LUFS and −1 dBTP",
+          "−24 LKFS and −2 dBTP",
+          "−14 LUFS and −1 dBTP"
+        ],
+        "q": "What are the EBU R128 targets for a broadcast programme's integrated loudness and maximum true peak?",
+        "topic": "Loudness"
+      },
+      {
+        "answer": 2,
+        "explain": "The Nyquist frequency is half the sample rate: 48 / 2 = 24 kHz. Doubling the rate is what oversampling does, not what Nyquist means.",
+        "level": "basic",
+        "options": [
+          "48 kHz",
+          "96 kHz",
+          "24 kHz",
+          "12 kHz"
+        ],
+        "q": "What is the Nyquist frequency of a 48 kHz session?",
+        "topic": "Digital audio"
+      },
+      {
+        "answer": 0,
+        "explain": "It is a low-pass filter ahead of sampling, so nothing above fs/2 can fold back. The filter that rebuilds the waveform on playback is the reconstruction filter in the DAC.",
+        "level": "basic",
+        "options": [
+          "Removes content above the Nyquist frequency before sampling",
+          "Adds dither to the lowest bit",
+          "Smooths the 'steps' between samples on playback",
+          "Limits peaks to avoid clipping"
+        ],
+        "q": "What does the anti-aliasing filter in an analogue-to-digital converter do?",
+        "topic": "Digital audio"
+      },
+      {
+        "answer": 3,
+        "explain": "Directional (pressure-gradient) mics boost bass as the source gets close. Pure pressure omnis show little or no proximity effect, which is why they are often chosen for close vocals that move.",
+        "level": "basic",
+        "options": [
+          "High frequencies rise",
+          "The mic becomes omnidirectional",
+          "Nothing, cardioids are immune to distance",
+          "Low frequencies rise (proximity effect)"
+        ],
+        "q": "A singer moves from 30 cm to 5 cm away from a cardioid microphone. What changes most in the tone?",
+        "topic": "Microphone technique"
+      }
+    ]
+  }
+}

@@ -1,0 +1,277 @@
+{
+  "craft": {
+    "body": "Tools like VoxSplit and FFT can now get things out of a recording that used to be impossible. That makes it easy to forget that every separation is a guess at what was there. Always keep the untouched original on its own track or playlist, and print the separated result next to it, not in its place. Judge the result in the mix at the playback level and on the system it will be heard on, not soloed on headphones. Artefacts that disappear in context are fine, and ones that only show up in the mix are not.\n\nWrite down which tool, version and profile you used in the session notes or clip names. If the editor, mixer or QC flags something weeks later, you can repeat the process or undo it in minutes instead of guessing.",
+    "title": "Treat separation as a destructive edit"
+  },
+  "generated": "2026-10-06T07:05:00+02:00",
+  "headline": "Splitting voices, counting the fakes",
+  "items": [
+    {
+      "cat": "ai",
+      "date": "2026-10-05",
+      "deep": "Dialogue isolation tools like RX Dialogue Isolate, Clarity Vx and the separation built into DaVinci Resolve all pull a voice away from background noise. They don't help when two people talk over each other into one lav or boom, which is the usual crosstalk problem in interviews, scenes with overlap and single-mic podcasts. VoxSplit targets that case. It has three profiles (Standard, Precision and Rescue) and an optional finishing stage, and you can audition the result before you commit.\n\nThe developer, Frédéric Le Louët, is a working supervising sound editor and re-recording mixer, so the tool was designed around an editor's workflow. Because nothing is uploaded, you can use it on material covered by an NDA, which rules out many cloud services. Independent tests on hard material, such as similar voices, room tone and overlapping consonants, haven't been published yet. Treat the 7-day trial as a test on your own worst clips, not on a demo.",
+      "signal": 3,
+      "source": "Production Expert",
+      "take": "VoxSplit Pro from Limited Edition Audio splits two overlapping voices recorded on one track into separate tracks. It does not separate voice from noise. It runs as AAX AudioSuite, VST3 or standalone, on macOS only, and does all processing on the machine. The launch price is €199 including VAT, rising to €249 for a perpetual licence. There is a 7-day trial.",
+      "title": "VoxSplit Pro separates two speakers on a single track",
+      "todo": "Pull your three worst overlapping-dialogue clips from recent jobs and run all three VoxSplit profiles on them during the trial, comparing each against the untouched original in the mix, not only solo.",
+      "url": "https://www.production-expert.com/production-expert-1/limited-edition-audio-launches-voxsplit-pro-ai-voice-separation-plugin-for-pro-tools"
+    },
+    {
+      "cat": "software",
+      "date": "2026-10-05",
+      "deep": "In spectral repair, iZotope RX and Steinberg SpectraLayers have been the main choices for years, and both cost much more at full price. FFT puts spectral editing, classic restoration and ML separation in a single standalone editor, the same space SpectraLayers covers. Transcript-based editing, where you cut audio by editing text, is useful for dialogue and podcast work.\n\nWhat isn't clear yet: KVR's report doesn't say whether FFT works as an ARA extension or round-trips into Pro Tools or Nuendo, and that matters for post. Restoration quality on real damage like clicks, hum, reverb and clipped dialogue can't be judged from a spec list. A 15-day trial and the intro price ending on 20 October give you enough time to check before you decide.",
+      "signal": 3,
+      "source": "KVR Audio",
+      "take": "FFT is a new standalone spectral editor and restoration app for macOS and Windows. It has 50 modules, including stem separation, speech enhancement, pitch editing, transcript-based editing and harmony generation. The machine-learning models run locally and work offline once installed. It costs €99/$99 until 20 October, then €199/$199, with a 15-day trial that needs no card.",
+      "title": "FluffyAudio FFT: a €99 spectral editor with local ML tools",
+      "todo": "Before 20 October, run FFT on a click, a hum and a reverby-dialogue job you have already fixed in RX, and compare the results and the time each took.",
+      "url": "https://www.kvraudio.com/news/fluffyaudio-releases-fft---spectral-audio-editor-for-macos-and-windows-68900"
+    },
+    {
+      "cat": "hearing",
+      "date": "2026-10-05",
+      "deep": "Large observational studies have linked untreated hearing loss with higher dementia risk, and the claim 'hearing aids prevent dementia' grew out of that. Observational data can't show cause and effect, which is why randomised trials matter. The large US ACHIEVE trial found no overall effect on cognitive decline, with a possible benefit only in a higher-risk subgroup. CHOICE now finds no effect on dementia but a clear benefit to cognition.\n\nThe Hearing Wire's report is based on coverage in Hearing Practitioner Australia and doesn't give the full sample size or journal, so wait for the paper before quoting exact numbers. For people working in sound, the takeaway is still useful. Treating hearing loss improves day-to-day thinking and communication, and that is a good enough reason to get tested and fitted early. It does not need to be sold as dementia prevention.",
+      "signal": 3,
+      "source": "The Hearing Wire (HearingTracker)",
+      "take": "The CHOICE trial was a two-year randomised controlled trial in adults with mild cognitive impairment. Hearing aids did not significantly reduce progression to dementia-level impairment compared with controls. Hearing-aid users were almost six times more likely to show cognitive improvement. The report concludes that hearing aids should not be sold as a dementia-prevention tool.",
+      "title": "CHOICE trial: hearing aids didn't prevent dementia but did improve cognition",
+      "todo": "If you haven't had a full audiogram in the last 12 months, book one and keep the result as your baseline.",
+      "url": "https://news.hearingtracker.com/news/acdf03ae-619f-4d1f-bcc3-a7eb701ef1db"
+    },
+    {
+      "breakthrough": true,
+      "cat": "science",
+      "date": "2026-10-01",
+      "deep": "Human cochlear hair cells are very hard to study in a living body because they sit inside the densest bone in the skull. Most of what we know about noise damage comes from mice and from post-mortem tissue. A hair-cell system that sits on the surface, is tuned to frequency and can be imaged in 3D without damaging it would let researchers watch how bundles are built, kept up and damaged over time.\n\nThis is basic science. It is a new model system, not a treatment, and how well the squid's hair-cell biology matches ours still has to be shown. The relevance to engineers is long-term. Noise-induced hearing loss starts with damage to exactly these bundles and to the synapses beneath them, and any future drug that protects or regrows them needs models like this one to get there.",
+      "signal": 2,
+      "source": "Scienmag",
+      "take": "Researchers at Case Western Reserve University, working at the Marine Biological Laboratory in Woods Hole, found hundreds of sensory hair cells across the squid's whole body surface, not only on the head and arms. The bundle lengths appear tuned to frequency, with tall bundles for low pitches and short ones for high pitches, much as in the human cochlea. The work is published in Current Biology and used light-sheet microscopy.",
+      "title": "Squid skin is covered in frequency-tuned hair cells",
+      "url": "https://scienmag.com/squid-skin-is-covered-in-hair-cells-that-could-reveal-how-human-hearing-fails/"
+    },
+    {
+      "cat": "ai",
+      "date": "2026-10-05",
+      "deep": "The numbers keep climbing: around 10,000 takedowns in late 2023, 75,000 by March 2025, 135,000 by March 2026 and 260,000 now. Platforms don't publish how fast they act or how many tracks they remove, so the real share of fakes that stay up is unknown.\n\nFor engineers and producers, this has two practical effects. First, distributors and labels are tightening provenance checks, so expect more questions about where vocals came from and more requests for session files as proof of authorship. Second, if you record a recognisable voice, your contract should say who may use the stems and isolated vocals, and whether they may be used to train AI. Without that clause, the stems become the easiest source for a clone.",
+      "signal": 2,
+      "source": "Music Business Worldwide",
+      "take": "Sony Music says it has requested takedowns of more than 260,000 AI tracks imitating its artists, nearly double the 135,000 it reported in March. That works out to more than 20,000 requests a month since April. The voices imitated include Harry Styles, Adele, Queen and Michael Jackson. Sony called enforcement an uphill struggle and asked platforms to stop the same content being re-uploaded.",
+      "title": "Sony has now asked platforms to remove more than 260,000 AI deepfakes",
+      "todo": "Add a clause to your session agreements that limits use of isolated vocal stems for AI training or voice modelling without the artist's written consent.",
+      "url": "https://www.musicbusinessworldwide.com/sony-music-has-now-asked-platforms-to-remove-more-than-260000-ai-deepfakes-imitating-artists-like-harry-styles-adele-and-michael-jackson/"
+    },
+    {
+      "cat": "live",
+      "date": "2026-10-05",
+      "deep": "Most immersive live systems need content mixed for them, so they don't fit a DJ playing finished stereo tracks. L-Acoustics DJ takes a different route. It separates stems live and lets the DJ move them around the room, which works with any record. Nameless is close to Bolzano, and it shows that Italian rental companies are already running this in the field.\n\nThe open questions are the usual ones for live separation: artefacts on dense mixes, latency, and how a stem moved off the main axis translates for people standing near one tower. An in-the-round layout also changes how you think about coverage and SPL management, because there is no front of house.",
+      "signal": 2,
+      "source": "TPi",
+      "take": "The Red Bull Energy Zone at Nameless (Bione, Lecco, 30 May–1 June) was the first European festival stage using L-Acoustics DJ spatial sound. A 16 m ring truss carried six towers. The system uses machine learning to separate the DJ's stereo output into stems in real time, so they can be placed around the floor. The production team reports that about 80% of DJs used the spatial features. All five stages ran L-Acoustics, with more than 80 K2, more than 100 KS28 and 24 K1, all supplied by Milano Show Rent.",
+      "title": "L-Acoustics DJ ran in the round at Italy's Nameless festival",
+      "url": "https://www.tpimagazine.com/l-acoustics-dj-makes-its-european-festival-febut-at-nameless/"
+    },
+    {
+      "cat": "live",
+      "date": "2026-10-05",
+      "deep": "Most networked-audio failures come down to clocking: a switch that doesn't handle PTP properly, two grandmasters fighting, or AES67 and Dante domains that don't agree. These problems show up as clicks, dropouts or devices that won't lock, and they are hard to diagnose on show day.\n\nThe bootcamp is in New York, so most European freelancers won't go, but the topic list works as a checklist. If you can't explain how your system elects its grandmaster, what happens when it fails, and which switches are PTP-aware, that is the gap to fill. Watch for slides or recordings after the event.",
+      "signal": 2,
+      "source": "TV Tech",
+      "take": "SMPTE will run a full-day bootcamp on precision timing for ST 2110 and networked audio on 21 October at the Javits Center. It covers PTP basics, network design, ST 2059 updates, grandmasters, measurement, redundancy and failover. Speakers include John Salt of Audinate and engineers from Arista, Meinberg, Telestream, Leader and Lawo. Tickets are $500, $400 for members and $250 for students, and include a show-floor pass.",
+      "title": "SMPTE runs a full-day PTP timing bootcamp at NAB Show New York",
+      "todo": "On your next Dante or AES67 show, write down which device is the grandmaster and what takes over if it fails, before doors open.",
+      "url": "https://www.tvtechnology.com/infrastructure/ip-networking/smpte-to-offer-full-day-precision-timing-bootcamp-for-st-2110-at-nab-show-new-york"
+    },
+    {
+      "cat": "plugins",
+      "date": "2026-10-05",
+      "free": true,
+      "signal": 2,
+      "source": "Bedroom Producers Blog",
+      "take": "Rapid Flow's True AB referencing plugin, normally $39, is free with a newsletter sign-up and a promo code; no end date has been announced. It loads up to five reference tracks and matches their perceived loudness to your mix automatically. It also has loop points, LUFS/peak/RMS meters, a spectrum view that highlights differences, mono and side monitoring, and five playback-system simulations. Formats are VST3/AAX on Windows and VST3/AU/AAX on macOS 10.14+, with no iLok.",
+      "title": "Free: Rapid Flow True AB level-matched referencing",
+      "todo": "Put it on your master bus with two trusted references in the genre of your current job, and check your low end with the side-only and mono views.",
+      "url": "https://bedroomproducersblog.com/2026/10/05/rapid-flow-true-ab/"
+    },
+    {
+      "cat": "live",
+      "date": "2026-10-05",
+      "deep": "Beam-steered matrix arrays like X1 need one amplifier channel for each small group of drivers, so a large venue needs very dense amplification. That is why the amp vendor is part of the system design here, not something you buy afterwards. Powersoft also points to energy savings, which matters when you run thousands of channels.\n\nThe point for engineers is that a second Sphere-style venue is on the way, and that means more location-based immersive content to mix. Mixing for beam-steered systems, where each audience zone can hear a different balance, is a new skill compared with mixing for a channel-based Atmos room.",
+      "signal": 2,
+      "source": "ProSoundWeb",
+      "take": "Florence-based Powersoft will supply compact 16-channel amplifiers built into HOLOPLOT's X1 Matrix Array system, plus its IPAL technology for the subwoofers. The venue isn't named, and deliveries will be staged through 2027 to match construction. The two companies have worked together since 2019, including on HOLOPLOT's system at Sphere in Las Vegas.",
+      "title": "Powersoft to supply amplification for a new HOLOPLOT immersive venue",
+      "url": "https://www.prosoundweb.com/powersoft-to-supply-amplification-for-new-holoplot-immersive-venue/"
+    },
+    {
+      "cat": "post",
+      "date": "2026-10-05",
+      "signal": 2,
+      "source": "KVR Audio",
+      "take": "ProSound's AudioScout is a standalone app for searching and auditioning sound-effects libraries. Version 1.1 adds spotting to the selected track and cursor in Pro Tools 2025.6 or later, insertion into Nuendo through a bundled bridge, and a REAPER bridge. It costs $10 one-time at launch, runs offline with no account, and supports Windows 10/11 and macOS 13+ on Apple Silicon only.",
+      "title": "AudioScout 1.1 spots sound effects straight into Pro Tools, Nuendo and REAPER",
+      "todo": "If you don't use Soundminer or BaseHead, try AudioScout on one library folder and check how well it handles your metadata.",
+      "url": "https://www.kvraudio.com/news/prosound-updates-audioscout-to-v1-1-with-pro-tools-nuendo-and-reaper-workflows-68893"
+    },
+    {
+      "cat": "industry",
+      "date": "2026-10-05",
+      "deep": "The CRB asked the parties about gaps in the 2021–22 inflation data, whether the deal was negotiated at arm's length when labels and publishers have the same owners, and whether objectors had a seat at the table. The answer largely relies on the Phonorecords IV precedent.\n\nThis is a US process, and streaming rates are set separately. It matters to engineers and producers who write or co-write, because physical and download mechanicals still pay on vinyl. It also shows how rates are increasingly set by industry deals that individual creators can only object to after the fact.",
+      "signal": 2,
+      "source": "Digital Music News",
+      "take": "The settling parties (the major labels, NMPA, NSAI, Music Artists Coalition and A2IM) answered the US Copyright Royalty Board's questions on their proposed 2028–2032 rates for physical formats, downloads and ringtones. The physical rate would be 12 cents plus inflation since November 2022, projected at about 13.7 cents in 2028. Ringtones stay at 24 cents. Objectors including the Songwriters Guild of America, Eight Mile Style and Stevie Wonder say the deal leaves out inflation data and reflects conflicts of interest between labels and publishers that share owners.",
+      "title": "Phonorecords V: labels and publishers defend their mechanical-rate deal",
+      "url": "https://www.digitalmusicnews.com/2026/10/05/phonorecords-v-response-major-labels/"
+    },
+    {
+      "cat": "instruments",
+      "date": "2026-10-05",
+      "signal": 2,
+      "source": "Synth Anatomy",
+      "take": "Squarp's Core is a 25 mm-deep Eurorack module with a display, TRS MIDI in and out, and both USB host and device. It has no CV outputs of its own. Each XP32 expander adds 32, up to 64 in total. It also generates LFOs, clocks, Euclidean patterns, envelopes and mutating melodic loops, and bridges USB MIDI to DIN with sync. The Core costs €190, or €590 bundled with one XP32 (normally €680).",
+      "title": "Squarp Core: an expandable MIDI-to-CV hub for Eurorack",
+      "url": "https://synthanatomy.com/2026/10/squarp-instruments-core-an-expandable-midi-to-cv-gate-interface.html"
+    },
+    {
+      "cat": "science",
+      "date": "2026-10-03",
+      "signal": 1,
+      "source": "Scienmag",
+      "take": "A Karlsruhe Institute of Technology study in Results in Engineering measured how grip force (10–135 N) and push force (10–110 N) change the way the hand and arm respond to 10–500 Hz vibration. The test used 1,500 measurements across five subjects. Force changed vibration resistance by up to fifteen times at some frequencies, and three reference force levels predicted the response with about 95% accuracy. The authors say it fills gaps in ISO 10068.",
+      "title": "How hard you grip a tool changes vibration absorbed by up to 15 times",
+      "url": "https://scienmag.com/how-hard-you-grip-a-power-tool-changes-how-much-vibration-your-arm-absorbs/"
+    },
+    {
+      "cat": "instruments",
+      "date": "2026-10-05",
+      "signal": 1,
+      "source": "Synth Anatomy",
+      "take": "Both have 32 mini keys with velocity and aftertouch, a 64-step sequencer with 8-note polyphony, an arpeggiator with 8 modes, a chord mode of up to 16 notes, and touch strips. Outputs include 5-pin MIDI, sync, CV pitch, gate and mod, and two USB-C ports. Jam Play adds a display, 128 built-in sounds and a stereo output. Price and availability are TBA.",
+      "title": "Behringer Jam and Jam Play: Keystep-style MIDI and CV sequencers",
+      "url": "https://synthanatomy.com/2026/10/behringer-jam-play-keystep-like-midi-cv-keyboard-sequencers-with-and-without-built-in-sounds.html"
+    },
+    {
+      "cat": "plugins",
+      "date": "2026-10-05",
+      "signal": 1,
+      "source": "KVR Audio",
+      "take": "23Bloom raises perceived loudness by adding harmonics in three adjustable bands, with K-weighted loudness tracking, instead of reducing gain. It runs as VST3/AU on Windows, macOS and Linux x64. It is pay-what-you-want with a €10 minimum and free for Bloom owners. The current build is still a release candidate (0.10.0-RC2).",
+      "title": "23DSP 23Bloom adds loudness with harmonics instead of limiting",
+      "url": "https://www.kvraudio.com/news/23dsp-releases-23bloom---harmonic-enhancer-and-loudness-expander-for-windows-macos-and-linux-68899"
+    },
+    {
+      "cat": "plugins",
+      "date": "2026-10-05",
+      "signal": 1,
+      "source": "Production Expert",
+      "take": "iamReverb captures each space with up to 25 microphones at close, mid and far positions, so you can choose the distance. The full version has 32–38 impulse responses and a 6-band EQ and costs $299. Lite has 12 IRs and costs $99. It is zero-latency, runs as VST3/AU/AAX and uses iLok. The report doesn't mention surround or Atmos IR formats.",
+      "title": "iamReverb: convolution reverb sampled with up to 25 mics per space",
+      "url": "https://www.production-expert.com/production-expert-1/iamreverb-releases-multi-mic-convolution-reverb-plugin-for-mac-and-windows"
+    },
+    {
+      "cat": "plugins",
+      "date": "2026-10-05",
+      "free": true,
+      "signal": 1,
+      "source": "MusicRadar",
+      "take": "Chase Bliss discontinued the Chompi hardware and released its firmware source under the MIT licence. Temecula DSP has now ported it as Nibbi, a free VST3/AU/AAX plugin for macOS and Windows. It includes both Tape and Tempo modes and an optional S950-style interface. It's a good example of a manufacturer open-sourcing a product so it doesn't simply disappear.",
+      "title": "Free: Nibbi brings the discontinued Chompi sampler back as a plugin",
+      "url": "https://www.musicradar.com/music-tech/the-chompi-sampler-has-been-reborn-as-a-free-plugin"
+    },
+    {
+      "cat": "live",
+      "date": "2026-10-05",
+      "signal": 1,
+      "source": "TV Tech",
+      "take": "Ahead of NAB Show New York, Cobalt Digital said its 9935-AUD4-DANTE openGear card now has optional fibre inputs and outputs. Its ARIA audio monitor is now fully IPMX compliant and handles 16 SDI or 64 MADI channels. Fibre on the card makes long Dante runs between a truck and a venue easier without media converters.",
+      "title": "Cobalt adds fibre I/O to its Dante openGear card",
+      "url": "https://www.tvtechnology.com/infrastructure/ip-networking/cobalt-digital-to-exhibit-ipmx-ecosystem-at-nab-show-new-york"
+    },
+    {
+      "cat": "instruments",
+      "date": "2026-10-05",
+      "signal": 1,
+      "source": "Synthtopia",
+      "take": "OctaMod, an unofficial firmware for the Elektron Octatrack, adds multitrack audio output over USB, so you can record separate tracks into a DAW without using the analogue outs. The developer calls it a work in progress, and Elektron restricts discussion of alternative firmware on its forums. Back up the unit before trying it.",
+      "title": "Unofficial OctaMod firmware adds multichannel USB audio to the Octatrack",
+      "url": "https://www.synthtopia.com/content/2026/10/05/unofficial-firmware-brings-multi-channel-audio-to-elektron-octatrack/"
+    },
+    {
+      "cat": "instruments",
+      "date": "2026-10-04",
+      "free": true,
+      "signal": 1,
+      "source": "Gearnews",
+      "take": "vubeatz's free mods add pad-based chopping, splitting into 16, 8 or 4 regions, ±36-semitone tuning, mute groups, input thru while sampling and moving events between bars. They need OS 1.72 on the MPC2000 or OS 1.20 on the 2000XL, plus a boot medium such as a floppy emulator.",
+      "title": "Free mods update the Akai MPC2000 and 2000XL workflow",
+      "url": "https://www.gearnews.com/mpc2000-mods-synth/"
+    },
+    {
+      "cat": "instruments",
+      "date": "2026-10-04",
+      "signal": 1,
+      "source": "Synth Anatomy",
+      "take": "ZONA is a capacitive multitouch surface with an 81-LED RGB matrix and no physical controls. It works as an XY pad, a bank of touch faders or a trackpad, connects over USB-C and is configured in Intech's app. It has no DIN MIDI. Pre-orders cost $199 (then $239), and it ships on 1 November.",
+      "title": "Intech ZONA: a multitouch XY and fader pad for DAW control",
+      "url": "https://synthanatomy.com/2026/10/intech-studio-zona-expressive-touch-pad-controller-compatible-with-grid.html"
+    },
+    {
+      "cat": "industry",
+      "date": "2026-10-05",
+      "signal": 1,
+      "source": "FOH",
+      "take": "ESTA has set up the Legacy of Safety Fund, an unrestricted endowment that pays to keep its ANSI entertainment technology standards free to download and to keep the ETCP certification exams up to date. No target amount was given. Touring and venue crews rely on these standards for rigging and electrical work.",
+      "title": "ESTA starts a fund to keep its entertainment safety standards free",
+      "url": "https://fohonline.com/newsroom/news/esta-launches-the-legacy-of-safety-fund/"
+    },
+    {
+      "cat": "industry",
+      "date": "2026-10-02",
+      "signal": 1,
+      "source": "Mix",
+      "take": "Mix's third report from its 26 September event at Sony Pictures Studios covers panels on Forgotten Island, Widow's Bay and Project Hail Mary, with Skywalker and NBCU post mixers. CAPA's president pointed to the passing of California's post-production tax incentive bill. The incentive could pull more post work back to Los Angeles.",
+      "title": "Mix Sound for Film & TV: post crews point to California's new tax incentive",
+      "url": "https://www.mixonline.com/business/seen-on-the-scene-mix-sound-for-film-tv-part-iii"
+    },
+    {
+      "cat": "ai",
+      "date": "2026-10-01",
+      "signal": 1,
+      "source": "Music Business Worldwide",
+      "take": "A $300M employee share sale, led by Wellington and T. Rowe Price, doubled ElevenLabs' valuation to $22 billion from $11 billion in February. That is more than four times Suno's $5.4 billion. Its music product is licensed with Merlin, Kobalt, Believe and UMG, and enterprise customers make up 55% of revenue. The biggest voice-AI company is now well funded and licensed.",
+      "title": "ElevenLabs reaches a $22 billion valuation",
+      "url": "https://www.musicbusinessworldwide.com/elevenlabs-valuation-doubles-to-22b-four-times-that-of-ai-music-rival-suno/"
+    }
+  ],
+  "key": "2026-10-06",
+  "label": "Tue 6 Oct 2026",
+  "lead": "A quiet weekend, so this brief also picks up a few stories from late last week that we hadn't covered. The most useful news for post is two new repair tools that run locally: VoxSplit Pro separates two people talking on one track, and FluffyAudio FFT is a €99 spectral editor that challenges RX and SpectraLayers. On hearing, a two-year randomised trial found that hearing aids did not prevent dementia but did improve cognition, which is a more honest message to pass on than the usual one. Sony's AI deepfake takedown count has nearly doubled since March, Italy's Nameless festival ran L-Acoustics DJ spatial sound in the round, and SMPTE is running a full day on PTP timing for anyone whose Dante or ST 2110 clocks misbehave.",
+  "period": "day",
+  "radar": [
+    {
+      "date": "2026-10-20",
+      "note": "€99/$99 until 20 October, then €199/$199. The 15-day trial covers the gap.",
+      "title": "FluffyAudio FFT intro price ends",
+      "url": "https://www.kvraudio.com/news/fluffyaudio-releases-fft---spectral-audio-editor-for-macos-and-windows-68900"
+    },
+    {
+      "date": "2026-10-21",
+      "note": "A full day on ST 2110 and networked-audio timing on 21 October. The show floor is open 21–22 October.",
+      "title": "SMPTE PTP bootcamp and NAB Show New York",
+      "url": "https://www.tvtechnology.com/infrastructure/ip-networking/smpte-to-offer-full-day-precision-timing-bootcamp-for-st-2110-at-nab-show-new-york"
+    },
+    {
+      "date": "2026-10-30",
+      "note": "The first AES Convention in Nashville runs 30 October to 1 November. Expected launches include Allen & Heath SQ+ consoles, Yamaha DM5 and Clear-Com FreeSpeak Cell.",
+      "title": "AES Show Nashville",
+      "url": "https://fohonline.com/newsroom/news/aes-nashville-technology-preview/"
+    },
+    {
+      "date": "2026-10-31",
+      "note": "The Pro Tools re-conform tool, which compares old and new cut AAFs, costs $249 until 31 October and $399 after.",
+      "title": "Kraxton AAF Sync intro price ends",
+      "url": "https://www.production-expert.com/production-expert-1/kraxton-labs-aaf-sync-automates-pro-tools-reconforming-from-old-and-new-cut-aafs"
+    }
+  ],
+  "range": "1–6 Oct 2026"
+}

@@ -1,217 +1,217 @@
 {
- "craft": {
-  "body": "Two stories this week come back to one question: who owns and who has cleared the audio you touch. That covers a Suno cue a director drops into the cut, a stem you separate from a master, and a board recording you make at a gig.\n\nAdd two short lines to your standard quote: the client confirms all supplied material is cleared, and the quote states who owns any recordings you make on the job. It takes five minutes once and protects you on every job after.",
-  "title": "Put the rights question in writing"
- },
- "generated": "2026-10-04T11:30:00+02:00",
- "headline": "Who owns the sound you make",
- "items": [
-  {
-   "cat": "live",
-   "date": "2026-10-02",
-   "deep": "The point is to stop retyping. A typical festival advance goes from rider PDF to spreadsheet to desk patch to tape labels, and every copy is a chance for a channel swap you only find at line check. Load-In treats the input list as the single source and generates the rest.\n\nThe free tier is enough to test it on a real show. Check which console models it supports on goforshow.io before relying on a native export, and open the file offline on the desk or in the editor before the gig.",
-   "signal": 3,
-   "source": "Mix",
-   "take": "Touring engineer Gryphon Graham's iOS and web app reads riders, typed or photographed input lists and spreadsheets. It outputs stage plots, labels, PDFs and native console files for Avid, Allen & Heath, DiGiCo, Behringer/Midas and Yamaha. The free tier keeps three plots with X32/M32 export; Pro is $59.",
-   "title": "Load-In turns riders into stage plots and console show files",
-   "todo": "Run your next rider through the free tier and compare its X32/M32 export with the patch you would have built by hand.",
-   "url": "https://www.mixonline.com/technology/news-products/touring-engineer-launches-load-in-software"
+  "craft": {
+    "body": "Two stories this week come back to one question: who owns and who has cleared the audio you touch. That covers a Suno cue a director drops into the cut, a stem you separate from a master, and a board recording you make at a gig.\n\nAdd two short lines to your standard quote: the client confirms all supplied material is cleared, and the quote states who owns any recordings you make on the job. It takes five minutes once and protects you on every job after.",
+    "title": "Put the rights question in writing"
   },
-  {
-   "cat": "ai",
-   "date": "2026-10-02",
-   "deep": "For anyone delivering sound to picture, Suno output now sits in a patchwork. Some catalogues are licensed, the two biggest majors are still in court, and a US appeals court ruled on 29 September (Thomson Reuters v. ROSS) that training a competing AI on copyrighted work is not fair use. MBW and Forbes both point out that the ROSS case was about non-generative AI, so it does not decide the Suno cases. A summary-judgment ruling in Massachusetts is the next big marker.\n\nIn Europe the picture is already firmer. GEMA largely won its case against Suno in Munich in July, and the court rejected AI Act compliance as a defence. If a client hands you a Suno track as temp or final music for a broadcast or festival film, the risk is theirs only if the contract says so.",
-   "signal": 3,
-   "source": "Music Business Worldwide",
-   "take": "Speaking in Los Angeles, Suno CEO Mikey Shulman said the company is well past its last disclosed 2 million paid subscribers and $300m in annual revenue. He also said it is good that AI music has no firm rules yet. Suno now holds licences from Warner, BMG and Believe, but Universal and Sony filed a second suit against it in September.",
-   "title": "Suno says 'no firm rules' suits it, while UMG and Sony keep suing",
-   "todo": "Add one line to your quotes and delivery notes: 'Client confirms all supplied music, including AI-generated material, is cleared for the stated use.'",
-   "url": "https://www.musicbusinessworldwide.com/suno-is-far-beyond-2m-subscribers-and-300m-in-revenue-says-mikey-shulman-who-argues-its-good-that-ai-music-has-no-firm-rules-of-the-road-yet/"
-  },
-  {
-   "cat": "live",
-   "date": "2026-10-02",
-   "deep": "It deliberately leaves topology, QoS and routing alone. What it fixes is the first hour of a converged-network gig, where audio, lighting and video crews from different companies negotiate address ranges. Each department gets up to 510 client addresses.\n\nThe spec is a free download from itforavs.com and is being developed with the community, so it is early. It only helps if rental houses and crews adopt it, and German-speaking event IT is where it is most likely to spread first. That makes it relevant for work around Bolzano.",
-   "signal": 2,
-   "source": "ProSoundWeb",
-   "take": "IT trainer Bodo Felusch (IT For AVs) has published an open, vendor-neutral convention for VLAN IDs and IP addresses on mobile event networks that carry Dante, NDI, ST 2110, Art-Net and sACN. VLAN blocks are assigned by department, and subnets and switch addresses are derived from them. It scales from 3 to 100 switches per show.",
-   "title": "BF-C.O.R.E.: a free shared VLAN and IP plan for event networks",
-   "url": "https://www.prosoundweb.com/bf-c-o-r-e-introduces-common-network-standards-for-live-production/"
-  },
-  {
-   "cat": "gear",
-   "date": "2026-10-02",
-   "deep": "They were unveiled at IBC next to the new Spectera handheld and reached dealers at the end of September. No price was given. The supercardioid 105 A is the one for loud stages and wedges, and the cardioid 104 A is the safer choice for presenters and singers who move off-axis.\n\nIf you mix broadcast or corporate events on rented Sennheiser systems, these are likely to show up on spec sheets soon.",
-   "signal": 2,
-   "source": "Production Expert",
-   "take": "Neumann's two true-condenser capsule heads fit Sennheiser Spectera, EW-D, EW-DX and Digital 6000/9000 handhelds. The KK 104 A is cardioid and the KK 105 A supercardioid. Both have a fixed low-cut, a hardened grille with built-in pop screen, and less handling noise than the older KK 204/205.",
-   "title": "Neumann KK 104 A and KK 105 A: condenser heads for Sennheiser wireless",
-   "url": "https://www.production-expert.com/production-expert-1/neumann-kk-104-a-and-kk-105-a-bring-condenser-capsule-heads-to-sennheiser-wireless-systems"
-  },
-  {
-   "cat": "post",
-   "date": "2026-10-02",
-   "deep": "The useful idea is the workflow rather than the headline number. Separation gives you a map of the released mix that you can line up against archive multitracks. That helps when a remix or Atmos upmix has to match a mix nobody documented.\n\nThe catch for pro work is where the audio goes. MVSEP is a web service, so client or label masters would leave your machine. SpectraLayers runs locally.",
-   "signal": 2,
-   "source": "Production Expert",
-   "take": "Restoration engineer John Hurlbut compares Steinberg SpectraLayers Pro with the web service MVSEP. His method is to split the commercial master into stems, then compare them against the original multitrack to work out what was used in the final mix. He reports pulling 38 tracks from a 4-track original.",
-   "title": "38 clean tracks from a 4-track master: separation as a restoration tool",
-   "todo": "Before uploading anything to a web separation service, check the client's NDA or delivery contract for a clause on third-party processing.",
-   "url": "https://www.production-expert.com/production-expert-1/how-to-get-38-tracks-of-clean-separation-from-a-4-track-session"
-  },
-  {
-   "cat": "ai",
-   "date": "2026-10-02",
-   "deep": "Everything core runs offline after a 20-second analysis. That is the detail that matters for NDA work, because no stems go to a cloud service. Formats are VST3 and AU only, so there is no Pro Tools version.\n\nTreat it as a fast first pass or a second opinion on a demo, then judge it against your own ears and your reference tracks.",
-   "signal": 2,
-   "source": "KVR Audio",
-   "take": "AudioBrain's macOS system pairs a Master plugin with Node instances on each track. It handles corrective EQ, dynamics and transients, uses priority rules to make competing parts yield, and includes a local LLM so you can describe the mix in plain language. Free up to 8 nodes; Studio $99, Pro $249, 30% off until 16 Oct.",
-   "title": "MixBrain V3: a prompt-driven mixing assistant that runs locally",
-   "url": "https://www.kvraudio.com/news/audiobrain-releases-mixbrain-v3---prompt-driven-master-and-node-mixing-system-for-macos-68861"
-  },
-  {
-   "cat": "post",
-   "date": "2026-10-01",
-   "deep": "Eclipsa (based on the IAMF standard) is the first serious open challenger to Atmos for streaming. Its pitch is that immersive mixes can reach YouTube and Samsung TVs without a licensed proprietary format. A Pro Tools workflow using the Eclipsa plugin was part of the event preview.\n\nAtmos remains the deliverable for Netflix, Apple and cinema, so nothing changes for those jobs. It matters if you mix immersive music, branded content or documentaries that land mainly on YouTube.",
-   "signal": 2,
-   "source": "Mix",
-   "take": "Google was a first-time sponsor of Mix Sound for Film & TV at Sony Pictures Studios and showed Eclipsa Audio, an open immersive format co-developed with Samsung. It was presented as tools and delivery specs for streaming full-bandwidth immersive audio to the home, demoed on a 7.1.4 consumer system.",
-   "title": "Google brings Eclipsa Audio to the film-sound crowd",
-   "todo": "Next time you have a 7.1.4 mix for YouTube, test an Eclipsa render alongside your binaural fold-down.",
-   "url": "https://www.mixonline.com/business/seen-on-the-scene-mix-sound-for-film-tv-2026-part-ii"
-  },
-  {
-   "cat": "live",
-   "date": "2026-10-01",
-   "deep": "System time in a venue is the bottleneck for immersive live and theatre work. Moving object placement and cue programming to a laptop and headphones means you arrive with a show that is mostly built and spend venue time on tuning. A week earlier d&b also added system auralization to ArrayCalc, so you can listen to a design before it is hung.",
-   "signal": 2,
-   "source": "ProSoundWeb",
-   "take": "d&b's new standalone engine runs on macOS and Windows and takes up to 64 inputs from a DAW over d&b AudioBridge. It renders them binaurally, so Soundscape object positions and cues can be programmed without a processor or a PA. It needs Create.Control v1.4; no price was given.",
-   "title": "d&b vCore: build Soundscape immersive shows on headphones",
-   "url": "https://www.prosoundweb.com/db-audiotechnik-unveils-new-vcore-for-soundscape-preproduction/"
-  },
-  {
-   "cat": "ai",
-   "date": "2026-10-01",
-   "deep": "This adds Japan to a growing list of places where voices, not just recordings, are treated as protected. For post sound it is directly relevant to AI voice cloning for ADR, temp VO and localisation. A cloned voice can be a rights problem even when no original recording is reused.",
-   "signal": 2,
-   "source": "CMU",
-   "take": "In a case brought by voice actor Kenjiro Tsuda against TikTok, the Tokyo District Court held that unauthorised use of a performer's voice can infringe publicity rights when it exploits the voice's commercial appeal. No injunction was issued because the videos had already been taken down.",
-   "title": "Tokyo court: a performer's voice is protected by publicity rights",
-   "todo": "Before cloning or synthesising any actor's voice, get written consent that names the project, the uses and how long the voice model is kept.",
-   "url": "https://completemusicupdate.com/japanese-court-says-voice-is-protected-by-publicity-rights-us-appeals-court-says-ai-training-is-not-fair-use/"
-  },
-  {
-   "cat": "plugins",
-   "date": "2026-10-02",
-   "deep": "Free AAX IR loaders are rarer than you would think. Pair it with IRs you capture on location and you can match ADR and Foley to production sound inside Pro Tools without a paid reverb.",
-   "free": true,
-   "signal": 2,
-   "source": "KVR Audio",
-   "take": "Convolute is a free, simple convolution reverb that loads your own impulse responses, in VST2, VST3, AU and AAX for Mac and Windows. Its paid sibling VerbJunkie mixes convolution and algorithmic engines with rhythmic tail movement, at $9.95 intro ($39 regular).",
-   "title": "Free: DAWJunkie Convolute IR reverb (with AAX)",
-   "url": "https://www.kvraudio.com/news/dawjunkie-releases-verbjunkie-and-free-convolute-reverb-for-macos-and-windows-68862"
-  },
-  {
-   "cat": "gear",
-   "date": "2026-10-02",
-   "signal": 1,
-   "source": "Mix",
-   "take": "The hypercardioid dynamic instrument mic is back, made in Japan to the original design with an all-metal body and integrated stand clamp. A-T aims it at kick, toms, brass, cabs and voiceover. No price was announced.",
-   "title": "Audio-Technica reissues the 1983 ATM25, unchanged",
-   "url": "https://www.mixonline.com/technology/news-products/a-t-re-releases-a-classic"
-  },
-  {
-   "cat": "instruments",
-   "date": "2026-10-02",
-   "deep": "Elektron said the surge in custom firmware, much of it apparently AI-assisted, risks damaging devices and its IP. Community firmware can give old hardware new life, but it is unsupported and can brick a unit.",
-   "signal": 1,
-   "source": "Synth Anatomy",
-   "take": "Elektron banned sharing firmware hacks on its forum in September, but community releases continue. Digisophie adds a metallic percussion synth to the discontinued Digitakt MK1 through the elekloader tool, and similar projects target Model:Cycles, MPC500 and SP-404MKII. Authors advise backing up and keeping the stock OS ready.",
-   "title": "Custom firmware keeps reviving discontinued Elektron boxes",
-   "todo": "Never flash a box you need for a gig this month, and keep the stock OS file and recovery steps saved before you try.",
-   "url": "https://synthanatomy.com/2026/10/soejrd-digisophie-custom-elektron-digitakt-mk1-firmware.html"
-  },
-  {
-   "cat": "software",
-   "date": "2026-10-02",
-   "deep": "Better multichannel handling helps installation, interactive and spatial patches, where Pd and plugdata are often the cheapest reliable route. The stable version is still 0.56-5, so keep test builds off show machines.",
-   "free": true,
-   "signal": 1,
-   "source": "CDM",
-   "take": "The free, open-source Pd gets new multichannel snake~ objects (pick, split, sum), a [siginfo~] object that reports sample rate and channel count, new list tools and JSON-style dictionaries. The changes also flow into libpd and plugdata.",
-   "title": "Pure Data 0.57 test builds add multichannel 'snake' objects",
-   "url": "https://cdm.link/pd-0-57-inbound/"
-  },
-  {
-   "cat": "plugins",
-   "date": "2026-10-02",
-   "free": true,
-   "signal": 1,
-   "source": "KVR Audio",
-   "take": "Blue Cat Audio refreshed its whole free range. Gain Suite 3.6 now supports 26 link groups instead of 9, the analysers and modulation plugins gain 14-bit MIDI control, and Free Amp 2.0 moves to a new engine. All free, no registration, in every major format including AAX.",
-   "title": "Free: Blue Cat Gain Suite now links up to 26 groups",
-   "url": "https://www.kvraudio.com/news/blue-cat-audio-releases-free-amp-2-0-and-updates-all-free-plug-ins-68870"
-  },
-  {
-   "cat": "industry",
-   "date": "2026-10-02",
-   "signal": 1,
-   "source": "Mix",
-   "take": "Solid State Logic's new course, written by Alex Miller and taught by SSL Certified Instructors, covers session organisation, balance, dynamics, effects, critical listening and mix evaluation. No price was published. It joins the Avid and Dante certificates some schools and studios ask for.",
-   "title": "SSL launches a Music Mixing Level 1 certification",
-   "url": "https://www.mixonline.com/audio-education/ssl-launches-music-mixing-certification"
-  },
-  {
-   "cat": "live",
-   "date": "2026-10-02",
-   "signal": 1,
-   "source": "ProSoundWeb",
-   "take": "Run with More Logistics, the warehouse holds all UBX models and selected CX boxes so European distributors can order from EU stock, with overnight shipping offered. For installs and rentals in Italy that should mean shorter lead times on those lines.",
-   "title": "Renkus-Heinz opens an EU stock hub in the Netherlands",
-   "url": "https://www.prosoundweb.com/renkus-heinz-opens-new-eu-fulfillment-hub-in-the-netherlands/"
-  },
-  {
-   "cat": "industry",
-   "date": "2026-10-02",
-   "deep": "The case is why distributors are tightening checks on AI-generated uploads. Artist clients releasing AI-assisted music may face more disclosure questions at distribution.",
-   "signal": 1,
-   "source": "CMU",
-   "take": "Michael Smith pleaded guilty over an $8m scheme that inflated streams on hundreds of thousands of AI-generated tracks. Prosecutors seek at least 46 months; the defence asks for no jail time. CMU calls it the first US criminal case for streaming fraud.",
-   "title": "First US streaming-fraud sentencing over AI-generated tracks",
-   "url": "https://completemusicupdate.com/streaming-fraud-is-fuelled-by-perceived-lack-of-a-legal-risk-industry-stakeholders-tell-judge-in-michael-smith-sentencing/"
-  },
-  {
-   "cat": "speakers",
-   "date": "2026-10-02",
-   "signal": 1,
-   "source": "Sound On Sound",
-   "take": "The Master Tuned GR2 moves to a hydrocarbon ceramic PCB, upgrades parts and adds two DAC filters voiced with producer Steve Levine. iFi claims over 1500 mW into 32 ohms plus Bluetooth 5.4 with aptX Lossless and LDAC. $699/£699.",
-   "title": "iFi GR2 MT: a tuned portable DAC/headphone amp",
-   "url": "https://www.soundonsound.com/news/ifi-audio-reveal-gr2-mt"
-  }
- ],
- "key": "2026-10-04",
- "label": "Sun 4 Oct 2026",
- "lead": "A long weekend brief with stories from the whole trade. Live engineers got a free addressing standard for event networks and an app that turns riders into console files, d&b moved immersive show prep onto headphones, and Google pitched its open immersive format to film mixers. On the rights side, Suno's CEO welcomed the lack of fixed rules while two majors keep suing, and a Tokyo court ruled that a performer's voice is protected. Plus Neumann heads for Sennheiser wireless, two useful free plugins and a deep look at stem separation in restoration.",
- "period": "day",
- "radar": [
-  {
-   "date": "2026-10-16",
-   "note": "30% off Studio and Pro editions.",
-   "title": "MixBrain V3 intro pricing ends"
-  },
-  {
-   "date": "2026-10-22",
-   "note": "$14.90 instead of $49.90.",
-   "title": "W. A. Production Asymo Reverb intro price ends"
-  },
-  {
-   "date": "2026-10-30",
-   "note": "Immersive and spatial audio track, Genelec and ADAM listening rooms.",
-   "title": "AES Show Nashville, 30 Oct – 1 Nov",
-   "url": "https://www.prosoundweb.com/immersive-spatial-audio-to-take-center-stage-at-aes-show-nashville-2026/"
-  }
- ],
- "range": "1–4 Oct 2026"
+  "generated": "2026-10-04T11:30:00+02:00",
+  "headline": "Who owns the sound you make",
+  "items": [
+    {
+      "cat": "live",
+      "date": "2026-10-02",
+      "deep": "The point is to stop retyping. A typical festival advance goes from rider PDF to spreadsheet to desk patch to tape labels, and every copy is a chance for a channel swap you only find at line check. Load-In treats the input list as the single source and generates the rest.\n\nThe free tier is enough to test it on a real show. Check which console models it supports on goforshow.io before relying on a native export, and open the file offline on the desk or in the editor before the gig.",
+      "signal": 3,
+      "source": "Mix",
+      "take": "Touring engineer Gryphon Graham's iOS and web app reads riders, typed or photographed input lists and spreadsheets. It outputs stage plots, labels, PDFs and native console files for Avid, Allen & Heath, DiGiCo, Behringer/Midas and Yamaha. The free tier keeps three plots with X32/M32 export; Pro is $59.",
+      "title": "Load-In turns riders into stage plots and console show files",
+      "todo": "Run your next rider through the free tier and compare its X32/M32 export with the patch you would have built by hand.",
+      "url": "https://www.mixonline.com/technology/news-products/touring-engineer-launches-load-in-software"
+    },
+    {
+      "cat": "ai",
+      "date": "2026-10-02",
+      "deep": "For anyone delivering sound to picture, Suno output now sits in a patchwork. Some catalogues are licensed, the two biggest majors are still in court, and a US appeals court ruled on 29 September (Thomson Reuters v. ROSS) that training a competing AI on copyrighted work is not fair use. MBW and Forbes both point out that the ROSS case was about non-generative AI, so it does not decide the Suno cases. A summary-judgment ruling in Massachusetts is the next big marker.\n\nIn Europe the picture is already firmer. GEMA largely won its case against Suno in Munich in July, and the court rejected AI Act compliance as a defence. If a client hands you a Suno track as temp or final music for a broadcast or festival film, the risk is theirs only if the contract says so.",
+      "signal": 3,
+      "source": "Music Business Worldwide",
+      "take": "Speaking in Los Angeles, Suno CEO Mikey Shulman said the company is well past its last disclosed 2 million paid subscribers and $300m in annual revenue. He also said it is good that AI music has no firm rules yet. Suno now holds licences from Warner, BMG and Believe, but Universal and Sony filed a second suit against it in September.",
+      "title": "Suno says 'no firm rules' suits it, while UMG and Sony keep suing",
+      "todo": "Add one line to your quotes and delivery notes: 'Client confirms all supplied music, including AI-generated material, is cleared for the stated use.'",
+      "url": "https://www.musicbusinessworldwide.com/suno-is-far-beyond-2m-subscribers-and-300m-in-revenue-says-mikey-shulman-who-argues-its-good-that-ai-music-has-no-firm-rules-of-the-road-yet/"
+    },
+    {
+      "cat": "live",
+      "date": "2026-10-02",
+      "deep": "It deliberately leaves topology, QoS and routing alone. What it fixes is the first hour of a converged-network gig, where audio, lighting and video crews from different companies negotiate address ranges. Each department gets up to 510 client addresses.\n\nThe spec is a free download from itforavs.com and is being developed with the community, so it is early. It only helps if rental houses and crews adopt it, and German-speaking event IT is where it is most likely to spread first. That makes it relevant for work around Bolzano.",
+      "signal": 2,
+      "source": "ProSoundWeb",
+      "take": "IT trainer Bodo Felusch (IT For AVs) has published an open, vendor-neutral convention for VLAN IDs and IP addresses on mobile event networks that carry Dante, NDI, ST 2110, Art-Net and sACN. VLAN blocks are assigned by department, and subnets and switch addresses are derived from them. It scales from 3 to 100 switches per show.",
+      "title": "BF-C.O.R.E.: a free shared VLAN and IP plan for event networks",
+      "url": "https://www.prosoundweb.com/bf-c-o-r-e-introduces-common-network-standards-for-live-production/"
+    },
+    {
+      "cat": "gear",
+      "date": "2026-10-02",
+      "deep": "They were unveiled at IBC next to the new Spectera handheld and reached dealers at the end of September. No price was given. The supercardioid 105 A is the one for loud stages and wedges, and the cardioid 104 A is the safer choice for presenters and singers who move off-axis.\n\nIf you mix broadcast or corporate events on rented Sennheiser systems, these are likely to show up on spec sheets soon.",
+      "signal": 2,
+      "source": "Production Expert",
+      "take": "Neumann's two true-condenser capsule heads fit Sennheiser Spectera, EW-D, EW-DX and Digital 6000/9000 handhelds. The KK 104 A is cardioid and the KK 105 A supercardioid. Both have a fixed low-cut, a hardened grille with built-in pop screen, and less handling noise than the older KK 204/205.",
+      "title": "Neumann KK 104 A and KK 105 A: condenser heads for Sennheiser wireless",
+      "url": "https://www.production-expert.com/production-expert-1/neumann-kk-104-a-and-kk-105-a-bring-condenser-capsule-heads-to-sennheiser-wireless-systems"
+    },
+    {
+      "cat": "post",
+      "date": "2026-10-02",
+      "deep": "The useful idea is the workflow rather than the headline number. Separation gives you a map of the released mix that you can line up against archive multitracks. That helps when a remix or Atmos upmix has to match a mix nobody documented.\n\nThe catch for pro work is where the audio goes. MVSEP is a web service, so client or label masters would leave your machine. SpectraLayers runs locally.",
+      "signal": 2,
+      "source": "Production Expert",
+      "take": "Restoration engineer John Hurlbut compares Steinberg SpectraLayers Pro with the web service MVSEP. His method is to split the commercial master into stems, then compare them against the original multitrack to work out what was used in the final mix. He reports pulling 38 tracks from a 4-track original.",
+      "title": "38 clean tracks from a 4-track master: separation as a restoration tool",
+      "todo": "Before uploading anything to a web separation service, check the client's NDA or delivery contract for a clause on third-party processing.",
+      "url": "https://www.production-expert.com/production-expert-1/how-to-get-38-tracks-of-clean-separation-from-a-4-track-session"
+    },
+    {
+      "cat": "ai",
+      "date": "2026-10-02",
+      "deep": "Everything core runs offline after a 20-second analysis. That is the detail that matters for NDA work, because no stems go to a cloud service. Formats are VST3 and AU only, so there is no Pro Tools version.\n\nTreat it as a fast first pass or a second opinion on a demo, then judge it against your own ears and your reference tracks.",
+      "signal": 2,
+      "source": "KVR Audio",
+      "take": "AudioBrain's macOS system pairs a Master plugin with Node instances on each track. It handles corrective EQ, dynamics and transients, uses priority rules to make competing parts yield, and includes a local LLM so you can describe the mix in plain language. Free up to 8 nodes; Studio $99, Pro $249, 30% off until 16 Oct.",
+      "title": "MixBrain V3: a prompt-driven mixing assistant that runs locally",
+      "url": "https://www.kvraudio.com/news/audiobrain-releases-mixbrain-v3---prompt-driven-master-and-node-mixing-system-for-macos-68861"
+    },
+    {
+      "cat": "post",
+      "date": "2026-10-01",
+      "deep": "Eclipsa (based on the IAMF standard) is the first serious open challenger to Atmos for streaming. Its pitch is that immersive mixes can reach YouTube and Samsung TVs without a licensed proprietary format. A Pro Tools workflow using the Eclipsa plugin was part of the event preview.\n\nAtmos remains the deliverable for Netflix, Apple and cinema, so nothing changes for those jobs. It matters if you mix immersive music, branded content or documentaries that land mainly on YouTube.",
+      "signal": 2,
+      "source": "Mix",
+      "take": "Google was a first-time sponsor of Mix Sound for Film & TV at Sony Pictures Studios and showed Eclipsa Audio, an open immersive format co-developed with Samsung. It was presented as tools and delivery specs for streaming full-bandwidth immersive audio to the home, demoed on a 7.1.4 consumer system.",
+      "title": "Google brings Eclipsa Audio to the film-sound crowd",
+      "todo": "Next time you have a 7.1.4 mix for YouTube, test an Eclipsa render alongside your binaural fold-down.",
+      "url": "https://www.mixonline.com/business/seen-on-the-scene-mix-sound-for-film-tv-2026-part-ii"
+    },
+    {
+      "cat": "live",
+      "date": "2026-10-01",
+      "deep": "System time in a venue is the bottleneck for immersive live and theatre work. Moving object placement and cue programming to a laptop and headphones means you arrive with a show that is mostly built and spend venue time on tuning. A week earlier d&b also added system auralization to ArrayCalc, so you can listen to a design before it is hung.",
+      "signal": 2,
+      "source": "ProSoundWeb",
+      "take": "d&b's new standalone engine runs on macOS and Windows and takes up to 64 inputs from a DAW over d&b AudioBridge. It renders them binaurally, so Soundscape object positions and cues can be programmed without a processor or a PA. It needs Create.Control v1.4; no price was given.",
+      "title": "d&b vCore: build Soundscape immersive shows on headphones",
+      "url": "https://www.prosoundweb.com/db-audiotechnik-unveils-new-vcore-for-soundscape-preproduction/"
+    },
+    {
+      "cat": "ai",
+      "date": "2026-10-01",
+      "deep": "This adds Japan to a growing list of places where voices, not just recordings, are treated as protected. For post sound it is directly relevant to AI voice cloning for ADR, temp VO and localisation. A cloned voice can be a rights problem even when no original recording is reused.",
+      "signal": 2,
+      "source": "CMU",
+      "take": "In a case brought by voice actor Kenjiro Tsuda against TikTok, the Tokyo District Court held that unauthorised use of a performer's voice can infringe publicity rights when it exploits the voice's commercial appeal. No injunction was issued because the videos had already been taken down.",
+      "title": "Tokyo court: a performer's voice is protected by publicity rights",
+      "todo": "Before cloning or synthesising any actor's voice, get written consent that names the project, the uses and how long the voice model is kept.",
+      "url": "https://completemusicupdate.com/japanese-court-says-voice-is-protected-by-publicity-rights-us-appeals-court-says-ai-training-is-not-fair-use/"
+    },
+    {
+      "cat": "plugins",
+      "date": "2026-10-02",
+      "deep": "Free AAX IR loaders are rarer than you would think. Pair it with IRs you capture on location and you can match ADR and Foley to production sound inside Pro Tools without a paid reverb.",
+      "free": true,
+      "signal": 2,
+      "source": "KVR Audio",
+      "take": "Convolute is a free, simple convolution reverb that loads your own impulse responses, in VST2, VST3, AU and AAX for Mac and Windows. Its paid sibling VerbJunkie mixes convolution and algorithmic engines with rhythmic tail movement, at $9.95 intro ($39 regular).",
+      "title": "Free: DAWJunkie Convolute IR reverb (with AAX)",
+      "url": "https://www.kvraudio.com/news/dawjunkie-releases-verbjunkie-and-free-convolute-reverb-for-macos-and-windows-68862"
+    },
+    {
+      "cat": "gear",
+      "date": "2026-10-02",
+      "signal": 1,
+      "source": "Mix",
+      "take": "The hypercardioid dynamic instrument mic is back, made in Japan to the original design with an all-metal body and integrated stand clamp. A-T aims it at kick, toms, brass, cabs and voiceover. No price was announced.",
+      "title": "Audio-Technica reissues the 1983 ATM25, unchanged",
+      "url": "https://www.mixonline.com/technology/news-products/a-t-re-releases-a-classic"
+    },
+    {
+      "cat": "instruments",
+      "date": "2026-10-02",
+      "deep": "Elektron said the surge in custom firmware, much of it apparently AI-assisted, risks damaging devices and its IP. Community firmware can give old hardware new life, but it is unsupported and can brick a unit.",
+      "signal": 1,
+      "source": "Synth Anatomy",
+      "take": "Elektron banned sharing firmware hacks on its forum in September, but community releases continue. Digisophie adds a metallic percussion synth to the discontinued Digitakt MK1 through the elekloader tool, and similar projects target Model:Cycles, MPC500 and SP-404MKII. Authors advise backing up and keeping the stock OS ready.",
+      "title": "Custom firmware keeps reviving discontinued Elektron boxes",
+      "todo": "Never flash a box you need for a gig this month, and keep the stock OS file and recovery steps saved before you try.",
+      "url": "https://synthanatomy.com/2026/10/soejrd-digisophie-custom-elektron-digitakt-mk1-firmware.html"
+    },
+    {
+      "cat": "software",
+      "date": "2026-10-02",
+      "deep": "Better multichannel handling helps installation, interactive and spatial patches, where Pd and plugdata are often the cheapest reliable route. The stable version is still 0.56-5, so keep test builds off show machines.",
+      "free": true,
+      "signal": 1,
+      "source": "CDM",
+      "take": "The free, open-source Pd gets new multichannel snake~ objects (pick, split, sum), a [siginfo~] object that reports sample rate and channel count, new list tools and JSON-style dictionaries. The changes also flow into libpd and plugdata.",
+      "title": "Pure Data 0.57 test builds add multichannel 'snake' objects",
+      "url": "https://cdm.link/pd-0-57-inbound/"
+    },
+    {
+      "cat": "plugins",
+      "date": "2026-10-02",
+      "free": true,
+      "signal": 1,
+      "source": "KVR Audio",
+      "take": "Blue Cat Audio refreshed its whole free range. Gain Suite 3.6 now supports 26 link groups instead of 9, the analysers and modulation plugins gain 14-bit MIDI control, and Free Amp 2.0 moves to a new engine. All free, no registration, in every major format including AAX.",
+      "title": "Free: Blue Cat Gain Suite now links up to 26 groups",
+      "url": "https://www.kvraudio.com/news/blue-cat-audio-releases-free-amp-2-0-and-updates-all-free-plug-ins-68870"
+    },
+    {
+      "cat": "industry",
+      "date": "2026-10-02",
+      "signal": 1,
+      "source": "Mix",
+      "take": "Solid State Logic's new course, written by Alex Miller and taught by SSL Certified Instructors, covers session organisation, balance, dynamics, effects, critical listening and mix evaluation. No price was published. It joins the Avid and Dante certificates some schools and studios ask for.",
+      "title": "SSL launches a Music Mixing Level 1 certification",
+      "url": "https://www.mixonline.com/audio-education/ssl-launches-music-mixing-certification"
+    },
+    {
+      "cat": "live",
+      "date": "2026-10-02",
+      "signal": 1,
+      "source": "ProSoundWeb",
+      "take": "Run with More Logistics, the warehouse holds all UBX models and selected CX boxes so European distributors can order from EU stock, with overnight shipping offered. For installs and rentals in Italy that should mean shorter lead times on those lines.",
+      "title": "Renkus-Heinz opens an EU stock hub in the Netherlands",
+      "url": "https://www.prosoundweb.com/renkus-heinz-opens-new-eu-fulfillment-hub-in-the-netherlands/"
+    },
+    {
+      "cat": "industry",
+      "date": "2026-10-02",
+      "deep": "The case is why distributors are tightening checks on AI-generated uploads. Artist clients releasing AI-assisted music may face more disclosure questions at distribution.",
+      "signal": 1,
+      "source": "CMU",
+      "take": "Michael Smith pleaded guilty over an $8m scheme that inflated streams on hundreds of thousands of AI-generated tracks. Prosecutors seek at least 46 months; the defence asks for no jail time. CMU calls it the first US criminal case for streaming fraud.",
+      "title": "First US streaming-fraud sentencing over AI-generated tracks",
+      "url": "https://completemusicupdate.com/streaming-fraud-is-fuelled-by-perceived-lack-of-a-legal-risk-industry-stakeholders-tell-judge-in-michael-smith-sentencing/"
+    },
+    {
+      "cat": "speakers",
+      "date": "2026-10-02",
+      "signal": 1,
+      "source": "Sound On Sound",
+      "take": "The Master Tuned GR2 moves to a hydrocarbon ceramic PCB, upgrades parts and adds two DAC filters voiced with producer Steve Levine. iFi claims over 1500 mW into 32 ohms plus Bluetooth 5.4 with aptX Lossless and LDAC. $699/£699.",
+      "title": "iFi GR2 MT: a tuned portable DAC/headphone amp",
+      "url": "https://www.soundonsound.com/news/ifi-audio-reveal-gr2-mt"
+    }
+  ],
+  "key": "2026-10-04",
+  "label": "Sun 4 Oct 2026",
+  "lead": "A long weekend brief with stories from the whole trade. Live engineers got a free addressing standard for event networks and an app that turns riders into console files, d&b moved immersive show prep onto headphones, and Google pitched its open immersive format to film mixers. On the rights side, Suno's CEO welcomed the lack of fixed rules while two majors keep suing, and a Tokyo court ruled that a performer's voice is protected. Plus Neumann heads for Sennheiser wireless, two useful free plugins and a deep look at stem separation in restoration.",
+  "period": "day",
+  "radar": [
+    {
+      "date": "2026-10-16",
+      "note": "30% off Studio and Pro editions.",
+      "title": "MixBrain V3 intro pricing ends"
+    },
+    {
+      "date": "2026-10-22",
+      "note": "$14.90 instead of $49.90.",
+      "title": "W. A. Production Asymo Reverb intro price ends"
+    },
+    {
+      "date": "2026-10-30",
+      "note": "Immersive and spatial audio track, Genelec and ADAM listening rooms.",
+      "title": "AES Show Nashville, 30 Oct – 1 Nov",
+      "url": "https://www.prosoundweb.com/immersive-spatial-audio-to-take-center-stage-at-aes-show-nashville-2026/"
+    }
+  ],
+  "range": "1–4 Oct 2026"
 }
