@@ -1,0 +1,276 @@
+{
+  "craft": {
+    "body": "Steinberg's old download pages are gone, and new Macs only run macOS 27. Both are reminders that a session file is only half an archive: you also need the exact software that opens it. When you close a project, save the DAW installer version, the plugin installers and any interface drivers it used, with a short text note listing versions and licences.\n\nKeep one older machine or a bootable drive on a known-good OS for recalls, and test a restore from your archive once a year. Clients rarely ask for a recall when it is convenient, and 'the vendor took the download down' is not an answer they want to hear.",
+    "title": "Archive the installers, not just the sessions"
+  },
+  "generated": "2026-10-29T07:20:00+01:00",
+  "headline": "Spectrum fights and installer archaeology",
+  "items": [
+    {
+      "cat": "software",
+      "date": "2026-10-28",
+      "deep": "This is a different machine from the base M6 MacBook Pro covered yesterday: the chips are not new, the screen and the OS are. macOS turns touches into clicks. Logic gets a multi-touch keyboard and tappable chord and drum pads, and Resolve is on Apple's list of touch-aware apps, but in Pro Tools and most other DAWs a finger will act as a single mouse pointer, so do not expect multi-fader touch mixing.\n\nThe practical issue is the same as with the M6: new Macs cannot be downgraded to an older macOS. Pro Tools gained M5 Pro and Max support in July, but macOS 27 qualification is a separate question, and many plugins and drivers had not confirmed it at launch. For an edit or mix laptop, the March models on a qualified OS are still the safer buy until your whole chain is signed off.",
+      "signal": 3,
+      "source": "Production Expert",
+      "take": "Apple added 14- and 16-inch MacBook Pro models with OLED touchscreens, using the same M5 Pro and M5 Max chips as the March models, which stay on sale. Prices start at $2,899 (14-inch M5 Pro) and $3,399 (16-inch M5 Pro), against $2,199 and $2,699 for the March machines. They ship from 6 November with macOS 27, and the power adapter is no longer included as standard.",
+      "title": "OLED touchscreen MacBook Pro: M5 Pro and Max, $700 more, ships on macOS 27",
+      "todo": "If you need a new laptop for client work this month, price up a March M5 Pro model alongside the OLED one and check whether it can still be bought on a qualified macOS.",
+      "url": "https://www.production-expert.com/production-expert-1/apple-announce-oled-touchscreen-macbook-pro-same-m5-chips-700-more"
+    },
+    {
+      "cat": "live",
+      "date": "2026-10-28",
+      "deep": "The 554–608 MHz petition is the part to watch. That slice holds a lot of the UHF channels that location mixers, theatres and touring IEM rigs rely on, and US decisions tend to shape what manufacturers build and how the world spectrum debate goes. The alliance's push for 1.2 GHz is the other half of the story: it is presented as extra room for big events, not a replacement for UHF.\n\nEurope is on its own track, with the PMSE position for WRC-27 still being settled and the UHF band below 694 MHz protected in the EU until at least 2030. But the same pressures apply here: mobile and other services want spectrum, and wireless production keeps growing. Gear bought now should be flexible about bands, and a 1.2 GHz or 1.4 GHz option is worth weighing on new purchases where your national rules allow it.",
+      "signal": 3,
+      "source": "ProSoundWeb",
+      "take": "The Wireless Microphone Spectrum Alliance, formed in 2025 with more than 660 members including Shure, CP Communications and Freeman, met congressional offices, the FCC, NTIA and the White House. It backs long-term access to 470–608 MHz and is watching a petition involving 554–608 MHz, wants more access at 608–614 MHz and at 1240–1350 MHz while protecting aviation radar, and has filed comments on space-launch proposals at 1435–1525 MHz.",
+      "title": "Wireless-mic alliance lobbies Washington to keep UHF and open 1.2 GHz",
+      "todo": "When you next buy wireless, ask the dealer which bands the unit can be re-tuned or upgraded to, and check what Italy's current allocation allows for each.",
+      "url": "https://www.prosoundweb.com/wmsa-provides-updates-on-washington-meetings-over-u-s-wireless-microphone-spectrum/"
+    },
+    {
+      "breakthrough": true,
+      "cat": "science",
+      "date": "2026-10-28",
+      "deep": "Acoustic levitation is not new, but earlier systems mostly trapped an object at a point or moved it inside a small standing-wave cage. Here the array forms Bessel-like beams into a continuous guide that can be reshaped in 3D while it runs, so material travels along the path instead of being held in one place.\n\nFor audio people, it is beamforming taken to an extreme: the same phase-and-amplitude control that steers line-array and column-speaker lobes or parametric 'audio spotlight' beams, applied with hundreds of elements and very tight timing. The limits are clear. It works at micrometre-to-millimetre scale, joining modules into longer paths has not been shown, and the field is extremely loud: New Atlas compares the level inside to continuous gunfire next to the ear. Ultrasound above 20 kHz is not harmless just because you cannot hear it, which is worth remembering around any parametric or ultrasonic device.",
+      "signal": 3,
+      "source": "New Atlas",
+      "take": "Researchers at the University of Helsinki, the Public University of Navarre and the University of Michigan surrounded a cylinder with 256 small ultrasonic transducers at about 40 kHz. A phased array shapes the sound field into a guiding path that moved solids, single drops of liquid, gases, mist and even an electric discharge. The 8 cm prototype draws about 50 W, and the work is published in PNAS.",
+      "title": "256 ultrasonic transducers build a wall-less 'tube' that carries matter through air",
+      "url": "https://newatlas.com/good-thinking/ultrasound-tube-levitates-matter"
+    },
+    {
+      "cat": "software",
+      "date": "2026-10-27",
+      "deep": "Most people will not notice until they need an old Cubase or Nuendo installer, an older eLicenser-era version or a legacy driver to open an archived project. That is exactly the situation that comes up when a client asks for a recall years later, or when a new Mac forces a reinstall.\n\nIt is also a reminder that vendor download pages are not an archive. If a project depends on a particular version of a DAW, plugin or driver, keep the installer yourself.",
+      "signal": 2,
+      "source": "Steinberg Forums",
+      "take": "Steinberg says its legacy product download pages ran on an outdated TYPO3 system that could not practically be upgraded after recently disclosed PHP vulnerabilities, so they will not return. Most software, updates and content are still available through the Steinberg Download Assistant, a reduced temporary solution is promised 'soon', and new pages are in development. Steinberg says user data was not affected.",
+      "title": "Steinberg's old download pages are gone for good after PHP security flaws",
+      "todo": "Check that you have local copies of the Steinberg installers and drivers your archived sessions need, and grab any missing ones through the Download Assistant now.",
+      "url": "https://forums.steinberg.net/t/steinberg-download-pages-to-remain-offline-en-de/1044445"
+    },
+    {
+      "cat": "industry",
+      "date": "2026-10-28",
+      "deep": "KVR says it received 44 developer applications in one 48-hour period, and one brand released more than fifty plugins at once. AI coding tools have made it cheap to ship plugins, and the news feeds that engineers use to find tools have filled with untested releases.\n\nFor working engineers this should make KVR's front page a better filter, though new developers with good tools may take longer to surface. It is also a useful rule for your own rig: a plugin with no track record, no support page and no tested claims does not belong on a paid session until you have tried it on a copy.",
+      "signal": 2,
+      "source": "KVR Audio",
+      "take": "KVR Audio says releases from new, unapproved developers will now go to a separate New Developer Product Release forum instead of the main news feed. Accounts registered before 1 January 2026 keep approved status for now, later ones need approval, and approval will not be automatic. Every developer must have a human check the finished product and stand behind every claim, whether or not AI was used.",
+      "title": "KVR will vet new plugin developers before their releases reach its news page",
+      "url": "https://www.kvraudio.com/blog/kvr-audio-ai-policies-upcoming-changes-to-our-news-coverage-and-guidelines-for-developers-69478"
+    },
+    {
+      "cat": "gear",
+      "date": "2026-10-28",
+      "deep": "CK12-capsule mics are usually tube designs with a separate power supply and remote pattern box. The M28 puts a CK12 and five patterns into a phantom-powered FET body, which is simpler on a session and in an ADR or voice-over booth.\n\nThe 3.2 mA draw is modest, so it should run from most preamps and interfaces without trouble. UK and US prices are not announced, and nobody has published independent measurements yet, so treat the specs as the maker's own until reviews appear.",
+      "signal": 2,
+      "source": "Production Expert",
+      "take": "Three years after its NAMM 2023 debut, the Berlin-built Myburgh M28 is shipping at €4,850 ex VAT. It pairs a German-made CK12-type capsule with an original FET circuit and a Pikatron transformer, and offers figure-8, hypercardioid, cardioid, wide cardioid and omni on a stepped switch. Quoted specs: 30 Hz–20 kHz, 9 mV/Pa, 15 dB(A) self-noise in cardioid, 134 dB SPL max, a −6 dB pad, and about 3.2 mA from 48 V phantom.",
+      "title": "Myburgh M28 ships: a five-pattern CK12 FET mic on plain phantom power",
+      "url": "https://www.production-expert.com/production-expert-1/myburgh-m28-ships-three-years-on-with-five-polar-patterns"
+    },
+    {
+      "cat": "live",
+      "date": "2026-10-28",
+      "deep": "Active acoustics uses microphones, processing and many distributed loudspeakers to change a room's apparent reverberation, so one hall can sound dry for speech and live for an orchestra. It has moved from novelty to an accepted tool for multi-use venues.\n\nThe article gives no measured figures for the revised algorithm. If you work in a Constellation venue, ask the house team which platform and preset set they run, because the room you hear depends on that as much as on the architecture.",
+      "signal": 2,
+      "source": "FOH",
+      "take": "Meyer Sound's active acoustics system now runs in more than 175 venues in 31 countries, 20 years after the first install at UC Berkeley's Zellerbach Hall. The NADIA platform, introduced in 2023, hosts the first major revision of the original Variable Room Acoustic System algorithm. Meyer is also grouping uses into a seven-part Constellation Acoustic Suite, from Perform to Create.",
+      "title": "Meyer's Constellation turns 20, with a revised room algorithm on NADIA",
+      "url": "https://fohonline.com/newsroom/news/meyer-sound-celebrates-20-years-of-constellation/"
+    },
+    {
+      "cat": "ai",
+      "date": "2026-10-28",
+      "signal": 2,
+      "source": "Digital Music News",
+      "take": "Meta's updated business terms for Facebook, Instagram, Messenger, Threads and WhatsApp take effect on 20 November. The Copyright Alliance says they appear to let Meta take commercial account holders' content and websites and use it to train AI, with no opt-out except leaving. Its CEO called the terms 'unconscionable'.",
+      "title": "Meta's new business terms would let it train AI on business accounts' content from 20 November",
+      "todo": "If you post showreels, mixes or session audio through a Meta business account, read the new terms before 20 November and decide what you still want to upload there.",
+      "url": "https://www.digitalmusicnews.com/2026/10/28/copyright-alliance-meta-tos-update-statement/"
+    },
+    {
+      "cat": "plugins",
+      "date": "2026-10-28",
+      "deep": "Until now the controller mostly drove Softube's own plugins. Mapping staples like Pro-Q 4 and soothe3 makes it a realistic hands-on surface for a mixed plugin setup.\n\nThe catch for Pro Tools users is that this first phase is VST3 only, so no AAX or AU yet. Premium Softube plugins still need a paid subscription.",
+      "signal": 2,
+      "source": "Production Expert",
+      "take": "A free update lets Softube's Flow Studio hardware control third-party plugins, starting with VST3 only. Supported plugins named so far include FabFilter Pro-Q 4, oeksound soothe3, mäag EQ4, RC-20, Gorilla Drive and Neural DSP Mantra, and a beta mode scans any VST3, though only basic parameters may map reliably. Lock Track keeps Flow Studio on one track while Console 1 works on others.",
+      "title": "Softube Flow Studio can now control third-party VST3 plugins",
+      "url": "https://www.production-expert.com/production-expert-1/softube-flow-studio-third-party-support-and-lock-track-released"
+    },
+    {
+      "cat": "software",
+      "date": "2026-10-28",
+      "signal": 2,
+      "source": "Steinberg Forums",
+      "take": "Steinberg released 15.0.40 maintenance updates for Cubase and Nuendo. The forum notes say only that they fix several issues across the application and point to full release notes. Neither post mentions macOS 27 or new Macs.",
+      "title": "Cubase and Nuendo 15.0.40 maintenance updates are out",
+      "todo": "Read the full release notes and, if you are mid-project, update a second system or a copy of the session first.",
+      "url": "https://forums.steinberg.net/t/nuendo-15-0-40-maintenance-update/1044510"
+    },
+    {
+      "cat": "post",
+      "date": "2026-10-27",
+      "deep": "It is a useful look at how a streaming horror series is handled on a TV schedule: premixing in parallel rooms to save stage time, long spotting sessions, and planning ADR early when costumes make clean production dialogue impossible.\n\nThere is a gore effect made from tuna and blueberries, too, which is a reminder that the best Foley is often cheap and messy.",
+      "signal": 2,
+      "source": "A Sound Effect",
+      "take": "Supervising sound editors and re-recording mixers Steve 'Major' Giammaria and Nicholas Renbeck describe the eight-episode Friday the 13th prequel series. Every actor wore a lav, and dialogue and effects were premixed in two separate rooms. Jason's prosthetics meant a lot of ADR, and loop group work used panning presets to speed things up.",
+      "title": "Crystal Lake: lavs on everyone, split premixes and heavy ADR behind the mask",
+      "url": "https://www.asoundeffect.com/crystal-lake-series-sound/"
+    },
+    {
+      "cat": "gear",
+      "date": "2026-10-28",
+      "signal": 1,
+      "source": "Sports Video Group",
+      "take": "A Sports Video Group feature reports that Audio-Technica is developing digital versions of its 4027 and 4029 stereo shotguns and the 4050ST, with prototypes reportedly field-tested by broadcasters. A-T did not comment. The piece also covers Shure's DCA901 ceiling array and the Voyage Spatial Mic Dante, which has eight capsules, preamps and converters in one unit.",
+      "title": "Digital microphones are reaching the sports field, including reported A-T shotgun prototypes",
+      "url": "https://www.sportsvideo.org/2026/10/28/tech-focus-digital-microphones-part-1-the-future-is-here/"
+    },
+    {
+      "cat": "plugins",
+      "date": "2026-10-28",
+      "free": true,
+      "signal": 1,
+      "source": "Production Expert",
+      "take": "Blue Cat Audio updated its free Chorus, Flanger, Phaser, Triple EQ, FreqAnalyst, Gain Suite, Freeceiver and Free Amp. Gain Suite 3.6 raises link groups from 9 to 26, and all eight gain fuller MIDI control, including 14-bit CC and NRPN. They come in AAX, VST, VST3 and AU.",
+      "title": "Blue Cat updates all eight free plugins, with AAX",
+      "url": "https://www.production-expert.com/production-expert-1/blue-cat-audio-free-plugins-updated-with-free-amp-20-gain-suite36-and-more"
+    },
+    {
+      "cat": "plugins",
+      "date": "2026-10-28",
+      "free": true,
+      "signal": 1,
+      "source": "Bedroom Producers Blog",
+      "take": "BASSROOM, normally £59, is free in VST3, AAX and AU. The offer comes through an email pop-up on the REFERENCE product page, not the BASSROOM page, and no end date is given.",
+      "title": "Mastering The Mix gives away BASSROOM low-end EQ",
+      "url": "https://bedroomproducersblog.com/2026/10/28/mastering-the-mix-bassroom-free/"
+    },
+    {
+      "cat": "software",
+      "date": "2026-10-28",
+      "free": true,
+      "signal": 1,
+      "source": "KVR Audio",
+      "take": "KVR's free plugin manager for macOS and Windows covers VST3, AU, AAX and CLAP. Version 0.5 watches plugin folders and offers a rescan when they change, lets you choose which formats are active, and on macOS shows whether each plugin is Apple Silicon, Universal or Intel.",
+      "title": "KVR Studio Manager beta shows which plugins are still Intel-only",
+      "todo": "Run it before moving to macOS 27 to list any Intel-only plugins that would need Rosetta.",
+      "url": "https://www.kvraudio.com/news/kvr-studio-manager-public-beta-updated-to-v0-5-0-0---folder-monitoring-notifications-active-plugin-formats-auto-login-and-more-69482"
+    },
+    {
+      "cat": "plugins",
+      "date": "2026-10-27",
+      "signal": 1,
+      "source": "KVR Audio",
+      "take": "MyAudioFactory's declipper adds full keyboard control for accessibility, fixes a performance problem where it over-booked processor cores, and refines the interface. It runs in VST2, VST3, AU and AAX on Mac and Windows.",
+      "title": "ProAudioDeclipper 1.13 fixes multi-core CPU overload",
+      "url": "https://www.kvraudio.com/news/myaudiofactory-updates-proaudiodeclipper-to-v1-13-0-69460"
+    },
+    {
+      "cat": "live",
+      "date": "2026-10-28",
+      "signal": 1,
+      "source": "Mix",
+      "take": "The concert film 'Stage' uses Isolar II footage, with a 7.1 spatial mix by Paul Massey played through flown Clair Global line arrays and a 2,800-tile transparent LED wall. It premieres at Berlin's Uber Arena in February 2027 during the Berlin Film Festival, then tours rooms of 5,000 seats and up.",
+      "title": "Bowie's 1978 Earl's Court film will tour arenas with a 7.1 mix on line arrays",
+      "url": "https://www.mixonline.com/live-sound/tours/david-bowie-concert-film-to-tour-with-full-production"
+    },
+    {
+      "cat": "live",
+      "date": "2026-10-28",
+      "signal": 1,
+      "source": "FOH",
+      "take": "The Italian maker's VIO L1608 line array (16 flown, two as front fill) with VIO S218 and S118R subs ran the main stage at 'Sounds of Screams', and around 180 more boxes, from IS-series weatherproof speakers to OPERA 10s, covered the park. The article lists the full inventory.",
+      "title": "194 dBTechnologies boxes cover a Miami Halloween park",
+      "url": "https://fohonline.com/featured/sounds-of-screams-heard-via-dbtechnologies-in-miami/"
+    },
+    {
+      "cat": "hearing",
+      "date": "2026-10-28",
+      "signal": 1,
+      "source": "BioSpace (Business Wire)",
+      "take": "French biotech Sensorion is presenting two posters at the ESGCT congress in Hamburg on its AAV-based therapy for GJB2-related deafness (DFNB1A), including a lab test of whether restored gap junctions work. GJB2 is the most common genetic cause of hearing loss. The work is preclinical and the release gives no efficacy data.",
+      "title": "Sensorion shows GJB2 gene-therapy work for the most common genetic deafness",
+      "url": "https://biospace.com/press-releases/sensorion-announces-its-participation-in-the-european-society-of-gene-cell-therapy-esgct-annual-congress"
+    },
+    {
+      "cat": "industry",
+      "date": "2026-10-28",
+      "signal": 1,
+      "source": "Music Business Worldwide",
+      "take": "PRS for Music has partnered with business streaming service Soundtrack so that track-by-track play data from about 7,000 UK shops, bars and public spaces feeds royalty payments from December 2026. PRS public-performance revenue was £313.4m in 2025, up 9.1%.",
+      "title": "PRS will pay venue royalties from actual play data in 7,000 UK premises",
+      "url": "https://www.musicbusinessworldwide.com/prs-for-music-partners-with-b2b-streaming-service-soundtrack-to-get-data-on-music-played-in-7000-uk-shops-bars-and-public-spaces-and-pay-royalties-accordingly/"
+    },
+    {
+      "cat": "ai",
+      "date": "2026-10-28",
+      "signal": 1,
+      "source": "CMU",
+      "take": "'Another Day Old', by an AI-generated persona, reached No. 2 on the UK Official Singles Sales Chart but did not make the main Top 100, which counts streams too. Spotify says it targets spam and impersonation rather than filtering music by how it was made.",
+      "title": "AI blues act Eddie Dalton hits No. 2 on the UK sales chart",
+      "url": "https://completemusicupdate.com/eddie-daltons-actually-quite-modest-chart-success-sparks-further-debate-about-where-ai-music-fits-in/"
+    },
+    {
+      "cat": "ai",
+      "date": "2026-10-28",
+      "signal": 1,
+      "source": "Digital Music News",
+      "take": "Suno filed a 24-page opposition to Apple's motion to quash a subpoena for Apple Music data in the labels' copyright case. A hearing is set for 1 December.",
+      "title": "Suno fights Apple's bid to quash its subpoena; hearing set for 1 December",
+      "url": "https://digitalmusicnews.com/2026/10/28/suno-apple-subpoena-dispute"
+    },
+    {
+      "cat": "instruments",
+      "date": "2026-10-28",
+      "signal": 1,
+      "source": "Synth Anatomy",
+      "take": "The touchscreen sequencer has five DIN MIDI ports, USB MIDI and host, MIDI Machine Control, eight CV and eight gate outputs, Ableton Link over Wi-Fi and an open-source engine for community firmware. Price and availability are not announced.",
+      "title": "Behringer Ignite: a 64-channel sequencer with MMC, CV and open firmware",
+      "url": "https://synthanatomy.com/2026/10/behringer-ignite-64-channel-multi-track-sequencer-with-open-firmware.html"
+    },
+    {
+      "cat": "post",
+      "date": "2026-10-27",
+      "signal": 1,
+      "source": "A Sound Effect",
+      "take": "A Sound Effect's round-up includes Atlas Sound Library's New York crowds, streets and stations and Toronto crowds at $9.99 each, plus 1,025 electrical-energy sounds from Slava Pogorelsky for $90. Sample rates and licence terms are not listed in the round-up.",
+      "title": "Cheap city crowd and station beds among 12 new SFX libraries",
+      "url": "https://www.asoundeffect.com/12-new-sound-effects-libraries-western-weapons-cyberpunk/"
+    }
+  ],
+  "key": "2026-10-29",
+  "label": "Thu 29 Oct 2026",
+  "lead": "A quieter day before AES Nashville opens tomorrow, but several things touch working rigs. Apple added an OLED touchscreen MacBook Pro that also ships on macOS 27, and Steinberg has taken its old download pages offline for good, so it is a good week to archive installers. US wireless-mic users are lobbying hard to keep UHF and win 1.2 GHz, and KVR now screens new plugin developers before they reach its news page. The science pick is a ring of 256 ultrasonic transducers that steers matter through the air along a beam-formed 'tube'.",
+  "period": "day",
+  "radar": [
+    {
+      "date": "2026-10-30",
+      "note": "The 161st AES Convention runs 30 Oct–1 Nov at Gaylord Opryland, with the Heyser Lecture by Marina Bosi on 31 Oct.",
+      "title": "AES Show Nashville opens",
+      "url": "https://audioxpress.com/news/aes-show-nashville-brings-immersive-audio-and-music-technology-to-music-city"
+    },
+    {
+      "date": "2026-11-06",
+      "note": "Both ship on macOS 27, so check driver and plugin support before relying on one.",
+      "title": "OLED MacBook Pro and M6 MacBook Pro deliveries start",
+      "url": "https://www.production-expert.com/production-expert-1/apple-announce-oled-touchscreen-macbook-pro-same-m5-chips-700-more"
+    },
+    {
+      "date": "2026-11-20",
+      "note": "The Copyright Alliance says they allow AI training on business accounts' content with no opt-out.",
+      "title": "Meta's new business terms take effect",
+      "url": "https://www.digitalmusicnews.com/2026/10/28/copyright-alliance-meta-tos-update-statement/"
+    },
+    {
+      "date": "2026-12-01",
+      "note": "A court hears Apple's motion to quash Suno's subpoena for Apple Music data.",
+      "title": "Suno v Apple subpoena hearing",
+      "url": "https://digitalmusicnews.com/2026/10/28/suno-apple-subpoena-dispute"
+    }
+  ],
+  "range": "27–29 Oct 2026"
+}

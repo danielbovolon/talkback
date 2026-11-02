@@ -1,0 +1,275 @@
+{
+  "craft": {
+    "body": "Integrated loudness tells you the whole programme hits -23 LUFS, but not whether viewers can follow the words. A quiet, dynamic film can pass the target while dialogue sits far below the explosions, and that is the mix that comes back with complaints or gets squashed by a broadcaster's processor.\n\nOn your next mix, measure dialogue loudness on its own alongside the full programme and note the gap. Agree a target range with the client before the final, keep the loudest effects in proportion to the words rather than to the meter, and listen once at a low living-room level. It is quicker than a remix after QC.",
+    "title": "Meter the dialogue, not just the mix"
+  },
+  "generated": "2026-10-27T07:20:00+01:00",
+  "headline": "Delivery tools grow up",
+  "items": [
+    {
+      "cat": "post",
+      "date": "2026-10-26",
+      "deep": "VisLM 2 already gave integrated, short-term and momentary loudness, LRA, dialogue LRA, true peak and a timecode-locked history. The new parts are about delivery rather than metering. LDR is the gap between programme loudness and dialogue loudness. EBU R 128 Supplement 4 (2023) uses it to describe why very dynamic films are hard to broadcast or stream unchanged, and NUGEN pitches it at the intelligibility requirements that are starting to appear in specs.\n\nThe A/85 preset matters too. The July 2026 revision is the first big change to the US broadcast loudness practice since 2013 and adds streaming guidance, so a meter that already knows it saves you building your own preset from the document.\n\nThe QC report is the part to test before you rely on it: check that its layout and fields match what your broadcaster or distributor asks for. Plugin formats were not listed in the coverage.",
+      "signal": 3,
+      "source": "Production Expert",
+      "take": "NUGEN's loudness meter gets its first major update in years. One instance can now track several stems next to the full mix, measure Loudness to Dialog Ratio (LDR), attach timestamped notes, export a Loudness QC Report and meter up to 9.1.6. It adds presets for EBU R 128 Supplement 4 and the new ATSC A/85:2026-07. It costs $499; existing users see upgrade pricing in their NUGEN accounts.",
+      "title": "NUGEN VisLM 3 adds stem metering, Loudness to Dialog Ratio and QC reports",
+      "todo": "Before your next TV delivery, ask the client whether they now want an LDR figure or a QC report, and run one on a finished mix to see where your dialogue sits.",
+      "url": "https://www.production-expert.com/production-expert-1/nugen-vislm-3-adds-stem-monitoring-ldr-measurement-and-qc-reports"
+    },
+    {
+      "cat": "post",
+      "date": "2026-10-26",
+      "deep": "Turnover prep is still mostly manual. An assistant opens the AAF, works out which of 'A1' to 'A24' is boom, lav, music or effects, renames and reroutes, and fixes Premiere's split stereo files. fPost's classifier (called AI-R) listens to each clip, so a clip on a track called 'AUD 7' is sorted by its content. You review the result on a colour-coded timeline before the session is built.\n\nThe Suite tier adds the parts episodic teams will want: several reel AAFs in timecode order, finer categories such as sync dialogue or Foley, and a PTX Splitter that makes separate dialogue, music and effects sessions from one AAF. Fades, automation and clip names come across; track folders do not. It converts sample rate but not frame rate, and Final Cut Pro material must be turned into AAF first. It needs Pro Tools 2024.3 and macOS 13 or later.\n\nThe article is a partner piece, so treat accuracy claims as the maker's until you test it. Because nothing leaves the machine, it avoids the NDA problems of cloud AI, and it is made in Italy.",
+      "signal": 3,
+      "source": "Production Expert",
+      "take": "fPost is a macOS app that turns AAFs from Media Composer, Premiere, Resolve or Pro Tools into named, routed sessions laid out to your own Pro Tools template. It sorts clips by what they contain, not by track name, and runs entirely on the Mac. Studio costs €49 a month, €288 a year or €1,199 lifetime; Suite costs €59, €348 or €1,399. There is a 7-day trial and a free AAF Checker.",
+      "title": "Turin's Forte AI launches fPost, which builds Pro Tools sessions from AAFs",
+      "todo": "Run the free AAF Checker on your last messy turnover, then trial fPost on a real reel and count the minutes it saves.",
+      "url": "https://www.production-expert.com/production-expert-1/forte-ai-fpost-aaf-import-and-session-prep-for-pro-tools-post-workflows"
+    },
+    {
+      "cat": "ai",
+      "date": "2026-10-24",
+      "deep": "Until now, dubbing a performance into other languages with a voice clone sat in a grey area in most voice contracts. This deal makes the dub a separate use that needs the actor's consent, and keeps the residuals that already applied to foreign versions. The union's earlier contracts set similar rules for replicas, but this applies them directly to localisation, which is where AI voice tools are moving fastest.\n\nFor European post houses, the effect is indirect but real. US animation dubbed in Italy, Germany or Spain will increasingly arrive with consent terms attached, and a studio that wants an AI dub will have to prove it has them. If you cut ADR or dubbing, expect paperwork about which takes may be used to build or drive a voice model.\n\nThe vote is not over yet. If it passes, it becomes a reference point for voice contracts elsewhere, including Italian dubbing agreements.",
+      "signal": 3,
+      "source": "Voice Over Herald",
+      "take": "SAG-AFTRA members are voting until 5 pm Pacific on 29 October on a four-year TV animation contract running from July 2026 to June 2030. Studios would need a performer's specific consent before using a digital replica to dub their performance into another language, and existing foreign-version residuals still apply. Minimums rise 3% a year, compounded. The union's leadership recommends a yes vote.",
+      "title": "SAG-AFTRA animation deal would require consent before AI dubs a performance",
+      "todo": "If you record voice talent, add a line to your session paperwork that says whether recordings may be used to train or drive a voice model.",
+      "url": "https://www.voiceoverherald.com/sag-aftra-tv-animation-vote-ai-dubbing-consent/"
+    },
+    {
+      "cat": "ai",
+      "date": "2026-10-26",
+      "deep": "This is the second suit in a week that leans on stripped credits as a separate claim, after Reservoir's case against Suno and Anthropic. US law (the DMCA) treats removing copyright management information, such as writer and publisher credits, as its own violation with its own damages, whatever happens to the fair-use argument on training.\n\nThat makes metadata a legal asset, not just admin. For engineers, the practical lesson is that embedded credits, ISRCs and writer details in delivered files are worth getting right, because they are what these claims rest on. The case has only just been filed; none of the allegations has been tested. Anthropic makes Claude, the model writing this brief.",
+      "signal": 2,
+      "source": "Music Business Worldwide",
+      "take": "Authentic Brands' ABG EPE IP and several publishers filed suit on 23 October in the Northern District of California. They claim Claude was trained on lyrics to 274 Presley-recorded songs and can reproduce them. They ask for up to $41.1m in statutory damages, $685,000 for scraping past logins and paywalls, and $6.85m for stripping titles and credits, plus destruction of copies including in model weights.",
+      "title": "Elvis Presley rights holders sue Anthropic over 274 lyrics, seeking about $48.6m",
+      "url": "https://www.musicbusinessworldwide.com/rightsholders-behind-elvis-presleys-hits-sue-anthropic-for-more-than-48-6m-alleging-it-scraped-lyrics-to-274-songs-and-stripped-songwriter-credits-to-train-claude/"
+    },
+    {
+      "cat": "ai",
+      "date": "2026-10-26",
+      "deep": "Both moves are about the fourth fair-use factor: whether AI output harms the market for the originals. Suno is trying to show that streaming royalties are not being displaced; the labels want evidence that people really do swap human recordings for generated ones. Menlo led Suno's $250m round in November 2025.\n\nIf the substitution argument fails for the labels, the case for licensing training data weakens, and with it the income that could flow back to rights holders, including producers and players with royalty points. The judge originally assigned to the Apple motion recused herself on 21 October, so a new judge will hear it.",
+      "signal": 2,
+      "source": "Digital Music News",
+      "take": "In the UMG and Sony case, Suno wants Apple to testify on whether Apple Music could survive without the majors, on its AI and royalty deals with them, and on streaming fraud. Apple has moved to quash, with a hearing set for 1 December. Separately, a judge let the labels depose an ex-Menlo Ventures investor over a deleted post saying he now listens mostly to Suno.",
+      "title": "Suno subpoenas Apple Music; the labels get to question an investor who switched his listening to Suno",
+      "url": "https://www.digitalmusicnews.com/2026/10/26/suno-files-subpoena-demands-apple/"
+    },
+    {
+      "breakthrough": true,
+      "cat": "hearing",
+      "date": "2026-10-25",
+      "deep": "Vestibular schwannoma is a benign tumour on the balance nerve, and about 95% of patients have some sensorineural hearing loss. Why hearing gets worse even when the tumour is small has been unclear. This work points to tiny vesicles released by the tumour that disturb iron balance in hair cells, leading to reactive oxygen species and damaged membranes.\n\nFerroptosis is already being studied as a factor in noise- and drug-induced hearing loss, so a second route that responds to the same inhibitor adds weight to it as a drug target. The limits are big: this is an early-access paper, the abstract gives no animal model or sample sizes, and it is about one tumour type, not noise exposure. It is lab science, years away from a treatment. For engineers it is a signpost: hair-cell protection drugs are being tested against specific, measurable mechanisms.",
+      "signal": 2,
+      "source": "Cell Death Discovery",
+      "take": "A Shanghai Jiao Tong University team reports in Cell Death Discovery that exosomes from vestibular schwannoma tumours push cochlear hair cells into ferroptosis, an iron-dependent cell death, by lowering the enzyme GPX4. Exosomes from patients with poor hearing did more damage than those from patients with good hearing. The inhibitor ferrostatin-1 reduced hair-cell injury and preserved hearing in vivo.",
+      "title": "Tumour exosomes kill hair cells by ferroptosis; an inhibitor protected hearing in vivo",
+      "url": "https://www.nature.com/articles/s41420-026-03419-x"
+    },
+    {
+      "cat": "post",
+      "date": "2026-10-26",
+      "deep": "ADR cueing is a small market served by a few tools such as EdiCue and DX Assist. BAT's angle is keeping the cue sheet and the session in step: change a cue in one and the other follows, which is where errors creep in on long shows with many revisions. Storing shared cue lists in the user's own cloud account also keeps client material off a vendor's servers.\n\nThe handwriting reader is the bold claim and the article notes it was not tested. The six-month trial is long enough to run it through a whole series before paying.",
+      "signal": 2,
+      "source": "Production Expert",
+      "take": "Bramley Pips, built by a working ADR editor, makes a two-way link between a PDF cue sheet and Pro Tools clip groups, with P1–P5 priorities. The Pro tier adds a script follower, caption overlay, browser-editable cue lists stored in your own Cloudflare account and an auditioner that reads handwritten notes on scanned cue sheets. Launch prices until August 2027 are £150 Basic and £300 Pro (ex tax), half the regular price, with a six-month trial.",
+      "title": "BAT ADR Toolkit links Pro Tools clip groups to a live cue sheet",
+      "todo": "If you cue ADR, trial it on your next episode and compare against your current spreadsheet or EdiCue workflow.",
+      "url": "https://www.production-expert.com/production-expert-1/bat-adr-toolkit-links-pro-tools-clip-groups-to-a-live-cue-sheet"
+    },
+    {
+      "cat": "post",
+      "date": "2026-10-26",
+      "signal": 2,
+      "source": "Production Expert",
+      "take": "The $79 utility now runs as a Final Cut Pro extension, so editors can export AAF from the timeline without an XML step. It can render constant speed changes into the AAF, keeps poly WAV metadata such as scene, take and channel names, and turns FCP roles into named tracks. Speed ramps are not handled. It needs Apple silicon; the update is free for owners and the demo covers the first 120 seconds of a timeline.",
+      "title": "AAF Everything exports AAF straight from Final Cut Pro, with rendered speed changes",
+      "todo": "Send FCP editors this link before your next turnover, and ask them to flag every retimed clip.",
+      "url": "https://www.production-expert.com/production-expert-1/aaf-everything-adds-a-final-cut-pro-extension-and-rendered-speed-changes"
+    },
+    {
+      "cat": "speakers",
+      "date": "2026-10-26",
+      "deep": "Coaxial three-ways at this price were rare until Kali's IN-5. A coaxial mid and tweeter gives a single point source, so the sound changes less when you move your head, which helps in a small edit suite. Linear-phase FIR crossovers keep timing tidy but add delay, and Teufel has not said how much, which matters if you monitor while recording or sync to picture.\n\nNo independent measurements exist yet. Treat it as a candidate for a second room or a client reference pair, not a main monitor, until someone publishes data.",
+      "signal": 2,
+      "source": "Production Expert",
+      "take": "Teufel's new active monitor has a 5.25-inch woofer and a coaxial 75 mm midrange with a 20 mm fabric tweeter in a waveguide, driven by 122 W of Class D per speaker. It reaches 40 Hz at -6 dB and 106 dB at 1 m, uses linear-phase FIR filtering (latency not published) and has placement and shelf settings. A Bluetooth version costs €549.99 a pair; both are sold direct.",
+      "title": "Teufel STUDIO 5X: a three-way coaxial FIR monitor for €499.99 a pair",
+      "url": "https://www.production-expert.com/production-expert-1/teufel-studio-5x-is-a-3-way-coaxial-monitor-for-49999-a-pair"
+    },
+    {
+      "cat": "hearing",
+      "date": "2026-10-26",
+      "signal": 2,
+      "source": "MacRumors",
+      "take": "With iOS 27.2, released on 26 October, AirPods Pro 2 and Pro 3 can act as hearing aids for adults with perceived mild-to-moderate loss in Alberta, British Columbia, New Brunswick, Prince Edward Island and Saskatchewan. Apple says it is working on other provinces, and Ontario is reportedly preparing a law change.",
+      "title": "AirPods Pro hearing-aid mode goes live in five Canadian provinces",
+      "url": "https://macrumors.com/2026/10/26/airpods-pro-hearing-aid-five-canadian-provinces"
+    },
+    {
+      "cat": "live",
+      "date": "2026-10-26",
+      "signal": 2,
+      "source": "ProSoundWeb",
+      "take": "For a semi-operatic Tempest in a Buckinghamshire tent, Martin Audio and TiMax built a 54-channel system with FlexPoint speakers, Q44 columns and subs under the seats. Eighteen TiMax D4 trackers followed performers, positions came from the playback session over OSC, and a Quantec 7.1 room simulator was routed through TiMax so added reverb stayed spatially placed. A Water Music concert used Chris Watson's wildlife recordings.",
+      "title": "Vache Baroque: 54 channels and 18 trackers turn a tent into a spatial theatre",
+      "todo": "If you work in dead temporary venues, try routing reverb returns through your spatial processor instead of across the whole PA.",
+      "url": "https://www.prosoundweb.com/martin-audio-timax-provide-immersive-sound-for-vache-baroque-festival-in-the-uk/"
+    },
+    {
+      "cat": "plugins",
+      "date": "2026-10-26",
+      "free": true,
+      "signal": 2,
+      "source": "Bedroom Producers Blog",
+      "take": "Pulsar Audio, known for its high-end processor emulations, is giving away DigiTape. Contour mode has five curves from restrained to heavily compressed; Grain mode saturates lows and mids and softens the highs. It comes as VST2, VST3, AU and AAX for Windows and macOS. You need an iLok account (no dongle), a short survey and marketing-email consent.",
+      "title": "Free: Pulsar Audio DigiTape, a two-mode tape saturator with AAX",
+      "url": "https://bedroomproducersblog.com/2026/10/26/pulsar-audio-digitape/"
+    },
+    {
+      "cat": "plugins",
+      "date": "2026-10-26",
+      "signal": 1,
+      "source": "Sound On Sound",
+      "take": "The NoiseWorks Audio Complete Bundle combines VoiceAssist Advanced (AI-assisted vocal and dialogue editing with spectral tools and a standalone app), GainAim (a real-time rider towards a target loudness), TranSplit and Enshape. Sound On Sound lists it at $349, £299 or €349, which the maker says saves over 20%. Licences cover two devices.",
+      "title": "NoiseWorks bundles its dialogue editor, vocal rider and transient tools",
+      "url": "https://www.soundonsound.com/news/noiseworks-audio-launch-complete-bundle"
+    },
+    {
+      "cat": "plugins",
+      "date": "2026-10-25",
+      "free": true,
+      "signal": 1,
+      "source": "Production Expert",
+      "take": "Analog Obsession's new tape plugin offers 7.5 and 15 ips, wow and flutter, bias and adjustable noise. It is free through the developer's Patreon in AAX Native and AudioSuite, VST3 and AU, for macOS and Windows. The modelled machine is not named.",
+      "title": "Free: Analog Obsession TheMachine tape emulation, with AudioSuite",
+      "url": "https://www.production-expert.com/production-expert-1/analog-obsession-releases-themachine-a-free-tube-driven-tape-emulation"
+    },
+    {
+      "cat": "plugins",
+      "date": "2026-10-26",
+      "free": true,
+      "signal": 1,
+      "source": "Bedroom Producers Blog",
+      "take": "Three reorderable stages: tape-style drive, pitch drift with wow, flutter and hiss, and a fixed 8-bit, reduced-sample-rate crush. No account or activation, in VST3, AAX and AU. Handy for quick lo-fi and worn-media textures.",
+      "title": "Free: Sonic Cascade THE DREAM chains drive, drift and bit-crush in any order",
+      "url": "https://bedroomproducersblog.com/2026/10/26/sonic-cascade-the-dream/"
+    },
+    {
+      "cat": "live",
+      "date": "2026-10-26",
+      "signal": 1,
+      "source": "LSi Online",
+      "take": "The musical's tour used a DiGiCo Quantum 338T, the theatre version, with two SD Racks and a Fourier transform.engine on Optocore, handling 40 band and 22 RF channels. Dante was used mainly for multitrack recording, so the team could run virtual soundchecks when moving between Cape Town and Johannesburg.",
+      "title": "Pretty Woman in South Africa runs on the continent's first Quantum 338T",
+      "url": "https://www.lsionline.com/news/digico-quantum-338t-debuts-in-sa-with-pretty-woman/"
+    },
+    {
+      "cat": "live",
+      "date": "2026-10-26",
+      "signal": 1,
+      "source": "FOH",
+      "take": "The soca band moved from Quantum338s to a pair of Quantum112s for FOH and monitors, after its supplier installed the Pulse upgrade that raises the desk to 96 inputs and 48 aux and group busses. Mustard and Spice Rack processing plus a Waves bundle run on board, and the desks fly in cases.",
+      "title": "Kes tours on two Quantum112 desks after the Pulse channel upgrade",
+      "url": "https://fohonline.com/featured/trinidadian-soca-band-kes-tours-with-digico-quantum112-consoles/"
+    },
+    {
+      "cat": "post",
+      "date": "2026-10-26",
+      "signal": 1,
+      "source": "Mix",
+      "take": "SEAMAX in Ketchikan has five front speakers with dual 15-inch woofers and TAD compression drivers on Augspurger horns, dual-18 subs and Beyma coaxial surrounds and heights, all run full-range on about 24 kW of Powersoft amplification. A DirectOut Prodigy MP shares sources between two theatres.",
+      "title": "An 80-seat Alaska cinema gets a custom Augspurger 9.1.4 system",
+      "url": "https://www.mixonline.com/live-sound/venues/surrounded-in-seamax-alaska"
+    },
+    {
+      "cat": "instruments",
+      "date": "2026-10-26",
+      "signal": 1,
+      "source": "Synth Anatomy",
+      "take": "Behringer posted a first prototype on GitHub with 16 pads, a touchscreen, CV/gate, MIDI and USB host, and a camera for gesture control. It runs Linux, and Behringer is leaving the full MPC-style operating system to the community. No price or date.",
+      "title": "Behringer Kick: an MPC One-style sampler with open-source Linux firmware",
+      "url": "https://synthanatomy.com/2026/10/behringer-kick-an-mpc-one-clone-with-open-source-firmware.html"
+    },
+    {
+      "cat": "instruments",
+      "date": "2026-10-26",
+      "signal": 1,
+      "source": "Synth Anatomy",
+      "take": "Rides In The Storm's hybrid has six analog voices, two digital sample and granular engines, a 256-step sequencer and individual outputs. Its computer USB-C port carries four stereo pairs of audio plus MIDI, so stems can go straight into a DAW. Price is not set; it targets Superbooth 2027.",
+      "title": "Rhythm Rides drum machine: six analog voices, separate outs and 8-channel USB audio",
+      "url": "https://synthanatomy.com/2026/10/rides-in-the-storm-rhythm-rides-analog-drum-machine.html"
+    },
+    {
+      "cat": "instruments",
+      "date": "2026-10-25",
+      "signal": 1,
+      "source": "Synth Anatomy",
+      "take": "Shown as a prototype at Beijing Modular and planned for 2027, it has a 2.8-inch screen, 32 voices, sampling from line in, internal mic or USB, slice mode and USB-C audio. No official price yet.",
+      "title": "Donner Sample Boy: a battery pocket sampler with a built-in mic",
+      "url": "https://synthanatomy.com/2026/10/donner-sample-boy.html"
+    },
+    {
+      "cat": "hearing",
+      "date": "2026-10-26",
+      "signal": 1,
+      "source": "HearingTracker",
+      "take": "A meta-analysis in the Journal of Laryngology & Otology found adults with acquired single-sided deafness rated implanted options above non-invasive ones on hearing disability, quality of life and preference. The summary does not give sample sizes or name the devices.",
+      "title": "Review: adults with one-sided deafness prefer implanted solutions",
+      "url": "https://news.hearingtracker.com/news/bd527720-7db5-4381-82d1-6721e0bcd4c4"
+    },
+    {
+      "cat": "industry",
+      "date": "2026-10-26",
+      "signal": 1,
+      "source": "Mix",
+      "take": "The Producers & Engineers Wing named its 2026–27 steering committee, co-chaired by D. 'Swagg' Arcelious Harris and Marcella Araica. Its stated priorities are lobbying in Washington and California, getting streaming services to display full creator credits, and education.",
+      "title": "Recording Academy engineers' wing will push streamers to show full credits",
+      "url": "https://www.mixonline.com/news/pe-wing-announces-steering-committee"
+    },
+    {
+      "cat": "craft",
+      "date": "2026-10-26",
+      "signal": 1,
+      "source": "ProSoundWeb",
+      "take": "Mike Sokol argues that sharing one mix across several wedges starts a volume race. He suggests using spare aux sends for personal powered monitors at ear height, mixed by each player from a tablet, and sending amps and keyboards to the house through DIs so nobody has to play loud to reach the back.",
+      "title": "Small stages: one mix per player beats one loud wedge mix",
+      "url": "https://www.prosoundweb.com/calming-the-storm-alternative-monitoring-approaches-in-the-goal-of-a-semi-silent-stage/"
+    }
+  ],
+  "key": "2026-10-27",
+  "label": "Tue 27 Oct 2026",
+  "lead": "A quiet run-up to AES Nashville, but post engineers got a busy Monday. NUGEN's VisLM 3 brings dialogue-to-programme ratio, stem metering and QC reports to a widely used meter, Turin's Forte AI wants to automate AAF turnover prep, and two new utilities target ADR cueing and Final Cut Pro turnovers. On the rights side, SAG-AFTRA members vote this week on consent rules for AI dubbing, and the AI music lawsuits keep turning on credits and on whether generated music replaces human listening. Also: a lab result on how a tumour damages hair cells, a €500 coaxial monitor and a good free tape saturator.",
+  "period": "day",
+  "radar": [
+    {
+      "date": "2026-10-29",
+      "note": "Ratification of the deal with AI-dubbing consent closes at 5 pm Pacific.",
+      "title": "SAG-AFTRA animation vote closes",
+      "url": "https://www.voiceoverherald.com/sag-aftra-tv-animation-vote-ai-dubbing-consent/"
+    },
+    {
+      "date": "2026-10-30",
+      "note": "30 Oct–1 Nov; expect a burst of immersive and studio announcements.",
+      "title": "AES Show Nashville",
+      "url": "https://www.prosoundweb.com/grammy-sound-tables-songs-that-changed-my-life-panel-set-for-aes-show-nashville-2026/"
+    },
+    {
+      "date": "2026-11-27",
+      "note": "The $99 plugin is free to claim from 27 November to 6 December.",
+      "title": "AIR Vocal Distortion free",
+      "url": "https://www.production-expert.com/production-expert-1/air-music-tech-announce-free-vocal-distortion-plugin-available-for-a-limited-time"
+    },
+    {
+      "date": "2026-12-01",
+      "note": "Hearing on Apple's bid to quash Suno's demand for Apple Music data.",
+      "title": "Apple's motion against Suno's subpoena",
+      "url": "https://www.digitalmusicnews.com/2026/10/26/suno-files-subpoena-demands-apple/"
+    }
+  ],
+  "range": "25–27 Oct 2026"
+}

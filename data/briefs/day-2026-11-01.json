@@ -1,0 +1,280 @@
+{
+  "craft": {
+    "body": "This week's dialogue debate comes down to one habit: judge the final mix on the system your audience will use. Before you print, play the key scenes on a TV or laptop at couch distance, at a normal home level, with captions off, and note every line you have to strain for.\n\nFix those on the dialogue, not with a blanket boost: a little more level on the line, less music or effects under it, or less compression on the bed. Keep a cheap TV or small speaker permanently wired into your monitor controller so this check costs you two minutes, not a trip to the living room.",
+    "title": "Do the last check where the audience listens"
+  },
+  "generated": "2026-11-01T07:40:00+01:00",
+  "headline": "Analogue recall, clearer dialogue",
+  "items": [
+    {
+      "cat": "gear",
+      "date": "2026-10-30",
+      "deep": "Recall is the reason most freelancers gave up on outboard. Digitally controlled analogue is not new (Wes Audio, SSL's Fusion-era recall, Bettermaker), but Neve putting its 88R and 1084 circuits behind a plugin with session-saved settings means the analogue state can travel with the DAW project, like any other insert.\n\nThe catch is that recall covers settings, not the rest of the chain: patching, gain into the box and converter calibration still need notes. Eight channels in 2U at these prices is a facility purchase, not a home-studio one, and no independent measurements or latency figures are published yet. Owners of existing 8424 consoles can upgrade.\n\nFor a mix room that changes projects daily, the practical question is whether the plugin control is solid across Pro Tools versions and OS updates, given this month's macOS 27 trouble. Ask Neve about qualification before ordering.",
+      "signal": 3,
+      "source": "Sound On Sound",
+      "take": "Neve launched Elements, its first digitally controlled analogue processors: 2U, eight-channel units (88R EQ, 88R Dynamics and an inductor 1084 EQ) with D-Sub I/O, Ethernet and a recallable insert. They are run from a standalone app or a VST3/AU/AAX plugin with snapshots and 64-step undo. Prices start at $4,895 / £3,495 ex VAT. A new 8424E console ($37,950 / £26,995) adds full recall; shipping is expected in Q1 2027.",
+      "title": "Neve Elements: recallable 88R and 1084 processors, and an 8424E console",
+      "todo": "If you rent rooms with Neve outboard, ask whether they plan Elements units, and add a line to your recall notes listing hardware plugin versions.",
+      "url": "https://www.soundonsound.com/news/neve-unveil-elements-range-8424e-console"
+    },
+    {
+      "cat": "post",
+      "date": "2026-10-29",
+      "deep": "Loudness targets solved jumps between programmes and ads; they did not solve viewers missing lines. TD1009 is the AES document on dialogue intelligibility, and the committee is now putting it next to the loudness recommendations so delivery is judged on clarity as well as on LUFS.\n\nNothing here is a new rule, but it is a free, authoritative reference that connects the dots between dialogue level, dynamics, background music and the listening conditions at home. It lands the same week as the debate over mixing TV on big stages (see below) and after Nuendo 15 and NUGEN VisLM 3 added intelligibility and dialogue-ratio tools.\n\nFor post mixers, expect clients and broadcasters to ask more often about dialogue-to-programme ratio, not just integrated loudness. Having read the AES material puts you ahead of that conversation.",
+      "signal": 3,
+      "source": "TV Technology",
+      "take": "The AES Committee on Broadcast and Online Delivery rebuilt its loudness web resource. It summarises technical documents TD1006, TD1008 and TD1009 and the AES71 and AES77 recommendations, and adds a glossary of loudness and hearing-science terms. AES says about half of viewing now uses captions or subtitles, and the co-chairs say loudness rules are spreading to online content.",
+      "title": "AES relaunches its loudness site around dialogue intelligibility",
+      "todo": "Read TD1009 and the online-delivery recommendation, and add a dialogue-clarity check on small speakers to your final QC pass.",
+      "url": "https://www.tvtechnology.com/standards/aes-dials-in-on-dialogue-intelligibility"
+    },
+    {
+      "cat": "live",
+      "date": "2026-10-30",
+      "deep": "Remote production usually means hauling every source back to a central gallery. Here the DSP stays at the venue and only the control surface and monitoring feeds travel, so the link can be ordinary internet rather than dedicated fibre. A local engineer at the track kept a Tempest control app and a small fader tile as backup.\n\nNo latency figure was reported, and the test was a proof of concept, not a full season. Calrec published a white paper the same week pitching its ImPulseV engine on 4-week, 12-week or yearly licences, so broadcast mixing is clearly moving to software engines and short-term rental.\n\nFor freelancers in broadcast, this changes where the job is: fewer days in trucks, more days at a remote surface, and a new need to understand IP networks, monitoring delay and what happens when the link drops. Cloudbass will present the results at the SVG Europe Sports Audio Summit on 12 November.",
+      "signal": 3,
+      "source": "ProSoundWeb",
+      "take": "UK OB company Cloudbass ran a proof of concept at the British Touring Car Championship at Thruxton. Audio processing ran on an SSL System T Virtual Tempest Engine on servers at the track, tied into the ST 2110 network with an SSL Net I/O bridge. The mixer worked from Cloudbass HQ on a System T S400 surface over about 50 Mbps of public internet, carrying control data and monitoring only.",
+      "title": "Cloudbass mixes a touring-car race from its HQ on SSL's virtual engine",
+      "todo": "If you work broadcast, ask your OB clients whether they plan remote-surface shows and what fallback they want on site.",
+      "url": "https://www.prosoundweb.com/cloudbass-tests-remote-production-with-solid-state-logic/"
+    },
+    {
+      "cat": "speakers",
+      "date": "2026-10-29",
+      "deep": "Cardioid bass has been standard in touring subs for years but is rare in studio mains. Steering low frequencies away from the wall behind the speaker reduces the boundary interference and rear-wall build-up that EQ cannot fix.\n\nA fully expanded pair costs close to $50,000 and will be a special order, so this is for mix and post rooms rather than freelancers' own setups. Its DSP offers Zero Phase, Flat and a lowest-latency Off mode, and the amp can be mounted away from the box for soffit installs. The 10 dB rear-rejection figure is HEDD's own.",
+      "signal": 2,
+      "source": "Sound On Sound",
+      "take": "HEDD's Type 40 Main is a sealed three-way monitor (10.75-inch woofer, two 4-inch mids, AMT tweeter) rated −3 dB at 20 Hz. Up to three XTD woofer modules per side add up to 15 dB of headroom, and rear-facing XTDs form a cardioid array that cuts rear output by up to 10 dB. Prices are $7,499 / £5,999 per Main and $6,999 / £5,699 per XTD.",
+      "title": "HEDD Type 40 System: modular mains with cardioid bass extensions",
+      "url": "https://www.soundonsound.com/news/hedd-audio-unveil-type-40-system"
+    },
+    {
+      "cat": "gear",
+      "date": "2026-10-29",
+      "deep": "Neumann claims better feedback rejection and separation than the KK 14 but has not published polar plots or sensitivity. A supercardioid has a narrower front pickup and a rear lobe, so placement on loud stages needs care: aim the nulls (around 125°) at wedges, not the rear.\n\nThe Spectera link matters for theatre and concert-film work: a miniature instrument mic that goes straight into a wideband digital system with no adapter.",
+      "signal": 2,
+      "source": "Production Expert",
+      "take": "Neumann added the KK 15, a supercardioid electret capsule in a titanium housing, to its MCM miniature clip-mic system alongside the KK 13 omni and KK 14 cardioid. Five MCM 115 sets (high strings, bass, brass/sax, drums, guitar) bundle capsule, gooseneck, output stage and clip. The KK 15 costs €289 / $349, the sets €679 / $829, and updated LEMO cables connect them to Sennheiser Spectera.",
+      "title": "Neumann KK 15: a supercardioid head for the MCM clip-mic system",
+      "todo": "Before buying, ask Neumann for the KK 15 polar plot and compare its null angle with your wedge positions.",
+      "url": "https://www.production-expert.com/production-expert-1/neumann-adds-kk-15-supercardioid-capsule-and-mcm-115-instrument-sets-to-its-mcm-clip-mic-system"
+    },
+    {
+      "cat": "live",
+      "date": "2026-10-30",
+      "deep": "This is one of the first detailed reports of ML-style vocal isolation used nightly at FOH rather than in a demo. The value is in the edge cases: the processor removes what is not voice, so when the singer deliberately plays an instrument into the mic it has to be bypassed, and the drummer's vocal mic needs the wet/dry control to keep some kit.\n\nNo latency figure is given in the report. Before relying on it, check what it does to sibilance and breaths, and keep a snapshot without it.",
+      "signal": 2,
+      "source": "ProSoundWeb",
+      "take": "FOH engineer Jason Moore runs L-Acoustics Source Intelligence, real-time vocal processing on an L-ISA Core, on Pat Monahan's mic to cut stage and PA bleed and gain headroom before feedback. A bypass macro handles songs where the singer plays tambourine or harmonica into the same mic. The PA is 12 K1 over 6 K2 per side with 20 flown cardioid KS28.",
+      "title": "Train's tour runs L-Acoustics Source Intelligence on the lead vocal",
+      "url": "https://www.prosoundweb.com/l-acoustic-at-the-heart-of-the-sonic-approach-on-trains-drops-of-jupiter-25-years-in-the-atmosphere-tour/"
+    },
+    {
+      "cat": "science",
+      "date": "2026-10-31",
+      "deep": "Flat-panel and 'invisible' speakers are spreading into screens, walls and installs, usually driven by several exciters per panel. If units of one model differ noticeably, the panel response depends on which ones you happened to fit. A quick impedance sweep is a cheap screening step; the paper proposes it but does not show measured IMD gains, and it is a first preprint.\n\nIron nitride is the other thread. FaitalPRO announced pro drivers with Niron magnets in February, but there is still no public data on flux density, temperature behaviour or cost against neodymium. The AES session is the first technical airing; wait for independent measurements before trusting the claims.",
+      "signal": 2,
+      "source": "arXiv / AES Show Nashville",
+      "take": "A University of Rochester paper presented at AES Nashville measured three types of inertial exciter for flat-panel speakers and found high variability between units of the same model in response, distortion and force. The authors suggest matching exciters by impedance sweep in multi-exciter panels. In the same programme, Niron Magnetics presented loudspeaker motors using iron nitride magnets, which need no rare earths.",
+      "title": "AES papers: flat-panel exciters vary unit to unit, and rare-earth-free speaker magnets",
+      "todo": "On your next flat-panel install, sweep each exciter's impedance before mounting and pair those that match.",
+      "url": "https://arxiv.org/abs/2610.19125"
+    },
+    {
+      "cat": "hearing",
+      "date": "2026-10-30",
+      "deep": "Most hearing-repair research targets hair cells. ANP1 instead aims to replace the spiral ganglion neurons that carry signals to the brain. Their loss is linked to the 'hidden hearing loss' noise can cause while the audiogram stays normal, and it limits how well cochlear implants work.\n\nIt has not been tested in people, no efficacy data are public and no trial date is set. The news is that a hearing-aid group is funding regenerative work, not a result. For engineers, protection is still the only proven treatment.",
+      "signal": 2,
+      "source": "Hearing Health & Technology Matters",
+      "take": "Lineage Cell Therapeutics reported a year of work on ReSonance (ANP1), auditory neuron progenitor cells developed with William Demant Invest and Oticon's Eriksholm Research Centre under a deal worth up to $12m. It has made one clinical-grade batch and built a preclinical deafening model, and plans a meeting with the Danish Medicines Agency in Q4 2026.",
+      "title": "Demant-backed cell therapy to rebuild the auditory nerve finishes its first year",
+      "url": "https://hearinghealthmatters.org/hearing-news-watch/2026/lineage-cell-therapy-demant-update/"
+    },
+    {
+      "cat": "live",
+      "date": "2026-10-30",
+      "deep": "The useful part is the migration method: build the new IP room in a spare studio, run it on air, then move it, instead of a weekend cutover. The core is scalable to about 600 signals including intercom, and integrated CEDAR plus plugin control means fewer outboard boxes in the room.\n\nFor freelancers covering European news and sport, mc² surfaces on IP cores are now the normal workplace. Knowing how the HOME orchestration and stream routing work is part of the job.",
+      "signal": 2,
+      "source": "TV Technology",
+      "take": "RTL News in Cologne replaced Lawo mc²56 desks with a mc²96 on redundant A__UHD Cores, native in ST 2110, AES67, RAVENNA and Dante, with CEDAR noise suppression and Waves SuperRack controlled from the surface. The new system was first built and tested in a temporary room so on-air output never stopped, and has been running in TR 1 since August.",
+      "title": "RTL News rebuilds a live control room on Lawo mc²96 without going off air",
+      "url": "https://www.tvtechnology.com/production/rtl-news-rebuilds-audio-control-room-with-5-1-surround-ip-stream-support"
+    },
+    {
+      "cat": "plugins",
+      "date": "2026-10-31",
+      "deep": "A transparent true-peak limiter with built-in loudness metering covers most delivery checks at no cost, and the source code is public. Because it is version 0.0.1, test it in an empty session before using it on client work, and compare its true-peak readings with a meter you trust. The Mac installers are not notarised, so macOS will warn on install.",
+      "free": true,
+      "signal": 2,
+      "source": "Bedroom Producers Blog",
+      "take": "ZL Audio released ZL Limiter, a free open-source true-peak limiter with up to 32× oversampling, lookahead, adjustable stereo linking and delta audition. It meters momentary, short-term and integrated LUFS, LRA, true peak and correlation. It comes as VST3 on Windows, macOS and Linux, AU on macOS and LV2; there is no AAX, and this is a first 0.0.1 pre-release.",
+      "title": "Free and open source: ZL Limiter, true-peak limiting with loudness meters",
+      "url": "https://bedroomproducersblog.com/2026/10/31/zl-audio-releases-zl-limiter-a-free-limiter-for-windows-macos-and-linux/"
+    },
+    {
+      "cat": "industry",
+      "date": "2026-10-29",
+      "deep": "Pro-rata streaming splits one pool by share of plays, so every cheap AI or functional track dilutes everyone else. The largest label is now saying openly it will renegotiate to weight payouts toward human-made, actively chosen music.\n\nFor engineers, the effect is indirect but real: royalty points on masters, and the budgets that follow them, depend on how that pool is split. The details are not public yet, so treat this as a direction, not a rule.",
+      "signal": 2,
+      "source": "Digital Music News",
+      "take": "Universal Music Group reported third-quarter revenue up about 12%, with paid streaming up over 20%. CEO Lucian Grainge said the structure of its streaming agreements has to change, because pro-rata payouts treat mass-produced AI tracks the same as major songs, and set out a transition running to the end of 2028. UMG expects its AI licensing partnerships to add revenue from 2027.",
+      "title": "Universal says streaming deals 'have to change' to stop paying AI slop like real songs",
+      "url": "https://www.digitalmusicnews.com/2026/10/29/universal-music-earnings-q3-2026/"
+    },
+    {
+      "cat": "craft",
+      "date": "2026-10-30",
+      "deep": "Large stages are built to translate to cinemas, where dialogue sits high and the room supports it. Living rooms are small, noisy and played on TV speakers, and nearly half of US viewing hours now use subtitles according to Netflix. Greenberg's suggestion is to test, not to assume, which is the right instinct.\n\nYou do not need a stage to apply this. A final pass on a TV at couch distance, at a normal home level and with captions off, tells you more about a streaming mix than another pass on big monitors.",
+      "signal": 2,
+      "source": "Production Expert",
+      "take": "A Production Expert opinion piece by Mike Greenberg argues that mixing streaming TV on large dubbing stages may contribute to poor dialogue intelligibility at home. He proposes a calibrated near-field room as the main reference, with a final check from about 2.5 m in front of a 55-inch TV, and a blind test of one episode in three rooms. He admits the evidence does not prove room size is the cause.",
+      "title": "Are TV mixes made in rooms that are too big?",
+      "url": "https://www.production-expert.com/production-expert-1/are-we-mixing-in-rooms-that-are-too-big"
+    },
+    {
+      "cat": "software",
+      "date": "2026-10-29",
+      "free": true,
+      "signal": 1,
+      "source": "Bedroom Producers Blog",
+      "take": "The free Decent Sampler now reads unprotected Kontakt 2–8 .nki files, keeping mapping, round robins, envelopes and keyswitches; protected libraries and scripts are not supported. A new Auto Sampler in the Mac and Windows standalone app records a MIDI synth, trims, loops and flags clipped takes. It runs as AAX, AU, VST3 and VST on desktop, plus iOS.",
+      "title": "Decent Sampler 1.40.1 imports unprotected Kontakt patches and auto-samples hardware",
+      "todo": "Auto-sample one hardware synth you rarely take to sessions, so its sounds are available in Pro Tools without the box.",
+      "url": "https://bedroomproducersblog.com/2026/10/29/decent-sampler-kontakt-import/"
+    },
+    {
+      "cat": "plugins",
+      "date": "2026-10-31",
+      "free": true,
+      "signal": 1,
+      "source": "Production Expert",
+      "take": "Plugin Alliance's free tier now includes bx_masterdesk, bx_console N, Lindell 254E, bx_refinement V3, Apogee Soft Limit and bx_boom V3, installed through a free account and its Installation Manager. The report does not state formats or whether the licences are permanent; earlier free Brainworx licences stay valid.",
+      "title": "Plugin Alliance gives away six plugins, including bx_masterdesk and Lindell 254E",
+      "url": "https://www.production-expert.com/production-expert-1/6-free-plugins-from-plugin-alliance"
+    },
+    {
+      "cat": "ai",
+      "date": "2026-10-29",
+      "signal": 1,
+      "source": "Production Expert",
+      "take": "de-leak uses a small machine-learning classifier to decide frame by frame whether audio is vocal or leftover instrument, then applies multiband gain, with Gate, Clean and combined modes and a solo for what was removed. Latency is about 93 ms at 44.1 kHz, so it is a mixing tool. It costs $79 until 26 November, then $99, in AAX, AU, VST3 and CLAP on Mac.",
+      "title": "Intrect de-leak removes instrument bleed from separated vocal stems",
+      "url": "https://www.production-expert.com/production-expert-1/intrect-de-leak-targets-instrument-bleed-in-separated-vocal-stems"
+    },
+    {
+      "cat": "plugins",
+      "date": "2026-10-30",
+      "signal": 1,
+      "source": "KVR Audio",
+      "take": "ToC, a phase and polarity correction plugin for multi-mic sources, adds a Precision mode that stays linear-phase across its range, with the option to move pre-ringing to post-ringing to protect transients. A Mono Sub function removes low-frequency side content. It is $42 perpetual, VST3 and AU only, with no AAX.",
+      "title": "Noisebud ToC 1.11 adds a linear-phase mode for phase alignment",
+      "url": "https://www.kvraudio.com/news/noisebud-updates-toc-phase-correction-plugin-to-v1-11-69528"
+    },
+    {
+      "cat": "plugins",
+      "date": "2026-10-29",
+      "signal": 1,
+      "source": "KVR Audio",
+      "take": "DUKR ducks from a sidechain, the host tempo or MIDI notes, can draw its curve from the sidechain signal, and in Carve mode ducks up to four bands, each on full, mid or side. It is zero latency, $13.99 until 30 November then $18.99, in VST3, AU and CLAP on Windows, macOS and Linux, with no AAX.",
+      "title": "FRCTL DUKR: a zero-latency ducker that carves up to four bands",
+      "todo": "Try it for ducking only the 1–4 kHz band of a music bed under voice-over instead of pulling the whole bed down.",
+      "url": "https://www.kvraudio.com/news/frctl-audio-releases-dukr---zero-latency-sidechain-ducker-with-frequency-carving-69529"
+    },
+    {
+      "cat": "ai",
+      "date": "2026-10-30",
+      "signal": 1,
+      "source": "Music Business Worldwide",
+      "take": "According to an FT report, Spotify plans to launch its AI covers and remixes feature in the first quarter of 2027 at about $4–5 a month on top of a subscription. UMG, Merlin, Kobalt and Believe have signed; Sony and Warner are still negotiating. Artists must opt in individually even if their label licensed the catalogue.",
+      "title": "Spotify's paid AI covers and remix tool is reportedly due in early 2027",
+      "url": "https://www.musicbusinessworldwide.com/spotify-plans-q1-2027-launch-for-ai-covers-and-remixes-tool-weighing-4-5-monthly-price-report/"
+    },
+    {
+      "cat": "ai",
+      "date": "2026-10-30",
+      "signal": 1,
+      "source": "Music Business Worldwide",
+      "take": "Suno released a beta MCP connector that lets users of all plans make songs inside ChatGPT, Claude and Gemini, and opened a sign-in portal for its still-beta developer API. In court, it asked a Massachusetts judge to pause UMG and Sony's second suit, covering 60,202 recordings, until key rulings in the first case.",
+      "title": "Suno puts song generation inside ChatGPT, Claude and Gemini while it asks to pause a lawsuit",
+      "url": "https://www.musicbusinessworldwide.com/sunos-new-mcp-tool-lets-users-make-songs-inside-chatgpt-claude-and-gemini-as-its-developer-api-gets-a-sign-in-portal-but-remains-in-beta/"
+    },
+    {
+      "cat": "ai",
+      "date": "2026-10-29",
+      "signal": 1,
+      "source": "Yahoo News (Deadline)",
+      "take": "SAG-AFTRA, the American Federation of Musicians and both Writers Guilds filed an amicus brief in the consolidated New York Times and others v OpenAI case. They ask the court to judge fair use case by case rather than as a blanket rule, warning that a broad ruling would undercut the licensed-training terms in their 2026 contracts.",
+      "title": "Actors', writers' and musicians' unions oppose blanket fair use for AI training",
+      "url": "https://www.yahoo.com/news/politics/articles/sag-aftra-wga-afm-ask-001306706.html"
+    },
+    {
+      "cat": "instruments",
+      "date": "2026-10-30",
+      "signal": 1,
+      "source": "Synthtopia",
+      "take": "Crema builds on the Streichfett with two engines: Texture (24 types covering string machine, wavetable and FM) and Lines, an eight-voice virtual analogue, plus two effects slots including a shimmer reverb and the Streichfett ensemble. It supports MPE, runs from USB-C and costs €345.45.",
+      "title": "Waldorf Crema: a €345 desktop string and pad synth",
+      "url": "https://www.synthtopia.com/content/2026/10/30/new-waldorf-crema-is-a-compact-string-pad-synthesizer-with-two-engines/"
+    },
+    {
+      "cat": "industry",
+      "date": "2026-10-31",
+      "signal": 1,
+      "source": "Synth Anatomy",
+      "take": "ROLI's operating company, Luminary ROLI Ltd, has entered administration, after its products had shown out of stock since July. The administrators were not named and nothing has been said about software support for Seaboard and Lumi owners.",
+      "title": "ROLI is in administration for the second time",
+      "todo": "If you rely on a Seaboard or ROLI software, back up installers and licences now.",
+      "url": "https://synthanatomy.com/2026/10/roli-is-facing-serious-financial-difficulties-for-the-second-time.html"
+    },
+    {
+      "cat": "speakers",
+      "date": "2026-10-30",
+      "signal": 1,
+      "source": "audioXpress",
+      "take": "The November issue of Voice Coil covers the REDCATT 202N-GL, a 1.4-inch compression driver with a patent-pending glass diaphragm and a 3-inch voice coil, rated 109.5 dB sensitivity and 70 W AES. The issue also surveys new bass technologies, including Powersoft's moving-magnet M-Force and force-cancelling designs.",
+      "title": "Voice Coil tests a compression driver with a field-replaceable glass diaphragm",
+      "url": "https://audioxpress.com/news/voice-coil-november-2026-celebrating-40-years-with-new-frontiers-in-bass-and-loudspeaker-design"
+    },
+    {
+      "cat": "hearing",
+      "date": "2026-10-29",
+      "signal": 1,
+      "source": "Hearing Health Foundation",
+      "take": "USC researchers John Oghalai and Brian Applegate are developing a compact optical coherence tomography device that uses low-power laser light to image and measure vibration inside the cochlea. Their startup received up to $3.7m from ARPA-H in June. It currently images a third to a half of the human cochlea, blurrily, and human vibration tests happen only during surgery.",
+      "title": "The Cochleoscope aims to image the living cochlea through bone",
+      "url": "https://hearinghealthfoundation.org/blogs/the-cochleoscope"
+    }
+  ],
+  "key": "2026-11-01",
+  "label": "Sun 1 Nov 2026",
+  "lead": "Neve finally put its classic EQ and dynamics under plugin recall, which removes the main reason freelancers avoid outboard. Dialogue intelligibility moved up the agenda: the AES rebuilt its loudness resource around it, and a widely read essay asked whether TV is mixed in rooms that are too big. In broadcast, Cloudbass mixed a race from its headquarters with the DSP left at the track. AES Nashville also brought research on flat-panel exciters and rare-earth-free speaker magnets, and a free open-source true-peak limiter arrived.",
+  "period": "day",
+  "radar": [
+    {
+      "date": "2026-11-12",
+      "note": "Cloudbass and SSL present their remote-surface touring-car production.",
+      "title": "SVG Europe Sports Audio Summit, London",
+      "url": "https://www.prosoundweb.com/cloudbass-tests-remote-production-with-solid-state-logic/"
+    },
+    {
+      "date": "2026-11-16",
+      "note": "The MLC answers on 2 November and Suno on 16 November, if the judge approves the schedule.",
+      "title": "Suno's reply in its MLC subpoena fight",
+      "url": "https://www.digitalmusicnews.com/2026/10/30/suno-mlc-subpoena-schedule/"
+    },
+    {
+      "date": "2026-11-26",
+      "note": "$79 until 26 November, then $99.",
+      "title": "Intrect de-leak launch price ends",
+      "url": "https://www.production-expert.com/production-expert-1/intrect-de-leak-targets-instrument-bleed-in-separated-vocal-stems"
+    },
+    {
+      "note": "Orders are open; Neve expects deliveries in the first quarter of 2027.",
+      "title": "Neve Elements and 8424E ship",
+      "url": "https://www.soundonsound.com/news/neve-unveil-elements-range-8424e-console",
+      "when": "Q1 2027"
+    }
+  ],
+  "range": "29 Oct – 1 Nov 2026"
+}

@@ -1,0 +1,268 @@
+{
+  "craft": {
+    "body": "Today's APU update changes how LRA is calculated, and that is normal: meters get revised, and two compliant meters can disagree by a few tenths. When a broadcaster queries a delivery months later, the first question is what you measured with.\n\nPut the meter name, version, standard (R128, A/85, platform spec) and the exact file name in every QC note, and measure the bounced file, not the live bus. Keep the report with the session archive. It takes a minute, and it turns an argument about numbers into a quick check.",
+    "title": "Write the meter version on every QC report"
+  },
+  "generated": "2026-10-22T07:05:00+02:00",
+  "headline": "Delivery QC goes free",
+  "items": [
+    {
+      "cat": "plugins",
+      "date": "2026-10-21",
+      "deep": "Most free loudness meters measure in real time while you play the mix. The new File Check works on the bounced file, which is what the broadcaster or platform actually ingests, and leaves a report you can attach to a delivery. That closes the gap between 'it read −23 on the bus' and 'the WAV that left the building is compliant', which is where rejections usually happen: a late limiter change, a bad render, a wrong stem.\n\nThe LRA change matters more than it sounds. Loudness Range is built from the statistics of short-term loudness, so the update rate affects the result. If you keep QC sheets from older versions, or compare with another meter, small differences are now expected and are not a fault in the mix. The Dynamics Optimizer also now checks exports against its ceiling and target and removes incomplete exports.\n\nLimits: APU is a small developer and the File Check is new, so cross-check its first reports against your reference meter before you rely on it for a network delivery.",
+      "free": true,
+      "signal": 3,
+      "source": "KVR Audio",
+      "take": "APU Software updated all eight Loudness Series plugins to 6.0 (VST3, AU, AAX on Windows, macOS and Linux). The free Loudness Meter gains a File Check that tests finished WAV and FLAC files against delivery targets and writes HTML or CSV reports. LRA now updates at 10 Hz following EBU Tech 3342, so readings can differ slightly from earlier versions. The six processing plugins stay at $40 each; the Meter and Spectrum Analyzer are free.",
+      "title": "APU Loudness Series 6.0: free meter now QCs finished files against delivery specs",
+      "todo": "Run one of your recent approved deliveries through File Check and compare integrated loudness, true peak and LRA with your usual meter before trusting it.",
+      "url": "https://www.kvraudio.com/news/apu-software-releases-loudness-series-v6-0-0-69302"
+    },
+    {
+      "cat": "ai",
+      "date": "2026-10-21",
+      "deep": "The labels have spent 2026 signing licensing deals with AI music companies. The AFM's argument is that those deals license recordings that session players were paid for once, under contracts written before training data existed, and that the musicians get nothing from the new use. Its lawsuit turns on whether the agreement's 'new use' clause covers AI licensing.\n\nThis is a US union and a US agreement, but the pattern travels. Consent, credit and payment are the same three asks performer groups are putting to the European Commission's copyright and AI consultation, which closes on 3 November. Whatever wording the AFM wins is likely to become a template for session and production paperwork elsewhere.\n\nFor a freelance engineer the practical point is that your recordings, stems and isolated performances are exactly the material these deals license. Nothing changes in Italy tomorrow, but the clause is coming.",
+      "signal": 3,
+      "source": "CMU",
+      "take": "The American Federation of Musicians launched a 'Human Made Human Paid' campaign with three non-negotiable conditions whenever human performances are used in AI: the right to permit or refuse training use, transparent credit, and fair payment. It says the major labels take large AI licensing payouts while paying session musicians nothing. Talks on a new Sound Recording Labor Agreement are stalled after four rounds, and the union is already suing Universal and Warner.",
+      "title": "US musicians' union demands consent, credit and pay when recordings train AI",
+      "todo": "Add a line to your session terms stating that recordings and stems you deliver may not be used to train AI models without separate written agreement.",
+      "url": "https://completemusicupdate.com/major-labels-are-getting-massive-corporate-payouts-for-ai-licensing-but-paying-musicians-zero-says-afms-human-made-human-paid-campaign/"
+    },
+    {
+      "cat": "live",
+      "date": "2026-10-21",
+      "deep": "The Quantum112 is the small frame that rental companies send on fly dates and into tight FOH positions. Its limit was usually not the surface but the bus count: 24 auxes runs out quickly once you have stereo IEM mixes, FX returns and a few groups. Doubling to 48 removes the main reason to spec a bigger desk for a mid-size show.\n\nThe 120-input upgrade for Quantum225 Pulse and DS owners costs nothing. DiGiCo does not give version numbers; the software is on its support site now.\n\nWhat to watch: a show file built on an upgraded desk may need the same licence on whatever console the rental house sends next. Check the upgrade status of the exact desk on the rider, not just the model name.",
+      "signal": 3,
+      "source": "FOH",
+      "take": "A paid software upgrade (£995 list) takes the Quantum112 Pulse from 80 to 96 inputs, 24 to 48 aux/group busses, a 12×8 to 12×12 matrix, 20 to 24 Mustard processing instances and 24 to 32 Nodal Processing paths. Quantum225 Pulse and DS desks get 120 inputs (from 96) free. Non-Pulse Quantum225 owners can pay £2,295 list for the top spec: 120 inputs, 48 busses, 12×12 matrix, 36 Mustard and 48 Nodal.",
+      "title": "DiGiCo unlocks more channels and busses on Quantum112 and Quantum225",
+      "todo": "If your riders specify a Quantum112, ask the supplier whether their units carry the new upgrade before you build a 48-bus show file.",
+      "url": "https://fohonline.com/blogs/new-gear/digico-upgrades-software-for-quantum112-and-quantum225-pulse/"
+    },
+    {
+      "cat": "speakers",
+      "date": "2026-10-20",
+      "deep": "Sub integration is where most small rooms go wrong: the crossover and phase between sub and mains decide whether the 60–120 Hz region adds up or cancels at the listening position. Doing it by ear takes time and measurement gear. A box that measures and sets all three is useful for a second room, a client's home studio or a travelling rig.\n\nIK quotes 120 dB(A) dynamic range; retailer listings give 1.4 ms latency in natural-phase mode and 42 ms in linear-phase mode, so linear phase is not for tracking or live monitoring.\n\nRemember what correction can and cannot do. It can flatten the response at the measured points; it cannot fix SBIR nulls or long decay in the low end. Treat the room and place the speakers first.",
+      "signal": 2,
+      "source": "Production Expert",
+      "take": "IK Multimedia's second hardware correction box calibrates without a computer (one- or three-point measurement with the ARC mic) and now aligns a subwoofer automatically, setting crossover, level and phase from a dedicated sub output. It adds USB-C and optical inputs, an optical output, three recallable scenes and relay bypass. Introductory price is $/€399.99 (regular $/€449.99; £399 in the UK); the original ARC Studio stays on sale at $/€299.99.",
+      "title": "IK ARC Studio+ adds sub management and digital inputs to hardware room correction",
+      "url": "https://www.production-expert.com/production-expert-1/ik-multimedia-arc-studio-adds-sub-management-and-digital-io"
+    },
+    {
+      "cat": "live",
+      "date": "2026-10-21",
+      "deep": "Intercom panels have barely changed shape in a decade: a rack unit with a row of keys and a separate power supply. PoE and VESA mounting mean a panel can sit on a monitor arm at a production desk or in a theatre control position with one cable. That matters in temporary builds where every mains feed and rack space is negotiated.\n\nAn SVG preview mentioned Eclipse HX and Arcadia compatibility, but Clear-Com's launch coverage does not confirm it. Until it does, do not assume a Mentrix will drop into an existing matrix.",
+      "signal": 2,
+      "source": "TV Tech",
+      "take": "Mentrix is the first of a new Clear-Com panel line that sits alongside V-Series. It has 16 keysets built from eight physical lever keys plus eight or 16 rotary keys and touch controls, runs on Power over Ethernet, mounts on standard VESA arms and supports audio over IP. Clear-Com aims it at broadcast, OB trucks, theatre and live events; price, ship date and system compatibility were not given.",
+      "title": "Clear-Com shows Mentrix, a new PoE key panel family, at NAB New York",
+      "url": "https://www.tvtechnology.com/production/clear-com-unveils-mentrix-panel-at-nab-show-new-york"
+    },
+    {
+      "cat": "ai",
+      "date": "2026-10-21",
+      "deep": "This is a consumer-law case, not a copyright one: it is about what Suno can do to its users, including deleting their generated material without notice. It still matters to professionals because many producers now use AI tools in pre-production, and the terms decide who controls that output.\n\nThe consultation is the practical hook. Italian professional associations can submit comments, so if you belong to one that represents producers or engineers, this is a cheap way to be heard.",
+      "signal": 2,
+      "source": "Key4Biz",
+      "take": "The AGCM is checking whether Suno's terms contain abusive clauses under article 33 of the Italian Consumer Code. Contested points include unilateral changes to service and prices, deleting accounts and content at any time without notice, and consent stretched to future terms. A public consultation open to trade associations, chambers of commerce and consumer groups will follow on the AGCM site. The probe was announced on 6 October; this is new detail.",
+      "title": "Italy's competition authority examines Suno's terms of service",
+      "todo": "Read the ownership and deletion clauses of any AI tool you use for client work, and keep local copies of anything you would need to deliver.",
+      "url": "https://www.key4biz.it/suno-lantitrust-indaga-sulle-clausole-contrattuali-nel-mirino-licenze-e-diritti-degli-utenti/591600/"
+    },
+    {
+      "cat": "live",
+      "date": "2026-10-20",
+      "signal": 2,
+      "source": "Mix",
+      "take": "Rome- and Milan-based Video Progetti now handles sales, integration and local support for Calrec's full range: the Argo IP console, ImPulse and the virtual ImPulseV engine, True Control 2.0, the new Type RT compact console and Apex M6 I/O, plus ST 2110 networking. Type RT and Apex M6 launched at IBC 2026.",
+      "title": "Calrec appoints Video Progetti as its distributor in Italy",
+      "url": "https://www.mixonline.com/the-wire/calrec-appoints-video-progetti-as-italian-distribution-partner"
+    },
+    {
+      "cat": "post",
+      "date": "2026-10-20",
+      "signal": 2,
+      "source": "Newsshooter",
+      "take": "Blackmagic raised prices on 36 products with immediate effect, blaming memory and SSD costs as chip makers shift output to AI data centres. Examples: ATEM Mini Pro $310 to $395, DeckLink IP HD $345 to $450, 2110 IP Converter 3x3G $595 to $920. Separately, DaVinci Resolve Studio is $236 instead of $295 until 20 November. No Fairlight audio products are affected either way.",
+      "title": "Blackmagic raises prices on 36 products, cuts Resolve Studio by 20%",
+      "todo": "If you need another Resolve Studio seat for Fairlight work, buy before 20 November; budget more for any Blackmagic IP or recording hardware.",
+      "url": "https://www.newsshooter.com/2026/10/20/blackmagic-design-raises-prices-on-36-products/"
+    },
+    {
+      "cat": "post",
+      "date": "2026-10-21",
+      "free": true,
+      "signal": 2,
+      "source": "Newsshooter",
+      "take": "CineMon 2.0 is a free app (advanced tools by one-time packs or subscription) for USB-C iPads on iPadOS 26 and Macs on macOS Tahoe. It takes video from USB capture devices or Blackmagic hardware, adds a per-source audio mixer, six audio scopes and BS.1770 loudness metering with EBU R128 and ATSC A/85 targets, and can jam external LTC timecode. Recordings carry scene, take, reel and notes as metadata.",
+      "title": "CineMon 2.0 turns an iPad or Mac into a monitor with R128 metering and LTC",
+      "url": "https://www.newsshooter.com/2026/10/21/cinemon-2-0-brings-multi-source-monitoring-mixing-recording-to-ipad-and-mac/"
+    },
+    {
+      "cat": "tech",
+      "date": "2026-10-21",
+      "deep": "Most active speakers convert digital to analogue, then feed an analogue class-D amp. Axign's approach keeps the signal digital up to the power stage and corrects errors in the digital domain, which removes a conversion and a lot of design work. Packaging it as complete modules means a small maker of active monitors, install speakers or battery PA can add a digital-input amp channel per driver without designing a power stage.\n\nThe claims are still claims: audioXpress says measurements will follow in a later piece. A demo used a battery-powered four-way system at 1.4 kW. Worth watching as the building block inside next year's active speakers.",
+      "signal": 2,
+      "source": "audioXpress",
+      "take": "Monolithic Power Systems is packaging the Axign controller, drivers, output stage, thermal management and output filter into complete class-D modules of 50, 100, 150 and 250 W into 4 Ω, running from a single 10–56 V supply with I2S or S/PDIF input. A 600 W GaN module is in development. First single-channel modules ship this month, two-channel in November. No distortion or noise measurements are published yet.",
+      "title": "MPS turns Axign's digital-input amplifier into drop-in modules",
+      "url": "https://audioxpress.com/news/mps-axign-moves-digital-amplification-into-modules"
+    },
+    {
+      "cat": "ai",
+      "date": "2026-10-20",
+      "signal": 2,
+      "source": "MusicRadar",
+      "take": "An EU acquisitions filing shows Apple bought 'certain assets' of Samplab, a Swiss company whose software did polyphonic note editing, stem separation, chord detection and audio-to-MIDI, and hired some of its staff. The deal was agreed in June; Samplab's site now redirects to Apple. MusicRadar speculates about polyphonic pitch editing in Logic Pro; Apple has said nothing.",
+      "title": "Apple bought AI audio firm Samplab's assets",
+      "url": "https://www.musicradar.com/music-tech/apple-has-made-a-secret-ai-acquisition-could-this-mean-generative-ai-is-coming-to-logic-pro"
+    },
+    {
+      "cat": "industry",
+      "date": "2026-10-21",
+      "signal": 1,
+      "source": "Digital Music News",
+      "take": "Ron Broitman now runs a single global sync division covering Atlantic, ADA, Warner Records and Warner Chappell, so master and publishing licences come from one team. WMG says it wants simpler licensing. The article cites RIAA figures showing US sync revenue up 18.2% to $231.8m in the first half of 2026.",
+      "title": "Warner Music merges all its sync teams into one global division",
+      "url": "https://www.digitalmusicnews.com/2026/10/21/warner-music-group-sync-reorganization/"
+    },
+    {
+      "cat": "ai",
+      "date": "2026-10-20",
+      "signal": 1,
+      "source": "Music Business Worldwide",
+      "take": "Spotify says tracks with a high probability of being AI-generated are ten times more likely to fall under its 1,000-stream royalty threshold, and that artists submit tens of thousands of AI credits a day. Deezer says it receives nearly 90,000 fully AI-generated tracks daily.",
+      "title": "Spotify has pulled over 50 million AI spam tracks from recommendations this year",
+      "url": "https://www.musicbusinessworldwide.com/spotify-has-pulled-more-than-50m-ai-slop-and-spam-tracks-out-of-its-recommendations-this-year/"
+    },
+    {
+      "cat": "plugins",
+      "date": "2026-10-21",
+      "signal": 1,
+      "source": "Sound On Sound",
+      "take": "Four bands with manual crossovers; attack, release and knee are set automatically. It has per-band gain before and after compression, dry/wet, 2 ms look-ahead, external sidechain with listen, and per-band solo and bypass. VST, VST3, AU and AAX on Windows, macOS 12+ and Linux (ARM and x86); $59.",
+      "title": "DDMF OberComp: a four-band compressor with automatic timing",
+      "url": "https://www.soundonsound.com/news/ddmf-release-obercomp"
+    },
+    {
+      "cat": "plugins",
+      "date": "2026-10-21",
+      "free": true,
+      "signal": 1,
+      "source": "Bedroom Producers Blog",
+      "take": "Captures 150 ms of audio and sustains it as up to 64 overlapping grains, with Freeze, Hold, Preload (grabs audio from just before you click) and Auto modes. AU and VST3 on Mac, VST3 on Windows; no account or licence key needed.",
+      "title": "Free: Amazing Noises Grain Freezer for instant drones and frozen tails",
+      "url": "https://bedroomproducersblog.com/2026/10/21/amazing-noises-grain-freezer/"
+    },
+    {
+      "cat": "plugins",
+      "date": "2026-10-21",
+      "free": true,
+      "signal": 1,
+      "source": "Bedroom Producers Blog",
+      "take": "Blends forward and reverse delay, with drag-and-drop filters, distortion, ring mod, pitch shift and limiting in the feedback path, a diffusion stage and ducking. VST3 and AAX on Windows, plus AU on Mac. Download needs an account, and the marketing box is ticked by default.",
+      "title": "Free: Modulor Coalesce, a forward and reverse delay with AAX",
+      "url": "https://bedroomproducersblog.com/2026/10/21/modulor-audio-coalesce-delay/"
+    },
+    {
+      "cat": "instruments",
+      "date": "2026-10-22",
+      "free": true,
+      "signal": 1,
+      "source": "Synth Anatomy",
+      "take": "The free update adds a per-step note parameter and keyboard mode with scales, 50 FM instruments from the TR-8S library and new effects. Effects can keep running across kit changes, and a 'mix only' option mutes a track on its individual output while keeping it on USB, which simplifies multitracking into a DAW.",
+      "title": "Roland TR-1000 firmware 1.5 adds melodic notes and better USB routing",
+      "url": "https://synthanatomy.com/2026/10/roland-tr-1000-rhythm-creator-the-marriage-of-the-analog-and-digital-tr-era-with-sampling.html"
+    },
+    {
+      "cat": "instruments",
+      "date": "2026-10-21",
+      "signal": 1,
+      "source": "Sound On Sound",
+      "take": "Same six-voice engine with digital oscillators and analogue filters and VCAs, now on 49 full-size semi-weighted keys with aftertouch and a pressure-sensitive touch matrix. Adds audio-rate filter FM and voice panning. Available now.",
+      "title": "Arturia MiniFreak 49 puts the six-voice hybrid on a full-size keyboard",
+      "url": "https://www.soundonsound.com/news/arturia-expand-minifreak-new-49-key-version"
+    },
+    {
+      "cat": "live",
+      "date": "2026-10-21",
+      "signal": 1,
+      "source": "FOH",
+      "take": "Milano Show Rent ran L-Acoustics on every stage at the Lecco festival: more than 80 K2, more than 100 KS28 and 24 K1, all on LA12X amps. Cardioid sub arrays and K1-SB were used to control spill behind the stages; no level measurements are reported.",
+      "title": "Nameless Festival in Lecco: 100+ KS28 and cardioid subs to limit spill",
+      "url": "https://fohonline.com/featured/nameless-festival-backed-by-l-acoustics-systems/"
+    },
+    {
+      "cat": "games",
+      "date": "2026-10-21",
+      "signal": 1,
+      "source": "A Sound Effect",
+      "take": "Rebel Wolves' audio team describes combat sounds split by body type (flesh, ethereal, undead) and about 12 weapon types for procedural combination, granular systemic Foley, and a mix driven by states and sidechaining to keep dialogue on top. They chose not to use Wwise's HDR system, and music level follows rain intensity.",
+      "title": "How The Blood of Dawnwalker builds modular combat and mix states",
+      "url": "https://www.asoundeffect.com/blood-of-dawnwalker-game-audio/"
+    },
+    {
+      "cat": "tech",
+      "date": "2026-10-20",
+      "signal": 1,
+      "source": "audioXpress",
+      "take": "xMEMS is shipping solid-state micro-fans built on the same piezo-on-silicon process as its microspeakers. audioXpress notes that MEMS speakers still struggle with yield, packaging, low-frequency output and level, which is why the company is leading with cooling.",
+      "title": "xMEMS takes its MEMS process into mass production, for cooling first",
+      "url": "https://audioxpress.com/news/xmems-moves-solid-state-cooling-for-ai-devices-into-mass-production"
+    },
+    {
+      "cat": "hearing",
+      "date": "2026-10-20",
+      "signal": 1,
+      "source": "PR Newswire",
+      "take": "Cochlear says Nucleus Nexa is the only cochlear implant with onboard memory and firmware that can be upgraded in the implant itself, not just in the external processor, and it was named a TIME Best Invention of 2026. The claims come from Cochlear's own release.",
+      "title": "Cochlear's Nexa implant can take firmware updates inside the implant",
+      "url": "https://www.prnewswire.com/news-releases/cochlear-nucleus-nexa-system-named-one-of-times-best-inventions-of-2026-302913951.html"
+    },
+    {
+      "cat": "hearing",
+      "date": "2026-10-20",
+      "signal": 1,
+      "source": "Hearing Health & Technology Matters",
+      "take": "A study in Seminars in Hearing finds the US audiology workforce grew about 1.77% a year from 2012 to 2024, third lowest of 17 professions, while hearing-aid specialists grew over 200%. It projects close to 5,600 patients per audiologist by 2030.",
+      "title": "Audiologist numbers are growing too slowly for demand",
+      "url": "https://hearinghealthmatters.org/hearing-news-watch/2026/audiology-workforce-demand-supply/"
+    },
+    {
+      "cat": "industry",
+      "date": "2026-10-22",
+      "signal": 1,
+      "source": "Mix",
+      "take": "A two-storey, 8,966 sq ft building in the Hollywood Media District, with existing studio space, will house sales, marketing, product development and demos, following Technica House in New York. No price or opening date given.",
+      "title": "Audio-Technica buys a Hollywood building for its West Coast base",
+      "url": "https://www.mixonline.com/business/audio-technica-acquires-hollywood-facility"
+    }
+  ],
+  "key": "2026-10-22",
+  "label": "Thu 22 Oct 2026",
+  "lead": "A free loudness meter can now check finished files against delivery specs and leave a report, which is the most useful tool news of the week for anyone delivering to broadcasters or platforms. In the US, the musicians' union put consent, credit and pay at the centre of its fight over AI training, while Italy's competition authority is examining Suno's terms. DiGiCo made its smallest Quantum desks far more capable with a software unlock, and Clear-Com and Calrec brought intercom and broadcast news from NAB New York and Italy. Blackmagic raised hardware prices because of memory costs but cut Resolve Studio for a month.",
+  "period": "day",
+  "radar": [
+    {
+      "date": "2026-10-30",
+      "note": "Runs 30 Oct–1 Nov at Gaylord Opryland, with live immersive and planetarium sessions.",
+      "title": "AES Show Nashville",
+      "url": "https://www.sportsvideo.org/2026/10/19/october-is-audio-month-part-1-expos-in-nyc-and-music-city-will-spotlight-broadcast-sound/"
+    },
+    {
+      "date": "2026-11-03",
+      "note": "Covers AI training on protected works, imitation of performers and performers' remuneration; associations can still respond.",
+      "title": "EU copyright and AI consultation closes",
+      "url": "https://legalblogs.wolterskluwer.com/copyright-blog/eu-copyright-law-roundup-third-trimester-of-2026/"
+    },
+    {
+      "date": "2026-11-20",
+      "note": "DaVinci Resolve Studio is $236 instead of $295 until 20 November.",
+      "title": "Resolve Studio 20% discount ends",
+      "url": "https://www.newsshooter.com/2026/10/20/blackmagic-davinci-resolve-studio-20-off/"
+    }
+  ],
+  "range": "20–22 Oct 2026"
+}

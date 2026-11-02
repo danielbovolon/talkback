@@ -1,0 +1,269 @@
+{
+  "craft": {
+    "body": "This week's lawsuits are about material that was copied and used for training without anyone agreeing to it. Meanwhile, services like TYGER and the AI scoring startups run on exactly what engineers deliver: clean, labelled stems. Once a stem package leaves your hands, you lose control of where it ends up unless the paperwork says so.\n\nAdd two short lines to your quote or delivery note. First, what the delivery may be used for (the named project and its formats). Second, whether it may be used to train or fine-tune AI models, and that this needs separate written consent. It takes a minute, it isn't confrontational, and it gives you something to point to if a stem turns up somewhere it shouldn't.",
+    "title": "Say in writing where your files may go"
+  },
+  "generated": "2026-10-23T07:30:00+02:00",
+  "headline": "Publishers widen the AI fight",
+  "items": [
+    {
+      "cat": "ai",
+      "date": "2026-10-22",
+      "deep": "Until now the big music AI cases were led by the three majors and their publishing arms. Reservoir is an independent publisher, and its joining shows that mid-size catalogues now think they can win, or at least settle well. The Suno complaint also repeats reporting that Suno scraped streaming and lyric sites through proxy services. Suno says the leaked code behind that claim is out of date.\n\nThe figures are statutory maximums pleaded in a complaint, not damages anyone has been awarded. Nothing has been decided yet.\n\nFor working engineers the effect is indirect but real. Every new case makes it harder to say that music made with Suno is safe to deliver, and clients will ask more often where generated material came from. If you deliver stems or masters, it is now normal to state in writing whether a delivery can be used for AI training.",
+      "signal": 3,
+      "source": "Music Business Worldwide",
+      "take": "Reservoir Media and Shapiro, Bernstein & Co. filed two suits on 21 October in federal court in Northern California. One claims Suno copied 1,050 compositions to train its music models. The other claims Anthropic copied the lyrics of 853 compositions to train Claude. The pleaded totals, including DMCA counts, are just over $186m against Suno and just over $151.4m against Anthropic.",
+      "title": "Reservoir sues Suno over 1,050 songs and Anthropic over 853 lyrics",
+      "todo": "Add a line to your delivery terms stating whether your stems and masters may be used to train AI models.",
+      "url": "https://www.musicbusinessworldwide.com/reservoir-sues-suno-for-infringment-over-1050-songs-including-tracks-by-joni-mitchell-johnny-cash-madonna-and-more/"
+    },
+    {
+      "breakthrough": true,
+      "cat": "science",
+      "date": "2026-10-21",
+      "deep": "Porous absorbers have to be about a quarter-wavelength deep to work well. At 50 Hz that is around 1.7 m. That is why bass control in small rooms relies on bulky membrane, Helmholtz or active traps. The Sonexos idea came out of CTO Stanislav Sergeev's PhD work at EPFL. Its plasma layer behaves as an absorber whose impedance can be tuned electronically, with no mass to move, and it claims useful absorption at 30 Hz from under 30 mm of depth.\n\nThis is a funding round, not independent data. The dB figures come from the vendor's prototypes in HVAC and appliance tests, not from measured room acoustics. The company targets series production in early 2028, starting with ventilation and appliances. Listening rooms are on its list, but they are not first.\n\nIf the physics holds up at room scale, it could change how small control rooms, vans and booths deal with room modes and HVAC rumble. For now, treat it as one to watch, not one to buy.",
+      "signal": 3,
+      "source": "audioXpress",
+      "take": "Swiss startup Sonexos closed a CHF 5m pre-Series A round led by Valquest Partners, with Bosch Ventures taking part. Its panels use a controlled corona discharge to make a thin layer of ionised gas whose acoustic behaviour is set electronically, so there is no moving diaphragm. The company says the panels are under 30 mm thick and absorb from 30 Hz to 1,500 Hz. Prototypes cut noise by up to 20 dB in ventilation systems and 16 dB in appliances, measured under the company's own test conditions.",
+      "title": "Sonexos raises CHF 5m for a plasma absorber that works down to 30 Hz",
+      "url": "https://audioxpress.com/news/bosch-ventures-backs-sonexos-to-bring-plasma-based-noise-control-to-series-production"
+    },
+    {
+      "cat": "post",
+      "date": "2026-10-22",
+      "deep": "Pro Tools has always had Import Session Data, but it is slow when you only want to hear an alt take or find one effect buried in an old reel. ClipMap treats the session file as a database you can search and play. Pro adds tabs for several sessions, synced video, an inspector showing clip gain, automation and plugin information, transcription-based dialogue search, and track mapping. Spotted clips keep their clip gain, automation, panning and fades.\n\nThe review does not say which Pro Tools versions or session formats are supported, so test it on your oldest archive before you rely on it. A tool that reads an undocumented file format can break when Avid changes that format.\n\nFor dialogue editors, searching by what was said across a season's sessions could save hours on pickups and alt-line hunts. On music projects it is a fast way to check what is in a client's session before you open it.",
+      "signal": 3,
+      "source": "Production Expert",
+      "take": "Sparks Audio's ClipMap reads .ptx session files directly and read-only, even on a machine without Pro Tools installed. You can audition the mix or single clips, search clip names, jump to memory locations and drag clips into your current session with their fades. ClipMap is $129 (regular $149) and ClipMap Pro is $259 (regular $299) until 12 November. Licences are perpetual, there is no iLok, and both run on macOS and Windows.",
+      "title": "ClipMap leaves beta: browse and pull from Pro Tools sessions without opening them",
+      "todo": "Run the 14-day trial against your oldest and newest Pro Tools archives before the intro price ends on 12 November.",
+      "url": "https://www.production-expert.com/production-expert-1/sparks-audio-releases-clipmap-should-you-pay-for-a-pro-tools-session-browser"
+    },
+    {
+      "cat": "ai",
+      "date": "2026-10-22",
+      "deep": "These admissions matter because they move the case away from abstract fair-use arguments and towards what Suno actually holds and does. Suno also admitted that the labels' fingerprinting analysis found copyrighted works in its training data, and says that does not make the use unlawful.\n\nNone of this decides the case. It does mean the questions of what Suno trained on and what it still keeps will be argued on evidence, not denials. Suno also has a response due in a separate class action in early November.",
+      "signal": 2,
+      "source": "Music Business Worldwide",
+      "take": "In a 44-page answer filed on 20 October in federal court in Massachusetts, Suno responded to UMG and Sony's second lawsuit. That suit alleges Suno's v6 models were trained on output from earlier models to 'launder' infringement. Suno denies laundering and argues fair use. It does admit that it still holds some of the recordings it trained on, and that users have been able to type artist names into prompts since January 2026, after it had previously blocked them.",
+      "title": "Suno admits in court it has not deleted all the recordings it trained on",
+      "url": "https://www.musicbusinessworldwide.com/suno-admits-it-has-not-deleted-all-the-recordings-used-to-train-its-ai-in-answer-to-umg-and-sonys-laundering-lawsuit/"
+    },
+    {
+      "cat": "games",
+      "date": "2026-10-22",
+      "deep": "Until now, checking a head-tracked binaural mix during authoring usually meant a third-party tracker and a bridge plugin, or building the game and testing on the target device. Building the tracking into Wwise means a sound designer can turn their head and hear objects stay fixed in space while they are still adjusting attenuation and spread.\n\nThe limit is that this works with one headset, not a general head-tracking API. The binaural rendering is only as good as the HRTF you choose. Still, it brings head-tracked spatial checks into the authoring tool, and that is the right direction for VR and installation work.",
+      "signal": 2,
+      "source": "TechRadar",
+      "take": "Audeze and Audiokinetic announced native, self-calibrating head tracking for the Maxwell 2 ANC headset inside Wwise. It connects over USB-C or the wireless dongle with no extra software. The companies list VR emulation, Tempest 3D binaural checks and custom speaker layouts for location-based work through the AK Custom Panner. No Wwise version or ship date was given.",
+      "title": "Wwise gets native head tracking for Audeze's Maxwell 2 headset",
+      "url": "https://www.techradar.com/gaming/were-removing-the-friction-between-creator-vision-and-spatial-execution-audeze-and-audiokinetic-are-introducing-native-head-tracking-support-for-the-maxwell-2-anc-headset-directly-inside-wwise"
+    },
+    {
+      "cat": "plugins",
+      "date": "2026-10-22",
+      "deep": "Free true-peak limiters that run in Pro Tools are rare. Most free limiters are VST or AU only. A clipper followed by a true-peak stage is a common last step on a mix bus or a stem print, so having one that works in every DAW for nothing is useful.\n\nTrust your meter, not the label. Check its true-peak behaviour with oversampled metering on dense material, and compare the three quality modes for latency before you put it on a live-monitored bus.",
+      "free": true,
+      "signal": 2,
+      "source": "Bedroom Producers Blog",
+      "take": "HardStop Basic is permanently free. It includes the full clipping engine, all three quality modes and a true-peak safety limiter. It needs an email at checkout but has no activation. Formats are VST3 and AAX, plus AU on Mac. Pro costs $39 until 1 November, then $59, and adds adaptive clipping, shape and tone controls, limiter lookahead and release, and LUFS metering.",
+      "title": "Free: Raytown HardStop clipper with true-peak safety limiter, AAX included",
+      "todo": "Put it after your bus chain on a test print and check the result against a separate true-peak meter.",
+      "url": "https://bedroomproducersblog.com/2026/10/22/raytown-hardstop/"
+    },
+    {
+      "cat": "speakers",
+      "date": "2026-10-22",
+      "deep": "The interesting part is the correction, not the drivers. With system-wide correction you hear the same tuning in a reference player, a video review link or a browser as you do in your session. A DAW-only plugin can't do that.\n\nADAM has not yet published sensitivity, frequency response or weight. Until it does, compare it with the Neumann NDH 30 and Sennheiser HD 660S2 by ear, with the correction on and off.",
+      "signal": 2,
+      "source": "Production Expert",
+      "take": "ADAM's new flagship headphone uses custom 150 Ω drivers with titanium-plated PEN diaphragms. It comes with a 3 m cable with a 4.4 mm balanced plug and a 1.3 m coiled cable. Correction profiles developed by Sonnox include adjustable crossfeed. A new macOS app, ListenHub, applies the correction across the whole system, not only inside the DAW. Price is £569.99 / €669.99 / $824.99, shipping in December.",
+      "title": "ADAM Audio H715: open-back reference headphones with Sonnox calibration",
+      "url": "https://www.production-expert.com/production-expert-1/adam-audio-launches-h715-reference-headphones-with-sonnox-calibration"
+    },
+    {
+      "cat": "live",
+      "date": "2026-10-22",
+      "deep": "On networked shows, most mystery dropouts come down to PTP: a new grandmaster, a switch that isn't PTP-aware, or a redundant leg that has quietly died while the primary carries on. A dashboard that watches clocks and both legs of a redundant pair catches these before they turn into a missing input during the show.\n\nYou don't need a managed service to borrow the idea. Dante Domain Manager, switch SNMP traps and a simple PTP monitor on the FOH laptop cover a lot of it.",
+      "signal": 2,
+      "source": "ProSoundWeb",
+      "take": "Las Vegas firm Eighty32 Show Tech launched Network Watch, a managed service that monitors live production networks running Dante, ST 2110, AES67, sACN and NDI. It tracks PTP clock health and keeps a list of devices, flagging any that stop responding. It checks both legs of ST 2022-7 redundant networks separately. It also watches switch errors, bandwidth, optical levels, PoE budget and temperature. No price was given.",
+      "title": "Eighty32 launches a monitoring service for Dante, ST 2110 and AES67 show networks",
+      "todo": "On your next networked rig, pull the secondary network for a minute during line check and confirm every device reports the change.",
+      "url": "https://www.prosoundweb.com/eighty32-launches-new-network-watch-monitoring-service/"
+    },
+    {
+      "cat": "post",
+      "date": "2026-10-22",
+      "deep": "Internal float recording in a cheap transmitter is now normal, and it makes a good backup when the RF drops or a talent peaks. The catch is sync. Without timecode, an internal file has to be lined up by waveform, which is fine for one interview and painful across a full shooting day.\n\nFor professional location work this is a backup tier, not a main lav system. It does raise what clients expect from 'just clip a mic on'.",
+      "signal": 2,
+      "source": "Newsshooter",
+      "take": "Insta360's new 2.4 GHz wireless kit costs $249.99 for two transmitters and one receiver. Each 19.4 g transmitter records internally to microSD at 48 kHz in 32-bit float or 24-bit. Insta360 quotes 72 dB(A) SNR, 130 dB maximum SPL, 13 hours of transmitter runtime and up to 400 m range. The 32-bit float applies only to the internal recording, and LTC timecode is not supported on US units.",
+      "title": "Insta360 Mic: E-Ink transmitters with 32-bit float internal recording",
+      "url": "https://www.newsshooter.com/2026/10/22/insta360-mic-e-ink-2-4ghz-wireless-microphone-system-with-32-bit-float-internal-recording/"
+    },
+    {
+      "cat": "hearing",
+      "date": "2026-10-22",
+      "deep": "More and more places now treat consumer earbuds as hearing devices. For engineers, two things follow. Some clients and colleagues will be listening through earbuds that apply their own hearing-loss compensation. And a self-test on earbuds is a screening, not an audiogram.\n\nIf you work at high levels, a yearly test by an audiologist is still the baseline that counts.",
+      "signal": 2,
+      "source": "CP24",
+      "take": "Ontario says it will change provincial law, which currently bans selling hearing aids without a prescription, so adults with perceived mild-to-moderate hearing loss can buy them over the counter. The change goes into the fall economic update. It would also let Apple switch on the hearing aid and hearing test features on AirPods Pro, which Health Canada approved in 2025 but which stay disabled in the province. Audiologists warn about self-diagnosis, and the regulator supports the change with safeguards.",
+      "title": "Ontario moves to allow over-the-counter hearing aids, unlocking AirPods' hearing features",
+      "url": "https://www.cp24.com/local/toronto/2026/10/22/why-some-experts-are-concerned-about-over-the-counter-hearing-aids-that-will-soon-be-for-sale-in-ontario/"
+    },
+    {
+      "cat": "live",
+      "date": "2026-10-22",
+      "deep": "This is a useful real-world reference for Milan on a touring rig, managed through L-Acoustics' own tools, with an Earthworks M30 on a wireless transmitter for measurement. The input list is mostly dynamic mics, including MD421s and MD441s, for a band that plays loud and changes the set every night.\n\nThe takeaway is how the rig is built: few inputs, mostly dynamics, with the outboard where it matters.",
+      "signal": 2,
+      "source": "ProSoundWeb",
+      "take": "FOH engineer and production manager Brian Speiser mixes about 48 inputs a night for the 12-piece band on a DiGiCo Quantum338. He has brought analog outboard back into the chain through a DirectOut Maven and fires snapshots from a Stream Deck. PRG supplies L-Acoustics K2 with Kara side hangs, plus K1 in big venues. The system is driven by two P1 processors over AVB Milan.",
+      "title": "Tedeschi Trucks Band: Milan distribution and analog inserts via DirectOut Maven",
+      "url": "https://www.prosoundweb.com/managing-spontaneity-a-conversation-with-brian-speiser-foh-engineer-production-manager-for-tedeschi-trucks-band/"
+    },
+    {
+      "cat": "ai",
+      "date": "2026-10-22",
+      "signal": 1,
+      "source": "CMU",
+      "take": "At a hearing on 21 October in the UMG, Concord and ABKCO case against Anthropic, publishers cited about 120,000 requests for 'synthetic lyrics' over six months as evidence that AI output dilutes the market for real lyrics. Anthropic said there is no evidence of harm. The judge reportedly asked for concrete proof of dilution. The ruling will test an argument that many music AI cases depend on.",
+      "title": "Anthropic lyrics case: publishers press a 'market dilution' theory at summary judgment",
+      "url": "https://completemusicupdate.com/claudes-lyrics-are-diluting-real-lyrics-say-music-publishers-in-latest-anthropic-proceedings/"
+    },
+    {
+      "cat": "gear",
+      "date": "2026-10-22",
+      "signal": 1,
+      "source": "Production Expert",
+      "take": "Meterbox is a two-screen desktop unit that gets power and data over one USB-C cable. It shows LUFS, true peak, peak/RMS, K-System, VU, PPM and phase correlation, fed by plugins on 4 to 16 tracks or buses. It has no audio inputs, so it can't meter a console or outboard directly. Price is €695 including VAT.",
+      "title": "Bettermaker Meterbox: a €695 desktop meter fed by a DAW plugin",
+      "url": "https://www.production-expert.com/production-expert-1/bettermaker-meterbox-at-695-who-needs-a-hardware-meter"
+    },
+    {
+      "cat": "gear",
+      "date": "2026-10-22",
+      "signal": 1,
+      "source": "Production Expert",
+      "take": "The removable 34 mm dual-diaphragm head, with 3 µm gold-sputtered Mylar, screws onto M21-threaded pencil condenser bodies and offers cardioid and omni only. It costs $499 alone, $999 as a kit with the V1 body, or $1,999 as a stereo kit. Vanguard publishes no list of tested compatible bodies, and the body's electronics shape the sound, so try it on yours first.",
+      "title": "Vanguard V34C gen2 'Lolli' puts a large-diaphragm head on M21 pencil mics",
+      "url": "https://www.production-expert.com/production-expert-1/vanguard-audio-labs-brings-back-the-v34c-lolli-large-diaphragm-head-for-pencil-mics-on7IG"
+    },
+    {
+      "cat": "live",
+      "date": "2026-10-22",
+      "signal": 1,
+      "source": "ProSoundWeb",
+      "take": "FOH engineer Jonny Williams runs an SSL Live L650 fed by four ML 32.32 MADI stageboxes, 122 inputs over fibre. His rack holds Super 9000 and Revival 4000 channel strips and THE BUS+. The show has two master buses, one for the PA and one for broadcast, each with its own reverb returns, so the broadcast mix isn't just a tap of the room mix.",
+      "title": "Rod Stewart tour: SSL L650 with separate PA and broadcast master buses",
+      "url": "https://www.prosoundweb.com/jonny-williams-utilizing-ssl-for-rod-stewart-on-tour-in-north-america/"
+    },
+    {
+      "cat": "plugins",
+      "date": "2026-10-21",
+      "signal": 1,
+      "source": "KVR Audio",
+      "take": "Tonic 2 uses zplane's latest key-detection algorithm. It shows key and scale as probabilities, adds MIDI in and out, and lets you drag chord voicings into the DAW as MIDI clips. It costs €39, or about €26 until 30 October, and the upgrade is €10. VST3, AU and AAX.",
+      "title": "zplane Tonic 2 adds MIDI I/O and drag-and-drop chords to key detection",
+      "url": "https://www.kvraudio.com/news/zplane-releases-tonic-v2-0-with-upgrade-pricing-and-introductory-discount-69247"
+    },
+    {
+      "cat": "instruments",
+      "date": "2026-10-22",
+      "free": true,
+      "signal": 1,
+      "source": "Synth Anatomy",
+      "take": "The free update adds arrangement editing tools and new pad modes on MPC Live III and XL, plus scale and arpeggiator features on Force. The MPC 3 Desktop software is out of beta and now runs as an AAX plugin, so an MPC project can sit inside a Pro Tools session. It also adds support for the new MPK Mini controllers and fixes MIDI and sync bugs.",
+      "title": "Akai MPC OS 3.10: MPC 3 Desktop leaves beta with AAX",
+      "url": "https://synthanatomy.com/2026/10/akai-mpc-os-3-10-free-feature-update-for-mpc-standalone-force-mpc-3-desktop.html"
+    },
+    {
+      "cat": "ai",
+      "date": "2026-10-22",
+      "signal": 1,
+      "source": "Digital Music News",
+      "take": "Sonilo, a startup founded by former TikTok staff, raised $11m in a round led by B Capital. It builds a model that generates soundtracks timed to video from video or text input, and offers AI dubbing with lip-sync for short-drama studios. It says it trains on licensed data, with Shutterstock as a partner, and expects more rights deals soon. This is aimed squarely at low-budget scoring, SFX and dubbing work.",
+      "title": "Sonilo raises $11m for AI that scores and dubs video",
+      "url": "https://www.digitalmusicnews.com/2026/10/22/sonilo-funding-raise/"
+    },
+    {
+      "cat": "games",
+      "date": "2026-10-22",
+      "signal": 1,
+      "source": "Music Business Worldwide",
+      "take": "TYGER uses AI to rework licensed songs in real time to match what is happening in a game. It runs as a PC overlay through Overwolf across more than 20 games and needs no work from the game studio. UMG is the first major label to license it. Early access costs $3.99 a month. Adaptive music at this scale relies on stems, so clean, well-labelled stem deliveries become more valuable.",
+      "title": "UMG is the first major to license TYGER, which adapts songs to gameplay",
+      "url": "https://musicbusinessworldwide.com/umg-becomes-first-major-music-company-to-license-tyger-which-uses-ai-to-adapt-songs-to-gameplay-in-real-time"
+    },
+    {
+      "cat": "hearing",
+      "date": "2026-10-22",
+      "signal": 1,
+      "source": "Aurahear",
+      "take": "Starkey's SoundGear Phantom, which won a hearing technology innovator award, is a custom-moulded, rechargeable earplug rated NRR 22 dB. It can amplify quiet sound by up to 30 dB and clamps down on impacts and high continuous levels. A companion feature, SoundCheck Live, measures ambient level and warns the wearer at unsafe levels. The rating is modest next to well-fitted foam, but it suits work where you need to hear and talk.",
+      "title": "SoundGear Phantom: custom electronic protector with NRR 22 dB",
+      "url": "https://aurahear.com/2026/10/soundgear-wins-two-hearing-technology-innovator-awards-for-phantom-and-soundcheck-live"
+    },
+    {
+      "cat": "live",
+      "date": "2026-10-22",
+      "signal": 1,
+      "source": "ProSoundWeb",
+      "take": "DWR Distribution installed five A15i Focus arrays across the stage, plus extension arrays and out-fills, at Maranatha Community Church near Johannesburg. Eight KS28 subs fly above the stage in a cardioid arrangement. Twenty X6i provide spatial fill on the balcony. An L-ISA Processor II runs the object-based mix.",
+      "title": "Africa's first permanent L-ISA system goes into a 5,500-seat church",
+      "url": "https://www.prosoundweb.com/maranatha-community-church-equipped-with-africas-first-permanent-l-acoustics-l-isa-system/"
+    },
+    {
+      "cat": "post",
+      "date": "2026-10-22",
+      "signal": 1,
+      "source": "MacRumors",
+      "take": "Apple says Formula 1 races on Apple TV will now stream with Dolby Atmos, starting with the US Grand Prix weekend in Austin on 23–25 October, at no extra cost to subscribers. Apple gave no production details. Live sport in Atmos on a major streamer adds to the demand for immersive broadcast mixers.",
+      "title": "F1 on Apple TV streams in Dolby Atmos from the US Grand Prix",
+      "url": "https://www.macrumors.com/2026/10/22/f1-apple-tv-dolby-atmos/"
+    },
+    {
+      "cat": "instruments",
+      "date": "2026-10-21",
+      "free": true,
+      "signal": 1,
+      "source": "Sound On Sound",
+      "take": "GForce now offers yearly subscriptions: Essentials £99, Core £179 and Ultimate £249. You can still buy instruments outright. Its Axxess (an ARP Axxe recreation) and M-Tron Select are free as perpetual licences, until 1 December according to Sound On Sound. Formats include AAX.",
+      "title": "GForce relaunches with subscriptions and gives away two synths",
+      "url": "https://www.soundonsound.com/news/gforce-relaunch-new-website-subscriptions-freebies"
+    },
+    {
+      "cat": "tech",
+      "date": "2026-10-21",
+      "signal": 1,
+      "source": "audioXpress",
+      "take": "Japanese component maker Yokowo will show a compact solderless power connector at electronica in Munich (10–13 November). It is designed so batteries in hearing aids, earbuds and smart glasses can be replaced, ahead of EU battery-removability rules. If that becomes standard, earbuds and in-ear monitors could last years longer before the battery forces a replacement.",
+      "title": "Yokowo shows connectors for replaceable batteries in hearables",
+      "url": "https://audioxpress.com/news/yokowo-targets-replaceable-batteries-and-new-connector-technologies-for-hearables-at-electronica"
+    }
+  ],
+  "key": "2026-10-23",
+  "label": "Fri 23 Oct 2026",
+  "lead": "The AI training cases grew this week. Reservoir sued Suno over recordings and Anthropic over lyrics, and Suno admitted in court that it still has recordings it trained on. On the technical side, a Swiss startup raised money to bring a thin plasma-based absorber that works down to 30 Hz into production, and a new Pro Tools session browser came out of beta for editors digging through old sessions. Elsewhere: native head tracking inside Wwise, a free true-peak limiter with AAX, a network monitoring service for Dante and ST 2110 shows, and a run of touring case studies from NAB New York week.",
+  "period": "day",
+  "radar": [
+    {
+      "date": "2026-10-31",
+      "note": "Runs 31 Oct–1 Nov, with live-to-Atmos sessions and Sweetwater's mobile Atmos studio on site.",
+      "title": "AES Show Nashville",
+      "url": "https://www.sportsvideo.org/2026/10/22/sweetwaters-dolby-atmos-airstream-studio-makes-two-nashville-area-stops/"
+    },
+    {
+      "date": "2026-11-03",
+      "note": "The next filing in the US artists' class action against Suno.",
+      "title": "Suno's reply due in the Isbell class action"
+    },
+    {
+      "date": "2026-11-12",
+      "note": "$129 / $259 go up to $149 / $299.",
+      "title": "ClipMap intro pricing ends",
+      "url": "https://www.production-expert.com/production-expert-1/sparks-audio-releases-clipmap-should-you-pay-for-a-pro-tools-session-browser"
+    }
+  ],
+  "range": "21–23 Oct 2026"
+}

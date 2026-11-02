@@ -1,0 +1,166 @@
+{
+  "generated": "2026-10-22T07:05:00+02:00",
+  "key": "2026-10-22",
+  "label": "Thu 22 Oct 2026",
+  "lesson": {
+    "body": "K-weighting is two filters in series: a high shelf of about +4 dB in the upper frequencies, which models the acoustic effect of the head, and a high-pass (the RLB curve) that rolls off the low bass. The filtered signal of each channel is squared and averaged. Left, right and centre have a weight of 1.0, the surrounds 1.41 (about +1.5 dB), and the LFE channel is not counted. The weighted powers are added and converted to a logarithmic value. As a reference point, a 0 dBFS 1 kHz sine in one front channel reads −3.01 LUFS.\n\nThe same calculation runs over different time windows. Momentary loudness uses a 400 ms window, short-term uses 3 s. Integrated loudness covers the whole programme but is gated: it uses 400 ms blocks overlapping by 75%, discards blocks below −70 LUFS (the absolute gate), measures the rest, then discards blocks more than 10 LU below that result (the relative gate) and measures again. Gating stops silence and quiet passages from dragging the number down.\n\nLoudness Range (EBU Tech 3342) describes how much the loudness varies. It takes the short-term values, applies an absolute gate at −70 LUFS and a relative gate 20 LU below, and reports the difference between the 10th and 95th percentiles of what remains. Ignoring the quietest 10% and the loudest 5% keeps a single fade-out or explosion from dominating. True peak is a separate measurement: the signal is oversampled (four times at 48 kHz) so that peaks between samples, which can appear after conversion or lossy encoding, are caught.\n\nTargets: EBU R128 asks for −23 LUFS integrated (±0.5 LU, ±1 LU for live) and a maximum of −1 dBTP. ATSC A/85 in the US uses −24 LKFS with −2 dBTP. Netflix measures dialogue-gated loudness at −27 LKFS. In film and TV post the integrated number is the pass or fail figure, LRA tells you whether the mix will sit well on a television, and true peak protects the encoder.",
+    "inPractice": "Bounce a finished mix, measure it in two different meters, and write down integrated loudness, LRA and true peak from each. Then remove the LFE channel from a 5.1 mix and check that the integrated figure does not change.",
+    "keyPoints": [
+      "LUFS and LKFS are the same unit; 1 LU = 1 dB.",
+      "K-weighting: +4 dB high shelf plus a low-bass high-pass; LFE is not measured.",
+      "Momentary 400 ms, short-term 3 s, integrated is gated (−70 LUFS, then −10 LU).",
+      "LRA = 95th minus 10th percentile of gated short-term loudness.",
+      "R128: −23 LUFS, −1 dBTP. A/85: −24 LKFS, −2 dBTP.",
+      "Measure the bounced file, and use true peak, not sample peak."
+    ],
+    "level": "core",
+    "mistake": "Many people think a quiet intro or a long silence lowers the integrated reading enough to let the rest run hot. Gating discards silence and very quiet blocks, so the loud sections largely set the number.",
+    "sayIt": "A loudness meter measures how loud the whole programme feels on average, weighted the way our ears hear, so every broadcast sits at the same level and nobody reaches for the remote.",
+    "summary": "Loudness meters following ITU-R BS.1770 filter the signal with K-weighting, take the mean-square power of each channel, apply channel weights, sum, and express the result in LUFS (LKFS), where 1 LU equals 1 dB. EBU R128 and ATSC A/85 build delivery targets on that measurement, using gating for integrated loudness and a statistical measure (LRA) for loudness range.",
+    "terms": [
+      {
+        "def": "Loudness Units relative to Full Scale; the absolute loudness unit of BS.1770. The two names mean the same thing.",
+        "term": "LUFS / LKFS"
+      },
+      {
+        "def": "The frequency weighting used by BS.1770: a high shelf plus a low-frequency high-pass.",
+        "term": "K-weighting"
+      },
+      {
+        "def": "Leaving out measurement blocks below a threshold so that silence and quiet passages do not lower the integrated value.",
+        "term": "Gating"
+      },
+      {
+        "def": "Loudness Range, defined in EBU Tech 3342: the spread between the 10th and 95th percentiles of gated short-term loudness, in LU.",
+        "term": "LRA"
+      },
+      {
+        "def": "Decibels true peak: the peak level measured after oversampling, catching inter-sample peaks.",
+        "term": "dBTP"
+      }
+    ],
+    "title": "How a loudness meter actually measures",
+    "topic": "Mixing and mastering"
+  },
+  "quiz": {
+    "questions": [
+      {
+        "answer": 1,
+        "explain": "The meter adds the mean-square power of each channel (both weighted 1.0). Doubling the power raises the result by 3.01 dB, from −3.01 to 0.00 LUFS. The trap is adding 6 dB as if the signals were summed in one channel.",
+        "level": "advanced",
+        "options": [
+          "−3.01 LUFS",
+          "0.00 LUFS",
+          "+3.01 LUFS",
+          "−6.02 LUFS"
+        ],
+        "q": "Per BS.1770, a 0 dBFS 1 kHz sine in the left channel only reads −3.01 LUFS. If the same sine is sent at the same level to both left and right, what will the meter read?",
+        "topic": "Loudness"
+      },
+      {
+        "answer": 2,
+        "explain": "For integrated loudness the relative gate is 10 LU below the absolute-gated level, so −30 LUFS. The 20 LU relative gate belongs to the LRA calculation, not to integrated loudness.",
+        "level": "advanced",
+        "options": [
+          "−40 LUFS",
+          "−28 LUFS",
+          "−30 LUFS",
+          "−70 LUFS"
+        ],
+        "q": "After the −70 LUFS absolute gate, a programme measures −20 LUFS. Where does the BS.1770 relative gate sit for the integrated measurement?",
+        "topic": "Loudness"
+      },
+      {
+        "answer": 1,
+        "explain": "1.715 m ÷ 343 m/s = 5 ms, and 5 ms × 48,000 samples/s = 240 samples. Delaying the close mic by that amount aligns the arrivals.",
+        "level": "advanced",
+        "options": [
+          "120 samples",
+          "240 samples",
+          "480 samples",
+          "82 samples"
+        ],
+        "q": "At 48 kHz, how many samples of delay line up a close mic with one that is 1.715 m farther from the source (c = 343 m/s)?",
+        "topic": "Phase & polarity"
+      },
+      {
+        "answer": 3,
+        "explain": "LRA uses the distribution of 3 s short-term values after gating and ignores the extremes, so a single loud hit or a fade-out does not set the result. Peak-to-loudness ratio is a different measure.",
+        "level": "intermediate",
+        "options": [
+          "The difference between maximum and minimum momentary loudness",
+          "The ratio of true peak to integrated loudness",
+          "The difference between maximum true peak and integrated loudness",
+          "The difference between the 10th and 95th percentiles of gated short-term loudness"
+        ],
+        "q": "How does EBU Tech 3342 define Loudness Range (LRA)?",
+        "topic": "Loudness"
+      },
+      {
+        "answer": 1,
+        "explain": "A/85 uses −24 LKFS with a −2 dBTP true-peak ceiling. −23 LUFS is EBU R128, and −27 LKFS is Netflix's dialogue-gated target.",
+        "level": "intermediate",
+        "options": [
+          "−23 LUFS",
+          "−24 LKFS",
+          "−16 LUFS",
+          "−27 LKFS"
+        ],
+        "q": "What integrated loudness target does ATSC A/85 set for US television?",
+        "topic": "Loudness"
+      },
+      {
+        "answer": 2,
+        "explain": "Decoding is L = M + S and R = M − S. More S increases the difference between the channels, so the image widens. In mono the S components cancel, so the mono sum is unchanged.",
+        "level": "intermediate",
+        "options": [
+          "The image gets narrower",
+          "The mono sum gets louder",
+          "The stereo image gets wider",
+          "The polarity of the left channel flips"
+        ],
+        "q": "In an M/S recording (cardioid mid, figure-8 side), what happens when you raise the side level in the decoder?",
+        "topic": "Microphone technique"
+      },
+      {
+        "answer": 0,
+        "explain": "Loudness Units are on a decibel scale: a change of 1 LU is a level change of 1 dB.",
+        "level": "basic",
+        "options": [
+          "1 dB",
+          "3 dB",
+          "10% loudness",
+          "0.5 dB"
+        ],
+        "q": "What does a change of 1 LU correspond to?",
+        "topic": "Loudness"
+      },
+      {
+        "answer": 3,
+        "explain": "Wavelength = speed ÷ frequency = 343 ÷ 343 = 1 m.",
+        "level": "basic",
+        "options": [
+          "343 m",
+          "0.5 m",
+          "2 m",
+          "1 m"
+        ],
+        "q": "With the speed of sound taken as 343 m/s, what is the wavelength of a 343 Hz tone?",
+        "topic": "Acoustics"
+      },
+      {
+        "answer": 2,
+        "explain": "Each bit adds about 6.02 dB, so 24 × 6.02 ≈ 144 dB. 96 dB is 16-bit. Real converters achieve less because of analogue noise.",
+        "level": "basic",
+        "options": [
+          "96 dB",
+          "120 dB",
+          "144 dB",
+          "192 dB"
+        ],
+        "q": "Roughly what is the theoretical dynamic range of 24-bit linear PCM?",
+        "topic": "Digital audio"
+      }
+    ]
+  }
+}

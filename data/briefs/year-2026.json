@@ -3,8 +3,8 @@
     "body": "This year Atmos, MPEG-H and binaural delivery moved into ordinary DAWs. The tools will keep changing; the formats last longer. Spend a day with the actual delivery specs you are likely to meet (bed and object counts, loudness targets, binaural render modes) so that when a client asks for immersive delivery, the conversation is about creative choices rather than technical surprises.",
     "title": "Learn the formats, not just the tools"
   },
-  "generated": "2026-10-04T11:30:00+02:00",
-  "headline": "Consolidation, AI rules, new transducers",
+  "generated": "2026-11-01T07:50:00+01:00",
+  "headline": "Consolidation, AI rules, repaired hearing",
   "items": [
     {
       "cat": "industry",
@@ -45,6 +45,15 @@
       "url": "https://mixdownmag.com.au/news/pro-tools-2026-4-update-track-pin-mpeg-h-immersive-audio-and-massive-x-player/"
     },
     {
+      "cat": "industry",
+      "date": "2026-04-24",
+      "signal": 3,
+      "source": "Opus",
+      "take": "After Warner settled with Suno and Udio and UMG with Udio in late 2025, Suno's talks with UMG and Sony stalled in April 2026 and litigation continues. For working engineers the practical point is provenance: know whether AI-generated material in a session is licensed before it ships.",
+      "title": "AI music: licensed deals for some, lawsuits for others",
+      "url": "https://www.opus.pro/blog/ai-music-news-april-2026"
+    },
+    {
       "breakthrough": true,
       "cat": "speakers",
       "date": "2026-08-27",
@@ -65,15 +74,6 @@
       "take": "MED-EL's TICI UNICO puts every part under the skin, including the microphone, processor and rechargeable battery. It weighs 20 g, runs up to 40 hours on a 1–1.5 hour charge, and is designed to keep at least 24 hours per charge for 15 years. It has European approval, and the first four commercial implantations took place on launch day.",
       "title": "MED-EL implants the first cochlear implant with its microphone under the skin",
       "url": "https://spectrum.ieee.org/fully-implantable-cochlear-implant"
-    },
-    {
-      "cat": "industry",
-      "date": "2026-04-24",
-      "signal": 3,
-      "source": "Opus",
-      "take": "After Warner settled with Suno and Udio and UMG with Udio in late 2025, Suno's talks with UMG and Sony stalled in April 2026 and litigation continues. For working engineers the practical point is provenance: know whether AI-generated material in a session is licensed before it ships.",
-      "title": "AI music: licensed deals for some, lawsuits for others",
-      "url": "https://www.opus.pro/blog/ai-music-news-april-2026"
     },
     {
       "breakthrough": true,
@@ -136,6 +136,28 @@
       "url": "https://www.matrixsynth.com/2026/05/superbooth-2026-twelve-things-that.html"
     },
     {
+      "breakthrough": true,
+      "cat": "hearing",
+      "date": "2026-10-08",
+      "deep": "The FDA gave accelerated approval in April; this is the first full peer-reviewed data behind it. OTOF deafness is unusual: the hair cells are present but cannot release the transmitter that carries sound to the nerve, so supplying a working copy of the gene can restore function. Because the gene is too large for one viral vector, it is split across two.\n\nIt treats about 1% of congenital deafness, not noise damage or age-related loss, and long-term durability is still being followed. But it proves that the inner ear can be repaired with gene therapy in people, which is the foundation for later work on more common forms such as GJB2.",
+      "signal": 2,
+      "source": "Cincinnati Children's via PR Newswire",
+      "take": "Peer-reviewed results from the CHORD trial of Regeneron's DB-OTO (Otarmeni), a dual-AAV gene therapy for OTOF-related deafness, showed 9 of the first 12 children reaching hearing thresholds of 70 dB or better by 24 weeks. Four of those reached normal or near-normal hearing and one child did not respond. Benefit was seen in children up to age 16.",
+      "title": "NEJM trial: OTOF gene therapy restored hearing in 9 of 12 deaf children",
+      "url": "https://www.prnewswire.com/news-releases/gene-therapy-brings-hearing-to-children-with-inherited-deafness-302901801.html"
+    },
+    {
+      "cat": "ai",
+      "date": "2026-10-22",
+      "deep": "Until now the big music AI cases were led by the three majors and their publishing arms. Reservoir is an independent publisher, and its joining shows that mid-size catalogues now think they can win, or at least settle well. The Suno complaint also repeats reporting that Suno scraped streaming and lyric sites through proxy services. Suno says the leaked code behind that claim is out of date.\n\nThe figures are statutory maximums pleaded in a complaint, not damages anyone has been awarded. Nothing has been decided yet.\n\nFor working engineers the effect is indirect but real. Every new case makes it harder to say that music made with Suno is safe to deliver, and clients will ask more often where generated material came from. If you deliver stems or masters, it is now normal to state in writing whether a delivery can be used for AI training.",
+      "signal": 2,
+      "source": "Music Business Worldwide",
+      "take": "Reservoir Media and Shapiro, Bernstein & Co. filed two suits on 21 October in federal court in Northern California. One claims Suno copied 1,050 compositions to train its music models. The other claims Anthropic copied the lyrics of 853 compositions to train Claude. The pleaded totals, including DMCA counts, are just over $186m against Suno and just over $151.4m against Anthropic.",
+      "title": "Reservoir sues Suno over 1,050 songs and Anthropic over 853 lyrics",
+      "todo": "Add a line to your delivery terms stating whether your stems and masters may be used to train AI models.",
+      "url": "https://www.musicbusinessworldwide.com/reservoir-sues-suno-for-infringment-over-1050-songs-including-tracks-by-joni-mitchell-johnny-cash-madonna-and-more/"
+    },
+    {
       "cat": "hearing",
       "date": "2026-04-28",
       "signal": 1,
@@ -143,18 +165,131 @@
       "take": "Researchers in Québec and at Le Mans University 3D-printed passive earplugs with several Helmholtz resonators tuned to different frequencies. The aim is to cut low-frequency leakage and the boomy sound of your own voice that makes people take plugs out. No attenuation figures were released.",
       "title": "Meta-earplugs with tuned resonators target low-end leak and occlusion",
       "url": "https://www.eurekalert.org/news-releases/1125791"
+    },
+    {
+      "breakthrough": true,
+      "cat": "science",
+      "date": "2026-10-19",
+      "deep": "Panel speakers are not new: distributed-mode loudspeakers and OLED 'screen sound' TVs already use exciters behind a surface. What is new here is a large array of actuators driven per zone from the content, so a voice can come from the actor's mouth rather than from a centre speaker behind or below the screen. Driving several modules together is said to give a woofer-like low-frequency effect.\n\nThe limits matter. The release gives no SPL, frequency response or distortion figures, and zone isolation is quoted as panel vibration, not as acoustic separation at the listener. The paper was in the Journal of Mechanical Science and Technology in May 2026 and the work is patented in Korea.\n\nFor post mixers this is the direction object-based rendering could take on future screens: dialogue anchoring would be done by the display, not by the room's LCR. Worth watching for cinema, signage and immersive installations; not something to plan a mix around yet.",
+      "signal": 1,
+      "source": "Newswise (NST/KIMM)",
+      "take": "The Korea Institute of Machinery and Materials has shown a modular display that radiates sound from the screen surface itself. Eighty voice-coil actuators sit behind an aluminium panel carrying a transparent LED film, and AI source separation and localisation decide which zone of the panel vibrates. The team reports 99.9% accuracy in picking the target zone and up to 35 dB of vibration difference between active and idle zones.",
+      "title": "KIMM builds a 100-inch screen that sounds from where the picture is",
+      "url": "https://www.newswise.com/articles/sound-comes-from-where-you-see-it-kimm-develops-display-technology-that-reproduces-sound-at-on-screen-locations"
+    },
+    {
+      "cat": "software",
+      "date": "2026-10-27",
+      "deep": "New Macs normally can't be downgraded to an earlier macOS, so anyone who buys an M6 is on Golden Gate from day one. Avid says qualification will come in an upcoming release but gives no date. For comparison, Pro Tools support for the M5 Macs only arrived in July with 2026.4.1, months after launch. Production Expert also notes that only a handful of plugins had confirmed Golden Gate support at launch, and that Rosetta 2 is not installed automatically, so older Intel-only plugins can vanish until you install it.\n\nApple has only committed to a base M6 for now; Pro and Max chips are expected with the M7 generation. If you need Thunderbolt 5, more than three Thunderbolt ports or more than 32 GB of memory for big templates, this machine is not the one.\n\nFor paid work the advice is simple: buy within a return window, test a full session on day one, and keep the old machine ready until every critical driver and plugin is confirmed.",
+      "signal": 1,
+      "source": "Production Expert",
+      "take": "Apple's 14-inch MacBook Pro with the base M6 chip starts at $1,999 with 16 GB and 1 TB; the $1,599 entry model is gone. It has a 12-core CPU, up to 32 GB of memory at 170 GB/s and three Thunderbolt 4 ports. Pre-orders open today and deliveries start 6 November. It ships with macOS 27 Golden Gate, and Avid has not yet qualified Pro Tools for it.",
+      "title": "New M6 MacBook Pro ships on macOS 27, which Pro Tools doesn't support yet",
+      "todo": "Before ordering, list every interface driver, plugin and licence manager your sessions depend on and check each vendor's macOS 27 status page.",
+      "url": "https://www.production-expert.com/production-expert-1/apple-m6-macbook-pro-what-audio-pros-need-to-know-before-ordering"
+    },
+    {
+      "breakthrough": true,
+      "cat": "science",
+      "date": "2026-10-11",
+      "deep": "Bass traps are limited by depth: the air in a shallow cavity is too stiff to resonate low. Cancelling part of that stiffness with a magnetic spring is a known idea in vibration isolation, applied here to room acoustics, and the authors project a design equivalent to a cavity five times deeper.\n\nThe results are from an impedance tube and simulation, the device is sensitive to magnet alignment, and there is no product. Still, alongside this month's plasma absorber and thin printed panels, it shows serious work on the hardest problem in small rooms: controlling the bottom two octaves without losing a metre of floor.",
+      "signal": 1,
+      "source": "Bioengineer.org (Advanced Science)",
+      "take": "Researchers reported in Advanced Science a resonant absorber whose piston rides on repelling magnets, which add negative stiffness and lower the resonance. In a 90 mm cavity the resonance fell from 79.1 Hz to 57.8 Hz, and against a perforated panel it gave 1.57 times the absorption and 65% more bandwidth across 31–125 Hz, unchanged from 95 to 105 dB.",
+      "title": "A magnetic 'negative spring' lets a shallow absorber work like one five times deeper",
+      "url": "https://bioengineer.org/magnetic-bearing-resonator-shatters-the-thermodynamic-limit-of-low-frequency-sound-absorption/"
+    },
+    {
+      "breakthrough": true,
+      "cat": "hearing",
+      "date": "2026-10-25",
+      "deep": "Today's cochlear implants have 12 to 22 electrodes, but current spreads through the fluid of the cochlea, so neighbouring electrodes excite overlapping groups of nerve fibres. In practice users get far fewer independent pitch channels than electrodes, which is why music and voices in noise are so hard with an implant. Light can be focused much more tightly, so optical stimulation could in principle give many more usable channels.\n\nThis study measured responses in the midbrain (inferior colliculus) and found optical activation followed the cochlea's frequency map and separated better than electrical stimulation, though still not as sharply as real sound. The limits are real: ChReef closes slowly, so it may not follow the fast timing speech needs; only single pulses were tested; some LEDs spread at high intensity; and some treated cochleae lost nerve cells, a gene-therapy safety question. Human trials are not close. For engineers, it is the most credible route yet to implants that carry pitch and timbre, which matters for clients and colleagues who use them.",
+      "signal": 1,
+      "source": "Hearing Health & Technology Matters",
+      "take": "A Göttingen group led by Tobias Moser used gene therapy to make gerbils' auditory nerve cells light-sensitive with the channelrhodopsin ChReef, then stimulated them with experimental implants carrying 5 to 10 green micro-LEDs. Responses appeared from pulses of about 150 nJ, single LEDs could drive firing as strong as a 51 dB SPL tone, and optical channels stayed distinct at smaller spacings than electrical ones. The paper is in EMBO Molecular Medicine.",
+      "title": "Micro-LED optical cochlear implant separates channels better than electrodes, in gerbils",
+      "url": "https://hearinghealthmatters.org/hearing-technologies/2026/gene-therapy-cochlear-implant-optical/"
+    },
+    {
+      "cat": "gear",
+      "date": "2026-10-30",
+      "deep": "Recall is the reason most freelancers gave up on outboard. Digitally controlled analogue is not new (Wes Audio, SSL's Fusion-era recall, Bettermaker), but Neve putting its 88R and 1084 circuits behind a plugin with session-saved settings means the analogue state can travel with the DAW project, like any other insert.\n\nThe catch is that recall covers settings, not the rest of the chain: patching, gain into the box and converter calibration still need notes. Eight channels in 2U at these prices is a facility purchase, not a home-studio one, and no independent measurements or latency figures are published yet. Owners of existing 8424 consoles can upgrade.\n\nFor a mix room that changes projects daily, the practical question is whether the plugin control is solid across Pro Tools versions and OS updates, given this month's macOS 27 trouble. Ask Neve about qualification before ordering.",
+      "signal": 1,
+      "source": "Sound On Sound",
+      "take": "Neve launched Elements, its first digitally controlled analogue processors: 2U, eight-channel units (88R EQ, 88R Dynamics and an inductor 1084 EQ) with D-Sub I/O, Ethernet and a recallable insert. They are run from a standalone app or a VST3/AU/AAX plugin with snapshots and 64-step undo. Prices start at $4,895 / £3,495 ex VAT. A new 8424E console ($37,950 / £26,995) adds full recall; shipping is expected in Q1 2027.",
+      "title": "Neve Elements: recallable 88R and 1084 processors, and an 8424E console",
+      "todo": "If you rent rooms with Neve outboard, ask whether they plan Elements units, and add a line to your recall notes listing hardware plugin versions.",
+      "url": "https://www.soundonsound.com/news/neve-unveil-elements-range-8424e-console"
+    },
+    {
+      "cat": "ai",
+      "date": "2026-10-06",
+      "deep": "This is a consumer-protection case about unfair contract terms. It is not a copyright ruling on how Suno trained its models; that question sits with the US label lawsuits and with the GEMA case Suno lost in Germany. The point that matters most for creators is moral rights. Under Italian copyright law (L. 633/1941) the right to be named as author and to object to distortion of a work cannot be given away, so a blanket waiver in a click-through contract is hard to enforce here.\n\nThe other clauses are a practical warning. A provider that can close your account and remove the content at any time, for any reason, is not a safe place to store anything you deliver to a client. The case also gives Italian trade associations a formal route to comment during the consultation.\n\nNothing has been decided yet. Suno did not comment to MBW, and the authority can still accept changes to the terms instead of fining.",
+      "signal": 1,
+      "source": "Music Business Worldwide",
+      "take": "The AGCM is examining the Suno terms that took effect on 3 September 2026. It objects to clauses that let Suno change the service and prices without giving a reason, close accounts and delete content at any time without notice, and require users to waive their moral rights. It also objects to mandatory arbitration in Massachusetts and very broad liability limits. Fines for unfair terms run from €5,000 to €10 million, and a public consultation opens in the coming weeks.",
+      "title": "Italy's competition authority opens a case on Suno's terms of service",
+      "todo": "If a client brings AI-generated elements into a job, keep local copies, note in the delivery paperwork which parts were generated and with which tool, and read the tool's ownership clause before you sign off.",
+      "url": "https://www.musicbusinessworldwide.com/suno-faces-investigation-in-italy-over-its-terms-of-service/"
+    },
+    {
+      "cat": "live",
+      "date": "2026-10-01",
+      "deep": "Until now a RIVAGE feeding a Milan-native PA, such as a Meyer GALAXY or d&b system on Milan, usually went through Dante and a separate bridge, or through AES3 or analogue. With a Milan card in the console the desk can join that network directly. Milan's clocking and stream reservation are defined by the protocol, so you get fewer boxes and fewer clock domains to argue about at line check.\n\nThe card does 64x64 at 96 kHz. That is plenty for PA and matrix feeds, but it is not a stagebox network, which stays on Dante or TWINLANe. The press material does not say how redundancy is set up on the card, so check before you rely on it. The rest of the update is ecosystem work: smaller DM5 desks and RUio utility boxes can now be watched and controlled from the RIVAGE surface, which helps on festival and corporate builds that mix sizes of Yamaha gear.",
+      "signal": 1,
+      "source": "TPi",
+      "take": "RIVAGE PM firmware V7.20 adds support for the AuviTran AV-HY64-AVB card, which carries up to 64 inputs and 64 outputs at 96 kHz on AVB Milan networks. The update also brings DM5 and DM5 Compact consoles, the RUio1608SB-D, RUio0804-D and RUio16FLX-D I/O units and DME5/DME3 processors into the RIVAGE system for monitoring and control.",
+      "title": "Yamaha RIVAGE PM firmware 7.20 puts the flagship on Milan networks",
+      "todo": "If you mix on RIVAGE into Milan PA systems, ask the system tech or rental house whether they plan to stock the AV-HY64-AVB card before you spec a bridge.",
+      "url": "https://www.tpimagazine.com/new-yamaha-rivage-pm-firmware-to-enhance-connectivity-and-control/"
+    },
+    {
+      "cat": "post",
+      "date": "2026-10-26",
+      "deep": "VisLM 2 already gave integrated, short-term and momentary loudness, LRA, dialogue LRA, true peak and a timecode-locked history. The new parts are about delivery rather than metering. LDR is the gap between programme loudness and dialogue loudness. EBU R 128 Supplement 4 (2023) uses it to describe why very dynamic films are hard to broadcast or stream unchanged, and NUGEN pitches it at the intelligibility requirements that are starting to appear in specs.\n\nThe A/85 preset matters too. The July 2026 revision is the first big change to the US broadcast loudness practice since 2013 and adds streaming guidance, so a meter that already knows it saves you building your own preset from the document.\n\nThe QC report is the part to test before you rely on it: check that its layout and fields match what your broadcaster or distributor asks for. Plugin formats were not listed in the coverage.",
+      "signal": 1,
+      "source": "Production Expert",
+      "take": "NUGEN's loudness meter gets its first major update in years. One instance can now track several stems next to the full mix, measure Loudness to Dialog Ratio (LDR), attach timestamped notes, export a Loudness QC Report and meter up to 9.1.6. It adds presets for EBU R 128 Supplement 4 and the new ATSC A/85:2026-07. It costs $499; existing users see upgrade pricing in their NUGEN accounts.",
+      "title": "NUGEN VisLM 3 adds stem metering, Loudness to Dialog Ratio and QC reports",
+      "todo": "Before your next TV delivery, ask the client whether they now want an LDR figure or a QC report, and run one on a finished mix to see where your dialogue sits.",
+      "url": "https://www.production-expert.com/production-expert-1/nugen-vislm-3-adds-stem-monitoring-ldr-measurement-and-qc-reports"
+    },
+    {
+      "cat": "post",
+      "date": "2026-10-08",
+      "deep": "Eclipsa is the open competitor to Atmos for streaming, and it needs capture as well as playback. A cheap first-order Ambisonic mic certified for it lowers the cost of spatial content, especially for YouTube.\n\nFour capsules give first-order Ambisonics, fine for ambiences and VR but not precise imaging. For field recordists it is mainly a sign of where consumer platforms are heading.",
+      "signal": 1,
+      "source": "Sony via PR Newswire",
+      "take": "Sony's $249.99 ECM-AX10 is a 24 g USB-C module with four omni capsules in a sphere that records Ambisonics, binaural or stereo on iOS 18+ and Android 14+. It is the first microphone certified for Eclipsa Audio, the open IAMF-based immersive format backed by Google and Samsung.",
+      "title": "Sony ECM-AX10: the first Eclipsa Audio-certified spatial mic for phones",
+      "url": "https://www.prnewswire.com/news-releases/sony-electronics-announces-the-worlds-first-eclipsa-audio-certified-spatial-audio-microphone-for-smartphones-302902696.html"
+    },
+    {
+      "cat": "ai",
+      "date": "2026-10-30",
+      "signal": 1,
+      "source": "Music Business Worldwide",
+      "take": "According to an FT report, Spotify plans to launch its AI covers and remixes feature in the first quarter of 2027 at about $4–5 a month on top of a subscription. UMG, Merlin, Kobalt and Believe have signed; Sony and Warner are still negotiating. Artists must opt in individually even if their label licensed the catalogue.",
+      "title": "Spotify's paid AI covers and remix tool is reportedly due in early 2027",
+      "url": "https://www.musicbusinessworldwide.com/spotify-plans-q1-2027-launch-for-ai-covers-and-remixes-tool-weighing-4-5-monthly-price-report/"
     }
   ],
   "key": "2026",
   "label": "2026 so far",
-  "lead": "Three forces shaped 2026 so far. Ownership concentrated, with Audiotonix adding DPA, Wisycom and Austrian Audio and Bose buying FMOD. AI moved into every DAW while courts in Germany and the US ruled against unlicensed training. And the physics moved too: flat surfaces that radiate full-range sound, a Leslie effect with no moving parts, a fully implanted cochlear implant and the first gene therapy to restore hearing.",
+  "lead": "Four forces shaped 2026 so far. Ownership concentrated, with Audiotonix adding DPA, Wisycom and Austrian Audio and Bose buying FMOD. AI moved into every DAW while courts in Germany and the US ruled against unlicensed training, and publishers took Suno and Anthropic to court together. The physics moved too: surfaces and screens that radiate sound, new low-frequency absorbers and a Leslie effect with no moving parts. And hearing science crossed a line, with the first approved gene therapy now backed by peer-reviewed results in deaf children.",
   "period": "year",
   "radar": [
     {
-      "date": "2026-10-30",
-      "note": "The AES Show's first year in Nashville, with an immersive focus.",
-      "title": "AES Show Nashville, 30 Oct – 1 Nov",
-      "url": "https://www.prosoundweb.com/immersive-spatial-audio-to-take-center-stage-at-aes-show-nashville-2026/"
+      "note": "Reported launch window, at about $4–5 a month on top of a subscription.",
+      "title": "Spotify's AI covers and remix tool",
+      "url": "https://www.musicbusinessworldwide.com/spotify-plans-q1-2027-launch-for-ai-covers-and-remixes-tool-weighing-4-5-monthly-price-report/",
+      "when": "Q1 2027"
+    },
+    {
+      "date": "2026-12-01",
+      "note": "Part of the discovery fight in the labels' case against Suno.",
+      "title": "Suno v Apple subpoena hearing",
+      "url": "https://digitalmusicnews.com/2026/10/28/suno-apple-subpoena-dispute"
     },
     {
       "note": "UHF spectrum for TV and wireless mics is on the table.",
@@ -162,5 +297,5 @@
       "when": "2027"
     }
   ],
-  "range": "1 Jan – 4 Oct 2026"
+  "range": "1 Jan – 1 Nov 2026"
 }

@@ -1,0 +1,166 @@
+{
+  "generated": "2026-11-01T07:55:00+01:00",
+  "key": "2026-11-01",
+  "label": "Sun 1 Nov 2026",
+  "lesson": {
+    "body": "Each bit of linear PCM doubles the number of amplitude steps, which is worth about 6.02 dB. For a full-scale sine wave, the theoretical signal-to-quantisation-noise ratio is 6.02·N + 1.76 dB: about 98 dB for 16-bit and 146 dB for 24-bit. Real converters stop well short of the 24-bit figure; the best are around 120–130 dB, limited by analogue noise, so the bottom bits of a 24-bit recording hold the converter's own noise. Bit depth sets the noise floor, not the 'resolution' of loud signals: a 16-bit file peaking at −30 dBFS uses only about 11 bits' worth of range above its floor.\n\nWithout dither, quantisation error follows the signal. On quiet material such as reverb tails and fades it becomes audible distortion that is correlated with the music. Adding dither, usually TPDF (triangular) noise of about ±1 LSB, makes the error random and independent of the signal, so you hear a steady, faint hiss instead of grit. The cost is a noise floor about 4.77 dB higher than the theoretical undithered figure. Noise-shaped dither moves much of that noise to high frequencies where the ear is less sensitive, so it sounds quieter even though its total power is higher.\n\n32-bit float uses a 24-bit mantissa and an 8-bit exponent. Precision stays roughly 24-bit at any level, and the range runs to well over 1,000 dB, so a signal pushed over 0 dBFS inside a DAW is not clipped and can be brought back down later. That safety ends at any fixed-point stage: a converter, a 24-bit file or a plugin that clips internally. 32-bit float field recorders get their range from two converters at different gains blended together, not from a single converter with 32 bits of real dynamic range.\n\nIn practice: record at 24-bit (or 32-bit float where the recorder supports it), keep the session in float, and dither once, at the final reduction to a fixed bit depth, usually 16-bit for CD-style masters. Do not dither repeatedly at every bounce, and do not normalise or change gain after dithering. When delivering 24-bit, dither is technically correct but its effect sits below the converter noise.",
+    "inPractice": "Take a reverb tail, lower it by 40 dB, and bounce it to 16-bit with dither off and then on. Raise both by 40 dB and listen: the undithered version crackles and distorts as it fades, the dithered one fades into smooth hiss.",
+    "keyPoints": [
+      "Each bit is worth about 6 dB; 16-bit ≈ 98 dB, 24-bit ≈ 146 dB in theory.",
+      "Real converters reach about 120–130 dB, so analogue noise fills the lowest 24-bit steps.",
+      "Dither turns correlated quantisation distortion into steady noise.",
+      "TPDF dither raises the noise floor by about 4.77 dB; noise shaping makes it sound quieter.",
+      "32-bit float has huge headroom inside the DAW, but any fixed-point stage still clips at 0 dBFS.",
+      "Dither once, at the last reduction in bit depth, and change nothing after it."
+    ],
+    "level": "deeper",
+    "mistake": "Many people think 32-bit float recorders capture 1,500 dB of dynamic range. The file format can hold it, but the recording is still limited by the mic, the preamp and the converters, which together stay well below 150 dB.",
+    "sayIt": "Bit depth decides how quiet the background hiss can be, and dither is a tiny, controlled hiss we add at the very end so quiet fades stay smooth instead of gritty.",
+    "summary": "Bit depth sets how finely each sample's amplitude is measured, and so the level of the quantisation noise floor. Dither is a small, deliberate noise added before reducing bit depth so that the error becomes benign noise instead of distortion. 32-bit float stores samples as a mantissa and exponent, giving enormous headroom inside the computer, but it does not make a converter quieter.",
+    "terms": [
+      {
+        "def": "Least significant bit: the smallest amplitude step a given bit depth can represent.",
+        "term": "LSB"
+      },
+      {
+        "def": "Triangular-probability noise of about ±1 LSB that makes quantisation error independent of the signal.",
+        "term": "TPDF dither"
+      },
+      {
+        "def": "Filtering the dither and requantisation noise so more of it falls where hearing is less sensitive.",
+        "term": "Noise shaping"
+      },
+      {
+        "def": "The part of a floating-point number that holds its significant digits; 24 bits of precision in 32-bit float.",
+        "term": "Mantissa"
+      },
+      {
+        "def": "Simply dropping the lower bits when reducing bit depth, which leaves signal-correlated distortion.",
+        "term": "Truncation"
+      }
+    ],
+    "title": "Bit depth, dither and 32-bit float",
+    "topic": "Digital audio"
+  },
+  "quiz": {
+    "questions": [
+      {
+        "answer": 2,
+        "explain": "Quantisation noise power is Δ²/12; TPDF dither adds Δ²/6, so the total is three times the power, or 10·log10(3) ≈ 4.77 dB. The trap is 1.76 dB, which is the constant in the 6.02N + 1.76 dB formula, not the dither penalty.",
+        "level": "advanced",
+        "options": [
+          "About 1.76 dB",
+          "About 3 dB",
+          "About 4.77 dB",
+          "About 6.02 dB"
+        ],
+        "q": "Compared with an undithered, ideal quantiser at the same bit depth, roughly how much does adding standard TPDF dither raise the noise floor?",
+        "topic": "Digital audio"
+      },
+      {
+        "answer": 3,
+        "explain": "Each bit is worth about 6 dB, so 30 dB below full scale costs about 5 bits, leaving about 11. This is why gain staging matters more at 16-bit than at 24-bit or in float.",
+        "level": "advanced",
+        "options": [
+          "About 16 bits",
+          "About 14 bits",
+          "About 8 bits",
+          "About 11 bits"
+        ],
+        "q": "A 16-bit file peaks at −30 dBFS. Roughly how many bits' worth of range does the signal use above the 16-bit quantisation floor?",
+        "topic": "Digital audio"
+      },
+      {
+        "answer": 2,
+        "explain": "68.6 cm is a 2 ms delay. Notches fall at odd multiples of 1/(2t): 250 Hz, 750 Hz, 1,250 Hz and so on. 500 Hz and 1,000 Hz are peaks, where the delay equals whole cycles.",
+        "level": "advanced",
+        "options": [
+          "250 Hz",
+          "500 Hz",
+          "750 Hz",
+          "1,000 Hz"
+        ],
+        "q": "Two mics pick up the same source at equal level, but one is 68.6 cm further away (speed of sound 343 m/s). When the mics are summed, where is the second cancellation notch?",
+        "topic": "Phase & polarity"
+      },
+      {
+        "answer": 0,
+        "explain": "Float can hold values above full scale, but a fixed-point format cannot represent anything over 0 dBFS, so those samples are clipped. Pull the level down before the bounce, or render to a float file.",
+        "level": "intermediate",
+        "options": [
+          "Everything above 0 dBFS is clipped in the file",
+          "The file keeps the overs and plays back cleanly",
+          "The DAW automatically normalises it to 0 dBFS",
+          "Only the true-peak meter reading changes"
+        ],
+        "q": "A mix bus in a 32-bit float session peaks at +6 dBFS without audible clipping. What happens if you bounce it to a 24-bit fixed-point WAV without lowering the level?",
+        "topic": "Digital audio"
+      },
+      {
+        "answer": 1,
+        "explain": "Noise shaping redistributes the noise spectrum, mostly toward high frequencies, so it sounds quieter. Its total noise power is actually higher than flat dither; the benefit is perceptual.",
+        "level": "intermediate",
+        "options": [
+          "It removes the noise entirely",
+          "It moves noise toward frequencies where hearing is less sensitive",
+          "It lowers the total noise power below the undithered level",
+          "It only works on 24-bit files"
+        ],
+        "q": "What does noise-shaped dither do compared with flat TPDF dither?",
+        "topic": "Digital audio"
+      },
+      {
+        "answer": 2,
+        "explain": "The front sub's sound needs about 2.9 ms (1 m at 343 m/s) to reach the rear box. Delaying the rear box by that amount, with inverted polarity, makes their outputs arrive together and opposite behind the array, so they cancel there while still adding at the front.",
+        "level": "intermediate",
+        "options": [
+          "0 ms",
+          "1.5 ms",
+          "2.9 ms",
+          "5.8 ms"
+        ],
+        "q": "In a gradient cardioid sub arrangement, a reversed-polarity sub sits 1 m behind the front sub. Roughly what delay is applied to the rear sub so the two cancel behind the array?",
+        "topic": "Live sound"
+      },
+      {
+        "answer": 2,
+        "explain": "Dither belongs at the last step where word length is reduced, such as the 16-bit master. Applying it repeatedly stacks noise, and changing gain after dithering undoes its benefit.",
+        "level": "basic",
+        "options": [
+          "On every track as it is recorded",
+          "After every plugin",
+          "Once, at the final reduction to a lower fixed bit depth",
+          "Never, if the session is 24-bit"
+        ],
+        "q": "When should dither be applied in a typical music or post workflow?",
+        "topic": "Digital audio"
+      },
+      {
+        "answer": 3,
+        "explain": "Masking is a hearing effect: the quieter sound is still in the signal, but the ear cannot detect it. Phase cancellation, by contrast, physically removes energy from the signal.",
+        "level": "basic",
+        "options": [
+          "Phase cancellation",
+          "The precedence effect",
+          "The proximity effect",
+          "Masking"
+        ],
+        "q": "What is it called when a loud sound makes a quieter sound at a nearby frequency inaudible?",
+        "topic": "Psychoacoustics"
+      },
+      {
+        "answer": 1,
+        "explain": "Pin 1 is shield, pin 2 hot and pin 3 cold. Phantom power is carried equally on pins 2 and 3 relative to pin 1, not on a separate pin.",
+        "level": "basic",
+        "options": [
+          "Shield or ground",
+          "The hot (+) signal",
+          "The cold (−) signal",
+          "Phantom power only"
+        ],
+        "q": "On a balanced XLR connection wired to the common AES/IEC standard, what does pin 2 carry?",
+        "topic": "Connectors"
+      }
+    ]
+  }
+}

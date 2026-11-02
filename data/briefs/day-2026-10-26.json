@@ -1,0 +1,271 @@
+{
+  "craft": {
+    "body": "When your calendar is full, every extra job you accept at an old rate pushes out work you could have priced properly. Busy periods are when clients accept a rate rise most easily, because the alternative is waiting for someone else to be free.\n\nUpdate your rate card for new clients, keep existing clients informed in writing with a date, and make the quote say exactly what is included: number of revision rounds, stem and alt-mix versions, loudness passes and turnaround. Anything beyond that is billed. It protects your income and your ears, because unpaid extra passes are also extra hours of listening.",
+    "title": "Price the busy season, not the quiet one"
+  },
+  "generated": "2026-10-26T07:30:00+01:00",
+  "headline": "Light-driven implants, busy freelancers",
+  "items": [
+    {
+      "breakthrough": true,
+      "cat": "hearing",
+      "date": "2026-10-25",
+      "deep": "Today's cochlear implants have 12 to 22 electrodes, but current spreads through the fluid of the cochlea, so neighbouring electrodes excite overlapping groups of nerve fibres. In practice users get far fewer independent pitch channels than electrodes, which is why music and voices in noise are so hard with an implant. Light can be focused much more tightly, so optical stimulation could in principle give many more usable channels.\n\nThis study measured responses in the midbrain (inferior colliculus) and found optical activation followed the cochlea's frequency map and separated better than electrical stimulation, though still not as sharply as real sound. The limits are real: ChReef closes slowly, so it may not follow the fast timing speech needs; only single pulses were tested; some LEDs spread at high intensity; and some treated cochleae lost nerve cells, a gene-therapy safety question. Human trials are not close. For engineers, it is the most credible route yet to implants that carry pitch and timbre, which matters for clients and colleagues who use them.",
+      "signal": 3,
+      "source": "Hearing Health & Technology Matters",
+      "take": "A Göttingen group led by Tobias Moser used gene therapy to make gerbils' auditory nerve cells light-sensitive with the channelrhodopsin ChReef, then stimulated them with experimental implants carrying 5 to 10 green micro-LEDs. Responses appeared from pulses of about 150 nJ, single LEDs could drive firing as strong as a 51 dB SPL tone, and optical channels stayed distinct at smaller spacings than electrical ones. The paper is in EMBO Molecular Medicine.",
+      "title": "Micro-LED optical cochlear implant separates channels better than electrodes, in gerbils",
+      "url": "https://hearinghealthmatters.org/hearing-technologies/2026/gene-therapy-cochlear-implant-optical/"
+    },
+    {
+      "cat": "software",
+      "date": "2026-10-24",
+      "deep": "Most of this release is about the dull end of the job: deliveries. A render that can skip loudness analysis is faster when you are spitting out dozens of stems or alt mixes that will be measured later anyway, and better parallel rendering helps on many-core machines. The postprocessing error is the quiet win, because a render that silently fails to write is worse than one that stops.\n\nThe batch converter changes matter for anyone who conforms SFX libraries, voice files or podcast episodes: normalising only the files below a target, from a script, avoids pushing already-correct files and their noise floors up. Touch override in read mode lets you ride a fader during playback without losing the written pass. It is a free update for licence holders; as with any point release, try it on a copy of a delivery session before trusting it on a deadline.",
+      "free": true,
+      "signal": 3,
+      "source": "Cockos",
+      "take": "Cockos's v7.83 can skip loudness calculation for faster renders, caps offline renders at 2x realtime if you want, uses more cores when rendering tracks or items in parallel, and reports an error if postprocessing temp files fail to write. The batch converter now previews peaks and output, and from the command line it can apply per-file gain and normalise only the files that are too quiet. A new $projectbase wildcard, touch override of automation in read mode and CLAP gain-reduction readout via ReaScript are also in.",
+      "title": "REAPER 7.83: faster renders, smarter batch converter, touch override in read mode",
+      "todo": "Build a render preset with $projectbase in the filename and test the quiet-only normalise on a copy of an SFX or VO folder before your next batch delivery.",
+      "url": "https://www.reaper.fm/whatsnew.txt"
+    },
+    {
+      "cat": "industry",
+      "date": "2026-10-25",
+      "deep": "This is anecdote, not a survey, and the figures are mostly American and British. But it matches a pattern freelancers know: production tax credits and independent features bring volume first, and the money arrives in many small, tight budgets rather than fewer generous ones. More hours at the same day rate is not growth; it is the same income for more fatigue.\n\nThe useful reading for an Italian freelancer is timing. When colleagues are saying no, clients find it harder to replace you, which is the moment to restate rates, add overtime and revision limits to quotes, and stop absorbing unpaid extras such as extra stem versions or loudness re-passes. Production Expert says a fuller survey is coming later in the year, which will show whether this is a real upturn or a few busy calendars.",
+      "signal": 3,
+      "source": "Production Expert",
+      "take": "Production Expert's Russ Hughes collects replies from post mixers and studio engineers who say they have been fully booked for months, one re-recording mixer turning down jobs since late August. He cites a 52.3% year-on-year jump in LA feature shoot days in Q1 2026, 170 projects awarded California's expanded tax credit, UK local and co-production film spend up 20% and 35% in H1, and recorded music revenue up 6.4% to $31.7bn in 2025. A Grammy-winning engineer sums up the catch: busier, but budgets are well down.",
+      "title": "Post and music engineers are turning down work, but budgets are not rising",
+      "todo": "Before your next quote, add a line pricing extra revision rounds and alternate deliverables, and raise your day rate for new clients.",
+      "url": "https://www.production-expert.com/production-expert-1/audio-pros-are-turning-down-work-again-is-2026-different"
+    },
+    {
+      "cat": "live",
+      "date": "2026-10-23",
+      "deep": "A host broadcaster with long-running negotiations still reports shortfalls, and its plan for Naples is to reuse channels and move boats between them dynamically during racing. Helicopters, chase boats and 4K onboard feeds all compete for the same air.\n\nFor anyone booking wireless mics, IEMs or comms on events in southern Italy around those dates, assume the region's spectrum will be busy and coordinated early. Ask the production who holds the frequency licences, register your own kit's ranges well ahead, and carry backup bands.",
+      "signal": 2,
+      "source": "SVG Europe",
+      "take": "Timeline TV, host broadcaster for the 38th America's Cup, says getting frequencies and mesh-network space cleared with Italian officials is a bigger challenge than any OB truck. All onboard cameras and sound are wireless, RF is split across three bands, and official and team talkback runs on a separate Riedel channel. The Louis Vuitton Cup runs in Naples from 22 May to 4 July 2027 and the Match starts on 10 July.",
+      "title": "America's Cup broadcaster says Naples spectrum is 'not enough'",
+      "todo": "If you have work in Campania in May–July 2027, ask now who will coordinate RF and which UHF ranges your kit can tune.",
+      "url": "https://www.svgeurope.org/blog/headlines/spectrum-negotiations-timeline-tv-on-the-challenges-for-rf-at-the-38th-edition-of-the-americas-cup/"
+    },
+    {
+      "cat": "post",
+      "date": "2026-10-23",
+      "deep": "Stems that do not null against the mix are a classic delivery failure. Bus compression and limiting react to the whole mix, so each stem printed alone through the master chain comes out slightly different, and sync houses, re-mixers and Atmos upmixers then get stems that do not add up to what the client approved.\n\nThe usual fixes are printing stems through the bus chain with a keyed sidechain, or bypassing the bus chain and supplying it as a note. SUMMER instead works on the files after the fact. The article does not describe its method, so check what it does to each stem in isolation, especially on transient-heavy material, before relying on it for a music-for-picture delivery.",
+      "signal": 2,
+      "source": "Rekkerd",
+      "take": "Eldad Guetta's SUMMER is a standalone Mac app that adjusts a set of bounced stems so that played together they match the approved full mix, to the point that phase-inverting the mix against them cancels to silence. It costs $59 and there is a free demo.",
+      "title": "SUMMER makes bounced stems sum exactly to the approved mix",
+      "todo": "Run the demo on a past delivery that failed a null test and listen to each corrected stem soloed, not just the sum.",
+      "url": "https://rekkerd.org/2026-43-round-up-new-audio-plugins-virtual-instruments-apps/"
+    },
+    {
+      "cat": "ai",
+      "date": "2026-10-24",
+      "deep": "Most voice assistants still take turns: they wait for you to stop, transcribe, generate text and speak. A full-duplex speech-to-speech model skips the text step and can overlap, interrupt and react like a person on a call. Block has published no benchmarks, language list or licence, so the quality claims are unverified.\n\nTwo points matter for voice and ADR work. Expressive synthetic speech that runs on a laptop will reach temp-dialogue, game and dubbing pipelines quickly once such models are released. And the more human it sounds, the more weight falls on provenance: contracts that state whether a performer's voice may be used to train or drive such systems, and session records showing what was recorded live.",
+      "signal": 2,
+      "source": "TechCrunch",
+      "take": "Block's research lab announced Dessa, a full-duplex speech-to-speech model that can listen while it speaks and produces laughs, pauses and crying. Block says it runs locally on a MacBook M4 Max or better, was trained only on human speech using a single NVIDIA GPU rack, and does not rely on a text language model. It is not public; safety researchers have been invited to test it.",
+      "title": "Block's Dessa voice model listens and talks at once, and laughs",
+      "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/"
+    },
+    {
+      "cat": "post",
+      "date": "2026-10-23",
+      "deep": "Local processing matters when you handle unreleased interviews or confidential dialogue that cannot be uploaded to a cloud service. A transcript-driven editor is quick for rough cuts of podcasts, interviews and radio packages.\n\nIt is a one-developer open-source project, so treat it as a rough-cut and cleanup tool, not a replacement for iZotope RX or a proper dialogue edit in the DAW. The per-render processing records are a good habit for any job where a client may later ask what was done to the audio.",
+      "free": true,
+      "signal": 2,
+      "source": "Rekkerd",
+      "take": "Fabrizio Degni's AudioEnhancerMAX is an MIT-licensed standalone editor for Apple Silicon Macs that does local cleanup and transcription, lets you approve speech cuts and mutes, and exports WAV, MP3 and FLAC. Version 3.8.3 (18 October) keeps processing records with each render and fixes privacy-preference and import issues.",
+      "title": "Free and open source: AudioEnhancerMAX cleans and edits speech locally on Apple Silicon",
+      "url": "https://rekkerd.org/2026-43-round-up-new-audio-plugins-virtual-instruments-apps/"
+    },
+    {
+      "cat": "live",
+      "date": "2026-10-23",
+      "deep": "The case study is a useful recipe for corporate shows in hard, reverberant halls. Placing each source where the audience sees it means less overall level is needed for intelligibility, because voices separate by direction instead of by volume.\n\nThe event itself was in May; this is a write-up, so treat it as a design reference rather than news.",
+      "signal": 2,
+      "source": "AV Network",
+      "take": "NMR Events ran four formats back to back in Javits North, New York: a keynote, a live ESPN desk, a trailer reel and an Olivia Rodrigo set. The rig was seven scene arrays of eight Kara II plus extensions, out-fills and delays, six rear arrays of six Kara II for surround, flown and ground KS28 subs and 17 X8 fills, on L-ISA Processor II. Trailers played in true 5.1, and the ESPN desk audio was placed house left to match where the desk sat.",
+      "title": "Disney Upfront: one L-ISA system for keynote, sports desk, trailers and a concert",
+      "url": "https://www.avnetwork.com/installations/sports-entertainment/four-shows-one-room-how-l-acoustics-made-eyes-and-ears-connect-at-disneys-upfront-2026"
+    },
+    {
+      "cat": "industry",
+      "date": "2026-10-23",
+      "deep": "Re-recordings were made to compete with masters the artist did not own. Now an investor holds both versions and can market them side by side, which turns a re-record into a catalogue asset with its own value.\n\nFor engineers and producers on re-record sessions, that is a reason to get credits, points or a buy-out fee in writing. A session that was once a one-off workaround can end up in a portfolio sale years later.",
+      "signal": 2,
+      "source": "Music Business Worldwide",
+      "take": "Seeker Music, backed by M&G and claiming more than 19,000 copyrights, bought JoJo's 2004 and 2006 albums together with the 2018 re-recordings she made after leaving Blackground. The re-recordings will be reissued as 'Clover Room Edition'. Terms were not disclosed.",
+      "title": "Seeker buys both the originals and the re-recordings of JoJo's first two albums",
+      "url": "https://www.musicbusinessworldwide.com/seeker-music-acquires-original-and-re-recorded-versions-of-jojos-first-two-albums/"
+    },
+    {
+      "cat": "live",
+      "date": "2026-10-23",
+      "deep": "It is a working example of large-scale intercom carried over IP and cellular, with redundancy built in at the kit level and rules enforced by the system rather than by people. The automatic, simultaneous cut-off is a fairness feature: neither side can talk longer.\n\nFor show comms in Europe, the same ideas apply on large events: bridge IP intercom over cellular where cable is impractical, carry spares by default, and let the system handle timed or prioritised talk paths.",
+      "signal": 2,
+      "source": "SVG Europe",
+      "take": "Green-GO supplies the NFL's coach-to-coach, officiating and video injury review systems, about 78 wired and wireless devices per team. Each sideline has two radios plus four spares in the team cart, and the network is moving to 5G over Verizon through Green-GO bridges. Coach-to-player audio is cut at 15 seconds left on the 40-second play clock, for both teams at once.",
+      "title": "NFL sideline comms: Green-GO over IP and 5G, with a 40-second clock",
+      "url": "https://www.svgeurope.org/blog/headlines/new-york-london-paris-how-the-nfls-comms-infrastructure-is-adapting-to-life-on-the-road/"
+    },
+    {
+      "cat": "plugins",
+      "date": "2026-10-23",
+      "signal": 2,
+      "source": "Rekkerd",
+      "take": "Made with Focusrite, Altitude Harmony combines formant-aware pitch correction with up to three harmony voices, a style control from subtle to hard-tuned, 15 scale presets plus a custom scale, and a low-latency mode for tracking and live use. It is VST/VST3, AU and AAX on Windows and macOS, $29.99 intro, $49.99 regular.",
+      "title": "Klevgrand Altitude Harmony: formant-aware tuner with three harmony voices",
+      "url": "https://rekkerd.org/klevgrand-releases-altitude-harmony-vocal-tuner-harmonizer-plugin/"
+    },
+    {
+      "cat": "hearing",
+      "date": "2026-10-26",
+      "signal": 1,
+      "source": "The Standard (Hong Kong)",
+      "take": "Pok Oi Hospital and the Chinese University of Hong Kong compared electroacupuncture, electroacupuncture with warm needling and no acupuncture in 90 patients aged 50 to 70. Both acupuncture groups reported lower tinnitus loudness by week 10, and 40% reached a 2-point or larger drop. The journal, blinding and placebo control were not reported, so treat it as preliminary.",
+      "title": "Hong Kong trial: electroacupuncture lowered tinnitus loudness in 90 older adults",
+      "url": "https://www.thestandard.com.hk/news/article/346501/CUHK-and-Pok-Oi-Hospital-clinical-study-finds-electroacupuncture-eases-tinnitus"
+    },
+    {
+      "cat": "hearing",
+      "date": "2026-10-25",
+      "signal": 1,
+      "source": "The Portugal News",
+      "take": "MED-EL's TICI UNICO, which has no external processor and a microphone under the skin, has now been implanted in about 40 people, including the first two in Austria outside a clinical trial on 29 September. It took about 15 years to develop and is rechargeable; price and battery life were not reported.",
+      "title": "MED-EL's fully implantable cochlear implant reaches about 40 patients",
+      "url": "https://theportugalnews.com/news/2026-10-25/worlds-first-invisible-hearing-implant-launched/1104740"
+    },
+    {
+      "cat": "plugins",
+      "date": "2026-10-23",
+      "signal": 1,
+      "source": "Sound On Sound",
+      "take": "ECO has 12 delay modes from clean digital to tape, analogue, lo-fi and diffuse, five reverb modes, ducking, tube saturation and A/B compare. fedDSP claims zero latency and low CPU, and licensing works offline with no dongle. It is £35 until 5 November, then £50; formats were not listed.",
+      "title": "fedDSP ECO: a zero-latency delay with offline licensing",
+      "url": "https://www.soundonsound.com/news/feddsp-launch-eco-delay-plug"
+    },
+    {
+      "cat": "plugins",
+      "date": "2026-10-23",
+      "free": true,
+      "signal": 1,
+      "source": "Rekkerd",
+      "take": "Renegade Sound Labs' Foresight captures up to 60 seconds of audio, simulates a feed-forward compressor on it and draws the gain reduction over the waveform, while passing audio through untouched. A Suggest mode fills in all nine controls for a chosen source and goal. Free for macOS and Windows.",
+      "title": "Free: Foresight shows what a compressor would do before you insert one",
+      "url": "https://rekkerd.org/2026-43-round-up-new-audio-plugins-virtual-instruments-apps/"
+    },
+    {
+      "cat": "plugins",
+      "date": "2026-10-23",
+      "free": true,
+      "signal": 1,
+      "source": "Rekkerd",
+      "take": "Cat Psychedelia's Mewlure has one main DIVE control, 36 presets, pre-delay, decay and tone, and level matching so the wet sound does not just seem better because it is louder. No account or activation; VST3 and AU for Windows and macOS, pay what you like.",
+      "title": "Free: Mewlure, a one-knob ambient reverb with automatic level matching",
+      "url": "https://rekkerd.org/free-mewlure-one-knob-ambient-reverb-by-cat-psychedelia/"
+    },
+    {
+      "cat": "instruments",
+      "date": "2026-10-25",
+      "signal": 1,
+      "source": "Sound On Sound",
+      "take": "The CK76 has 76 semi-weighted keys, CP and YC sounds with physical drawbars, built-in speakers, battery power, Bluetooth audio, MIDI and USB audio, for $1,249.99. CK OS 2.0, free for CK61, CK88 and CK76, adds three electric pianos, 16 Live Sets and better split and layer handling.",
+      "title": "Yamaha CK76 stage keyboard, and free CK OS 2.0",
+      "url": "https://www.soundonsound.com/news/yamaha-ck76-joins-stage-piano-range"
+    },
+    {
+      "cat": "instruments",
+      "date": "2026-10-23",
+      "signal": 1,
+      "source": "Synthtopia",
+      "take": "One VCO plus one DCO, a vactrol low-pass/high-pass filter, ADSR, LFO and a delay with CV input, plus a 32-step sequencer storing 100 patterns and an 18-point patchbay. Preorder prices are $399 desktop and $349 for the 48HP Eurorack version; ship date not given.",
+      "title": "AtomoSynth Mochika X7: semi-modular analog voice in desktop and Eurorack forms",
+      "url": "https://www.synthtopia.com/content/2026/10/23/atomosynth-introduces-mochika-x7-analog-synthesizer-in-desktop-eurorack-formats/"
+    },
+    {
+      "cat": "gear",
+      "date": "2026-10-23",
+      "signal": 1,
+      "source": "Synthtopia",
+      "take": "Go Outside Music's Mulch Box links one 1/4-inch jack to four 3.5 mm jacks on each of eight channels, unpowered and mono TS, for $175. It is a handy bridge between studio gear and Eurorack, but it is a passive mult, not a buffered splitter, so several loads on one output will drop level.",
+      "title": "Mulch Box: a passive eight-channel 1/4-inch to 3.5 mm mult",
+      "url": "https://www.synthtopia.com/content/2026/10/23/go-outside-music-introduces-mulch-box-passive-patch-bay-signal-multiplier/"
+    },
+    {
+      "cat": "live",
+      "date": "2026-10-23",
+      "signal": 1,
+      "source": "LSi Online",
+      "take": "TOA becomes Relacart's exclusive UK and Ireland distributor. First products are the BG-24, a 2.4 GHz digital mic with AES encryption and about 50 m range, and the PM-320 IEM; digital UHF systems follow in Q1 2027. 2.4 GHz avoids UHF licensing but shares a crowded band with Wi-Fi.",
+      "title": "TOA UK picks up Relacart wireless, starting with 2.4 GHz mics and an IEM",
+      "url": "https://www.lsionline.com/news/toa-uk-adds-to-wireless-range-with-relacart/"
+    },
+    {
+      "cat": "industry",
+      "date": "2026-10-23",
+      "signal": 1,
+      "source": "IQ Magazine",
+      "take": "Goldman's 'Music In The Air' report projects the global music industry growing from $112.5bn in 2025 to nearly $200bn within a decade, a 5.8% annual rate, its first upward revision in three years. It credits the globalisation of concerts; the live breakdown is paywalled.",
+      "title": "Goldman Sachs raises its music-industry forecast, citing live touring",
+      "url": "https://www.iqmagazine.com/2026/10/goldman-sachs-robust-live-touring-and-emerging-markets-fuel-200bn-industry-forecast/"
+    },
+    {
+      "cat": "craft",
+      "date": "2026-10-23",
+      "signal": 1,
+      "source": "Production Expert",
+      "take": "Production Expert's checklist: agree the deliverables before starting (main, instrumental, TV mix, a cappella and full stems for sync and live), name tracks by content rather than 'Audio_01', clean clicks and uncrossfaded edits before export, and never send a rough mix through a heavy limiter as the reference.",
+      "title": "Handing off to a mix engineer: agree deliverables and name tracks properly",
+      "url": "https://www.production-expert.com/production-expert-1/how-to-work-with-a-mix-engineer-the-art-of-the-hand-off"
+    },
+    {
+      "cat": "instruments",
+      "date": "2026-10-24",
+      "free": true,
+      "signal": 1,
+      "source": "Synthtopia",
+      "take": "Justin Joe's mod, built on OS 246 (the last official firmware for the original OP-1), adds a Keys engine with tine, reed and clav sounds, a chord mode with scales, a piano-roll sequencer, six effects, a new LFO and MIDI CC on most knobs. It is unofficial, so back up the device first.",
+      "title": "Free custom firmware gives the original OP-1 new engines and a piano roll",
+      "url": "https://www.synthtopia.com/content/2026/10/24/teenage-engineering-op-1-mod-gives-it-new-synth-engine-chords-effects-more/"
+    },
+    {
+      "cat": "ai",
+      "date": "2026-10-24",
+      "signal": 1,
+      "source": "The AI Musicpreneur",
+      "take": "The three-track Azadi EP, due in November on KNTXT, features NAVA, an AI Persian vocalist created in 2025 by artist Farbod Mehr as a voice for Iranian women barred from singing in public. Coverage does not say what the voice was built from, which is the consent question every session using AI vocals will face.",
+      "title": "Charlotte de Witte's next EP is sung by an AI vocalist, source undisclosed",
+      "url": "https://www.aimusicpreneur.com/ai-music-news/charlotte-de-witte-nava-ai-vocalist-azadi-ep-2026/"
+    }
+  ],
+  "key": "2026-10-26",
+  "label": "Mon 26 Oct 2026",
+  "lead": "A quiet weekend before AES Nashville, but a few things stand out. A Göttingen team drove the gerbil auditory nerve with up to ten micro-LEDs and got more separate channels than an electrode array gives, an early step towards cochlear implants that carry pitch better. REAPER 7.83 makes renders and batch conversion faster and smarter for delivery work, and Production Expert reports post and music engineers turning work away while rates stay flat. Also: spectrum is already tight for the America's Cup in Naples, a $59 app that makes stems null against the approved mix, and a voice model that laughs and talks over you.",
+  "period": "day",
+  "radar": [
+    {
+      "date": "2026-10-30",
+      "note": "30 Oct–1 Nov at Gaylord Opryland, exhibition 31 Oct–1 Nov; expect a burst of immersive and studio announcements.",
+      "title": "AES Show Nashville",
+      "url": "https://www.prosoundweb.com/grammy-sound-tables-songs-that-changed-my-life-panel-set-for-aes-show-nashville-2026/"
+    },
+    {
+      "date": "2026-11-05",
+      "note": "The delay goes from £35 to £50.",
+      "title": "fedDSP ECO intro price ends",
+      "url": "https://www.soundonsound.com/news/feddsp-launch-eco-delay-plug"
+    },
+    {
+      "date": "2026-11-12",
+      "note": "Sparks Audio's Pro Tools session browser goes from $129/$259 to $149/$299.",
+      "title": "ClipMap intro pricing ends",
+      "url": "https://www.production-expert.com/production-expert-1/sparks-audio-releases-clipmap-should-you-pay-for-a-pro-tools-session-browser"
+    }
+  ],
+  "range": "23–26 Oct 2026"
+}

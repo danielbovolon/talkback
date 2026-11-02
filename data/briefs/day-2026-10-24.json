@@ -1,0 +1,265 @@
+{
+  "craft": {
+    "body": "Most freelance money problems start in documents signed in a hurry: deal memos, letters of direction, split sheets, assignment forms. Before you sign, look for three things: who pays you and from what, whether you keep the right to check the numbers (audit or inspection rights), and any 'release' or 'waiver' wording that settles claims you don't yet know about.\n\nIf a form is called 'standard' and 'unchangeable', ask for the alternative anyway. As the Sony case shows, one may already exist. Keep a dated copy of every version you were sent and the one you signed, and save your royalty statements so a mismatch can be spotted years later.",
+    "title": "Read the paperwork that pays you"
+  },
+  "generated": "2026-10-24T07:02:09+02:00",
+  "headline": "Fewer measurements, sharper contracts",
+  "items": [
+    {
+      "breakthrough": true,
+      "cat": "science",
+      "date": "2026-10-23",
+      "deep": "Full-sphere directivity data, the balloon files behind GLL, CLF and manufacturer prediction tools, normally needs measurements at hundreds or thousands of angles on a turntable in an anechoic space or a large field. The usual way to cut that work is to measure a few planes and interpolate between them, but interpolation smears lobes and nulls that matter when boxes are arrayed. Here the network learns how real professional cabinets radiate and 'inpaints' the missing directions. The authors map the irregular spherical grid onto a 2D image so a standard image-repair architecture can be used.\n\nThe limits matter. The training set came from one manufacturer: 13 DAS Audio loudspeakers, doubled to 26 configurations by rotating them 90°. How well it generalises to very different designs, such as horn-loaded cardioid subs or column arrays, is not shown. For engineers the practical gain is indirect: cheaper, faster balloon data could mean more boxes, accessories and splay variants modelled in prediction software, and more small manufacturers able to publish credible data at all.",
+      "signal": 3,
+      "source": "Journal of the Acoustical Society of America",
+      "take": "A JASA paper by researchers at the Universitat de València, UPV and DAS Audio uses a convolutional U-Net to fill in a speaker's full high-resolution directivity balloon from only three polar measurement planes. On cabinets it had not seen during training, the error averaged 1.24 ± 0.07 dB, up to 0.65 dB better than standard interpolation. Patterns rebuilt this way still gave accurate line-array models in professional prediction software.",
+      "title": "Neural network rebuilds full loudspeaker balloons from three measured planes",
+      "todo": "When a vendor supplies prediction data, ask how many planes were actually measured and how the rest was filled in.",
+      "url": "https://pubs.aip.org/asa/jasa/article/160/4/3428/3407264/Acoustic-inpainting-of-loudspeaker-radiation"
+    },
+    {
+      "cat": "industry",
+      "date": "2026-10-23",
+      "deep": "The case turns on paperwork most engineers and producers sign without much thought. A letter of direction tells a label to pay a producer's or mixer's points out of the artist's royalties. According to the complaint, Sony's standard form made the payee acknowledge having no right to audit Sony. That matters because a third-party review is how the alleged 0.75% vs 1.5% gap was found. Montague says Sony later produced an alternative form without that language, and he signed it on 29 August.\n\nSony's in-house counsel has denied liability, arguing there was no direct contract with him. None of the claims has been tested in court. For a freelancer, the lesson does not depend on the outcome. Points are only worth what you can check, and an audit right waived in a standard form is hard to get back. If you ever sell or assign a royalty stream, how the label handles the paperwork can delay or reduce the deal.",
+      "signal": 3,
+      "source": "Music Business Worldwide",
+      "take": "Ishmael Montague, co-producer of Chris Brown's 'Party', has sued Sony Music in New York federal court, representing himself, for at least $1,247,500. He says he is owed 1.5% after splitting a 3% producer royalty but has been paid 0.75%. He also alleges Sony delayed his sale of the royalties to Xposure Music by about six weeks by insisting on a letter of direction that included giving up his right to audit.",
+      "title": "Producer sues Sony, alleging a half-rate royalty and an audit-waiver letter of direction",
+      "todo": "Check any letter of direction or royalty agreement you hold for audit-waiver or release wording before signing or renewing it.",
+      "url": "https://www.musicbusinessworldwide.com/chris-brown-producer-sues-sony-music-for-1-25m-claiming-it-stalled-the-sale-of-his-party-royalties-and-paid-him-half-the-agreed-rate/"
+    },
+    {
+      "cat": "post",
+      "date": "2026-10-22",
+      "deep": "Small cinema bodies like the fp series often end up as B or C cameras, crash cams or gimbal units on shoots where the mixer sends a scratch feed and timecode to every camera. On many cameras, that means one 3.5 mm input carrying scratch audio and a separate path for TC. On the fp2, Sigma's own spec says you have to choose. Pick the 3.5 mm terminal for TC-IN and the mic on that terminal is gone. Pick USB and any USB audio device, including a USB mic or headphones, is gone.\n\nThere are workarounds. Run TC over USB-C and scratch into the 3.5 mm jack, or TC on 3.5 mm and audio through the XLR adapter. The adapter route adds the DMW-XLR2 and HU-21 to the camera build. The 32-bit float claim is also conditional, and the article does not list which devices count as compatible. Until that is clear, don't count on camera audio as a 32-bit safety track.",
+      "signal": 3,
+      "source": "Newsshooter",
+      "take": "Sigma's fp2 full-frame cine camera ($2,199 body, $2,749 with EVF-21) adds 4-channel recording and 32-bit float, but only with a compatible external device connected. Timecode can be fed through the 3.5 mm jack or USB-C. Feeding it through the 3.5 mm jack disables that mic input, and feeding it over USB disables USB audio. XLR needs Panasonic's DMW-XLR2 plus Sigma's HU-21 hot-shoe unit.",
+      "title": "Sigma fp2: 32-bit float audio, but timecode in shares the mic jack",
+      "todo": "Before a shoot with an fp2 on the camera list, agree with the camera team which port carries TC and which carries scratch, and test both in prep.",
+      "url": "https://www.newsshooter.com/2026/10/22/sigma-fp2-announced-6k-open-gate-in-prores-raw-32-bit-float/"
+    },
+    {
+      "cat": "live",
+      "date": "2026-10-23",
+      "deep": "Two trends run through the list. Broadcast desks keep shrinking into self-contained IP units: Type RT puts DSP, control, monitoring and I/O in one box, and TekTon 32 is ST 2110 native. For freelance A1s, the console on a flypack or small OB job is increasingly a networked endpoint rather than a desk tied to a core.\n\nThe Astral Mini Plus is the item for location and live mixers. Tuning across 169–1525 MHz means one body-pack can cover most licensed and licence-exempt bands in different countries. That matters in Europe, where UHF allocations differ from country to country and keep shrinking. Check range, RF power and Italian-band specifics on Sound Devices' own spec sheet before you budget for it. Mix's summary does not give a price.",
+      "signal": 2,
+      "source": "Mix",
+      "take": "NAB Show New York drew attendees from 72 countries, 57% of them first-timers, and more than 250 exhibitors. Audio launches included Calrec's all-in-one Type RT console and Apex M6 1U modular I/O, and Sound Devices' Astral Mini Plus transmitter (169–1525 MHz tuning, 8+ hours of battery, IP67, shipping October). Also shown: Wheatstone's 39-inch TekTon 32 with AES67 and SMPTE 2110, Pliant's CrewCom Flex intercom, and Riedel's OnAir 500 headsets.",
+      "title": "NAB New York wrap: Calrec Type RT, Astral Mini Plus and IP desks",
+      "url": "https://www.mixonline.com/news/nab-new-york-2026"
+    },
+    {
+      "cat": "plugins",
+      "date": "2026-10-23",
+      "deep": "Louder sounds better, so a boost almost always wins a quick A/B and a cut almost always loses. Many EQs offer auto-gain, but it is usually a fixed estimate based on the curve rather than a measurement of the actual signal. Levelproof measures real integrated loudness and then holds that value, so the compensation doesn't keep moving while you work.\n\nThe catch is that matching is only as good as the material it measured. A short learn on a quiet verse will be wrong for the chorus. There is no AAX, so Pro Tools users can't use it directly.",
+      "free": true,
+      "signal": 2,
+      "source": "KVR Audio",
+      "take": "Stemwire's Levelproof EQ is a free (pay what you want) transparent EQ with up to 24 bands, in VST3 and AU for macOS and Windows. Each change is level-matched to the original using a short LUFS measurement, which then locks so the match survives project reloads until you change something or relearn.",
+      "title": "Free: Stemwire Levelproof EQ level-matches every move by LUFS",
+      "todo": "Try it on a vocal you think needs a presence boost and see whether you still want the boost once the level is matched.",
+      "url": "https://www.kvraudio.com/news/stemwire-releases-levelproof-eq---free-eq-plugin-vst3-and-au-69331"
+    },
+    {
+      "cat": "ai",
+      "date": "2026-10-22",
+      "deep": "This is discovery in the majors' copyright cases against the AI music firms. Suno and Udio want industry-wide streaming data to argue that AI-generated music has not harmed the market for human recordings. Market harm is central to a fair-use defence. They have turned down a compromise limited to the plaintiff labels' own data.\n\nIt matters beyond the courtroom because the outcome of these cases will set the terms of the licensing deals now being negotiated. Those terms decide whether session work, stems and mixes you deliver can be used for training, and on what basis.",
+      "signal": 2,
+      "source": "Digital Music News",
+      "take": "Suno has filed a motion to compel the Mechanical Licensing Collective to comply with a subpoena for label-by-label monthly performance data from 2021 onward across eight DSPs. Suno says the MLC agreed to produce several terabytes for about $5,000 in costs, then reversed after DSPs objected. Udio has served a near-identical subpoena; under a proposed schedule the MLC responds by 30 October and Udio replies by 13 November.",
+      "title": "Suno moves to force the MLC to hand over years of streaming data",
+      "url": "https://www.digitalmusicnews.com/2026/10/22/suno-mlc-subpoena/"
+    },
+    {
+      "cat": "live",
+      "date": "2026-10-22",
+      "deep": "The DMI-KLANG card is the simplest way to add KLANG processing to a DiGiCo desk, but its 64-channel Dante limit is easy to overlook until the input list grows. Bond's fix is to route playback on a separate MADI path rather than add a second processor. That works if the playback sources don't need to be in the immersive mix.\n\nThe workflow detail is useful too. The video director mixes his own KLANG feed in KLANG:app over Ethernet, and crew build their own talk paths on Stream Decks. Giving people self-serve mixes frees the monitor engineer to focus on the band.",
+      "signal": 2,
+      "source": "FOH",
+      "take": "Monitor engineer Nathan Bond mixes more than 80 inputs on a DiGiCo Quantum338 with a DMI-KLANG card for immersive IEM mixes. Because the card handles only 64 Dante channels, playback reaches the console over MADI. Rupert Neve RMP-D8 preamps on Dante and Sound Devices Astral ARX16 wireless complete the rig. Elgato Stream Decks let crew set up their own comms channels.",
+      "title": "Hilary Duff's monitors: KLANG on a Quantum338, with MADI to beat the 64-channel Dante limit",
+      "todo": "If you spec a DMI-KLANG card, count the sources that need immersive processing against its 64 Dante channels before advance week.",
+      "url": "https://fohonline.com/featured/klang-helps-hilary-duffs-monitor-mixes-come-clean-on-tour/"
+    },
+    {
+      "cat": "instruments",
+      "date": "2026-10-23",
+      "deep": "Until now, recording a groovebox like the OP-XY meant either a stereo bounce or soloing and re-recording each track, with any live performance lost. Eight channels over class-compliant USB turns it into a small multitrack source. That is useful when an artist brings one to a session and you want stems you can mix, not a printed balance.\n\nThe article gives no sample-rate or bit-depth details for the 8-channel mode. Check what your DAW sees, and watch for clock drift if the OP-XY is not your session's clock master.",
+      "free": true,
+      "signal": 2,
+      "source": "Synthtopia",
+      "take": "Teenage Engineering's free OP-XY OS 1.2.0 adds three USB audio modes: standard stereo, custom stereo, and a fully custom 8-channel output with four preset and four user routings. You can now record separate instrument and aux tracks into a DAW over one cable. The update also brings 'drumline', a drum synth with ten models, plus a dynamic HP/LP filter with compression and drive, and a detune control.",
+      "title": "OP-XY OS 1.2.0 sends up to eight channels over USB-C",
+      "url": "https://www.synthtopia.com/content/2026/10/23/op-xy-update-adds-a-new-drum-synth-multichannel-audio-more/"
+    },
+    {
+      "cat": "hearing",
+      "date": "2026-10-23",
+      "deep": "Cochlear implants need a working auditory nerve. Brainstem implants are the only option for people born without one or who lose it to tumour surgery, but they usually give much poorer speech understanding. Most coding strategies come from Western device makers and handle pitch poorly. That matters most for tonal languages, where pitch changes the meaning of a word.\n\nThe report gives no outcome data, so it is too early to say how much the tone-aware strategy helps. For audio people it is a reminder that pitch coding, not just loudness, is the hard problem in electrical hearing.",
+      "signal": 2,
+      "source": "The World of Implantable Devices",
+      "take": "China's NMPA has approved Nurotron's WH-01A auditory brainstem implant, developed with Shanghai Ninth People's Hospital. It is for patients without a usable cochlea or cochlear nerve: it bypasses both and stimulates the cochlear nucleus directly through a 16-contact array. Its coding strategy is designed around Mandarin's four lexical tones, and it can record neural responses while stimulating. Trials ran from 2022 to 2024.",
+      "title": "China approves Nurotron auditory brainstem implant with tone-aware coding",
+      "url": "https://www.implantable-device.com/2026/10/23/nurotron-auditory-brainstem-implant-receives-chinese-market-approval/"
+    },
+    {
+      "cat": "industry",
+      "date": "2026-10-22",
+      "deep": "Engineer and producer credits usually get lost between the session and the release. Labels and distributors fill in metadata weeks later from memory or old emails. Recording them during production, next to the audio files, is the right place to do it, and connections to BMI and The MLC suggest the data can reach the places that pay.\n\nWhether it sticks depends on adoption: credits only matter if distributors pass them on to DSPs. It's still worth having your own name and role on the record from day one.",
+      "signal": 2,
+      "source": "Mix",
+      "take": "The Sound Credit credits platform has rebranded as Flowthru and added lossless audio sharing via desktop sync, timestamped comments, credits and splits recorded during production, and rights registration and delivery. Users named include Warner ADA, BMI, The Orchard, Avid and The MLC. No base price was given; sign-ups by 21 November get three months of Pro free.",
+      "title": "Sound Credit becomes Flowthru and captures credits during the session",
+      "todo": "Ask clients which credits system their label or distributor uses, and make sure your own credit is entered before the session ends.",
+      "url": "https://www.mixonline.com/technology/news-products/sound-credit-rebrands-as-flowthru-adds-release-prep-features"
+    },
+    {
+      "cat": "live",
+      "date": "2026-10-23",
+      "deep": "The interesting choices are practical. Smaller dishes trade some low-frequency gain for mobility: a parabolic's useful low-frequency limit rises as the dish gets smaller. In return, operators can follow the ball where full-size dishes would block sightlines. Recording the mound-cam mics continuously means replays get matching isolated sound instead of whatever was in the live effects mix at the time.\n\nThe article does not name the console or mic models, so treat it as a workflow case study rather than a gear list.",
+      "signal": 2,
+      "source": "Sports Video Group",
+      "take": "FOX Sports refreshed its World Series audio with Dave Free as new effects submixer under A1 Joe Carpenter, and BSI taking over wireless from CP Communications. Klover supplied 16-inch parabolic dishes so A2s can work aisles without blocking fans, the outfield wall carries 24 mics, and a new pitcher's-mound camera has a mic on each side of the lens, recorded continuously to EVS for isolated replays.",
+      "title": "FOX's World Series sound: new FX team, smaller parabolics and a mic'd mound cam",
+      "url": "https://www.sportsvideo.org/2026/10/23/fox-sports-gives-series-sound-a-refresh-with-new-people-on-the-audio-team-new-parabolics/"
+    },
+    {
+      "cat": "gear",
+      "date": "2026-10-23",
+      "signal": 1,
+      "source": "ProSoundWeb",
+      "take": "RME's ADI-2/4 PRO EX AD/DA converter runs up to 768 kHz with a stated 127 dBA dynamic range from its ELAR circuitry, and SteadyClock EX rated at ±1 ppm, with the master clock adjustable in 0.1 ppm steps. It has two headphone amps including balanced Pentaconn output, plus five-band EQ, crossfeed and M/S. The report gives no price.",
+      "title": "RME ADI-2/4 PRO EX: 768 kHz, 127 dBA and SteadyClock EX",
+      "url": "https://www.prosoundweb.com/rme-debuts-new-adi-2-4-pro-ex-audio-converter/"
+    },
+    {
+      "cat": "live",
+      "date": "2026-10-22",
+      "signal": 1,
+      "source": "FOH",
+      "take": "Bethel Woods replaced ten two-box clusters with eight EAW KF210 arrays (64 boxes) and eight downfills, driven by 17 four-channel 4,000 W amps. Two redundant Q-SYS Core 24F processors run on primary and secondary Dante networks, with automatic failover to an analog backup. The rebuild fixes poor coverage at the top quarter of a sloped lawn holding about 10,500 people.",
+      "title": "Woodstock site lawn PA rebuilt with two Dante networks and analog fallback",
+      "url": "https://fohonline.com/newsroom/news/new-sound-at-the-woodstock-site/"
+    },
+    {
+      "cat": "speakers",
+      "date": "2026-10-22",
+      "signal": 1,
+      "source": "FOH",
+      "take": "Eastman School of Music's 2,326-seat Kodak Hall has one of the first US installs of Meyer Sound's Tigra line array: 12 per side, with ULTRA-X80, X82 and X20 fills, UP-4slim under-balcony delays and four 2100-LFC subs, all managed by two GALAXY 816 processors. Bob McCarthy designed and tuned it. The article gives no Tigra specs.",
+      "title": "Meyer Tigra's early US install, tuned by Bob McCarthy",
+      "url": "https://fohonline.com/featured/meyer-sound-tigra-debuts-at-eastman-school-of-music/"
+    },
+    {
+      "cat": "plugins",
+      "date": "2026-10-23",
+      "free": true,
+      "signal": 1,
+      "source": "Bedroom Producers Blog",
+      "take": "D16 Group's free Echolite delay syncs from 1/64 to four bars or runs up to 400 ms free, with feedback up to 110% and a post filter (LP/HP/BP/BR, 12 or 24 dB/oct) with op-amp emulation. It comes in VST2, VST3, AU and AAX for Windows and macOS up to 26, with no account needed.",
+      "title": "Free: D16 Echolite stereo delay, with AAX",
+      "url": "https://bedroomproducersblog.com/2026/10/23/d16-group-echolite/"
+    },
+    {
+      "cat": "plugins",
+      "date": "2026-10-22",
+      "free": true,
+      "signal": 1,
+      "source": "Bedroom Producers Blog",
+      "take": "GLUECOMP-3B is a free three-band compressor with no threshold or ratio: an ADAPT knob sets how hard it responds, across Transparent, Punchy, Loud and Aggressive modes, with Peak, RMS or loudness detection and a level-matched compare. It comes in AU/VST3 for macOS 11+ and VST3 for Windows 10+, with no account needed. Adaptive processing hides what it is doing, so check it with bypass at matched level.",
+      "title": "Free: DYMAI GLUECOMP-3B adaptive bus compressor",
+      "url": "https://bedroomproducersblog.com/2026/10/22/dymai-sound-gluecomp/"
+    },
+    {
+      "cat": "post",
+      "date": "2026-10-22",
+      "signal": 1,
+      "source": "Production Expert",
+      "take": "UBERBASS is a low-frequency enhancer for sound design. Its boost frequency can be set in Hz or by note (E0–B2), with Q, intensity, drive, a gate and a low cut, plus 2x/4x oversampling and 10 ms of switchable lookahead. Its AAX version includes AudioSuite, so you can render weight straight onto impacts and explosions in a Pro Tools effects edit. Price not stated; trial available.",
+      "title": "BOOM Library UBERBASS adds low-end weight, with AudioSuite",
+      "url": "https://www.production-expert.com/production-expert-1/adding-weight-and-impact-to-sound-design-with-boom-library-uberbass"
+    },
+    {
+      "cat": "plugins",
+      "date": "2026-10-22",
+      "signal": 1,
+      "source": "KVR Audio",
+      "take": "Colorfield Mix Stage links every instance onto one virtual stage across six rooms. Its Depth control changes level, direct-to-room balance, early reflections and high-frequency loss together, while Level Lock holds loudness as you move a track. It also lists masking clashes, has zero latency, and comes in VST3/AU/AAX at $29 until 19 November ($99 after). It is stereo only, so it suits music and stereo post, not immersive.",
+      "title": "Vitric Colorfield Mix Stage places tracks in depth on one shared stage",
+      "url": "https://www.kvraudio.com/news/vitric-audio-releases-colorfield-mix-stage---depth-and-room-placement-plugin-with-six-rooms-69323"
+    },
+    {
+      "cat": "ai",
+      "date": "2026-10-22",
+      "signal": 1,
+      "source": "Production Expert",
+      "take": "An independent developer used AI coding tools to build an Apple Silicon driver and a full editor for Avid's long-abandoned Eleven Rack in a few weeks. Production Expert reports rumours of similar efforts for the Mbox 2 and Euphonix control surfaces. Community drivers come without vendor support, so test them well away from paid sessions.",
+      "title": "AI-assisted coding revives Avid's Eleven Rack on Apple Silicon",
+      "url": "https://www.production-expert.com/production-expert-1/ai-is-bringing-dead-audio-gear-back-to-life"
+    },
+    {
+      "cat": "instruments",
+      "date": "2026-10-23",
+      "free": true,
+      "signal": 1,
+      "source": "Synth Anatomy",
+      "take": "Erica Synths has published the firmware for the LXR-02, its six-voice FM drum synth with a 64-step sequencer, on GitHub. Official firmware remains available, but Erica won't support custom builds, and a bricked bootloader is a paid repair. It joins a broader trend of open firmware keeping instruments useful after official development ends.",
+      "title": "Erica Synths open-sources the LXR-02 drum synth firmware",
+      "url": "https://synthanatomy.com/2026/10/erica-synths-lxr-02-is-now-open-source-drum-synth-developed-with-sonic-potions.html"
+    },
+    {
+      "cat": "hearing",
+      "date": "2026-10-23",
+      "signal": 1,
+      "source": "HearingTracker",
+      "take": "Rep. Mike Thompson is taking over the Medicare Dental, Vision, and Hearing Benefit Act (H.R. 2045) from the retiring Rep. Lloyd Doggett, carrying it into the Congress that starts in January 2027. It would cover hearing exams and classify hearing aids as durable medical equipment, with Medicare paying 80% for one device per ear every four years. Medicare has excluded hearing aids since 1965, and earlier versions of the bill failed.",
+      "title": "US Medicare hearing-aid bill gets a new lead sponsor",
+      "url": "https://www.hearingtracker.com/news/medicare-hearing-aid-coverage-gets-another-push-from-a-new-leader"
+    },
+    {
+      "cat": "instruments",
+      "date": "2026-10-22",
+      "signal": 1,
+      "source": "Sound On Sound",
+      "take": "Roland's two new Boutique synths are the JUPITER-08, based on the 1981 Jupiter-8 and expandable to 32 voices with a 64-step polyphonic sequencer, and the n/vision, a two-layer wavetable synth with an analogue-modelled filter. Both have built-in speakers, battery or USB-C power, USB audio and MIDI, and work with the K-25m keyboard dock. Both are available now.",
+      "title": "Roland Boutique JUPITER-08 and n/vision, with USB audio, at $549.99 each",
+      "url": "https://www.soundonsound.com/news/roland-launch-two-new-boutique-synths"
+    },
+    {
+      "cat": "industry",
+      "date": "2026-10-22",
+      "signal": 1,
+      "source": "Music Business Worldwide",
+      "take": "Spotify added 6 million subscribers in Q3 to reach 306 million, with 788 million monthly users. Revenue rose 16% to €4.97 billion, and operating income was €672 million. It is on course for an operating profit of about €2.86 billion in 2026. Useful context when per-stream income for the people who make the recordings has barely moved.",
+      "title": "Spotify reaches 306 million subscribers and heads for a record profit",
+      "url": "https://www.musicbusinessworldwide.com/spotify-is-on-course-for-a-3-3b-annual-operating-profit-in-2026-after-adding-6m-subscribers-in-q3/"
+    }
+  ],
+  "key": "2026-10-24",
+  "label": "Sat 24 Oct 2026",
+  "lead": "A quiet end to the week, but some useful items. A Valencian team working with DAS Audio published a method that rebuilds a loudspeaker's full radiation balloon from just three measured planes, which could cut the anechoic work behind prediction software. On the business side, a producer's lawsuit against Sony over an alleged half-rate royalty and an audit-waiver clause is a reminder to read every letter of direction. There are also free plugins worth a look, a location-sound trap on Sigma's new fp2, and NAB New York's broadcast audio launches.",
+  "period": "day",
+  "radar": [
+    {
+      "date": "2026-10-30",
+      "note": "Under the proposed schedule, the MLC answers Udio's motion by 30 October and Udio replies by 13 November.",
+      "title": "MLC's response due on Udio's data subpoena",
+      "url": "https://www.digitalmusicnews.com/2026/10/22/suno-mlc-subpoena/"
+    },
+    {
+      "date": "2026-10-31",
+      "note": "Sweetwater's 7.1.4 Atmos Airstream studio, with an SSL System T, will be on site at the Gaylord Opryland.",
+      "title": "AES Nashville (31 Oct–1 Nov)",
+      "url": "https://www.sportsvideo.org/2026/10/22/sweetwaters-dolby-atmos-airstream-studio-makes-two-nashville-area-stops/"
+    },
+    {
+      "date": "2026-11-19",
+      "note": "The $29 intro price returns to $99 after 19 November.",
+      "title": "Colorfield Mix Stage intro price ends",
+      "url": "https://www.kvraudio.com/news/vitric-audio-releases-colorfield-mix-stage---depth-and-room-placement-plugin-with-six-rooms-69323"
+    }
+  ],
+  "range": "22–24 Oct 2026"
+}

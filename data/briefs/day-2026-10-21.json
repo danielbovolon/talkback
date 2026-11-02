@@ -1,0 +1,274 @@
+{
+  "craft": {
+    "body": "The Gorillaz dropouts were found by recording the RF picture over time, not by staring at a scan during soundcheck. Interference between IEM and mic transmitters often appears only at one stage position or one moment in the show, when packs and transmitters line up. Start every show with your scanner or coordination software logging, and note cue times when you hear a problem, so you can line them up afterwards.\n\nKeep IEM transmitters and their antennas well away from mic receive antennas, and treat the IEM bands as part of the coordination, not something you add at the end. When a problem appears, change one thing at a time and keep the log running so you can prove the fix.",
+    "title": "Log your RF before you chase it"
+  },
+  "generated": "2026-10-21T07:20:00+02:00",
+  "headline": "Screens that speak, AI covers spread",
+  "items": [
+    {
+      "breakthrough": true,
+      "cat": "science",
+      "date": "2026-10-19",
+      "deep": "Panel speakers are not new: distributed-mode loudspeakers and OLED 'screen sound' TVs already use exciters behind a surface. What is new here is a large array of actuators driven per zone from the content, so a voice can come from the actor's mouth rather than from a centre speaker behind or below the screen. Driving several modules together is said to give a woofer-like low-frequency effect.\n\nThe limits matter. The release gives no SPL, frequency response or distortion figures, and zone isolation is quoted as panel vibration, not as acoustic separation at the listener. The paper was in the Journal of Mechanical Science and Technology in May 2026 and the work is patented in Korea.\n\nFor post mixers this is the direction object-based rendering could take on future screens: dialogue anchoring would be done by the display, not by the room's LCR. Worth watching for cinema, signage and immersive installations; not something to plan a mix around yet.",
+      "signal": 3,
+      "source": "Newswise (NST/KIMM)",
+      "take": "The Korea Institute of Machinery and Materials has shown a modular display that radiates sound from the screen surface itself. Eighty voice-coil actuators sit behind an aluminium panel carrying a transparent LED film, and AI source separation and localisation decide which zone of the panel vibrates. The team reports 99.9% accuracy in picking the target zone and up to 35 dB of vibration difference between active and idle zones.",
+      "title": "KIMM builds a 100-inch screen that sounds from where the picture is",
+      "url": "https://www.newswise.com/articles/sound-comes-from-where-you-see-it-kimm-develops-display-technology-that-reproduces-sound-at-on-screen-locations"
+    },
+    {
+      "cat": "ai",
+      "date": "2026-10-20",
+      "deep": "Consent is in two steps: an artist first opts in to being considered for AI programmes at all, then separately decides on the Spotify partnership. That is more granular than most AI licensing so far, where a label or distributor deal simply covered the catalogue.\n\nBelieve and TuneCore distribute a large share of Italian independent releases, and Believe also signed a global licence with Suno in September. If you co-own masters, hold points, or released your own records through either service, expect an opt-in request in your dashboard or inbox.\n\nWhat is still unclear: how remix and cover revenue is split between master and publishing sides, whether producers and engineers on points see any of it, and how the tool treats stems. Until those terms are public, treat the opt-in as a contract decision, not a settings toggle.",
+      "signal": 3,
+      "source": "Music Business Worldwide",
+      "take": "Believe and its DIY arm TuneCore have signed up to Spotify's planned AI covers and remixes tool, after UMG (May), Merlin (4 August) and Kobalt (13 August). Sony and Warner have not announced deals. The tool will be a paid add-on for Premium, with royalties going to the rights holders of the original recordings; no price or launch date yet.",
+      "title": "Believe and TuneCore license Spotify's AI covers and remixes tool",
+      "todo": "If you have releases on Believe or TuneCore, check your account for the AI-programme opt-in and read the terms before accepting.",
+      "url": "https://www.musicbusinessworldwide.com/spotify-inks-licensing-deal-with-believe-for-ai-covers-and-remixes-tool/"
+    },
+    {
+      "cat": "live",
+      "date": "2026-10-20",
+      "deep": "Offline editing was the big missing piece on the Qu range compared with SQ and dLive. Being able to prepare a show file on a laptop the night before, and spill DCAs to get to the channels you need fast, makes the desk realistic for corporate work, small festivals and theatre where you rarely get console time before doors.\n\nThe Listen bus is useful in practice: PAFL can feed a separate output for a monitor engineer or a wedge at FOH without stealing your own headphones. The Expander gives gentler downward expansion on toms and ambient mics, where hard gating chops tails.\n\nThe 32×32 Dante upgrade makes the D models a credible small node for multitrack recording and virtual soundcheck alongside stage boxes. Check the licence price and whether your stage box count actually needs it before buying.",
+      "free": true,
+      "signal": 3,
+      "source": "ProSoundWeb",
+      "take": "Free V1.2 firmware for current Qu mixers adds Qu-MixPad for Windows and macOS with an Offline Mode for building shows without a console, an Expander as an alternative to gates on inputs, a Listen bus that sends PAFL to its own output with its own level, and DCA Spill. A paid upgrade doubles Dante on Qu-5D, Qu-6D and Qu-7D from 16×16 to 32×32; no price was given.",
+      "title": "Allen & Heath Qu V1.2: offline show prep, Listen bus and a 32×32 Dante option",
+      "todo": "Update firmware before your next Qu gig, and test a show file built in Offline Mode on the desk before you rely on it.",
+      "url": "https://www.prosoundweb.com/allen-heath-releases-qu-v1-2-firmware-update/"
+    },
+    {
+      "cat": "gear",
+      "date": "2026-10-19",
+      "deep": "Eight preamps in half a rack with ADAT out is the useful part: it can be a second box for drum tracking on an existing interface, or a compact location recorder front end into a laptop. MOTU quotes round-trip latency as low as 2 ms with its own drivers, and the unit is also class-compliant.\n\nThe −129 dB EIN figure is respectable; whether it holds at full gain with a low-output ribbon is the thing to test. Check how the ADAT clocking is handled before you make it the expander on a larger rig.",
+      "signal": 2,
+      "source": "Sound On Sound",
+      "take": "MOTU's new USB 2.0 interface has 16 inputs and 12 outputs, eight mic preamps with 74 dB of gain and a quoted −129 dB EIN, per-channel phantom power and −20 dB pads, and 32-bit ESS converters. Onboard DSP adds reverb, four-band EQ, compression and gating, and eight channels of ADAT in and out let it act as a preamp expander. It is available now at $849.95.",
+      "title": "MOTU OctaLite: eight preamps and ADAT in a half-rack for $849.95",
+      "url": "https://www.soundonsound.com/news/motu-introduce-octalite"
+    },
+    {
+      "cat": "industry",
+      "date": "2026-10-20",
+      "deep": "Termination rights let US authors reclaim copyrights they assigned decades earlier. Publishers had argued reversion covers only US territory, so foreign exploitation would stay with them. The Fifth Circuit disagreed, and the Supreme Court cannot now review it.\n\nThe ruling binds only the Fifth Circuit, and other appeals courts could still decide differently, so expect more litigation. But it strengthens the hand of any creator with US-originated works, including European writers and producers who signed US publishing or recording deals in the 1980s and 1990s.\n\nFor engineers it is mainly a reminder that the territory and duration clauses in old contracts are now worth money.",
+      "signal": 2,
+      "source": "Complete Music Update",
+      "take": "Four of nine justices recused because of book deals with Penguin Random House, owned by BMG's parent Bertelsmann, leaving the court below its six-judge quorum. That leaves in place the Fifth Circuit ruling for songwriter Cyril Vetter: when a creator terminates a US grant after 35 years (56 for pre-1978 works), the rights revert worldwide, not only in the US.",
+      "title": "US Supreme Court can't hear the termination-rights case, so the worldwide reversion ruling stands",
+      "url": "https://completemusicupdate.com/us-supreme-court-cant-overturn-landmark-termination-rights-ruling-because-too-many-judges-have-book-deals-with-bmg-sister-company-penguin-random-house/"
+    },
+    {
+      "cat": "hearing",
+      "date": "2026-10-20",
+      "deep": "The switch addresses a real behaviour problem: the release says nearly 60% of earplug users took them out to talk. A plug you can open for a conversation and close again is more likely to stay in your ear for the whole set.\n\nFor crews the key number is missing. Without a published attenuation curve you cannot know whether 'closed' gives a flat 15 dB or a dull foam-like response, and for mixing that difference matters. Staff and touring crews are named as recipients, so it is worth asking for the spec sheet.",
+      "signal": 2,
+      "source": "That Eric Alper",
+      "take": "Live Nation has taken an equity stake in Unplugs and is selling its earplugs at 60 US venues, through vending machines, merch stands and guest services, with free foam plugs still available. The plugs have a mechanical two-position switch, filtered or open, with no battery or app. Neither the attenuation in dB nor the price was reported.",
+      "title": "Live Nation invests in Unplugs and rolls switchable earplugs into 60 US venues",
+      "todo": "Before relying on any switchable plug at work, ask for its measured attenuation per octave band, not just a single number.",
+      "url": "https://thatericalper.com/2026/10/20/live-nation-and-unplugs-bring-switchable-earplugs-to-60-concert-venues"
+    },
+    {
+      "cat": "post",
+      "date": "2026-10-19",
+      "deep": "The Cargo Cult makes editorial utilities that post editors already rely on, and this one aims squarely at dialogue inflection fixes, pitched SFX design and stretching stems to fit picture changes. Offline AudioSuite processing keeps CPU free and renders to the clip, which is how most dialogue editors want to work.\n\nThe price puts it against tools already on many systems, so use the trial on your hardest material: transients on footsteps, breaths, and sustained tones stretched by more than 10%. Also check how the REAPER extension handles item properties and takes, since the workflow there differs from AudioSuite clip rendering.",
+      "signal": 2,
+      "source": "Production Expert",
+      "take": "Relativity runs as AudioSuite in Pro Tools and as an extension in REAPER, with separate algorithms for pitch shifting, time stretching, pitch bends and speed changes. A lighter real-time version, RelativityRT, comes in VST3, AAX and AU. It costs $499, or $379 until 23:59 PDT on Friday 23 October, with a 30-day trial.",
+      "title": "The Cargo Cult Relativity: offline speed and pitch for Pro Tools and REAPER",
+      "url": "https://www.production-expert.com/production-expert-1/the-cargo-cult-launches-relativity-a-speed-and-pitch-processor-for-pro-tools-and-reaper"
+    },
+    {
+      "cat": "live",
+      "date": "2026-10-19",
+      "deep": "IEM transmitters and mic transmitters sharing a crowded stage is a classic source of intermodulation and receiver blocking, and it often shows up only in one position on stage. The useful lesson is the method: logging RF over time and lining events up with show moments shows where and when the problem happens, instead of chasing it at soundcheck.\n\nThe article does not give frequencies or power levels, so it is a case study in process, not a recipe. On a smaller tour without a dedicated RF coordinator, the same approach works with any scanner that records over time: start logging at doors and note cue times when the band reports a problem.",
+      "signal": 2,
+      "source": "TPi",
+      "take": "Guitarist Jeff's Axient Digital AD1 bodypacks suffered dropouts and low-level noise near his amps, traced to the previous IEM system. Moving him to Shure's Axient Digital PSM removed the clash, and Wireless Workbench timeline recording helped find the cause. RF coordinator Colin Woodward runs an AXT600 spectrum manager, with an AD600 upgrade planned.",
+      "title": "Gorillaz: how Shure tracked down IEM interference on a guitarist's mic packs",
+      "url": "https://www.tpimagazine.com/shure-eliminates-iem-interference-for-gorillaz/"
+    },
+    {
+      "cat": "plugins",
+      "date": "2026-10-19",
+      "free": true,
+      "signal": 2,
+      "source": "Bedroom Producers Blog",
+      "take": "Probe analyses EQ frequency and phase response, harmonics, aliasing separated from harmonics, impulse response and compressor behaviour at higher levels. Two six-slot chains allow A−B null tests with latency alignment, and it compares measured latency with the latency a plugin reports to the host. Standalone, VST3 and AU on Windows and macOS; an email is required.",
+      "title": "Free: SnowTec Probe measures what your plugins actually do",
+      "todo": "Run your usual parallel compression plugin through Probe's latency check and null test against the dry signal.",
+      "url": "https://bedroomproducersblog.com/2026/10/19/snowtec-probe-plugin-analyzer/"
+    },
+    {
+      "cat": "gear",
+      "date": "2026-10-20",
+      "signal": 2,
+      "source": "Mixdown",
+      "take": "SSL's new 1U unit uses THAT 2181 VCAs, stepped six-position Ratio, Attack, Release and side-chain HPF controls, Auto Release and a soft-knee 2:1 option. A variable VCA Drive control goes up to close to 10% THD, and there is a true stereo external side-chain input. Price and availability were not reported.",
+      "title": "SSL Bus Comp Classic puts the console bus compressor back in 1U",
+      "url": "https://mixdownmag.com.au/news/solid-state-logic-brings-its-classic-bus-compressor-back-in-1u-with-bus-comp-classic/"
+    },
+    {
+      "cat": "software",
+      "date": "2026-10-20",
+      "signal": 2,
+      "source": "Production Expert",
+      "take": "The update adds a trim automation layer that leaves existing automation untouched, a Dim Solo mode, freeze that keeps volume and pan live, plugin swapping, multiple marker tracks in timecode or bars and beats, guitar and piano stem separation, and a sub-3 ms Vocal Tune mode. MIDI 2.0 works on macOS and Linux; on Windows it waits for Microsoft's release and needs Windows 11 25H2 or later. Free for Pro+ and eligible perpetual owners.",
+      "title": "Fender Studio Pro 8.2 adds trim automation, Dim Solo and timecode marker tracks",
+      "url": "https://www.production-expert.com/production-expert-1/fender-studio-pro-82-adds-trim-automation-dim-solo-and-multiple-marker-tracks"
+    },
+    {
+      "cat": "ai",
+      "date": "2026-10-19",
+      "signal": 2,
+      "source": "Music Business Worldwide",
+      "take": "UMG and Sony filed a motion on 14 October in Manhattan to compel DistroKid, proposing a 30 October deadline. They say DistroKid delivered nearly 12 million tracks to one unnamed streaming service between March and September 2026, more than half of that service's intake. The labels' second Suno suit covers 60,202 recordings.",
+      "title": "Labels ask court to make DistroKid hand over AI-music data in the Suno case",
+      "url": "https://musicbusinessworldwide.com/umg-and-sony-ask-court-to-force-distrokid-to-hand-over-ai-music-data-for-suno-case"
+    },
+    {
+      "cat": "industry",
+      "date": "2026-10-19",
+      "signal": 2,
+      "source": "Music Business Worldwide",
+      "take": "Bologna-founded Musixmatch has acquired Music Reports, owner of the Songdex database, plus Blokur, its first acquisition in about 16 years; terms were not disclosed. The group now includes the Cuetrak cue-sheet software and says it works with more than 250,000 rights owners. Suno became the first customer of its Sentinel product in August.",
+      "title": "Musixmatch buys Music Reports and Blokur to build a rights and royalties platform",
+      "url": "https://musicbusinessworldwide.com/musixmatch-acquires-songdex-owner-music-reports-as-it-looks-to-become-a-full-stack-rights-and-royalties-platform"
+    },
+    {
+      "cat": "plugins",
+      "date": "2026-10-20",
+      "free": true,
+      "signal": 1,
+      "source": "Bedroom Producers Blog",
+      "take": "PitchNet 0.7.2 offers a piano-roll pitch editor with curve drawing, audio and MIDI export and AI resynthesis, using ARA in supported hosts. It runs as VST3/AAX on Windows, VST3/AU/AAX on macOS 13+ and VST3 on Linux, with 8 GB RAM minimum. It is early software, so test it on non-client material first.",
+      "title": "Free and open source: Session Loops PitchNet, a pitch editor with ARA and AAX",
+      "url": "https://bedroomproducersblog.com/2026/10/20/session-loops-pitchnet/"
+    },
+    {
+      "cat": "live",
+      "date": "2026-10-20",
+      "signal": 1,
+      "source": "ProSoundWeb",
+      "take": "The card adds 128 channels of ST 2110-30, AES67 and RAVENNA I/O, with an internal matrix of up to 2,048×2,048 connections and 64-channel bus summing via Pro|Mon. It is on show at NAB New York. The article gives no PTP or sample-rate details.",
+      "title": "DAD shows a 128-channel ST 2110-30 card for Thunder|Core and Penta interfaces",
+      "url": "https://www.prosoundweb.com/dad-to-showcase-new-st-2110-30-expansion-card-at-nab-new-york/"
+    },
+    {
+      "cat": "live",
+      "date": "2026-10-20",
+      "signal": 1,
+      "source": "ProSoundWeb",
+      "take": "Sound designer Peter Rice used TiMax SoundHub with TrackerD4 tags mounted on the revolving two-storey set, so vocal images follow the rooms rather than each actor. The rig has about 150 loudspeakers on 121 amp channels, including an overhead LCR, a d&b V10 system and 15 front fills in the stage fascia.",
+      "title": "The Oresteia at the Bridge: TiMax tracking follows a revolving glass house",
+      "url": "https://www.prosoundweb.com/timax-keeps-pace-with-the-oresteias-revolving-glass-house-in-london/"
+    },
+    {
+      "cat": "tech",
+      "date": "2026-10-19",
+      "signal": 1,
+      "source": "audioXpress",
+      "take": "Panasonic Automotive says its system in the Nissan Elgrand is the first to cancel both broadband road noise and engine noise in a series hybrid; earlier engine ANC was narrowband, mostly below 200 Hz. Accelerometers feed a predictive algorithm that plays anti-phase sound through the car's speakers, alongside a Bose 22-speaker system.",
+      "title": "Panasonic cancels road and engine noise together in a series-hybrid car",
+      "url": "https://audioxpress.com/news/panasonic-automotive-integrates-road-and-engine-noise-cancellation-for-nissan-elgrand-hybrid"
+    },
+    {
+      "cat": "hearing",
+      "date": "2026-10-19",
+      "signal": 1,
+      "source": "Hearing Health & Technology Matters",
+      "take": "In a post-hoc analysis of the Phase 3 STOPMD-3 trial (221 adults), 32.6% on oral ebselen improved by at least 10 dB at 500 Hz–2 kHz at day 84, against 11.5% on placebo. Words-in-noise scores also improved more on the drug. It is not approved, and post-hoc results need confirming.",
+      "title": "SPI-1005 post-hoc data in Ménière's: more patients regain 10 dB or more",
+      "url": "https://hearinghealthmatters.org/hearing-news-watch/2026/sound-pharma-hearing-phase-3/"
+    },
+    {
+      "cat": "instruments",
+      "date": "2026-10-20",
+      "signal": 1,
+      "source": "MusicRadar",
+      "take": "The Jupiter-08 models the Jupiter-8 with 8 voices, expandable to 32; N/vision is the first Boutique wavetable synth, with 63 wavetables. Both have a 64-step sequencer, USB-C audio and MIDI, and come only bundled with the K-25m keyboard at $549.99 each.",
+      "title": "Roland Boutique Jupiter-08 and N/vision wavetable synth",
+      "url": "https://www.musicradar.com/music-tech/roland-unveils-a-new-jupiter-8-inspired-boutique-in-celebration-of-the-originals-45th-birthday-and-drops-an-all-new-wavetable-synth-too"
+    },
+    {
+      "cat": "gear",
+      "date": "2026-10-20",
+      "signal": 1,
+      "source": "Gearnews",
+      "take": "The transformerless cardioid runs on standard 48 V or on 80 V, which the maker says adds 5 dB of sensitivity. It costs $329 / €349 on pre-order, shipping within two months. 80 V is not a standard phantom voltage, so check your preamp or supply before buying for that feature.",
+      "title": "Ohma World Ohmie: a condenser that gains 5 dB on 80 V phantom",
+      "url": "https://www.gearnews.com/ohma-world-ohmie-studio/"
+    },
+    {
+      "cat": "plugins",
+      "date": "2026-10-20",
+      "free": true,
+      "signal": 1,
+      "source": "KVR Audio",
+      "take": "A dual-band processor with downward compression and expansion plus upward dynamics, look-ahead, knee, dry/wet and optional oversampled soft clipping. VST3, AU, CLAP and standalone on macOS, Windows and Linux.",
+      "title": "Free: Dropshot Audio Tight Lines dual-band dynamics",
+      "url": "https://www.kvraudio.com/news/dropshot-audio-releases-tight-lines---free-dual-band-dynamics-processor-au-clap-and-vst3-69125"
+    },
+    {
+      "cat": "live",
+      "date": "2026-10-19",
+      "signal": 1,
+      "source": "ProSoundWeb",
+      "take": "Cascade Sound used Martin Audio across five stages, with a broadside array of 12 SXC118 on one stage and a cardioid ground stack of 6 SXH218 on another, said to keep energy within about 130 ft. Arrays were modelled in DISPLAY 3 with imported terrain because of nearby housing; no dB limits were given.",
+      "title": "Pickathon: cardioid and broadside sub arrays to protect the neighbours",
+      "url": "https://www.prosoundweb.com/pickathon-in-oregon-tackles-coverage-challenges-noise-with-martin-audio/"
+    },
+    {
+      "cat": "post",
+      "date": "2026-10-20",
+      "signal": 1,
+      "source": "ProSoundWeb",
+      "take": "On 1 November at the AES Show, a panel with Eric Schilling, Michael Abbott, John Harris and Ceri Thomas will cover real-time Atmos mixing and encoding, sync, metadata, QC, binaural delivery and the chain from venue to streamer.",
+      "title": "AES Nashville panel on delivering live shows in Dolby Atmos",
+      "url": "https://www.prosoundweb.com/aes-nashville-panel-to-host-from-stage-to-stream-delivering-live-entertainment-in-dolby-atmos/"
+    },
+    {
+      "cat": "plugins",
+      "date": "2026-10-20",
+      "signal": 1,
+      "source": "KVR Audio",
+      "take": "Gain Curve analyses a full take, then draws one editable gain curve you can redraw, ride with a MIDI fader or undo; 1.1 adds background-noise removal in the standalone app. AU, VST3 and ARA in Logic on macOS 11+, $29 for two Macs.",
+      "title": "PVT Studio Gain Curve 1.1: whole-take levelling you can redraw",
+      "url": "https://www.kvraudio.com/news/pvt-studio-releases-gain-curve-v1-1---leveling-tool-that-reads-the-whole-take-first-mac-vst3-and-au-69224"
+    }
+  ],
+  "key": "2026-10-21",
+  "label": "Wed 21 Oct 2026",
+  "lead": "The most interesting technology story is a Korean research display that makes sound come from the exact spot on screen where the action is. On the business side, Believe and TuneCore joined Spotify's AI covers and remixes scheme, which puts an opt-in decision in front of many independent artists and producers, and a US Supreme Court quorum failure left a creator-friendly termination-rights ruling in place. For live work, Allen & Heath's free Qu firmware adds offline show prep, and a Gorillaz case study shows how RF logging found IEM interference.",
+  "period": "day",
+  "radar": [
+    {
+      "date": "2026-10-23",
+      "note": "The Cargo Cult's speed and pitch processor goes from $379 to $499 after 23:59 PDT.",
+      "title": "Relativity intro price ends",
+      "url": "https://www.production-expert.com/production-expert-1/the-cargo-cult-launches-relativity-a-speed-and-pitch-processor-for-pro-tools-and-reaper"
+    },
+    {
+      "date": "2026-10-30",
+      "note": "Runs 30 October to 1 November at Gaylord Opryland, including a live Dolby Atmos delivery panel.",
+      "title": "AES Show Nashville opens",
+      "url": "https://www.prosoundweb.com/aes-nashville-panel-to-host-from-stage-to-stream-delivering-live-entertainment-in-dolby-atmos/"
+    },
+    {
+      "date": "2026-10-30",
+      "note": "The deadline UMG and Sony asked the court to set for DistroKid's AI-music data.",
+      "title": "Proposed DistroKid deadline in the Suno case",
+      "url": "https://musicbusinessworldwide.com/umg-and-sony-ask-court-to-force-distrokid-to-hand-over-ai-music-data-for-suno-case"
+    },
+    {
+      "date": "2026-11-04",
+      "note": "Launch sessions in Orlando; no specs or prices published yet.",
+      "title": "HK Audio COSMO line array US launch",
+      "url": "https://www.prosoundweb.com/hk-audio-announces-u-s-launch-of-cosmo-line-array/"
+    }
+  ],
+  "range": "19–21 Oct 2026"
+}

@@ -1,0 +1,312 @@
+{
+ "period": "week",
+ "key": "2026-W44",
+ "label": "Week 44 · 2026",
+ "range": "26 Oct – 1 Nov 2026",
+ "generated": "2026-11-02T07:45:00+01:00",
+ "headline": "New Macs, old consoles, clearer dialogue",
+ "lead": "The week's practical news was about platforms: Apple shipped new MacBook Pros on macOS 27 before Pro Tools supports it, and Sonnet answered with a Thunderbolt 5 chassis qualified for HDX. Neve put recall on 88R and 1084 processing, RME refreshed its reference converter, and Yamaha's RIVAGE gained a native AVB card. In post, dialogue intelligibility moved from talk to tools, with AES relaunching its loudness site around it and NUGEN and Nuendo adding measurements. On the science side, a 20-driver headphone built to learn a listener's HRTF and an acoustic 'tube' made of sound stood out, while hearing research kept pointing past the standard audiogram.",
+ "items": [
+  {
+   "cat": "software",
+   "date": "2026-10-27",
+   "deep": "New Macs normally can't be downgraded to an earlier macOS, so anyone who buys an M6 is on Golden Gate from day one. Avid says qualification will come in an upcoming release but gives no date. For comparison, Pro Tools support for the M5 Macs only arrived in July with 2026.4.1, months after launch. Production Expert also notes that only a handful of plugins had confirmed Golden Gate support at launch, and that Rosetta 2 is not installed automatically, so older Intel-only plugins can vanish until you install it.\n\nApple has only committed to a base M6 for now; Pro and Max chips are expected with the M7 generation. If you need Thunderbolt 5, more than three Thunderbolt ports or more than 32 GB of memory for big templates, this machine is not the one.\n\nFor paid work the advice is simple: buy within a return window, test a full session on day one, and keep the old machine ready until every critical driver and plugin is confirmed.",
+   "signal": 3,
+   "source": "Production Expert",
+   "take": "Apple's 14-inch MacBook Pro with the base M6 chip starts at $1,999 with 16 GB and 1 TB; the $1,599 entry model is gone. It has a 12-core CPU, up to 32 GB of memory at 170 GB/s and three Thunderbolt 4 ports. Pre-orders open today and deliveries start 6 November. It ships with macOS 27 Golden Gate, and Avid has not yet qualified Pro Tools for it.",
+   "title": "New M6 MacBook Pro ships on macOS 27, which Pro Tools doesn't support yet",
+   "todo": "Before ordering, list every interface driver, plugin and licence manager your sessions depend on and check each vendor's macOS 27 status page.",
+   "url": "https://www.production-expert.com/production-expert-1/apple-m6-macbook-pro-what-audio-pros-need-to-know-before-ordering"
+  },
+  {
+   "cat": "gear",
+   "date": "2026-10-30",
+   "deep": "Recall is the reason most freelancers gave up on outboard. Digitally controlled analogue is not new (Wes Audio, SSL's Fusion-era recall, Bettermaker), but Neve putting its 88R and 1084 circuits behind a plugin with session-saved settings means the analogue state can travel with the DAW project, like any other insert.\n\nThe catch is that recall covers settings, not the rest of the chain: patching, gain into the box and converter calibration still need notes. Eight channels in 2U at these prices is a facility purchase, not a home-studio one, and no independent measurements or latency figures are published yet. Owners of existing 8424 consoles can upgrade.\n\nFor a mix room that changes projects daily, the practical question is whether the plugin control is solid across Pro Tools versions and OS updates, given this month's macOS 27 trouble. Ask Neve about qualification before ordering.",
+   "signal": 3,
+   "source": "Sound On Sound",
+   "take": "Neve launched Elements, its first digitally controlled analogue processors: 2U, eight-channel units (88R EQ, 88R Dynamics and an inductor 1084 EQ) with D-Sub I/O, Ethernet and a recallable insert. They are run from a standalone app or a VST3/AU/AAX plugin with snapshots and 64-step undo. Prices start at $4,895 / £3,495 ex VAT. A new 8424E console ($37,950 / £26,995) adds full recall; shipping is expected in Q1 2027.",
+   "title": "Neve Elements: recallable 88R and 1084 processors, and an 8424E console",
+   "todo": "If you rent rooms with Neve outboard, ask whether they plan Elements units, and add a line to your recall notes listing hardware plugin versions.",
+   "url": "https://www.soundonsound.com/news/neve-unveil-elements-range-8424e-console"
+  },
+  {
+   "cat": "post",
+   "date": "2026-10-29",
+   "deep": "Loudness targets solved jumps between programmes and ads; they did not solve viewers missing lines. TD1009 is the AES document on dialogue intelligibility, and the committee is now putting it next to the loudness recommendations so delivery is judged on clarity as well as on LUFS.\n\nNothing here is a new rule, but it is a free, authoritative reference that connects the dots between dialogue level, dynamics, background music and the listening conditions at home. It lands the same week as the debate over mixing TV on big stages (see below) and after Nuendo 15 and NUGEN VisLM 3 added intelligibility and dialogue-ratio tools.\n\nFor post mixers, expect clients and broadcasters to ask more often about dialogue-to-programme ratio, not just integrated loudness. Having read the AES material puts you ahead of that conversation.",
+   "signal": 3,
+   "source": "TV Technology",
+   "take": "The AES Committee on Broadcast and Online Delivery rebuilt its loudness web resource. It summarises technical documents TD1006, TD1008 and TD1009 and the AES71 and AES77 recommendations, and adds a glossary of loudness and hearing-science terms. AES says about half of viewing now uses captions or subtitles, and the co-chairs say loudness rules are spreading to online content.",
+   "title": "AES relaunches its loudness site around dialogue intelligibility",
+   "todo": "Read TD1009 and the online-delivery recommendation, and add a dialogue-clarity check on small speakers to your final QC pass.",
+   "url": "https://www.tvtechnology.com/standards/aes-dials-in-on-dialogue-intelligibility"
+  },
+  {
+   "breakthrough": true,
+   "cat": "science",
+   "date": "2026-10-27",
+   "deep": "Personal HRTFs are the main reason binaural and headphone Atmos renders sound outside the head for some listeners and inside it for others. Today you either measure them in a lab or approximate them from photos of the ear. The Selfone idea is that the headphone measures your ear itself: the receivers inside the cup capture how many small drivers interact with your pinna, and an algorithm turns that into your cues.\n\nThe paper is honest that this is a first step. Playing sound through individual drivers did not reproduce a listener's HRTF cues, so driving algorithms still have to be developed. The useful finding is that the in-cup measurements did vary strongly with ear shape, which means they carry individual information. Only the left ear was measured, and no localisation results are reported.\n\nIf it works, headphone monitoring for immersive mixes could become personal without a trip to a lab. For now, the open dataset is what researchers and plugin developers can use.",
+   "signal": 3,
+   "source": "JASA",
+   "take": "Researchers at the Austrian Academy of Sciences' Acoustics Research Institute and Graz MEMS-speaker maker USound published a prototype headphone with 20 MEMS drivers and 24 electret receivers in a 3D-printed ear cup on a DT 990 PRO. They measured 100 adults, seven fittings each, and also measured their reference HRTFs with a 91-loudspeaker array. The data is public in the SOFA format.",
+   "title": "Selfone: a 20-driver headphone built to learn your HRTF, with an open dataset of 100 people",
+   "url": "https://pubs.aip.org/asa/jasa/article/160/4/3535/3407466/Towards-self-personalizing-headphones-Individual"
+  },
+  {
+   "cat": "post",
+   "date": "2026-10-26",
+   "deep": "VisLM 2 already gave integrated, short-term and momentary loudness, LRA, dialogue LRA, true peak and a timecode-locked history. The new parts are about delivery rather than metering. LDR is the gap between programme loudness and dialogue loudness. EBU R 128 Supplement 4 (2023) uses it to describe why very dynamic films are hard to broadcast or stream unchanged, and NUGEN pitches it at the intelligibility requirements that are starting to appear in specs.\n\nThe A/85 preset matters too. The July 2026 revision is the first big change to the US broadcast loudness practice since 2013 and adds streaming guidance, so a meter that already knows it saves you building your own preset from the document.\n\nThe QC report is the part to test before you rely on it: check that its layout and fields match what your broadcaster or distributor asks for. Plugin formats were not listed in the coverage.",
+   "signal": 2,
+   "source": "Production Expert",
+   "take": "NUGEN's loudness meter gets its first major update in years. One instance can now track several stems next to the full mix, measure Loudness to Dialog Ratio (LDR), attach timestamped notes, export a Loudness QC Report and meter up to 9.1.6. It adds presets for EBU R 128 Supplement 4 and the new ATSC A/85:2026-07. It costs $499; existing users see upgrade pricing in their NUGEN accounts.",
+   "title": "NUGEN VisLM 3 adds stem metering, Loudness to Dialog Ratio and QC reports",
+   "todo": "Before your next TV delivery, ask the client whether they now want an LDR figure or a QC report, and run one on a finished mix to see where your dialogue sits.",
+   "url": "https://www.production-expert.com/production-expert-1/nugen-vislm-3-adds-stem-monitoring-ldr-measurement-and-qc-reports"
+  },
+  {
+   "cat": "plugins",
+   "signal": 2,
+   "free": true,
+   "date": "2026-11-01",
+   "title": "Slate Digital gives away 16 plugins from four brands, with AAX and no iLok",
+   "take": "Slate's Complete Access Free Collection bundles ten Slate plugins (including Virtual Mix Rack, Revival, Fresh Air, FG-Red, FG-Bomber and Air & Earth EQ), SSL's X-Orcism II and GateVerb, Harrison's 3D Delay, Tape Saturator and Dyno Mite, and Sonible's puffer:fish. All run as VST3, AU and AAX. You need a free Complete Access account and the Hub app; no iLok or PACE account is required, and Slate says the licences are permanent.",
+   "deep": "Free bundles usually mean a few toys and a nag screen. This one is different in two ways. First, the list includes tools people use on real sessions: Virtual Mix Rack as a channel-strip host, a pair of FET and bus-style compressors, an SSL gate and reverb, and Sonible's puffer:fish. Second, the licences sit in Slate's own account system rather than iLok, so a location or edit laptop without a dongle can run them.\n\nThe limits are the usual ones for account-based licensing. The Hub app has to be installed and signed in, and you depend on Slate's servers for activation and future updates. Nothing here replaces a paid restoration or loudness suite; it is a mixing and colour kit.\n\nFor a freelancer moving between rooms, the useful angle is consistency: a free set you can install on every machine you touch, including a client's Pro Tools rig, so a session opens with the same inserts everywhere.",
+   "todo": "Install it on your travel laptop and check that sessions using these plugins open cleanly in Pro Tools before relying on it with a client.",
+   "source": "Production Expert",
+   "url": "https://www.production-expert.com/production-expert-1/slate-digital-release-complete-access-free-collection-16-free-plugins-from-4-brands"
+  },
+  {
+   "cat": "hearing",
+   "signal": 2,
+   "date": "2026-10-30",
+   "title": "WS Audiology takes systems offline after a cyberattack; Widex and Signia apps hit",
+   "take": "WS Audiology, the maker of Widex and Signia hearing aids, found unauthorised access to some IT systems and took internal and customer-facing systems offline as a precaution. The hearing aids themselves are not affected, but some software and apps are. Widex Compass fitting software is back; Signia TeleCare was expected back early this week. The company has not said whether patient data was involved or who was behind it.",
+   "deep": "Hearing aids are now networked products. Fitting software, remote adjustment and companion apps all run through the maker's cloud, so an IT incident at the manufacturer can stop clinics from fitting or tweaking devices even though the hardware keeps working.\n\nWSA is one of the three largest hearing-aid makers, so this reaches many users, including audio professionals who rely on remote fine-tuning or app-based programs on gigs. The open questions are data exposure and how long the remaining services stay down; neither has been reported.\n\nThe practical lesson is the same as for any cloud-dependent tool in your rig: know what still works offline, and keep a local fallback.",
+   "todo": "If you or a colleague wear Widex or Signia aids, make sure a usable program is stored on the devices themselves and not only in the app.",
+   "source": "Hearing Review",
+   "url": "https://hearingreview.com/hearing-products/hearing-aids/apps/wsa-investigating-cybersecurity-incident"
+  },
+  {
+   "cat": "gear",
+   "signal": 2,
+   "date": "2026-10-30",
+   "title": "Sonnet Echo III T5: a Thunderbolt 5 chassis qualified for Pro Tools HDX",
+   "take": "Sonnet's Echo III T5 family is a three-slot PCIe expansion chassis on Thunderbolt 5 (the module also works on USB4), with a 400 W supply. Avid has qualified every model for Pro Tools HDX cards. Suggested prices are $1,099.99 for the module, $1,199.99 desktop, $1,319.99 rackmount, and $1,799.99 for the xMac mini and xMac Studio versions.",
+   "deep": "HDX is still a PCIe card, and Apple no longer sells a tower for most rooms, so every post facility on HDX needs a chassis. Until now the qualified options were Thunderbolt 3 boxes. A Thunderbolt 5 chassis matters because new Macs ship with Thunderbolt 5 ports and because three slots let you carry HDX cards alongside a video or MADI card.\n\nAvid qualification is the part that counts. It means Avid supports the combination, which is what you point to when a session misbehaves on a client's machine. Sonnet has not published audio-specific latency figures, and HDX latency is set by the cards, not the bus.\n\nThis connects to last week's news that new M6 MacBook Pros ship on macOS 27: chassis, OS and Pro Tools versions all have to line up before a room upgrades.",
+   "todo": "Before buying any new Mac for an HDX room, check Avid's compatibility pages for the exact chassis, OS and Pro Tools version together.",
+   "source": "Mix",
+   "url": "https://www.mixonline.com/technology/news-products/sonnet-echo-iii-t3-family-a-mix-product-of-the-week"
+  },
+  {
+   "cat": "live",
+   "signal": 2,
+   "date": "2026-10-28",
+   "title": "Yamaha RIVAGE PM firmware 7.20 adds a 64x64 AVB card and DM5 support",
+   "take": "RIVAGE PM V7.20 supports AuviTran's AV-HY64-AVB card on PM10, PM7, PM5 and PM3: 64 inputs and 64 outputs at 48 or 96 kHz with primary and secondary etherCON ports. The same release adds the DM5 and DM5 Compact consoles, three RUio utility I/O units and the DME5 and DME3 processors.",
+   "deep": "Until now a RIVAGE system feeding an AVB-based amp or immersive processor needed Dante, MADI or AES in between. A native AVB card removes that conversion step, which matters as L-Acoustics and d&b systems increasingly run on Milan-AVB networks.\n\nThe announcement does not say the card is Milan-certified, and Milan is what guarantees interoperability with those ecosystems. AVB also needs AVB-capable switches end to end.\n\nIf you mix on RIVAGE in venues with AVB PA, ask your supplier about the card's Milan status before planning a show around it.",
+   "todo": "Ask your rental house whether the AV-HY64-AVB is Milan-certified before you specify it for an AVB PA.",
+   "source": "ProSoundWeb",
+   "url": "https://www.prosoundweb.com/auvitran-av-hy64-avb-gains-support-in-yamaha-rivage-pm-firmware-v7-20/"
+  },
+  {
+   "cat": "live",
+   "date": "2026-10-28",
+   "deep": "The 554–608 MHz petition is the part to watch. That slice holds a lot of the UHF channels that location mixers, theatres and touring IEM rigs rely on, and US decisions tend to shape what manufacturers build and how the world spectrum debate goes. The alliance's push for 1.2 GHz is the other half of the story: it is presented as extra room for big events, not a replacement for UHF.\n\nEurope is on its own track, with the PMSE position for WRC-27 still being settled and the UHF band below 694 MHz protected in the EU until at least 2030. But the same pressures apply here: mobile and other services want spectrum, and wireless production keeps growing. Gear bought now should be flexible about bands, and a 1.2 GHz or 1.4 GHz option is worth weighing on new purchases where your national rules allow it.",
+   "signal": 2,
+   "source": "ProSoundWeb",
+   "take": "The Wireless Microphone Spectrum Alliance, formed in 2025 with more than 660 members including Shure, CP Communications and Freeman, met congressional offices, the FCC, NTIA and the White House. It backs long-term access to 470–608 MHz and is watching a petition involving 554–608 MHz, wants more access at 608–614 MHz and at 1240–1350 MHz while protecting aviation radar, and has filed comments on space-launch proposals at 1435–1525 MHz.",
+   "title": "Wireless-mic alliance lobbies Washington to keep UHF and open 1.2 GHz",
+   "todo": "When you next buy wireless, ask the dealer which bands the unit can be re-tuned or upgraded to, and check what Italy's current allocation allows for each.",
+   "url": "https://www.prosoundweb.com/wmsa-provides-updates-on-washington-meetings-over-u-s-wireless-microphone-spectrum/"
+  },
+  {
+   "cat": "hearing",
+   "date": "2026-10-27",
+   "deep": "A standard clinical audiogram stops at 8 kHz, and many hearing checks only report an average up to 4 kHz. This study suggests that early damage often shows up first at the very top, above that range, and that it tracks with real difficulty following speech in noise. The authors report significant impairment beyond about 35 dB HL in the 9–14 kHz average.\n\nThe limits matter. It re-analyses data from two labs that used different protocols, it counts ears rather than people, and there is no agreed normal range for extended high frequencies yet. The speech test used also has little energy above 8 kHz, so why the link exists is still a hypothesis.\n\nFor engineers this is about your own ears. Noise damage from monitoring and live work often starts high, and a 'normal' audiogram may not show it. That matters for dialogue editing, de-essing and any high-frequency decisions.",
+   "signal": 2,
+   "source": "Bioengineer.org (Frontiers in Neuroscience)",
+   "take": "A retrospective study of 605 adults (1,205 ears) from the universities of South Florida and Central Florida, published in Frontiers in Neuroscience, compared standard audiograms with thresholds from 9 to 14 kHz. In ears with normal standard results, the 9–14 kHz average explained 17% of the variation in speech-in-noise scores; the standard 0.5–4 kHz average explained about 1%. The worst 10% of performers averaged 58.7 dB HL at 9–14 kHz, against about 3 dB HL for the best 10%.",
+   "title": "Hearing above 8 kHz predicts trouble with speech in noise when the normal audiogram looks fine",
+   "todo": "At your next hearing test, ask for extended high-frequency audiometry (above 8 kHz) so you have a baseline to compare against.",
+   "url": "https://bioengineer.org/extended-high-frequency-hearing-may-signal-speech-in-noise-problems-before-standard-tests-do"
+  },
+  {
+   "cat": "post",
+   "date": "2026-10-27",
+   "deep": "Loudness specs tell you how loud a programme is, not whether anyone can follow the words. Intelligibility scoring adds that check, and the LMMG agreement announced at IBC (NUGEN, RTW, Steinberg and Telos, with Fraunhofer) aims to make DIU readings match across tools. Together with the Loudness to Dialog Ratio in NUGEN's VisLM 3, this is the start of intelligibility becoming a delivery metric.\n\nThe colour thresholds can be changed in Meter Settings, but neither Steinberg nor the article gives target values, and no broadcaster has yet published a required DIU score. Treat the numbers as a guide to where to listen again, not as a pass mark.",
+   "signal": 2,
+   "source": "Production Expert",
+   "take": "A Production Expert walkthrough shows how Nuendo 15 adds dialogue intelligibility, based on Fraunhofer IDMT technology, to its Loudness Track. Scores use a 0–100 DIU scale shown as green, yellow and red blocks, measured in real time or with a faster-than-real-time Quick Analysis between the locators. The track header also shows program- or dialogue-gated LUFS and true peak.",
+   "title": "Nuendo 15's Analyzer Track scores dialogue intelligibility on the timeline",
+   "todo": "Run a Quick Analysis on a finished mix you know had dialogue complaints and see whether the red sections match the notes.",
+   "url": "https://www.production-expert.com/production-expert-1/mixing-to-a-dialogue-intelligibility-target-with-nuendo-15s-analyzer-track"
+  },
+  {
+   "cat": "gear",
+   "signal": 2,
+   "date": "2026-10-26",
+   "title": "RME ADI-2/4 Pro EX: redesigned converters and a ±1 ppm clock",
+   "take": "RME's upgraded reference converter and headphone amp has new AD and DA circuitry with better SNR and THD+N, SteadyClock EX at ±1 ppm with 0.1 ppm trim, rates to 768 kHz, two balanced headphone outputs, and the familiar EQ, crossfeed and M/S tools. Sound On Sound lists it at $2,999 / £2,300.",
+   "source": "Sound On Sound",
+   "url": "https://www.soundonsound.com/news/rme-introduce-adi-24-pro-ex"
+  },
+  {
+   "breakthrough": true,
+   "cat": "science",
+   "date": "2026-10-28",
+   "deep": "Acoustic levitation is not new, but earlier systems mostly trapped an object at a point or moved it inside a small standing-wave cage. Here the array forms Bessel-like beams into a continuous guide that can be reshaped in 3D while it runs, so material travels along the path instead of being held in one place.\n\nFor audio people, it is beamforming taken to an extreme: the same phase-and-amplitude control that steers line-array and column-speaker lobes or parametric 'audio spotlight' beams, applied with hundreds of elements and very tight timing. The limits are clear. It works at micrometre-to-millimetre scale, joining modules into longer paths has not been shown, and the field is extremely loud: New Atlas compares the level inside to continuous gunfire next to the ear. Ultrasound above 20 kHz is not harmless just because you cannot hear it, which is worth remembering around any parametric or ultrasonic device.",
+   "signal": 1,
+   "source": "New Atlas",
+   "take": "Researchers at the University of Helsinki, the Public University of Navarre and the University of Michigan surrounded a cylinder with 256 small ultrasonic transducers at about 40 kHz. A phased array shapes the sound field into a guiding path that moved solids, single drops of liquid, gases, mist and even an electric discharge. The 8 cm prototype draws about 50 W, and the work is published in PNAS.",
+   "title": "256 ultrasonic transducers build a wall-less 'tube' that carries matter through air",
+   "url": "https://newatlas.com/good-thinking/ultrasound-tube-levitates-matter"
+  },
+  {
+   "cat": "post",
+   "date": "2026-10-26",
+   "signal": 1,
+   "source": "Production Expert",
+   "take": "fPost is a macOS app that turns AAFs from Media Composer, Premiere, Resolve or Pro Tools into named, routed sessions laid out to your own Pro Tools template. It sorts clips by what they contain, not by track name, and runs entirely on the Mac. Studio costs €49 a month, €288 a year or €1,199 lifetime; Suite costs €59, €348 or €1,399. There is a 7-day trial and a free AAF Checker.",
+   "title": "Turin's Forte AI launches fPost, which builds Pro Tools sessions from AAFs",
+   "todo": "Run the free AAF Checker on your last messy turnover, then trial fPost on a real reel and count the minutes it saves.",
+   "url": "https://www.production-expert.com/production-expert-1/forte-ai-fpost-aaf-import-and-session-prep-for-pro-tools-post-workflows"
+  },
+  {
+   "cat": "ai",
+   "date": "2026-10-26",
+   "signal": 1,
+   "source": "Music Business Worldwide",
+   "take": "Authentic Brands' ABG EPE IP and several publishers filed suit on 23 October in the Northern District of California. They claim Claude was trained on lyrics to 274 Presley-recorded songs and can reproduce them. They ask for up to $41.1m in statutory damages, $685,000 for scraping past logins and paywalls, and $6.85m for stripping titles and credits, plus destruction of copies including in model weights.",
+   "title": "Elvis Presley rights holders sue Anthropic over 274 lyrics, seeking about $48.6m",
+   "url": "https://www.musicbusinessworldwide.com/rightsholders-behind-elvis-presleys-hits-sue-anthropic-for-more-than-48-6m-alleging-it-scraped-lyrics-to-274-songs-and-stripped-songwriter-credits-to-train-claude/"
+  },
+  {
+   "cat": "live",
+   "date": "2026-10-26",
+   "signal": 1,
+   "source": "ISP Audio",
+   "take": "Martin Audio's prediction and optimisation software for Wavefront Precision arrays is out of beta, with faster calculations and accuracy the company says is within ±1 dB of real systems. Hard Avoid can add up to 30 dB more rejection behind or below the array, or on a chosen area such as a reflective back wall. New 'Don't Care' zones are left out of the DSP calculation. VU-NET 2.3.5 adds LED and Mute modes to check hang order and routing box by box.",
+   "title": "Martin Audio DISPLAY 3 leaves beta, with 30 dB 'Hard Avoid' and 'Don't Care' zones",
+   "url": "https://www.isp-audio.com/en/new-product/audio-new-product/13849-display-3-speeds-up-prediction-optimisation-martin-audio"
+  },
+  {
+   "cat": "live",
+   "date": "2026-10-30",
+   "signal": 1,
+   "source": "ProSoundWeb",
+   "take": "UK OB company Cloudbass ran a proof of concept at the British Touring Car Championship at Thruxton. Audio processing ran on an SSL System T Virtual Tempest Engine on servers at the track, tied into the ST 2110 network with an SSL Net I/O bridge. The mixer worked from Cloudbass HQ on a System T S400 surface over about 50 Mbps of public internet, carrying control data and monitoring only.",
+   "title": "Cloudbass mixes a touring-car race from its HQ on SSL's virtual engine",
+   "todo": "If you work broadcast, ask your OB clients whether they plan remote-surface shows and what fallback they want on site.",
+   "url": "https://www.prosoundweb.com/cloudbass-tests-remote-production-with-solid-state-logic/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "date": "2026-10-27",
+   "title": "Rod Stewart's FOH moves to a three-bay SSL L650 with a plugin server fallback",
+   "take": "Jonny Williams runs 122 inputs over four MADI stageboxes into an L650, with analogue SSL strips on vocals and drums, THE BUS+ on the drum group, a self-built plugin server with one-button fallback to internal effects, and a second master bus with its own limiter for broadcast.",
+   "source": "TPi",
+   "url": "https://www.tpimagazine.com/jonny-famous-williams-switches-to-solid-state-logic-live-l650/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "date": "2026-10-29",
+   "title": "A 27-case Riedel flypack replaces the OB truck for corporate events",
+   "take": "Phoenix-based FOH Productions built a portable system for events of 1,000–12,000 people: MediorNet with 288x288 routing and audio embedding, an Artist intercom matrix with Bolero wireless kits that also run standalone, and seven racks linked by a redundant fibre mesh that replaces 30–40 copper runs per site.",
+   "source": "ProSoundWeb",
+   "url": "https://www.prosoundweb.com/foh-productions-builds-portable-riedel-video-flypack/"
+  },
+  {
+   "cat": "speakers",
+   "date": "2026-10-29",
+   "signal": 1,
+   "source": "Sound On Sound",
+   "take": "HEDD's Type 40 Main is a sealed three-way monitor (10.75-inch woofer, two 4-inch mids, AMT tweeter) rated −3 dB at 20 Hz. Up to three XTD woofer modules per side add up to 15 dB of headroom, and rear-facing XTDs form a cardioid array that cuts rear output by up to 10 dB. Prices are $7,499 / £5,999 per Main and $6,999 / £5,699 per XTD.",
+   "title": "HEDD Type 40 System: modular mains with cardioid bass extensions",
+   "url": "https://www.soundonsound.com/news/hedd-audio-unveil-type-40-system"
+  },
+  {
+   "cat": "plugins",
+   "date": "2026-10-31",
+   "free": true,
+   "signal": 1,
+   "source": "Bedroom Producers Blog",
+   "take": "ZL Audio released ZL Limiter, a free open-source true-peak limiter with up to 32× oversampling, lookahead, adjustable stereo linking and delta audition. It meters momentary, short-term and integrated LUFS, LRA, true peak and correlation. It comes as VST3 on Windows, macOS and Linux, AU on macOS and LV2; there is no AAX, and this is a first 0.0.1 pre-release.",
+   "title": "Free and open source: ZL Limiter, true-peak limiting with loudness meters",
+   "url": "https://bedroomproducersblog.com/2026/10/31/zl-audio-releases-zl-limiter-a-free-limiter-for-windows-macos-and-linux/"
+  },
+  {
+   "cat": "industry",
+   "date": "2026-10-29",
+   "signal": 1,
+   "source": "Digital Music News",
+   "take": "Universal Music Group reported third-quarter revenue up about 12%, with paid streaming up over 20%. CEO Lucian Grainge said the structure of its streaming agreements has to change, because pro-rata payouts treat mass-produced AI tracks the same as major songs, and set out a transition running to the end of 2028. UMG expects its AI licensing partnerships to add revenue from 2027.",
+   "title": "Universal says streaming deals 'have to change' to stop paying AI slop like real songs",
+   "url": "https://www.digitalmusicnews.com/2026/10/29/universal-music-earnings-q3-2026/"
+  },
+  {
+   "cat": "hearing",
+   "signal": 1,
+   "date": "2026-10-28",
+   "title": "Updated international guidelines for severe and profound hearing loss",
+   "take": "A 102-page update by 18 contributors in Seminars in Hearing recommends wide-dynamic-range compression with verified output limits, cautious frequency lowering and early discussion of cochlear implants, and adds sections on music listening, Auracast and remote microphones.",
+   "source": "Hearing Health & Technology Matters",
+   "url": "https://hearinghealthmatters.org/hearing-news-watch/2026/guidelines-severe-profound-hearing-loss/"
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "date": "2026-10-27",
+   "title": "Phil McDonald, engineer on Revolver and Abbey Road, has died",
+   "take": "Abbey Road announced the death of McDonald, who started in its tape library at 18, ran the tape machine on nearly all of Revolver, recorded most of Abbey Road as balance engineer and shared its Grammy for engineering, then worked on All Things Must Pass and Imagine.",
+   "source": "Mix",
+   "url": "https://www.mixonline.com/news/beatles-engineer-phil-mcdonald-passes"
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "date": "2026-10-27",
+   "title": "Conway Recording Studios in Los Angeles is for sale at $15 million",
+   "take": "The three-studio, one-acre complex owned by Buddy Brundo since 1976 is on the market through CBRE. Brundo, 83, says he wants to step away while he can.",
+   "source": "Mix",
+   "url": "https://www.mixonline.com/recording/facilities/conway-recording-studios-is-for-sale"
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "date": "2026-10-28",
+   "title": "Create Music Group takes a minority stake in DistroKid",
+   "take": "Create, valued at $2.2bn in March, now owns part of DistroKid alongside majority owner CVC and Insight Partners; the stake size was not disclosed. DistroKid says it distributes about 40% of new music and faces a UMG lawsuit, with its response due 4 December.",
+   "source": "Music Business Worldwide",
+   "url": "https://www.musicbusinessworldwide.com/create-music-group-now-owns-a-minority-stake-in-distrokid/"
+  }
+ ],
+ "radar": [
+  {
+   "date": "2026-11-09",
+   "title": "ADC 2026, Bristol",
+   "note": "The Audio Developer Conference runs 9–11 November."
+  },
+  {
+   "date": "2026-11-10",
+   "title": "EU copyright consultation closes",
+   "note": "Extended from 3 November; covers AI training, piracy and performers' and producers' remuneration.",
+   "url": "https://digital-strategy.ec.europa.eu/en/news/commission-seeks-feedback-challenges-and-way-forward-area-effect-technology-copyright"
+  },
+  {
+   "date": "2026-12-01",
+   "title": "Suno v Apple subpoena hearing",
+   "note": "The court hears Apple's bid to quash Suno's subpoena."
+  },
+  {
+   "date": "2026-12-07",
+   "title": "CAS Awards entry deadline",
+   "note": "5 p.m. PT for the 63rd Cinema Audio Society Awards.",
+   "url": "https://www.mixonline.com/post-and-broadcast/submission-window-opens-for-63rd-cas-awards"
+  }
+ ],
+ "craft": {
+  "title": "Freeze your OS until your tools catch up",
+  "body": "New Macs arrived this week on an operating system Pro Tools does not yet support, and the qualified HDX chassis list only just caught up with Thunderbolt 5. If a machine earns you money, the newest OS is a risk, not an upgrade.\n\nKeep a written list of the exact OS, DAW, chassis and plugin versions that work together on your main rig. Turn off automatic OS updates, wait for your DAW maker's compatibility statement, and test a new combination on a spare machine or partition with a real session before a paid job. If you must buy a Mac now, ask the dealer whether it can run the previous OS."
+ }
+}

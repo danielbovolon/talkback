@@ -1,0 +1,252 @@
+{
+ "period": "day",
+ "key": "2026-11-02",
+ "label": "Mon 2 Nov 2026",
+ "range": "30 Oct – 2 Nov 2026",
+ "generated": "2026-11-02T07:40:00+01:00",
+ "headline": "Free tools, fragile clouds",
+ "lead": "A quiet weekend, but three stories touch everyday work. Slate gave away a 16-plugin collection with AAX and no dongle, and Sonnet's Thunderbolt 5 chassis gives HDX rooms a qualified route onto new Macs. A cyberattack at WS Audiology knocked out fitting software and apps for Widex and Signia hearing aids, a reminder of how much now depends on vendor clouds. Elsewhere: festival console strategy, a PA designed around a lighting rig, and an acoustic synth with a reed under every key.",
+ "items": [
+  {
+   "cat": "plugins",
+   "signal": 3,
+   "free": true,
+   "date": "2026-11-01",
+   "title": "Slate Digital gives away 16 plugins from four brands, with AAX and no iLok",
+   "take": "Slate's Complete Access Free Collection bundles ten Slate plugins (including Virtual Mix Rack, Revival, Fresh Air, FG-Red, FG-Bomber and Air & Earth EQ), SSL's X-Orcism II and GateVerb, Harrison's 3D Delay, Tape Saturator and Dyno Mite, and Sonible's puffer:fish. All run as VST3, AU and AAX. You need a free Complete Access account and the Hub app; no iLok or PACE account is required, and Slate says the licences are permanent.",
+   "deep": "Free bundles usually mean a few toys and a nag screen. This one is different in two ways. First, the list includes tools people use on real sessions: Virtual Mix Rack as a channel-strip host, a pair of FET and bus-style compressors, an SSL gate and reverb, and Sonible's puffer:fish. Second, the licences sit in Slate's own account system rather than iLok, so a location or edit laptop without a dongle can run them.\n\nThe limits are the usual ones for account-based licensing. The Hub app has to be installed and signed in, and you depend on Slate's servers for activation and future updates. Nothing here replaces a paid restoration or loudness suite; it is a mixing and colour kit.\n\nFor a freelancer moving between rooms, the useful angle is consistency: a free set you can install on every machine you touch, including a client's Pro Tools rig, so a session opens with the same inserts everywhere.",
+   "todo": "Install it on your travel laptop and check that sessions using these plugins open cleanly in Pro Tools before relying on it with a client.",
+   "source": "Production Expert",
+   "url": "https://www.production-expert.com/production-expert-1/slate-digital-release-complete-access-free-collection-16-free-plugins-from-4-brands"
+  },
+  {
+   "cat": "hearing",
+   "signal": 3,
+   "date": "2026-10-30",
+   "title": "WS Audiology takes systems offline after a cyberattack; Widex and Signia apps hit",
+   "take": "WS Audiology, the maker of Widex and Signia hearing aids, found unauthorised access to some IT systems and took internal and customer-facing systems offline as a precaution. The hearing aids themselves are not affected, but some software and apps are. Widex Compass fitting software is back; Signia TeleCare was expected back early this week. The company has not said whether patient data was involved or who was behind it.",
+   "deep": "Hearing aids are now networked products. Fitting software, remote adjustment and companion apps all run through the maker's cloud, so an IT incident at the manufacturer can stop clinics from fitting or tweaking devices even though the hardware keeps working.\n\nWSA is one of the three largest hearing-aid makers, so this reaches many users, including audio professionals who rely on remote fine-tuning or app-based programs on gigs. The open questions are data exposure and how long the remaining services stay down; neither has been reported.\n\nThe practical lesson is the same as for any cloud-dependent tool in your rig: know what still works offline, and keep a local fallback.",
+   "todo": "If you or a colleague wear Widex or Signia aids, make sure a usable program is stored on the devices themselves and not only in the app.",
+   "source": "Hearing Review",
+   "url": "https://hearingreview.com/hearing-products/hearing-aids/apps/wsa-investigating-cybersecurity-incident"
+  },
+  {
+   "cat": "gear",
+   "signal": 3,
+   "date": "2026-10-30",
+   "title": "Sonnet Echo III T5: a Thunderbolt 5 chassis qualified for Pro Tools HDX",
+   "take": "Sonnet's Echo III T5 family is a three-slot PCIe expansion chassis on Thunderbolt 5 (the module also works on USB4), with a 400 W supply. Avid has qualified every model for Pro Tools HDX cards. Suggested prices are $1,099.99 for the module, $1,199.99 desktop, $1,319.99 rackmount, and $1,799.99 for the xMac mini and xMac Studio versions.",
+   "deep": "HDX is still a PCIe card, and Apple no longer sells a tower for most rooms, so every post facility on HDX needs a chassis. Until now the qualified options were Thunderbolt 3 boxes. A Thunderbolt 5 chassis matters because new Macs ship with Thunderbolt 5 ports and because three slots let you carry HDX cards alongside a video or MADI card.\n\nAvid qualification is the part that counts. It means Avid supports the combination, which is what you point to when a session misbehaves on a client's machine. Sonnet has not published audio-specific latency figures, and HDX latency is set by the cards, not the bus.\n\nThis connects to last week's news that new M6 MacBook Pros ship on macOS 27: chassis, OS and Pro Tools versions all have to line up before a room upgrades.",
+   "todo": "Before buying any new Mac for an HDX room, check Avid's compatibility pages for the exact chassis, OS and Pro Tools version together.",
+   "source": "Mix",
+   "url": "https://www.mixonline.com/technology/news-products/sonnet-echo-iii-t3-family-a-mix-product-of-the-week"
+  },
+  {
+   "cat": "hearing",
+   "signal": 2,
+   "breakthrough": true,
+   "date": "2026-10-30",
+   "title": "Mouse study: losing one gene damages hearing in females but not males",
+   "take": "Researchers at UT Dallas and SUNY Buffalo knocked out Slc16a5, a gene they expected to protect against drug-related ear damage. Female knockout mice lost hearing early and lost sensory hair cells; males kept normal hearing and hair-cell counts. The team links the difference to changes in estrogen-responsive genes. The journal and sample sizes were not given in the report.",
+   "deep": "Sex differences in hearing loss are well documented in people, but the mechanisms are not. This result points to one gene whose absence leaves females vulnerable, with estrogen-related gene activity as the likely link.\n\nIt is a mouse study, reported second-hand, and it concerns drug-related rather than noise-related damage. It does not change how anyone should protect their ears today.\n\nThe longer-term relevance is risk assessment: if inner-ear vulnerability differs by sex and genotype, the single exposure limits used on stages and sets may eventually be refined for individuals.",
+   "source": "Yahoo News (UT Dallas)",
+   "url": "https://yahoo.com/news/science/articles/ut-dallas-study-could-help-100000746.html"
+  },
+  {
+   "cat": "live",
+   "signal": 2,
+   "date": "2026-10-30",
+   "title": "Tate McRae's engineers switch to DiGiCo Quantum desks for festivals",
+   "take": "FOH engineer Curtis McKenna mixed the tour on another console but moved to DiGiCo for festival dates, because the desks are almost always on site and show files convert between models. Lollapalooza used a Quantum326 and Quantum338; Osheaga a Quantum225 and Quantum338. His snapshots recall only faders and mutes, macros give one-button fallbacks if outboard fails, and Mustard and Spice Rack handle broadcast mixes.",
+   "deep": "The useful idea is choosing a console for availability rather than preference. On festival runs the house desk is what you get, and a show file that opens on several models of one family saves the line-check.\n\nMcKenna keeps snapshots minimal, with no timecode, so a desk swap or a messy changeover cannot recall a wrong state. Built-in processing replaces most outboard, and macros switch to internal dynamics if a rack fails.\n\nFor anyone flying into festivals with a laptop, the checklist is short: file portability, a fallback that needs no external gear, and snapshots you can trust on an unfamiliar desk.",
+   "todo": "If you guest at festivals, build a cut-down show file that loads on the smallest model of your usual desk family and test it.",
+   "source": "ProSoundWeb",
+   "url": "https://www.prosoundweb.com/dual-digico-deployment-for-tate-mcrae-festival-performances/"
+  },
+  {
+   "cat": "live",
+   "signal": 2,
+   "date": "2026-10-30",
+   "title": "Victoria's Secret show: 120 JBL VTX A8 boxes designed around a lighting rig",
+   "take": "Firehouse Productions hung 120 VTX A8 in 12 arrays of ten at Sony Pictures Studios, with 16 ground-stacked G28 subs, seven F12 runway fills and outfills. Lighting took most of the ceiling space and weight, so the team went down from the V25 II used in 2025 to the smaller A8. Lighting, truss and drape CAD layers were imported into Venue Synthesis to find clashes, some arrays clearing trusses by about two inches.",
+   "deep": "Most PA design assumes the PA gets the best hang points. Here lighting claimed them, and audio worked around it: smaller boxes, more of them, and prediction software that could import the other departments' CAD to check clearances.\n\nThat import is the transferable part. Checking line-of-sight and rigging conflicts in the prediction model before load-in avoids discovering on the day that an array cannot fly where it was modelled.\n\nSPL and coverage results were not published, so the trade-off in headroom from going smaller is not known.",
+   "source": "ProSoundWeb",
+   "url": "https://www.prosoundweb.com/jbl-professional-keys-system-approach-for-victorias-secret-fashion-show-in-california/"
+  },
+  {
+   "cat": "instruments",
+   "signal": 2,
+   "breakthrough": true,
+   "date": "2026-11-01",
+   "title": "Orbiton One: an acoustic synth with a vibrating steel reed under every key",
+   "take": "Orbiton's prototype gives each key its own steel reed with a sensor and signal path, producing a continuous analogue signal that currently drives an internal DSP synth. Keys can be pressed, plucked or struck. A 32-channel prototype was shown at SynthFest UK on 24 October; the company is aiming for early 2027 and taking reservations for ten Founder Edition units. No price has been given.",
+   "deep": "Most expressive controllers measure pressure or position and turn it into control data. Orbiton instead picks up a real vibrating object under each key, so the instrument responds to how you touch it in the way a kalimba or prepared piano does, and the synth follows that signal.\n\nThe company plans to use the reeds as oscillators later, which would make it a hybrid acoustic-electronic instrument. For now it is a prototype with no published specs, latency figures or price.\n\nFor sound designers it is one to watch: a physical source you can perform with that feeds synthesis, close to how foley artists already work with objects.",
+   "source": "Mixdown",
+   "url": "https://mixdownmag.com.au/news/orbiton-debuts-an-acoustic-synth-with-vibrating-reeds-under-every-key/"
+  },
+  {
+   "cat": "post",
+   "signal": 2,
+   "free": true,
+   "date": "2026-10-30",
+   "title": "Free: BOOM Library Trailer Basics, 294 braams, booms and impacts at 96 kHz",
+   "take": "BOOM Library is giving away Trailer Basics: 294 sounds in 48 WAV files, 24-bit/96 kHz, about 948 MB. The licence allows commercial use with no credit required, but not redistribution as standalone assets. It is a $0 checkout on BOOM's site; how long it stays free was not reported.",
+   "todo": "Check the licence text is saved with the download so you can show it if a client's delivery asks for SFX clearances.",
+   "source": "Bedroom Producers Blog",
+   "url": "https://bedroomproducersblog.com/2026/10/30/boom-library-trailer-basics/"
+  },
+  {
+   "cat": "software",
+   "signal": 2,
+   "free": true,
+   "date": "2026-10-30",
+   "title": "Free and open source: Infinite, a modular audiovisual DAW and plugin host",
+   "take": "n1m21n's Infinite is a GPLv3/MIT modular environment with more than 300 nodes (granular, spectral resynthesis, time-stretch, a 16-pad sampler), a clip timeline and a GPU video engine with Syphon, Spout and NDI. It hosts VST3 everywhere and AU on Mac, and includes a JIT language called Field for custom DSP. It runs on macOS 11+, Windows 10+ (x64 and ARM64) and Linux.",
+   "todo": "Worth a look for installation or audio-reactive projects where you would otherwise reach for Max or TouchDesigner.",
+   "source": "KVR Audio",
+   "url": "https://www.kvraudio.com/news/n1m21n-releases-infinite---free-audiovisual-modular-daw-and-vst3-au-host-69492"
+  },
+  {
+   "cat": "gear",
+   "signal": 2,
+   "date": "2026-10-30",
+   "title": "sE Electronics replaces the V7 vocal mic and adds $149 headphones with a bass control",
+   "take": "At Music China, sE showed the V8 Series, supercardioid dynamic vocal mics replacing the V7 after about ten years, with capsule versions for Shure and Sennheiser wireless; prices were given as 1,899 and 2,299 RMB without saying which model is which. It also showed the KLS-150 closed-back headphones at $149, with a stepped physical bass control (default +3).",
+   "source": "Sonicstate",
+   "url": "https://sonicstate.com/news/2026/10/30/musicchina26-new-mics-tweakable-headphones-from-se-electronics/"
+  },
+  {
+   "cat": "speakers",
+   "signal": 2,
+   "date": "2026-10-30",
+   "title": "ADAM Audio H715: open-back headphones with correction and room simulation software",
+   "take": "ADAM's H715 open-backs have replaceable pads, headband parts and cable, plus Standard and Hi-Fi modes. Its Headphone Utility holds correction profiles for both pad materials, and a crossfeed-style externalisation feature simulates speakers in a room. The Listen Hub software runs standalone or as a plugin and can host plugins. Price is about $700; availability was not reported.",
+   "source": "Sonicstate",
+   "url": "https://sonicstate.com/news/2026/10/30/musicchina26-new-h715-headphones-from-adam-audio/"
+  },
+  {
+   "cat": "ai",
+   "signal": 2,
+   "date": "2026-10-30",
+   "title": "Suno wants the MLC's streaming data to argue AI music does no market harm",
+   "take": "In its case with the Mechanical Licensing Collective, Suno is asking the court to make the MLC hand over stream-volume data by label back to 2021, to support its fair-use and copyright-misuse defences. The MLC's response was due today, 2 November, with Suno's reply due 16 November; the judge had not yet approved the timetable. Pandora has refused consent to release its data.",
+   "source": "Digital Music News",
+   "url": "https://www.digitalmusicnews.com/2026/10/30/suno-mlc-subpoena-schedule/"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "date": "2026-10-30",
+   "title": "Colorfield Mix Stage: place tracks in a virtual room and flag masking clashes",
+   "take": "Vitric Audio's Colorfield Mix Stage lets you drag tracks to set pan and depth in a shared virtual room, and a Collisions panel flags tracks that sit close together with similar frequency content. It runs as VST3, AU and AAX plus a standalone app. It is $29 until 19 November, then $99.",
+   "source": "Bedroom Producers Blog",
+   "url": "https://bedroomproducersblog.com/2026/10/30/vitric-audio-colorfield-mix-stage/"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "free": true,
+   "date": "2026-10-31",
+   "title": "Free: Vatrica, a one-knob mix enhancer on the VATRA engine",
+   "take": "Vatrica offers three modes: MSTR for master-bus weight and loudness, TAPE for warmth, and SUBS for low-end boost and saturation. It is AU, VST3 and AAX on Mac (Intel and Apple Silicon) and VST3 only on Windows, with no key or activation.",
+   "source": "Bedroom Producers Blog",
+   "url": "https://bedroomproducersblog.com/2026/10/31/vatrica/"
+  },
+  {
+   "cat": "hearing",
+   "signal": 1,
+   "date": "2026-10-31",
+   "title": "Careful threshold fitting improved speech results for cochlear implant users",
+   "take": "A prospective study of 35 experienced adult Cochlear Nucleus users found that individually measured threshold (T) levels, instead of defaults, improved speech recognition and loudness differentiation. Effect sizes were not given in the abstract, and the authors rate the support as partial.",
+   "source": "Zeitschrift für Medizinische Physik (PubMed)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42966653"
+  },
+  {
+   "cat": "tech",
+   "signal": 1,
+   "date": "2026-10-30",
+   "title": "A Florida theatre pilots Auracast to replace a 16-year-old hearing loop",
+   "take": "The Cook Theatre in Sarasota, home of Asolo Repertory Theatre, will trial Auracast broadcast to hearing aids and earbuds in November, installed by the firm that fitted its induction loop 16 years ago. No performance data has been published yet.",
+   "source": "Aurahear",
+   "url": "https://aurahear.com/2026/10/asolo-repertory-theatre-auracast-pilot-florida/"
+  },
+  {
+   "cat": "tech",
+   "signal": 1,
+   "date": "2026-10-31",
+   "title": "Audioscenic updates its speaker-based binaural playback",
+   "take": "UK firm Audioscenic, whose beam-forming tech already ships in laptops and speakers from Razer, Dell and Acer, has new hardware that plays binaural audio over loudspeakers instead of headphones, working from the binaural renders immersive formats already make. No product name, specs or price were given.",
+   "source": "Sound On Sound",
+   "url": "https://www.soundonsound.com/news/audioscenic-binaural-technology-update"
+  },
+  {
+   "cat": "speakers",
+   "signal": 1,
+   "date": "2026-10-30",
+   "title": "Voice Coil at 40: a 1,700 W 12-inch sub driver and a round-up of new bass tech",
+   "take": "Voice Coil's November issue covers B&C's 12SW115, a 12-inch subwoofer driver with a 4.5-inch split voice coil rated 1,700 W nominal and 3,400 W continuous, and surveys newer low-frequency approaches including Powersoft's moving-magnet M-Force, Brane's negative-spring drivers and force-cancelling designs.",
+   "source": "audioXpress",
+   "url": "https://audioxpress.com/news/voice-coil-november-2026-celebrating-40-years-with-new-frontiers-in-bass-and-loudspeaker-design"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "date": "2026-10-31",
+   "title": "Midiplus shows an FPGA interface with Dante, ADAT and Bluetooth",
+   "take": "Midiplus's Titan Q4F is an 8-in/8-out interface on its own FPGA platform with Dante, ADAT, S/PDIF and Bluetooth 5.4. The company also showed Portal, a broadcast-style interface with mix-minus and loopback. Prices and dates were not reported.",
+   "source": "Sonicstate",
+   "url": "https://sonicstate.com/news/2026/10/31/musicchina26-midiplus-keys-audio-interfaces-plus/"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "date": "2026-11-01",
+   "title": "Behringer Polykeys 61: a poly-aftertouch controller with a $199 target",
+   "take": "Behringer announced a 61-key controller with polyphonic aftertouch, a ribbon, nine sliders, nine knobs and 16 pads, and says it will be open source. The $199 figure is a target price; availability is to be announced.",
+   "source": "Synth Anatomy",
+   "url": "https://synthanatomy.com/2026/11/behringer-polykeys-61-an-open-source-midi-keyboard-controller-with-polyphonic-aftertouch.html"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "date": "2026-10-30",
+   "title": "Electra One Mk3: an 8-inch controller with Ethernet, OSC and MIDI 2.0",
+   "take": "The Mk3 moves to an 8-inch 1280x800 screen with 5 ms response (the Mk2 had 7 inches and 40 ms), touch-sensitive encoders, USB host for up to eight devices, 5-pin MIDI and Ethernet for RTP-MIDI, OSC and MIDI 2.0. Pre-order is €599, shipping from February 2027.",
+   "source": "Synth Anatomy",
+   "url": "https://synthanatomy.com/2026/10/electra-one-mk3-the-flagship-midi-controller-gets-a-major-revision.html"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "date": "2026-10-30",
+   "title": "Behringer teases an SP-1200 copy at a $200 target",
+   "take": "Behringer's SP1200X is an unofficial copy of E-mu's 1987 12-bit sampling drum machine, with a $200 target price, open-source firmware promised and no specs yet.",
+   "source": "Synthtopia",
+   "url": "https://www.synthtopia.com/content/2026/10/30/behringer-teases-knockoff-of-classic-e-mu-sp-1200-sampling-drum-machine/"
+  }
+ ],
+ "radar": [
+  {
+   "date": "2026-11-10",
+   "title": "EU copyright consultation closes",
+   "note": "The Commission extended its consultation on AI, piracy and performers' remuneration from 3 to 10 November; freelancers can respond directly or through their collecting society.",
+   "url": "https://digital-strategy.ec.europa.eu/en/news/commission-seeks-feedback-challenges-and-way-forward-area-effect-technology-copyright"
+  },
+  {
+   "date": "2026-11-16",
+   "title": "Suno's reply in the MLC data fight",
+   "note": "Suno's reply on its request for MLC streaming data is due, if the judge approves the schedule.",
+   "url": "https://www.digitalmusicnews.com/2026/10/30/suno-mlc-subpoena-schedule/"
+  },
+  {
+   "date": "2026-11-19",
+   "title": "Colorfield Mix Stage intro price ends",
+   "note": "$29 until 19 November, then $99.",
+   "url": "https://bedroomproducersblog.com/2026/10/30/vitric-audio-colorfield-mix-stage/"
+  }
+ ],
+ "craft": {
+  "title": "Know what still works when the cloud is down",
+  "body": "This week a hearing-aid maker's outage stopped fittings and apps, and new free plugins arrived tied to a vendor account. Both are fine until the server you depend on is unavailable on the day you need it.\n\nOnce a quarter, take your main laptop offline and open a typical session: note which plugins, licences and apps fail, and fix the ones that would stop a job. Keep offline licence files where vendors offer them, keep installers for the versions you actually use, and know how long each account-based licence works without checking in."
+ }
+}

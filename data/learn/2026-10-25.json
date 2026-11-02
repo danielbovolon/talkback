@@ -1,0 +1,166 @@
+{
+  "generated": "2026-10-25T07:20:00+01:00",
+  "key": "2026-10-25",
+  "label": "Sun 25 Oct 2026",
+  "lesson": {
+    "body": "A pressure capsule is sealed at the back, so it responds to sound pressure from every direction equally: an omni, A = 1, B = 0. A pressure-gradient capsule is open on both sides and responds to the difference in pressure between front and back. That difference is largest for sound arriving on axis, zero for sound from the side and inverted in polarity from the rear, which gives the figure-8: A = 0, B = 1, r(θ) = cos θ, with nulls at 90° and 270°.\n\nMix the two and you get the cardioid family. A cardioid is 0.5 + 0.5·cos θ: full level at 0°, 0.5 (−6 dB) at 90° and a null at 180°. A supercardioid (about A = 0.37, B = 0.63) is −8.6 dB at the sides with nulls near 126°, and a small rear lobe about 11.7 dB down. A hypercardioid (A = 0.25, B = 0.75) is −12 dB at 90°, with nulls at about 110° and a rear lobe only 6 dB down. Setting cos θ = −A/B gives the null angle for any blend.\n\nThe pattern also decides how much diffuse room sound the mic hears. Relative to an omni, the random-energy efficiency is 1/3 for cardioid and figure-8 (about −4.8 dB), about 0.27 for supercardioid (−5.7 dB) and 0.25 for hypercardioid (−6 dB). The square root of the inverse gives the distance factor: a cardioid can be about 1.7 times as far away as an omni for the same direct-to-reverberant ratio, a hypercardioid about 2 times. This is why a hyper on a boom can work a little farther back than a cardioid in a reflective room.\n\nAnything with a gradient component also has proximity effect: close to a source the spherical wavefront raises the pressure difference at low frequencies, so the bass rises as distance shrinks. A figure-8 shows it most, a cardioid less, and a pure pressure omni not at all. Real mics are only first-order in theory: most omnis become directional at high frequencies, and many cardioids widen in the bass, so off-axis sound is coloured, not just quieter. Multi-pattern condensers use two back-to-back cardioid diaphragms: one alone is cardioid, both summed in phase give omni, and both summed with one polarity inverted give figure-8.",
+    "inPractice": "Put a speaker playing pink noise at 0°, 90°, 110° and 180° to a cardioid and a hypercardioid and compare levels and tone. Then aim your wedge or the noisy camera at the measured null, not just 'behind the mic'.",
+    "keyPoints": [
+      "r(θ) = A + B·cos θ, with A + B = 1: A is the omni part, B the figure-8 part.",
+      "Cardioid: −6 dB at 90°, null at 180°. Hypercardioid: −12 dB at 90°, nulls near 110°, rear lobe −6 dB.",
+      "Null angle: cos θ = −A/B.",
+      "Distance factor vs omni: cardioid ≈ 1.7, supercardioid ≈ 1.9, hypercardioid ≈ 2.0.",
+      "Proximity effect comes from the gradient part: none on a pure omni, strongest on a figure-8.",
+      "Real patterns change with frequency, so off-axis sound is coloured as well as reduced."
+    ],
+    "level": "core",
+    "mistake": "Many people put a wedge directly behind a hypercardioid vocal mic, assuming the rear is the quietest point. A hyper's rear lobe is only about 6 dB down; its nulls are at roughly 110°, so wedges belong off to the sides of the rear.",
+    "sayIt": "Every directional mic is a mix of an 'everything' mic and a 'front-and-back' mic, and the mix decides where it is deaf, how much room it hears and how much bass it adds up close.",
+    "summary": "A first-order microphone's polar pattern is a blend of a pressure (omnidirectional) response and a pressure-gradient (figure-8) response, written as r(θ) = A + B·cos θ with A + B = 1. Changing the ratio of A to B moves you from omni through cardioid, supercardioid and hypercardioid to figure-8, and sets where the nulls fall, how much room sound the mic picks up and how strong its proximity effect is.",
+    "terms": [
+      {
+        "def": "A diaphragm sealed at the back that responds to pressure equally from all directions (omni).",
+        "term": "Pressure capsule"
+      },
+      {
+        "def": "Response to the pressure difference between the two sides of an open diaphragm; gives the figure-8.",
+        "term": "Pressure gradient"
+      },
+      {
+        "def": "How much diffuse, all-directions sound a mic picks up relative to an omni.",
+        "term": "Random energy efficiency"
+      },
+      {
+        "def": "How much farther a directional mic can be placed than an omni for the same direct-to-reverberant ratio.",
+        "term": "Distance factor"
+      },
+      {
+        "def": "The low-frequency rise of gradient mics as the source gets close.",
+        "term": "Proximity effect"
+      }
+    ],
+    "title": "Polar patterns from first principles",
+    "topic": "Microphones"
+  },
+  "quiz": {
+    "questions": [
+      {
+        "answer": 2,
+        "explain": "At 90°, cos θ = 0, so r = 0.25. 20·log10(0.25) ≈ −12 dB. The −6 dB figure belongs to the cardioid (0.5 at 90°); the hyper's nulls are near 110°, not 90°.",
+        "level": "advanced",
+        "options": [
+          "−3 dB",
+          "−6 dB",
+          "−12 dB",
+          "It is a complete null"
+        ],
+        "q": "A hypercardioid follows r(θ) = 0.25 + 0.75·cos θ. How far below its on-axis level is sound arriving at exactly 90°?",
+        "topic": "Microphones"
+      },
+      {
+        "answer": 1,
+        "explain": "Distance factor is the square root of 1/(random energy efficiency): √4 = 2. Using the ratio directly (4 m) forgets that direct sound falls with distance squared in energy terms.",
+        "level": "advanced",
+        "options": [
+          "About 1.4 m",
+          "About 2 m",
+          "About 3 m",
+          "About 4 m"
+        ],
+        "q": "In a diffuse room, an omni gives the direct-to-reverberant ratio you want at 1 m. A hypercardioid picks up a quarter of the diffuse energy an omni does. Roughly how far away can it be for the same ratio?",
+        "topic": "Microphones"
+      },
+      {
+        "answer": 1,
+        "explain": "√500 ≈ 22.4, and 0.057 × 22.4 ≈ 1.27 m. A source with Q = 4 would double it to about 2.5 m, since dc scales with √Q.",
+        "level": "advanced",
+        "options": [
+          "About 0.6 m",
+          "About 1.3 m",
+          "About 2.5 m",
+          "About 5.7 m"
+        ],
+        "q": "Using the critical-distance estimate dc ≈ 0.057·√(Q·V/RT60), what is dc for an omni source (Q = 1) in a 500 m³ room with an RT60 of 1.0 s?",
+        "topic": "Acoustics"
+      },
+      {
+        "answer": 3,
+        "explain": "The two cardioids, (0.5 + 0.5 cos θ) and (0.5 − 0.5 cos θ), add to a constant: omni. Inverting one before summing cancels the constant part and leaves cos θ, a figure-8.",
+        "level": "intermediate",
+        "options": [
+          "Figure-8",
+          "Hypercardioid",
+          "Cardioid with 6 dB more output",
+          "Omni"
+        ],
+        "q": "A multi-pattern condenser has two back-to-back cardioid diaphragms. What pattern do you get when both are summed at equal level and the same polarity?",
+        "topic": "Microphones"
+      },
+      {
+        "answer": 0,
+        "explain": "Proximity effect comes from the pressure-gradient part of the response. A sealed pressure omni has none; the figure-8, being pure gradient, has the most.",
+        "level": "intermediate",
+        "options": [
+          "A pressure-operated omni",
+          "A ribbon figure-8",
+          "A large-diaphragm cardioid",
+          "A shotgun with a supercardioid capsule"
+        ],
+        "q": "Which type of microphone shows essentially no proximity effect?",
+        "topic": "Microphones"
+      },
+      {
+        "answer": 2,
+        "explain": "Without dither, truncation error follows the signal and is heard as gritty distortion on fades and reverb tails. Low-level dither noise decorrelates the error so it becomes a steady, low hiss instead.",
+        "level": "intermediate",
+        "options": [
+          "It raises the loudness of quiet passages",
+          "It removes the need for a true-peak limiter",
+          "It makes the quantisation error independent of the signal, turning distortion into benign noise",
+          "It stops intersample peaks"
+        ],
+        "q": "Why should you add dither when reducing a 24-bit mix to 16 bits?",
+        "topic": "Digital audio"
+      },
+      {
+        "answer": 3,
+        "explain": "A cardioid's single null is at 180°. Nulls near 110° belong to the hypercardioid, and at 90° a cardioid is only 6 dB down.",
+        "level": "basic",
+        "options": [
+          "0° (on axis)",
+          "90° (side)",
+          "About 110°",
+          "180° (directly behind)"
+        ],
+        "q": "On a cardioid microphone, at what angle is it least sensitive?",
+        "topic": "Microphones"
+      },
+      {
+        "answer": 0,
+        "explain": "For balanced mono lines, tip is hot, ring is cold and sleeve is the shield. The same plug used for stereo headphones carries left on the tip and right on the ring, which is a different use, not a balanced line.",
+        "level": "basic",
+        "options": [
+          "Tip hot (+), ring cold (−), sleeve ground/shield",
+          "Tip ground, ring hot, sleeve cold",
+          "Tip left, ring right, sleeve ground on every TRS cable",
+          "Tip cold, ring hot, sleeve phantom power"
+        ],
+        "q": "On a balanced TRS jack, what do the tip, ring and sleeve normally carry?",
+        "topic": "Connectors"
+      },
+      {
+        "answer": 1,
+        "explain": "0 dB SPL is 20 µPa, roughly the threshold of hearing at 1 kHz. 1 Pa is 94 dB SPL; 0.775 V is the dBu reference and 1 mW the dBm reference.",
+        "level": "basic",
+        "options": [
+          "1 pascal",
+          "20 micropascals",
+          "0.775 volts",
+          "1 milliwatt"
+        ],
+        "q": "What reference pressure does 0 dB SPL correspond to?",
+        "topic": "Acoustics"
+      }
+    ]
+  }
+}

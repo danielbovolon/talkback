@@ -1,0 +1,166 @@
+{
+  "generated": "2026-10-27T07:20:00+01:00",
+  "key": "2026-10-27",
+  "label": "Tue 27 Oct 2026",
+  "lesson": {
+    "body": "Wavelength is the speed of sound divided by frequency: λ = c / f, with c about 343 m/s at 20 °C. So 100 Hz has a wavelength of 3.43 m, 1 kHz about 34 cm and 10 kHz about 3.4 cm. When sound meets an object, compare the object to that number. If the object is much smaller than the wavelength, the wave flows round it as if it were not there. If it is much larger, the high frequencies are blocked and a shadow forms behind it, while lower frequencies still bend in at the edges.\n\nThis is why a gobo or acoustic screen works on cymbals but not on kick drum or bass amp. A 1.2 m panel is several wavelengths wide at 2 kHz but only a third of a wavelength at 100 Hz. It is also why you hear the bass of a festival over a hill long after the vocals have gone. Outdoor noise barriers are judged by the extra path length δ that sound must travel over the top. The Fresnel number N = 2δ / λ grows with frequency, and Maekawa's chart (approximated by A ≈ 10·log10(3 + 20N) dB) shows attenuation rising from a few dB at low N to around 20 dB in practice. Low frequencies, with small N, get the least.\n\nThe same idea shapes loudspeakers and microphones. A speaker's front baffle is large compared with high-frequency wavelengths, so it radiates them forwards into half-space, but at low frequencies sound wraps round the cabinet into full space. That baffle step costs up to about 6 dB on axis, with a transition near f ≈ 115 / W, where W is the baffle width in metres. Microphones follow the same rule in reverse: a body or diaphragm comparable to the wavelength shadows sound arriving from the side or rear, so pressure omnis become directional at high frequencies, and large-diaphragm mics more so.\n\nYour own head is a diffracting object about 17–18 cm wide. Below roughly 1.5 kHz sound bends round it and you locate sources mainly by time difference between the ears. Above that, the head shadows the far ear, and level difference takes over. Binaural and HRTF rendering is largely a model of this diffraction.",
+    "inPractice": "Next time you place a gobo, solo the spill mic and sweep a low-pass and high-pass filter: you will hear the screen cutting cymbal spill while kick and bass come through almost unchanged. Use distance, mic pattern and the source's own directivity for low-frequency separation.",
+    "keyPoints": [
+      "λ = c / f: 100 Hz ≈ 3.4 m, 1 kHz ≈ 34 cm, 10 kHz ≈ 3.4 cm.",
+      "Obstacles smaller than the wavelength barely matter; larger ones cast a shadow.",
+      "Screens, gobos and barriers work on highs, hardly on lows.",
+      "Barrier attenuation rises with Fresnel number N = 2δ / λ.",
+      "Baffle step: up to about 6 dB loss below f ≈ 115 / W (W in metres).",
+      "Head shadow makes level differences the main cue above about 1.5 kHz."
+    ],
+    "level": "core",
+    "mistake": "A common belief is that a heavier or thicker screen will stop bass spill. Mass helps with transmission through the panel, but sound goes round the edges; at low frequencies the panel is too small compared with the wavelength to cast a shadow.",
+    "sayIt": "Low notes have waves several metres long, so they flow round walls, screens and people, while high notes are short enough to be blocked.",
+    "summary": "Diffraction is the bending and spreading of sound around obstacles and through openings. How much a wave diffracts depends on the size of the object compared with the wavelength: objects much smaller than the wavelength barely affect it, while objects much larger cast a clear acoustic shadow.",
+    "terms": [
+      {
+        "def": "Bending and spreading of a wave around obstacles and through openings.",
+        "term": "Diffraction"
+      },
+      {
+        "def": "Region behind an object where higher frequencies are reduced because the object is large compared with their wavelength.",
+        "term": "Acoustic shadow"
+      },
+      {
+        "def": "N = 2δ / λ, where δ is the extra path over a barrier; higher N means more attenuation.",
+        "term": "Fresnel number"
+      },
+      {
+        "def": "The rise of up to about 6 dB on axis as a speaker moves from radiating into full space at low frequencies to half-space at high frequencies.",
+        "term": "Baffle step"
+      },
+      {
+        "def": "Level reduction at the far ear caused by the head blocking higher frequencies.",
+        "term": "Head shadow"
+      }
+    ],
+    "title": "Diffraction: why bass ignores obstacles",
+    "topic": "Physics of sound"
+  },
+  "quiz": {
+    "questions": [
+      {
+        "answer": 2,
+        "explain": "At 1 kHz λ = 0.343 m, so N = 2 × 0.343 / 0.343 = 2 and A ≈ 10·log10(43) ≈ 16 dB. At 100 Hz, N = 0.2 and the same barrier gives only about 8.5 dB, which is why bass gets over walls.",
+        "level": "advanced",
+        "options": [
+          "About 5 dB",
+          "About 10 dB",
+          "About 16 dB",
+          "About 26 dB"
+        ],
+        "q": "A noise barrier makes sound travel 0.343 m further over its top than the direct path. Using N = 2δ/λ, Maekawa's approximation A ≈ 10·log10(3 + 20N) dB and c = 343 m/s, roughly how much attenuation does it give at 1 kHz?",
+        "topic": "Acoustics"
+      },
+      {
+        "answer": 1,
+        "explain": "115 / 0.23 ≈ 500 Hz. Well below that the speaker radiates into full space and loses up to about 6 dB on axis; well above it the baffle directs sound forwards into half-space.",
+        "level": "advanced",
+        "options": [
+          "About 150 Hz",
+          "About 500 Hz",
+          "About 1.5 kHz",
+          "About 5 kHz"
+        ],
+        "q": "A loudspeaker has a 0.23 m wide front baffle. Using the common estimate f ≈ 115/W, around what frequency is the centre of its baffle-step transition?",
+        "topic": "Acoustics"
+      },
+      {
+        "answer": 0,
+        "explain": "The preamp sees 1500 / (150 + 1500) ≈ 0.91 of the open-circuit voltage, and 20·log10(0.91) ≈ −0.8 dB. A 10:1 bridging ratio is chosen exactly so the loss is small; equal impedances would lose 6 dB.",
+        "level": "advanced",
+        "options": [
+          "About 0.8 dB",
+          "About 3 dB",
+          "About 6 dB",
+          "About 20 dB"
+        ],
+        "q": "A microphone with a 150 Ω output impedance feeds a preamp with a 1.5 kΩ input impedance. Treating them as a simple voltage divider, how much level is lost?",
+        "topic": "Impedance"
+      },
+      {
+        "answer": 3,
+        "explain": "At 60 Hz the wavelength is about 5.7 m, several times the gobo's width, so the sound diffracts round it. Higher frequencies have wavelengths of a few centimetres and are shadowed.",
+        "level": "intermediate",
+        "options": [
+          "Cymbal wash around 8 kHz",
+          "Snare crack around 2 kHz",
+          "Hi-hat around 5 kHz",
+          "Kick drum around 60 Hz"
+        ],
+        "q": "You put a 1.2 m wide gobo between a drum kit and a vocal mic. Which part of the drum spill will it reduce least?",
+        "topic": "Acoustics"
+      },
+      {
+        "answer": 2,
+        "explain": "The head is about 17–18 cm wide. Below about 1.5 kHz wavelengths are long enough to bend round it and time difference dominates; above it the head shadows the far ear and level difference takes over.",
+        "level": "intermediate",
+        "options": [
+          "About 100 Hz",
+          "About 300 Hz",
+          "About 1.5 kHz",
+          "About 15 kHz"
+        ],
+        "q": "Above roughly what frequency does the head start to shadow the far ear enough that interaural level difference becomes the main localisation cue?",
+        "topic": "Psychoacoustics"
+      },
+      {
+        "answer": 1,
+        "explain": "Resonance feeds part of the output back to create a peak at the cutoff frequency. At high settings many filters self-oscillate there. The slope is a separate design choice.",
+        "level": "intermediate",
+        "options": [
+          "Raises the cutoff frequency",
+          "Boosts frequencies around the cutoff",
+          "Steepens the slope from 12 to 24 dB/octave",
+          "Adds a second oscillator"
+        ],
+        "q": "On a subtractive synth's low-pass filter, what does turning up resonance do?",
+        "topic": "Synthesis"
+      },
+      {
+        "answer": 0,
+        "explain": "Diffraction is bending and spreading. Turning into heat is absorption, bouncing back is reflection, and changes in speed with temperature cause refraction.",
+        "level": "basic",
+        "options": [
+          "Sound bending around obstacles and spreading through openings",
+          "Sound turning into heat in an absorber",
+          "Sound bouncing back off a hard wall",
+          "Sound speeding up in warm air"
+        ],
+        "q": "What is diffraction?",
+        "topic": "Acoustics"
+      },
+      {
+        "answer": 3,
+        "explain": "CD audio is 16-bit, 44.1 kHz stereo. 48 kHz is the film and TV standard, so music for picture often needs sample-rate conversion.",
+        "level": "basic",
+        "options": [
+          "32 kHz",
+          "48 kHz",
+          "96 kHz",
+          "44.1 kHz"
+        ],
+        "q": "What sample rate does audio CD use?",
+        "topic": "Digital audio"
+      },
+      {
+        "answer": 2,
+        "explain": "M&E means music and effects: the full mix minus original-language dialogue, so distributors can dub the programme into other languages.",
+        "level": "basic",
+        "options": [
+          "A mono mix for editing",
+          "The master and an extra backup",
+          "A mix of music and effects without dialogue",
+          "A metadata and export file"
+        ],
+        "q": "In film and TV delivery, what is an M&E track?",
+        "topic": "Post workflow"
+      }
+    ]
+  }
+}

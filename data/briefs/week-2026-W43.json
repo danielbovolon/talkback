@@ -1,0 +1,349 @@
+{
+  "craft": {
+    "body": "Two stories this week point the same way. The Frankfurt court decided a lyrics case on sworn evidence of a human draft, and Reservoir's suits turn on what was copied into training data. In both, records decided the argument.\n\nMake it routine: keep dated drafts, session notes saying who played, wrote or generated each part, and the exact tool and version for anything AI-assisted. Store them with the project backup, and put a line in your contracts about whether recordings may be used to train AI. It costs minutes per session and can be worth a lot later.",
+    "title": "Keep a paper trail of who made what"
+  },
+  "generated": "2026-10-26T07:30:00+01:00",
+  "headline": "Surfaces speak, publishers sue",
+  "items": [
+    {
+      "breakthrough": true,
+      "cat": "science",
+      "date": "2026-10-19",
+      "deep": "Panel speakers are not new: distributed-mode loudspeakers and OLED 'screen sound' TVs already use exciters behind a surface. What is new here is a large array of actuators driven per zone from the content, so a voice can come from the actor's mouth rather than from a centre speaker behind or below the screen. Driving several modules together is said to give a woofer-like low-frequency effect.\n\nThe limits matter. The release gives no SPL, frequency response or distortion figures, and zone isolation is quoted as panel vibration, not as acoustic separation at the listener. The paper was in the Journal of Mechanical Science and Technology in May 2026 and the work is patented in Korea.\n\nFor post mixers this is the direction object-based rendering could take on future screens: dialogue anchoring would be done by the display, not by the room's LCR. Worth watching for cinema, signage and immersive installations; not something to plan a mix around yet.",
+      "signal": 3,
+      "source": "Newswise (NST/KIMM)",
+      "take": "The Korea Institute of Machinery and Materials has shown a modular display that radiates sound from the screen surface itself. Eighty voice-coil actuators sit behind an aluminium panel carrying a transparent LED film, and AI source separation and localisation decide which zone of the panel vibrates. The team reports 99.9% accuracy in picking the target zone and up to 35 dB of vibration difference between active and idle zones.",
+      "title": "KIMM builds a 100-inch screen that sounds from where the picture is",
+      "url": "https://www.newswise.com/articles/sound-comes-from-where-you-see-it-kimm-develops-display-technology-that-reproduces-sound-at-on-screen-locations"
+    },
+    {
+      "cat": "ai",
+      "date": "2026-10-22",
+      "deep": "Until now the big music AI cases were led by the three majors and their publishing arms. Reservoir is an independent publisher, and its joining shows that mid-size catalogues now think they can win, or at least settle well. The Suno complaint also repeats reporting that Suno scraped streaming and lyric sites through proxy services. Suno says the leaked code behind that claim is out of date.\n\nThe figures are statutory maximums pleaded in a complaint, not damages anyone has been awarded. Nothing has been decided yet.\n\nFor working engineers the effect is indirect but real. Every new case makes it harder to say that music made with Suno is safe to deliver, and clients will ask more often where generated material came from. If you deliver stems or masters, it is now normal to state in writing whether a delivery can be used for AI training.",
+      "signal": 3,
+      "source": "Music Business Worldwide",
+      "take": "Reservoir Media and Shapiro, Bernstein & Co. filed two suits on 21 October in federal court in Northern California. One claims Suno copied 1,050 compositions to train its music models. The other claims Anthropic copied the lyrics of 853 compositions to train Claude. The pleaded totals, including DMCA counts, are just over $186m against Suno and just over $151.4m against Anthropic.",
+      "title": "Reservoir sues Suno over 1,050 songs and Anthropic over 853 lyrics",
+      "todo": "Add a line to your delivery terms stating whether your stems and masters may be used to train AI models.",
+      "url": "https://www.musicbusinessworldwide.com/reservoir-sues-suno-for-infringment-over-1050-songs-including-tracks-by-joni-mitchell-johnny-cash-madonna-and-more/"
+    },
+    {
+      "cat": "plugins",
+      "date": "2026-10-21",
+      "deep": "Most free loudness meters measure in real time while you play the mix. The new File Check works on the bounced file, which is what the broadcaster or platform actually ingests, and leaves a report you can attach to a delivery. That closes the gap between 'it read −23 on the bus' and 'the WAV that left the building is compliant', which is where rejections usually happen: a late limiter change, a bad render, a wrong stem.\n\nThe LRA change matters more than it sounds. Loudness Range is built from the statistics of short-term loudness, so the update rate affects the result. If you keep QC sheets from older versions, or compare with another meter, small differences are now expected and are not a fault in the mix. The Dynamics Optimizer also now checks exports against its ceiling and target and removes incomplete exports.\n\nLimits: APU is a small developer and the File Check is new, so cross-check its first reports against your reference meter before you rely on it for a network delivery.",
+      "free": true,
+      "signal": 3,
+      "source": "KVR Audio",
+      "take": "APU Software updated all eight Loudness Series plugins to 6.0 (VST3, AU, AAX on Windows, macOS and Linux). The free Loudness Meter gains a File Check that tests finished WAV and FLAC files against delivery targets and writes HTML or CSV reports. LRA now updates at 10 Hz following EBU Tech 3342, so readings can differ slightly from earlier versions. The six processing plugins stay at $40 each; the Meter and Spectrum Analyzer are free.",
+      "title": "APU Loudness Series 6.0: free meter now QCs finished files against delivery specs",
+      "todo": "Run one of your recent approved deliveries through File Check and compare integrated loudness, true peak and LRA with your usual meter before trusting it.",
+      "url": "https://www.kvraudio.com/news/apu-software-releases-loudness-series-v6-0-0-69302"
+    },
+    {
+      "breakthrough": true,
+      "cat": "hearing",
+      "date": "2026-10-25",
+      "deep": "Today's cochlear implants have 12 to 22 electrodes, but current spreads through the fluid of the cochlea, so neighbouring electrodes excite overlapping groups of nerve fibres. In practice users get far fewer independent pitch channels than electrodes, which is why music and voices in noise are so hard with an implant. Light can be focused much more tightly, so optical stimulation could in principle give many more usable channels.\n\nThis study measured responses in the midbrain (inferior colliculus) and found optical activation followed the cochlea's frequency map and separated better than electrical stimulation, though still not as sharply as real sound. The limits are real: ChReef closes slowly, so it may not follow the fast timing speech needs; only single pulses were tested; some LEDs spread at high intensity; and some treated cochleae lost nerve cells, a gene-therapy safety question. Human trials are not close. For engineers, it is the most credible route yet to implants that carry pitch and timbre, which matters for clients and colleagues who use them.",
+      "signal": 3,
+      "source": "Hearing Health & Technology Matters",
+      "take": "A Göttingen group led by Tobias Moser used gene therapy to make gerbils' auditory nerve cells light-sensitive with the channelrhodopsin ChReef, then stimulated them with experimental implants carrying 5 to 10 green micro-LEDs. Responses appeared from pulses of about 150 nJ, single LEDs could drive firing as strong as a 51 dB SPL tone, and optical channels stayed distinct at smaller spacings than electrical ones. The paper is in EMBO Molecular Medicine.",
+      "title": "Micro-LED optical cochlear implant separates channels better than electrodes, in gerbils",
+      "url": "https://hearinghealthmatters.org/hearing-technologies/2026/gene-therapy-cochlear-implant-optical/"
+    },
+    {
+      "cat": "post",
+      "date": "2026-10-24",
+      "deep": "Until now, Renderer monitoring on most Pro Tools rigs meant mousing in the Renderer window or building your own macros, because Avid surfaces have no native control over Dolby's monitor section. DAR Bridge sits in the middle: it shows up to EuControl or WSControl as a surface client and translates key and knob moves into Renderer commands over the network. Soft keys can cover mutes, source selection, gain presets and a Master Close, and levels can be shown on the Dolby cinema scale.\n\nIt is a one-person project with no Avid or Dolby support and no warranty. It was tested only against WSControl 2026.4, it needs Local Network permission or the surface will not see it, S6 soft keys start empty, and because the Renderer will not go above unity the cinema scale stops at 7.0. For an Atmos mixer that is still a large ergonomic gain for nothing: hands stay on the surface during level checks, downmix auditions and dim calls in client sessions.",
+      "free": true,
+      "signal": 2,
+      "source": "Production Expert",
+      "take": "DAR Bridge, a free macOS app by Sreejesh Nair, lets an Avid S6, S4, S3, S1, Artist Mix/Dock or Avid Control drive the Dolby Atmos Renderer: monitor level, Dim, Cut, speaker layouts, transport and loudness. Version 1.2.2 is a universal, notarised build for macOS 13 or later and needs EuControl or WSControl plus the Renderer reachable on port 4010. It also opens HTTP and OSC on the same Mac so Stream Deck or SoundFlow can send the same commands.",
+      "title": "Free DAR Bridge puts the Dolby Atmos Renderer on Avid surfaces",
+      "todo": "Install it on a non-billable day, map Dim, Cut and your 7.1.4/5.1/2.0 layout switches to soft keys, and test a full session before using it with a client.",
+      "url": "https://www.production-expert.com/production-expert-1/free-dar-bridge-control-the-dolby-atmos-renderer-from-your-avid-control-surface"
+    },
+    {
+      "breakthrough": true,
+      "cat": "science",
+      "date": "2026-10-21",
+      "deep": "Porous absorbers have to be about a quarter-wavelength deep to work well. At 50 Hz that is around 1.7 m. That is why bass control in small rooms relies on bulky membrane, Helmholtz or active traps. The Sonexos idea came out of CTO Stanislav Sergeev's PhD work at EPFL. Its plasma layer behaves as an absorber whose impedance can be tuned electronically, with no mass to move, and it claims useful absorption at 30 Hz from under 30 mm of depth.\n\nThis is a funding round, not independent data. The dB figures come from the vendor's prototypes in HVAC and appliance tests, not from measured room acoustics. The company targets series production in early 2028, starting with ventilation and appliances. Listening rooms are on its list, but they are not first.\n\nIf the physics holds up at room scale, it could change how small control rooms, vans and booths deal with room modes and HVAC rumble. For now, treat it as one to watch, not one to buy.",
+      "signal": 2,
+      "source": "audioXpress",
+      "take": "Swiss startup Sonexos closed a CHF 5m pre-Series A round led by Valquest Partners, with Bosch Ventures taking part. Its panels use a controlled corona discharge to make a thin layer of ionised gas whose acoustic behaviour is set electronically, so there is no moving diaphragm. The company says the panels are under 30 mm thick and absorb from 30 Hz to 1,500 Hz. Prototypes cut noise by up to 20 dB in ventilation systems and 16 dB in appliances, measured under the company's own test conditions.",
+      "title": "Sonexos raises CHF 5m for a plasma absorber that works down to 30 Hz",
+      "url": "https://audioxpress.com/news/bosch-ventures-backs-sonexos-to-bring-plasma-based-noise-control-to-series-production"
+    },
+    {
+      "breakthrough": true,
+      "cat": "science",
+      "date": "2026-10-22",
+      "deep": "Mid-low frequencies are where thin treatment fails: a 24 mm porous absorber does little at 600 Hz because it sits too close to the wall, where particle velocity is low. Resonant structures such as perforated panels and Helmholtz cells can work at those frequencies in less depth, but are usually narrowband. Here the team combines perforated-lid resonators with a gyroid interior that adds thermoviscous losses, and uses a physics-based neural network (with 91% fewer parameters than a standard one) to tune the layout quickly.\n\nThe work is aimed at aerospace, not studios. The samples are resin prints, the 600–900 Hz band is a fixed design window rather than broadband, and the 88.5 to 45.1 dB figure comes from a specific lab test, not a room measurement. Still, printed, tuned resonant lattices that hit a chosen octave in under 25 mm point to future slim treatment for boxy-sounding mix rooms, vehicles and broadcast booths, where depth is the limit.",
+      "signal": 2,
+      "source": "EurekAlert (Harbin Institute of Technology)",
+      "take": "Harbin Institute of Technology researchers describe a honeycomb panel whose walls are hollowed into a gyroid lattice, with each cell capped by a perforated lid so it acts as a resonator. They report roughly 90% absorption of sound energy between 600 and 900 Hz from a 24 mm panel, and a test where an 88.5 dB sound dropped to 45.1 dB. The same carbon-loaded structure also absorbs radar and impact energy; the paper is in the International Journal of Extreme Manufacturing.",
+      "title": "A 24 mm printed panel absorbs about 90% of sound at 600–900 Hz",
+      "url": "https://www.eurekalert.org/news-releases/1148809"
+    },
+    {
+      "breakthrough": true,
+      "cat": "science",
+      "date": "2026-10-23",
+      "deep": "Full-sphere directivity data, the balloon files behind GLL, CLF and manufacturer prediction tools, normally needs measurements at hundreds or thousands of angles on a turntable in an anechoic space or a large field. The usual way to cut that work is to measure a few planes and interpolate between them, but interpolation smears lobes and nulls that matter when boxes are arrayed. Here the network learns how real professional cabinets radiate and 'inpaints' the missing directions. The authors map the irregular spherical grid onto a 2D image so a standard image-repair architecture can be used.\n\nThe limits matter. The training set came from one manufacturer: 13 DAS Audio loudspeakers, doubled to 26 configurations by rotating them 90°. How well it generalises to very different designs, such as horn-loaded cardioid subs or column arrays, is not shown. For engineers the practical gain is indirect: cheaper, faster balloon data could mean more boxes, accessories and splay variants modelled in prediction software, and more small manufacturers able to publish credible data at all.",
+      "signal": 2,
+      "source": "Journal of the Acoustical Society of America",
+      "take": "A JASA paper by researchers at the Universitat de València, UPV and DAS Audio uses a convolutional U-Net to fill in a speaker's full high-resolution directivity balloon from only three polar measurement planes. On cabinets it had not seen during training, the error averaged 1.24 ± 0.07 dB, up to 0.65 dB better than standard interpolation. Patterns rebuilt this way still gave accurate line-array models in professional prediction software.",
+      "title": "Neural network rebuilds full loudspeaker balloons from three measured planes",
+      "todo": "When a vendor supplies prediction data, ask how many planes were actually measured and how the rest was filled in.",
+      "url": "https://pubs.aip.org/asa/jasa/article/160/4/3428/3407264/Acoustic-inpainting-of-loudspeaker-radiation"
+    },
+    {
+      "cat": "ai",
+      "date": "2026-10-20",
+      "deep": "The court did not need to decide whether AI later edited the lyrics, because the creative core of her draft survived in the published version. It said nothing about who owns the Suno-generated music, and under German law purely AI-generated text has no protection at all. This was interim (urgent) proceedings and cannot be appealed.\n\nThe practical lesson is evidence. When AI tools are part of a session, the human contributions are what carry copyright, and dated drafts, notes and session files are what prove them. Expect 'an AI wrote it' to become a standard defence, and keep records that answer it.",
+      "signal": 2,
+      "source": "OLG Frankfurt am Main (press release 52/2026)",
+      "take": "The Higher Regional Court of Frankfurt (11 U 2/26, judgment of 1 October, announced 20 October) upheld an injunction for a woman whose lyrics were used in a song her partner produced with Suno and released via DistroKid. A third party released two versions with her lyrics on Spotify and argued an AI had written the words. Her sworn statements that she wrote the raw draft were enough, and the defendant's AI-detection indicators did not convince the court.",
+      "title": "German appeals court: a songwriter's lyrics stay protected even when Suno made the music",
+      "todo": "On sessions that use AI tools, keep dated drafts and a short log of who wrote or played what, and store it with the project backup.",
+      "url": "https://ordentliche-gerichtsbarkeit.hessen.de/presse/urheberschutz-fuer-liedtext-trotz-ki-einwands"
+    },
+    {
+      "cat": "live",
+      "date": "2026-10-21",
+      "deep": "The Quantum112 is the small frame that rental companies send on fly dates and into tight FOH positions. Its limit was usually not the surface but the bus count: 24 auxes runs out quickly once you have stereo IEM mixes, FX returns and a few groups. Doubling to 48 removes the main reason to spec a bigger desk for a mid-size show.\n\nThe 120-input upgrade for Quantum225 Pulse and DS owners costs nothing. DiGiCo does not give version numbers; the software is on its support site now.\n\nWhat to watch: a show file built on an upgraded desk may need the same licence on whatever console the rental house sends next. Check the upgrade status of the exact desk on the rider, not just the model name.",
+      "signal": 2,
+      "source": "FOH",
+      "take": "A paid software upgrade (£995 list) takes the Quantum112 Pulse from 80 to 96 inputs, 24 to 48 aux/group busses, a 12×8 to 12×12 matrix, 20 to 24 Mustard processing instances and 24 to 32 Nodal Processing paths. Quantum225 Pulse and DS desks get 120 inputs (from 96) free. Non-Pulse Quantum225 owners can pay £2,295 list for the top spec: 120 inputs, 48 busses, 12×12 matrix, 36 Mustard and 48 Nodal.",
+      "title": "DiGiCo unlocks more channels and busses on Quantum112 and Quantum225",
+      "todo": "If your riders specify a Quantum112, ask the supplier whether their units carry the new upgrade before you build a 48-bus show file.",
+      "url": "https://fohonline.com/blogs/new-gear/digico-upgrades-software-for-quantum112-and-quantum225-pulse/"
+    },
+    {
+      "cat": "software",
+      "date": "2026-10-24",
+      "deep": "Most of this release is about the dull end of the job: deliveries. A render that can skip loudness analysis is faster when you are spitting out dozens of stems or alt mixes that will be measured later anyway, and better parallel rendering helps on many-core machines. The postprocessing error is the quiet win, because a render that silently fails to write is worse than one that stops.\n\nThe batch converter changes matter for anyone who conforms SFX libraries, voice files or podcast episodes: normalising only the files below a target, from a script, avoids pushing already-correct files and their noise floors up. Touch override in read mode lets you ride a fader during playback without losing the written pass. It is a free update for licence holders; as with any point release, try it on a copy of a delivery session before trusting it on a deadline.",
+      "free": true,
+      "signal": 2,
+      "source": "Cockos",
+      "take": "Cockos's v7.83 can skip loudness calculation for faster renders, caps offline renders at 2x realtime if you want, uses more cores when rendering tracks or items in parallel, and reports an error if postprocessing temp files fail to write. The batch converter now previews peaks and output, and from the command line it can apply per-file gain and normalise only the files that are too quiet. A new $projectbase wildcard, touch override of automation in read mode and CLAP gain-reduction readout via ReaScript are also in.",
+      "title": "REAPER 7.83: faster renders, smarter batch converter, touch override in read mode",
+      "todo": "Build a render preset with $projectbase in the filename and test the quiet-only normalise on a copy of an SFX or VO folder before your next batch delivery.",
+      "url": "https://www.reaper.fm/whatsnew.txt"
+    },
+    {
+      "cat": "ai",
+      "date": "2026-10-23",
+      "deep": "This is the part of the Italian AI framework that applies to employment, and it bites on any studio, post house, broadcaster or production company in Italy that uses AI to screen CVs, schedule crews, assess performance or allocate work. A human must actually review the AI output, and the worker gets a right to know how much AI shaped a decision, which factors counted and what the human review was.\n\nThe PwC summary does not cover copyright, labelling of synthetic content or voice rights, so this is not the AI-music rulebook. For a freelancer the practical points are narrower: if a client or agency uses automated tools to select or rate crew, you can ask how they are used; and if you employ assistants, the AI angle now belongs in your safety risk assessment alongside noise. Penalties follow the AI Act's fine scale.",
+      "signal": 2,
+      "source": "PwC Italia",
+      "take": "Legislative Decree 179/2026, adopted on 7 October, took effect on 23 October and aligns Italian law with the EU AI Act. Article 41 says decisions on hiring, managing and dismissing staff cannot rest solely on automated processes, workers must be told when AI is used and can ask for an explanation, and dismissals that breach this are void. AI's effects on work pace and tasks must go into the D.Lgs. 81/2008 risk assessment; ACN and AgID oversee the regime.",
+      "title": "Italy's AI decree is now in force, with new rules for AI in hiring and management",
+      "todo": "If you employ anyone or run a facility in Italy, ask your consulente del lavoro whether your 81/2008 risk assessment (DVR) needs an AI section.",
+      "url": "https://blog.pwc.it/en/ai-what-changes-from-23-october/"
+    },
+    {
+      "cat": "industry",
+      "date": "2026-10-25",
+      "deep": "This is anecdote, not a survey, and the figures are mostly American and British. But it matches a pattern freelancers know: production tax credits and independent features bring volume first, and the money arrives in many small, tight budgets rather than fewer generous ones. More hours at the same day rate is not growth; it is the same income for more fatigue.\n\nThe useful reading for an Italian freelancer is timing. When colleagues are saying no, clients find it harder to replace you, which is the moment to restate rates, add overtime and revision limits to quotes, and stop absorbing unpaid extras such as extra stem versions or loudness re-passes. Production Expert says a fuller survey is coming later in the year, which will show whether this is a real upturn or a few busy calendars.",
+      "signal": 2,
+      "source": "Production Expert",
+      "take": "Production Expert's Russ Hughes collects replies from post mixers and studio engineers who say they have been fully booked for months, one re-recording mixer turning down jobs since late August. He cites a 52.3% year-on-year jump in LA feature shoot days in Q1 2026, 170 projects awarded California's expanded tax credit, UK local and co-production film spend up 20% and 35% in H1, and recorded music revenue up 6.4% to $31.7bn in 2025. A Grammy-winning engineer sums up the catch: busier, but budgets are well down.",
+      "title": "Post and music engineers are turning down work, but budgets are not rising",
+      "todo": "Before your next quote, add a line pricing extra revision rounds and alternate deliverables, and raise your day rate for new clients.",
+      "url": "https://www.production-expert.com/production-expert-1/audio-pros-are-turning-down-work-again-is-2026-different"
+    },
+    {
+      "cat": "live",
+      "date": "2026-10-23",
+      "deep": "A host broadcaster with long-running negotiations still reports shortfalls, and its plan for Naples is to reuse channels and move boats between them dynamically during racing. Helicopters, chase boats and 4K onboard feeds all compete for the same air.\n\nFor anyone booking wireless mics, IEMs or comms on events in southern Italy around those dates, assume the region's spectrum will be busy and coordinated early. Ask the production who holds the frequency licences, register your own kit's ranges well ahead, and carry backup bands.",
+      "signal": 2,
+      "source": "SVG Europe",
+      "take": "Timeline TV, host broadcaster for the 38th America's Cup, says getting frequencies and mesh-network space cleared with Italian officials is a bigger challenge than any OB truck. All onboard cameras and sound are wireless, RF is split across three bands, and official and team talkback runs on a separate Riedel channel. The Louis Vuitton Cup runs in Naples from 22 May to 4 July 2027 and the Match starts on 10 July.",
+      "title": "America's Cup broadcaster says Naples spectrum is 'not enough'",
+      "todo": "If you have work in Campania in May–July 2027, ask now who will coordinate RF and which UHF ranges your kit can tune.",
+      "url": "https://www.svgeurope.org/blog/headlines/spectrum-negotiations-timeline-tv-on-the-challenges-for-rf-at-the-38th-edition-of-the-americas-cup/"
+    },
+    {
+      "cat": "live",
+      "date": "2026-10-20",
+      "deep": "Offline editing was the big missing piece on the Qu range compared with SQ and dLive. Being able to prepare a show file on a laptop the night before, and spill DCAs to get to the channels you need fast, makes the desk realistic for corporate work, small festivals and theatre where you rarely get console time before doors.\n\nThe Listen bus is useful in practice: PAFL can feed a separate output for a monitor engineer or a wedge at FOH without stealing your own headphones. The Expander gives gentler downward expansion on toms and ambient mics, where hard gating chops tails.\n\nThe 32×32 Dante upgrade makes the D models a credible small node for multitrack recording and virtual soundcheck alongside stage boxes. Check the licence price and whether your stage box count actually needs it before buying.",
+      "free": true,
+      "signal": 1,
+      "source": "ProSoundWeb",
+      "take": "Free V1.2 firmware for current Qu mixers adds Qu-MixPad for Windows and macOS with an Offline Mode for building shows without a console, an Expander as an alternative to gates on inputs, a Listen bus that sends PAFL to its own output with its own level, and DCA Spill. A paid upgrade doubles Dante on Qu-5D, Qu-6D and Qu-7D from 16×16 to 32×32; no price was given.",
+      "title": "Allen & Heath Qu V1.2: offline show prep, Listen bus and a 32×32 Dante option",
+      "todo": "Update firmware before your next Qu gig, and test a show file built in Offline Mode on the desk before you rely on it.",
+      "url": "https://www.prosoundweb.com/allen-heath-releases-qu-v1-2-firmware-update/"
+    },
+    {
+      "cat": "post",
+      "date": "2026-10-22",
+      "deep": "Small cinema bodies like the fp series often end up as B or C cameras, crash cams or gimbal units on shoots where the mixer sends a scratch feed and timecode to every camera. On many cameras, that means one 3.5 mm input carrying scratch audio and a separate path for TC. On the fp2, Sigma's own spec says you have to choose. Pick the 3.5 mm terminal for TC-IN and the mic on that terminal is gone. Pick USB and any USB audio device, including a USB mic or headphones, is gone.\n\nThere are workarounds. Run TC over USB-C and scratch into the 3.5 mm jack, or TC on 3.5 mm and audio through the XLR adapter. The adapter route adds the DMW-XLR2 and HU-21 to the camera build. The 32-bit float claim is also conditional, and the article does not list which devices count as compatible. Until that is clear, don't count on camera audio as a 32-bit safety track.",
+      "signal": 1,
+      "source": "Newsshooter",
+      "take": "Sigma's fp2 full-frame cine camera ($2,199 body, $2,749 with EVF-21) adds 4-channel recording and 32-bit float, but only with a compatible external device connected. Timecode can be fed through the 3.5 mm jack or USB-C. Feeding it through the 3.5 mm jack disables that mic input, and feeding it over USB disables USB audio. XLR needs Panasonic's DMW-XLR2 plus Sigma's HU-21 hot-shoe unit.",
+      "title": "Sigma fp2: 32-bit float audio, but timecode in shares the mic jack",
+      "todo": "Before a shoot with an fp2 on the camera list, agree with the camera team which port carries TC and which carries scratch, and test both in prep.",
+      "url": "https://www.newsshooter.com/2026/10/22/sigma-fp2-announced-6k-open-gate-in-prores-raw-32-bit-float/"
+    },
+    {
+      "cat": "ai",
+      "date": "2026-10-21",
+      "deep": "The labels have spent 2026 signing licensing deals with AI music companies. The AFM's argument is that those deals license recordings that session players were paid for once, under contracts written before training data existed, and that the musicians get nothing from the new use. Its lawsuit turns on whether the agreement's 'new use' clause covers AI licensing.\n\nThis is a US union and a US agreement, but the pattern travels. Consent, credit and payment are the same three asks performer groups are putting to the European Commission's copyright and AI consultation, which closes on 3 November. Whatever wording the AFM wins is likely to become a template for session and production paperwork elsewhere.\n\nFor a freelance engineer the practical point is that your recordings, stems and isolated performances are exactly the material these deals license. Nothing changes in Italy tomorrow, but the clause is coming.",
+      "signal": 1,
+      "source": "CMU",
+      "take": "The American Federation of Musicians launched a 'Human Made Human Paid' campaign with three non-negotiable conditions whenever human performances are used in AI: the right to permit or refuse training use, transparent credit, and fair payment. It says the major labels take large AI licensing payouts while paying session musicians nothing. Talks on a new Sound Recording Labor Agreement are stalled after four rounds, and the union is already suing Universal and Warner.",
+      "title": "US musicians' union demands consent, credit and pay when recordings train AI",
+      "todo": "Add a line to your session terms stating that recordings and stems you deliver may not be used to train AI models without separate written agreement.",
+      "url": "https://completemusicupdate.com/major-labels-are-getting-massive-corporate-payouts-for-ai-licensing-but-paying-musicians-zero-says-afms-human-made-human-paid-campaign/"
+    },
+    {
+      "cat": "post",
+      "date": "2026-10-22",
+      "deep": "Pro Tools has always had Import Session Data, but it is slow when you only want to hear an alt take or find one effect buried in an old reel. ClipMap treats the session file as a database you can search and play. Pro adds tabs for several sessions, synced video, an inspector showing clip gain, automation and plugin information, transcription-based dialogue search, and track mapping. Spotted clips keep their clip gain, automation, panning and fades.\n\nThe review does not say which Pro Tools versions or session formats are supported, so test it on your oldest archive before you rely on it. A tool that reads an undocumented file format can break when Avid changes that format.\n\nFor dialogue editors, searching by what was said across a season's sessions could save hours on pickups and alt-line hunts. On music projects it is a fast way to check what is in a client's session before you open it.",
+      "signal": 1,
+      "source": "Production Expert",
+      "take": "Sparks Audio's ClipMap reads .ptx session files directly and read-only, even on a machine without Pro Tools installed. You can audition the mix or single clips, search clip names, jump to memory locations and drag clips into your current session with their fades. ClipMap is $129 (regular $149) and ClipMap Pro is $259 (regular $299) until 12 November. Licences are perpetual, there is no iLok, and both run on macOS and Windows.",
+      "title": "ClipMap leaves beta: browse and pull from Pro Tools sessions without opening them",
+      "todo": "Run the 14-day trial against your oldest and newest Pro Tools archives before the intro price ends on 12 November.",
+      "url": "https://www.production-expert.com/production-expert-1/sparks-audio-releases-clipmap-should-you-pay-for-a-pro-tools-session-browser"
+    },
+    {
+      "cat": "hearing",
+      "date": "2026-10-20",
+      "deep": "The switch addresses a real behaviour problem: the release says nearly 60% of earplug users took them out to talk. A plug you can open for a conversation and close again is more likely to stay in your ear for the whole set.\n\nFor crews the key number is missing. Without a published attenuation curve you cannot know whether 'closed' gives a flat 15 dB or a dull foam-like response, and for mixing that difference matters. Staff and touring crews are named as recipients, so it is worth asking for the spec sheet.",
+      "signal": 1,
+      "source": "That Eric Alper",
+      "take": "Live Nation has taken an equity stake in Unplugs and is selling its earplugs at 60 US venues, through vending machines, merch stands and guest services, with free foam plugs still available. The plugs have a mechanical two-position switch, filtered or open, with no battery or app. Neither the attenuation in dB nor the price was reported.",
+      "title": "Live Nation invests in Unplugs and rolls switchable earplugs into 60 US venues",
+      "todo": "Before relying on any switchable plug at work, ask for its measured attenuation per octave band, not just a single number.",
+      "url": "https://thatericalper.com/2026/10/20/live-nation-and-unplugs-bring-switchable-earplugs-to-60-concert-venues"
+    },
+    {
+      "cat": "hearing",
+      "date": "2026-10-22",
+      "deep": "Hearing protection is Category III PPE, the same class as fall-arrest gear, so handing out foam plugs does not meet the duty: selection, fit, training and maintenance are all required, after noise has first been reduced at source. The alarm finding matters on stages and sets, where over-protected crew may miss a shouted cue, a fire alarm or a reversing truck.\n\nThe UK rules come from the same EU directive as Italy's D.Lgs. 81/2008, so the same logic applies on Italian productions: assess, reduce at source, then protect and train.",
+      "signal": 1,
+      "source": "MEM Magazine",
+      "take": "The UK Health and Safety Executive is running an 'Assess. Control. Protect.' campaign on workplace noise. In inspections, one workplace in four needed mandatory hearing protection; in those, 80% gave no instruction on wearing it, 63% had not told staff to wear it throughout exposure, and 95% had not checked workers could still hear alarms. HSE says about 15,000 workers a year develop or worsen hearing problems from work noise.",
+      "title": "UK HSE noise campaign: 95% of employers never checked staff could hear alarms",
+      "todo": "On your next loud show, check you can still hear comms and the venue alarm with your plugs in, and carry a flatter-response filter set for the crew.",
+      "url": "https://memuknews.com/health/health-safety/uvex-backs-hse-noise-campaign-to-prevent-hearing-loss"
+    },
+    {
+      "cat": "industry",
+      "date": "2026-10-20",
+      "deep": "Termination rights let US authors reclaim copyrights they assigned decades earlier. Publishers had argued reversion covers only US territory, so foreign exploitation would stay with them. The Fifth Circuit disagreed, and the Supreme Court cannot now review it.\n\nThe ruling binds only the Fifth Circuit, and other appeals courts could still decide differently, so expect more litigation. But it strengthens the hand of any creator with US-originated works, including European writers and producers who signed US publishing or recording deals in the 1980s and 1990s.\n\nFor engineers it is mainly a reminder that the territory and duration clauses in old contracts are now worth money.",
+      "signal": 1,
+      "source": "Complete Music Update",
+      "take": "Four of nine justices recused because of book deals with Penguin Random House, owned by BMG's parent Bertelsmann, leaving the court below its six-judge quorum. That leaves in place the Fifth Circuit ruling for songwriter Cyril Vetter: when a creator terminates a US grant after 35 years (56 for pre-1978 works), the rights revert worldwide, not only in the US.",
+      "title": "US Supreme Court can't hear the termination-rights case, so the worldwide reversion ruling stands",
+      "url": "https://completemusicupdate.com/us-supreme-court-cant-overturn-landmark-termination-rights-ruling-because-too-many-judges-have-book-deals-with-bmg-sister-company-penguin-random-house/"
+    },
+    {
+      "cat": "industry",
+      "date": "2026-10-23",
+      "deep": "The case turns on paperwork most engineers and producers sign without much thought. A letter of direction tells a label to pay a producer's or mixer's points out of the artist's royalties. According to the complaint, Sony's standard form made the payee acknowledge having no right to audit Sony. That matters because a third-party review is how the alleged 0.75% vs 1.5% gap was found. Montague says Sony later produced an alternative form without that language, and he signed it on 29 August.\n\nSony's in-house counsel has denied liability, arguing there was no direct contract with him. None of the claims has been tested in court. For a freelancer, the lesson does not depend on the outcome. Points are only worth what you can check, and an audit right waived in a standard form is hard to get back. If you ever sell or assign a royalty stream, how the label handles the paperwork can delay or reduce the deal.",
+      "signal": 1,
+      "source": "Music Business Worldwide",
+      "take": "Ishmael Montague, co-producer of Chris Brown's 'Party', has sued Sony Music in New York federal court, representing himself, for at least $1,247,500. He says he is owed 1.5% after splitting a 3% producer royalty but has been paid 0.75%. He also alleges Sony delayed his sale of the royalties to Xposure Music by about six weeks by insisting on a letter of direction that included giving up his right to audit.",
+      "title": "Producer sues Sony, alleging a half-rate royalty and an audit-waiver letter of direction",
+      "todo": "Check any letter of direction or royalty agreement you hold for audit-waiver or release wording before signing or renewing it.",
+      "url": "https://www.musicbusinessworldwide.com/chris-brown-producer-sues-sony-music-for-1-25m-claiming-it-stalled-the-sale-of-his-party-royalties-and-paid-him-half-the-agreed-rate/"
+    },
+    {
+      "cat": "gear",
+      "date": "2026-10-19",
+      "deep": "Eight preamps in half a rack with ADAT out is the useful part: it can be a second box for drum tracking on an existing interface, or a compact location recorder front end into a laptop. MOTU quotes round-trip latency as low as 2 ms with its own drivers, and the unit is also class-compliant.\n\nThe −129 dB EIN figure is respectable; whether it holds at full gain with a low-output ribbon is the thing to test. Check how the ADAT clocking is handled before you make it the expander on a larger rig.",
+      "signal": 1,
+      "source": "Sound On Sound",
+      "take": "MOTU's new USB 2.0 interface has 16 inputs and 12 outputs, eight mic preamps with 74 dB of gain and a quoted −129 dB EIN, per-channel phantom power and −20 dB pads, and 32-bit ESS converters. Onboard DSP adds reverb, four-band EQ, compression and gating, and eight channels of ADAT in and out let it act as a preamp expander. It is available now at $849.95.",
+      "title": "MOTU OctaLite: eight preamps and ADAT in a half-rack for $849.95",
+      "url": "https://www.soundonsound.com/news/motu-introduce-octalite"
+    },
+    {
+      "cat": "gear",
+      "date": "2026-10-23",
+      "signal": 1,
+      "source": "ProSoundWeb",
+      "take": "RME's ADI-2/4 PRO EX AD/DA converter runs up to 768 kHz with a stated 127 dBA dynamic range from its ELAR circuitry, and SteadyClock EX rated at ±1 ppm, with the master clock adjustable in 0.1 ppm steps. It has two headphone amps including balanced Pentaconn output, plus five-band EQ, crossfeed and M/S. The report gives no price.",
+      "title": "RME ADI-2/4 PRO EX: 768 kHz, 127 dBA and SteadyClock EX",
+      "url": "https://www.prosoundweb.com/rme-debuts-new-adi-2-4-pro-ex-audio-converter/"
+    },
+    {
+      "cat": "speakers",
+      "date": "2026-10-22",
+      "deep": "The interesting part is the correction, not the drivers. With system-wide correction you hear the same tuning in a reference player, a video review link or a browser as you do in your session. A DAW-only plugin can't do that.\n\nADAM has not yet published sensitivity, frequency response or weight. Until it does, compare it with the Neumann NDH 30 and Sennheiser HD 660S2 by ear, with the correction on and off.",
+      "signal": 1,
+      "source": "Production Expert",
+      "take": "ADAM's new flagship headphone uses custom 150 Ω drivers with titanium-plated PEN diaphragms. It comes with a 3 m cable with a 4.4 mm balanced plug and a 1.3 m coiled cable. Correction profiles developed by Sonnox include adjustable crossfeed. A new macOS app, ListenHub, applies the correction across the whole system, not only inside the DAW. Price is £569.99 / €669.99 / $824.99, shipping in December.",
+      "title": "ADAM Audio H715: open-back reference headphones with Sonnox calibration",
+      "url": "https://www.production-expert.com/production-expert-1/adam-audio-launches-h715-reference-headphones-with-sonnox-calibration"
+    },
+    {
+      "cat": "live",
+      "date": "2026-10-23",
+      "deep": "Being able to patch other makers' Milan endpoints from the system-design tool removes one more vendor app from the show laptop. The Milan-or-Dante switch at the processor also means a rig can join whichever network the console or house system already runs, without a separate converter.\n\nAs with any mid-season update, test on a spare system before touring with it.",
+      "signal": 1,
+      "source": "ISP Audio & Light",
+      "take": "ArrayIntelligence 1.4 adds VGx, VGd and XG amp support, new presets for VGx, VGt, MG and XG/IS, better mixed-array optimisation and Milan patching that now includes third-party devices. FletcherMachine 2.4 can switch between Milan and Dante, with MADI available in either mode, and adds Wake on LAN. USB-Milan Bridge 4.1 appears as a patchable Milan device and adds switchable 48/96 kHz.",
+      "title": "Adamson's fall update: third-party Milan patching and Milan-or-Dante FletcherMachine",
+      "url": "https://www.isp-audio.com/en/new-product/audio-new-product/13840-adamson-software-connectivity-enhancements"
+    },
+    {
+      "cat": "plugins",
+      "date": "2026-10-22",
+      "deep": "Free true-peak limiters that run in Pro Tools are rare. Most free limiters are VST or AU only. A clipper followed by a true-peak stage is a common last step on a mix bus or a stem print, so having one that works in every DAW for nothing is useful.\n\nTrust your meter, not the label. Check its true-peak behaviour with oversampled metering on dense material, and compare the three quality modes for latency before you put it on a live-monitored bus.",
+      "free": true,
+      "signal": 1,
+      "source": "Bedroom Producers Blog",
+      "take": "HardStop Basic is permanently free. It includes the full clipping engine, all three quality modes and a true-peak safety limiter. It needs an email at checkout but has no activation. Formats are VST3 and AAX, plus AU on Mac. Pro costs $39 until 1 November, then $59, and adds adaptive clipping, shape and tone controls, limiter lookahead and release, and LUFS metering.",
+      "title": "Free: Raytown HardStop clipper with true-peak safety limiter, AAX included",
+      "todo": "Put it after your bus chain on a test print and check the result against a separate true-peak meter.",
+      "url": "https://bedroomproducersblog.com/2026/10/22/raytown-hardstop/"
+    },
+    {
+      "cat": "post",
+      "date": "2026-10-23",
+      "deep": "Stems that do not null against the mix are a classic delivery failure. Bus compression and limiting react to the whole mix, so each stem printed alone through the master chain comes out slightly different, and sync houses, re-mixers and Atmos upmixers then get stems that do not add up to what the client approved.\n\nThe usual fixes are printing stems through the bus chain with a keyed sidechain, or bypassing the bus chain and supplying it as a note. SUMMER instead works on the files after the fact. The article does not describe its method, so check what it does to each stem in isolation, especially on transient-heavy material, before relying on it for a music-for-picture delivery.",
+      "signal": 1,
+      "source": "Rekkerd",
+      "take": "Eldad Guetta's SUMMER is a standalone Mac app that adjusts a set of bounced stems so that played together they match the approved full mix, to the point that phase-inverting the mix against them cancels to silence. It costs $59 and there is a free demo.",
+      "title": "SUMMER makes bounced stems sum exactly to the approved mix",
+      "todo": "Run the demo on a past delivery that failed a null test and listen to each corrected stem soloed, not just the sum.",
+      "url": "https://rekkerd.org/2026-43-round-up-new-audio-plugins-virtual-instruments-apps/"
+    }
+  ],
+  "key": "2026-W43",
+  "label": "Week 43 · 2026",
+  "lead": "Week 43 was strong on research: a Korean institute made a 100-inch screen that radiates sound from where the picture is, a Göttingen team drove the auditory nerve with micro-LEDs, and two new absorbers (a plasma device down to 30 Hz and a 24 mm printed panel) attacked the low-mid frequencies foam cannot reach. The AI music fight widened, with Reservoir suing both Suno and Anthropic, while a German court showed that dated human drafts still decide who owns lyrics. For daily work, free loudness QC in APU Loudness 6.0, free Atmos Renderer control from Avid surfaces and REAPER 7.83's faster deliveries are the tools to try. In Italy, the AI decree came into force and the America's Cup broadcaster warned that Naples spectrum is already tight.",
+  "period": "week",
+  "radar": [
+    {
+      "date": "2026-10-30",
+      "note": "30 Oct–1 Nov at Gaylord Opryland, with a panel on delivering live shows in Dolby Atmos.",
+      "title": "AES Show Nashville",
+      "url": "https://www.prosoundweb.com/grammy-sound-tables-songs-that-changed-my-life-panel-set-for-aes-show-nashville-2026/"
+    },
+    {
+      "date": "2026-11-12",
+      "note": "Sparks Audio's Pro Tools session browser goes from $129/$259 to $149/$299.",
+      "title": "ClipMap intro pricing ends",
+      "url": "https://www.production-expert.com/production-expert-1/sparks-audio-releases-clipmap-should-you-pay-for-a-pro-tools-session-browser"
+    },
+    {
+      "date": "2026-12-11",
+      "note": "Last day to propose projects, including live spatial audio and intelligibility work.",
+      "title": "IBC 2027 Accelerator deadline",
+      "url": "https://audioxpress.com/news/ibc-opens-call-for-accelerator-projects-building-on-ai-and-immersive-audio-research"
+    },
+    {
+      "date": "2027-05-22",
+      "note": "Runs to 4 July, with the America's Cup Match from 10 July; expect heavy RF demand in the area.",
+      "title": "Louis Vuitton Cup starts in Naples",
+      "url": "https://www.svgeurope.org/blog/headlines/spectrum-negotiations-timeline-tv-on-the-challenges-for-rf-at-the-38th-edition-of-the-americas-cup/"
+    }
+  ],
+  "range": "19–25 Oct 2026"
+}

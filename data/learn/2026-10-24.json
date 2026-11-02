@@ -1,0 +1,166 @@
+{
+  "generated": "2026-10-24T07:02:09+02:00",
+  "key": "2026-10-24",
+  "label": "Sat 24 Oct 2026",
+  "lesson": {
+    "body": "Timecode comes in standard frame rates: 24, 25 (the European broadcast rate), 30, and the NTSC-derived 23.976 and 29.97, which run 1000/1001 slower than 24 and 30. Longitudinal timecode (LTC) carries the address as an audio-band signal: an 80-bit word per frame, biphase-mark encoded so polarity doesn't matter. At 25 fps that is 80 × 25 = 2,000 bits per second. In a Broadcast WAV file, the start time is stored in the bext chunk's TimeReference field as a count of samples since midnight. iXML metadata usually carries the frame rate and other details alongside it.\n\nAt 29.97 fps, a frame counter that counts a full 30 frames per second falls behind the wall clock by about 3.6 seconds per hour. Drop-frame timecode fixes this by skipping frame numbers 00 and 01 at the start of every minute, except every tenth minute. That is 2 × 54 = 108 numbers per hour, matching the 108 frames of drift. No frames of picture are dropped, only labels. Drop-frame is written with a semicolon before the frames (01:00:00;00). Mixing DF and NDF on one job shifts sync further and further as time goes on.\n\nBecause timecode is only an address, two devices jammed to the same time will still drift apart if their clocks run at slightly different rates. A clock error of 1 ppm is 3.6 ms per hour. Over a 12-hour day that is about 43 ms, slightly more than one frame at 25 fps (40 ms). This is why sync boxes quote accuracy in ppm, why you re-jam at lunch on long days with older gear, and why a camera that only reads timecode at the start of a take can slip over a long interview. Locking the recorder's sample clock to a common reference (genlock, word clock, or a sync box that disciplines the sample rate) stops the drift itself, rather than just relabelling it.\n\nOn set, agree the project frame rate and DF/NDF with post before day one. Use time-of-day timecode as free run so every device shares a reference, and log what each camera actually receives. Small cameras often share one input between timecode and a mic. In post, conform from the BWF TimeReference, not from file creation times, and check sync at the end of long takes as well as the start.",
+    "inPractice": "Jam a recorder and a camera from the same sync box, roll both for an hour on a clap at the start and the end, then line up the start clap in your DAW and measure the offset at the end clap. That tells you how much the pair actually drifts and how often you need to re-jam.",
+    "keyPoints": [
+      "Timecode is a frame address (HH:MM:SS:FF), not a speed reference.",
+      "LTC uses 80 bits per frame: 2,000 bit/s at 25 fps.",
+      "29.97 DF skips frame numbers 00 and 01 every minute except each tenth minute: 108 per hour.",
+      "1 ppm clock error = 3.6 ms per hour of drift.",
+      "BWF stores start time as samples since midnight in bext TimeReference.",
+      "Genlock or word clock stops drift; jamming only resets the address."
+    ],
+    "level": "core",
+    "mistake": "Many people think 'drop frame' means frames of picture or audio are thrown away. Only the frame numbers are skipped, to keep the displayed time in step with the clock. The media itself stays continuous.",
+    "sayIt": "Timecode is like a street address stamped on every frame, so we can line things up later. It doesn't make the camera and recorder run at exactly the same speed, so on long days they can creep apart unless we re-jam or lock them to a common clock.",
+    "summary": "SMPTE timecode (SMPTE ST 12) labels each video frame with an address in hours, minutes, seconds and frames (HH:MM:SS:FF). It tells devices where they are, so separately recorded picture and sound can be lined up later. It does not set how fast each device runs. That is the job of each device's internal crystal, or of an external reference such as genlock or word clock.",
+    "terms": [
+      {
+        "def": "Longitudinal timecode: timecode carried as a biphase-mark audio-band signal on a cable or audio track, 80 bits per frame.",
+        "term": "LTC"
+      },
+      {
+        "def": "A 29.97 fps counting scheme that skips frame numbers 00 and 01 each minute except every tenth, so displayed time matches real time.",
+        "term": "Drop-frame (DF)"
+      },
+      {
+        "def": "Setting a device's timecode generator to match a master, after which it free-runs on its own clock.",
+        "term": "Jam sync"
+      },
+      {
+        "def": "Locking a device's frame or sample clock to an external reference so its running speed matches the master.",
+        "term": "Genlock"
+      },
+      {
+        "def": "The Broadcast WAV field holding the file's start time as a sample count since midnight.",
+        "term": "bext TimeReference"
+      }
+    ],
+    "title": "Timecode is an address, not a clock",
+    "topic": "Film and post"
+  },
+  "quiz": {
+    "questions": [
+      {
+        "answer": 1,
+        "explain": "0.5 × 10⁻⁶ × 43,200 s = 0.0216 s = 21.6 ms. A frame at 25 fps lasts 40 ms, so that is just over half a frame. Jamming sets the address once; after that each device's own crystal sets the speed.",
+        "level": "advanced",
+        "options": [
+          "About 2.2 ms, a tiny fraction of a frame",
+          "About 21.6 ms, just over half a frame",
+          "About 216 ms, more than five frames",
+          "None, because jammed timecode cannot drift"
+        ],
+        "q": "A sync box rated at ±0.5 ppm is jammed at 07:00 and free-runs for 12 hours. What is the worst-case timecode drift by 19:00, and what is that at 25 fps?",
+        "topic": "Post workflow"
+      },
+      {
+        "answer": 2,
+        "explain": "Two numbers (00 and 01) are skipped each minute except minutes 00, 10, 20, 30, 40 and 50, so 2 × 54 = 108. That matches the roughly 3.6 s (108 frames at 30 fps) by which a non-drop count at 29.97 falls behind the clock.",
+        "level": "advanced",
+        "options": [
+          "120",
+          "18",
+          "108",
+          "0, because frames of picture are dropped instead"
+        ],
+        "q": "In one hour of 29.97 fps drop-frame timecode, how many frame numbers are skipped?",
+        "topic": "Post workflow"
+      },
+      {
+        "answer": 3,
+        "explain": "94 dB SPL is 1 Pa, so 114 dB SPL is 10 Pa, and the output is 10 × 10 mV = 100 mV. 20·log₁₀(0.1 V / 1 V) = −20 dBV. −40 dBV is the output at 94 dB SPL.",
+        "level": "advanced",
+        "options": [
+          "−40 dBV",
+          "−34 dBV",
+          "0 dBV",
+          "−20 dBV"
+        ],
+        "q": "A condenser mic's sensitivity is 10 mV/Pa. What is its output level, in dBV, at 114 dB SPL?",
+        "topic": "Microphones"
+      },
+      {
+        "answer": 0,
+        "explain": "Small clock errors add up over time, which is drift. A DF/NDF mismatch would show as an offset in the numbers, and LTC is biphase-mark encoded, so its polarity doesn't matter. Genlock or word clock, or more frequent re-jams, fix drift.",
+        "level": "intermediate",
+        "options": [
+          "Their internal clocks run at slightly different rates; timecode only labels frames and doesn't control speed",
+          "The recorder was set to drop-frame while the camera was set to non-drop",
+          "The recorder's 48 kHz sample rate cannot carry 25 fps timecode",
+          "The timecode cable reversed the LTC polarity"
+        ],
+        "q": "A camera and a recorder were jammed to the same timecode at the start of a 90-minute interview, but the audio is late by about a frame at the end. What is the most likely cause?",
+        "topic": "Post workflow"
+      },
+      {
+        "answer": 1,
+        "explain": "BWF's bext chunk holds TimeReference as a 64-bit count of samples since midnight. Software converts it to HH:MM:SS:FF using the sample rate and the project frame rate, which iXML usually also records.",
+        "level": "intermediate",
+        "options": [
+          "In the file name, as HH-MM-SS-FF",
+          "In the bext chunk's TimeReference field, as a sample count since midnight",
+          "In the fmt chunk, as a frame count",
+          "In the file's creation date on disk"
+        ],
+        "q": "Where does a Broadcast WAV file store its start timecode, and in what form?",
+        "topic": "Post workflow"
+      },
+      {
+        "answer": 2,
+        "explain": "Equal-loudness contours (ISO 226) are much steeper at low frequencies and quiet levels. At low volume you push up the lows to compensate, so they come out too big when played loud.",
+        "level": "intermediate",
+        "options": [
+          "It sounds thinner, because the ear is less sensitive to treble at high levels",
+          "Nothing, because the ear's frequency response doesn't depend on level",
+          "Bass and extreme treble sound louder than you intended, because the ear's sensitivity at the extremes rises faster with level than in the midrange",
+          "The stereo image narrows, because ILD cues shrink at high levels"
+        ],
+        "q": "You balance a mix at a very low monitoring level, then play it loud. What usually happens and why?",
+        "topic": "Psychoacoustics"
+      },
+      {
+        "answer": 0,
+        "explain": "European broadcast uses 25 fps (50 Hz). 29.97 and 30 come from North American NTSC practice, and 24 (or 23.976) is the cinema rate.",
+        "level": "basic",
+        "options": [
+          "25 fps",
+          "29.97 fps",
+          "24 fps",
+          "30 fps"
+        ],
+        "q": "What frame rate is standard for broadcast TV in Europe, including Italy?",
+        "topic": "Post workflow"
+      },
+      {
+        "answer": 3,
+        "explain": "48 kHz is the video and broadcast standard. 44.1 kHz comes from the CD. Using 44.1 kHz on a picture job means sample-rate conversion and a chance of sync errors.",
+        "level": "basic",
+        "options": [
+          "44.1 kHz",
+          "32 kHz",
+          "22.05 kHz",
+          "48 kHz"
+        ],
+        "q": "Which sample rate is the normal standard for audio recorded for film and TV?",
+        "topic": "Digital audio"
+      },
+      {
+        "answer": 1,
+        "explain": "Rear-facing or delayed elements cancel low frequencies behind the array and add in front. That cleans up the stage and reduces spill into areas you don't want to reach.",
+        "level": "basic",
+        "options": [
+          "To make the subs louder in front by adding more cabinets",
+          "To reduce low-frequency energy behind the array, such as on stage",
+          "To widen the subs' frequency response upward into the mids",
+          "To give the subs a figure-8 pattern for side coverage"
+        ],
+        "q": "What is the main purpose of a cardioid subwoofer array?",
+        "topic": "Live sound"
+      }
+    ]
+  }
+}

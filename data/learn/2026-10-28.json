@@ -1,0 +1,170 @@
+{
+  "generated": "2026-10-28T08:10:00+01:00",
+  "key": "2026-10-28",
+  "label": "Wed 28 Oct 2026",
+  "lesson": {
+    "body": "Picture a mixer and an amplifier, each plugged into a different mains socket, joined by an audio cable. The safety earths of the two sockets are connected back at the distribution board, and the cable shield connects the two chassis again. That closed loop behaves like a one-turn transformer winding: mains wiring nearby induces current in it, and small leakage currents from power supplies add more. In Italy the result is a 50 Hz hum. If the current has sharp edges, from rectifiers or switch-mode supplies, it becomes a buzz with strong harmonics at 100, 150, 200 Hz and up.\n\nWhether you hear it depends on the interface. In an unbalanced cable the shield is also the signal return, so any current in it drops a voltage that adds straight to the signal. Ohm's law gives the size: 20 mA through a shield of 0.05 Ω is 1 mV. Against a −10 dBV consumer line level (about 316 mV) that is only 50 dB down, which is clearly audible in quiet passages. A balanced input instead measures the difference between two conductors. Noise that appears equally on both is common-mode and is rejected by the input's common-mode rejection ratio (CMRR): 60 dB of CMRR turns 100 mV of common-mode noise into 0.1 mV.\n\nBalanced lines only work if the equipment is built properly. Neil Muncy's 'pin 1 problem' describes devices that connect the cable shield to the circuit-board ground rather than directly to the chassis where the cable enters. Shield current then flows through the audio ground inside the device and appears as hum even on a balanced line. AES48 sets out the correct practice: shield to chassis at the point of entry.\n\nThe fixes, in order: power all connected audio gear from the same distribution point to keep the loop small; use balanced connections; use an isolation transformer or a DI with a ground lift, which breaks the shield connection at one end while leaving the signal path intact; and keep audio cables away from mains and dimmer runs. Never remove or lift the mains safety earth. It is what protects people if a device develops a fault, and a stage full of metal and wet hands is where that matters most.",
+    "inPractice": "When hum appears, disconnect cables one at a time from the destination back towards the sources until it stops, to find the loop. Then try the ground-lift switch on a DI or an isolation transformer on that one link, and check that every device is powered from the same distribution point.",
+    "keyPoints": [
+      "A ground loop needs two earth paths between devices: the cable shield plus mains earth, or two cable shields.",
+      "Hum is 50 Hz in Italy; buzz adds harmonics at 100, 150, 200 Hz and up.",
+      "In unbalanced cables shield current becomes signal: V = I × R adds straight to the audio.",
+      "Balanced inputs reject common-mode noise by their CMRR; 60 dB means a factor of 1,000.",
+      "The 'pin 1 problem' is a design fault: the shield must go to chassis, not to circuit ground.",
+      "Fix with a shared power point, balanced lines, isolation transformers or a DI ground lift; never lift mains earth."
+    ],
+    "level": "core",
+    "mistake": "Many people 'fix' hum by cutting off or taping over the mains earth pin. That can leave chassis and mic bodies live if a fault occurs; the correct fix is to break the loop in the signal path with a transformer or ground lift.",
+    "sayIt": "The hum is current going round a loop made by two earth connections between your gear, and we fix it by breaking that loop in the audio path, never by removing the safety earth.",
+    "summary": "A ground loop forms when two pieces of equipment are connected both through a signal cable's shield and through separate earth paths, such as their mains plugs. Stray magnetic fields and leakage currents drive current around that loop, and wherever the current flows through a conductor that is also part of the audio path, its voltage drop is heard as hum or buzz.",
+    "terms": [
+      {
+        "def": "A closed conductive path formed by two or more earth connections between devices, in which induced current flows.",
+        "term": "Ground loop"
+      },
+      {
+        "def": "Noise that appears equally on both conductors of a balanced line, relative to ground.",
+        "term": "Common-mode noise"
+      },
+      {
+        "def": "Common-mode rejection ratio: how strongly a balanced input attenuates common-mode noise, in dB.",
+        "term": "CMRR"
+      },
+      {
+        "def": "A design fault where the cable shield is tied to internal audio ground instead of the chassis, so shield current causes hum.",
+        "term": "Pin 1 problem"
+      },
+      {
+        "def": "A switch, usually on a DI box, that disconnects the cable shield from ground at one end to break a loop.",
+        "term": "Ground lift"
+      },
+      {
+        "def": "A transformer that passes the audio signal magnetically while providing no direct electrical connection between the two sides.",
+        "term": "Isolation transformer"
+      }
+    ],
+    "title": "Ground loops: where hum comes from and how to kill it safely",
+    "topic": "Electronics and signal flow"
+  },
+  "quiz": {
+    "questions": [
+      {
+        "answer": 1,
+        "explain": "V = I × R = 0.02 × 0.05 = 1 mV, and 20·log(1/316) ≈ −50 dB. In an unbalanced cable the shield is the signal return, so this voltage drop adds straight to the audio.",
+        "level": "advanced",
+        "options": [
+          "About 30 dB",
+          "About 50 dB",
+          "About 70 dB",
+          "About 90 dB"
+        ],
+        "q": "In an unbalanced connection, 20 mA of ground-loop current flows through a cable shield with 0.05 Ω resistance. The signal is at −10 dBV (about 316 mV). Roughly how far below the signal is the resulting hum?",
+        "topic": "Grounding"
+      },
+      {
+        "answer": 2,
+        "explain": "60 dB is a voltage ratio of 1,000, so 100 mV of common-mode noise becomes 0.1 mV. CMRR applies only to noise that is equal on both legs; imbalance in source or cable impedances reduces the real-world figure.",
+        "level": "advanced",
+        "options": [
+          "10 mV",
+          "1 mV",
+          "0.1 mV",
+          "0.01 mV"
+        ],
+        "q": "A balanced input has a CMRR of 60 dB at 50 Hz. If 100 mV of 50 Hz hum appears equally on both signal conductors, how much differential hum reaches the output of the input stage?",
+        "topic": "Balanced lines"
+      },
+      {
+        "answer": 0,
+        "explain": "6.02 × 16 + 1.76 ≈ 98.1 dB. The common 96 dB figure is just 6.02 × 16 and leaves out the 1.76 dB term for a sine; 144 dB belongs to 24-bit.",
+        "level": "advanced",
+        "options": [
+          "About 98.1 dB",
+          "About 96.3 dB",
+          "About 90.3 dB",
+          "About 144.5 dB"
+        ],
+        "q": "Using SNR ≈ 6.02·N + 1.76 dB for a full-scale sine wave, what is the theoretical signal-to-quantisation-noise ratio of 16-bit audio?",
+        "topic": "Digital audio"
+      },
+      {
+        "answer": 3,
+        "explain": "A DI with ground lift or an isolation transformer breaks the loop in the audio path while the mains earth keeps protecting people. Removing the safety earth is dangerous, and a longer cable makes the loop bigger, not smaller.",
+        "level": "intermediate",
+        "options": [
+          "Remove the earth pin from the mixer's mains plug",
+          "Lower the mixer's channel gain and raise the laptop's output",
+          "Use the longest cable available so the loop is spread out",
+          "Insert a DI box with its ground lift engaged, or an isolation transformer"
+        ],
+        "q": "A laptop feeding a mixer through an unbalanced cable causes a loud buzz. What is the safe fix?",
+        "topic": "Grounding"
+      },
+      {
+        "answer": 0,
+        "explain": "If shield current enters the circuit-board ground before reaching the chassis, it flows through the audio ground and causes hum even on a balanced line. AES48 calls for the shield to go to chassis at the connector.",
+        "level": "intermediate",
+        "options": [
+          "Equipment that ties the cable shield to internal circuit ground instead of directly to the chassis",
+          "An XLR cable wired with pins 2 and 3 swapped",
+          "Phantom power reaching pin 1 and damaging ribbon microphones",
+          "A connector whose pin 1 contact wears out and becomes intermittent"
+        ],
+        "q": "What is the 'pin 1 problem' described by Neil Muncy?",
+        "topic": "Grounding"
+      },
+      {
+        "answer": 1,
+        "explain": "The first stage, a high shelf of about +4 dB, models the acoustic effect of the head; the second is the RLB high-pass that reduces the weight of low frequencies. It is not A- or C-weighting.",
+        "level": "intermediate",
+        "options": [
+          "A low-shelf boost below 200 Hz and an A-weighting curve",
+          "A high-shelf boost above about 2 kHz and a low-frequency high-pass filter",
+          "A band-pass filter around 1 kHz and a de-emphasis curve",
+          "A C-weighting curve followed by a true-peak oversampler"
+        ],
+        "q": "The K-weighting filter used in ITU-R BS.1770 loudness meters is made of which two stages?",
+        "topic": "Loudness"
+      },
+      {
+        "answer": 1,
+        "explain": "European mains runs at 50 Hz, so hum sits at 50 Hz with buzz harmonics at 100, 150 Hz and up. 60 Hz is the North American mains frequency.",
+        "level": "basic",
+        "options": [
+          "60 Hz",
+          "50 Hz",
+          "100 Hz",
+          "120 Hz"
+        ],
+        "q": "What is the fundamental frequency of mains hum in Italy and the rest of Europe?",
+        "topic": "Grounding"
+      },
+      {
+        "answer": 3,
+        "explain": "Standard audiometry covers about 250 Hz to 8 kHz. Testing above 8 kHz is called extended high-frequency audiometry and can reveal early noise damage that a standard test misses.",
+        "level": "basic",
+        "options": [
+          "2 kHz",
+          "4 kHz",
+          "16 kHz",
+          "8 kHz"
+        ],
+        "q": "Up to what frequency does a standard clinical pure-tone audiogram usually test?",
+        "topic": "Hearing"
+      },
+      {
+        "answer": 2,
+        "explain": "A square wave contains only odd harmonics, falling at 1/n. A sawtooth contains all harmonics, a sine has none, and noise has no harmonic series at all.",
+        "level": "basic",
+        "options": [
+          "Sawtooth",
+          "Sine",
+          "Square",
+          "White noise"
+        ],
+        "q": "Which basic oscillator waveform contains only odd harmonics?",
+        "topic": "Synthesis"
+      }
+    ]
+  }
+}

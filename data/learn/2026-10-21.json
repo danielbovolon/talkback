@@ -1,0 +1,166 @@
+{
+  "generated": "2026-10-21T07:20:00+02:00",
+  "key": "2026-10-21",
+  "label": "Wed 21 Oct 2026",
+  "lesson": {
+    "body": "A compressor has two parts: a detector that measures level and a gain computer that decides how much to turn down. Above the threshold, a hard-knee compressor's output rises by 1 dB for every R dB of input, where R is the ratio. Gain reduction is therefore (input − threshold) × (1 − 1/R). A peak 12 dB over the threshold at 4:1 comes out 3 dB over, so it is reduced by 9 dB.\n\nAttack and release are time constants, not fixed delays. In most designs, gain reduction moves exponentially towards its target, and the quoted time is how long it takes to get most of the way there; manufacturers define this differently, so the same '10 ms' does not sound identical on two units. Typical ranges show the spread: a classic FET design such as the 1176 attacks in 20–800 microseconds, while the SSL-style bus compressor offers 0.1 to 30 ms attack and 0.1 to 1.2 s release plus Auto. Program-dependent or auto release recovers quickly after short peaks and more slowly after sustained ones.\n\nTime constants interact with frequency. A 50 Hz waveform has a 20 ms period. If attack and release are only a few milliseconds, the gain changes within each cycle and reshapes the waveform itself, which adds harmonic distortion. That can be useful as an effect, but on bass, kick or a full mix it usually sounds grainy. Slower attack lets the transient through before the gain comes down, which is why a 10–30 ms attack on a drum bus makes the hits punchier.\n\nDetection matters as much. A peak detector reacts to the highest instantaneous values and is good for catching transients. An RMS detector averages the signal's power over a window, so it reacts more like the ear does to loudness and gives smoother control on vocals and mixes. Many units also put a high-pass filter in the side-chain so low frequencies don't drive the gain reduction, which stops a mix bus pumping with the kick.",
+    "inPractice": "On a drum bus, set 4:1 and about 6 dB of gain reduction, then sweep attack from fastest to 30 ms while watching the meter and listening to the snare crack. Set release so the gain-reduction meter returns close to zero just before the next beat.",
+    "keyPoints": [
+      "Gain reduction = (input − threshold) × (1 − 1/ratio) for a hard knee.",
+      "Attack and release are time constants; definitions differ between manufacturers.",
+      "Time constants shorter than a waveform's period distort low frequencies.",
+      "Slower attack lets transients through and adds punch.",
+      "RMS detection follows loudness; peak detection catches transients.",
+      "A side-chain HPF stops bass from driving the compressor."
+    ],
+    "level": "core",
+    "mistake": "Many people think a faster attack is always more controlled and therefore better. It also removes the transient that gives a sound its definition, and on bass it adds distortion; choose attack to keep or remove the transient on purpose.",
+    "sayIt": "Attack and release decide how fast the compressor reacts and lets go, and that timing is what makes it sound punchy, smooth or squashed.",
+    "summary": "Attack and release set how quickly a compressor's gain reduction responds when the signal rises above and falls back below the threshold. The detector decides what level the compressor reacts to, from instantaneous peaks to an average over a time window, and together these settings shape the sound far more than the ratio does.",
+    "terms": [
+      {
+        "def": "The level above which the compressor starts reducing gain.",
+        "term": "Threshold"
+      },
+      {
+        "def": "How gradually the ratio changes around the threshold; a soft knee blends compression in over a range of levels.",
+        "term": "Knee"
+      },
+      {
+        "def": "Measuring level as an average of signal power over a short window, closer to perceived loudness.",
+        "term": "RMS detection"
+      },
+      {
+        "def": "A release time that changes with the material, faster after brief peaks and slower after sustained loud passages.",
+        "term": "Program-dependent release"
+      },
+      {
+        "def": "The signal path that feeds the detector, which can be filtered or taken from another source.",
+        "term": "Side-chain"
+      }
+    ],
+    "title": "Compressor attack, release and detection",
+    "topic": "Processing"
+  },
+  "quiz": {
+    "questions": [
+      {
+        "answer": 2,
+        "explain": "The peak is 12 dB over threshold. At 4:1 it comes out 3 dB over, at −15 dBFS, so gain reduction is 12 − 3 = 9 dB. The trap is answering 3 dB, which is the overshoot after compression.",
+        "level": "advanced",
+        "options": [
+          "3 dB",
+          "6 dB",
+          "9 dB",
+          "12 dB"
+        ],
+        "q": "A hard-knee compressor is set to a −18 dBFS threshold and 4:1 ratio. A peak arrives at −6 dBFS. How much gain reduction is applied to it?",
+        "topic": "Compression"
+      },
+      {
+        "answer": 1,
+        "explain": "34.3 cm at 343 m/s is a 1 ms delay. The first notch is where the delay equals half a period: f = 1/(2 × 0.001 s) = 500 Hz, with further notches at 1.5, 2.5 kHz and so on.",
+        "level": "advanced",
+        "options": [
+          "250 Hz",
+          "500 Hz",
+          "1 kHz",
+          "1.5 kHz"
+        ],
+        "q": "Two mics pick up the same source, one 34.3 cm farther away than the other (speed of sound 343 m/s). When summed at equal level, where is the first comb-filter notch?",
+        "topic": "Phase & polarity"
+      },
+      {
+        "answer": 3,
+        "explain": "Nyquist is 24 kHz. A tone above it folds back to fs − f = 48 − 30 = 18 kHz. It cannot be stored at 30 kHz because that is above the Nyquist frequency.",
+        "level": "advanced",
+        "options": [
+          "6 kHz",
+          "12 kHz",
+          "30 kHz, unchanged",
+          "18 kHz"
+        ],
+        "q": "A system samples at 48 kHz with no anti-aliasing filter. A 30 kHz tone reaches the converter. At what frequency does it appear in the recording?",
+        "topic": "Digital audio"
+      },
+      {
+        "answer": 0,
+        "explain": "A 40 Hz wave has a 25 ms period, so time constants of a few milliseconds let the gain follow the waveform itself, adding harmonics. Slower release, or a hold control, avoids it.",
+        "level": "intermediate",
+        "options": [
+          "The gain changes within each 25 ms cycle and reshapes the waveform",
+          "The detector aliases low frequencies",
+          "Fast settings raise the ratio automatically",
+          "The makeup gain clips the output"
+        ],
+        "q": "Why does a 1 ms attack and 5 ms release on a 40 Hz bass note add audible distortion?",
+        "topic": "Compression"
+      },
+      {
+        "answer": 2,
+        "explain": "EBU R128 sets −23 LUFS integrated, with a maximum true peak of −1 dBTP. −24 LKFS with −2 dBTP is the ATSC A/85 recommendation used in the US.",
+        "level": "intermediate",
+        "options": [
+          "−16 LUFS and −1 dBTP",
+          "−24 LKFS and −2 dBTP",
+          "−23 LUFS and −1 dBTP",
+          "−14 LUFS and −0.1 dBTP"
+        ],
+        "q": "Under EBU R128, what are the programme loudness target and the maximum true-peak level?",
+        "topic": "Loudness"
+      },
+      {
+        "answer": 1,
+        "explain": "Free-field level falls 6 dB per doubling of distance. 2 m to 8 m is two doublings, so 100 − 12 = 88 dB SPL. Indoors, reverberant sound makes the real drop smaller beyond the critical distance.",
+        "level": "intermediate",
+        "options": [
+          "94 dB SPL",
+          "88 dB SPL",
+          "82 dB SPL",
+          "97 dB SPL"
+        ],
+        "q": "A source gives 100 dB SPL at 2 m in a free field. What level do you expect at 8 m?",
+        "topic": "Acoustics"
+      },
+      {
+        "answer": 3,
+        "explain": "Ratio describes the slope above the threshold: input increase divided by output increase. Below the threshold the signal is not changed at all.",
+        "level": "basic",
+        "options": [
+          "The output is always 4 dB quieter",
+          "The compressor reacts four times faster",
+          "Gain reduction is 4 dB for every 1 dB over threshold",
+          "Above threshold, a 4 dB rise in input gives a 1 dB rise in output"
+        ],
+        "q": "What does a 4:1 ratio mean on a compressor?",
+        "topic": "Compression"
+      },
+      {
+        "answer": 1,
+        "explain": "P48 puts the same +48 V DC on both signal pins through matched resistors, with pin 1 as the return. Because it is equal on both legs, a balanced input ignores it.",
+        "level": "basic",
+        "options": [
+          "48 V DC on pin 2 only",
+          "48 V DC equally on pins 2 and 3, relative to pin 1",
+          "48 V AC on pin 1",
+          "12 V DC on pin 3"
+        ],
+        "q": "How is standard P48 phantom power applied to a balanced mic line?",
+        "topic": "Connectors"
+      },
+      {
+        "answer": 2,
+        "explain": "RMS detection averages power over a window, so it follows perceived loudness more closely than a peak detector, which reacts to instantaneous peaks.",
+        "level": "basic",
+        "options": [
+          "Only the single highest sample",
+          "The frequency of the signal",
+          "An average of the signal's power over a short time window",
+          "The phase of the signal"
+        ],
+        "q": "What does an RMS detector in a compressor respond to?",
+        "topic": "Compression"
+      }
+    ]
+  }
+}

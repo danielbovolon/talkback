@@ -1,0 +1,166 @@
+{
+  "generated": "2026-10-23T07:30:00+02:00",
+  "key": "2026-10-23",
+  "label": "Fri 23 Oct 2026",
+  "lesson": {
+    "body": "Take a delay of t seconds between two copies of the same signal. A frequency cancels when the delay equals half its period, or any odd number of half periods. So the notches fall at f = (2n − 1) / (2t): the first at 1/(2t), then every 1/t above that. With 1 ms of delay, the notches sit at 500 Hz, 1.5 kHz, 2.5 kHz and so on, 1 kHz apart. Sound travels about 343 m/s at 20 °C, so 1 ms is about 34 cm of path difference. Two mics on one source with a 34 cm difference in distance give you exactly that comb.\n\nHow deep the notches go depends on the level difference between the two copies. At equal level, the peaks reach +6 dB and the notches cancel completely. If the second copy is 6 dB down (half the amplitude), the peaks are 20·log(1.5) ≈ +3.5 dB and the notches 20·log(0.5) = −6 dB. At about 10 dB down, the ripple shrinks to roughly +2.5 dB and −3.5 dB. This is why the 3:1 rule works: keep the second mic at least three times farther from a source than that source's own mic, and the inverse square law drops the spill by about 9.5 dB.\n\nFlipping polarity does not remove comb filtering. It multiplies every frequency by −1, so the peaks and notches swap places. With 1 ms of delay and one copy inverted, the notches move to 0 Hz, 1 kHz, 2 kHz and so on, which means the low end cancels. The polarity switch helps when the offset is small compared with the wavelengths you care about, such as kick in and kick out, or snare top and bottom. Only delay can actually line up two arrivals in time.\n\nYou will hear this everywhere. You get it with overheads against close drum mics, a DI against a miked bass cab, a boom against a lav on the same actor, a desk reflection into a talk mic, and a delay speaker that is out of time with the main PA. In post, a lav sitting about 30 cm closer than the boom gives roughly 0.9 ms of offset. Sliding one track by that amount, or with a time-alignment plugin, often helps more than any EQ.",
+    "inPractice": "On the next drum or dialogue session, zoom in on a transient in the close mic and the distant mic, measure the offset in samples, and slide the distant mic to match. Solo both, compare aligned and unaligned, and listen for the low mids coming back.",
+    "keyPoints": [
+      "First notch at 1/(2t); notches repeat every 1/t.",
+      "1 ms ≈ 34 cm of path at 343 m/s.",
+      "Equal levels: +6 dB peaks, full cancellation at the notches.",
+      "A 10 dB level difference cuts the ripple to a few dB, which is why the 3:1 rule works.",
+      "Polarity swaps peaks and notches; only delay aligns arrivals.",
+      "Measure the offset on the waveform, then nudge by samples."
+    ],
+    "level": "core",
+    "mistake": "People often assume the polarity button fixes 'phase problems' between any two mics. It only inverts the signal. For mics at different distances it moves the comb to different frequencies, and a time shift is the real fix.",
+    "sayIt": "When two mics hear the same sound at slightly different times, some frequencies cancel, so we line them up in time before we touch the EQ.",
+    "summary": "Comb filtering happens when a signal is added to a delayed copy of itself. Frequencies whose delayed copy arrives in phase are reinforced, and those that arrive half a cycle late cancel. The result is a run of evenly spaced peaks and notches whose positions depend only on the delay time.",
+    "terms": [
+      {
+        "def": "A frequency response with evenly spaced peaks and notches, caused by adding a signal to a delayed copy of itself.",
+        "term": "Comb filter"
+      },
+      {
+        "def": "The sign of the signal. Inverting it multiplies the waveform by −1 at every frequency, with no time shift.",
+        "term": "Polarity"
+      },
+      {
+        "def": "The position within a cycle at a given frequency. A time delay produces a phase shift that grows with frequency.",
+        "term": "Phase"
+      },
+      {
+        "def": "Keep the distance between mics at least three times each mic's distance to its own source, so spill is about 9.5 dB down.",
+        "term": "3:1 rule"
+      },
+      {
+        "def": "Delaying the earlier signal so that both arrivals line up, removing the comb caused by the offset.",
+        "term": "Time alignment"
+      }
+    ],
+    "title": "Comb filtering and mic time alignment",
+    "topic": "Phase, polarity and time"
+  },
+  "quiz": {
+    "questions": [
+      {
+        "answer": 2,
+        "explain": "68.6 cm ÷ 343 m/s = 2 ms. The first notch is at 1/(2t) = 1/(0.004 s) = 250 Hz, and the following notches come every 500 Hz (750 Hz, 1.25 kHz…). The trap is using 1/t, which gives the spacing between notches, not the first notch.",
+        "level": "advanced",
+        "options": [
+          "500 Hz",
+          "125 Hz",
+          "250 Hz",
+          "1 kHz"
+        ],
+        "q": "Two mics pick up a snare at equal level. One is 68.6 cm farther from the snare than the other (speed of sound 343 m/s). Where is the first comb-filter notch when they are summed?",
+        "topic": "Phase & polarity"
+      },
+      {
+        "answer": 1,
+        "explain": "−6 dB is half the amplitude. In phase: 1 + 0.5 = 1.5, which is +3.5 dB. In antiphase: 1 − 0.5 = 0.5, which is −6 dB. Complete cancellation needs equal levels.",
+        "level": "advanced",
+        "options": [
+          "+6 dB peaks, complete cancellation",
+          "About +3.5 dB peaks and −6 dB notches",
+          "About +1 dB peaks and −1 dB notches",
+          "+3 dB peaks and −3 dB notches"
+        ],
+        "q": "A spill signal arrives 6 dB below the direct signal, with some delay. What are the largest boost and deepest cut in the summed response?",
+        "topic": "Phase & polarity"
+      },
+      {
+        "answer": 3,
+        "explain": "0.161 × 200 / 40 = 0.805 s, so about 0.81 s. Doubling the absorption would halve it. Sabine's formula becomes unreliable in very absorbent rooms, where the Eyring formula is better.",
+        "level": "advanced",
+        "options": [
+          "0.32 s",
+          "1.24 s",
+          "0.50 s",
+          "0.81 s"
+        ],
+        "q": "A 200 m³ room has 40 m² of total absorption (metric sabins). Using Sabine's formula RT60 = 0.161·V/A, what is the reverberation time?",
+        "topic": "Acoustics"
+      },
+      {
+        "answer": 0,
+        "explain": "Inversion multiplies every frequency by −1, so the old peaks become notches. The new notches fall at multiples of 1/t, starting at DC. Only a time shift removes the comb.",
+        "level": "intermediate",
+        "options": [
+          "The notches move to 0 Hz, 1 kHz, 2 kHz…, so the low end cancels",
+          "The comb filtering disappears",
+          "The notches stay at 500 Hz, 1.5 kHz… but become shallower",
+          "Only frequencies above 1 kHz are affected"
+        ],
+        "q": "Two equal-level mics are 1 ms apart in time. If you invert the polarity of one, what happens?",
+        "topic": "Phase & polarity"
+      },
+      {
+        "answer": 2,
+        "explain": "V = 0.775 × 10^(4/20) ≈ 0.775 × 1.585 ≈ 1.23 V. The trap is 0.316 V, which is −10 dBV, the consumer reference referenced to 1 V.",
+        "level": "intermediate",
+        "options": [
+          "0.316 V",
+          "4.0 V",
+          "1.23 V",
+          "0.775 V"
+        ],
+        "q": "Professional line level is +4 dBu. Roughly what RMS voltage is that? (0 dBu = 0.775 V)",
+        "topic": "Gain staging"
+      },
+      {
+        "answer": 1,
+        "explain": "This is the precedence (Haas) effect. For delays of roughly 1 to 30 ms, the brain fuses the two arrivals and places the sound at the first one. That is why delays are set slightly late relative to the mains.",
+        "level": "intermediate",
+        "options": [
+          "A distinct echo from the delay speaker",
+          "One fused sound that seems to come from the main PA",
+          "Sound that seems to come from the delay speaker",
+          "Strong comb filtering heard as two pitches"
+        ],
+        "q": "A delay speaker is timed so its sound arrives about 10 ms after the main PA, at a similar level. What do most listeners hear?",
+        "topic": "Psychoacoustics"
+      },
+      {
+        "answer": 3,
+        "explain": "At about 343 m/s, 1 ms is 0.343 m, or about 34 cm. A handy rule of thumb: roughly 1 ft per millisecond.",
+        "level": "basic",
+        "options": [
+          "3.4 m",
+          "3.4 cm",
+          "1 m",
+          "34 cm"
+        ],
+        "q": "Roughly how far does sound travel in air at 20 °C in 1 millisecond?",
+        "topic": "Acoustics"
+      },
+      {
+        "answer": 0,
+        "explain": "P48 is +48 V DC, applied equally to pins 2 and 3 through 6.8 kΩ resistors, with pin 1 as the return. P12 and P24 also exist in IEC 61938 but are rare.",
+        "level": "basic",
+        "options": [
+          "48 V DC",
+          "48 V AC",
+          "12 V DC",
+          "24 V DC"
+        ],
+        "q": "What voltage does standard P48 phantom power supply to a condenser mic?",
+        "topic": "Connectors"
+      },
+      {
+        "answer": 2,
+        "explain": "With a 3:1 distance ratio, the inverse square law drops spill by about 9.5 dB, so the comb filtering in the sum shrinks to a few dB of ripple.",
+        "level": "basic",
+        "options": [
+          "Each mic should be three times louder than the next",
+          "Use three mics for every source",
+          "Keep mics at least three times as far from each other as each one is from its own source",
+          "Place each mic 3 cm from its source"
+        ],
+        "q": "What does the 3:1 rule for multiple mics say?",
+        "topic": "Microphone technique"
+      }
+    ]
+  }
+}

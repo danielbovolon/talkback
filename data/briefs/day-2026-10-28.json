@@ -1,0 +1,274 @@
+{
+  "craft": {
+    "body": "New hardware usually forces a new operating system, and audio software is always the last to catch up. Treat your working machine like a show system: no OS updates in the middle of a project, and no new computer for a paid session until you have run a full session on it.\n\nKeep a one-page list of every driver, plugin, licence manager and control-surface app you depend on, and check it against each vendor's compatibility page before any upgrade. Keep the old machine set up until the new one has finished a real job. Clients never see the upgrade, only the session that wouldn't open.",
+    "title": "Freeze your OS during a job"
+  },
+  "generated": "2026-10-28T08:10:00+01:00",
+  "headline": "New Macs outrun your session software",
+  "items": [
+    {
+      "cat": "software",
+      "date": "2026-10-27",
+      "deep": "New Macs normally can't be downgraded to an earlier macOS, so anyone who buys an M6 is on Golden Gate from day one. Avid says qualification will come in an upcoming release but gives no date. For comparison, Pro Tools support for the M5 Macs only arrived in July with 2026.4.1, months after launch. Production Expert also notes that only a handful of plugins had confirmed Golden Gate support at launch, and that Rosetta 2 is not installed automatically, so older Intel-only plugins can vanish until you install it.\n\nApple has only committed to a base M6 for now; Pro and Max chips are expected with the M7 generation. If you need Thunderbolt 5, more than three Thunderbolt ports or more than 32 GB of memory for big templates, this machine is not the one.\n\nFor paid work the advice is simple: buy within a return window, test a full session on day one, and keep the old machine ready until every critical driver and plugin is confirmed.",
+      "signal": 3,
+      "source": "Production Expert",
+      "take": "Apple's 14-inch MacBook Pro with the base M6 chip starts at $1,999 with 16 GB and 1 TB; the $1,599 entry model is gone. It has a 12-core CPU, up to 32 GB of memory at 170 GB/s and three Thunderbolt 4 ports. Pre-orders open today and deliveries start 6 November. It ships with macOS 27 Golden Gate, and Avid has not yet qualified Pro Tools for it.",
+      "title": "New M6 MacBook Pro ships on macOS 27, which Pro Tools doesn't support yet",
+      "todo": "Before ordering, list every interface driver, plugin and licence manager your sessions depend on and check each vendor's macOS 27 status page.",
+      "url": "https://www.production-expert.com/production-expert-1/apple-m6-macbook-pro-what-audio-pros-need-to-know-before-ordering"
+    },
+    {
+      "breakthrough": true,
+      "cat": "science",
+      "date": "2026-10-27",
+      "deep": "Personal HRTFs are the main reason binaural and headphone Atmos renders sound outside the head for some listeners and inside it for others. Today you either measure them in a lab or approximate them from photos of the ear. The Selfone idea is that the headphone measures your ear itself: the receivers inside the cup capture how many small drivers interact with your pinna, and an algorithm turns that into your cues.\n\nThe paper is honest that this is a first step. Playing sound through individual drivers did not reproduce a listener's HRTF cues, so driving algorithms still have to be developed. The useful finding is that the in-cup measurements did vary strongly with ear shape, which means they carry individual information. Only the left ear was measured, and no localisation results are reported.\n\nIf it works, headphone monitoring for immersive mixes could become personal without a trip to a lab. For now, the open dataset is what researchers and plugin developers can use.",
+      "signal": 3,
+      "source": "JASA",
+      "take": "Researchers at the Austrian Academy of Sciences' Acoustics Research Institute and Graz MEMS-speaker maker USound published a prototype headphone with 20 MEMS drivers and 24 electret receivers in a 3D-printed ear cup on a DT 990 PRO. They measured 100 adults, seven fittings each, and also measured their reference HRTFs with a 91-loudspeaker array. The data is public in the SOFA format.",
+      "title": "Selfone: a 20-driver headphone built to learn your HRTF, with an open dataset of 100 people",
+      "url": "https://pubs.aip.org/asa/jasa/article/160/4/3535/3407466/Towards-self-personalizing-headphones-Individual"
+    },
+    {
+      "cat": "hearing",
+      "date": "2026-10-27",
+      "deep": "A standard clinical audiogram stops at 8 kHz, and many hearing checks only report an average up to 4 kHz. This study suggests that early damage often shows up first at the very top, above that range, and that it tracks with real difficulty following speech in noise. The authors report significant impairment beyond about 35 dB HL in the 9–14 kHz average.\n\nThe limits matter. It re-analyses data from two labs that used different protocols, it counts ears rather than people, and there is no agreed normal range for extended high frequencies yet. The speech test used also has little energy above 8 kHz, so why the link exists is still a hypothesis.\n\nFor engineers this is about your own ears. Noise damage from monitoring and live work often starts high, and a 'normal' audiogram may not show it. That matters for dialogue editing, de-essing and any high-frequency decisions.",
+      "signal": 3,
+      "source": "Bioengineer.org (Frontiers in Neuroscience)",
+      "take": "A retrospective study of 605 adults (1,205 ears) from the universities of South Florida and Central Florida, published in Frontiers in Neuroscience, compared standard audiograms with thresholds from 9 to 14 kHz. In ears with normal standard results, the 9–14 kHz average explained 17% of the variation in speech-in-noise scores; the standard 0.5–4 kHz average explained about 1%. The worst 10% of performers averaged 58.7 dB HL at 9–14 kHz, against about 3 dB HL for the best 10%.",
+      "title": "Hearing above 8 kHz predicts trouble with speech in noise when the normal audiogram looks fine",
+      "todo": "At your next hearing test, ask for extended high-frequency audiometry (above 8 kHz) so you have a baseline to compare against.",
+      "url": "https://bioengineer.org/extended-high-frequency-hearing-may-signal-speech-in-noise-problems-before-standard-tests-do"
+    },
+    {
+      "cat": "software",
+      "date": "2026-10-27",
+      "deep": "Splitting a mixed drum track into kick, snare and so on is the part that matters for engineers. It is useful for remixes, for fixing a stereo drum loop in a mix, or for rebalancing archive material. How clean the separation is on real-world drums is not shown yet, so test it before you rely on it with a client.\n\nApple gave no Logic version number and says the update arrives in November. Logic itself still runs on macOS 26.1 or later, so only the assistant is tied to macOS 27. Voice Memo Studio Sound, which reduces room and noise on iPhone recordings, may help with scratch vocals and voice notes from clients.",
+      "signal": 2,
+      "source": "Apple Newsroom",
+      "take": "Apple's November Creator Studio update lets Logic's Stem Splitter isolate, replace or rebalance individual drum parts without the multitracks. A redesigned Browser analyses and tags sounds on the Mac and includes a Splice library. There is also a beta assistant built on Apple and OpenAI models, which needs macOS 27, an Apple Intelligence Mac and US English. It is free for existing users; Logic costs $199.99 or comes in Creator Studio at $12.99 a month.",
+      "title": "Logic Pro update splits drum parts out of mixed audio and auto-tags your sound library",
+      "url": "https://www.apple.com/newsroom/2026/10/apple-creator-studio-adds-powerful-new-ai-features-and-even-more-creative-tools/"
+    },
+    {
+      "cat": "post",
+      "date": "2026-10-27",
+      "deep": "Loudness specs tell you how loud a programme is, not whether anyone can follow the words. Intelligibility scoring adds that check, and the LMMG agreement announced at IBC (NUGEN, RTW, Steinberg and Telos, with Fraunhofer) aims to make DIU readings match across tools. Together with the Loudness to Dialog Ratio in NUGEN's VisLM 3, this is the start of intelligibility becoming a delivery metric.\n\nThe colour thresholds can be changed in Meter Settings, but neither Steinberg nor the article gives target values, and no broadcaster has yet published a required DIU score. Treat the numbers as a guide to where to listen again, not as a pass mark.",
+      "signal": 2,
+      "source": "Production Expert",
+      "take": "A Production Expert walkthrough shows how Nuendo 15 adds dialogue intelligibility, based on Fraunhofer IDMT technology, to its Loudness Track. Scores use a 0–100 DIU scale shown as green, yellow and red blocks, measured in real time or with a faster-than-real-time Quick Analysis between the locators. The track header also shows program- or dialogue-gated LUFS and true peak.",
+      "title": "Nuendo 15's Analyzer Track scores dialogue intelligibility on the timeline",
+      "todo": "Run a Quick Analysis on a finished mix you know had dialogue complaints and see whether the red sections match the notes.",
+      "url": "https://www.production-expert.com/production-expert-1/mixing-to-a-dialogue-intelligibility-target-with-nuendo-15s-analyzer-track"
+    },
+    {
+      "cat": "live",
+      "date": "2026-10-27",
+      "deep": "Spectera is wideband and bidirectional: one TV channel carries many IEM mixes and mic links, and the base station can control every pack. Beveridge's account is a rare first-hand report from stadium touring. The practical gains he describes are central channel moves under pressure and per-user latency, which narrowband systems handle one transmitter at a time.\n\nHe and Sennheiser's Tim Moore also point out that digital stereo keeps its left-right separation in poor RF, unlike analogue FM multiplex stereo, which lets him pan guitars wide in the ears. No pack counts, latency figures or bands are given, so the article doesn't answer how it scales in crowded European spectrum.",
+      "signal": 2,
+      "source": "FOH",
+      "take": "Monitor engineer Ian Beveridge says the band's wireless rack went from a five-foot cabinet to two Spectera base stations and a laptop. A frequency change made in software moved every bodypack to a new TV channel in about 20 seconds without touching a pack. Each pack can run its own link mode, with the lowest latency for the singer and less critical modes for crew.",
+      "title": "Foo Fighters' IEM rack shrinks to 2U on Sennheiser Spectera",
+      "url": "https://fohonline.com/featured/spectera-minimizes-foo-fighters-rf-anxiety-on-the-road/"
+    },
+    {
+      "cat": "live",
+      "date": "2026-10-26",
+      "deep": "DISPLAY combines splay angles with per-box DSP filtering to hit SPL and frequency-response targets across the audience. Being able to mark zones to avoid, or to ignore, lets the optimiser spend its effort where it helps: on the audience, not on a stage or an empty balcony.\n\nThe ±1 dB figure is Martin Audio's own claim. The VU-NET changes are the quieter win for system techs: lighting or muting each enclosure in turn is a quick way to catch a box hung or patched in the wrong order before the first line check. Version requirements and price were not reported.",
+      "signal": 2,
+      "source": "ISP Audio",
+      "take": "Martin Audio's prediction and optimisation software for Wavefront Precision arrays is out of beta, with faster calculations and accuracy the company says is within ±1 dB of real systems. Hard Avoid can add up to 30 dB more rejection behind or below the array, or on a chosen area such as a reflective back wall. New 'Don't Care' zones are left out of the DSP calculation. VU-NET 2.3.5 adds LED and Mute modes to check hang order and routing box by box.",
+      "title": "Martin Audio DISPLAY 3 leaves beta, with 30 dB 'Hard Avoid' and 'Don't Care' zones",
+      "url": "https://www.isp-audio.com/en/new-product/audio-new-product/13849-display-3-speeds-up-prediction-optimisation-martin-audio"
+    },
+    {
+      "cat": "live",
+      "date": "2026-10-27",
+      "deep": "UHF space for wireless mics and IEMs keeps shrinking, and the next World Radiocommunication Conference in 2027 could squeeze it further. DECT NR+ is a newer ETSI radio standard that can work licence-free in the 1.9 GHz DECT band almost everywhere, which is why makers are interested in it for some pro audio uses.\n\nNo latency figures, audio specs or products were announced. A licence-free, interoperable standard could suit intercom, conference and some presenter mics before it suits stage vocals. Watch what comes out of the 4 November session.",
+      "signal": 2,
+      "source": "Sennheiser",
+      "take": "Sennheiser says the DECT Forum will formally launch an Audio Interest Group on 4 November at DECT World in Munich. It will work on DECT NR+ for microphones, headphones, headsets, intercom, conference and tour-guide systems, covering certification, interoperability and migration from legacy DECT. NR+ runs in several bands below 6 GHz, with the near-global 1.9 GHz DECT band as a base.",
+      "title": "DECT Forum launches an audio group to bring mics, IEMs and intercom to DECT NR+",
+      "url": "https://newsroom.sennheiser.com/sennheiser-helps-shape-the-future-of-dect-nr-audio-at-dect-world-2026"
+    },
+    {
+      "cat": "industry",
+      "date": "2026-10-27",
+      "deep": "The core point applies to any composer or sound designer delivering music for games, and also to library and film work: rights you don't register can't pay you, even where a licence exists. The panel's advice was to write registration duties and cue-sheet delivery into the deal itself.\n\nThe figures are US-focused, but the logic carries over to Italy: if you keep writer's share in a buyout, the cues need registering with your society, such as SIAE, with accurate metadata.",
+      "signal": 2,
+      "source": "Digital Music News",
+      "take": "A GameSoundCon panel recapped by Digital Music News explained that most game music is commissioned as work for hire, so the studio owns both composition and master and the contract decides any back-end. When Microsoft made Bethesda produce cue sheets, it turned up music that had never been registered; one Fallout expansion delivery of seven hours became 123 registered works at BMI. BMI now has domestic licences covering PlayStation and Xbox Game Pass.",
+      "title": "Game composers: how buyouts work, and why unregistered cues earn nothing",
+      "todo": "In your next game or library contract, ask who files cue sheets and registrations, and by when.",
+      "url": "https://www.digitalmusicnews.com/2026/10/27/game-composers-gamesoundcon-panel-recap/"
+    },
+    {
+      "cat": "industry",
+      "date": "2026-10-27",
+      "deep": "Bundling lets a streaming service split a subscription between music and other services such as audiobooks, which lowers the US mechanical royalties paid to songwriters and publishers. Spotify says direct deals with publishers would partly offset any loss.\n\nFor engineers and producers with writer splits, this is one of the main reasons US mechanical income from streaming fell. A change would only come after the case ends and an appeal succeeds, so nothing changes soon.",
+      "signal": 2,
+      "source": "Music Business Worldwide",
+      "take": "Spotify's third-quarter filing puts its possible liability at about €538m (US$619m) if The MLC fully wins its claim over how Premium is bundled, up from €473m last quarter and €46m in the first estimate in 2024. The court has already ruled that Premium counts as a bundle; The MLC's amended complaint targets how the parts were valued. Pre-motion letters for summary judgment are due 11 December.",
+      "title": "Spotify's possible bill if it loses the MLC bundling case rises to €538m",
+      "url": "https://www.musicbusinessworldwide.com/spotifys-potential-bill-if-the-mlc-wins-its-bundling-lawsuit-outright-rises-to-619m/"
+    },
+    {
+      "cat": "ai",
+      "date": "2026-10-27",
+      "deep": "This is the first mainstream DAW to generate working DSP inside a session. For sound designers it could produce quick one-off tools, such as an odd filter or modulator, without leaving the DAW. Whether the results are good enough to replace established plugins is unproven; check them on a meter and an analyser before using them on deliverables.\n\nThe local mode matters if you work under an NDA, because session audio and prompts don't have to leave the machine.",
+      "free": true,
+      "signal": 2,
+      "source": "Gearnews",
+      "take": "In this free update, the Assistant takes a description of an effect or instrument, writes the DSP in the Cmajor language, compiles it and puts it on a track, rebuilding code that fails to compile. An AI mix check analyses the main bus against a chosen genre or production target and can export to loudness targets. New AI Profiles let it run on a local model with no cloud API key.",
+      "title": "Tracktion Waveform Pro 14.1 writes plugins from a text prompt and can run offline",
+      "url": "https://www.gearnews.com/tracktion-waveform-pro-studio/"
+    },
+    {
+      "cat": "post",
+      "date": "2026-10-26",
+      "deep": "Picture editors who can see loudness while they cut tend to hand over more consistent temp mixes, so turnovers may arrive closer to spec. The macOS 27 fixes are an early sign of how the new OS is affecting post apps. If you use Resolve on a new Mac, check your Fairlight workflow before a job; this release lists no Fairlight-specific changes.",
+      "free": true,
+      "signal": 2,
+      "source": "Newsshooter",
+      "take": "Blackmagic's free point update adds an option to show loudness meters in the Edit page mixer and fixes a Cut page loudness meter that didn't reset after scrubbing. It also fixes Speech Generator and Music Remixer problems on macOS 27.",
+      "title": "Resolve 21.1.2 puts loudness meters on the Edit page and fixes macOS 27 audio tools",
+      "url": "https://www.newsshooter.com/2026/10/26/davinci-resolve-21-1-2/"
+    },
+    {
+      "cat": "plugins",
+      "date": "2026-10-27",
+      "signal": 2,
+      "source": "KVR Audio",
+      "take": "Developed with designer Steve Firlotte, it offers three tube voicings plus a blend for the transformerless TLM-1 path, ratios from 2:1 to 12:1 and up to 40 dB of gain reduction. It runs dual mono, linked or mid/side, with sidechain filters from 10 Hz, oversampling up to 64x in real time and 256x offline, and a wet/dry mix. Formats are VST2, VST3, AU, AAX and LV2 on macOS, Windows and Linux. It costs $49.99 at launch, then $79.99, with no authorisation.",
+      "title": "Kazrog Vac Rac TSL: an official Inward Connections tube opto, with M/S and no iLok",
+      "url": "https://www.kvraudio.com/news/kazrog-releases-vac-rac-tsl---official-inward-connections-tube-optical-compressor-vst-au-aax-and-lv2-69467"
+    },
+    {
+      "cat": "plugins",
+      "date": "2026-10-27",
+      "signal": 1,
+      "source": "Production Expert",
+      "take": "Quance has a zero-latency Live engine for tracking and stage use and a higher-resolution Studio engine, up to eight focus points, a Learn function, transient and tone protection, sidechain unmasking and M/S. It runs as VST3, AU and AAX with offline activation, $49.99 until 30 November, then $79.99. Production Expert points out it is stereo only, so for post and immersive work soothe3 is still the tool.",
+      "title": "CodWaves Quance: a $49.99 resonance suppressor, but stereo only",
+      "url": "https://www.production-expert.com/production-expert-1/codwaves-releases-quance-resonance-suppressor-plugin"
+    },
+    {
+      "cat": "plugins",
+      "date": "2026-10-26",
+      "free": true,
+      "signal": 1,
+      "source": "Bedroom Producers Blog",
+      "take": "This free alpha plugin uses data from the Lexicon 224 v4.4 and 224XL v8.21 firmware, giving six original 224 programs and 22 XL programs when both ROM sets are loaded. The ROM files are not included. It runs as AU, VST3 and standalone on macOS 11+ and VST3 and standalone on Windows; Mac builds are not notarised.",
+      "title": "Free: Cineol-X 224 runs Lexicon 224 and 224XL programs, if you supply the ROMs",
+      "url": "https://bedroomproducersblog.com/2026/10/26/cineol-x-224-lexicon-reverb/"
+    },
+    {
+      "cat": "plugins",
+      "date": "2026-10-27",
+      "signal": 1,
+      "source": "Sound On Sound",
+      "take": "Two vari-mu compressors in one plugin can run together or split left/right, mid/side or into low and high bands with an adjustable crossover. It has three models, auto gain, an output limiter and up to 16x oversampling, in VST, VST3, AU and AAX. It is €15 until the end of November (normally €69); the original Royal Compressor is now free.",
+      "title": "Soundevice Royal Compressor XT: dual vari-mu with M/S and low/high split for €15",
+      "url": "https://www.soundonsound.com/news/soundevice-digital-release-royal-compressor-xt"
+    },
+    {
+      "cat": "plugins",
+      "date": "2026-10-27",
+      "signal": 1,
+      "source": "Production Expert",
+      "take": "The first product from a new brand by the team behind Tonsturm lets you draw a map that moves input frequencies to new positions, with two engines, pitch and formant controls, snapshot morphing and an XY pad. It comes as VST3, AU, AAX and AudioSuite with an iLok licence, $79 until 10 November, then $119. AudioSuite makes it practical for clip-based creature and sci-fi design in Pro Tools.",
+      "title": "Melted Sounds Spectral Warp remaps frequencies, with AudioSuite",
+      "url": "https://www.production-expert.com/production-expert-1/melted-sounds-spectral-warp-remaps-frequencies-for-sound-design"
+    },
+    {
+      "cat": "post",
+      "date": "2026-10-27",
+      "signal": 1,
+      "source": "LSi Online",
+      "take": "Production mixer Nadine Richardson used DPA 6060 and 6061 lavs, 4061 Loud and 4062 Extreme SPL capsules for shouting and explosions, 4017 shotguns indoors and 4018 supercardioids on active cables as plant mics in phones, maps and vehicles. Cast wore Wisycom MTP61 packs, half the size of the MTP60, with Bluetooth control, received on an MRK16 with wideband active antennas. She used Wisycom's 32-bit float recording for the gunfire and Utah Beach landings.",
+      "title": "WWII drama Pressure: DPA high-SPL lavs and Wisycom MTP61 packs for the battle scenes",
+      "url": "https://www.lsionline.com/news/dpa-microphones-and-wisycom-capture-the-audio-on-pressure/"
+    },
+    {
+      "cat": "speakers",
+      "date": "2026-10-27",
+      "signal": 1,
+      "source": "Gearnews",
+      "take": "The 112 is 440 W with a 12-inch woofer and a 1-inch compression driver on a 90° horn, 40 Hz–20 kHz, at €769. The 210 is 550 W with two 10-inch woofers and the same driver, 35 Hz–20 kHz, at €969. Both have a four-channel mixer with a mic preamp on channel one, a Baxandall master EQ, stereo link, and XLR and 6.3 mm outputs.",
+      "title": "Moog Model 112 and 210: full-range amps for synths and drum machines",
+      "url": "https://www.gearnews.com/moog-amps-model-112-and-model-210-synth/"
+    },
+    {
+      "cat": "live",
+      "date": "2026-10-27",
+      "signal": 1,
+      "source": "ProSoundWeb",
+      "take": "Spatia 2D runs on the console's own DSP and pans objects to up to 24 loudspeaker outputs, with four panning laws, depth and width, movement paths on a timeline, snapshots and show files. It can be controlled over OSC and follows MIDI and timecode. The dMix 128 already supports AES67, ST 2110-30 and NMOS. Price and availability were not given.",
+      "title": "Violet Audio adds Spatia 2D object panning to its dMix 128 console",
+      "url": "https://www.prosoundweb.com/violet-audio-expands-dmix-128-with-spatia-2d-spatial-audio/"
+    },
+    {
+      "cat": "hearing",
+      "date": "2026-10-26",
+      "signal": 1,
+      "source": "European Environment Agency",
+      "take": "The European Environment Agency's briefing 'Transport noise, vulnerabilities and inequalities' repeats its estimate that transport noise is linked to 73,000 premature deaths, 49,000 new cardiovascular cases and 23,000 new type 2 diabetes cases a year in Europe. It asks for general noise cuts plus measures targeted at the most exposed groups, and for local hotspots to be mapped. This is the policy background behind noise limits for outdoor events and venues.",
+      "title": "EU agency calls for noise action aimed at children and older people",
+      "url": "https://www.eea.europa.eu/en/newsroom/news/better-targeted-actions-needed-to-tackle-unequal-impacts-of-noise-pollution-for-vulnerable-groups"
+    },
+    {
+      "cat": "ai",
+      "date": "2026-10-27",
+      "signal": 1,
+      "source": "Music Business Worldwide",
+      "take": "With its third-quarter results, Deezer said fully AI-generated tracks are more than half of new uploads on peak days, and it has excluded over 42 million of them from recommendations since January 2025. A switch letting users hide fully AI-generated music from search is due before the end of 2026. Total subscribers fell to 8.7 million.",
+      "title": "Deezer: about 90,000 fully AI-generated tracks arrive every day",
+      "url": "https://www.musicbusinessworldwide.com/deezer-raises-2026-outlook-as-q3-revenues-grow-1-8-yoy-to-149-5m-but-total-subscribers-fall-to-8-7m/"
+    },
+    {
+      "cat": "industry",
+      "date": "2026-10-27",
+      "signal": 1,
+      "source": "FOH",
+      "take": "Clair's integration arm has set up a marine team and qualified as a Local Entertainment System supplier for Fincantieri, whose shipyards include several in Italy. It covers design, commissioning, system validation and show support, and says it will use its European staff for marine clients. That could mean more commissioning and show-support work near Italian yards.",
+      "title": "Clair Global Integration becomes a Fincantieri supplier for cruise-ship entertainment systems",
+      "url": "https://fohonline.com/newsroom/on-the-move/clair-global-integration-enters-marine-market/"
+    },
+    {
+      "cat": "instruments",
+      "date": "2026-10-27",
+      "signal": 1,
+      "source": "Synth Anatomy",
+      "take": "It combines 126 sounds based on the TR-707, 606, 505 and 626 with a lo-fi sampler, an analog filter per voice, a transient shaper and a bitcrusher. It has a 64-step sequencer with per-voice probability, individual voice outputs, trigger outputs and MIDI. Price, release date and whether USB carries audio were not announced.",
+      "title": "Behringer RD-765: a sampling drum machine with individual outputs",
+      "url": "https://synthanatomy.com/2026/10/behringer-rd-765-hybrid-sampling-drum-machine-with-four-roland.html"
+    }
+  ],
+  "key": "2026-10-28",
+  "label": "Wed 28 Oct 2026",
+  "lead": "Apple's M6 MacBook Pro goes on pre-order today, but it ships on macOS 27, which Pro Tools is not yet qualified for, so buying now means testing every driver and plugin first. On the science side, an Austrian team published an open dataset and a 20-driver headphone built to measure your own HRTF, and a large study links hearing above 8 kHz to speech-in-noise trouble that standard tests miss. Dialogue intelligibility keeps moving towards being a delivery metric, with Nuendo 15 scoring it on the timeline. Live gets a first-hand account of Spectera at stadium scale and a new DECT NR+ audio group, while game composers get a clear lesson on registering cues.",
+  "period": "day",
+  "radar": [
+    {
+      "date": "2026-10-30",
+      "note": "Runs 30 Oct–1 Nov; expect product and research news in the next briefs.",
+      "title": "AES Show Nashville"
+    },
+    {
+      "date": "2026-11-04",
+      "note": "Formal launch at DECT World in Munich, with a DECT spectrum update.",
+      "title": "DECT Forum Audio Interest Group launch",
+      "url": "https://newsroom.sennheiser.com/sennheiser-helps-shape-the-future-of-dect-nr-audio-at-dect-world-2026"
+    },
+    {
+      "date": "2026-11-06",
+      "note": "Ships on macOS 27; watch for Avid's Pro Tools qualification.",
+      "title": "M6 MacBook Pro deliveries start"
+    },
+    {
+      "date": "2026-11-09",
+      "note": "Audio Developer Conference runs 9–11 Nov.",
+      "title": "ADC 2026, Bristol"
+    }
+  ],
+  "range": "26–28 Oct 2026"
+}

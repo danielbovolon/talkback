@@ -1,0 +1,170 @@
+{
+  "generated": "2026-10-29T07:20:00+01:00",
+  "key": "2026-10-29",
+  "label": "Thu 29 Oct 2026",
+  "lesson": {
+    "body": "A first-order filter rolls off at 6 dB per octave, which is the same as 20 dB per decade. Each extra order adds another 6 dB per octave, so a second-order filter falls at 12 dB per octave and a fourth-order at 24 dB per octave. The quoted cutoff of a Butterworth high-pass or low-pass is its −3 dB point, and the slope only settles to its full rate about an octave beyond it. A second-order Butterworth high-pass at 100 Hz is about −3 dB at 100 Hz and about −12 dB at 50 Hz. A second-order filter with Q above 0.707 starts to bump up just before the cutoff, which is why some high-pass filters have a 'resonance' control.\n\nFor bells, Q = centre frequency ÷ bandwidth, with bandwidth measured between the −3 dB points. In octaves, a 1-octave band is Q ≈ 1.41, a 2-octave band is Q ≈ 0.67 and a 1/3-octave band is Q ≈ 4.32. Higher Q means a narrower band. Manufacturers do not all measure bandwidth the same way on boost and cut, so the same Q number can sound different between two EQs.\n\nOrdinary analogue-style EQs are minimum-phase: changing the level also shifts the phase near the band. A first-order high-pass has 45° of phase shift at its cutoff, a second-order Butterworth 90°, and a fourth-order 180°. Steeper filters also add more group delay around the cutoff, which can soften the attack of a kick or bass if you set a steep high-pass close to the fundamental. Linear-phase EQs avoid phase shift but add latency and can cause pre-ringing before transients.\n\nIn practice: on dialogue, a 12 or 18 dB per octave high-pass around 80–100 Hz removes rumble without thinning most voices; on a mix bus, a gentle 6 dB per octave or a shelf is safer. For crossovers and sub splits, Linkwitz-Riley filters are used because each side is −6 dB at the crossover and the two outputs sum flat. For corrective cuts, use a narrow Q to remove a resonance without taking the surrounding tone; for tonal shaping, use a wide Q and small gain changes.",
+    "inPractice": "On a dialogue track, sweep a high-pass from 40 Hz upwards at 12 dB per octave and then at 24 dB per octave, and note where each one starts to thin the voice. Then solo a narrow bell at Q 8 with a big boost, find a resonance, and cut it by only 3–4 dB.",
+    "keyPoints": [
+      "Each filter order adds 6 dB per octave (20 dB per decade).",
+      "A Butterworth cutoff is the −3 dB point; full slope arrives about an octave later.",
+      "Q = centre frequency ÷ bandwidth; 1 octave ≈ Q 1.41, 1/3 octave ≈ Q 4.32.",
+      "Minimum-phase filters shift phase: 45° at cutoff for first order, 90° for second, 180° for fourth.",
+      "Linkwitz-Riley crossovers are −6 dB per side at the crossover and sum flat.",
+      "Narrow Q for surgical cuts, wide Q and small gain for tone."
+    ],
+    "level": "core",
+    "mistake": "Many people think the cutoff frequency is where a filter 'stops' the sound. At the cutoff a Butterworth filter has only taken off 3 dB; meaningful attenuation starts an octave or more beyond it.",
+    "sayIt": "The slope says how fast the filter fades out the frequencies you don't want, and the Q says how wide a slice of the spectrum a boost or cut touches.",
+    "summary": "Every EQ band is a filter defined by its type, frequency, gain and either slope (for high- and low-pass filters) or Q (for bells and some shelves). Slope comes from filter order: each order adds 6 dB per octave. Q describes how narrow a band is: centre frequency divided by bandwidth.",
+    "terms": [
+      {
+        "def": "The number of reactive stages or poles in a filter; each adds 6 dB per octave of slope.",
+        "term": "Filter order"
+      },
+      {
+        "def": "Quality factor: centre frequency divided by the −3 dB bandwidth. Higher Q means a narrower band.",
+        "term": "Q"
+      },
+      {
+        "def": "A filter design with the flattest possible passband and a −3 dB cutoff point.",
+        "term": "Butterworth"
+      },
+      {
+        "def": "Two cascaded Butterworth filters, −6 dB at the crossover, whose low and high outputs sum flat.",
+        "term": "Linkwitz-Riley"
+      },
+      {
+        "def": "How much a filter delays different frequencies; it rises near the cutoff of steep minimum-phase filters.",
+        "term": "Group delay"
+      },
+      {
+        "def": "A filter that boosts or cuts everything above or below a frequency by a set amount.",
+        "term": "Shelving filter"
+      }
+    ],
+    "title": "Filter slopes and Q: what an EQ band really does",
+    "topic": "Processing"
+  },
+  "quiz": {
+    "questions": [
+      {
+        "answer": 2,
+        "explain": "One octave below the cutoff, a second-order Butterworth is about 12.3 dB down. The trap is thinking the slope starts at the cutoff with 0 dB loss; the cutoff itself is already −3 dB.",
+        "level": "advanced",
+        "options": [
+          "About 3 dB",
+          "About 6 dB",
+          "About 12 dB",
+          "About 24 dB"
+        ],
+        "q": "A second-order (12 dB/octave) Butterworth high-pass filter is set to 100 Hz. Roughly how much does it attenuate a 50 Hz tone?",
+        "topic": "EQ & filters"
+      },
+      {
+        "answer": 3,
+        "explain": "Q = √(2^N) / (2^N − 1). For N = 1 octave that is √2 / 1 ≈ 1.41. Q 4.32 is a third of an octave, and Q 0.67 would be two octaves.",
+        "level": "advanced",
+        "options": [
+          "About 0.71",
+          "About 2.87",
+          "About 4.32",
+          "About 1.41"
+        ],
+        "q": "A bell EQ band is set to exactly one octave of bandwidth between its −3 dB points. What is its Q?",
+        "topic": "EQ & filters"
+      },
+      {
+        "answer": 2,
+        "explain": "A quarter note at 120 BPM is 60,000 ÷ 120 = 500 ms, so an eighth is 250 ms and a dotted eighth is 1.5 × 250 = 375 ms. 333 ms would be a quarter-note triplet.",
+        "level": "advanced",
+        "options": [
+          "250 ms",
+          "333 ms",
+          "375 ms",
+          "500 ms"
+        ],
+        "q": "A song runs at 120 BPM. What delay time gives a dotted-eighth-note echo?",
+        "topic": "Delay & time"
+      },
+      {
+        "answer": 1,
+        "explain": "Linkwitz-Riley filters are two Butterworths in series, so each side is −6 dB at the crossover; the outputs are in phase and add back to 0 dB. A Butterworth crossover's −3 dB points would give a bump when summed in phase.",
+        "level": "intermediate",
+        "options": [
+          "−3 dB each, so the in-phase sum is +3 dB at crossover",
+          "−6 dB each, so the in-phase outputs sum flat",
+          "0 dB each, so the sum is +6 dB",
+          "−12 dB each, leaving a 6 dB dip"
+        ],
+        "q": "In a Linkwitz-Riley crossover, what is the level of each output at the crossover frequency, and how do they sum?",
+        "topic": "EQ & filters"
+      },
+      {
+        "answer": 2,
+        "explain": "A Butterworth filter has 45° of phase shift per order at its cutoff, so a second-order Butterworth is at 90° and a fourth-order at 180°. Steeper filters shift phase more, which is why steep high-passes near a fundamental can change the attack.",
+        "level": "intermediate",
+        "options": [
+          "Both have 0°",
+          "Second order 45°, fourth order 90°",
+          "Second order 90°, fourth order 180°",
+          "Both have 90°"
+        ],
+        "q": "Comparing minimum-phase Butterworth high-pass filters, how much phase shift does each have at its cutoff frequency?",
+        "topic": "EQ & filters"
+      },
+      {
+        "answer": 0,
+        "explain": "Normalisation applies a gain offset equal to the difference: −14 − (−8) = −6 dB. The louder master gains no loudness advantage and keeps whatever dynamics it lost to limiting.",
+        "level": "intermediate",
+        "options": [
+          "It is turned down by about 6 dB",
+          "It is turned up by about 6 dB",
+          "It is turned down by 14 dB",
+          "Nothing changes"
+        ],
+        "q": "A master measures −8 LUFS integrated. A streaming service normalises playback to −14 LUFS. What happens on playback?",
+        "topic": "Loudness"
+      },
+      {
+        "answer": 2,
+        "explain": "Each filter order adds 6 dB per octave, so a first-order filter falls at 6 dB per octave (20 dB per decade). 12 and 24 dB per octave are second and fourth order.",
+        "level": "basic",
+        "options": [
+          "3 dB per octave",
+          "12 dB per octave",
+          "6 dB per octave",
+          "24 dB per octave"
+        ],
+        "q": "What is the slope of a first-order filter?",
+        "topic": "EQ & filters"
+      },
+      {
+        "answer": 3,
+        "explain": "XY places the capsules at the same point, so the stereo image comes only from level differences. ORTF spaces cardioids 17 cm apart at 110°, and AB and the Decca tree use spaced omnis.",
+        "level": "basic",
+        "options": [
+          "ORTF",
+          "Spaced AB",
+          "Decca tree",
+          "XY"
+        ],
+        "q": "Which stereo technique uses two coincident cardioid capsules angled roughly 90° apart with no spacing between them?",
+        "topic": "Microphone technique"
+      },
+      {
+        "answer": 0,
+        "explain": "Wavelength = speed of sound ÷ frequency. The speed stays the same in the same air, so doubling the frequency halves the wavelength.",
+        "level": "basic",
+        "options": [
+          "It halves",
+          "It doubles",
+          "It stays the same",
+          "It quadruples"
+        ],
+        "q": "If the frequency of a sound doubles, what happens to its wavelength in the same air?",
+        "topic": "Acoustics"
+      }
+    ]
+  }
+}

@@ -1,0 +1,166 @@
+{
+ "key": "2026-11-02",
+ "label": "Mon 2 Nov 2026",
+ "generated": "2026-11-02T07:45:00+01:00",
+ "lesson": {
+  "title": "Subtractive synthesis: oscillator, filter, amplifier",
+  "topic": "Sound design and synthesis",
+  "level": "core",
+  "summary": "Subtractive synthesis starts with a harmonically rich waveform and removes parts of its spectrum with a filter, then shapes level over time with an amplifier controlled by an envelope. Almost every analogue-style synth, and many sound-design patches, follow this oscillator–filter–amplifier chain.",
+  "body": "The oscillator supplies the raw spectrum, and each basic waveform has a fixed harmonic recipe. A sawtooth contains every harmonic, with the nth harmonic at 1/n of the fundamental's amplitude, so the 2nd is about 6 dB down and the 3rd about 9.5 dB down. A square wave contains only odd harmonics, also falling at 1/n. A triangle also has only odd harmonics but they fall at 1/n², so it sounds close to a sine. A pulse wave's content depends on its duty cycle: at 25%, every 4th harmonic is missing. Noise has no pitch at all and is the usual starting point for wind, surf, snares and breaths.\n\nThe filter removes what you do not want. A low-pass filter's slope is set by its number of poles: about 6 dB per octave per pole, so 12 dB/oct for a two-pole and 24 dB/oct for a four-pole design such as the Moog ladder. Well above the cutoff, a 24 dB/oct filter attenuates a component two octaves up by roughly 48 dB. Resonance feeds part of the output back to boost a narrow band at the cutoff; at high settings many filters self-oscillate and become a sine source. Key tracking moves the cutoff with the note played: at 100%, an octave up on the keyboard doubles the cutoff frequency, so the tone stays consistent across the range.\n\nThe amplifier sets level, and envelopes make sounds move. An ADSR has three times (attack, decay, release) and one level (sustain). Routing a second envelope to the filter cutoff gives the classic pluck, where brightness falls faster than loudness, which is how most real struck and plucked sounds behave. LFOs add slow periodic change, such as vibrato on pitch or tremolo on level.\n\nIn practice, subtractive patches are the backbone of sound design for picture: risers are a filter sweep on noise or detuned saws, drones are slow filter and LFO movement, and UI sounds are short filter-enveloped blips. Understanding the waveform recipes also explains mixing behaviour: a saw bass carries strong upper harmonics that cut through on small speakers, while a triangle bass all but disappears on them.",
+  "keyPoints": [
+   "Sawtooth: all harmonics at 1/n. Square: odd harmonics at 1/n. Triangle: odd harmonics at 1/n².",
+   "A filter's slope is about 6 dB per octave per pole: 12 dB/oct two-pole, 24 dB/oct four-pole.",
+   "Resonance boosts a narrow band at the cutoff; turned up far enough, many filters self-oscillate.",
+   "ADSR has three times and one level: sustain.",
+   "A separate filter envelope makes brightness change faster than loudness, the basis of plucks.",
+   "100% key tracking doubles the cutoff for each octave up the keyboard."
+  ],
+  "sayIt": "We start with a buzzy, rich tone and sculpt it by filtering away what we don't need, then shape how it starts and fades.",
+  "inPractice": "Load a single saw into a low-pass filter with the cutoff at minimum, then raise only the filter envelope amount with a short decay and zero sustain. Compare it with the same envelope on the amplifier alone, and listen to how the filter version reads as 'plucked' while the amplifier version just sounds short.",
+  "mistake": "Many people think resonance makes a filter steeper. It does not change the slope far above the cutoff; it adds a peak at the cutoff, which also thins the passband on many designs.",
+  "terms": [
+   {
+    "term": "Pole",
+    "def": "One first-order section of a filter, each adding about 6 dB per octave of slope."
+   },
+   {
+    "term": "Key tracking",
+    "def": "Making a parameter, usually filter cutoff, follow the note played."
+   },
+   {
+    "term": "Self-oscillation",
+    "def": "When filter resonance is high enough that the filter produces its own sine tone at the cutoff."
+   },
+   {
+    "term": "Duty cycle",
+    "def": "The fraction of each cycle a pulse wave spends high; 50% is a square wave."
+   },
+   {
+    "term": "ADSR",
+    "def": "Attack, decay, sustain, release: the four stages of a standard envelope."
+   }
+  ]
+ },
+ "quiz": {
+  "questions": [
+   {
+    "level": "advanced",
+    "topic": "Synthesis",
+    "q": "In an ideal sawtooth wave, how far below the fundamental is the 3rd harmonic?",
+    "options": [
+     "About 3 dB",
+     "About 6 dB",
+     "About 9.5 dB",
+     "About 19 dB"
+    ],
+    "answer": 2,
+    "explain": "Sawtooth harmonics fall at 1/n in amplitude, so the 3rd is 20·log10(1/3) ≈ −9.5 dB. The trap is using 10·log, which gives about 4.8 dB, or thinking of a 1/n² law, which applies to a triangle."
+   },
+   {
+    "level": "advanced",
+    "topic": "Synthesis",
+    "q": "A pulse wave has a 25% duty cycle. Which harmonics are missing from its spectrum?",
+    "options": [
+     "All the even harmonics",
+     "Every 4th harmonic (4, 8, 12…)",
+     "Every 3rd harmonic (3, 6, 9…)",
+     "None; all harmonics are present at equal level"
+    ],
+    "answer": 1,
+    "explain": "A pulse wave's nth harmonic is proportional to sin(nπd)/n, which is zero when n·d is a whole number. With d = 0.25 that happens at n = 4, 8, 12. Only a 50% pulse (a square) loses all even harmonics."
+   },
+   {
+    "level": "advanced",
+    "topic": "Digital audio",
+    "q": "A synth generates a naive (non-band-limited) 5 kHz square wave at a 48 kHz sample rate. Where does its 7th harmonic appear?",
+    "options": [
+     "13 kHz",
+     "35 kHz",
+     "11 kHz",
+     "19 kHz"
+    ],
+    "answer": 0,
+    "explain": "The 7th harmonic is 35 kHz, above the 24 kHz Nyquist limit, so it folds back to 48 − 35 = 13 kHz, a non-harmonic tone. That is why good soft synths use band-limited oscillators or oversampling."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Synthesis",
+    "q": "Filter key tracking is set to 100%. You play the same patch one octave higher. What happens to the filter cutoff?",
+    "options": [
+     "It stays where it was",
+     "It rises by 6 dB",
+     "It halves",
+     "It doubles"
+    ],
+    "answer": 3,
+    "explain": "At 100% tracking the cutoff follows pitch exactly, and one octave is a doubling of frequency, so the cutoff doubles too. Keeping the cutoff fixed is what makes high notes sound dull on an untracked patch."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Synthesis",
+    "q": "A 24 dB/octave low-pass filter is set to 1 kHz with no resonance. Roughly how much is a 4 kHz component attenuated?",
+    "options": [
+     "About 12 dB",
+     "About 24 dB",
+     "About 48 dB",
+     "About 96 dB"
+    ],
+    "answer": 2,
+    "explain": "4 kHz is two octaves above 1 kHz, and well above cutoff the slope is about 24 dB per octave, so roughly 48 dB. Near the cutoff the real curve is gentler, so this is an asymptotic estimate."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Psychoacoustics",
+    "q": "The same sound comes from two speakers at equal level, with the right one delayed by 10 ms. Where does a listener on the centre line hear it?",
+    "options": [
+     "Mostly at the left speaker",
+     "Mostly at the right speaker",
+     "Exactly in the middle",
+     "As two separate echoes"
+    ],
+    "answer": 0,
+    "explain": "This is the precedence (Haas) effect: for delays of a few milliseconds up to roughly 30–40 ms, the ear localises to the first arrival and fuses the two. Longer delays start to be heard as a distinct echo."
+   },
+   {
+    "level": "basic",
+    "topic": "Microphone technique",
+    "q": "From which direction does a cardioid microphone pick up the least sound?",
+    "options": [
+     "From the front (0°)",
+     "From directly behind (180°)",
+     "From the side (90°)",
+     "Equally from all directions"
+    ],
+    "answer": 1,
+    "explain": "A cardioid's single null is at the rear, 180°. Supercardioids and hypercardioids have their nulls off to the rear sides, which matters when placing wedges."
+   },
+   {
+    "level": "basic",
+    "topic": "Digital audio",
+    "q": "What sample rate is the usual standard for film and TV production audio?",
+    "options": [
+     "32 kHz",
+     "44.1 kHz",
+     "88.2 kHz",
+     "48 kHz"
+    ],
+    "answer": 3,
+    "explain": "Picture work standardised on 48 kHz (or multiples such as 96 kHz). 44.1 kHz comes from CD audio and causes sync and conversion issues if it slips into a video project."
+   },
+   {
+    "level": "basic",
+    "topic": "Phase & polarity",
+    "q": "What does pressing a channel's polarity (Ø) button do to the signal?",
+    "options": [
+     "Inverts the waveform without delaying it",
+     "Delays it by half a cycle at every frequency",
+     "Swaps the left and right channels",
+     "Shifts the phase by 90°"
+    ],
+    "answer": 0,
+    "explain": "A polarity flip multiplies the signal by −1 at every frequency at once. It is not a time delay; a delay of half a cycle only matches the inversion at one frequency."
+   }
+  ]
+ }
+}

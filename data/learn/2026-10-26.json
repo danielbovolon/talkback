@@ -1,0 +1,166 @@
+{
+  "generated": "2026-10-26T07:30:00+01:00",
+  "key": "2026-10-26",
+  "label": "Mon 26 Oct 2026",
+  "lesson": {
+    "body": "Any sound reinforcement system is a loop. The talker reaches the mic, the PA reproduces it, and part of the PA's output arrives back at the mic. If that returned sound is as loud as the original at some frequency, and in phase with it, the loop sustains itself and rings. Below that point the system still rings briefly after each word, which is why a system 'on the edge' sounds coloured and hollow even when it is not howling.\n\nThe classic estimate from Davis and Patronis uses four distances: Ds from talker to mic, D1 from mic to the nearest loudspeaker, D2 from that loudspeaker to the farthest listener, and D0 from talker to that listener. In a free field, PAG = 20·log(D0·D1 / (Ds·D2)) − 10·log(NOM) − FSM. NOM is the number of open microphones, and FSM is a feedback stability margin, usually 6 dB. NAG = 20·log(D0 / EAD), where EAD is the equivalent acoustic distance: how close the listener would have to stand to the unamplified talker to hear as well as they do with the system on. The design works only if PAG is at least NAG.\n\nThe formula shows where the decibels come from. Ds is the strongest lever: halving the talker-to-mic distance gains 6 dB, so going from 60 cm to 15 cm gains 12 dB. Moving the loudspeaker farther from the mic (larger D1) helps by the same law, and every doubling of open mics costs 3 dB. Directional mics and speakers add gain on top by rejecting the return path, which is why you aim a wedge into a cardioid's rear null or a supercardioid's nulls near 126°. EQ notches at ringing frequencies only buy a few dB, because the next peak in the loop response takes over.\n\nReal rooms are not free fields. Beyond the critical distance, the reverberant field dominates, and moving the speaker even farther from the mic stops helping. That is why lecterns in reverberant churches are hard, and why an automixer that keeps NOM low, plus a headset or lavalier close to the mouth, usually beats any amount of EQ.",
+    "inPractice": "At your next speech or theatre job, measure Ds, D1, D2 and D0 roughly with a laser meter and calculate PAG before soundcheck. Then compare the gain you can actually reach before ringing with the estimate, and note how much each change (closer mic, fewer open mics, moving a wedge) bought you.",
+    "keyPoints": [
+      "Feedback: loop gain ≥ 0 dB at a frequency where the loop phase is a whole number of cycles.",
+      "PAG = 20·log(D0·D1 / (Ds·D2)) − 10·log(NOM) − FSM (about 6 dB).",
+      "NAG = 20·log(D0 / EAD); the system works only if PAG ≥ NAG.",
+      "Halving talker-to-mic distance gives +6 dB; doubling open mics costs 3 dB.",
+      "Notch EQ adds only a few dB; geometry, directivity and fewer open mics add more.",
+      "Beyond critical distance, moving the speaker farther away stops helping."
+    ],
+    "level": "core",
+    "mistake": "Many engineers try to ring out a system with a graphic EQ until it is safe. That buys a few dB at best and makes the system sound thin; getting the mic closer to the source or closing unused mics is worth far more.",
+    "sayIt": "The closer the mic is to your mouth and the fewer mics are open, the louder I can make you before it starts to howl.",
+    "summary": "Feedback starts when the loop from microphone to amplifier to loudspeaker and back to the microphone has a gain of 0 dB or more at a frequency where the loop phase adds up to a whole number of cycles. Potential acoustic gain (PAG) is how much gain a system can give before that happens; needed acoustic gain (NAG) is how much it must give to be useful.",
+    "terms": [
+      {
+        "def": "Potential acoustic gain: the maximum gain a system can provide before feedback, after a stability margin.",
+        "term": "PAG"
+      },
+      {
+        "def": "Needed acoustic gain: the gain required for distant listeners to hear as if they were at the equivalent acoustic distance.",
+        "term": "NAG"
+      },
+      {
+        "def": "Equivalent acoustic distance: how close a listener would need to be to the unamplified talker to hear equally well.",
+        "term": "EAD"
+      },
+      {
+        "def": "Number of open microphones; each doubling reduces PAG by 3 dB.",
+        "term": "NOM"
+      },
+      {
+        "def": "Feedback stability margin, usually 6 dB, kept so the system does not ring.",
+        "term": "FSM"
+      }
+    ],
+    "title": "Gain before feedback: PAG and NAG",
+    "topic": "Live sound"
+  },
+  "quiz": {
+    "questions": [
+      {
+        "answer": 1,
+        "explain": "D0·D1 / (Ds·D2) = 40 / 4 = 10, and 20·log(10) = 20 dB. With one mic the NOM term is 0, and subtracting the 6 dB stability margin leaves 14 dB. Forgetting the margin gives the trap answer of 20 dB.",
+        "level": "advanced",
+        "options": [
+          "8 dB",
+          "14 dB",
+          "20 dB",
+          "26 dB"
+        ],
+        "q": "Using PAG = 20·log(D0·D1 / (Ds·D2)) − 10·log(NOM) − 6 dB, what is the PAG for one open mic with D0 = 10 m, D1 = 4 m, Ds = 0.5 m and D2 = 8 m?",
+        "topic": "Live sound"
+      },
+      {
+        "answer": 2,
+        "explain": "The NOM penalty is 10·log(NOM), so the change is 10·log(8/2) = 10·log(4) ≈ 6 dB. Two doublings at 3 dB each: an automixer that keeps only the active mics open wins this back.",
+        "level": "advanced",
+        "options": [
+          "12 dB",
+          "9 dB",
+          "6 dB",
+          "3 dB"
+        ],
+        "q": "A panel goes from 2 to 8 open microphones, all at the same gain. By how much does potential acoustic gain fall?",
+        "topic": "Live sound"
+      },
+      {
+        "answer": 3,
+        "explain": "64 / 96,000 = 0.000667 s, about 0.67 ms. The round-trip latency through an interface is several buffers plus converter delay, so it is always longer than one buffer.",
+        "level": "advanced",
+        "options": [
+          "1.33 ms",
+          "0.33 ms",
+          "6.4 ms",
+          "0.67 ms"
+        ],
+        "q": "At a 96 kHz sample rate, how long is one 64-sample buffer?",
+        "topic": "Digital audio"
+      },
+      {
+        "answer": 0,
+        "explain": "60 to 15 cm is two halvings of distance, and each halving gives 6 dB by the inverse square law: 20·log(60/15) = 12 dB. The 6 dB answer counts only one halving.",
+        "level": "intermediate",
+        "options": [
+          "+12 dB",
+          "+6 dB",
+          "+3 dB",
+          "+24 dB"
+        ],
+        "q": "In a free field, a presenter's mic moves from 60 cm to 15 cm from the mouth. How much more gain before feedback do you get, all else equal?",
+        "topic": "Live sound"
+      },
+      {
+        "answer": 2,
+        "explain": "FM sidebands appear at carrier ± n × modulator frequency, so here at 100, 300, 400 Hz and so on, all multiples of 100 Hz. A whole-number carrier-to-modulator ratio gives a harmonic sound; the index sets how many sidebands are strong.",
+        "level": "intermediate",
+        "options": [
+          "Only at 100 Hz and 300 Hz, whatever the index",
+          "At random inharmonic frequencies",
+          "At 200 ± n·100 Hz, giving a harmonic spectrum on a 100 Hz fundamental",
+          "At multiples of 200 Hz only"
+        ],
+        "q": "In simple FM synthesis, a 200 Hz carrier is modulated by a 100 Hz sine with a moderate index. Where do the sidebands fall?",
+        "topic": "Synthesis"
+      },
+      {
+        "answer": 1,
+        "explain": "Blending a heavily compressed copy under the dry signal lifts low-level parts, a kind of upward compression, while the dry path keeps the attacks intact. Watch for comb filtering if the compressed path has latency that is not compensated.",
+        "level": "intermediate",
+        "options": [
+          "Reduces the peaks of the dry signal more than series compression would",
+          "Raises quiet detail and sustain while the uncompressed path keeps the transients",
+          "Removes low-frequency rumble",
+          "Lowers the overall loudness without changing the dynamics"
+        ],
+        "q": "What does parallel compression mainly do to a drum bus?",
+        "topic": "Compression"
+      },
+      {
+        "answer": 3,
+        "explain": "Gain before feedback depends most on the talker-to-mic distance: each halving gives 6 dB. Swapping PA level for mic gain leaves the loop gain unchanged.",
+        "level": "basic",
+        "options": [
+          "Boost the high-mid EQ for clarity",
+          "Turn up the main PA and lower the mic gain by the same amount",
+          "Add reverb to mask the ringing",
+          "Get the mic closer to the talker's mouth"
+        ],
+        "q": "A lectern mic starts ringing before the speech is loud enough. What is usually the most effective first fix?",
+        "topic": "Live sound"
+      },
+      {
+        "answer": 0,
+        "explain": "A DI matches an instrument's high-impedance, unbalanced output to a balanced, low-impedance mic input, so long cable runs stay quiet and the pickup is not loaded down. Many also give a ground lift and a pad.",
+        "level": "basic",
+        "options": [
+          "Converts a high-impedance unbalanced instrument signal to a low-impedance balanced signal for a mic input",
+          "Adds phantom power to a dynamic microphone",
+          "Converts analogue audio to Dante",
+          "Boosts a mic signal to line level"
+        ],
+        "q": "What does a DI box mainly do?",
+        "topic": "Connectors"
+      },
+      {
+        "answer": 2,
+        "explain": "Equal-loudness contours dip most around 2–5 kHz, helped by the ear canal's resonance near 3 kHz. That is why harshness in this band is tiring and why small boosts there sound much louder.",
+        "level": "basic",
+        "options": [
+          "Below 100 Hz",
+          "Around 500 Hz",
+          "Roughly 2–5 kHz",
+          "Above 15 kHz"
+        ],
+        "q": "At moderate listening levels, which frequency range is human hearing most sensitive to?",
+        "topic": "Psychoacoustics"
+      }
+    ]
+  }
+}

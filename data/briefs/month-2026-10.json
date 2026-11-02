@@ -1,0 +1,341 @@
+{
+  "craft": {
+    "body": "October's lesson is that a new Mac decides which macOS you run, and your DAW vendor decides whether that is supported. Before buying any machine for client work, list every piece of software and hardware in your chain (DAW, plugins, interface drivers, iLok, control surfaces) and check each against the OS the machine ships with.\n\nIf anything is not qualified, either buy an older model that can still run your current OS, or keep your existing machine as the main rig until the chain catches up. A new laptop that cannot open a client's session is not an upgrade.",
+    "title": "Don't let a new computer choose your OS"
+  },
+  "generated": "2026-11-01T07:45:00+01:00",
+  "headline": "Gene therapy proven, rights fights widen",
+  "items": [
+    {
+      "cat": "games",
+      "date": "2026-10-01",
+      "deep": "FMOD and Audiokinetic's Wwise carry most interactive audio in games, and Wwise has belonged to Sony since 2019. With this deal, both leading middleware engines are owned by hardware and entertainment companies rather than independent toolmakers. The deal follows Bose's purchase of StreamUnlimited in June. Bose says FMOD will stay open and broadly supported, with its Unity and Unreal integrations continuing. Terms were not disclosed.\n\nFor sound designers the open questions are licensing and roadmap. FMOD's free indie tier and simple per-title pricing are a big reason small studios and installation artists use it. Nothing has changed yet, and Bose's stated interest in VR/AR and automotive audio could bring more investment in spatial features. But hardware owners sometimes steer tools towards their own platforms.\n\nIf you deliver FMOD projects, note the version and licence terms you work under now, so you can tell clients exactly what changes if the terms do.",
+      "signal": 3,
+      "source": "audioXpress",
+      "take": "Bose has acquired Firelight, the Australian company behind FMOD, one of the two dominant game-audio middleware engines. Bose says it wants to grow in games and in VR/AR, automotive and other settings where audio responds to events.",
+      "title": "Bose buys FMOD developer Firelight Technologies",
+      "todo": "Save a copy of the current FMOD licence page and installer for the version your active projects use.",
+      "url": "https://audioxpress.com/news/bose-acquires-fmod-developer-firelight-technologies-to-expand-interactive-audio-business"
+    },
+    {
+      "breakthrough": true,
+      "cat": "hearing",
+      "date": "2026-10-08",
+      "deep": "The FDA gave accelerated approval in April; this is the first full peer-reviewed data behind it. OTOF deafness is unusual: the hair cells are present but cannot release the transmitter that carries sound to the nerve, so supplying a working copy of the gene can restore function. Because the gene is too large for one viral vector, it is split across two.\n\nIt treats about 1% of congenital deafness, not noise damage or age-related loss, and long-term durability is still being followed. But it proves that the inner ear can be repaired with gene therapy in people, which is the foundation for later work on more common forms such as GJB2.",
+      "signal": 3,
+      "source": "Cincinnati Children's via PR Newswire",
+      "take": "Peer-reviewed results from the CHORD trial of Regeneron's DB-OTO (Otarmeni), a dual-AAV gene therapy for OTOF-related deafness, showed 9 of the first 12 children reaching hearing thresholds of 70 dB or better by 24 weeks. Four of those reached normal or near-normal hearing and one child did not respond. Benefit was seen in children up to age 16.",
+      "title": "NEJM trial: OTOF gene therapy restored hearing in 9 of 12 deaf children",
+      "url": "https://www.prnewswire.com/news-releases/gene-therapy-brings-hearing-to-children-with-inherited-deafness-302901801.html"
+    },
+    {
+      "cat": "ai",
+      "date": "2026-10-22",
+      "deep": "Until now the big music AI cases were led by the three majors and their publishing arms. Reservoir is an independent publisher, and its joining shows that mid-size catalogues now think they can win, or at least settle well. The Suno complaint also repeats reporting that Suno scraped streaming and lyric sites through proxy services. Suno says the leaked code behind that claim is out of date.\n\nThe figures are statutory maximums pleaded in a complaint, not damages anyone has been awarded. Nothing has been decided yet.\n\nFor working engineers the effect is indirect but real. Every new case makes it harder to say that music made with Suno is safe to deliver, and clients will ask more often where generated material came from. If you deliver stems or masters, it is now normal to state in writing whether a delivery can be used for AI training.",
+      "signal": 3,
+      "source": "Music Business Worldwide",
+      "take": "Reservoir Media and Shapiro, Bernstein & Co. filed two suits on 21 October in federal court in Northern California. One claims Suno copied 1,050 compositions to train its music models. The other claims Anthropic copied the lyrics of 853 compositions to train Claude. The pleaded totals, including DMCA counts, are just over $186m against Suno and just over $151.4m against Anthropic.",
+      "title": "Reservoir sues Suno over 1,050 songs and Anthropic over 853 lyrics",
+      "todo": "Add a line to your delivery terms stating whether your stems and masters may be used to train AI models.",
+      "url": "https://www.musicbusinessworldwide.com/reservoir-sues-suno-for-infringment-over-1050-songs-including-tracks-by-joni-mitchell-johnny-cash-madonna-and-more/"
+    },
+    {
+      "cat": "software",
+      "date": "2026-10-27",
+      "deep": "New Macs normally can't be downgraded to an earlier macOS, so anyone who buys an M6 is on Golden Gate from day one. Avid says qualification will come in an upcoming release but gives no date. For comparison, Pro Tools support for the M5 Macs only arrived in July with 2026.4.1, months after launch. Production Expert also notes that only a handful of plugins had confirmed Golden Gate support at launch, and that Rosetta 2 is not installed automatically, so older Intel-only plugins can vanish until you install it.\n\nApple has only committed to a base M6 for now; Pro and Max chips are expected with the M7 generation. If you need Thunderbolt 5, more than three Thunderbolt ports or more than 32 GB of memory for big templates, this machine is not the one.\n\nFor paid work the advice is simple: buy within a return window, test a full session on day one, and keep the old machine ready until every critical driver and plugin is confirmed.",
+      "signal": 3,
+      "source": "Production Expert",
+      "take": "Apple's 14-inch MacBook Pro with the base M6 chip starts at $1,999 with 16 GB and 1 TB; the $1,599 entry model is gone. It has a 12-core CPU, up to 32 GB of memory at 170 GB/s and three Thunderbolt 4 ports. Pre-orders open today and deliveries start 6 November. It ships with macOS 27 Golden Gate, and Avid has not yet qualified Pro Tools for it.",
+      "title": "New M6 MacBook Pro ships on macOS 27, which Pro Tools doesn't support yet",
+      "todo": "Before ordering, list every interface driver, plugin and licence manager your sessions depend on and check each vendor's macOS 27 status page.",
+      "url": "https://www.production-expert.com/production-expert-1/apple-m6-macbook-pro-what-audio-pros-need-to-know-before-ordering"
+    },
+    {
+      "breakthrough": true,
+      "cat": "science",
+      "date": "2026-10-19",
+      "deep": "Panel speakers are not new: distributed-mode loudspeakers and OLED 'screen sound' TVs already use exciters behind a surface. What is new here is a large array of actuators driven per zone from the content, so a voice can come from the actor's mouth rather than from a centre speaker behind or below the screen. Driving several modules together is said to give a woofer-like low-frequency effect.\n\nThe limits matter. The release gives no SPL, frequency response or distortion figures, and zone isolation is quoted as panel vibration, not as acoustic separation at the listener. The paper was in the Journal of Mechanical Science and Technology in May 2026 and the work is patented in Korea.\n\nFor post mixers this is the direction object-based rendering could take on future screens: dialogue anchoring would be done by the display, not by the room's LCR. Worth watching for cinema, signage and immersive installations; not something to plan a mix around yet.",
+      "signal": 2,
+      "source": "Newswise (NST/KIMM)",
+      "take": "The Korea Institute of Machinery and Materials has shown a modular display that radiates sound from the screen surface itself. Eighty voice-coil actuators sit behind an aluminium panel carrying a transparent LED film, and AI source separation and localisation decide which zone of the panel vibrates. The team reports 99.9% accuracy in picking the target zone and up to 35 dB of vibration difference between active and idle zones.",
+      "title": "KIMM builds a 100-inch screen that sounds from where the picture is",
+      "url": "https://www.newswise.com/articles/sound-comes-from-where-you-see-it-kimm-develops-display-technology-that-reproduces-sound-at-on-screen-locations"
+    },
+    {
+      "breakthrough": true,
+      "cat": "hearing",
+      "date": "2026-10-25",
+      "deep": "Today's cochlear implants have 12 to 22 electrodes, but current spreads through the fluid of the cochlea, so neighbouring electrodes excite overlapping groups of nerve fibres. In practice users get far fewer independent pitch channels than electrodes, which is why music and voices in noise are so hard with an implant. Light can be focused much more tightly, so optical stimulation could in principle give many more usable channels.\n\nThis study measured responses in the midbrain (inferior colliculus) and found optical activation followed the cochlea's frequency map and separated better than electrical stimulation, though still not as sharply as real sound. The limits are real: ChReef closes slowly, so it may not follow the fast timing speech needs; only single pulses were tested; some LEDs spread at high intensity; and some treated cochleae lost nerve cells, a gene-therapy safety question. Human trials are not close. For engineers, it is the most credible route yet to implants that carry pitch and timbre, which matters for clients and colleagues who use them.",
+      "signal": 2,
+      "source": "Hearing Health & Technology Matters",
+      "take": "A Göttingen group led by Tobias Moser used gene therapy to make gerbils' auditory nerve cells light-sensitive with the channelrhodopsin ChReef, then stimulated them with experimental implants carrying 5 to 10 green micro-LEDs. Responses appeared from pulses of about 150 nJ, single LEDs could drive firing as strong as a 51 dB SPL tone, and optical channels stayed distinct at smaller spacings than electrical ones. The paper is in EMBO Molecular Medicine.",
+      "title": "Micro-LED optical cochlear implant separates channels better than electrodes, in gerbils",
+      "url": "https://hearinghealthmatters.org/hearing-technologies/2026/gene-therapy-cochlear-implant-optical/"
+    },
+    {
+      "breakthrough": true,
+      "cat": "science",
+      "date": "2026-10-11",
+      "deep": "Bass traps are limited by depth: the air in a shallow cavity is too stiff to resonate low. Cancelling part of that stiffness with a magnetic spring is a known idea in vibration isolation, applied here to room acoustics, and the authors project a design equivalent to a cavity five times deeper.\n\nThe results are from an impedance tube and simulation, the device is sensitive to magnet alignment, and there is no product. Still, alongside this month's plasma absorber and thin printed panels, it shows serious work on the hardest problem in small rooms: controlling the bottom two octaves without losing a metre of floor.",
+      "signal": 2,
+      "source": "Bioengineer.org (Advanced Science)",
+      "take": "Researchers reported in Advanced Science a resonant absorber whose piston rides on repelling magnets, which add negative stiffness and lower the resonance. In a 90 mm cavity the resonance fell from 79.1 Hz to 57.8 Hz, and against a perforated panel it gave 1.57 times the absorption and 65% more bandwidth across 31–125 Hz, unchanged from 95 to 105 dB.",
+      "title": "A magnetic 'negative spring' lets a shallow absorber work like one five times deeper",
+      "url": "https://bioengineer.org/magnetic-bearing-resonator-shatters-the-thermodynamic-limit-of-low-frequency-sound-absorption/"
+    },
+    {
+      "cat": "gear",
+      "date": "2026-10-30",
+      "deep": "Recall is the reason most freelancers gave up on outboard. Digitally controlled analogue is not new (Wes Audio, SSL's Fusion-era recall, Bettermaker), but Neve putting its 88R and 1084 circuits behind a plugin with session-saved settings means the analogue state can travel with the DAW project, like any other insert.\n\nThe catch is that recall covers settings, not the rest of the chain: patching, gain into the box and converter calibration still need notes. Eight channels in 2U at these prices is a facility purchase, not a home-studio one, and no independent measurements or latency figures are published yet. Owners of existing 8424 consoles can upgrade.\n\nFor a mix room that changes projects daily, the practical question is whether the plugin control is solid across Pro Tools versions and OS updates, given this month's macOS 27 trouble. Ask Neve about qualification before ordering.",
+      "signal": 2,
+      "source": "Sound On Sound",
+      "take": "Neve launched Elements, its first digitally controlled analogue processors: 2U, eight-channel units (88R EQ, 88R Dynamics and an inductor 1084 EQ) with D-Sub I/O, Ethernet and a recallable insert. They are run from a standalone app or a VST3/AU/AAX plugin with snapshots and 64-step undo. Prices start at $4,895 / £3,495 ex VAT. A new 8424E console ($37,950 / £26,995) adds full recall; shipping is expected in Q1 2027.",
+      "title": "Neve Elements: recallable 88R and 1084 processors, and an 8424E console",
+      "todo": "If you rent rooms with Neve outboard, ask whether they plan Elements units, and add a line to your recall notes listing hardware plugin versions.",
+      "url": "https://www.soundonsound.com/news/neve-unveil-elements-range-8424e-console"
+    },
+    {
+      "cat": "ai",
+      "date": "2026-10-06",
+      "deep": "This is a consumer-protection case about unfair contract terms. It is not a copyright ruling on how Suno trained its models; that question sits with the US label lawsuits and with the GEMA case Suno lost in Germany. The point that matters most for creators is moral rights. Under Italian copyright law (L. 633/1941) the right to be named as author and to object to distortion of a work cannot be given away, so a blanket waiver in a click-through contract is hard to enforce here.\n\nThe other clauses are a practical warning. A provider that can close your account and remove the content at any time, for any reason, is not a safe place to store anything you deliver to a client. The case also gives Italian trade associations a formal route to comment during the consultation.\n\nNothing has been decided yet. Suno did not comment to MBW, and the authority can still accept changes to the terms instead of fining.",
+      "signal": 2,
+      "source": "Music Business Worldwide",
+      "take": "The AGCM is examining the Suno terms that took effect on 3 September 2026. It objects to clauses that let Suno change the service and prices without giving a reason, close accounts and delete content at any time without notice, and require users to waive their moral rights. It also objects to mandatory arbitration in Massachusetts and very broad liability limits. Fines for unfair terms run from €5,000 to €10 million, and a public consultation opens in the coming weeks.",
+      "title": "Italy's competition authority opens a case on Suno's terms of service",
+      "todo": "If a client brings AI-generated elements into a job, keep local copies, note in the delivery paperwork which parts were generated and with which tool, and read the tool's ownership clause before you sign off.",
+      "url": "https://www.musicbusinessworldwide.com/suno-faces-investigation-in-italy-over-its-terms-of-service/"
+    },
+    {
+      "cat": "live",
+      "date": "2026-10-01",
+      "deep": "Until now a RIVAGE feeding a Milan-native PA, such as a Meyer GALAXY or d&b system on Milan, usually went through Dante and a separate bridge, or through AES3 or analogue. With a Milan card in the console the desk can join that network directly. Milan's clocking and stream reservation are defined by the protocol, so you get fewer boxes and fewer clock domains to argue about at line check.\n\nThe card does 64x64 at 96 kHz. That is plenty for PA and matrix feeds, but it is not a stagebox network, which stays on Dante or TWINLANe. The press material does not say how redundancy is set up on the card, so check before you rely on it. The rest of the update is ecosystem work: smaller DM5 desks and RUio utility boxes can now be watched and controlled from the RIVAGE surface, which helps on festival and corporate builds that mix sizes of Yamaha gear.",
+      "signal": 2,
+      "source": "TPi",
+      "take": "RIVAGE PM firmware V7.20 adds support for the AuviTran AV-HY64-AVB card, which carries up to 64 inputs and 64 outputs at 96 kHz on AVB Milan networks. The update also brings DM5 and DM5 Compact consoles, the RUio1608SB-D, RUio0804-D and RUio16FLX-D I/O units and DME5/DME3 processors into the RIVAGE system for monitoring and control.",
+      "title": "Yamaha RIVAGE PM firmware 7.20 puts the flagship on Milan networks",
+      "todo": "If you mix on RIVAGE into Milan PA systems, ask the system tech or rental house whether they plan to stock the AV-HY64-AVB card before you spec a bridge.",
+      "url": "https://www.tpimagazine.com/new-yamaha-rivage-pm-firmware-to-enhance-connectivity-and-control/"
+    },
+    {
+      "cat": "post",
+      "date": "2026-10-26",
+      "deep": "VisLM 2 already gave integrated, short-term and momentary loudness, LRA, dialogue LRA, true peak and a timecode-locked history. The new parts are about delivery rather than metering. LDR is the gap between programme loudness and dialogue loudness. EBU R 128 Supplement 4 (2023) uses it to describe why very dynamic films are hard to broadcast or stream unchanged, and NUGEN pitches it at the intelligibility requirements that are starting to appear in specs.\n\nThe A/85 preset matters too. The July 2026 revision is the first big change to the US broadcast loudness practice since 2013 and adds streaming guidance, so a meter that already knows it saves you building your own preset from the document.\n\nThe QC report is the part to test before you rely on it: check that its layout and fields match what your broadcaster or distributor asks for. Plugin formats were not listed in the coverage.",
+      "signal": 2,
+      "source": "Production Expert",
+      "take": "NUGEN's loudness meter gets its first major update in years. One instance can now track several stems next to the full mix, measure Loudness to Dialog Ratio (LDR), attach timestamped notes, export a Loudness QC Report and meter up to 9.1.6. It adds presets for EBU R 128 Supplement 4 and the new ATSC A/85:2026-07. It costs $499; existing users see upgrade pricing in their NUGEN accounts.",
+      "title": "NUGEN VisLM 3 adds stem metering, Loudness to Dialog Ratio and QC reports",
+      "todo": "Before your next TV delivery, ask the client whether they now want an LDR figure or a QC report, and run one on a finished mix to see where your dialogue sits.",
+      "url": "https://www.production-expert.com/production-expert-1/nugen-vislm-3-adds-stem-monitoring-ldr-measurement-and-qc-reports"
+    },
+    {
+      "cat": "plugins",
+      "date": "2026-10-21",
+      "deep": "Most free loudness meters measure in real time while you play the mix. The new File Check works on the bounced file, which is what the broadcaster or platform actually ingests, and leaves a report you can attach to a delivery. That closes the gap between 'it read −23 on the bus' and 'the WAV that left the building is compliant', which is where rejections usually happen: a late limiter change, a bad render, a wrong stem.\n\nThe LRA change matters more than it sounds. Loudness Range is built from the statistics of short-term loudness, so the update rate affects the result. If you keep QC sheets from older versions, or compare with another meter, small differences are now expected and are not a fault in the mix. The Dynamics Optimizer also now checks exports against its ceiling and target and removes incomplete exports.\n\nLimits: APU is a small developer and the File Check is new, so cross-check its first reports against your reference meter before you rely on it for a network delivery.",
+      "free": true,
+      "signal": 2,
+      "source": "KVR Audio",
+      "take": "APU Software updated all eight Loudness Series plugins to 6.0 (VST3, AU, AAX on Windows, macOS and Linux). The free Loudness Meter gains a File Check that tests finished WAV and FLAC files against delivery targets and writes HTML or CSV reports. LRA now updates at 10 Hz following EBU Tech 3342, so readings can differ slightly from earlier versions. The six processing plugins stay at $40 each; the Meter and Spectrum Analyzer are free.",
+      "title": "APU Loudness Series 6.0: free meter now QCs finished files against delivery specs",
+      "todo": "Run one of your recent approved deliveries through File Check and compare integrated loudness, true peak and LRA with your usual meter before trusting it.",
+      "url": "https://www.kvraudio.com/news/apu-software-releases-loudness-series-v6-0-0-69302"
+    },
+    {
+      "cat": "post",
+      "date": "2026-10-06",
+      "deep": "Live sport in Atmos is not new; UK broadcasters have offered Atmos football for several seasons. What is new is a global series with a very loud, wide-band soundtrack moving to object-based delivery on a streaming platform that reaches mostly earbuds and soundbars. That puts the work on the downmix and on binaural rendering, not only on the height channels.\n\nF1 is a hard mix. Engines dominate the spectrum, commentary must stay intelligible at home, and team radio is compressed, band-limited speech. How Apple places these elements, and whether radio or commentary is carried as separate objects, has not been disclosed. No details on the outside broadcast setup or the mixing team were given.\n\nThe practical point is demand. Every major sports property that adopts Atmos needs mixers who can build a live immersive mix that still works in stereo, and monitoring rooms to check it.",
+      "signal": 2,
+      "source": "9to5Mac",
+      "take": "Apple will carry its F1 coverage in Dolby Atmos from the US Grand Prix weekend in Austin, starting 23 October, alongside the existing Dolby Vision picture. The mix includes team radio, commentary, engine sound, on-track battles and pit lane. It costs nothing extra on supported devices, but the rights deal is US only. Apple has not said how the mix will be produced.",
+      "title": "Apple TV's Formula 1 coverage switches to Dolby Atmos from 23 October",
+      "todo": "If you mix live or broadcast, practise checking a 5.1.4 or 7.1.4 mix in stereo and binaural at the same time, and note which elements move or disappear in the fold-down.",
+      "url": "https://9to5mac.com/2026/10/06/formula-1-on-apple-tv-is-getting-dolby-atmos-starting-this-month/"
+    },
+    {
+      "cat": "post",
+      "date": "2026-10-08",
+      "deep": "Eclipsa is the open competitor to Atmos for streaming, and it needs capture as well as playback. A cheap first-order Ambisonic mic certified for it lowers the cost of spatial content, especially for YouTube.\n\nFour capsules give first-order Ambisonics, fine for ambiences and VR but not precise imaging. For field recordists it is mainly a sign of where consumer platforms are heading.",
+      "signal": 2,
+      "source": "Sony via PR Newswire",
+      "take": "Sony's $249.99 ECM-AX10 is a 24 g USB-C module with four omni capsules in a sphere that records Ambisonics, binaural or stereo on iOS 18+ and Android 14+. It is the first microphone certified for Eclipsa Audio, the open IAMF-based immersive format backed by Google and Samsung.",
+      "title": "Sony ECM-AX10: the first Eclipsa Audio-certified spatial mic for phones",
+      "url": "https://www.prnewswire.com/news-releases/sony-electronics-announces-the-worlds-first-eclipsa-audio-certified-spatial-audio-microphone-for-smartphones-302902696.html"
+    },
+    {
+      "breakthrough": true,
+      "cat": "science",
+      "date": "2026-10-21",
+      "deep": "Porous absorbers have to be about a quarter-wavelength deep to work well. At 50 Hz that is around 1.7 m. That is why bass control in small rooms relies on bulky membrane, Helmholtz or active traps. The Sonexos idea came out of CTO Stanislav Sergeev's PhD work at EPFL. Its plasma layer behaves as an absorber whose impedance can be tuned electronically, with no mass to move, and it claims useful absorption at 30 Hz from under 30 mm of depth.\n\nThis is a funding round, not independent data. The dB figures come from the vendor's prototypes in HVAC and appliance tests, not from measured room acoustics. The company targets series production in early 2028, starting with ventilation and appliances. Listening rooms are on its list, but they are not first.\n\nIf the physics holds up at room scale, it could change how small control rooms, vans and booths deal with room modes and HVAC rumble. For now, treat it as one to watch, not one to buy.",
+      "signal": 1,
+      "source": "audioXpress",
+      "take": "Swiss startup Sonexos closed a CHF 5m pre-Series A round led by Valquest Partners, with Bosch Ventures taking part. Its panels use a controlled corona discharge to make a thin layer of ionised gas whose acoustic behaviour is set electronically, so there is no moving diaphragm. The company says the panels are under 30 mm thick and absorb from 30 Hz to 1,500 Hz. Prototypes cut noise by up to 20 dB in ventilation systems and 16 dB in appliances, measured under the company's own test conditions.",
+      "title": "Sonexos raises CHF 5m for a plasma absorber that works down to 30 Hz",
+      "url": "https://audioxpress.com/news/bosch-ventures-backs-sonexos-to-bring-plasma-based-noise-control-to-series-production"
+    },
+    {
+      "breakthrough": true,
+      "cat": "science",
+      "date": "2026-10-27",
+      "deep": "Personal HRTFs are the main reason binaural and headphone Atmos renders sound outside the head for some listeners and inside it for others. Today you either measure them in a lab or approximate them from photos of the ear. The Selfone idea is that the headphone measures your ear itself: the receivers inside the cup capture how many small drivers interact with your pinna, and an algorithm turns that into your cues.\n\nThe paper is honest that this is a first step. Playing sound through individual drivers did not reproduce a listener's HRTF cues, so driving algorithms still have to be developed. The useful finding is that the in-cup measurements did vary strongly with ear shape, which means they carry individual information. Only the left ear was measured, and no localisation results are reported.\n\nIf it works, headphone monitoring for immersive mixes could become personal without a trip to a lab. For now, the open dataset is what researchers and plugin developers can use.",
+      "signal": 1,
+      "source": "JASA",
+      "take": "Researchers at the Austrian Academy of Sciences' Acoustics Research Institute and Graz MEMS-speaker maker USound published a prototype headphone with 20 MEMS drivers and 24 electret receivers in a 3D-printed ear cup on a DT 990 PRO. They measured 100 adults, seven fittings each, and also measured their reference HRTFs with a 91-loudspeaker array. The data is public in the SOFA format.",
+      "title": "Selfone: a 20-driver headphone built to learn your HRTF, with an open dataset of 100 people",
+      "url": "https://pubs.aip.org/asa/jasa/article/160/4/3535/3407466/Towards-self-personalizing-headphones-Individual"
+    },
+    {
+      "cat": "gear",
+      "date": "2026-10-01",
+      "signal": 1,
+      "source": "Gearnews",
+      "take": "Pitched as an everyday studio workhorse. Notable because Austrian Audio is now part of Audiotonix alongside DPA, so expect tighter integration with the group's console and wireless brands over time.",
+      "title": "Austrian Audio OC616 multipattern condenser",
+      "url": "https://www.gearnews.com/"
+    },
+    {
+      "cat": "gear",
+      "date": "2026-10-23",
+      "signal": 1,
+      "source": "ProSoundWeb",
+      "take": "RME's ADI-2/4 PRO EX AD/DA converter runs up to 768 kHz with a stated 127 dBA dynamic range from its ELAR circuitry, and SteadyClock EX rated at ±1 ppm, with the master clock adjustable in 0.1 ppm steps. It has two headphone amps including balanced Pentaconn output, plus five-band EQ, crossfeed and M/S. The report gives no price.",
+      "title": "RME ADI-2/4 PRO EX: 768 kHz, 127 dBA and SteadyClock EX",
+      "url": "https://www.prosoundweb.com/rme-debuts-new-adi-2-4-pro-ex-audio-converter/"
+    },
+    {
+      "cat": "software",
+      "date": "2026-10-24",
+      "deep": "Most of this release is about the dull end of the job: deliveries. A render that can skip loudness analysis is faster when you are spitting out dozens of stems or alt mixes that will be measured later anyway, and better parallel rendering helps on many-core machines. The postprocessing error is the quiet win, because a render that silently fails to write is worse than one that stops.\n\nThe batch converter changes matter for anyone who conforms SFX libraries, voice files or podcast episodes: normalising only the files below a target, from a script, avoids pushing already-correct files and their noise floors up. Touch override in read mode lets you ride a fader during playback without losing the written pass. It is a free update for licence holders; as with any point release, try it on a copy of a delivery session before trusting it on a deadline.",
+      "free": true,
+      "signal": 1,
+      "source": "Cockos",
+      "take": "Cockos's v7.83 can skip loudness calculation for faster renders, caps offline renders at 2x realtime if you want, uses more cores when rendering tracks or items in parallel, and reports an error if postprocessing temp files fail to write. The batch converter now previews peaks and output, and from the command line it can apply per-file gain and normalise only the files that are too quiet. A new $projectbase wildcard, touch override of automation in read mode and CLAP gain-reduction readout via ReaScript are also in.",
+      "title": "REAPER 7.83: faster renders, smarter batch converter, touch override in read mode",
+      "todo": "Build a render preset with $projectbase in the filename and test the quiet-only normalise on a copy of an SFX or VO folder before your next batch delivery.",
+      "url": "https://www.reaper.fm/whatsnew.txt"
+    },
+    {
+      "cat": "hearing",
+      "date": "2026-10-13",
+      "signal": 1,
+      "source": "HearingTracker",
+      "take": "A Lancet Healthy Longevity analysis of 64,128 adults in four countries, followed for 10–16 years with audiometry, found higher all-cause mortality with hearing loss: 19% for mild and about 55% for moderate or worse. Hearing-aid users had a hazard ratio of 0.91. It is observational, and the commentary warns against telling patients aids prolong life.",
+      "title": "Large study links hearing loss to higher mortality, and hearing-aid use to lower",
+      "url": "https://www.hearingtracker.com/news/hearing-aid-use-linked-to-lower-mortality-in-large-multinational-study"
+    },
+    {
+      "cat": "hearing",
+      "date": "2026-10-13",
+      "signal": 1,
+      "source": "Hearing Review",
+      "take": "The American Academy of Otolaryngology–Head and Neck Surgery Foundation updated its tinnitus guideline. It supports structured counselling, sound therapy and cognitive behavioural therapy, and advises against routine imaging, lab tests and supplements without a specific reason. New statements cover somatosensory tinnitus, cochlear implants and bimodal neuromodulation.",
+      "title": "US tinnitus guideline update backs counselling, sound therapy and CBT",
+      "url": "https://hearingreview.com/hearing-loss/tinnitus/aao-hnsf-issues-updated-clinical-practice-guideline-for-tinnitus"
+    },
+    {
+      "cat": "industry",
+      "date": "2026-10-25",
+      "deep": "This is anecdote, not a survey, and the figures are mostly American and British. But it matches a pattern freelancers know: production tax credits and independent features bring volume first, and the money arrives in many small, tight budgets rather than fewer generous ones. More hours at the same day rate is not growth; it is the same income for more fatigue.\n\nThe useful reading for an Italian freelancer is timing. When colleagues are saying no, clients find it harder to replace you, which is the moment to restate rates, add overtime and revision limits to quotes, and stop absorbing unpaid extras such as extra stem versions or loudness re-passes. Production Expert says a fuller survey is coming later in the year, which will show whether this is a real upturn or a few busy calendars.",
+      "signal": 1,
+      "source": "Production Expert",
+      "take": "Production Expert's Russ Hughes collects replies from post mixers and studio engineers who say they have been fully booked for months, one re-recording mixer turning down jobs since late August. He cites a 52.3% year-on-year jump in LA feature shoot days in Q1 2026, 170 projects awarded California's expanded tax credit, UK local and co-production film spend up 20% and 35% in H1, and recorded music revenue up 6.4% to $31.7bn in 2025. A Grammy-winning engineer sums up the catch: busier, but budgets are well down.",
+      "title": "Post and music engineers are turning down work, but budgets are not rising",
+      "todo": "Before your next quote, add a line pricing extra revision rounds and alternate deliverables, and raise your day rate for new clients.",
+      "url": "https://www.production-expert.com/production-expert-1/audio-pros-are-turning-down-work-again-is-2026-different"
+    },
+    {
+      "cat": "ai",
+      "date": "2026-10-23",
+      "deep": "This is the part of the Italian AI framework that applies to employment, and it bites on any studio, post house, broadcaster or production company in Italy that uses AI to screen CVs, schedule crews, assess performance or allocate work. A human must actually review the AI output, and the worker gets a right to know how much AI shaped a decision, which factors counted and what the human review was.\n\nThe PwC summary does not cover copyright, labelling of synthetic content or voice rights, so this is not the AI-music rulebook. For a freelancer the practical points are narrower: if a client or agency uses automated tools to select or rate crew, you can ask how they are used; and if you employ assistants, the AI angle now belongs in your safety risk assessment alongside noise. Penalties follow the AI Act's fine scale.",
+      "signal": 1,
+      "source": "PwC Italia",
+      "take": "Legislative Decree 179/2026, adopted on 7 October, took effect on 23 October and aligns Italian law with the EU AI Act. Article 41 says decisions on hiring, managing and dismissing staff cannot rest solely on automated processes, workers must be told when AI is used and can ask for an explanation, and dismissals that breach this are void. AI's effects on work pace and tasks must go into the D.Lgs. 81/2008 risk assessment; ACN and AgID oversee the regime.",
+      "title": "Italy's AI decree is now in force, with new rules for AI in hiring and management",
+      "todo": "If you employ anyone or run a facility in Italy, ask your consulente del lavoro whether your 81/2008 risk assessment (DVR) needs an AI section.",
+      "url": "https://blog.pwc.it/en/ai-what-changes-from-23-october/"
+    },
+    {
+      "cat": "live",
+      "date": "2026-10-28",
+      "deep": "The 554–608 MHz petition is the part to watch. That slice holds a lot of the UHF channels that location mixers, theatres and touring IEM rigs rely on, and US decisions tend to shape what manufacturers build and how the world spectrum debate goes. The alliance's push for 1.2 GHz is the other half of the story: it is presented as extra room for big events, not a replacement for UHF.\n\nEurope is on its own track, with the PMSE position for WRC-27 still being settled and the UHF band below 694 MHz protected in the EU until at least 2030. But the same pressures apply here: mobile and other services want spectrum, and wireless production keeps growing. Gear bought now should be flexible about bands, and a 1.2 GHz or 1.4 GHz option is worth weighing on new purchases where your national rules allow it.",
+      "signal": 1,
+      "source": "ProSoundWeb",
+      "take": "The Wireless Microphone Spectrum Alliance, formed in 2025 with more than 660 members including Shure, CP Communications and Freeman, met congressional offices, the FCC, NTIA and the White House. It backs long-term access to 470–608 MHz and is watching a petition involving 554–608 MHz, wants more access at 608–614 MHz and at 1240–1350 MHz while protecting aviation radar, and has filed comments on space-launch proposals at 1435–1525 MHz.",
+      "title": "Wireless-mic alliance lobbies Washington to keep UHF and open 1.2 GHz",
+      "todo": "When you next buy wireless, ask the dealer which bands the unit can be re-tuned or upgraded to, and check what Italy's current allocation allows for each.",
+      "url": "https://www.prosoundweb.com/wmsa-provides-updates-on-washington-meetings-over-u-s-wireless-microphone-spectrum/"
+    },
+    {
+      "cat": "software",
+      "date": "2026-10-27",
+      "deep": "Most people will not notice until they need an old Cubase or Nuendo installer, an older eLicenser-era version or a legacy driver to open an archived project. That is exactly the situation that comes up when a client asks for a recall years later, or when a new Mac forces a reinstall.\n\nIt is also a reminder that vendor download pages are not an archive. If a project depends on a particular version of a DAW, plugin or driver, keep the installer yourself.",
+      "signal": 1,
+      "source": "Steinberg Forums",
+      "take": "Steinberg says its legacy product download pages ran on an outdated TYPO3 system that could not practically be upgraded after recently disclosed PHP vulnerabilities, so they will not return. Most software, updates and content are still available through the Steinberg Download Assistant, a reduced temporary solution is promised 'soon', and new pages are in development. Steinberg says user data was not affected.",
+      "title": "Steinberg's old download pages are gone for good after PHP security flaws",
+      "todo": "Check that you have local copies of the Steinberg installers and drivers your archived sessions need, and grab any missing ones through the Download Assistant now.",
+      "url": "https://forums.steinberg.net/t/steinberg-download-pages-to-remain-offline-en-de/1044445"
+    },
+    {
+      "cat": "ai",
+      "date": "2026-10-05",
+      "deep": "Dialogue isolation tools like RX Dialogue Isolate, Clarity Vx and the separation built into DaVinci Resolve all pull a voice away from background noise. They don't help when two people talk over each other into one lav or boom, which is the usual crosstalk problem in interviews, scenes with overlap and single-mic podcasts. VoxSplit targets that case. It has three profiles (Standard, Precision and Rescue) and an optional finishing stage, and you can audition the result before you commit.\n\nThe developer, Frédéric Le Louët, is a working supervising sound editor and re-recording mixer, so the tool was designed around an editor's workflow. Because nothing is uploaded, you can use it on material covered by an NDA, which rules out many cloud services. Independent tests on hard material, such as similar voices, room tone and overlapping consonants, haven't been published yet. Treat the 7-day trial as a test on your own worst clips, not on a demo.",
+      "signal": 1,
+      "source": "Production Expert",
+      "take": "VoxSplit Pro from Limited Edition Audio splits two overlapping voices recorded on one track into separate tracks. It does not separate voice from noise. It runs as AAX AudioSuite, VST3 or standalone, on macOS only, and does all processing on the machine. The launch price is €199 including VAT, rising to €249 for a perpetual licence. There is a 7-day trial.",
+      "title": "VoxSplit Pro separates two speakers on a single track",
+      "todo": "Pull your three worst overlapping-dialogue clips from recent jobs and run all three VoxSplit profiles on them during the trial, comparing each against the untouched original in the mix, not only solo.",
+      "url": "https://www.production-expert.com/production-expert-1/limited-edition-audio-launches-voxsplit-pro-ai-voice-separation-plugin-for-pro-tools"
+    },
+    {
+      "cat": "live",
+      "date": "2026-10-30",
+      "deep": "Remote production usually means hauling every source back to a central gallery. Here the DSP stays at the venue and only the control surface and monitoring feeds travel, so the link can be ordinary internet rather than dedicated fibre. A local engineer at the track kept a Tempest control app and a small fader tile as backup.\n\nNo latency figure was reported, and the test was a proof of concept, not a full season. Calrec published a white paper the same week pitching its ImPulseV engine on 4-week, 12-week or yearly licences, so broadcast mixing is clearly moving to software engines and short-term rental.\n\nFor freelancers in broadcast, this changes where the job is: fewer days in trucks, more days at a remote surface, and a new need to understand IP networks, monitoring delay and what happens when the link drops. Cloudbass will present the results at the SVG Europe Sports Audio Summit on 12 November.",
+      "signal": 1,
+      "source": "ProSoundWeb",
+      "take": "UK OB company Cloudbass ran a proof of concept at the British Touring Car Championship at Thruxton. Audio processing ran on an SSL System T Virtual Tempest Engine on servers at the track, tied into the ST 2110 network with an SSL Net I/O bridge. The mixer worked from Cloudbass HQ on a System T S400 surface over about 50 Mbps of public internet, carrying control data and monitoring only.",
+      "title": "Cloudbass mixes a touring-car race from its HQ on SSL's virtual engine",
+      "todo": "If you work broadcast, ask your OB clients whether they plan remote-surface shows and what fallback they want on site.",
+      "url": "https://www.prosoundweb.com/cloudbass-tests-remote-production-with-solid-state-logic/"
+    },
+    {
+      "cat": "post",
+      "date": "2026-10-29",
+      "deep": "Loudness targets solved jumps between programmes and ads; they did not solve viewers missing lines. TD1009 is the AES document on dialogue intelligibility, and the committee is now putting it next to the loudness recommendations so delivery is judged on clarity as well as on LUFS.\n\nNothing here is a new rule, but it is a free, authoritative reference that connects the dots between dialogue level, dynamics, background music and the listening conditions at home. It lands the same week as the debate over mixing TV on big stages (see below) and after Nuendo 15 and NUGEN VisLM 3 added intelligibility and dialogue-ratio tools.\n\nFor post mixers, expect clients and broadcasters to ask more often about dialogue-to-programme ratio, not just integrated loudness. Having read the AES material puts you ahead of that conversation.",
+      "signal": 1,
+      "source": "TV Technology",
+      "take": "The AES Committee on Broadcast and Online Delivery rebuilt its loudness web resource. It summarises technical documents TD1006, TD1008 and TD1009 and the AES71 and AES77 recommendations, and adds a glossary of loudness and hearing-science terms. AES says about half of viewing now uses captions or subtitles, and the co-chairs say loudness rules are spreading to online content.",
+      "title": "AES relaunches its loudness site around dialogue intelligibility",
+      "todo": "Read TD1009 and the online-delivery recommendation, and add a dialogue-clarity check on small speakers to your final QC pass.",
+      "url": "https://www.tvtechnology.com/standards/aes-dials-in-on-dialogue-intelligibility"
+    }
+  ],
+  "key": "2026-10",
+  "label": "October 2026",
+  "lead": "October brought the first peer-reviewed proof that gene therapy can restore hearing in deaf children, and steady progress on the hardest acoustic problem, low bass in small rooms, from plasma, magnetic and printed absorbers. The AI fight widened: publishers sued Suno and Anthropic together, and Italy's competition authority looked at Suno's terms. Bose bought FMOD, Neve put analogue under plugin recall, and delivery tools grew up, from free loudness QC to dialogue-ratio metering. The month ended with a warning for anyone buying a Mac: new models ship only on macOS 27, before Pro Tools supports it.",
+  "period": "month",
+  "radar": [
+    {
+      "date": "2026-11-06",
+      "note": "Both ship only on macOS 27; check DAW, plugin and driver support first.",
+      "title": "M6 and OLED MacBook Pro deliveries start",
+      "url": "https://www.production-expert.com/production-expert-1/apple-m6-macbook-pro-what-audio-pros-need-to-know-before-ordering"
+    },
+    {
+      "date": "2026-11-20",
+      "note": "They allow AI training on business accounts' content.",
+      "title": "Meta's new business terms take effect",
+      "url": "https://www.digitalmusicnews.com/2026/10/28/copyright-alliance-meta-tos-update-statement/"
+    },
+    {
+      "date": "2026-12-01",
+      "note": "A court hears Apple's motion to quash Suno's request for Apple Music data.",
+      "title": "Suno v Apple subpoena hearing",
+      "url": "https://digitalmusicnews.com/2026/10/28/suno-apple-subpoena-dispute"
+    },
+    {
+      "note": "UHF spectrum for TV and wireless mics is on the table again.",
+      "title": "WRC-27",
+      "when": "2027"
+    }
+  ],
+  "range": "1–31 Oct 2026"
+}

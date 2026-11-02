@@ -1,0 +1,276 @@
+{
+  "craft": {
+    "body": "The HSE findings are a useful mirror: most failures were not missing earplugs but plugs worn badly, taken out mid-shift or so effective that people could not hear alarms. A roll-down foam plug that is only half inserted can give a fraction of its labelled rating.\n\nBefore a loud shift, fit plugs properly (roll, pull the ear up and back, hold until expanded) and do a quick check: your own voice should sound boomy and the room noticeably duller. Then confirm you can still hear comms and the venue alarm. For mixing, a custom moulded set with flat filters keeps the balance honest at a lower level, and lets you leave them in all day.",
+    "title": "Check your plugs, not just your levels"
+  },
+  "generated": "2026-10-25T07:20:00+01:00",
+  "headline": "Atmos control, thin absorbers, AI law",
+  "items": [
+    {
+      "cat": "post",
+      "date": "2026-10-24",
+      "deep": "Until now, Renderer monitoring on most Pro Tools rigs meant mousing in the Renderer window or building your own macros, because Avid surfaces have no native control over Dolby's monitor section. DAR Bridge sits in the middle: it shows up to EuControl or WSControl as a surface client and translates key and knob moves into Renderer commands over the network. Soft keys can cover mutes, source selection, gain presets and a Master Close, and levels can be shown on the Dolby cinema scale.\n\nIt is a one-person project with no Avid or Dolby support and no warranty. It was tested only against WSControl 2026.4, it needs Local Network permission or the surface will not see it, S6 soft keys start empty, and because the Renderer will not go above unity the cinema scale stops at 7.0. For an Atmos mixer that is still a large ergonomic gain for nothing: hands stay on the surface during level checks, downmix auditions and dim calls in client sessions.",
+      "free": true,
+      "signal": 3,
+      "source": "Production Expert",
+      "take": "DAR Bridge, a free macOS app by Sreejesh Nair, lets an Avid S6, S4, S3, S1, Artist Mix/Dock or Avid Control drive the Dolby Atmos Renderer: monitor level, Dim, Cut, speaker layouts, transport and loudness. Version 1.2.2 is a universal, notarised build for macOS 13 or later and needs EuControl or WSControl plus the Renderer reachable on port 4010. It also opens HTTP and OSC on the same Mac so Stream Deck or SoundFlow can send the same commands.",
+      "title": "Free DAR Bridge puts the Dolby Atmos Renderer on Avid surfaces",
+      "todo": "Install it on a non-billable day, map Dim, Cut and your 7.1.4/5.1/2.0 layout switches to soft keys, and test a full session before using it with a client.",
+      "url": "https://www.production-expert.com/production-expert-1/free-dar-bridge-control-the-dolby-atmos-renderer-from-your-avid-control-surface"
+    },
+    {
+      "breakthrough": true,
+      "cat": "science",
+      "date": "2026-10-22",
+      "deep": "Mid-low frequencies are where thin treatment fails: a 24 mm porous absorber does little at 600 Hz because it sits too close to the wall, where particle velocity is low. Resonant structures such as perforated panels and Helmholtz cells can work at those frequencies in less depth, but are usually narrowband. Here the team combines perforated-lid resonators with a gyroid interior that adds thermoviscous losses, and uses a physics-based neural network (with 91% fewer parameters than a standard one) to tune the layout quickly.\n\nThe work is aimed at aerospace, not studios. The samples are resin prints, the 600–900 Hz band is a fixed design window rather than broadband, and the 88.5 to 45.1 dB figure comes from a specific lab test, not a room measurement. Still, printed, tuned resonant lattices that hit a chosen octave in under 25 mm point to future slim treatment for boxy-sounding mix rooms, vehicles and broadcast booths, where depth is the limit.",
+      "signal": 3,
+      "source": "EurekAlert (Harbin Institute of Technology)",
+      "take": "Harbin Institute of Technology researchers describe a honeycomb panel whose walls are hollowed into a gyroid lattice, with each cell capped by a perforated lid so it acts as a resonator. They report roughly 90% absorption of sound energy between 600 and 900 Hz from a 24 mm panel, and a test where an 88.5 dB sound dropped to 45.1 dB. The same carbon-loaded structure also absorbs radar and impact energy; the paper is in the International Journal of Extreme Manufacturing.",
+      "title": "A 24 mm printed panel absorbs about 90% of sound at 600–900 Hz",
+      "url": "https://www.eurekalert.org/news-releases/1148809"
+    },
+    {
+      "cat": "ai",
+      "date": "2026-10-23",
+      "deep": "This is the part of the Italian AI framework that applies to employment, and it bites on any studio, post house, broadcaster or production company in Italy that uses AI to screen CVs, schedule crews, assess performance or allocate work. A human must actually review the AI output, and the worker gets a right to know how much AI shaped a decision, which factors counted and what the human review was.\n\nThe PwC summary does not cover copyright, labelling of synthetic content or voice rights, so this is not the AI-music rulebook. For a freelancer the practical points are narrower: if a client or agency uses automated tools to select or rate crew, you can ask how they are used; and if you employ assistants, the AI angle now belongs in your safety risk assessment alongside noise. Penalties follow the AI Act's fine scale.",
+      "signal": 3,
+      "source": "PwC Italia",
+      "take": "Legislative Decree 179/2026, adopted on 7 October, took effect on 23 October and aligns Italian law with the EU AI Act. Article 41 says decisions on hiring, managing and dismissing staff cannot rest solely on automated processes, workers must be told when AI is used and can ask for an explanation, and dismissals that breach this are void. AI's effects on work pace and tasks must go into the D.Lgs. 81/2008 risk assessment; ACN and AgID oversee the regime.",
+      "title": "Italy's AI decree is now in force, with new rules for AI in hiring and management",
+      "todo": "If you employ anyone or run a facility in Italy, ask your consulente del lavoro whether your 81/2008 risk assessment (DVR) needs an AI section.",
+      "url": "https://blog.pwc.it/en/ai-what-changes-from-23-october/"
+    },
+    {
+      "cat": "hearing",
+      "date": "2026-10-22",
+      "deep": "Hearing protection is Category III PPE, the same class as fall-arrest gear, so handing out foam plugs does not meet the duty: selection, fit, training and maintenance are all required, after noise has first been reduced at source. The alarm finding matters on stages and sets, where over-protected crew may miss a shouted cue, a fire alarm or a reversing truck.\n\nThe UK rules come from the same EU directive as Italy's D.Lgs. 81/2008, so the same logic applies on Italian productions: assess, reduce at source, then protect and train.",
+      "signal": 2,
+      "source": "MEM Magazine",
+      "take": "The UK Health and Safety Executive is running an 'Assess. Control. Protect.' campaign on workplace noise. In inspections, one workplace in four needed mandatory hearing protection; in those, 80% gave no instruction on wearing it, 63% had not told staff to wear it throughout exposure, and 95% had not checked workers could still hear alarms. HSE says about 15,000 workers a year develop or worsen hearing problems from work noise.",
+      "title": "UK HSE noise campaign: 95% of employers never checked staff could hear alarms",
+      "todo": "On your next loud show, check you can still hear comms and the venue alarm with your plugs in, and carry a flatter-response filter set for the crew.",
+      "url": "https://memuknews.com/health/health-safety/uvex-backs-hse-noise-campaign-to-prevent-hearing-loss"
+    },
+    {
+      "cat": "live",
+      "date": "2026-10-23",
+      "deep": "Being able to patch other makers' Milan endpoints from the system-design tool removes one more vendor app from the show laptop. The Milan-or-Dante switch at the processor also means a rig can join whichever network the console or house system already runs, without a separate converter.\n\nAs with any mid-season update, test on a spare system before touring with it.",
+      "signal": 2,
+      "source": "ISP Audio & Light",
+      "take": "ArrayIntelligence 1.4 adds VGx, VGd and XG amp support, new presets for VGx, VGt, MG and XG/IS, better mixed-array optimisation and Milan patching that now includes third-party devices. FletcherMachine 2.4 can switch between Milan and Dante, with MADI available in either mode, and adds Wake on LAN. USB-Milan Bridge 4.1 appears as a patchable Milan device and adds switchable 48/96 kHz.",
+      "title": "Adamson's fall update: third-party Milan patching and Milan-or-Dante FletcherMachine",
+      "url": "https://www.isp-audio.com/en/new-product/audio-new-product/13840-adamson-software-connectivity-enhancements"
+    },
+    {
+      "cat": "industry",
+      "date": "2026-10-23",
+      "deep": "The person who builds and maintains a studio's archive is also the person with the easiest access to it. This case shows the criminal, not just contractual, exposure when copies leave the building, and why clients increasingly ask for access logs, encrypted drives and offboarding checks.\n\nFor freelancers, the defence is boring hygiene: keep client material only as long as your contract says, on encrypted storage, and document when you hand back or wipe drives.",
+      "signal": 2,
+      "source": "CMU",
+      "take": "Joseph Strange, who worked for Eminem from 2007 to 2021 and helped run the system storing his music at a studio in Ferndale, Michigan, pleaded guilty to criminal copyright infringement. He claimed to hold over 300 tracks and sold 25 for about $50,000 starting in 2024; prosecutors say the leaked files were accessed more than 8 million times. He faces up to five years and is due to be sentenced in January.",
+      "title": "Former Eminem studio staffer pleads guilty to selling unreleased tracks",
+      "todo": "List which old client sessions you still hold, check what your contracts say about retention, and wipe or return what you no longer need, in writing.",
+      "url": "https://completemusicupdate.com/former-eminem-employee-faces-up-to-five-years-in-jail-after-pleading-guilty-to-stealing-and-selling-unreleased-music-files/"
+    },
+    {
+      "cat": "industry",
+      "date": "2026-10-23",
+      "deep": "A drop of around 40% suggests the autumn US broadcast show is struggling to justify travel, and pairing it with the standards body behind ST 2110 is an attempt to give engineers a reason to go. For European freelancers IBC remains the main broadcast event; the useful signal is that IP audio standards work is being pulled closer to the trade floor.",
+      "signal": 2,
+      "source": "TV Technology",
+      "take": "NAB Show New York 2026 drew about 6,700 initial attendees, down from about 11,500 in 2025. From 2027 SMPTE will hold its annual technology summit at the Javits Center alongside it, on 28–30 September (NAB NY runs 29–30 September), its first East Coast summit since 2005. This year's SMPTE Summit is 16–19 November in Pasadena.",
+      "title": "NAB New York attendance fell to about 6,700; SMPTE Summit joins it in 2027",
+      "url": "https://www.tvtechnology.com/events/smpte-to-hold-its-annual-tech-summit-in-conjunction-with-nab-show-new-york-starting-in-2027"
+    },
+    {
+      "cat": "industry",
+      "date": "2026-10-23",
+      "deep": "Two points are useful to working mixers. The spatial-streaming project named sync, bandwidth, latency and interoperability as the gaps that still break live immersive delivery. And a listening-effort metric is heading into mainstream metering, which could give dialogue intelligibility a measurable number alongside loudness in future delivery specs.",
+      "signal": 2,
+      "source": "audioXpress",
+      "take": "IBC is taking proposals for 2027 Accelerator projects until 11 December 2026, with a kick-off on 18 March 2027 and results shown at IBC2027 (10–13 September, Amsterdam). Past audio projects include a live spatial stream from Montreux Jazz Festival to groups in the UK and Australia, with a 6DoF test, and LEAP, an AI estimate of listening effort for speech that NUGEN, RTW, Steinberg, Telos and Fraunhofer IDMT are implementing.",
+      "title": "IBC opens its 2027 Accelerator call, citing live spatial audio and intelligibility work",
+      "url": "https://audioxpress.com/news/ibc-opens-call-for-accelerator-projects-building-on-ai-and-immersive-audio-research"
+    },
+    {
+      "cat": "software",
+      "date": "2026-10-24",
+      "deep": "A free Linux-capable DAW with a full routing matrix is rare. The reviewer, testing only on macOS, found several features rough (score view, loop editing, Note Chase) and hit login loops while downloading, so treat it as a curiosity or a teaching tool rather than a production DAW for now.",
+      "free": true,
+      "signal": 2,
+      "source": "Bedroom Producers Blog",
+      "take": "Morningdew Media's MorningDAW is free and hosts VST, AU and CLAP plugins. It has a linear timeline, clip launcher, piano roll, mixer, a 128-channel routing matrix, score view with export, full MPE and vocal pitch correction, plus two synths and a drum machine. It needs 8 GB RAM (16 GB suggested) and an account to download.",
+      "title": "MorningDAW: a new free DAW for macOS, Windows and Linux",
+      "url": "https://bedroomproducersblog.com/2026/10/24/morningdew-media-releases-morningdaw-a-free-daw-for-macos-windows-and-linux/"
+    },
+    {
+      "cat": "speakers",
+      "date": "2026-10-22",
+      "signal": 2,
+      "source": "ProSoundWeb",
+      "take": "EV's EVOLVE 30M G2, 50 G2 and 50M G2 columns reach 129 dB max SPL on the 50 models (125 dB on the 30M) with 120×40° coverage. The M versions include a mixer with switchable 48 V phantom; QuickSmart Link joins two units over Ethernet, and QuickSmart App 3.0 adds multi-speaker management, firmware updates over the air and control of older EVOLVE 70/90 models. Shipping now.",
+      "title": "Electro-Voice EVOLVE G2 column arrays add app control across mixed fleets",
+      "url": "https://www.prosoundweb.com/electro-voice-announces-new-column-array-series/"
+    },
+    {
+      "cat": "live",
+      "date": "2026-10-22",
+      "deep": "This is a clean example of making a fly-in mix portable: the console is whatever the supplier has, and the sound lives in the plugin server and the show file. The cost is a dependency on one box, so a fallback plan for a server failure matters as much as the mix itself.",
+      "signal": 2,
+      "source": "ISP Audio & Light",
+      "take": "FOH engineer Eds John moves between DiGiCo Quantum 338 and 852 depending on the local supplier and runs most of his processing on a Fourier transform.engine plugin server, with no other outboard. Monitors are on a Quantum 338; Ashcroft uses wedges and side fills rather than IEMs, while the drummer is on IEMs, with up to 12 RF channels and 21 mixes on larger shows.",
+      "title": "Richard Ashcroft tour: Fourier transform.engine as the only FOH outboard",
+      "url": "https://www.isp-audio.com/en/installation-case-studies/audio-event-stage/13783-quantum-consoles-fourier-processing-and-21-monitor-mixes-in-a-single-production"
+    },
+    {
+      "cat": "science",
+      "date": "2026-10-23",
+      "signal": 1,
+      "source": "Journal of the Acoustical Society of America",
+      "take": "BYU and CSU Bakersfield researchers analysed 548 recordings from 76 Falcon 9 launches at Vandenberg, measured from 230 m to 30 km. They model A- and C-weighted Lmax and SEL, find the spread grows with distance and that terrain shielding lowers levels, while season and time of day have small effects.",
+      "title": "JASA: statistical models of Falcon 9 launch noise from 548 measurements",
+      "url": "https://pubs.aip.org/asa/jasa/article/160/4/3415/3407226/Statistical-models-of-Falcon-9-launch-noise"
+    },
+    {
+      "cat": "instruments",
+      "date": "2026-10-24",
+      "signal": 1,
+      "source": "Synth Anatomy",
+      "take": "Announced at SynthFest UK, the Series 700 rebuilds Roland's System 700 from the original schematics at full size, sold only as complete systems or blocks, and adds a MIDI-to-CV interface. It costs £33,000 before delivery, crate and taxes, with a £7,000 deposit to join the build queue, and is due to ship in late 2026. A 701 keyboard replica exists only as a prototype.",
+      "title": "Analogue Solutions Series 700 recreates Roland's System 700 for £33,000",
+      "url": "https://synthanatomy.com/2026/10/analogue-solutions-series-700-the-roland-700-modular-synthesizer-reborn.html"
+    },
+    {
+      "cat": "plugins",
+      "date": "2026-10-23",
+      "signal": 1,
+      "source": "KVR Audio",
+      "take": "Blox Rack combines EQ, exciter, compressor, chorus, delay and reverb modules that can be reordered and duplicated; each also runs as its own plugin. It has 500 presets, macros, LFOs and an envelope follower, in AU, AAX and VST3 for macOS and Windows, at $49 intro until 14 December ($79 after).",
+      "title": "Pine DSP Blox Rack: six reorderable mix modules, with AAX",
+      "url": "https://www.kvraudio.com/news/pine-dsp-releases-blox-rack-vst3-au-aax-69220"
+    },
+    {
+      "cat": "plugins",
+      "date": "2026-10-24",
+      "signal": 1,
+      "source": "Sound On Sound",
+      "take": "Quadra places four chains, each with up to four of 22 effects, at the corners of an XY pad, with manual, automatic, drawn and 16-step motion modes, 630+ presets and 81 convolution IRs. It is $69 intro until 5 November ($99 after), in AU and VST3 on macOS and VST3 on Windows; there is no AAX version.",
+      "title": "Sample Logic Quadra morphs between four effect chains on an XY pad",
+      "url": "https://www.soundonsound.com/news/sample-logic-launch-quadra-plug"
+    },
+    {
+      "cat": "post",
+      "date": "2026-10-23",
+      "free": true,
+      "signal": 1,
+      "source": "Bedroom Producers Blog",
+      "take": "SoundMorph's free First Contact library has 100+ WAV files of impacts, whooshes, risers, servos, robotic footsteps and low-end layers, mixing new sounds with picks from its paid libraries. The royalty-free licence covers commercial film, game and music use with no credit required, but the sounds cannot be redistributed as a library. It needs an account and a $0 checkout.",
+      "title": "Free: SoundMorph First Contact, 1.16 GB of cinematic SFX",
+      "url": "https://bedroomproducersblog.com/2026/10/23/soundmorph-first-contact/"
+    },
+    {
+      "cat": "plugins",
+      "date": "2026-10-22",
+      "signal": 1,
+      "source": "KVR Audio",
+      "take": "The single-knob mixing range, including Clamp, De-Esser, De-Harsh, De-Mud, Glue, Tape and Width, now runs as native 64-bit VST3 on Linux (glibc 2.35+, X11 or XWayland), alongside AAX, VST3 and AU on Windows and macOS. Plugins are $7.95 each, the Essentials bundle is $79.95 until 4 December, and there is no iLok.",
+      "title": "Signal Tools Co brings its 15 Pro Knob plugins to Linux",
+      "url": "https://www.kvraudio.com/news/signal-tools-co-releases-pro-knob-plugins-for-linux-vst3-69301"
+    },
+    {
+      "cat": "instruments",
+      "date": "2026-10-23",
+      "signal": 1,
+      "source": "Synth Anatomy",
+      "take": "The Polyeight, based on Korg's Polysix, is an 8-voice analog poly with a 49-key keyboard, poly aftertouch, 256 programs and BBD effects. The 1601 is a Eurorack recreation of ARP's 16-step sequencer with three gate buses, a dual quantiser and USB and DIN MIDI. Prices and dates are not announced.",
+      "title": "Behringer lists its Polyeight and ARP-style 1601 sequencer as finished",
+      "url": "https://synthanatomy.com/2026/10/behringer-polyeight-korg-polysix-clone-with-two-more-voices-more.html"
+    },
+    {
+      "cat": "science",
+      "date": "2026-10-23",
+      "signal": 1,
+      "source": "Journal of the Acoustical Society of America",
+      "take": "Purdue's Herrick Labs show that when a tyre carries load, its air-cavity resonance near 200 Hz splits into two modes, and force at the wheel hub peaks where those meet nearby structural modes. An absorbing layer inside the tyre strongly reduced the peaks, relevant now that tyre and road noise dominate quiet electric-car cabins.",
+      "title": "JASA: a loaded tyre's 200 Hz cavity mode splits in two",
+      "url": "https://pubs.aip.org/asa/jasa/article/160/4/3374/3407187/The-investigation-of-the-relation-between-the"
+    },
+    {
+      "cat": "tech",
+      "date": "2026-10-23",
+      "signal": 1,
+      "source": "audioXpress",
+      "take": "The Aurawave framework and AW100 configuration tool for Auracast broadcast audio add 24 kHz presets for phones and hearing aids and make high-reliability mode the default at 48 kHz. It runs on Ezurio's BL5340PA module and supports USB Audio Class 2; a lower-latency AW100-PRO will be shown at AES Nashville. Auracast is the likely replacement for venue hearing loops.",
+      "title": "Cloud2GND Aurawave 1.3 adds hearing-aid presets for Auracast development",
+      "url": "https://audioxpress.com/news/cloud-gnd-releases-aurawave-audio-framework-v-and-aw-configuration-tool-for-auracast-development"
+    },
+    {
+      "cat": "hearing",
+      "date": "2026-10-23",
+      "signal": 1,
+      "source": "Hearing Health Matters",
+      "take": "A JAMA Otolaryngology study led by Michelle Arnold found the share of US children with state-mandated hearing-aid coverage rose from 34.1% to 52.5% between 2008 and 2023, and adults 18–64 from 10.2% to 19.2%, while adults 65 and over slipped from 18.5% to 16.9%. Prescription aids still cost about $2,000–7,000 out of pocket.",
+      "title": "US study: mandated hearing-aid coverage rose for children, fell for over-65s",
+      "url": "https://hearinghealthmatters.org/hearing-news-watch/2026/hearing-aid-coverage-insurance/"
+    },
+    {
+      "cat": "hearing",
+      "date": "2026-10-23",
+      "free": true,
+      "signal": 1,
+      "source": "The Hearing Review",
+      "take": "The International Misophonia Foundation has published a free database of peer-reviewed misophonia studies in 13 topic areas, including triggers and acoustics, downloadable without an account. Useful background for anyone designing sound for sensitive audiences or handling noise complaints.",
+      "title": "Free searchable database of misophonia research",
+      "url": "https://hearingreview.com/hearing-loss/hearing-disorders/international-misophonia-foundation-launches-free-searchable-research-database"
+    },
+    {
+      "cat": "ai",
+      "date": "2026-10-22",
+      "signal": 1,
+      "source": "TechCrunch",
+      "take": "Spotify, reporting 788 million monthly users for Q3, is the first music service integrated with Meta's Muse and already works with ChatGPT and Claude. It says the agent only sends a request and Spotify decides what plays, without sharing listener data. Discovery through chatbots raises the stakes on clean metadata and credits.",
+      "title": "Spotify bets on being the music service AI agents pick",
+      "url": "https://techcrunch.com/2026/10/22/spotifys-current-ai-bet-is-about-being-the-music-service-that-agents-choose/"
+    },
+    {
+      "cat": "gear",
+      "date": "2026-10-23",
+      "signal": 1,
+      "source": "MusicRadar",
+      "take": "The $349 EP-35 K.O. AMP is a battery-powered 35 W speaker with an XLR input with 48 V phantom, a Hi-Z jack, 3.5 mm line in and USB-C, all summed through a small mixer; it also works as a USB audio interface and pairs over Bluetooth, including Auracast. Quoted response is 50 Hz–20 kHz.",
+      "title": "Teenage Engineering EP-35: a battery amp with phantom power and a USB interface",
+      "url": "https://www.musicradar.com/music-tech/teenage-engineerings-ep-35-is-a-multi-input-amplifier-with-onboard-effects-a-stackable-bluetooth-speaker-an-audio-interface-a-karaoke-machine-and-an-fm-radio-all-for-usd349"
+    }
+  ],
+  "key": "2026-10-25",
+  "label": "Sun 25 Oct 2026",
+  "lead": "A quiet weekend, but three things matter. A free bridge app finally gives Avid surface users hands-on control of the Dolby Atmos Renderer's monitor section, and a Chinese team showed a 24 mm printed panel absorbing about 90% of sound in the hard 600–900 Hz zone. In Italy the AI decree took effect, with new rules on AI in hiring and staff decisions and a link to the 81/2008 safety assessment. Elsewhere: a UK noise crackdown that applies just as well on Italian sets, Adamson's Milan update, a studio-archive theft conviction, and a thin NAB New York.",
+  "period": "day",
+  "radar": [
+    {
+      "date": "2026-10-31",
+      "note": "31 Oct–1 Nov at Gaylord Opryland, including the live-in-Atmos delivery panel on 1 Nov.",
+      "title": "AES Show Nashville",
+      "url": "https://aes.org/news/aes-show-nashville-panel-to-explore-live-entertainment-delivery-in-dolby-atmos/"
+    },
+    {
+      "date": "2026-11-12",
+      "note": "Sparks Audio's Pro Tools session browser goes from $129/$259 to $149/$299.",
+      "title": "ClipMap intro pricing ends",
+      "url": "https://www.production-expert.com/production-expert-1/sparks-audio-releases-clipmap-should-you-pay-for-a-pro-tools-session-browser"
+    },
+    {
+      "date": "2026-11-16",
+      "note": "16–19 Nov; the last West Coast edition before it moves alongside NAB New York.",
+      "title": "SMPTE Media Technology Summit, Pasadena",
+      "url": "https://www.tvtechnology.com/events/smpte-to-hold-its-annual-tech-summit-in-conjunction-with-nab-show-new-york-starting-in-2027"
+    },
+    {
+      "date": "2026-12-11",
+      "note": "Last day to propose projects, including immersive and intelligibility work.",
+      "title": "IBC 2027 Accelerator deadline",
+      "url": "https://audioxpress.com/news/ibc-opens-call-for-accelerator-projects-building-on-ai-and-immersive-audio-research"
+    }
+  ],
+  "range": "23–25 Oct 2026"
+}
