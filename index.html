@@ -158,6 +158,7 @@ button { font: inherit; color: inherit; }
 .entry h3 { margin: 0; font-size: 19px; line-height: 1.3; font-weight: 700; text-wrap: balance; }
 .entry .take { margin: 0; color: var(--ink); max-width: 62ch; }
 .entry .take::before { content: "Engineer's take — "; font-family: var(--f-mono); font-size: 11px; letter-spacing: .06em; color: var(--muted); text-transform: uppercase; }
+.entry .take.auto::before { content: "From the source — "; }
 
 /* Top stories: a full channel strip */
 .entry.top { background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 16px 16px 14px; margin-top: 10px; box-shadow: var(--shadow); }
@@ -435,7 +436,7 @@ button { font: inherit; color: inherit; }
     meta.appendChild(sig);
     li.appendChild(meta);
     li.appendChild(el("h3", null, it.title));
-    if (it.take) li.appendChild(el("p", "take", it.take));
+    if (it.take) li.appendChild(el("p", "take" + (it.auto ? " auto" : ""), it.take));
 
     const hasMore = !!(it.deep || it.todo);
     if (hasMore) {
@@ -672,7 +673,7 @@ Date: ${it.date || ""}`;
       paras(brief.craft.body).forEach(p => c.appendChild(el("p", null, p)));
       main.appendChild(c);
     }
-    main.appendChild(el("p", "sources", "Each story links to its source. Briefs are researched and written with AI, then checked against the linked sources. Takes are editorial summaries for working engineers; check specs and prices at the source before buying."));
+    main.appendChild(el("p", "sources", brief.auto ? "This edition is assembled automatically from the sources' own news feeds. Titles and summaries are the outlets' own; each story links to the full article." : "Each story links to its source. Briefs are researched and written with AI, then checked against the linked sources. Takes are editorial summaries for working engineers; check specs and prices at the source before buying."));
   }
 
 
@@ -715,7 +716,7 @@ Date: ${it.date || ""}`;
     if (!learn.loaded) { const e = el("div", "empty"); e.append(el("b", null, "Patching in…"), document.createTextNode("Loading today's lesson.")); main.appendChild(e); return; }
     const doc = currentLearn();
     if (!doc) {
-      const e = el("div", "empty"); e.append(el("b", null, "No lesson yet"), document.createTextNode("The morning run writes a new lesson and a 9-question quiz every day at 07:00 (Rome)."));
+      const e = el("div", "empty"); e.append(el("b", null, "No lesson yet"), document.createTextNode("A new lesson and a 9-question quiz arrive every morning (Rome time)."));
       main.appendChild(e); renderStats(main); return;
     }
     const L = doc.lesson || {};

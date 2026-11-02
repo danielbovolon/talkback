@@ -1,0 +1,1364 @@
+[
+ {
+  "body": "Resistance turns energy into heat and is the same at every frequency. Reactance stores and releases energy instead. A capacitor's reactance falls as frequency rises (Xc = 1/2πfC), and an inductor's rises (XL = 2πfL). Impedance (Z) is the combination of the two. That is why a single number on a spec sheet is only a 'nominal' value: an 8 Ω loudspeaker can dip close to 3 Ω in one band and rise well above 30 Ω at its bass resonance.\n\nModern audio connects equipment by voltage bridging, not impedance matching. A low source impedance drives an input with a much higher impedance, roughly ten times or more, so nearly all the signal voltage arrives. A dynamic mic of about 150–300 Ω feeds a preamp input of about 1.5–3 kΩ. A line output of around 100 Ω feeds an input of 10 kΩ or more. A power amp's output impedance is a small fraction of an ohm against a 4–8 Ω speaker. Matching 600 Ω to 600 Ω comes from telephone lines and old broadcast practice, where very long lines and power transfer mattered. It is rarely what you want today.\n\nImpedance becomes audible when that rule is broken. A guitar pickup has a high, inductive source impedance, so plugged into a 10 kΩ line input it loses level and top end. That is why it needs a Hi-Z input of about 1 MΩ or a DI. A high source impedance driving a long cable forms a low-pass filter with the cable's capacitance. Ribbon and some dynamic mics change tone with preamp input impedance, which is why some preamps let you switch it. A headphone amp with high output impedance changes the frequency response of headphones whose impedance varies with frequency.",
+  "inPractice": "On your next session with a dynamic or ribbon mic, switch the preamp's input impedance (if it has the option) and listen to the low end and presence change. When a bass or keyboard sounds dull through a line input, put it through a DI before you reach for EQ.",
+  "keyPoints": [
+   "Impedance = resistance + reactance; it varies with frequency, measured in ohms.",
+   "Bridging: low-impedance outputs into inputs about 10× higher or more. Don't 'match' unless a spec says so.",
+   "Nominal speaker and headphone impedances are averages; the real curve swings widely.",
+   "High-Z sources (guitar pickups, piezos) need about 1 MΩ inputs or a DI box.",
+   "Keep source impedance low when driving long cables, or the cable capacitance rolls off the highs."
+  ],
+  "level": "core",
+  "mistake": "Thinking impedances must be 'matched'. Into a 600 Ω load, a modern line output loses level and may distort. What matters is that the input impedance is well above the output impedance.",
+  "sayIt": "Impedance is how hard a circuit pushes back against an audio signal; we keep outputs low and inputs high so the signal arrives without losing level or tone.",
+  "summary": "Impedance is the total opposition a circuit offers to an alternating signal, measured in ohms (Ω). It combines plain resistance with reactance from capacitance and inductance, so unlike resistance it changes with frequency.",
+  "terms": [
+   {
+    "def": "Frequency-dependent opposition from capacitance or inductance, in ohms.",
+    "term": "Reactance (X)"
+   },
+   {
+    "def": "Connecting a low-impedance output to a much higher-impedance input so voltage transfers almost fully.",
+    "term": "Bridging"
+   },
+   {
+    "def": "High-impedance input (about 1 MΩ) for instruments with passive pickups.",
+    "term": "Hi-Z"
+   },
+   {
+    "def": "Load impedance divided by the amplifier's output impedance (plus cable); how well the amp controls the driver.",
+    "term": "Damping factor"
+   },
+   {
+    "def": "A single representative figure for a component whose real impedance varies with frequency.",
+    "term": "Nominal impedance"
+   }
+  ],
+  "title": "Impedance, explained properly",
+  "topic": "Electronics & signal flow",
+  "id": "L001"
+ },
+ {
+  "body": "Sampling takes a snapshot of the voltage fs times a second. At 48 kHz that is every 20.8 microseconds. The sampling theorem (Nyquist–Shannon) says that if the input is band-limited below fs/2, those snapshots hold all the information, and an ideal reconstruction filter rebuilds the original waveform exactly, not an approximation. So 44.1 kHz covers content up to 22.05 kHz and 48 kHz up to 24 kHz, both above the roughly 20 kHz limit of young human hearing.\n\nThe condition matters. A component above Nyquist produces exactly the same samples as one below it, so the converter cannot tell them apart. It appears at |f − n·fs|, the distance to the nearest multiple of the sample rate. A 30 kHz tone sampled at 48 kHz lands at 18 kHz, and a 40 kHz tone lands at 8 kHz. Aliases are not harmonically related to the source, so they sound like dirty, inharmonic tones that move the wrong way when the pitch moves. That is why every ADC has an anti-aliasing low-pass filter before the sampling stage, and every DAC has a reconstruction filter after it. Modern delta-sigma converters sample at a very high internal rate and use steep digital filters to bring the rate down, which is how they get flat response close to 20 kHz.\n\nThe problem returns inside the computer. Anything nonlinear, such as saturation, clipping, fast limiting or FM synthesis, creates new harmonics, and some of them land above Nyquist and fold back. Oversampling runs the process at two to sixteen times the rate, filters off the excess and comes back down. The cost is CPU and a little latency, like the 16 samples Apogee's Soft Limit adds at any oversampling setting. Linear processes such as gain, EQ and most reverbs create no new frequencies, so they have no aliasing to remove, although some EQs oversample to keep their curves accurate near Nyquist.\n\nHigher session rates have practical uses. At 96 kHz, recordings keep content up to 48 kHz, so sound designers can pitch them down an octave and still fill the audible band. Film and TV work at 48 kHz because that is the video standard. Whatever the rate, check that content above about 20 kHz is not hitting IEMs, tweeters or a later process that will fold it back.",
+  "inPractice": "Put a sine sweep from 1 kHz to 20 kHz through your favourite saturation plugin at 48 kHz with oversampling off, and watch a spectrum analyser: aliases show up as tones that fall while the sweep rises. Turn oversampling on and compare, then decide where it is worth the CPU in your template.",
+  "keyPoints": [
+   "Nyquist frequency = fs / 2: 22.05 kHz at 44.1 kHz, 24 kHz at 48 kHz.",
+   "Content above Nyquist folds back to |f − n·fs|: 30 kHz at 48 kHz becomes 18 kHz.",
+   "Anti-aliasing filters before the ADC and reconstruction filters after the DAC are part of every converter.",
+   "Nonlinear plugins create harmonics that can alias; oversampling reduces this at a CPU and latency cost.",
+   "Properly reconstructed digital audio is a smooth waveform, not a staircase."
+  ],
+  "level": "core",
+  "mistake": "Many people think samples make a stepped 'staircase' that higher rates smooth out. The reconstruction filter rebuilds a smooth waveform, and a higher rate only extends the bandwidth; it does not make audible content more accurate.",
+  "sayIt": "Digital audio captures everything below half the sample rate perfectly, and anything above that has to be filtered out first or it comes back as false tones lower down.",
+  "summary": "A digital system measures the signal at a fixed rate, the sample rate fs. The sampling theorem says a signal can be rebuilt exactly if it contains nothing at or above half that rate, the Nyquist frequency fs/2. Anything above Nyquist does not disappear: it folds back into the audio band as aliasing.",
+  "terms": [
+   {
+    "def": "How many times per second the signal is measured, e.g. 48,000 Hz.",
+    "term": "Sample rate (fs)"
+   },
+   {
+    "def": "Half the sample rate; the highest frequency a system can represent.",
+    "term": "Nyquist frequency"
+   },
+   {
+    "def": "Content above Nyquist that folds back into the audio band as a false frequency.",
+    "term": "Aliasing"
+   },
+   {
+    "def": "A low-pass filter that removes content above Nyquist before sampling.",
+    "term": "Anti-aliasing filter"
+   },
+   {
+    "def": "Running a process at a multiple of the sample rate so new harmonics stay below the raised Nyquist, then filtering and converting back.",
+    "term": "Oversampling"
+   }
+  ],
+  "title": "Sampling, Nyquist and aliasing",
+  "topic": "Digital audio",
+  "id": "L002"
+ },
+ {
+  "body": "The EU and NIOSH treat damage as proportional to sound energy. A 3 dB rise doubles the energy, so it halves the safe time. This is the 3 dB exchange rate, or equal-energy rule. NIOSH recommends 85 dB(A) for 8 hours, which gives 88 dB(A) for 4 hours, 91 for 2 hours, 94 for 1 hour, 97 for 30 minutes and 100 for 15 minutes. The US OSHA legal limit uses 90 dB(A) for 8 hours with a 5 dB exchange rate. That is far more lenient at high levels: OSHA allows 100 dB(A) for 2 hours, while NIOSH allows only 15 minutes.\n\nTo get LEX,8h from a measured level, use LEX,8h = LAeq,T + 10·log10(T / 8 h). Two hours at 94 dB(A) gives 94 + 10·log10(0.25) = 94 − 6 = 88 dB(A). Noise dose is the same idea expressed as a percentage: dose = (actual time / allowed time) × 100. Four hours at 91 dB(A) under NIOSH is 4 / 2 = 200%. Doses from different parts of the day add up: half your allowance at FOH plus half on a loud stage makes 100%.\n\nIn the EU, Directive 2003/10/EC sets three thresholds (Italy uses the same values in D.Lgs. 81/2008). At the lower action value of 80 dB(A) LEX,8h or 135 dB(C) peak, the employer must provide information and make hearing protection available. At the upper action value of 85 dB(A) or 137 dB(C) peak, protection must be worn and a noise-reduction programme is required. The exposure limit value of 87 dB(A) or 140 dB(C) peak must never be exceeded at the ear, and this is the one value that takes the protector's attenuation into account. For audiences, the WHO Global Standard for Safe Listening Venues and Events (2022) sets 100 dB LAeq over any 15 minutes.\n\nIn practice, a mixer standing at 98 dB(A) at FOH reaches 85 dB(A) LEX,8h in about 25 minutes. Earplugs only help if they fit. The SNR or NRR printed on the box is measured in a lab with an ideal fit, and real-world attenuation is often much lower. Flat-response musicians' plugs with custom moulds, IEMs at controlled levels, and taking breaks during soundcheck are what keep your dose down. Damage can also happen without a lasting change in the audiogram: animal studies show noise can destroy the synapses between hair cells and nerve fibres even after the threshold recovers.",
+  "inPractice": "At your next show, run a free SPL app or a meter with LAeq at your mix position for the full set. Compute your LEX,8h with the formula above, then add the soundcheck time and see how much of your daily allowance you used.",
+  "keyPoints": [
+   "3 dB exchange rate: every +3 dB halves the allowed time",
+   "LEX,8h = LAeq,T + 10·log10(T / 8 h)",
+   "EU and Italy: 80 dB(A) lower action, 85 upper action, 87 limit (at the ear, with protection)",
+   "Peak thresholds: 135, 137 and 140 dB(C)",
+   "Dose % = actual time / allowed time × 100, and doses across the day add up",
+   "Labelled SNR/NRR is a lab figure; real-world fit usually gives less"
+  ],
+  "level": "core",
+  "mistake": "Many people think 85 dB(A) is a hard line that is safe below and dangerous above. It is an 8-hour average. Ninety minutes at 92 dB(A) is already well over, and short periods below 85 don't cancel out loud ones.",
+  "sayIt": "Hearing damage depends on how loud it is and for how long. Every 3 dB louder halves the time you can safely spend there.",
+  "summary": "Noise damage depends on the total sound energy reaching the ear over time, not on level alone. Exposure rules convert a working day's noise into one number, the daily noise exposure level LEX,8h: the steady A-weighted level that would deliver the same energy over 8 hours. Each regulation sets action values and limits against that number.",
+  "terms": [
+   {
+    "def": "Daily noise exposure level: the steady A-weighted level that would give the same sound energy over an 8-hour working day.",
+    "term": "LEX,8h"
+   },
+   {
+    "def": "Equivalent continuous A-weighted sound level over a period T, an energy average.",
+    "term": "LAeq,T"
+   },
+   {
+    "def": "How many dB increase halves the allowed exposure time: 3 dB under the EU and NIOSH, 5 dB under OSHA.",
+    "term": "Exchange rate"
+   },
+   {
+    "def": "Highest instantaneous C-weighted sound pressure level, used for impulse limits such as 135, 137 and 140 dB(C).",
+    "term": "LCpeak"
+   },
+   {
+    "def": "Single-number attenuation ratings for hearing protectors, measured in the lab (SNR in the EU, NRR in the US).",
+    "term": "SNR / NRR"
+   },
+   {
+    "def": "Loss of synapses between inner hair cells and auditory nerve fibres after noise, which can occur without a lasting threshold shift.",
+    "term": "Cochlear synaptopathy"
+   }
+  ],
+  "title": "Noise dose: exchange rates, LEX,8h and exposure limits",
+  "topic": "Hearing and psychoacoustics",
+  "id": "L003"
+ },
+ {
+  "body": "At low frequencies most monitors radiate almost equally in all directions, so energy goes backwards as well as forwards. That energy hits the front wall behind the speaker and comes back towards you. For a listener on axis, the reflected path is about twice the distance d from the speaker's acoustic centre to the wall, so the reflection arrives with a delay of 2d/c. Where that extra path equals half a wavelength, the two waves are out of phase and cancel. The first and deepest cancellation is at f = c / (4d). With c = 343 m/s, a speaker 1 m from the wall has its first null near 86 Hz; at 0.5 m it moves to about 172 Hz; at 2 m it falls to about 43 Hz. Further nulls follow at 3, 5, 7… times that frequency, getting shallower because the reflection is weaker at higher frequencies.\n\nThe same thing happens with every nearby boundary: side walls, the floor and the desk. Each distance gives its own null, and when two distances are similar, the dips pile up in one region. At very low frequencies, where the wall is much less than a quarter wavelength away, the reflection adds in phase instead, giving boundary gain of up to about +6 dB per boundary in theory. This is why monitors have 'half space', 'quarter space' or bass-tilt switches.\n\nYou cannot fix an SBIR null with EQ. Boosting the frequency raises the direct and reflected sound equally, so they still cancel, and you only spend amplifier and driver headroom. The fixes are geometric. Move the speaker very close to the wall, so the first null moves above the woofer's working range, or flush-mount it so there is no gap at all. Alternatively, move it far enough away that the null falls below the range the speaker reproduces strongly, or use a subwoofer placed near the wall with a crossover chosen to avoid the null. Thick porous absorption behind the speaker helps only if it is deep enough; a panel needs to approach a quarter wavelength in depth to be effective, which at 86 Hz is about 1 m.\n\nSBIR is easy to measure. Put a measurement mic at the listening position, sweep one speaker at a time, and look for a dip whose frequency moves when you move the speaker. In post rooms, height and surround speakers close to walls and ceilings show the same effect, and so do PA subs placed near a stage wall.",
+  "inPractice": "Measure one monitor at your mix position with REW or similar, then move it 20 cm closer to the wall and measure again. Note how the low-frequency dip moves, and pick the position where it does the least damage before you touch any EQ.",
+  "keyPoints": [
+   "First SBIR null: f = c / (4d), with d from the acoustic centre to the boundary.",
+   "1 m from the wall gives about 86 Hz; 0.5 m gives about 172 Hz.",
+   "Further nulls fall at 3, 5, 7 × that frequency and get shallower.",
+   "EQ cannot fill an SBIR null; it only wastes headroom.",
+   "Fix it with placement: very close, flush-mounted or far from the boundary.",
+   "SBIR dips move when the speaker moves; room modes do not."
+  ],
+  "level": "deeper",
+  "mistake": "Many people boost the missing bass with room-correction EQ. A cancellation is a timing problem, not a level problem, so the boost does not help and can push the woofer into distortion.",
+  "sayIt": "The wall behind your speakers sends some of the bass back late enough to cancel itself out, so a certain band disappears at your chair, and moving the speakers is the only real cure.",
+  "summary": "Speaker-boundary interference is the comb-filter pattern created when sound from a loudspeaker reflects off a nearby wall, floor or desk and combines with the direct sound at the listening position. The delayed reflection cancels the direct sound at frequencies where it arrives half a wavelength late, producing a deep dip in the low-frequency response that depends on the distance to the boundary.",
+  "terms": [
+   {
+    "def": "Speaker-boundary interference response: the comb filtering caused by reflections from boundaries close to a loudspeaker.",
+    "term": "SBIR"
+   },
+   {
+    "def": "The point from which a loudspeaker's sound appears to radiate at a given frequency; used to measure distances for SBIR and alignment.",
+    "term": "Acoustic centre"
+   },
+   {
+    "def": "The low-frequency level increase when a source is close to a boundary and its reflection adds in phase, up to about +6 dB per boundary in theory.",
+    "term": "Boundary gain"
+   },
+   {
+    "def": "Building the speaker into the wall so its front baffle is level with the wall surface, removing the rear-wall reflection gap.",
+    "term": "Flush mounting"
+   },
+   {
+    "def": "A frequency response with regularly spaced peaks and dips, caused by adding a signal to a delayed copy of itself.",
+    "term": "Comb filter"
+   }
+  ],
+  "title": "Speaker-boundary interference (SBIR)",
+  "topic": "Studio acoustics and monitoring",
+  "id": "L004"
+ },
+ {
+  "body": "A compressor has two parts: a detector that measures level and a gain computer that decides how much to turn down. Above the threshold, a hard-knee compressor's output rises by 1 dB for every R dB of input, where R is the ratio. Gain reduction is therefore (input − threshold) × (1 − 1/R). A peak 12 dB over the threshold at 4:1 comes out 3 dB over, so it is reduced by 9 dB.\n\nAttack and release are time constants, not fixed delays. In most designs, gain reduction moves exponentially towards its target, and the quoted time is how long it takes to get most of the way there; manufacturers define this differently, so the same '10 ms' does not sound identical on two units. Typical ranges show the spread: a classic FET design such as the 1176 attacks in 20–800 microseconds, while the SSL-style bus compressor offers 0.1 to 30 ms attack and 0.1 to 1.2 s release plus Auto. Program-dependent or auto release recovers quickly after short peaks and more slowly after sustained ones.\n\nTime constants interact with frequency. A 50 Hz waveform has a 20 ms period. If attack and release are only a few milliseconds, the gain changes within each cycle and reshapes the waveform itself, which adds harmonic distortion. That can be useful as an effect, but on bass, kick or a full mix it usually sounds grainy. Slower attack lets the transient through before the gain comes down, which is why a 10–30 ms attack on a drum bus makes the hits punchier.\n\nDetection matters as much. A peak detector reacts to the highest instantaneous values and is good for catching transients. An RMS detector averages the signal's power over a window, so it reacts more like the ear does to loudness and gives smoother control on vocals and mixes. Many units also put a high-pass filter in the side-chain so low frequencies don't drive the gain reduction, which stops a mix bus pumping with the kick.",
+  "inPractice": "On a drum bus, set 4:1 and about 6 dB of gain reduction, then sweep attack from fastest to 30 ms while watching the meter and listening to the snare crack. Set release so the gain-reduction meter returns close to zero just before the next beat.",
+  "keyPoints": [
+   "Gain reduction = (input − threshold) × (1 − 1/ratio) for a hard knee.",
+   "Attack and release are time constants; definitions differ between manufacturers.",
+   "Time constants shorter than a waveform's period distort low frequencies.",
+   "Slower attack lets transients through and adds punch.",
+   "RMS detection follows loudness; peak detection catches transients.",
+   "A side-chain HPF stops bass from driving the compressor."
+  ],
+  "level": "core",
+  "mistake": "Many people think a faster attack is always more controlled and therefore better. It also removes the transient that gives a sound its definition, and on bass it adds distortion; choose attack to keep or remove the transient on purpose.",
+  "sayIt": "Attack and release decide how fast the compressor reacts and lets go, and that timing is what makes it sound punchy, smooth or squashed.",
+  "summary": "Attack and release set how quickly a compressor's gain reduction responds when the signal rises above and falls back below the threshold. The detector decides what level the compressor reacts to, from instantaneous peaks to an average over a time window, and together these settings shape the sound far more than the ratio does.",
+  "terms": [
+   {
+    "def": "The level above which the compressor starts reducing gain.",
+    "term": "Threshold"
+   },
+   {
+    "def": "How gradually the ratio changes around the threshold; a soft knee blends compression in over a range of levels.",
+    "term": "Knee"
+   },
+   {
+    "def": "Measuring level as an average of signal power over a short window, closer to perceived loudness.",
+    "term": "RMS detection"
+   },
+   {
+    "def": "A release time that changes with the material, faster after brief peaks and slower after sustained loud passages.",
+    "term": "Program-dependent release"
+   },
+   {
+    "def": "The signal path that feeds the detector, which can be filtered or taken from another source.",
+    "term": "Side-chain"
+   }
+  ],
+  "title": "Compressor attack, release and detection",
+  "topic": "Processing",
+  "id": "L005"
+ },
+ {
+  "body": "K-weighting is two filters in series: a high shelf of about +4 dB in the upper frequencies, which models the acoustic effect of the head, and a high-pass (the RLB curve) that rolls off the low bass. The filtered signal of each channel is squared and averaged. Left, right and centre have a weight of 1.0, the surrounds 1.41 (about +1.5 dB), and the LFE channel is not counted. The weighted powers are added and converted to a logarithmic value. As a reference point, a 0 dBFS 1 kHz sine in one front channel reads −3.01 LUFS.\n\nThe same calculation runs over different time windows. Momentary loudness uses a 400 ms window, short-term uses 3 s. Integrated loudness covers the whole programme but is gated: it uses 400 ms blocks overlapping by 75%, discards blocks below −70 LUFS (the absolute gate), measures the rest, then discards blocks more than 10 LU below that result (the relative gate) and measures again. Gating stops silence and quiet passages from dragging the number down.\n\nLoudness Range (EBU Tech 3342) describes how much the loudness varies. It takes the short-term values, applies an absolute gate at −70 LUFS and a relative gate 20 LU below, and reports the difference between the 10th and 95th percentiles of what remains. Ignoring the quietest 10% and the loudest 5% keeps a single fade-out or explosion from dominating. True peak is a separate measurement: the signal is oversampled (four times at 48 kHz) so that peaks between samples, which can appear after conversion or lossy encoding, are caught.\n\nTargets: EBU R128 asks for −23 LUFS integrated (±0.5 LU, ±1 LU for live) and a maximum of −1 dBTP. ATSC A/85 in the US uses −24 LKFS with −2 dBTP. Netflix measures dialogue-gated loudness at −27 LKFS. In film and TV post the integrated number is the pass or fail figure, LRA tells you whether the mix will sit well on a television, and true peak protects the encoder.",
+  "inPractice": "Bounce a finished mix, measure it in two different meters, and write down integrated loudness, LRA and true peak from each. Then remove the LFE channel from a 5.1 mix and check that the integrated figure does not change.",
+  "keyPoints": [
+   "LUFS and LKFS are the same unit; 1 LU = 1 dB.",
+   "K-weighting: +4 dB high shelf plus a low-bass high-pass; LFE is not measured.",
+   "Momentary 400 ms, short-term 3 s, integrated is gated (−70 LUFS, then −10 LU).",
+   "LRA = 95th minus 10th percentile of gated short-term loudness.",
+   "R128: −23 LUFS, −1 dBTP. A/85: −24 LKFS, −2 dBTP.",
+   "Measure the bounced file, and use true peak, not sample peak."
+  ],
+  "level": "core",
+  "mistake": "Many people think a quiet intro or a long silence lowers the integrated reading enough to let the rest run hot. Gating discards silence and very quiet blocks, so the loud sections largely set the number.",
+  "sayIt": "A loudness meter measures how loud the whole programme feels on average, weighted the way our ears hear, so every broadcast sits at the same level and nobody reaches for the remote.",
+  "summary": "Loudness meters following ITU-R BS.1770 filter the signal with K-weighting, take the mean-square power of each channel, apply channel weights, sum, and express the result in LUFS (LKFS), where 1 LU equals 1 dB. EBU R128 and ATSC A/85 build delivery targets on that measurement, using gating for integrated loudness and a statistical measure (LRA) for loudness range.",
+  "terms": [
+   {
+    "def": "Loudness Units relative to Full Scale; the absolute loudness unit of BS.1770. The two names mean the same thing.",
+    "term": "LUFS / LKFS"
+   },
+   {
+    "def": "The frequency weighting used by BS.1770: a high shelf plus a low-frequency high-pass.",
+    "term": "K-weighting"
+   },
+   {
+    "def": "Leaving out measurement blocks below a threshold so that silence and quiet passages do not lower the integrated value.",
+    "term": "Gating"
+   },
+   {
+    "def": "Loudness Range, defined in EBU Tech 3342: the spread between the 10th and 95th percentiles of gated short-term loudness, in LU.",
+    "term": "LRA"
+   },
+   {
+    "def": "Decibels true peak: the peak level measured after oversampling, catching inter-sample peaks.",
+    "term": "dBTP"
+   }
+  ],
+  "title": "How a loudness meter actually measures",
+  "topic": "Mixing and mastering",
+  "id": "L006"
+ },
+ {
+  "body": "Take a delay of t seconds between two copies of the same signal. A frequency cancels when the delay equals half its period, or any odd number of half periods. So the notches fall at f = (2n − 1) / (2t): the first at 1/(2t), then every 1/t above that. With 1 ms of delay, the notches sit at 500 Hz, 1.5 kHz, 2.5 kHz and so on, 1 kHz apart. Sound travels about 343 m/s at 20 °C, so 1 ms is about 34 cm of path difference. Two mics on one source with a 34 cm difference in distance give you exactly that comb.\n\nHow deep the notches go depends on the level difference between the two copies. At equal level, the peaks reach +6 dB and the notches cancel completely. If the second copy is 6 dB down (half the amplitude), the peaks are 20·log(1.5) ≈ +3.5 dB and the notches 20·log(0.5) = −6 dB. At about 10 dB down, the ripple shrinks to roughly +2.5 dB and −3.5 dB. This is why the 3:1 rule works: keep the second mic at least three times farther from a source than that source's own mic, and the inverse square law drops the spill by about 9.5 dB.\n\nFlipping polarity does not remove comb filtering. It multiplies every frequency by −1, so the peaks and notches swap places. With 1 ms of delay and one copy inverted, the notches move to 0 Hz, 1 kHz, 2 kHz and so on, which means the low end cancels. The polarity switch helps when the offset is small compared with the wavelengths you care about, such as kick in and kick out, or snare top and bottom. Only delay can actually line up two arrivals in time.\n\nYou will hear this everywhere. You get it with overheads against close drum mics, a DI against a miked bass cab, a boom against a lav on the same actor, a desk reflection into a talk mic, and a delay speaker that is out of time with the main PA. In post, a lav sitting about 30 cm closer than the boom gives roughly 0.9 ms of offset. Sliding one track by that amount, or with a time-alignment plugin, often helps more than any EQ.",
+  "inPractice": "On the next drum or dialogue session, zoom in on a transient in the close mic and the distant mic, measure the offset in samples, and slide the distant mic to match. Solo both, compare aligned and unaligned, and listen for the low mids coming back.",
+  "keyPoints": [
+   "First notch at 1/(2t); notches repeat every 1/t.",
+   "1 ms ≈ 34 cm of path at 343 m/s.",
+   "Equal levels: +6 dB peaks, full cancellation at the notches.",
+   "A 10 dB level difference cuts the ripple to a few dB, which is why the 3:1 rule works.",
+   "Polarity swaps peaks and notches; only delay aligns arrivals.",
+   "Measure the offset on the waveform, then nudge by samples."
+  ],
+  "level": "core",
+  "mistake": "People often assume the polarity button fixes 'phase problems' between any two mics. It only inverts the signal. For mics at different distances it moves the comb to different frequencies, and a time shift is the real fix.",
+  "sayIt": "When two mics hear the same sound at slightly different times, some frequencies cancel, so we line them up in time before we touch the EQ.",
+  "summary": "Comb filtering happens when a signal is added to a delayed copy of itself. Frequencies whose delayed copy arrives in phase are reinforced, and those that arrive half a cycle late cancel. The result is a run of evenly spaced peaks and notches whose positions depend only on the delay time.",
+  "terms": [
+   {
+    "def": "A frequency response with evenly spaced peaks and notches, caused by adding a signal to a delayed copy of itself.",
+    "term": "Comb filter"
+   },
+   {
+    "def": "The sign of the signal. Inverting it multiplies the waveform by −1 at every frequency, with no time shift.",
+    "term": "Polarity"
+   },
+   {
+    "def": "The position within a cycle at a given frequency. A time delay produces a phase shift that grows with frequency.",
+    "term": "Phase"
+   },
+   {
+    "def": "Keep the distance between mics at least three times each mic's distance to its own source, so spill is about 9.5 dB down.",
+    "term": "3:1 rule"
+   },
+   {
+    "def": "Delaying the earlier signal so that both arrivals line up, removing the comb caused by the offset.",
+    "term": "Time alignment"
+   }
+  ],
+  "title": "Comb filtering and mic time alignment",
+  "topic": "Phase, polarity and time",
+  "id": "L007"
+ },
+ {
+  "body": "Timecode comes in standard frame rates: 24, 25 (the European broadcast rate), 30, and the NTSC-derived 23.976 and 29.97, which run 1000/1001 slower than 24 and 30. Longitudinal timecode (LTC) carries the address as an audio-band signal: an 80-bit word per frame, biphase-mark encoded so polarity doesn't matter. At 25 fps that is 80 × 25 = 2,000 bits per second. In a Broadcast WAV file, the start time is stored in the bext chunk's TimeReference field as a count of samples since midnight. iXML metadata usually carries the frame rate and other details alongside it.\n\nAt 29.97 fps, a frame counter that counts a full 30 frames per second falls behind the wall clock by about 3.6 seconds per hour. Drop-frame timecode fixes this by skipping frame numbers 00 and 01 at the start of every minute, except every tenth minute. That is 2 × 54 = 108 numbers per hour, matching the 108 frames of drift. No frames of picture are dropped, only labels. Drop-frame is written with a semicolon before the frames (01:00:00;00). Mixing DF and NDF on one job shifts sync further and further as time goes on.\n\nBecause timecode is only an address, two devices jammed to the same time will still drift apart if their clocks run at slightly different rates. A clock error of 1 ppm is 3.6 ms per hour. Over a 12-hour day that is about 43 ms, slightly more than one frame at 25 fps (40 ms). This is why sync boxes quote accuracy in ppm, why you re-jam at lunch on long days with older gear, and why a camera that only reads timecode at the start of a take can slip over a long interview. Locking the recorder's sample clock to a common reference (genlock, word clock, or a sync box that disciplines the sample rate) stops the drift itself, rather than just relabelling it.\n\nOn set, agree the project frame rate and DF/NDF with post before day one. Use time-of-day timecode as free run so every device shares a reference, and log what each camera actually receives. Small cameras often share one input between timecode and a mic. In post, conform from the BWF TimeReference, not from file creation times, and check sync at the end of long takes as well as the start.",
+  "inPractice": "Jam a recorder and a camera from the same sync box, roll both for an hour on a clap at the start and the end, then line up the start clap in your DAW and measure the offset at the end clap. That tells you how much the pair actually drifts and how often you need to re-jam.",
+  "keyPoints": [
+   "Timecode is a frame address (HH:MM:SS:FF), not a speed reference.",
+   "LTC uses 80 bits per frame: 2,000 bit/s at 25 fps.",
+   "29.97 DF skips frame numbers 00 and 01 every minute except each tenth minute: 108 per hour.",
+   "1 ppm clock error = 3.6 ms per hour of drift.",
+   "BWF stores start time as samples since midnight in bext TimeReference.",
+   "Genlock or word clock stops drift; jamming only resets the address."
+  ],
+  "level": "core",
+  "mistake": "Many people think 'drop frame' means frames of picture or audio are thrown away. Only the frame numbers are skipped, to keep the displayed time in step with the clock. The media itself stays continuous.",
+  "sayIt": "Timecode is like a street address stamped on every frame, so we can line things up later. It doesn't make the camera and recorder run at exactly the same speed, so on long days they can creep apart unless we re-jam or lock them to a common clock.",
+  "summary": "SMPTE timecode (SMPTE ST 12) labels each video frame with an address in hours, minutes, seconds and frames (HH:MM:SS:FF). It tells devices where they are, so separately recorded picture and sound can be lined up later. It does not set how fast each device runs. That is the job of each device's internal crystal, or of an external reference such as genlock or word clock.",
+  "terms": [
+   {
+    "def": "Longitudinal timecode: timecode carried as a biphase-mark audio-band signal on a cable or audio track, 80 bits per frame.",
+    "term": "LTC"
+   },
+   {
+    "def": "A 29.97 fps counting scheme that skips frame numbers 00 and 01 each minute except every tenth, so displayed time matches real time.",
+    "term": "Drop-frame (DF)"
+   },
+   {
+    "def": "Setting a device's timecode generator to match a master, after which it free-runs on its own clock.",
+    "term": "Jam sync"
+   },
+   {
+    "def": "Locking a device's frame or sample clock to an external reference so its running speed matches the master.",
+    "term": "Genlock"
+   },
+   {
+    "def": "The Broadcast WAV field holding the file's start time as a sample count since midnight.",
+    "term": "bext TimeReference"
+   }
+  ],
+  "title": "Timecode is an address, not a clock",
+  "topic": "Film and post",
+  "id": "L008"
+ },
+ {
+  "body": "A pressure capsule is sealed at the back, so it responds to sound pressure from every direction equally: an omni, A = 1, B = 0. A pressure-gradient capsule is open on both sides and responds to the difference in pressure between front and back. That difference is largest for sound arriving on axis, zero for sound from the side and inverted in polarity from the rear, which gives the figure-8: A = 0, B = 1, r(θ) = cos θ, with nulls at 90° and 270°.\n\nMix the two and you get the cardioid family. A cardioid is 0.5 + 0.5·cos θ: full level at 0°, 0.5 (−6 dB) at 90° and a null at 180°. A supercardioid (about A = 0.37, B = 0.63) is −8.6 dB at the sides with nulls near 126°, and a small rear lobe about 11.7 dB down. A hypercardioid (A = 0.25, B = 0.75) is −12 dB at 90°, with nulls at about 110° and a rear lobe only 6 dB down. Setting cos θ = −A/B gives the null angle for any blend.\n\nThe pattern also decides how much diffuse room sound the mic hears. Relative to an omni, the random-energy efficiency is 1/3 for cardioid and figure-8 (about −4.8 dB), about 0.27 for supercardioid (−5.7 dB) and 0.25 for hypercardioid (−6 dB). The square root of the inverse gives the distance factor: a cardioid can be about 1.7 times as far away as an omni for the same direct-to-reverberant ratio, a hypercardioid about 2 times. This is why a hyper on a boom can work a little farther back than a cardioid in a reflective room.\n\nAnything with a gradient component also has proximity effect: close to a source the spherical wavefront raises the pressure difference at low frequencies, so the bass rises as distance shrinks. A figure-8 shows it most, a cardioid less, and a pure pressure omni not at all. Real mics are only first-order in theory: most omnis become directional at high frequencies, and many cardioids widen in the bass, so off-axis sound is coloured, not just quieter. Multi-pattern condensers use two back-to-back cardioid diaphragms: one alone is cardioid, both summed in phase give omni, and both summed with one polarity inverted give figure-8.",
+  "inPractice": "Put a speaker playing pink noise at 0°, 90°, 110° and 180° to a cardioid and a hypercardioid and compare levels and tone. Then aim your wedge or the noisy camera at the measured null, not just 'behind the mic'.",
+  "keyPoints": [
+   "r(θ) = A + B·cos θ, with A + B = 1: A is the omni part, B the figure-8 part.",
+   "Cardioid: −6 dB at 90°, null at 180°. Hypercardioid: −12 dB at 90°, nulls near 110°, rear lobe −6 dB.",
+   "Null angle: cos θ = −A/B.",
+   "Distance factor vs omni: cardioid ≈ 1.7, supercardioid ≈ 1.9, hypercardioid ≈ 2.0.",
+   "Proximity effect comes from the gradient part: none on a pure omni, strongest on a figure-8.",
+   "Real patterns change with frequency, so off-axis sound is coloured as well as reduced."
+  ],
+  "level": "core",
+  "mistake": "Many people put a wedge directly behind a hypercardioid vocal mic, assuming the rear is the quietest point. A hyper's rear lobe is only about 6 dB down; its nulls are at roughly 110°, so wedges belong off to the sides of the rear.",
+  "sayIt": "Every directional mic is a mix of an 'everything' mic and a 'front-and-back' mic, and the mix decides where it is deaf, how much room it hears and how much bass it adds up close.",
+  "summary": "A first-order microphone's polar pattern is a blend of a pressure (omnidirectional) response and a pressure-gradient (figure-8) response, written as r(θ) = A + B·cos θ with A + B = 1. Changing the ratio of A to B moves you from omni through cardioid, supercardioid and hypercardioid to figure-8, and sets where the nulls fall, how much room sound the mic picks up and how strong its proximity effect is.",
+  "terms": [
+   {
+    "def": "A diaphragm sealed at the back that responds to pressure equally from all directions (omni).",
+    "term": "Pressure capsule"
+   },
+   {
+    "def": "Response to the pressure difference between the two sides of an open diaphragm; gives the figure-8.",
+    "term": "Pressure gradient"
+   },
+   {
+    "def": "How much diffuse, all-directions sound a mic picks up relative to an omni.",
+    "term": "Random energy efficiency"
+   },
+   {
+    "def": "How much farther a directional mic can be placed than an omni for the same direct-to-reverberant ratio.",
+    "term": "Distance factor"
+   },
+   {
+    "def": "The low-frequency rise of gradient mics as the source gets close.",
+    "term": "Proximity effect"
+   }
+  ],
+  "title": "Polar patterns from first principles",
+  "topic": "Microphones",
+  "id": "L009"
+ },
+ {
+  "body": "Any sound reinforcement system is a loop. The talker reaches the mic, the PA reproduces it, and part of the PA's output arrives back at the mic. If that returned sound is as loud as the original at some frequency, and in phase with it, the loop sustains itself and rings. Below that point the system still rings briefly after each word, which is why a system 'on the edge' sounds coloured and hollow even when it is not howling.\n\nThe classic estimate from Davis and Patronis uses four distances: Ds from talker to mic, D1 from mic to the nearest loudspeaker, D2 from that loudspeaker to the farthest listener, and D0 from talker to that listener. In a free field, PAG = 20·log(D0·D1 / (Ds·D2)) − 10·log(NOM) − FSM. NOM is the number of open microphones, and FSM is a feedback stability margin, usually 6 dB. NAG = 20·log(D0 / EAD), where EAD is the equivalent acoustic distance: how close the listener would have to stand to the unamplified talker to hear as well as they do with the system on. The design works only if PAG is at least NAG.\n\nThe formula shows where the decibels come from. Ds is the strongest lever: halving the talker-to-mic distance gains 6 dB, so going from 60 cm to 15 cm gains 12 dB. Moving the loudspeaker farther from the mic (larger D1) helps by the same law, and every doubling of open mics costs 3 dB. Directional mics and speakers add gain on top by rejecting the return path, which is why you aim a wedge into a cardioid's rear null or a supercardioid's nulls near 126°. EQ notches at ringing frequencies only buy a few dB, because the next peak in the loop response takes over.\n\nReal rooms are not free fields. Beyond the critical distance, the reverberant field dominates, and moving the speaker even farther from the mic stops helping. That is why lecterns in reverberant churches are hard, and why an automixer that keeps NOM low, plus a headset or lavalier close to the mouth, usually beats any amount of EQ.",
+  "inPractice": "At your next speech or theatre job, measure Ds, D1, D2 and D0 roughly with a laser meter and calculate PAG before soundcheck. Then compare the gain you can actually reach before ringing with the estimate, and note how much each change (closer mic, fewer open mics, moving a wedge) bought you.",
+  "keyPoints": [
+   "Feedback: loop gain ≥ 0 dB at a frequency where the loop phase is a whole number of cycles.",
+   "PAG = 20·log(D0·D1 / (Ds·D2)) − 10·log(NOM) − FSM (about 6 dB).",
+   "NAG = 20·log(D0 / EAD); the system works only if PAG ≥ NAG.",
+   "Halving talker-to-mic distance gives +6 dB; doubling open mics costs 3 dB.",
+   "Notch EQ adds only a few dB; geometry, directivity and fewer open mics add more.",
+   "Beyond critical distance, moving the speaker farther away stops helping."
+  ],
+  "level": "core",
+  "mistake": "Many engineers try to ring out a system with a graphic EQ until it is safe. That buys a few dB at best and makes the system sound thin; getting the mic closer to the source or closing unused mics is worth far more.",
+  "sayIt": "The closer the mic is to your mouth and the fewer mics are open, the louder I can make you before it starts to howl.",
+  "summary": "Feedback starts when the loop from microphone to amplifier to loudspeaker and back to the microphone has a gain of 0 dB or more at a frequency where the loop phase adds up to a whole number of cycles. Potential acoustic gain (PAG) is how much gain a system can give before that happens; needed acoustic gain (NAG) is how much it must give to be useful.",
+  "terms": [
+   {
+    "def": "Potential acoustic gain: the maximum gain a system can provide before feedback, after a stability margin.",
+    "term": "PAG"
+   },
+   {
+    "def": "Needed acoustic gain: the gain required for distant listeners to hear as if they were at the equivalent acoustic distance.",
+    "term": "NAG"
+   },
+   {
+    "def": "Equivalent acoustic distance: how close a listener would need to be to the unamplified talker to hear equally well.",
+    "term": "EAD"
+   },
+   {
+    "def": "Number of open microphones; each doubling reduces PAG by 3 dB.",
+    "term": "NOM"
+   },
+   {
+    "def": "Feedback stability margin, usually 6 dB, kept so the system does not ring.",
+    "term": "FSM"
+   }
+  ],
+  "title": "Gain before feedback: PAG and NAG",
+  "topic": "Live sound",
+  "id": "L010"
+ },
+ {
+  "body": "Wavelength is the speed of sound divided by frequency: λ = c / f, with c about 343 m/s at 20 °C. So 100 Hz has a wavelength of 3.43 m, 1 kHz about 34 cm and 10 kHz about 3.4 cm. When sound meets an object, compare the object to that number. If the object is much smaller than the wavelength, the wave flows round it as if it were not there. If it is much larger, the high frequencies are blocked and a shadow forms behind it, while lower frequencies still bend in at the edges.\n\nThis is why a gobo or acoustic screen works on cymbals but not on kick drum or bass amp. A 1.2 m panel is several wavelengths wide at 2 kHz but only a third of a wavelength at 100 Hz. It is also why you hear the bass of a festival over a hill long after the vocals have gone. Outdoor noise barriers are judged by the extra path length δ that sound must travel over the top. The Fresnel number N = 2δ / λ grows with frequency, and Maekawa's chart (approximated by A ≈ 10·log10(3 + 20N) dB) shows attenuation rising from a few dB at low N to around 20 dB in practice. Low frequencies, with small N, get the least.\n\nThe same idea shapes loudspeakers and microphones. A speaker's front baffle is large compared with high-frequency wavelengths, so it radiates them forwards into half-space, but at low frequencies sound wraps round the cabinet into full space. That baffle step costs up to about 6 dB on axis, with a transition near f ≈ 115 / W, where W is the baffle width in metres. Microphones follow the same rule in reverse: a body or diaphragm comparable to the wavelength shadows sound arriving from the side or rear, so pressure omnis become directional at high frequencies, and large-diaphragm mics more so.\n\nYour own head is a diffracting object about 17–18 cm wide. Below roughly 1.5 kHz sound bends round it and you locate sources mainly by time difference between the ears. Above that, the head shadows the far ear, and level difference takes over. Binaural and HRTF rendering is largely a model of this diffraction.",
+  "inPractice": "Next time you place a gobo, solo the spill mic and sweep a low-pass and high-pass filter: you will hear the screen cutting cymbal spill while kick and bass come through almost unchanged. Use distance, mic pattern and the source's own directivity for low-frequency separation.",
+  "keyPoints": [
+   "λ = c / f: 100 Hz ≈ 3.4 m, 1 kHz ≈ 34 cm, 10 kHz ≈ 3.4 cm.",
+   "Obstacles smaller than the wavelength barely matter; larger ones cast a shadow.",
+   "Screens, gobos and barriers work on highs, hardly on lows.",
+   "Barrier attenuation rises with Fresnel number N = 2δ / λ.",
+   "Baffle step: up to about 6 dB loss below f ≈ 115 / W (W in metres).",
+   "Head shadow makes level differences the main cue above about 1.5 kHz."
+  ],
+  "level": "core",
+  "mistake": "A common belief is that a heavier or thicker screen will stop bass spill. Mass helps with transmission through the panel, but sound goes round the edges; at low frequencies the panel is too small compared with the wavelength to cast a shadow.",
+  "sayIt": "Low notes have waves several metres long, so they flow round walls, screens and people, while high notes are short enough to be blocked.",
+  "summary": "Diffraction is the bending and spreading of sound around obstacles and through openings. How much a wave diffracts depends on the size of the object compared with the wavelength: objects much smaller than the wavelength barely affect it, while objects much larger cast a clear acoustic shadow.",
+  "terms": [
+   {
+    "def": "Bending and spreading of a wave around obstacles and through openings.",
+    "term": "Diffraction"
+   },
+   {
+    "def": "Region behind an object where higher frequencies are reduced because the object is large compared with their wavelength.",
+    "term": "Acoustic shadow"
+   },
+   {
+    "def": "N = 2δ / λ, where δ is the extra path over a barrier; higher N means more attenuation.",
+    "term": "Fresnel number"
+   },
+   {
+    "def": "The rise of up to about 6 dB on axis as a speaker moves from radiating into full space at low frequencies to half-space at high frequencies.",
+    "term": "Baffle step"
+   },
+   {
+    "def": "Level reduction at the far ear caused by the head blocking higher frequencies.",
+    "term": "Head shadow"
+   }
+  ],
+  "title": "Diffraction: why bass ignores obstacles",
+  "topic": "Physics of sound",
+  "id": "L011"
+ },
+ {
+  "body": "Picture a mixer and an amplifier, each plugged into a different mains socket, joined by an audio cable. The safety earths of the two sockets are connected back at the distribution board, and the cable shield connects the two chassis again. That closed loop behaves like a one-turn transformer winding: mains wiring nearby induces current in it, and small leakage currents from power supplies add more. In Italy the result is a 50 Hz hum. If the current has sharp edges, from rectifiers or switch-mode supplies, it becomes a buzz with strong harmonics at 100, 150, 200 Hz and up.\n\nWhether you hear it depends on the interface. In an unbalanced cable the shield is also the signal return, so any current in it drops a voltage that adds straight to the signal. Ohm's law gives the size: 20 mA through a shield of 0.05 Ω is 1 mV. Against a −10 dBV consumer line level (about 316 mV) that is only 50 dB down, which is clearly audible in quiet passages. A balanced input instead measures the difference between two conductors. Noise that appears equally on both is common-mode and is rejected by the input's common-mode rejection ratio (CMRR): 60 dB of CMRR turns 100 mV of common-mode noise into 0.1 mV.\n\nBalanced lines only work if the equipment is built properly. Neil Muncy's 'pin 1 problem' describes devices that connect the cable shield to the circuit-board ground rather than directly to the chassis where the cable enters. Shield current then flows through the audio ground inside the device and appears as hum even on a balanced line. AES48 sets out the correct practice: shield to chassis at the point of entry.\n\nThe fixes, in order: power all connected audio gear from the same distribution point to keep the loop small; use balanced connections; use an isolation transformer or a DI with a ground lift, which breaks the shield connection at one end while leaving the signal path intact; and keep audio cables away from mains and dimmer runs. Never remove or lift the mains safety earth. It is what protects people if a device develops a fault, and a stage full of metal and wet hands is where that matters most.",
+  "inPractice": "When hum appears, disconnect cables one at a time from the destination back towards the sources until it stops, to find the loop. Then try the ground-lift switch on a DI or an isolation transformer on that one link, and check that every device is powered from the same distribution point.",
+  "keyPoints": [
+   "A ground loop needs two earth paths between devices: the cable shield plus mains earth, or two cable shields.",
+   "Hum is 50 Hz in Italy; buzz adds harmonics at 100, 150, 200 Hz and up.",
+   "In unbalanced cables shield current becomes signal: V = I × R adds straight to the audio.",
+   "Balanced inputs reject common-mode noise by their CMRR; 60 dB means a factor of 1,000.",
+   "The 'pin 1 problem' is a design fault: the shield must go to chassis, not to circuit ground.",
+   "Fix with a shared power point, balanced lines, isolation transformers or a DI ground lift; never lift mains earth."
+  ],
+  "level": "core",
+  "mistake": "Many people 'fix' hum by cutting off or taping over the mains earth pin. That can leave chassis and mic bodies live if a fault occurs; the correct fix is to break the loop in the signal path with a transformer or ground lift.",
+  "sayIt": "The hum is current going round a loop made by two earth connections between your gear, and we fix it by breaking that loop in the audio path, never by removing the safety earth.",
+  "summary": "A ground loop forms when two pieces of equipment are connected both through a signal cable's shield and through separate earth paths, such as their mains plugs. Stray magnetic fields and leakage currents drive current around that loop, and wherever the current flows through a conductor that is also part of the audio path, its voltage drop is heard as hum or buzz.",
+  "terms": [
+   {
+    "def": "A closed conductive path formed by two or more earth connections between devices, in which induced current flows.",
+    "term": "Ground loop"
+   },
+   {
+    "def": "Noise that appears equally on both conductors of a balanced line, relative to ground.",
+    "term": "Common-mode noise"
+   },
+   {
+    "def": "Common-mode rejection ratio: how strongly a balanced input attenuates common-mode noise, in dB.",
+    "term": "CMRR"
+   },
+   {
+    "def": "A design fault where the cable shield is tied to internal audio ground instead of the chassis, so shield current causes hum.",
+    "term": "Pin 1 problem"
+   },
+   {
+    "def": "A switch, usually on a DI box, that disconnects the cable shield from ground at one end to break a loop.",
+    "term": "Ground lift"
+   },
+   {
+    "def": "A transformer that passes the audio signal magnetically while providing no direct electrical connection between the two sides.",
+    "term": "Isolation transformer"
+   }
+  ],
+  "title": "Ground loops: where hum comes from and how to kill it safely",
+  "topic": "Electronics and signal flow",
+  "id": "L012"
+ },
+ {
+  "body": "A first-order filter rolls off at 6 dB per octave, which is the same as 20 dB per decade. Each extra order adds another 6 dB per octave, so a second-order filter falls at 12 dB per octave and a fourth-order at 24 dB per octave. The quoted cutoff of a Butterworth high-pass or low-pass is its −3 dB point, and the slope only settles to its full rate about an octave beyond it. A second-order Butterworth high-pass at 100 Hz is about −3 dB at 100 Hz and about −12 dB at 50 Hz. A second-order filter with Q above 0.707 starts to bump up just before the cutoff, which is why some high-pass filters have a 'resonance' control.\n\nFor bells, Q = centre frequency ÷ bandwidth, with bandwidth measured between the −3 dB points. In octaves, a 1-octave band is Q ≈ 1.41, a 2-octave band is Q ≈ 0.67 and a 1/3-octave band is Q ≈ 4.32. Higher Q means a narrower band. Manufacturers do not all measure bandwidth the same way on boost and cut, so the same Q number can sound different between two EQs.\n\nOrdinary analogue-style EQs are minimum-phase: changing the level also shifts the phase near the band. A first-order high-pass has 45° of phase shift at its cutoff, a second-order Butterworth 90°, and a fourth-order 180°. Steeper filters also add more group delay around the cutoff, which can soften the attack of a kick or bass if you set a steep high-pass close to the fundamental. Linear-phase EQs avoid phase shift but add latency and can cause pre-ringing before transients.\n\nIn practice: on dialogue, a 12 or 18 dB per octave high-pass around 80–100 Hz removes rumble without thinning most voices; on a mix bus, a gentle 6 dB per octave or a shelf is safer. For crossovers and sub splits, Linkwitz-Riley filters are used because each side is −6 dB at the crossover and the two outputs sum flat. For corrective cuts, use a narrow Q to remove a resonance without taking the surrounding tone; for tonal shaping, use a wide Q and small gain changes.",
+  "inPractice": "On a dialogue track, sweep a high-pass from 40 Hz upwards at 12 dB per octave and then at 24 dB per octave, and note where each one starts to thin the voice. Then solo a narrow bell at Q 8 with a big boost, find a resonance, and cut it by only 3–4 dB.",
+  "keyPoints": [
+   "Each filter order adds 6 dB per octave (20 dB per decade).",
+   "A Butterworth cutoff is the −3 dB point; full slope arrives about an octave later.",
+   "Q = centre frequency ÷ bandwidth; 1 octave ≈ Q 1.41, 1/3 octave ≈ Q 4.32.",
+   "Minimum-phase filters shift phase: 45° at cutoff for first order, 90° for second, 180° for fourth.",
+   "Linkwitz-Riley crossovers are −6 dB per side at the crossover and sum flat.",
+   "Narrow Q for surgical cuts, wide Q and small gain for tone."
+  ],
+  "level": "core",
+  "mistake": "Many people think the cutoff frequency is where a filter 'stops' the sound. At the cutoff a Butterworth filter has only taken off 3 dB; meaningful attenuation starts an octave or more beyond it.",
+  "sayIt": "The slope says how fast the filter fades out the frequencies you don't want, and the Q says how wide a slice of the spectrum a boost or cut touches.",
+  "summary": "Every EQ band is a filter defined by its type, frequency, gain and either slope (for high- and low-pass filters) or Q (for bells and some shelves). Slope comes from filter order: each order adds 6 dB per octave. Q describes how narrow a band is: centre frequency divided by bandwidth.",
+  "terms": [
+   {
+    "def": "The number of reactive stages or poles in a filter; each adds 6 dB per octave of slope.",
+    "term": "Filter order"
+   },
+   {
+    "def": "Quality factor: centre frequency divided by the −3 dB bandwidth. Higher Q means a narrower band.",
+    "term": "Q"
+   },
+   {
+    "def": "A filter design with the flattest possible passband and a −3 dB cutoff point.",
+    "term": "Butterworth"
+   },
+   {
+    "def": "Two cascaded Butterworth filters, −6 dB at the crossover, whose low and high outputs sum flat.",
+    "term": "Linkwitz-Riley"
+   },
+   {
+    "def": "How much a filter delays different frequencies; it rises near the cutoff of steep minimum-phase filters.",
+    "term": "Group delay"
+   },
+   {
+    "def": "A filter that boosts or cuts everything above or below a frequency by a set amount.",
+    "term": "Shelving filter"
+   }
+  ],
+  "title": "Filter slopes and Q: what an EQ band really does",
+  "topic": "Processing",
+  "id": "L013"
+ },
+ {
+  "body": "Each bit of linear PCM doubles the number of amplitude steps, which is worth about 6.02 dB. For a full-scale sine wave, the theoretical signal-to-quantisation-noise ratio is 6.02·N + 1.76 dB: about 98 dB for 16-bit and 146 dB for 24-bit. Real converters stop well short of the 24-bit figure; the best are around 120–130 dB, limited by analogue noise, so the bottom bits of a 24-bit recording hold the converter's own noise. Bit depth sets the noise floor, not the 'resolution' of loud signals: a 16-bit file peaking at −30 dBFS uses only about 11 bits' worth of range above its floor.\n\nWithout dither, quantisation error follows the signal. On quiet material such as reverb tails and fades it becomes audible distortion that is correlated with the music. Adding dither, usually TPDF (triangular) noise of about ±1 LSB, makes the error random and independent of the signal, so you hear a steady, faint hiss instead of grit. The cost is a noise floor about 4.77 dB higher than the theoretical undithered figure. Noise-shaped dither moves much of that noise to high frequencies where the ear is less sensitive, so it sounds quieter even though its total power is higher.\n\n32-bit float uses a 24-bit mantissa and an 8-bit exponent. Precision stays roughly 24-bit at any level, and the range runs to well over 1,000 dB, so a signal pushed over 0 dBFS inside a DAW is not clipped and can be brought back down later. That safety ends at any fixed-point stage: a converter, a 24-bit file or a plugin that clips internally. 32-bit float field recorders get their range from two converters at different gains blended together, not from a single converter with 32 bits of real dynamic range.\n\nIn practice: record at 24-bit (or 32-bit float where the recorder supports it), keep the session in float, and dither once, at the final reduction to a fixed bit depth, usually 16-bit for CD-style masters. Do not dither repeatedly at every bounce, and do not normalise or change gain after dithering. When delivering 24-bit, dither is technically correct but its effect sits below the converter noise.",
+  "inPractice": "Take a reverb tail, lower it by 40 dB, and bounce it to 16-bit with dither off and then on. Raise both by 40 dB and listen: the undithered version crackles and distorts as it fades, the dithered one fades into smooth hiss.",
+  "keyPoints": [
+   "Each bit is worth about 6 dB; 16-bit ≈ 98 dB, 24-bit ≈ 146 dB in theory.",
+   "Real converters reach about 120–130 dB, so analogue noise fills the lowest 24-bit steps.",
+   "Dither turns correlated quantisation distortion into steady noise.",
+   "TPDF dither raises the noise floor by about 4.77 dB; noise shaping makes it sound quieter.",
+   "32-bit float has huge headroom inside the DAW, but any fixed-point stage still clips at 0 dBFS.",
+   "Dither once, at the last reduction in bit depth, and change nothing after it."
+  ],
+  "level": "deeper",
+  "mistake": "Many people think 32-bit float recorders capture 1,500 dB of dynamic range. The file format can hold it, but the recording is still limited by the mic, the preamp and the converters, which together stay well below 150 dB.",
+  "sayIt": "Bit depth decides how quiet the background hiss can be, and dither is a tiny, controlled hiss we add at the very end so quiet fades stay smooth instead of gritty.",
+  "summary": "Bit depth sets how finely each sample's amplitude is measured, and so the level of the quantisation noise floor. Dither is a small, deliberate noise added before reducing bit depth so that the error becomes benign noise instead of distortion. 32-bit float stores samples as a mantissa and exponent, giving enormous headroom inside the computer, but it does not make a converter quieter.",
+  "terms": [
+   {
+    "def": "Least significant bit: the smallest amplitude step a given bit depth can represent.",
+    "term": "LSB"
+   },
+   {
+    "def": "Triangular-probability noise of about ±1 LSB that makes quantisation error independent of the signal.",
+    "term": "TPDF dither"
+   },
+   {
+    "def": "Filtering the dither and requantisation noise so more of it falls where hearing is less sensitive.",
+    "term": "Noise shaping"
+   },
+   {
+    "def": "The part of a floating-point number that holds its significant digits; 24 bits of precision in 32-bit float.",
+    "term": "Mantissa"
+   },
+   {
+    "def": "Simply dropping the lower bits when reducing bit depth, which leaves signal-correlated distortion.",
+    "term": "Truncation"
+   }
+  ],
+  "title": "Bit depth, dither and 32-bit float",
+  "topic": "Digital audio",
+  "id": "L014"
+ },
+ {
+  "title": "Subtractive synthesis: oscillator, filter, amplifier",
+  "topic": "Sound design and synthesis",
+  "level": "core",
+  "summary": "Subtractive synthesis starts with a harmonically rich waveform and removes parts of its spectrum with a filter, then shapes level over time with an amplifier controlled by an envelope. Almost every analogue-style synth, and many sound-design patches, follow this oscillator–filter–amplifier chain.",
+  "body": "The oscillator supplies the raw spectrum, and each basic waveform has a fixed harmonic recipe. A sawtooth contains every harmonic, with the nth harmonic at 1/n of the fundamental's amplitude, so the 2nd is about 6 dB down and the 3rd about 9.5 dB down. A square wave contains only odd harmonics, also falling at 1/n. A triangle also has only odd harmonics but they fall at 1/n², so it sounds close to a sine. A pulse wave's content depends on its duty cycle: at 25%, every 4th harmonic is missing. Noise has no pitch at all and is the usual starting point for wind, surf, snares and breaths.\n\nThe filter removes what you do not want. A low-pass filter's slope is set by its number of poles: about 6 dB per octave per pole, so 12 dB/oct for a two-pole and 24 dB/oct for a four-pole design such as the Moog ladder. Well above the cutoff, a 24 dB/oct filter attenuates a component two octaves up by roughly 48 dB. Resonance feeds part of the output back to boost a narrow band at the cutoff; at high settings many filters self-oscillate and become a sine source. Key tracking moves the cutoff with the note played: at 100%, an octave up on the keyboard doubles the cutoff frequency, so the tone stays consistent across the range.\n\nThe amplifier sets level, and envelopes make sounds move. An ADSR has three times (attack, decay, release) and one level (sustain). Routing a second envelope to the filter cutoff gives the classic pluck, where brightness falls faster than loudness, which is how most real struck and plucked sounds behave. LFOs add slow periodic change, such as vibrato on pitch or tremolo on level.\n\nIn practice, subtractive patches are the backbone of sound design for picture: risers are a filter sweep on noise or detuned saws, drones are slow filter and LFO movement, and UI sounds are short filter-enveloped blips. Understanding the waveform recipes also explains mixing behaviour: a saw bass carries strong upper harmonics that cut through on small speakers, while a triangle bass all but disappears on them.",
+  "keyPoints": [
+   "Sawtooth: all harmonics at 1/n. Square: odd harmonics at 1/n. Triangle: odd harmonics at 1/n².",
+   "A filter's slope is about 6 dB per octave per pole: 12 dB/oct two-pole, 24 dB/oct four-pole.",
+   "Resonance boosts a narrow band at the cutoff; turned up far enough, many filters self-oscillate.",
+   "ADSR has three times and one level: sustain.",
+   "A separate filter envelope makes brightness change faster than loudness, the basis of plucks.",
+   "100% key tracking doubles the cutoff for each octave up the keyboard."
+  ],
+  "sayIt": "We start with a buzzy, rich tone and sculpt it by filtering away what we don't need, then shape how it starts and fades.",
+  "inPractice": "Load a single saw into a low-pass filter with the cutoff at minimum, then raise only the filter envelope amount with a short decay and zero sustain. Compare it with the same envelope on the amplifier alone, and listen to how the filter version reads as 'plucked' while the amplifier version just sounds short.",
+  "mistake": "Many people think resonance makes a filter steeper. It does not change the slope far above the cutoff; it adds a peak at the cutoff, which also thins the passband on many designs.",
+  "terms": [
+   {
+    "term": "Pole",
+    "def": "One first-order section of a filter, each adding about 6 dB per octave of slope."
+   },
+   {
+    "term": "Key tracking",
+    "def": "Making a parameter, usually filter cutoff, follow the note played."
+   },
+   {
+    "term": "Self-oscillation",
+    "def": "When filter resonance is high enough that the filter produces its own sine tone at the cutoff."
+   },
+   {
+    "term": "Duty cycle",
+    "def": "The fraction of each cycle a pulse wave spends high; 50% is a square wave."
+   },
+   {
+    "term": "ADSR",
+    "def": "Attack, decay, sustain, release: the four stages of a standard envelope."
+   }
+  ],
+  "id": "L015"
+ },
+ {
+  "title": "Inverse square law and critical distance",
+  "topic": "Physics of sound",
+  "level": "core",
+  "summary": "In a free field, sound from a point source spreads over a sphere, so its intensity falls with the square of distance and its level drops by about 6 dB for every doubling of distance. In a real room the reflected, reverberant sound stays roughly constant, and the critical distance is where the direct and reverberant levels are equal.",
+  "body": "A small source radiating into free space spreads its power over a sphere whose area is 4πr². Double the distance and the same power covers four times the area, so intensity falls to a quarter. That is the inverse square law: intensity is proportional to 1/r². In decibels the level change is 20·log10(r2/r1), which gives about 6 dB per doubling of distance and 20 dB per tenfold change. The law only holds in the far field, once you are several times the size of the source away, and in free-field conditions. A long line source, such as a line array heard within its near field, spreads cylindrically instead and loses only about 3 dB per doubling.\n\nIndoors, every surface adds reflections. Close to the source the direct sound dominates and follows the inverse square law. Further away the reverberant field takes over, and its level is roughly the same throughout the room. The critical distance (dc) is the point where the two are equal. A common estimate is dc ≈ 0.057·√(Q·V/RT60), with V the room volume in m³, RT60 in seconds and Q the directivity factor of the source (1 for an omni). Larger, deader rooms and more directional sources push dc further out. Because dc depends on the square root, halving RT60 only increases it by about 1.4 times.\n\nFor recording, the critical distance tells you how much room you will capture. Inside dc the mic hears mostly direct sound; outside it, mostly room. A directional mic raises the effective distance at which it gives the same direct-to-reverberant ratio, which is why a cardioid can sit further back than an omni for a similar sound. On location, keeping the boom well inside dc keeps dialogue clear in a reflective set.\n\nIn live sound and monitoring the same idea applies. Listeners far beyond dc hear mostly the room, so more level does not buy more clarity. A more directional loudspeaker, aimed at the audience and away from walls, extends the distance over which direct sound dominates. In the studio, a listening position well inside dc of the monitors keeps the stereo image stable.",
+  "keyPoints": [
+   "Point source in free field: −6 dB per doubling of distance.",
+   "Level change = 20·log10(r2/r1); ×10 distance = −20 dB.",
+   "Line source in its near field: about −3 dB per doubling.",
+   "Critical distance: direct level equals reverberant level.",
+   "dc ≈ 0.057·√(Q·V/RT60); grows with directivity and absorption.",
+   "Beyond dc, moving further away barely changes the total level."
+  ],
+  "sayIt": "Close to the source you hear the instrument; past a certain point in this room you mostly hear the room, so moving the mic changes the balance a lot.",
+  "inPractice": "Walk a handheld SPL meter away from a speaker playing pink noise in a live room and note where the level stops falling by 6 dB per doubling. That is roughly your critical distance; place your close mics well inside it and your room mics outside it.",
+  "mistake": "Many people expect the inverse square law to hold everywhere indoors. It only describes the direct sound; past the critical distance the reverberant field dominates and the level stays roughly constant.",
+  "terms": [
+   {
+    "term": "Inverse square law",
+    "def": "Intensity from a point source in a free field falls in proportion to 1/r²."
+   },
+   {
+    "term": "Free field",
+    "def": "A space with no reflections, such as an anechoic chamber or open air well away from surfaces."
+   },
+   {
+    "term": "Critical distance",
+    "def": "The distance from a source at which direct and reverberant sound levels are equal."
+   },
+   {
+    "term": "Directivity factor (Q)",
+    "def": "The ratio of on-axis intensity of a source to that of an omni source radiating the same total power."
+   },
+   {
+    "term": "Reverberant field",
+    "def": "The diffuse sound built up from many reflections, roughly uniform in level through a room."
+   }
+  ],
+  "id": "L016"
+ },
+ {
+  "title": "Room modes and RT60",
+  "topic": "Physics of sound",
+  "level": "core",
+  "summary": "Room modes are standing waves that form between surfaces at frequencies set by the room's dimensions, giving uneven bass from seat to seat. RT60 is the time sound takes to decay by 60 dB after the source stops, and Sabine's formula estimates it from room volume and total absorption.",
+  "body": "Between two parallel walls a distance L apart, sound reinforces itself whenever a whole number of half-wavelengths fits between them. These axial modes fall at f = n·c/2L, where c is the speed of sound (about 343 m/s) and n = 1, 2, 3 and so on. A 5.72 m room has its first length mode near 30 Hz, then 60, 90, 120 Hz. Tangential modes involve four surfaces and oblique modes all six. They are generally weaker; axial modes are usually the strongest and cause the most trouble. Every rectangular room has modes along length, width and height, and their spacing determines how even the low end sounds.\n\nEach mode has pressure peaks and nulls in fixed places. All modes have a pressure maximum at the walls and in the corners, which is why bass traps work best there. The first axial mode has a null halfway between its two walls, so a seat in the exact middle of the room hears that frequency weakly. As frequency rises, modes become more numerous and overlap until the room behaves statistically. The Schroeder frequency, roughly 2000·√(RT60/V), marks that transition. Below it, think in modes; above it, think in reflections and reverberation time.\n\nRT60 is the time for sound to fall 60 dB after the source stops. Sabine's formula estimates it as RT60 = 0.161·V/A, where V is the volume in m³ and A is total absorption in metric sabins (m²), the sum of each surface area multiplied by its absorption coefficient. Double the absorption and RT60 halves. Sabine works best in fairly live rooms; in very absorbent rooms the Eyring formula is more accurate. Since absorption coefficients vary with frequency, RT60 is quoted per octave band.\n\nIn practice, a vocal booth or control room with modes that pile up near the same frequency gives a boomy note on certain bass pitches and a thin one on others. On location you hear the same thing in small rooms: some dialogue gets boomy. Move the listening position or mic off the room's centre lines, treat corners with thick absorption, and check RT60 per band so the low end is not much longer than the mids.",
+  "keyPoints": [
+   "Axial modes: f = n·c/2L; strongest of the three mode types.",
+   "All modes peak at boundaries and corners.",
+   "The first axial mode has a null at the room's centre line.",
+   "Schroeder frequency ≈ 2000·√(RT60/V) separates modal and statistical behaviour.",
+   "Sabine: RT60 = 0.161·V/A; doubling absorption halves RT60.",
+   "RT60 varies with frequency, so measure it per octave band."
+  ],
+  "sayIt": "This room boosts some bass notes and swallows others because of its shape, so we'll adjust where we sit and treat the corners before we touch the EQ.",
+  "inPractice": "Calculate the first three axial modes for each dimension of your control room and play sine sweeps through that range. Walk the room and note where each one peaks and dips, then pick a mix position away from the nulls.",
+  "mistake": "A common belief is that EQ can fix room modes for every seat. Modes change from place to place, so EQ that flattens one position can make others worse; position and treatment come first.",
+  "terms": [
+   {
+    "term": "Room mode",
+    "def": "A resonance of the room at which sound reflecting between surfaces forms a standing wave."
+   },
+   {
+    "term": "Axial mode",
+    "def": "A mode between one pair of parallel surfaces, f = n·c/2L."
+   },
+   {
+    "term": "RT60",
+    "def": "Time for sound to decay by 60 dB after the source stops."
+   },
+   {
+    "term": "Metric sabin",
+    "def": "Unit of absorption equal to one square metre of perfectly absorbing surface."
+   },
+   {
+    "term": "Schroeder frequency",
+    "def": "Approximate frequency above which modes overlap densely enough for the room to behave statistically."
+   }
+  ],
+  "id": "L017"
+ },
+ {
+  "title": "Masking and equal-loudness contours",
+  "topic": "Hearing and psychoacoustics",
+  "level": "core",
+  "summary": "Masking is when one sound makes another harder or impossible to hear, either at the same time or just before or after it. Equal-loudness contours show the sound pressure level needed at each frequency to sound as loud as a 1 kHz reference, and they change shape with level.",
+  "body": "The ear analyses sound in overlapping frequency bands called critical bands. A loud sound raises the threshold of hearing for quieter sounds near its frequency; that is simultaneous masking. Masking spreads further upward in frequency than downward, especially at high levels. One common measure of auditory filter width is the equivalent rectangular bandwidth (ERB), which Glasberg and Moore estimate as 24.7·(4.37·f/1000 + 1) Hz, about 130 Hz at 1 kHz. Two sounds inside the same band compete hard; sounds further apart in frequency compete much less.\n\nMasking also works in time. A loud sound hides quieter sounds that follow it for a while; this forward masking can last around 100 to 200 ms. Backward masking, where a later loud sound hides an earlier quiet one, is much shorter, typically a few milliseconds up to roughly 20 ms. Perceptual codecs such as MP3 and AAC rely on both kinds of masking to decide which parts of a signal can be coded with less precision.\n\nEqual-loudness contours, first measured by Fletcher and Munson and now standardised in ISO 226, plot the SPL needed at each frequency for a pure tone to sound as loud as a 1 kHz tone. The unit of loudness level is the phon: a sound at N phon is as loud as a 1 kHz tone at N dB SPL. The ear is most sensitive around 2 to 5 kHz and much less sensitive in the low bass. At low levels the contours rise steeply at low frequencies, and they bunch closer together there, so bass loudness grows faster than midrange loudness as you turn up. Perceived loudness in sones doubles for about every 10 phon increase above 40 phon, where 40 phon is 1 sone.\n\nIn a mix, masking explains why a bass and kick that both sit around the same low frequencies blur together, and why dialogue gets buried under music or effects sharing its 1 to 4 kHz range. Cutting space in one track often works better than boosting another. Equal-loudness contours explain why mixes balanced quietly sound bass-heavy when played loud, so check at a calibrated reference level, such as the level your delivery standard or room calls for.",
+  "keyPoints": [
+   "Simultaneous masking is strongest within a critical band.",
+   "Masking spreads more upward in frequency than downward.",
+   "Forward masking lasts much longer than backward masking.",
+   "Phon: loudness level equal to the dB SPL of an equally loud 1 kHz tone.",
+   "40 phon = 1 sone; +10 phon roughly doubles loudness.",
+   "Contours bunch at low frequencies, so bass gets louder faster as level rises."
+  ],
+  "sayIt": "The guitar is hiding the vocal because they live in the same frequency range, so I'm carving a little space rather than just turning the vocal up.",
+  "inPractice": "On your next dialogue mix, solo the music and find where it sits in the 1 to 4 kHz range. Dip it a few dB there only while dialogue plays and compare intelligibility against simply lowering the music.",
+  "mistake": "People often fix a masked sound by boosting it. Reducing the competing sound in the shared band usually restores clarity with less level build-up and less harshness.",
+  "terms": [
+   {
+    "term": "Simultaneous masking",
+    "def": "A sound becoming inaudible because another sound near its frequency is present at the same time."
+   },
+   {
+    "term": "Forward masking",
+    "def": "A loud sound raising the threshold for quiet sounds that follow it in time."
+   },
+   {
+    "term": "Critical band",
+    "def": "The frequency range over which the ear integrates energy; sounds within it mask each other strongly."
+   },
+   {
+    "term": "Phon",
+    "def": "Unit of loudness level, equal to the SPL of a 1 kHz tone judged equally loud."
+   },
+   {
+    "term": "Sone",
+    "def": "Unit of perceived loudness; 1 sone is the loudness of a 40 phon sound."
+   }
+  ],
+  "id": "L018"
+ },
+ {
+  "title": "Localisation: ITD, ILD and HRTF",
+  "topic": "Hearing and psychoacoustics",
+  "level": "deeper",
+  "summary": "We locate sounds mainly through the interaural time difference (ITD) and interaural level difference (ILD) between our two ears, plus the direction-dependent filtering of the head, torso and outer ear described by the head-related transfer function (HRTF). Each cue works best in a different frequency range.",
+  "body": "A sound from one side reaches the near ear first. That interaural time difference is zero straight ahead and reaches roughly 0.6 to 0.7 ms for a source at 90°. Woodworth's model estimates it as ITD = (r/c)·(θ + sin θ), with r the head radius (about 8.75 cm) and θ in radians. At low frequencies, below about 1.5 kHz, the ear compares the phase of the waveform at each ear. Above that, a wavelength is short compared with the head and phase becomes ambiguous, so timing comes mainly from the envelope of the sound.\n\nThe head also blocks sound. At high frequencies the far ear sits in an acoustic shadow, creating an interaural level difference that can exceed 20 dB at some angles and frequencies. Low frequencies diffract around the head, so ILD is small there. This split, timing at low frequencies and level at high frequencies, is Rayleigh's duplex theory.\n\nITD and ILD alone cannot tell front from back or up from down. Every point on a 'cone of confusion' around the axis through the ears gives the same pair of values. The HRTF resolves this. The folds of the pinna, plus reflections from the shoulders and torso, add direction-dependent peaks and notches, mostly above about 5 kHz. The brain learns these patterns for your own ears. Small head movements also help: turning the head changes ITD and ILD in opposite ways for a source in front and one behind.\n\nThese cues explain much of everyday practice. Spaced microphone pairs record time differences; coincident pairs record level differences. Pan pots create level differences between speakers, and the listener's ears turn those into usable cues. Binaural recording with a dummy head captures ITD, ILD and a generic HRTF, which works on headphones but loses its effect on speakers, where each ear hears both channels. Immersive mixing for headphones uses HRTF rendering, and results vary between listeners because their ears differ from the model. On set, a lavalier mic sitting on the chest misses the head and pinna filtering altogether, which is part of why it sounds different from a boom.",
+  "keyPoints": [
+   "ITD: up to about 0.6 to 0.7 ms at 90°; dominant below about 1.5 kHz.",
+   "ILD: from head shadowing; significant at high frequencies.",
+   "Duplex theory: time cues low, level cues high.",
+   "Cone of confusion: ITD and ILD alone cannot separate front, back and elevation.",
+   "HRTF: pinna, head and torso filtering, mostly above about 5 kHz.",
+   "Head movement resolves front/back ambiguity."
+  ],
+  "sayIt": "Your ears place sounds using tiny timing and level differences plus the way your outer ear colours sound, so headphone surround never sounds exactly the same for everyone.",
+  "inPractice": "Record the same source with a spaced omni pair and a coincident XY pair, then listen on speakers and headphones. Note how timing differences give width and spaciousness, while level differences give a sharper, more stable image.",
+  "mistake": "Many assume binaural recordings work equally well on loudspeakers. On speakers each ear hears both channels, which scrambles the interaural cues unless crosstalk cancellation is used.",
+  "terms": [
+   {
+    "term": "ITD",
+    "def": "Interaural time difference: the difference in arrival time of a sound at the two ears."
+   },
+   {
+    "term": "ILD",
+    "def": "Interaural level difference: the difference in level at the two ears, caused mainly by head shadowing."
+   },
+   {
+    "term": "HRTF",
+    "def": "Head-related transfer function: the direction-dependent filtering of sound by the head, torso and pinnae."
+   },
+   {
+    "term": "Cone of confusion",
+    "def": "The set of source positions that produce the same ITD and ILD."
+   },
+   {
+    "term": "Duplex theory",
+    "def": "Rayleigh's model that ITD governs low-frequency and ILD high-frequency lateral localisation."
+   }
+  ],
+  "id": "L019"
+ },
+ {
+  "title": "Balanced and unbalanced lines, and DI boxes",
+  "topic": "Electronics and signal flow",
+  "level": "core",
+  "summary": "A balanced line carries signal on two conductors with equal impedances to ground, plus a separate shield, so interference that hits both conductors equally is rejected at a differential input. An unbalanced line uses one conductor and the shield as the return. A DI box converts a high-impedance unbalanced source into a low-impedance balanced signal for a mic input.",
+  "body": "In an unbalanced connection the shield carries both the signal return and any interference or ground current. Any voltage dropped along the shield adds directly to the signal. That is why unbalanced lines are kept short and are prone to hum. A balanced connection has two signal conductors, hot (pin 2) and cold (pin 3), plus a shield (pin 1). The receiving input amplifies only the difference between hot and cold. Noise picked up equally on both conductors, called common-mode noise, cancels. How well it cancels is the common-mode rejection ratio (CMRR), quoted in dB.\n\nWhat makes a line balanced is equal impedance from each conductor to ground, not equal and opposite signals. An impedance-balanced output drives signal on pin 2 only and ties pin 3 to ground through a resistor matching pin 2's output impedance. It still rejects interference perfectly well. Symmetrical signals simply add headroom. Transformer-balanced inputs and outputs give galvanic isolation as well, which can break ground loops.\n\nA DI (direct injection) box solves a different problem. Guitars, basses and many keyboards have high source impedances and unbalanced outputs. Long cables add capacitance that, with a high source impedance, forms a low-pass filter: 20 kΩ driving 1.5 nF of cable gives a corner around 5 kHz. A DI presents a high input impedance to the instrument and delivers a low-impedance balanced signal at roughly mic level. A passive DI uses a step-down transformer: a 12:1 turns ratio drops voltage by about 21.6 dB and reflects the load impedance up by 144 times. An active DI uses an amplifier, usually powered by phantom power or a battery, and typically offers an input impedance around 1 MΩ.\n\nOn stage, a DI lets you run a bass or keyboard down a long multicore with mic channels. In the studio it gives a clean DI track alongside the amp mic for reamping. Most DIs also have a ground-lift switch and a thru jack to feed the amp. In post and field work, DIs and line-to-mic transformers isolate a client's laptop or a venue feed from your recorder and cut hum.",
+  "keyPoints": [
+   "Balanced = equal impedances to ground on hot and cold.",
+   "The differential input rejects common-mode noise; CMRR measures how well.",
+   "Impedance-balanced outputs are still balanced connections.",
+   "Unbalanced lines carry signal return on the shield, so they pick up hum.",
+   "Passive DI: step-down transformer; active DI: powered, high input impedance.",
+   "A transformer's impedance ratio is the square of its turns ratio."
+  ],
+  "sayIt": "I'm running your keyboard through a DI so it can travel the length of the stage without picking up hum or losing top end.",
+  "inPractice": "Plug a passive bass into a line input through 10 m of instrument cable, then through a DI at the bass with a long mic cable to the desk. Compare top end and hum; then try the DI's ground lift if there is any buzz.",
+  "mistake": "Many believe balanced means two opposite-polarity copies of the signal. Rejection depends on matched impedances to ground; a line with signal on only one leg can still be fully balanced.",
+  "terms": [
+   {
+    "term": "Balanced line",
+    "def": "Two signal conductors with equal impedances to ground, received by a differential input."
+   },
+   {
+    "term": "Common-mode noise",
+    "def": "Interference that appears equally on both conductors of a balanced line."
+   },
+   {
+    "term": "CMRR",
+    "def": "Common-mode rejection ratio: how strongly an input rejects common-mode signals, in dB."
+   },
+   {
+    "term": "Impedance-balanced output",
+    "def": "An output driving one leg while the other has matching impedance to ground but no signal."
+   },
+   {
+    "term": "DI box",
+    "def": "A device converting a high-impedance unbalanced source to a low-impedance balanced output."
+   },
+   {
+    "term": "Ground lift",
+    "def": "A switch that breaks the shield connection between input and output grounds to stop ground-loop hum."
+   }
+  ],
+  "id": "L020"
+ },
+ {
+  "title": "dB scales: dBu, dBV, dBFS and dB SPL",
+  "topic": "Electronics and signal flow",
+  "level": "core",
+  "summary": "A decibel is a logarithmic ratio, so every dB scale needs a stated reference. dBu is referenced to 0.775 V, dBV to 1 V, dBFS to digital full scale and dB SPL to 20 µPa of sound pressure.",
+  "body": "The decibel expresses a ratio on a logarithmic scale. For power quantities it is 10·log10(P1/P0). For field quantities such as voltage and sound pressure it is 20·log10(V1/V0), because power is proportional to the square of voltage or pressure. Doubling voltage is +6 dB; doubling power is +3 dB. Ten times the power is +10 dB; ten times the voltage is +20 dB. A bare 'dB' is only a difference. Adding a suffix fixes the reference and turns it into an absolute level.\n\ndBu is referenced to 0.775 V RMS, the voltage that delivers 1 mW into 600 Ω. Professional line level is +4 dBu, about 1.23 V. dBV is referenced to 1 V RMS. Consumer line level is −10 dBV, about 0.316 V. The two scales differ by a fixed 2.2 dB: 0 dBV = +2.2 dBu. So the gap between +4 dBu and −10 dBV is about 11.8 dB, not 14 dB. The older dBm refers to 1 mW of power and only matches dBu when the load is 600 Ω.\n\ndBFS is referenced to digital full scale, the largest value a fixed-point converter can code. Levels in dBFS are zero or negative, and nothing above 0 dBFS can be stored in fixed point. The analogue voltage that matches 0 dBFS depends on the converter's alignment; common studio and broadcast alignments put it anywhere from around +18 to +24 dBu. dB SPL measures sound pressure against 20 µPa, the nominal threshold of hearing at 1 kHz. 1 Pa is about 94 dB SPL, which is why calibrators use 94 dB and 114 dB.\n\nIn practice you move between these scales all the time. A mic turns dB SPL into a voltage in dBV. A preamp adds gain in dB and outputs dBu. A converter maps dBu to dBFS. On location, matching a mixer's output to a camera input means knowing whether each end works at mic level, −10 dBV or +4 dBu. On a PA, amplifier power follows the 10·log rule, so ten times the power gives only 10 dB more level.",
+  "keyPoints": [
+   "Power: 10·log10. Voltage and pressure: 20·log10.",
+   "0 dBu = 0.775 V; 0 dBV = 1 V; 0 dBV ≈ +2.2 dBu.",
+   "+4 dBu ≈ 1.23 V; −10 dBV ≈ 0.316 V; gap ≈ 11.8 dB.",
+   "0 dBFS is the fixed-point ceiling; its analogue level depends on alignment.",
+   "0 dB SPL = 20 µPa; 1 Pa ≈ 94 dB SPL.",
+   "A bare dB is a ratio; a suffix makes it an absolute level."
+  ],
+  "sayIt": "That number is a level relative to a reference, so +4 on the console and −10 on the camera are not the same thing; I'll match them so nothing distorts.",
+  "inPractice": "Send a 1 kHz tone at a known dBFS from your recorder and measure the output voltage with a true-RMS meter. Convert it to dBu and dBV and write down your device's alignment for the next job.",
+  "mistake": "People often treat +4 dBu and −10 dBV as 14 dB apart. Because the references differ by 2.2 dB, the real gap is about 11.8 dB.",
+  "terms": [
+   {
+    "term": "dBu",
+    "def": "Voltage level referenced to 0.775 V RMS."
+   },
+   {
+    "term": "dBV",
+    "def": "Voltage level referenced to 1 V RMS."
+   },
+   {
+    "term": "dBFS",
+    "def": "Digital level referenced to the full-scale maximum of a fixed-point system."
+   },
+   {
+    "term": "dB SPL",
+    "def": "Sound pressure level referenced to 20 µPa."
+   },
+   {
+    "term": "Alignment level",
+    "def": "The agreed relationship between an analogue level and a digital level, such as a reference tone in dBFS."
+   }
+  ],
+  "id": "L021"
+ },
+ {
+  "title": "Linear-phase vs minimum-phase EQ",
+  "topic": "Phase, polarity and time",
+  "level": "deeper",
+  "summary": "A minimum-phase EQ, like any analogue EQ, shifts phase wherever it changes gain, but adds no latency and puts all of its ringing after the input. A linear-phase EQ delays every frequency by the same amount, so it adds no phase distortion, at the cost of latency and ringing that starts before the sound it is filtering (pre-ringing).",
+  "body": "Every analogue EQ and most digital ones are minimum-phase. In a minimum-phase filter, the phase response is fixed by the magnitude response: wherever the gain changes, the phase shifts, and where the response is flat, it does not. Different frequencies come out with slightly different delays. The output never comes before the input, so the only ringing is after the event. The filter adds no latency beyond the system's normal buffer, which is why it is the right choice for tracking, live mixing and monitoring.\n\nA linear-phase EQ is built as a finite impulse response (FIR) filter with a symmetric impulse response. Every frequency is delayed by the same time, so the waveform shape is kept and only the tone changes. A symmetric FIR of N taps delays everything by (N − 1)/2 samples. That delay is the plugin's latency. A filter reporting 3072 samples of latency at 48 kHz is 64 ms late. The DAW's delay compensation hides this on playback, but it makes the plugin useless for live monitoring.\n\nThe symmetric impulse response also means that any ringing appears equally before and after the main peak. This is pre-ringing. It grows with the narrowness, depth and steepness of the EQ move and with lower frequencies, because those filters need longer impulse responses. A steep linear-phase high-pass or a narrow low-frequency cut on a kick or snare can produce an audible swell or 'suck' before each hit. Ears are much less forgiving of energy before a transient than after it, because post-ringing is masked by the transient itself.\n\nChoose by the job. Use linear-phase when you EQ one of several correlated signals and must not change their phase relationship. Examples are a snare top mic against its bottom mic, the mid or side of an M/S signal, a band in a multiband split, or parallel paths that will be summed again. In mastering it is also used for gentle broad moves. Use minimum-phase for steep or narrow corrective moves on transient material, for anything live, and whenever latency matters. On dialogue, a minimum-phase high-pass is usually the cleaner choice, because pre-ringing on plosives and footsteps is easy to hear.",
+  "keyPoints": [
+   "Minimum-phase: phase shift only where the gain changes, no latency, ringing only after the event.",
+   "Linear-phase: equal delay at all frequencies, so no phase distortion.",
+   "Symmetric FIR latency = (N − 1)/2 samples; 3072 samples at 48 kHz is 64 ms.",
+   "Pre-ringing grows with steep, narrow and low-frequency moves.",
+   "Use linear-phase on correlated or parallel signals; minimum-phase for live work and transients."
+  ],
+  "sayIt": "This EQ keeps the timing of every frequency identical, but it needs a little time to work, so we use it in the mix rather than while you are recording.",
+  "inPractice": "Put a steep 80 Hz high-pass on a dry snare, first in minimum-phase mode and then in linear-phase mode, and compare. Zoom in on the waveform and you will see energy appear before each hit in linear-phase mode; listen for the soft swell that comes with it.",
+  "mistake": "Many people assume linear-phase EQ is always higher quality. It only removes phase shift; it adds latency and pre-ringing, and on transient material a minimum-phase EQ often sounds cleaner.",
+  "terms": [
+   {
+    "term": "Minimum-phase filter",
+    "def": "A filter whose phase shift is fixed by its magnitude response and whose output never comes before its input. All analogue EQs are minimum-phase."
+   },
+   {
+    "term": "Linear-phase filter",
+    "def": "A filter that delays all frequencies by the same time, so the waveform shape is kept. In audio it is built as a symmetric FIR filter."
+   },
+   {
+    "term": "Pre-ringing",
+    "def": "Filter ringing that appears before a transient. It comes from the symmetric impulse response of a linear-phase filter."
+   },
+   {
+    "term": "Group delay",
+    "def": "The time delay a filter gives to each frequency. It is constant for a linear-phase filter and varies with frequency for a minimum-phase one."
+   },
+   {
+    "term": "Delay compensation",
+    "def": "The DAW feature that delays other tracks by a plugin's reported latency so everything stays in time."
+   }
+  ],
+  "id": "L022"
+ },
+ {
+  "title": "Clocking, jitter and sample-rate conversion",
+  "topic": "Digital audio",
+  "level": "deeper",
+  "summary": "Every digital audio device needs a sample clock, and devices that exchange digital audio must share one clock or their sample rates will drift apart. Jitter is short-term variation in the timing of that clock; it only degrades audio at the moments of conversion. Sample-rate conversion recalculates a signal at a new rate, filtering to the new Nyquist limit.",
+  "body": "When digital devices pass audio to each other, they must run at exactly the same rate. One device is the master and every other device follows it, through word clock on 75 Ω coaxial cable, through the clock embedded in an AES3 or ADAT stream, or from a video reference such as black burst or tri-level sync. If two devices each run on their own crystal, their rates differ by a few parts per million. At 48 kHz, a 20 ppm difference adds up to 1728 samples, or 36 ms, in 30 minutes. The receiver must then drop or repeat samples, and you hear periodic clicks. Daisy-chained word clock should be terminated in 75 Ω at the last device, or reflections can make the clock unreliable.\n\nJitter is the random or periodic wobble in the timing of each clock edge. Interface jitter on a cable only matters if it causes data errors. It does not change the samples themselves. Sampling jitter at the ADC or DAC does matter, because a sample taken or played at the wrong moment has the wrong value. For a full-scale sine, the best possible signal-to-noise ratio is SNR = −20·log10(2π·f·tj), where tj is the RMS jitter. At 1 kHz with 1 ns of jitter, that is about 104 dB. At 20 kHz it falls to about 78 dB. Good converters use a phase-locked loop (PLL) to clean up an incoming clock. Independent tests have shown that an external master clock rarely improves a good converter's internal clock, and can make it slightly worse.\n\nSample-rate conversion (SRC) rebuilds the signal at a new rate. When going down, it must low-pass filter below the new Nyquist frequency to stop aliasing. 96 kHz to 48 kHz is a simple 2:1 ratio. 48 kHz to 44.1 kHz is a ratio of 147/160. Synchronous SRC works between rates locked to the same clock. Asynchronous SRC (ASRC) also tracks two independent clocks, which is how many digital inputs accept an unlocked source.\n\nIn film and TV, sample rate and speed are linked. Pull-down slows audio by 0.1% (a factor of 1000/1001) to follow picture running at 23.976 or 29.97 fps. A 60-minute 48 kHz take played at 48 000/1.001 Hz lasts 60 minutes 3.6 seconds. On location, keep recorder and camera on the same project rate and frame rate, and jam timecode. In the studio, choose one clock master and check every device reports it is locked.",
+  "keyPoints": [
+   "One master clock; every other device locks to it.",
+   "Unlocked devices drift: 20 ppm at 48 kHz is 36 ms in 30 minutes.",
+   "Only jitter at the ADC or DAC degrades the audio.",
+   "Jitter-limited SNR = −20·log10(2π·f·tj).",
+   "Downward SRC must filter below the new Nyquist frequency.",
+   "Pull-up and pull-down change speed by 0.1% (1000/1001)."
+  ],
+  "sayIt": "All the digital gear has to tick to the same clock, otherwise the audio slowly slips out of step and starts to click.",
+  "inPractice": "Before the next multi-device session, draw the clock chain on paper: name the master, then check each device's lock indicator and sample-rate display. Leave a 10-minute test recording running and listen for clicks at the end before you commit to the take.",
+  "mistake": "People often buy an external master clock expecting better sound from one converter. A good converter usually performs best on its own internal clock; an external clock exists to keep several devices in step.",
+  "terms": [
+   {
+    "term": "Word clock",
+    "def": "A square-wave clock at the sample rate, sent on 75 Ω coaxial cable, used to lock digital devices together."
+   },
+   {
+    "term": "Jitter",
+    "def": "Short-term variation in the timing of clock edges. It degrades audio only at the point of conversion."
+   },
+   {
+    "term": "PLL",
+    "def": "Phase-locked loop: a circuit that locks a local oscillator to an incoming clock and filters out much of its jitter."
+   },
+   {
+    "term": "ASRC",
+    "def": "Asynchronous sample-rate converter: converts between two clocks that are not locked to each other."
+   },
+   {
+    "term": "Pull-down",
+    "def": "Slowing audio by 0.1% (1000/1001) to match picture running at 23.976 or 29.97 fps."
+   }
+  ],
+  "id": "L023"
+ },
+ {
+  "title": "Stereo mic techniques compared",
+  "topic": "Microphones",
+  "level": "core",
+  "summary": "Stereo mic techniques create an image from level differences, time differences or both. Coincident pairs (XY, Blumlein, M/S) use level only and fold to mono cleanly. Spaced pairs (AB, Decca Tree) use time differences and give more spaciousness, at the cost of mono compatibility. Near-coincident pairs (ORTF) combine the two.",
+  "body": "Coincident pairs place two capsules as close together as possible, so sound reaches both at the same time. XY uses two cardioids angled between about 90° and 135°. Blumlein uses two figure-8s at 90°. It picks up the rear as strongly as the front, so the room becomes part of the sound. Sources in the side quadrants come out in opposite polarity in the two channels. Sources behind the pair appear mirrored, so rear-left is heard on the right. Because coincident pairs have no time differences, the mono sum has no comb filtering.\n\nM/S uses a forward-facing mid mic (often a cardioid) and a sideways figure-8. You decode it as L = M + S and R = M − S, with the positive lobe of the figure-8 facing left. Raising S widens the image; muting S leaves pure mono from the mid mic. Width can be set after the recording, which is why M/S is common on location for film and TV. An M/S shotgun fits on a single boom pole, and the mid channel alone is a usable mono track.\n\nSpaced pairs (AB) use two mics, usually omnis, from about 40 cm to a few metres apart. Time differences create the image and give a strong sense of space. Omnis also tend to have better low-frequency extension than directional mics. Summed to mono, the time differences turn into comb filtering. With 60 cm spacing, a source fully to one side arrives 1.75 ms later at the far mic, which puts the first mono notch near 286 Hz. The Decca Tree is a spaced array of three omnis. Left and right are about 2 m apart, with a centre mic forward of them. It is placed above and behind the conductor and is standard for orchestral film scoring, often with outrigger mics.\n\nNear-coincident pairs mix the two cues. ORTF uses two cardioids 17 cm apart at 110°. The largest time difference is about 0.5 ms. NOS uses 30 cm and 90°. In practice, use XY or M/S when mono compatibility matters, as in broadcast, dialogue ambiences and overheads that may fold down. Use AB or a Decca Tree for large, natural rooms. Use ORTF as a dependable all-rounder on drums, choirs and ensembles.",
+  "keyPoints": [
+   "Coincident (XY, Blumlein, M/S): level differences only, clean mono sum.",
+   "Spaced (AB, Decca): time differences, spacious, comb filtering in mono.",
+   "ORTF: cardioids 17 cm apart at 110°; NOS: 30 cm at 90°.",
+   "M/S decode: L = M + S, R = M − S; width is adjustable afterwards.",
+   "Blumlein hears the rear fully and mirrors it left to right.",
+   "Decca Tree: three omnis, standard for orchestral film scoring."
+  ],
+  "sayIt": "We are using two mics arranged so the recording keeps where everything sits from left to right, and it will still sound right if someone plays it in mono.",
+  "inPractice": "On your next room or ambience recording, set up an M/S pair and a 60 cm AB pair side by side. Fold both to mono and compare: the M/S pair should only lose width, while the AB pair will change in tone as well.",
+  "mistake": "A common belief is that wider spacing always means a better stereo image. Too wide an AB pair leaves a 'hole in the middle', and any spacing adds comb filtering when the mix folds to mono.",
+  "terms": [
+   {
+    "term": "Coincident pair",
+    "def": "Two capsules placed at the same point, so the stereo image comes from level differences only."
+   },
+   {
+    "term": "Spaced pair (AB)",
+    "def": "Two mics, usually omnis, set apart so the stereo image comes mainly from time differences."
+   },
+   {
+    "term": "ORTF",
+    "def": "A near-coincident pair of cardioids 17 cm apart, angled at 110°."
+   },
+   {
+    "term": "M/S",
+    "def": "Mid-side: a forward mid mic and a sideways figure-8, decoded as L = M + S and R = M − S."
+   },
+   {
+    "term": "Decca Tree",
+    "def": "Three spaced omnis, with the centre mic forward of the left and right pair, used mainly for orchestras."
+   }
+  ],
+  "id": "L024"
+ },
+ {
+  "title": "Proximity effect and off-axis colour",
+  "topic": "Microphones",
+  "level": "deeper",
+  "summary": "Proximity effect is the rise in bass response of a pressure-gradient (directional) mic when the source is close. Off-axis response is how a mic's frequency response changes away from its main axis. Both decide how close sources and spill sound, not just how loud they are.",
+  "body": "A pressure-gradient mic responds to the difference in pressure between the front and back of its diaphragm. Far from a source, that difference grows with frequency, and the mic's design corrects for it. Close to a small source, the sound waves are curved and the level falls quickly with distance. That adds an extra part to the pressure difference that does not depend on frequency. At low frequencies, this near-field part dominates, so the bass rises. A pure pressure mic (an omni) has no proximity effect.\n\nFor an ideal point source and a figure-8 mic, the bass rise compared with the far field is √(1 + 1/(kr)²), where k = 2πf/c and r is the distance. It reaches +3 dB where kr = 1, that is f = c/(2πr). At 10 cm that is about 546 Hz. A cardioid is half pressure and half gradient, so its rise is √(1 + 1/(2kr)²). It reaches +3 dB at half that frequency, about 273 Hz at 10 cm, and is about 6 dB less than a figure-8's at very low frequencies. Well below that frequency, each halving of distance adds about 6 dB of bass relative to the mids. That is on top of the general level rise.\n\nOff-axis response is a separate effect. An ideal cardioid is 6 dB down at 90° and has its null at 180°. Real mics drift from the ideal at the extremes of the spectrum. At high frequencies, the diaphragm and body become large compared with the wavelength. A 25 mm diaphragm equals one wavelength at about 13.7 kHz, so sound from the side partly cancels across its surface and the mic becomes more directional. Off-axis sound becomes duller and often uneven. Shotgun mics are very directional at high frequencies but much less so in the bass, and their off-axis sound is clearly coloured.\n\nThis shapes daily work. A singer who 'works the mic' uses proximity effect as an EQ. A presenter who leans in sounds boomy. On a boom, keep the distance and angle consistent, because the tone of the dialogue changes with both. Lavaliers are usually omnis, partly to avoid proximity effect so close to the mouth. Spill from cymbals into a tom mic, or from the band into a vocal mic, arrives off-axis, so the tone of that spill matters as much as its level. A bass-cut switch on the mic or preamp counters proximity effect at short distances.",
+  "keyPoints": [
+   "Only pressure-gradient (directional) mics show proximity effect.",
+   "Figure-8: +3 dB at f = c/(2πr); about 546 Hz at 10 cm.",
+   "Cardioid: +3 dB at half that frequency; about 6 dB less bass rise than a figure-8.",
+   "Well below the corner, halving the distance adds about 6 dB of bass.",
+   "Ideal cardioid: −6 dB at 90°, null at 180°.",
+   "Off-axis sound usually gets duller as frequency rises."
+  ],
+  "sayIt": "The closer you get to this mic, the more bass it gives you, so keep a steady distance and your voice will stay the same.",
+  "inPractice": "Record a talker at 5, 10, 20 and 40 cm on a cardioid, then match the levels and compare the low end. Repeat with a figure-8 ribbon and an omni, and note which mic changes most.",
+  "mistake": "Some people think proximity effect is just the mic getting louder when you get closer. It is a change in tonal balance: the bass rises more than the mids, and only on directional mics.",
+  "terms": [
+   {
+    "term": "Proximity effect",
+    "def": "The rise in bass response of a pressure-gradient mic when the source is close."
+   },
+   {
+    "term": "Pressure-gradient mic",
+    "def": "A mic that responds to the pressure difference between the two sides of its diaphragm. Figure-8s are pure gradient; cardioids are partly gradient."
+   },
+   {
+    "term": "Near field",
+    "def": "The region close to a source where the waves are strongly curved and level falls quickly with distance."
+   },
+   {
+    "term": "Off-axis colouration",
+    "def": "The change in a mic's frequency response for sound arriving away from its main axis."
+   },
+   {
+    "term": "Bass-cut switch",
+    "def": "A built-in high-pass filter used to counter proximity effect and low-frequency rumble."
+   }
+  ],
+  "id": "L025"
+ },
+ {
+  "title": "Limiters, true peak, gates and expanders",
+  "topic": "Processing",
+  "level": "core",
+  "summary": "A limiter is a fast, high-ratio compressor that holds peaks under a ceiling. Sample-peak meters can miss the true peak of the reconstructed waveform, which can lie between samples; true-peak meters oversample to find it. Gates and downward expanders do the opposite of a compressor: they turn down signals below a threshold.",
+  "body": "A limiter is a compressor with a very high ratio, usually 10:1 or more, and a fast attack. A brickwall limiter aims for an infinite ratio, so nothing passes the ceiling. To catch fast transients without distortion, many limiters use lookahead. They delay the audio by a few milliseconds so the gain can start to fall before the peak arrives. 5 ms of lookahead at 48 kHz is 240 samples of latency. Fast release on bass-heavy material modulates the waveform and adds distortion, so good limiters use adaptive or program-dependent release.\n\nA sample-peak meter only reads the values of the samples. The DAC rebuilds a smooth waveform that can rise above them, between samples. These are inter-sample peaks. A sine at a quarter of the sample rate, sampled 45° away from its crests, has every sample at 0.707 of the true peak. Normalised to 0 dBFS samples, its true peak is +3 dB. ITU-R BS.1770 defines true-peak measurement. It oversamples the signal, at least 4× at 48 kHz, and reports the result in dBTP. EBU R128 sets a −1 dBTP maximum, and ATSC A/85 recommends −2 dBTP. Lossy codecs can also raise peaks, so leave more headroom for streaming encodes. Use a true-peak limiter or an oversampled limiter as the last stage of a master.\n\nA downward expander increases the dynamic range below its threshold. With a 1:2 ratio and a threshold of −40 dBFS, a −50 dBFS input comes out at −60 dBFS. A gate is an expander with a very high ratio. The range (or depth) control sets the most attenuation it can apply. Hold keeps it open for a set time after the signal drops. Hysteresis sets the close threshold lower than the open threshold, so it does not chatter on signals that hover near the threshold. A key (sidechain) filter makes the detector listen to only part of the spectrum.\n\nIn the studio, gate toms with the key filter tuned to the drum, so snare and cymbals do not open them. Use a small range rather than full muting so the kit still sounds natural. In post, a gentle expander with 6–10 dB of range lowers room tone and noise between dialogue lines with fewer audible jumps than a hard gate. Live, gates on toms and expanders on lectern mics reduce spill and help gain before feedback. For delivery, check the spec's true-peak limit and meter in dBTP, not just sample peaks.",
+  "keyPoints": [
+   "Limiter: ratio 10:1 or more, fast attack; brickwall aims for ∞:1.",
+   "Lookahead removes overshoot but adds latency (5 ms = 240 samples at 48 kHz).",
+   "Inter-sample peaks can exceed sample peaks; meter in dBTP.",
+   "EBU R128: −1 dBTP max; ATSC A/85: −2 dBTP.",
+   "Expander 1:2 below threshold: every 1 dB down becomes 2 dB down.",
+   "Gate controls: threshold, range, attack, hold, release, hysteresis, key filter."
+  ],
+  "sayIt": "The limiter stops the loudest moments from going over, and the gate quietly turns the mic down when nobody is playing into it.",
+  "inPractice": "Take a finished master that peaks at 0 dBFS on a sample-peak meter and put a true-peak meter on it. Note how far over 0 dBTP it goes, then set a true-peak limiter to the delivery ceiling and check again after encoding to AAC.",
+  "mistake": "Many engineers assume a master that peaks at 0 dBFS on a sample meter cannot clip. The reconstructed waveform can exceed 0 dBFS between samples, so a DAC or codec can clip it; measure true peak instead.",
+  "terms": [
+   {
+    "term": "Limiter",
+    "def": "A compressor with a very high ratio and fast attack that holds the signal under a ceiling."
+   },
+   {
+    "term": "Inter-sample peak",
+    "def": "A peak in the reconstructed analogue waveform that lies between samples and is higher than any sample value."
+   },
+   {
+    "term": "True peak (dBTP)",
+    "def": "The peak level of the reconstructed waveform, measured by oversampling as defined in ITU-R BS.1770."
+   },
+   {
+    "term": "Downward expander",
+    "def": "A processor that reduces level below a threshold by a ratio, increasing the dynamic range of quiet signals."
+   },
+   {
+    "term": "Hysteresis",
+    "def": "A gap between a gate's open and close thresholds that stops it chattering on signals near the threshold."
+   },
+   {
+    "term": "Range",
+    "def": "The maximum attenuation a gate or expander can apply."
+   }
+  ],
+  "id": "L026"
+ },
+ {
+  "title": "Reverb and delay design",
+  "topic": "Processing",
+  "level": "core",
+  "summary": "Artificial reverb and delay are built from delayed copies of a signal. Pre-delay sets the gap before the reverb starts, early reflections suggest the size and shape of the space, and decay time and damping set how long the tail lasts and how its tone changes. In a delay, feedback sets how quickly the repeats die away.",
+  "body": "In a real room, the direct sound arrives first, then a set of early reflections, then a dense, decaying tail. Reverb plugins copy this structure. Pre-delay sets the gap between the direct sound and the start of the reverb. In concert-hall acoustics, the gap before the first reflection is called the initial time delay gap. Sound travels about 34 cm per millisecond, so a reflection with 6.86 m of extra path arrives 20 ms after the direct sound. Longer pre-delay keeps a vocal or dialogue line clear of its reverb, and makes a space feel larger without a longer tail.\n\nEarly reflections, roughly the first 50 to 80 ms, tell the ear about the size and shape of the space and the source's position in it. Decay time is usually given as RT60, the time for the tail to fall by 60 dB. Damping makes high frequencies die away faster than low ones, as air and soft surfaces do in real rooms. More damping gives a darker, more natural tail that sits behind the mix. Many reverbs also have a bass multiplier for the decay at low frequencies. Diffusion sets how quickly the echoes blur into a smooth tail.\n\nA feedback delay sends part of its output back to its input. With feedback gain g, each repeat is 20·log10(g) dB below the last. At 50% (g = 0.5) each repeat is about 6 dB down, so it takes about 10 repeats to fall 60 dB. With a 375 ms delay that is about 3.7 s. Gain at or above 1 never decays and runs away. Short delays with feedback form a feedback comb filter with resonant peaks every 1/t Hz. A 5 ms loop rings at 200, 400, 600 Hz and so on, which is the metallic tone of flanging and of a badly tuned reverb. Algorithmic reverbs avoid this by mixing many such loops of unrelated lengths, as in Schroeder designs and feedback delay networks.\n\nIn practice, set the pre-delay first, then the decay, then the damping. For music, delay times are often set to tempo: a quarter note at 100 BPM is 600 ms. In post, match a reverb to the location by its early reflections and decay, and use damping so ADR sits with production dialogue. Live, keep reverb tails short in reverberant venues, because the room adds its own decay.",
+  "keyPoints": [
+   "Pre-delay: gap before the reverb; about 2.9 ms per metre of extra path.",
+   "Early reflections give size, shape and position cues.",
+   "RT60 is the time for the tail to fall by 60 dB.",
+   "Damping shortens the high-frequency decay.",
+   "Each repeat falls by 20·log10(g) dB; g = 0.5 gives about 6 dB per repeat.",
+   "A short feedback loop rings at multiples of 1/t."
+  ],
+  "sayIt": "The gap before the reverb lets your voice speak clearly first, and then the space blooms behind it.",
+  "inPractice": "On a dry vocal, set a plate to 2 s decay and sweep the pre-delay from 0 to 60 ms. Note where the words stay clear but the space still feels joined to the voice, then adjust the damping until the tail stops competing with the consonants.",
+  "mistake": "People often lengthen the decay to make a space sound bigger, and the mix turns muddy. Pre-delay and early reflections convey size more cleanly; keep the tail only as long as the tempo or scene allows.",
+  "terms": [
+   {
+    "term": "Pre-delay",
+    "def": "The time between the direct sound and the start of the reverb."
+   },
+   {
+    "term": "Early reflections",
+    "def": "The first distinct reflections, roughly within 50–80 ms, which give cues about the size and shape of a space."
+   },
+   {
+    "term": "RT60",
+    "def": "The time it takes for the reverb tail to decay by 60 dB."
+   },
+   {
+    "term": "Damping",
+    "def": "A control that makes high frequencies decay faster than low frequencies."
+   },
+   {
+    "term": "Feedback",
+    "def": "The part of a delay's output fed back to its input, which sets how many repeats you hear."
+   },
+   {
+    "term": "Initial time delay gap",
+    "def": "In concert-hall acoustics, the time between the direct sound and the first reflection."
+   }
+  ],
+  "id": "L027"
+ },
+ {
+  "title": "Dolby Atmos: beds, objects and re-renders",
+  "topic": "Film and post",
+  "level": "deeper",
+  "summary": "Dolby Atmos mixes combine beds, which are channel-based stems tied to fixed speaker positions, with objects, which are audio plus position metadata. A renderer turns both into speaker feeds or a binaural headphone signal at playback, so one master can play on many speaker layouts.",
+  "body": "A bed is a channel-based stem, up to 7.1.2: L, R, C, LFE, two side surrounds, two rear surrounds and two top surrounds. Each bed channel goes to a fixed place. Beds suit ambiences, music stems and anything you would mix in channels anyway. The LFE channel exists only in a bed. An object is a mono signal with metadata, mainly X, Y and Z position and size. It has no fixed speaker. The renderer works out which speakers play it, based on the layout in the room.\n\nThe Dolby Atmos Renderer accepts 128 inputs. A typical session uses one 7.1.2 bed (10 channels), which leaves 118 objects. Every extra bed costs inputs: two 7.1.2 beds leave 108. Dialogue is often kept as objects or in the bed centre, depending on the facility and the deliverable. Because the speaker feeds are computed at playback, the same master plays on 7.1.4, 9.1.6 or a soundbar. The master is delivered as an ADM BWF file or a Dolby Atmos master file set. Consumer codecs such as Dolby Digital Plus with Joint Object Coding use spatial coding, which groups objects into a smaller number of elements.\n\nHeadphones get a binaural render. Each object has a binaural render mode: Off, Near, Mid or Far. This setting only changes the headphone render. It does nothing to speaker playback. Near keeps a sound close to the head; Far adds more distance and room. Check the binaural render on real headphones, because many listeners will hear the mix that way.\n\nThe renderer can also make channel-based re-renders, such as 7.1, 5.1 and 2.0. Trim and downmix controls set how heights and surrounds fold into smaller layouts. A standard Lo/Ro stereo downmix (ITU-R BS.775) adds the centre and surrounds to left and right at −3 dB. Lt/Rt instead matrix-encodes surround information for a decoder. Re-renders are where problems appear: dialogue masked by folded-down effects, phasey height content, or a loudness change. Listen to every re-render you deliver and measure its loudness separately.",
+  "keyPoints": [
+   "Bed = channels at fixed positions, up to 7.1.2; object = mono audio + position metadata.",
+   "Renderer: 128 inputs. One 7.1.2 bed (10 ch) leaves 118 objects.",
+   "LFE exists only in a bed; objects have no LFE send.",
+   "Binaural render mode (Off/Near/Mid/Far) affects headphones only.",
+   "Re-renders (5.1, 2.0) depend on trim and downmix settings: always listen to them.",
+   "Lo/Ro stereo adds centre and surrounds at −3 dB."
+  ],
+  "sayIt": "In Atmos, some sounds are locked to channels and others carry their own position, so the same mix adapts to cinemas, living rooms and headphones.",
+  "inPractice": "On your next Atmos mix, solo the 2.0 re-render for a dialogue-heavy scene and compare it with the 7.1.4 playback. Note where effects mask speech and adjust the trims or the object balance, then re-measure loudness on each deliverable.",
+  "mistake": "Assuming the binaural setting also changes the speaker mix. It only changes the headphone render, so judge Near/Mid/Far on headphones, not on the room speakers.",
+  "terms": [
+   {
+    "term": "Bed",
+    "def": "Channel-based stem (up to 7.1.2) with each channel tied to a fixed speaker position."
+   },
+   {
+    "term": "Object",
+    "def": "Mono audio plus metadata (position, size) that the renderer places at playback."
+   },
+   {
+    "term": "Renderer",
+    "def": "Software or hardware that turns beds and object metadata into speaker or headphone feeds."
+   },
+   {
+    "term": "Re-render",
+    "def": "A channel-based version (e.g. 5.1, 2.0) generated from the Atmos mix."
+   },
+   {
+    "term": "ADM BWF",
+    "def": "Broadcast WAV file carrying audio plus Audio Definition Model metadata; a common Atmos master format."
+   }
+  ],
+  "id": "L028"
+ },
+ {
+  "title": "Cardioid sub arrays and end-fire",
+  "topic": "Live sound",
+  "level": "deeper",
+  "summary": "Subwoofers are almost omnidirectional, so arrays use spacing, delay and sometimes polarity inversion to add in front and cancel behind. The two common forms are the gradient (cardioid) pair and the end-fire line.",
+  "body": "A single sub radiates nearly equally in all directions, because its wavelengths are much larger than the box. To steer it you need more than one source. You set delay and polarity so the sources add in one direction and cancel in another. All the maths comes from path difference: sound travels about 0.343 m per millisecond, so a spacing d corresponds to a time of d/c.\n\nIn a gradient pair, a rear sub sits a distance d behind the front sub, with its polarity reversed and a delay of d/c. Behind the array, the front sub's sound has to travel the extra distance d, so it arrives at the same moment as the delayed rear sub. Equal level and opposite polarity cancel. In front, the rear sub's sound arrives 2d/c late and inverted. At the frequency where d is a quarter wavelength, that delay is half a period, so the inversion turns it back into addition: about +6 dB. At low frequencies the front sum falls, so gradient arrays usually need EQ. Where d is half a wavelength, the front sum cancels. With d = 0.86 m that happens near 200 Hz, usually above the sub band.\n\nIn an end-fire line, all subs face the audience with normal polarity. They are spaced along the throw axis, often around 1 m, and each sub further forward is delayed by d/c relative to the one behind it. In front, every wavefront arrives together and adds. Behind, adjacent subs arrive 2d/c apart, so the sum cancels at some frequencies and only partly at others. For two subs, the deepest rear cancellation is where 2d is half a wavelength, f = c/4d: about 86 Hz for 1 m. More elements widen the rear rejection range.\n\nIn practice, rear rejection is never perfect across the whole band. It depends on matched boxes, accurate delays and temperature. Measure behind the array, at the stage or the mix position, and check the front response at the audience. Cardioid subs reduce low-frequency build-up on stage and help keep the low end out of microphones and monitors.",
+  "keyPoints": [
+   "Delay per metre: d/c, about 2.92 ms per metre at 343 m/s.",
+   "Gradient pair: rear sub inverted and delayed by d/c; cancels behind.",
+   "End-fire: all same polarity, each forward sub delayed by d/c; adds in front.",
+   "Two-element end-fire rear null: f = c/4d (≈86 Hz at 1 m).",
+   "Rejection is frequency-dependent: always measure front and back."
+  ],
+  "sayIt": "We arrange and delay the subs so the bass adds up towards the audience and cancels on stage, which keeps the stage cleaner and the mix tighter.",
+  "inPractice": "When you set up a two-box end-fire, set the front box delay to spacing ÷ 343 in milliseconds, then measure with a mic 5 m behind and 5 m in front. Note the frequency of the deepest rear null and compare it with c/4d.",
+  "mistake": "Thinking end-fire needs a polarity flip like a gradient pair. End-fire uses only spacing and delay; the polarity inversion belongs to the gradient (cardioid) arrangement.",
+  "terms": [
+   {
+    "term": "Gradient array",
+    "def": "Front sub plus a rear sub with reversed polarity and delay d/c, cancelling behind."
+   },
+   {
+    "term": "End-fire array",
+    "def": "Subs in a line along the throw axis, delayed so their outputs add in front."
+   },
+   {
+    "term": "Path difference",
+    "def": "Difference in distance travelled by two sounds; divided by c it gives the time difference."
+   },
+   {
+    "term": "Rear rejection",
+    "def": "How much lower the level is behind an array than in front, at a given frequency."
+   }
+  ],
+  "id": "L029"
+ },
+ {
+  "title": "RF coordination and intermodulation",
+  "topic": "Live sound",
+  "level": "core",
+  "summary": "When two or more radio transmitters operate near each other, non-linear circuits mix their signals and create new frequencies called intermodulation products. Frequency coordination chooses channels so these products do not land on any frequency in use.",
+  "body": "Intermodulation happens in any non-linear stage: transmitter output stages, receiver front ends and amplifiers. Two carriers f1 and f2 produce sums and differences of their multiples. The ones that matter most are the third-order products, 2f1 − f2 and 2f2 − f1. They fall close to the original carriers, inside the same band, so a receiver cannot filter them out. With three or more transmitters you also get three-transmitter products such as f1 + f2 − f3. Fifth-order products, such as 3f1 − 2f2, are weaker but can still matter in a crowded plan.\n\nThe arithmetic is simple. If f1 = 550.000 MHz and f2 = 550.400 MHz, the third-order products sit at 549.600 and 550.800 MHz. That is one spacing below and one spacing above the pair. This leads to an important rule: equally spaced channels clash. With 600.0, 600.5 and 601.0 MHz, 2 × 600.5 − 600.0 = 601.0 MHz, which lands right on the third carrier. The number of products grows fast. N transmitters give N(N − 1) two-transmitter third-order products, so 4 transmitters give 12 and 10 transmitters give 90.\n\nThird-order products also rise faster than the signals that create them. In the ideal model, a 1 dB increase in both carriers raises the third-order products by 3 dB. That is why transmitter power, distance between transmitters and gain staging matter. Bodypacks touching each other in a rack or on a costume rail produce strong products. In-ear monitor transmitters are high-power and run continuously, so they are a classic source. Combine them through a proper combiner and keep their antennas apart from receive antennas.\n\nIn practice, use coordination software or the manufacturer's tools, which calculate the products and check them against your channels and a scan of the venue. In the EU, the UHF TV band now ends at 694 MHz after the 700 MHz band was reassigned to mobile services, so available space is tighter. Licensing and allowed frequencies are set nationally, so check the rules where you work. Always scan the venue first, then coordinate, then do a walk test with every transmitter on.",
+  "keyPoints": [
+   "Third-order IMD: 2f1 − f2 and 2f2 − f1, close to the carriers.",
+   "Equally spaced channels put IMD products on other carriers.",
+   "N transmitters → N(N − 1) two-transmitter third-order products.",
+   "1 dB more drive → about 3 dB more third-order product.",
+   "Separate transmitters, combine IEMs, scan and walk-test."
+  ],
+  "sayIt": "Radio mics can create interference between themselves, so we plan the frequencies as a set and test them all running together before the show.",
+  "inPractice": "Before your next multi-channel job, take your planned frequencies and calculate 2f1 − f2 and 2f2 − f1 for each pair by hand or in a spreadsheet. Compare the result with your coordination software, then walk-test with all transmitters and IEMs on.",
+  "mistake": "Picking channels with neat, equal spacing because it looks tidy. Equal spacing guarantees third-order products land on other channels; coordinated plans look irregular for a reason.",
+  "terms": [
+   {
+    "term": "Intermodulation (IMD)",
+    "def": "New frequencies created when two or more signals pass through a non-linear stage."
+   },
+   {
+    "term": "Third-order product",
+    "def": "IMD product such as 2f1 − f2; strong and close to the carriers."
+   },
+   {
+    "term": "Frequency coordination",
+    "def": "Choosing a set of channels so no IMD product or outside signal lands on a channel in use."
+   },
+   {
+    "term": "Combiner",
+    "def": "Device that joins several transmitter outputs into one antenna while limiting interaction between them."
+   },
+   {
+    "term": "Walk test",
+    "def": "Moving a transmitter around the performance area while monitoring receivers for dropouts and noise."
+   }
+  ],
+  "id": "L030"
+ },
+ {
+  "title": "Bass traps, absorbers and diffusers",
+  "topic": "Studio acoustics and monitoring",
+  "level": "core",
+  "summary": "Porous absorbers turn sound into heat as air moves through them, so they work where particle velocity is high. Pressure-based traps work where pressure is high, and diffusers scatter sound instead of absorbing it.",
+  "body": "A porous absorber, such as mineral wool or open-cell foam, works by friction. Air particles move through the fibres and lose energy as heat. At a rigid wall the air cannot move, so particle velocity is zero there and pressure is at its maximum. Velocity reaches its first maximum a quarter wavelength from the wall. This is the quarter-wavelength rule: a porous absorber works well down to roughly the frequency whose quarter wavelength equals its depth from the wall. A 0.20 m depth (material plus air gap) reaches λ/4 at about 429 Hz. For 100 Hz, λ/4 is about 0.86 m. Below that frequency absorption falls off gradually rather than stopping.\n\nThat is why thin foam tiles control the highs but leave the bass untouched. It is also why spacing a panel off the wall helps: an air gap moves the material towards higher velocity and extends useful absorption lower. Thick porous traps across corners give large depth from both walls. Every room mode has a pressure maximum in the corners, which also makes corners the natural place for pressure-based traps.\n\nPressure-based traps include membrane (panel) absorbers and Helmholtz resonators. A membrane trap has a sealed air space behind a limp panel. The panel and air spring resonate and absorb a band around their resonant frequency. These traps work best where pressure is high, at boundaries and in corners. They are tuned, so they target a specific problem, such as a strong mode you have measured.\n\nAbsorption is given by a coefficient α from 0 (all reflected) to 1 (all absorbed), and it varies with frequency. Diffusers do something different. A quadratic residue diffuser (QRD) has wells whose depths follow s = n² mod N for a prime N; for N = 7 the sequence is 0, 1, 4, 2, 2, 4, 1. The wells scatter reflections over many directions, so energy stays in the room but no single strong reflection arrives at the listener. Deeper wells are needed to work at lower frequencies. Measure the room before and after any treatment.",
+  "keyPoints": [
+   "Porous absorbers need particle velocity: max at λ/4 from a wall.",
+   "Depth of 0.20 m reaches λ/4 at about 429 Hz; 100 Hz needs about 0.86 m.",
+   "Air gaps and thick corner traps extend porous absorption lower.",
+   "Membrane and Helmholtz traps work on pressure, best at walls and corners.",
+   "Diffusers scatter energy; QRD wells follow n² mod N."
+  ],
+  "sayIt": "Thin panels only tame the treble; to control the bass we need deep traps in the right places, and diffusers to keep the room sounding open.",
+  "inPractice": "Measure a room's low-frequency response at the listening position, then add thick porous traps across the front corners and measure again. Compare the decay of the strongest modes in a waterfall plot, not just the level.",
+  "mistake": "Calling thin foam a 'bass trap'. A 5 cm panel flat on a wall barely affects frequencies below a few hundred hertz; low-frequency control needs depth or a tuned pressure trap.",
+  "terms": [
+   {
+    "term": "Porous absorber",
+    "def": "Material that absorbs by friction as air moves through it, e.g. mineral wool."
+   },
+   {
+    "term": "Absorption coefficient (α)",
+    "def": "Fraction of incident sound energy absorbed at a given frequency, from 0 to 1."
+   },
+   {
+    "term": "Membrane absorber",
+    "def": "Panel over a sealed air space that resonates and absorbs a low-frequency band."
+   },
+   {
+    "term": "Quadratic residue diffuser",
+    "def": "Diffuser with well depths set by n² mod N, scattering reflections over many angles."
+   }
+  ],
+  "id": "L031"
+ },
+ {
+  "title": "FM and granular synthesis",
+  "topic": "Sound design and synthesis",
+  "level": "deeper",
+  "summary": "FM synthesis uses one oscillator to modulate the frequency of another, creating sidebands whose strength depends on the modulation index. Granular synthesis builds sound from many very short, enveloped grains taken from a sample or oscillator.",
+  "body": "In FM, a modulator at fm changes the frequency of a carrier at fc. The result has sidebands at fc ± n·fm. The modulation index I = Δf / fm sets how much energy moves into the sidebands, where Δf is the peak frequency deviation. The amplitude of each sideband follows a Bessel function, Jn(I). As the index rises, energy spreads further out and the sound gets brighter. The carrier itself can disappear: J0 is zero at an index of about 2.405. Carson's rule estimates the bandwidth as 2(Δf + fm). With fm = 200 Hz and Δf = 600 Hz, that is about 1600 Hz.\n\nThe carrier-to-modulator ratio (C:M) sets the type of spectrum. Simple integer ratios such as 1:1 or 1:2 give harmonic spectra. Sidebands below 0 Hz fold back as positive frequencies with inverted phase, which also lands on harmonics with integer ratios. Non-integer ratios, such as 1:1.414, give inharmonic spectra that suit bells, metal and clangs. John Chowning described the technique in 1973. Yamaha's DX7 used six operators arranged in 32 algorithms; in practice its oscillators use phase modulation, which behaves very much like FM. Envelopes on the modulator levels make the brightness change over time, which is the key to expressive FM sounds.\n\nGranular synthesis cuts a source into grains, usually between about 1 and 100 ms long. Each grain gets a smooth window, such as a Gaussian or Hann shape, to avoid clicks. The main controls are grain size, density (grains per second), read position, pitch and random spread (jitter) on these values. Overlap is size times density: 50 ms grains at 40 per second give an average of two grains at once. At low density you hear separate particles; at high density they fuse into a continuous texture.\n\nBecause read position and grain pitch are independent, granular methods can stretch time without changing pitch, or change pitch without changing duration. Freezing the read position turns one moment of a recording into a sustained pad. In sound design this gives ambiences, risers and tonal beds from production sound or effects, while staying connected to the original source.",
+  "keyPoints": [
+   "FM sidebands at fc ± n·fm; strength set by Bessel functions of I.",
+   "Index I = Δf / fm; more index, brighter sound.",
+   "Carson's rule: bandwidth ≈ 2(Δf + fm).",
+   "Integer C:M → harmonic; non-integer → inharmonic (bells).",
+   "Grains about 1–100 ms, windowed; overlap = size × density.",
+   "Granular separates time from pitch."
+  ],
+  "sayIt": "FM gets complex tones from just a few oscillators, and granular rebuilds a recording from tiny slices so we can stretch or freeze it without changing its pitch.",
+  "inPractice": "Take a 3-second production effect, load it into a granular instrument and freeze the read position on its most interesting moment. Then raise density until the grains fuse, and add a little position jitter to build a usable ambience bed.",
+  "mistake": "Thinking the modulator frequency alone sets FM brightness. Brightness is mainly set by the index (deviation relative to fm); the ratio sets where the partials fall.",
+  "terms": [
+   {
+    "term": "Carrier",
+    "def": "The oscillator you hear, whose frequency is being modulated."
+   },
+   {
+    "term": "Modulator",
+    "def": "The oscillator that varies the carrier's frequency."
+   },
+   {
+    "term": "Modulation index (I)",
+    "def": "Peak frequency deviation divided by the modulator frequency."
+   },
+   {
+    "term": "Grain",
+    "def": "A very short, windowed slice of sound, usually about 1–100 ms."
+   },
+   {
+    "term": "Density",
+    "def": "Number of grains started per second."
+   }
+  ],
+  "id": "L032"
+ },
+ {
+  "title": "Backups, naming and session handover",
+  "topic": "Professional practice",
+  "level": "core",
+  "summary": "Good practice means keeping several independent copies of your work, naming files so anyone can find and sort them, and handing over sessions with enough documentation that someone else can open and finish them. The 3-2-1 rule is the usual baseline for backups.",
+  "body": "The 3-2-1 rule says: keep three copies of your data, on two different types of storage, with one copy off site. A drive failure, a theft, a fire or a ransomware attack should never destroy every copy. A RAID mirror is not a backup: it protects against one disk failing, but a deletion or corruption is mirrored instantly. The same is true of simple cloud sync. If you delete a folder, the sync service deletes it everywhere. You need versioning or a separate backup that keeps older states.\n\nA copy is only useful if it is correct. On location and in post, verify copies with checksums such as MD5 or xxHash. The software reads the source and the copy and compares the hashes. Matching hashes show the files are bit-identical; a matching file size does not. Film crews often use offload tools that write a media hash list (MHL) so the next person can check the files again. Test restores from time to time. A backup you have never restored is a hope, not a plan.\n\nNaming should sort correctly and survive any operating system. Use dates as YYYY-MM-DD (ISO 8601), so alphabetical order is also chronological. Avoid spaces and special characters such as / \\ : * ? \" < > |, and do not rely on upper versus lower case to tell files apart. Use a clear structure: project, episode or reel, content, version. Write 'v03', not 'final_final2'. On set, name scenes and takes consistently and fill in the metadata, because it travels with the Broadcast WAV files to the editor.\n\nA handover should let someone else open the session without calling you. Include a short document with sample rate, bit depth, frame rate, start timecode, track layout and the software version. List the plugins and print or commit any processed tracks, because the recipient may not own the same plugins. Deliver stems and mixes as agreed, with a sound report or cue sheet where needed. Agree in writing what will be delivered, in which formats, and how long you will keep the archive. Ownership of session files and raw recordings depends on the contract, so make it explicit.",
+  "keyPoints": [
+   "3-2-1: three copies, two media types, one off site.",
+   "RAID and sync are not backups: they copy mistakes too.",
+   "Verify copies with checksums, and test restores.",
+   "Dates as YYYY-MM-DD; no spaces or special characters; versions as v01, v02.",
+   "Handover notes: rates, timecode, plugins, printed tracks, deliverables list."
+  ],
+  "sayIt": "Your project is stored in three places, one of them off site, and every handover comes with notes so anyone can open it.",
+  "inPractice": "At the end of your next session, copy the project to two other destinations, one off site, and verify one copy with checksums. Then write a one-page handover note listing sample rate, frame rate, start timecode, plugins and printed stems.",
+  "mistake": "Treating a RAID array or a synced cloud folder as a backup. Both copy deletions and corruption immediately; a real backup keeps independent, versioned copies.",
+  "terms": [
+   {
+    "term": "3-2-1 rule",
+    "def": "Three copies of data, on two different types of storage, with one copy off site."
+   },
+   {
+    "term": "Checksum (hash)",
+    "def": "A short value calculated from a file's content; matching values show two copies are identical."
+   },
+   {
+    "term": "ISO 8601 date",
+    "def": "Date written as YYYY-MM-DD, which sorts correctly as text."
+   },
+   {
+    "term": "Media hash list (MHL)",
+    "def": "A file recording checksums of offloaded media so later copies can be verified."
+   },
+   {
+    "term": "Stem",
+    "def": "A submix of related elements (e.g. dialogue, music, effects) delivered as its own file."
+   }
+  ],
+  "id": "L033"
+ }
+]

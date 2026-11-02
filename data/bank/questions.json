@@ -1,0 +1,3917 @@
+[
+ {
+  "answer": 0,
+  "explain": "Output and load form a voltage divider. Where the headphone impedance is low, more voltage drops across the amp's 10 Ω and that band gets quieter. A common rule of thumb is to keep output impedance at or below one eighth of the headphone's minimum impedance.",
+  "level": "advanced",
+  "options": [
+   "The frequency response changes, because the output impedance and the varying headphone impedance form a frequency-dependent voltage divider",
+   "Nothing audible, because headphones only respond to current",
+   "Stereo crosstalk rises, but frequency response is unaffected",
+   "The amp clips in the bass because the impedance rises there"
+  ],
+  "q": "A headphone amp with a 10 Ω output impedance drives headphones whose impedance swings from 30 Ω to 120 Ω across the spectrum. What happens?",
+  "topic": "Impedance",
+  "lesson": null,
+  "id": "Q001"
+ },
+ {
+  "answer": 1,
+  "explain": "Damping factor is the load divided by everything in series on the source side: 8 / (0.02 + 0.2) ≈ 36. Cable resistance often limits real-world damping far more than the amp's quoted figure, so keep speaker runs short and thick.",
+  "level": "advanced",
+  "options": [
+   "About 400",
+   "About 36",
+   "About 8",
+   "It depends only on the amplifier, so still about 400"
+  ],
+  "q": "An amp with 0.02 Ω output impedance drives an 8 Ω speaker through cable with 0.2 Ω round-trip resistance. Roughly what is the effective damping factor at the speaker?",
+  "topic": "Impedance",
+  "lesson": null,
+  "id": "Q002"
+ },
+ {
+  "answer": 1,
+  "explain": "A 5 ms delay is half a cycle (180°) at 100 Hz and at odd multiples of it, and a full cycle at 200 Hz and its multiples, so the sum forms a comb filter. A polarity flip inverts every frequency at once with no time shift, which is a different thing.",
+  "level": "advanced",
+  "options": [
+   "It is the same as flipping the polarity of one track",
+   "It cancels around 100 Hz, 300 Hz, 500 Hz and so on, and reinforces at 200 Hz, 400 Hz…: a comb filter",
+   "It cancels all frequencies equally",
+   "It only affects frequencies above 5 kHz"
+  ],
+  "q": "You sum two identical tracks, one delayed by 5 ms. Which statement is true?",
+  "topic": "Phase & polarity",
+  "lesson": null,
+  "id": "Q003"
+ },
+ {
+  "answer": 1,
+  "explain": "Common-mode rejection depends on equal impedances from each conductor to ground. Noise picked up equally on both wires is cancelled by the differential input. Many balanced outputs do send an inverted signal on pin 3, but it's the impedance balance, not that mirror signal, that rejects the noise.",
+  "level": "intermediate",
+  "options": [
+   "The cold wire carries an inverted copy of the signal",
+   "Both conductors have equal impedance to ground, so noise induces equally on both and the differential input cancels it",
+   "The shield carries the audio, protecting it",
+   "Balanced lines run at a higher voltage, so noise is relatively smaller"
+  ],
+  "q": "What actually makes a balanced connection reject interference?",
+  "topic": "Balanced lines",
+  "lesson": null,
+  "id": "Q004"
+ },
+ {
+  "answer": 1,
+  "explain": "Passive pickups need a load of around 1 MΩ. A 10 kΩ input loads them heavily, which loses level and treble. Use a Hi-Z input or a DI box.",
+  "level": "intermediate",
+  "options": [
+   "A louder, brighter signal",
+   "A quieter, duller signal, because the input loads the pickup's high, inductive source impedance",
+   "No change, since impedance only matters for speakers",
+   "A hum caused by a ground loop"
+  ],
+  "q": "You plug a passive bass guitar straight into a 10 kΩ line input. What do you hear?",
+  "topic": "Impedance",
+  "lesson": null,
+  "id": "Q005"
+ },
+ {
+  "answer": 1,
+  "explain": "Keeping the second mic at least three times as far from the source as the first keeps its spill about 9 dB or more lower, so the comb filtering when the two are summed is much milder.",
+  "level": "intermediate",
+  "options": [
+   "Proximity effect",
+   "Comb filtering when one source reaches two mics at different times",
+   "Plosives",
+   "Wind noise"
+  ],
+  "q": "What is the 3:1 rule in multi-mic recording meant to reduce?",
+  "topic": "Microphone technique",
+  "lesson": null,
+  "id": "Q006"
+ },
+ {
+  "answer": 2,
+  "explain": "Impedance, resistance and reactance are all measured in ohms (Ω).",
+  "level": "basic",
+  "options": [
+   "Volts",
+   "Farads",
+   "Ohms",
+   "Decibels"
+  ],
+  "q": "What unit is impedance measured in?",
+  "topic": "Impedance",
+  "lesson": null,
+  "id": "Q007"
+ },
+ {
+  "answer": 1,
+  "explain": "Pin 1 is shield or ground, pin 2 is hot (+) and pin 3 is cold (−). This is the AES14/IEC standard, and the 'pin 2 hot' convention is now universal.",
+  "level": "basic",
+  "options": [
+   "1 hot, 2 cold, 3 ground",
+   "1 ground/shield, 2 hot, 3 cold",
+   "1 cold, 2 ground, 3 hot",
+   "1 ground, 2 cold, 3 hot"
+  ],
+  "q": "In a standard balanced XLR (AES/IEC wiring), what are pins 1, 2 and 3?",
+  "topic": "Connectors",
+  "lesson": null,
+  "id": "Q008"
+ },
+ {
+  "answer": 1,
+  "explain": "Every sample of one copy is the negative of the other, so they sum to zero. Partial cancellation of this kind is why a polarity check on multi-mic sources matters.",
+  "level": "basic",
+  "options": [
+   "Twice the level",
+   "Silence (total cancellation)",
+   "A 3 dB boost",
+   "A comb filter"
+  ],
+  "q": "You mix a signal with a polarity-inverted copy of itself at exactly the same level. What do you get?",
+  "topic": "Phase & polarity",
+  "lesson": null,
+  "id": "Q009"
+ },
+ {
+  "answer": 0,
+  "explain": "Aliases land at |f − n·fs|. The nearest multiple of 48 kHz is 48 kHz itself, so 48 − 30 = 18 kHz. It cannot stay at 30 kHz because nothing above Nyquist (24 kHz) can be represented.",
+  "level": "advanced",
+  "options": [
+   "18 kHz",
+   "30 kHz",
+   "6 kHz",
+   "24 kHz"
+  ],
+  "q": "A 30 kHz tone reaches a 48 kHz converter with no anti-aliasing filter. At what frequency does it appear in the recording?",
+  "topic": "Digital audio",
+  "lesson": null,
+  "id": "Q010"
+ },
+ {
+  "answer": 2,
+  "explain": "The first axial mode is f = c / 2L = 343 / 8.6 ≈ 40 Hz. Forgetting the factor of 2 gives 80 Hz, which is the second mode.",
+  "level": "advanced",
+  "options": [
+   "About 80 Hz",
+   "About 160 Hz",
+   "About 40 Hz",
+   "About 20 Hz"
+  ],
+  "q": "Two parallel walls are 4.3 m apart. Taking the speed of sound as 343 m/s, what is the lowest axial room mode between them?",
+  "topic": "Acoustics",
+  "lesson": null,
+  "id": "Q011"
+ },
+ {
+  "answer": 3,
+  "explain": "Uncorrelated signals add in power, so two equal ones give +3 dB: −57 dBFS. +6 dB applies only to identical, in-phase (correlated) signals.",
+  "level": "advanced",
+  "options": [
+   "−63 dBFS",
+   "−60 dBFS",
+   "−54 dBFS",
+   "−57 dBFS"
+  ],
+  "q": "You sum two uncorrelated noise sources, each measuring −60 dBFS RMS. What is the RMS level of the sum?",
+  "topic": "Gain staging",
+  "lesson": null,
+  "id": "Q012"
+ },
+ {
+  "answer": 2,
+  "explain": "Saturation creates new harmonics, and those above fs/2 alias back into the audible band. Running the process at a higher internal rate keeps them above the audio band until they are filtered out. It usually adds latency rather than removing it.",
+  "level": "intermediate",
+  "options": [
+   "To lower their latency",
+   "To increase the bit depth of the output",
+   "So harmonics created above Nyquist do not fold back as inharmonic aliases",
+   "To widen the stereo image"
+  ],
+  "q": "Why do many saturation and clipper plugins offer oversampling?",
+  "topic": "Digital audio",
+  "lesson": null,
+  "id": "Q013"
+ },
+ {
+  "answer": 3,
+  "explain": "This is the precedence (Haas) effect: for short delays of a few milliseconds, the sounds fuse and localisation follows the first arrival. Clear echoes appear only at much longer delays.",
+  "level": "intermediate",
+  "options": [
+   "Dead centre",
+   "As two separate echoes",
+   "At the right speaker",
+   "At or towards the left speaker"
+  ],
+  "q": "Two speakers play the same signal at equal level. At your seat, the left speaker's sound arrives 5 ms before the right's. Where do you hear the source?",
+  "topic": "Psychoacoustics",
+  "lesson": null,
+  "id": "Q014"
+ },
+ {
+  "answer": 1,
+  "explain": "EBU R128 sets −23 LUFS integrated with a −1 dBTP maximum. −24 LKFS and −2 dBTP is the US ATSC A/85 practice, and −14 or −16 LUFS are common streaming references.",
+  "level": "intermediate",
+  "options": [
+   "−16 LUFS and −1 dBTP",
+   "−23 LUFS and −1 dBTP",
+   "−24 LKFS and −2 dBTP",
+   "−14 LUFS and −1 dBTP"
+  ],
+  "q": "What are the EBU R128 targets for a broadcast programme's integrated loudness and maximum true peak?",
+  "topic": "Loudness",
+  "lesson": null,
+  "id": "Q015"
+ },
+ {
+  "answer": 2,
+  "explain": "The Nyquist frequency is half the sample rate: 48 / 2 = 24 kHz. Doubling the rate is what oversampling does, not what Nyquist means.",
+  "level": "basic",
+  "options": [
+   "48 kHz",
+   "96 kHz",
+   "24 kHz",
+   "12 kHz"
+  ],
+  "q": "What is the Nyquist frequency of a 48 kHz session?",
+  "topic": "Digital audio",
+  "lesson": null,
+  "id": "Q016"
+ },
+ {
+  "answer": 0,
+  "explain": "It is a low-pass filter ahead of sampling, so nothing above fs/2 can fold back. The filter that rebuilds the waveform on playback is the reconstruction filter in the DAC.",
+  "level": "basic",
+  "options": [
+   "Removes content above the Nyquist frequency before sampling",
+   "Adds dither to the lowest bit",
+   "Smooths the 'steps' between samples on playback",
+   "Limits peaks to avoid clipping"
+  ],
+  "q": "What does the anti-aliasing filter in an analogue-to-digital converter do?",
+  "topic": "Digital audio",
+  "lesson": null,
+  "id": "Q017"
+ },
+ {
+  "answer": 3,
+  "explain": "Directional (pressure-gradient) mics boost bass as the source gets close. Pure pressure omnis show little or no proximity effect, which is why they are often chosen for close vocals that move.",
+  "level": "basic",
+  "options": [
+   "High frequencies rise",
+   "The mic becomes omnidirectional",
+   "Nothing, cardioids are immune to distance",
+   "Low frequencies rise (proximity effect)"
+  ],
+  "q": "A singer moves from 30 cm to 5 cm away from a cardioid microphone. What changes most in the tone?",
+  "topic": "Microphone technique",
+  "lesson": null,
+  "id": "Q018"
+ },
+ {
+  "answer": 2,
+  "explain": "LEX,8h = 94 + 10·log10(2/8) = 94 − 6 = 88 dB(A), which is above the EU upper action value of 85. Traps: subtracting only 3 dB for a single halving (91), or using 20·log and subtracting 12 dB (82).",
+  "level": "advanced",
+  "options": [
+   "94 dB(A)",
+   "91 dB(A)",
+   "88 dB(A)",
+   "82 dB(A)"
+  ],
+  "q": "An engineer is exposed to a steady 94 dB(A) for 2 hours and to negligible noise for the rest of the day. What is their daily exposure LEX,8h?",
+  "topic": "Hearing protection",
+  "lesson": null,
+  "id": "Q019"
+ },
+ {
+  "answer": 3,
+  "explain": "At 91 dB(A) the allowed time is 8 h halved twice, which is 2 h. Four hours divided by 2 hours is 200%. Under OSHA's 5 dB rule the same exposure would score much lower, which is why the rule matters.",
+  "level": "advanced",
+  "options": [
+   "50%",
+   "100%",
+   "400%",
+   "200%"
+  ],
+  "q": "Using the NIOSH criterion (85 dB(A) for 8 hours, 3 dB exchange rate), what noise dose does 4 hours at 91 dB(A) produce?",
+  "topic": "Hearing protection",
+  "lesson": null,
+  "id": "Q020"
+ },
+ {
+  "answer": 0,
+  "explain": "34.3 cm at 343 m/s is a 1 ms delay. The first notch falls where the delay equals half a period: f = 1/(2 × 0.001 s) = 500 Hz, with further notches at 1.5, 2.5 kHz and so on. 1 kHz is the first frequency where they add again in phase.",
+  "level": "advanced",
+  "options": [
+   "500 Hz",
+   "250 Hz",
+   "1 kHz",
+   "343 Hz"
+  ],
+  "q": "Two microphones pick up the same source. Mic B is 34.3 cm further away than mic A (c = 343 m/s). Summed at equal level, where is the first comb-filter notch?",
+  "topic": "Phase & polarity",
+  "lesson": null,
+  "id": "Q021"
+ },
+ {
+  "answer": 1,
+  "explain": "Ratings come from lab testing with trained subjects and a careful fit. In real use, shallow or rushed insertion reduces the attenuation a lot, so fit matters more than the number on the box.",
+  "level": "intermediate",
+  "options": [
+   "SNR is measured with C-weighting only",
+   "The rating comes from lab tests with an ideal fit; real-world insertion is often poor",
+   "SNR ratings only apply above 4 kHz",
+   "Foam plugs lose all attenuation after one hour"
+  ],
+  "q": "A foam earplug is labelled SNR 30 dB. Why might a user get much less than 30 dB of real protection?",
+  "topic": "Hearing protection",
+  "lesson": null,
+  "id": "Q022"
+ },
+ {
+  "answer": 3,
+  "explain": "The input is 12 dB over the threshold. At 4:1 that becomes 3 dB over, so the output is −20 + 3 = −17 dBFS, which is 9 dB of gain reduction. A common mistake is to divide the whole input level by the ratio.",
+  "level": "intermediate",
+  "options": [
+   "−14 dBFS",
+   "−20 dBFS",
+   "−11 dBFS",
+   "−17 dBFS"
+  ],
+  "q": "A hard-knee compressor has its threshold at −20 dBFS and a 4:1 ratio. A steady tone goes in at −8 dBFS. With no make-up gain, what level comes out once the compressor has settled?",
+  "topic": "Compression",
+  "lesson": null,
+  "id": "Q023"
+ },
+ {
+  "answer": 0,
+  "explain": "0 dBu is 0.775 V RMS, so +4 dBu = 0.775 × 10^(4/20) ≈ 1.23 V. 1.0 V is 0 dBV, and 1.58 V would be +4 dBV. Mixing up dBu and dBV is the usual trap.",
+  "level": "intermediate",
+  "options": [
+   "About 1.23 V",
+   "0.775 V",
+   "1.0 V",
+   "About 1.58 V"
+  ],
+  "q": "What RMS voltage corresponds to the professional line level of +4 dBu?",
+  "topic": "Gain staging",
+  "lesson": null,
+  "id": "Q024"
+ },
+ {
+  "answer": 2,
+  "explain": "At 85 dB(A) LEX,8h (or 137 dB(C) peak), protection must be used. 80 dB(A) is the lower action value, where protection must be made available. 87 dB(A) is the limit value at the ear, which takes protection into account.",
+  "level": "basic",
+  "options": [
+   "80 dB(A)",
+   "87 dB(A)",
+   "85 dB(A)",
+   "90 dB(A)"
+  ],
+  "q": "Under the EU noise directive (and Italy's D.Lgs. 81/2008), at what daily exposure must workers wear hearing protection (the upper exposure action value)?",
+  "topic": "Hearing protection",
+  "lesson": null,
+  "id": "Q025"
+ },
+ {
+  "answer": 1,
+  "explain": "Inverse square law: intensity falls to a quarter, which is 20·log10(2) ≈ 6 dB of SPL. 3 dB per doubling applies to an idealised line source in its near field.",
+  "level": "basic",
+  "options": [
+   "3 dB",
+   "6 dB",
+   "10 dB",
+   "12 dB"
+  ],
+  "q": "In a free field, by how much does the level from a point source drop when you double your distance from it?",
+  "topic": "Acoustics",
+  "lesson": null,
+  "id": "Q026"
+ },
+ {
+  "answer": 3,
+  "explain": "P48 supplies +48 V DC through matched resistors on pins 2 and 3, with pin 1 as the return. P12 and P24 also exist in the standard but are much less common on studio preamps.",
+  "level": "basic",
+  "options": [
+   "+12 V",
+   "+24 V",
+   "+9 V",
+   "+48 V"
+  ],
+  "q": "What is the standard phantom-power voltage on most professional mic preamps (IEC 61938 P48)?",
+  "topic": "Microphones",
+  "lesson": null,
+  "id": "Q027"
+ },
+ {
+  "answer": 1,
+  "explain": "The first null is where the extra path (about 2d) equals half a wavelength, so f = c / (4d) = 343 / 3.44 ≈ 100 Hz. Using c / (2d) by mistake gives 200 Hz, the trap answer.",
+  "level": "advanced",
+  "options": [
+   "About 50 Hz",
+   "About 100 Hz",
+   "About 200 Hz",
+   "About 400 Hz"
+  ],
+  "q": "A monitor's acoustic centre is 0.86 m from the wall behind it. Taking c = 343 m/s and a listener on axis, at roughly what frequency is the first SBIR null from that wall?",
+  "topic": "Acoustics",
+  "lesson": null,
+  "id": "Q028"
+ },
+ {
+  "answer": 2,
+  "explain": "Sabine's formula in metric units is RT60 = 0.161 × V / A = 0.161 × 100 / 20 ≈ 0.81 s. Dropping the 0.161 constant gives 5 s, and slipping a decimal place gives 8.05 s.",
+  "level": "advanced",
+  "options": [
+   "0.32 s",
+   "1.61 s",
+   "0.81 s",
+   "8.05 s"
+  ],
+  "q": "A room has a volume of 100 m³ and total absorption of 20 m² sabins. Using Sabine's formula, what is the RT60?",
+  "topic": "Acoustics",
+  "lesson": null,
+  "id": "Q029"
+ },
+ {
+  "answer": 3,
+  "explain": "0 dBFS is 18 dB above −18 dBFS, so the output is +4 + 18 = +22 dBu. The alignment level fixes one point, and every dB of digital level above it adds one dB of analogue level.",
+  "level": "advanced",
+  "options": [
+   "+18 dBu",
+   "+4 dBu",
+   "+14 dBu",
+   "+22 dBu"
+  ],
+  "q": "A converter is aligned so that a −18 dBFS sine wave reads +4 dBu at its analogue output. What analogue level corresponds to 0 dBFS?",
+  "topic": "Gain staging",
+  "lesson": null,
+  "id": "Q030"
+ },
+ {
+  "answer": 0,
+  "explain": "The null comes from the direct sound and its delayed reflection being out of phase. Any boost reaches both equally, so they still cancel at the listening position.",
+  "level": "intermediate",
+  "options": [
+   "Because the reflection is boosted by the same amount, so the cancellation remains and you only use up headroom",
+   "Because monitor DSP cannot apply boosts below 200 Hz",
+   "Because EQ moves the null to a lower frequency",
+   "Because boosting a narrow band causes aliasing"
+  ],
+  "q": "Why can't you fill an SBIR null by boosting that frequency with EQ?",
+  "topic": "Acoustics",
+  "lesson": null,
+  "id": "Q031"
+ },
+ {
+  "answer": 1,
+  "explain": "f = c / (4d): at 1 m it is about 86 Hz, and at 0.25 m it is 343 / 1 ≈ 343 Hz. Moving closer pushes the null up; it only leaves the useful range when the gap is very small or zero, as with flush mounting.",
+  "level": "intermediate",
+  "options": [
+   "It moves down to about 43 Hz",
+   "It moves up to about 343 Hz",
+   "It stays at about 86 Hz but gets deeper",
+   "It disappears at all frequencies"
+  ],
+  "q": "You move a monitor from 1 m to 0.25 m from the front wall (c = 343 m/s). What happens to the first SBIR null?",
+  "topic": "Acoustics",
+  "lesson": null,
+  "id": "Q032"
+ },
+ {
+  "answer": 3,
+  "explain": "Masking spreads more upwards in frequency than downwards, especially at high levels. This is why loud low-mid content can hide detail above it, while high content rarely masks the low end.",
+  "level": "intermediate",
+  "options": [
+   "At frequencies well below 1 kHz",
+   "Equally at all frequencies",
+   "Only at exactly 2 kHz",
+   "At frequencies somewhat above 1 kHz"
+  ],
+  "q": "A loud 1 kHz tone is playing. Where is it most effective at masking quieter tones?",
+  "topic": "Psychoacoustics",
+  "lesson": null,
+  "id": "Q033"
+ },
+ {
+  "answer": 0,
+  "explain": "SBIR is an acoustic effect: a reflection from a nearby boundary arrives late and adds to or cancels the direct sound depending on frequency. It is not caused by wiring or electronics.",
+  "level": "basic",
+  "options": [
+   "Reflections from nearby walls, floor or desk combining with the direct sound",
+   "Electrical interference between speaker cables",
+   "Two speakers wired in opposite polarity",
+   "Clipping in the monitor's amplifier"
+  ],
+  "q": "What causes speaker-boundary interference (SBIR)?",
+  "topic": "Acoustics",
+  "lesson": null,
+  "id": "Q034"
+ },
+ {
+  "answer": 2,
+  "explain": "A cardioid's null is at 180°. Super- and hypercardioids have nulls off to the sides of the rear (roughly 110–130°) and a small rear lobe, so a wedge straight behind suits a cardioid best.",
+  "level": "basic",
+  "options": [
+   "Omnidirectional",
+   "Figure-8",
+   "Cardioid",
+   "Hypercardioid"
+  ],
+  "q": "A wedge monitor sits directly behind a vocal mic (at 180°). Which polar pattern has its deepest rejection in that direction?",
+  "topic": "Live sound",
+  "lesson": null,
+  "id": "Q035"
+ },
+ {
+  "answer": 3,
+  "explain": "Sustain is a level, not a time: after attack and decay, the envelope stays at the sustain level until the key is released. Attack, decay and release are all times.",
+  "level": "basic",
+  "options": [
+   "Attack",
+   "Decay",
+   "Release",
+   "Sustain"
+  ],
+  "q": "In an ADSR envelope, which stage sets the level that holds while a key stays pressed?",
+  "topic": "Synthesis",
+  "lesson": null,
+  "id": "Q036"
+ },
+ {
+  "answer": 2,
+  "explain": "The peak is 12 dB over threshold. At 4:1 it comes out 3 dB over, at −15 dBFS, so gain reduction is 12 − 3 = 9 dB. The trap is answering 3 dB, which is the overshoot after compression.",
+  "level": "advanced",
+  "options": [
+   "3 dB",
+   "6 dB",
+   "9 dB",
+   "12 dB"
+  ],
+  "q": "A hard-knee compressor is set to a −18 dBFS threshold and 4:1 ratio. A peak arrives at −6 dBFS. How much gain reduction is applied to it?",
+  "topic": "Compression",
+  "lesson": null,
+  "id": "Q037"
+ },
+ {
+  "answer": 1,
+  "explain": "34.3 cm at 343 m/s is a 1 ms delay. The first notch is where the delay equals half a period: f = 1/(2 × 0.001 s) = 500 Hz, with further notches at 1.5, 2.5 kHz and so on.",
+  "level": "advanced",
+  "options": [
+   "250 Hz",
+   "500 Hz",
+   "1 kHz",
+   "1.5 kHz"
+  ],
+  "q": "Two mics pick up the same source, one 34.3 cm farther away than the other (speed of sound 343 m/s). When summed at equal level, where is the first comb-filter notch?",
+  "topic": "Phase & polarity",
+  "lesson": null,
+  "id": "Q038"
+ },
+ {
+  "answer": 3,
+  "explain": "Nyquist is 24 kHz. A tone above it folds back to fs − f = 48 − 30 = 18 kHz. It cannot be stored at 30 kHz because that is above the Nyquist frequency.",
+  "level": "advanced",
+  "options": [
+   "6 kHz",
+   "12 kHz",
+   "30 kHz, unchanged",
+   "18 kHz"
+  ],
+  "q": "A system samples at 48 kHz with no anti-aliasing filter. A 30 kHz tone reaches the converter. At what frequency does it appear in the recording?",
+  "topic": "Digital audio",
+  "lesson": null,
+  "id": "Q039"
+ },
+ {
+  "answer": 0,
+  "explain": "A 40 Hz wave has a 25 ms period, so time constants of a few milliseconds let the gain follow the waveform itself, adding harmonics. Slower release, or a hold control, avoids it.",
+  "level": "intermediate",
+  "options": [
+   "The gain changes within each 25 ms cycle and reshapes the waveform",
+   "The detector aliases low frequencies",
+   "Fast settings raise the ratio automatically",
+   "The makeup gain clips the output"
+  ],
+  "q": "Why does a 1 ms attack and 5 ms release on a 40 Hz bass note add audible distortion?",
+  "topic": "Compression",
+  "lesson": null,
+  "id": "Q040"
+ },
+ {
+  "answer": 2,
+  "explain": "EBU R128 sets −23 LUFS integrated, with a maximum true peak of −1 dBTP. −24 LKFS with −2 dBTP is the ATSC A/85 recommendation used in the US.",
+  "level": "intermediate",
+  "options": [
+   "−16 LUFS and −1 dBTP",
+   "−24 LKFS and −2 dBTP",
+   "−23 LUFS and −1 dBTP",
+   "−14 LUFS and −0.1 dBTP"
+  ],
+  "q": "Under EBU R128, what are the programme loudness target and the maximum true-peak level?",
+  "topic": "Loudness",
+  "lesson": null,
+  "id": "Q041"
+ },
+ {
+  "answer": 1,
+  "explain": "Free-field level falls 6 dB per doubling of distance. 2 m to 8 m is two doublings, so 100 − 12 = 88 dB SPL. Indoors, reverberant sound makes the real drop smaller beyond the critical distance.",
+  "level": "intermediate",
+  "options": [
+   "94 dB SPL",
+   "88 dB SPL",
+   "82 dB SPL",
+   "97 dB SPL"
+  ],
+  "q": "A source gives 100 dB SPL at 2 m in a free field. What level do you expect at 8 m?",
+  "topic": "Acoustics",
+  "lesson": null,
+  "id": "Q042"
+ },
+ {
+  "answer": 3,
+  "explain": "Ratio describes the slope above the threshold: input increase divided by output increase. Below the threshold the signal is not changed at all.",
+  "level": "basic",
+  "options": [
+   "The output is always 4 dB quieter",
+   "The compressor reacts four times faster",
+   "Gain reduction is 4 dB for every 1 dB over threshold",
+   "Above threshold, a 4 dB rise in input gives a 1 dB rise in output"
+  ],
+  "q": "What does a 4:1 ratio mean on a compressor?",
+  "topic": "Compression",
+  "lesson": null,
+  "id": "Q043"
+ },
+ {
+  "answer": 1,
+  "explain": "P48 puts the same +48 V DC on both signal pins through matched resistors, with pin 1 as the return. Because it is equal on both legs, a balanced input ignores it.",
+  "level": "basic",
+  "options": [
+   "48 V DC on pin 2 only",
+   "48 V DC equally on pins 2 and 3, relative to pin 1",
+   "48 V AC on pin 1",
+   "12 V DC on pin 3"
+  ],
+  "q": "How is standard P48 phantom power applied to a balanced mic line?",
+  "topic": "Connectors",
+  "lesson": null,
+  "id": "Q044"
+ },
+ {
+  "answer": 2,
+  "explain": "RMS detection averages power over a window, so it follows perceived loudness more closely than a peak detector, which reacts to instantaneous peaks.",
+  "level": "basic",
+  "options": [
+   "Only the single highest sample",
+   "The frequency of the signal",
+   "An average of the signal's power over a short time window",
+   "The phase of the signal"
+  ],
+  "q": "What does an RMS detector in a compressor respond to?",
+  "topic": "Compression",
+  "lesson": null,
+  "id": "Q045"
+ },
+ {
+  "answer": 1,
+  "explain": "The meter adds the mean-square power of each channel (both weighted 1.0). Doubling the power raises the result by 3.01 dB, from −3.01 to 0.00 LUFS. The trap is adding 6 dB as if the signals were summed in one channel.",
+  "level": "advanced",
+  "options": [
+   "−3.01 LUFS",
+   "0.00 LUFS",
+   "+3.01 LUFS",
+   "−6.02 LUFS"
+  ],
+  "q": "Per BS.1770, a 0 dBFS 1 kHz sine in the left channel only reads −3.01 LUFS. If the same sine is sent at the same level to both left and right, what will the meter read?",
+  "topic": "Loudness",
+  "lesson": null,
+  "id": "Q046"
+ },
+ {
+  "answer": 2,
+  "explain": "For integrated loudness the relative gate is 10 LU below the absolute-gated level, so −30 LUFS. The 20 LU relative gate belongs to the LRA calculation, not to integrated loudness.",
+  "level": "advanced",
+  "options": [
+   "−40 LUFS",
+   "−28 LUFS",
+   "−30 LUFS",
+   "−70 LUFS"
+  ],
+  "q": "After the −70 LUFS absolute gate, a programme measures −20 LUFS. Where does the BS.1770 relative gate sit for the integrated measurement?",
+  "topic": "Loudness",
+  "lesson": null,
+  "id": "Q047"
+ },
+ {
+  "answer": 1,
+  "explain": "1.715 m ÷ 343 m/s = 5 ms, and 5 ms × 48,000 samples/s = 240 samples. Delaying the close mic by that amount aligns the arrivals.",
+  "level": "advanced",
+  "options": [
+   "120 samples",
+   "240 samples",
+   "480 samples",
+   "82 samples"
+  ],
+  "q": "At 48 kHz, how many samples of delay line up a close mic with one that is 1.715 m farther from the source (c = 343 m/s)?",
+  "topic": "Phase & polarity",
+  "lesson": null,
+  "id": "Q048"
+ },
+ {
+  "answer": 3,
+  "explain": "LRA uses the distribution of 3 s short-term values after gating and ignores the extremes, so a single loud hit or a fade-out does not set the result. Peak-to-loudness ratio is a different measure.",
+  "level": "intermediate",
+  "options": [
+   "The difference between maximum and minimum momentary loudness",
+   "The ratio of true peak to integrated loudness",
+   "The difference between maximum true peak and integrated loudness",
+   "The difference between the 10th and 95th percentiles of gated short-term loudness"
+  ],
+  "q": "How does EBU Tech 3342 define Loudness Range (LRA)?",
+  "topic": "Loudness",
+  "lesson": null,
+  "id": "Q049"
+ },
+ {
+  "answer": 1,
+  "explain": "A/85 uses −24 LKFS with a −2 dBTP true-peak ceiling. −23 LUFS is EBU R128, and −27 LKFS is Netflix's dialogue-gated target.",
+  "level": "intermediate",
+  "options": [
+   "−23 LUFS",
+   "−24 LKFS",
+   "−16 LUFS",
+   "−27 LKFS"
+  ],
+  "q": "What integrated loudness target does ATSC A/85 set for US television?",
+  "topic": "Loudness",
+  "lesson": null,
+  "id": "Q050"
+ },
+ {
+  "answer": 2,
+  "explain": "Decoding is L = M + S and R = M − S. More S increases the difference between the channels, so the image widens. In mono the S components cancel, so the mono sum is unchanged.",
+  "level": "intermediate",
+  "options": [
+   "The image gets narrower",
+   "The mono sum gets louder",
+   "The stereo image gets wider",
+   "The polarity of the left channel flips"
+  ],
+  "q": "In an M/S recording (cardioid mid, figure-8 side), what happens when you raise the side level in the decoder?",
+  "topic": "Microphone technique",
+  "lesson": null,
+  "id": "Q051"
+ },
+ {
+  "answer": 0,
+  "explain": "Loudness Units are on a decibel scale: a change of 1 LU is a level change of 1 dB.",
+  "level": "basic",
+  "options": [
+   "1 dB",
+   "3 dB",
+   "10% loudness",
+   "0.5 dB"
+  ],
+  "q": "What does a change of 1 LU correspond to?",
+  "topic": "Loudness",
+  "lesson": null,
+  "id": "Q052"
+ },
+ {
+  "answer": 3,
+  "explain": "Wavelength = speed ÷ frequency = 343 ÷ 343 = 1 m.",
+  "level": "basic",
+  "options": [
+   "343 m",
+   "0.5 m",
+   "2 m",
+   "1 m"
+  ],
+  "q": "With the speed of sound taken as 343 m/s, what is the wavelength of a 343 Hz tone?",
+  "topic": "Acoustics",
+  "lesson": null,
+  "id": "Q053"
+ },
+ {
+  "answer": 2,
+  "explain": "Each bit adds about 6.02 dB, so 24 × 6.02 ≈ 144 dB. 96 dB is 16-bit. Real converters achieve less because of analogue noise.",
+  "level": "basic",
+  "options": [
+   "96 dB",
+   "120 dB",
+   "144 dB",
+   "192 dB"
+  ],
+  "q": "Roughly what is the theoretical dynamic range of 24-bit linear PCM?",
+  "topic": "Digital audio",
+  "lesson": null,
+  "id": "Q054"
+ },
+ {
+  "answer": 2,
+  "explain": "68.6 cm ÷ 343 m/s = 2 ms. The first notch is at 1/(2t) = 1/(0.004 s) = 250 Hz, and the following notches come every 500 Hz (750 Hz, 1.25 kHz…). The trap is using 1/t, which gives the spacing between notches, not the first notch.",
+  "level": "advanced",
+  "options": [
+   "500 Hz",
+   "125 Hz",
+   "250 Hz",
+   "1 kHz"
+  ],
+  "q": "Two mics pick up a snare at equal level. One is 68.6 cm farther from the snare than the other (speed of sound 343 m/s). Where is the first comb-filter notch when they are summed?",
+  "topic": "Phase & polarity",
+  "lesson": null,
+  "id": "Q055"
+ },
+ {
+  "answer": 1,
+  "explain": "−6 dB is half the amplitude. In phase: 1 + 0.5 = 1.5, which is +3.5 dB. In antiphase: 1 − 0.5 = 0.5, which is −6 dB. Complete cancellation needs equal levels.",
+  "level": "advanced",
+  "options": [
+   "+6 dB peaks, complete cancellation",
+   "About +3.5 dB peaks and −6 dB notches",
+   "About +1 dB peaks and −1 dB notches",
+   "+3 dB peaks and −3 dB notches"
+  ],
+  "q": "A spill signal arrives 6 dB below the direct signal, with some delay. What are the largest boost and deepest cut in the summed response?",
+  "topic": "Phase & polarity",
+  "lesson": null,
+  "id": "Q056"
+ },
+ {
+  "answer": 3,
+  "explain": "0.161 × 200 / 40 = 0.805 s, so about 0.81 s. Doubling the absorption would halve it. Sabine's formula becomes unreliable in very absorbent rooms, where the Eyring formula is better.",
+  "level": "advanced",
+  "options": [
+   "0.32 s",
+   "1.24 s",
+   "0.50 s",
+   "0.81 s"
+  ],
+  "q": "A 200 m³ room has 40 m² of total absorption (metric sabins). Using Sabine's formula RT60 = 0.161·V/A, what is the reverberation time?",
+  "topic": "Acoustics",
+  "lesson": null,
+  "id": "Q057"
+ },
+ {
+  "answer": 0,
+  "explain": "Inversion multiplies every frequency by −1, so the old peaks become notches. The new notches fall at multiples of 1/t, starting at DC. Only a time shift removes the comb.",
+  "level": "intermediate",
+  "options": [
+   "The notches move to 0 Hz, 1 kHz, 2 kHz…, so the low end cancels",
+   "The comb filtering disappears",
+   "The notches stay at 500 Hz, 1.5 kHz… but become shallower",
+   "Only frequencies above 1 kHz are affected"
+  ],
+  "q": "Two equal-level mics are 1 ms apart in time. If you invert the polarity of one, what happens?",
+  "topic": "Phase & polarity",
+  "lesson": null,
+  "id": "Q058"
+ },
+ {
+  "answer": 2,
+  "explain": "V = 0.775 × 10^(4/20) ≈ 0.775 × 1.585 ≈ 1.23 V. The trap is 0.316 V, which is −10 dBV, the consumer reference referenced to 1 V.",
+  "level": "intermediate",
+  "options": [
+   "0.316 V",
+   "4.0 V",
+   "1.23 V",
+   "0.775 V"
+  ],
+  "q": "Professional line level is +4 dBu. Roughly what RMS voltage is that? (0 dBu = 0.775 V)",
+  "topic": "Gain staging",
+  "lesson": null,
+  "id": "Q059"
+ },
+ {
+  "answer": 1,
+  "explain": "This is the precedence (Haas) effect. For delays of roughly 1 to 30 ms, the brain fuses the two arrivals and places the sound at the first one. That is why delays are set slightly late relative to the mains.",
+  "level": "intermediate",
+  "options": [
+   "A distinct echo from the delay speaker",
+   "One fused sound that seems to come from the main PA",
+   "Sound that seems to come from the delay speaker",
+   "Strong comb filtering heard as two pitches"
+  ],
+  "q": "A delay speaker is timed so its sound arrives about 10 ms after the main PA, at a similar level. What do most listeners hear?",
+  "topic": "Psychoacoustics",
+  "lesson": null,
+  "id": "Q060"
+ },
+ {
+  "answer": 3,
+  "explain": "At about 343 m/s, 1 ms is 0.343 m, or about 34 cm. A handy rule of thumb: roughly 1 ft per millisecond.",
+  "level": "basic",
+  "options": [
+   "3.4 m",
+   "3.4 cm",
+   "1 m",
+   "34 cm"
+  ],
+  "q": "Roughly how far does sound travel in air at 20 °C in 1 millisecond?",
+  "topic": "Acoustics",
+  "lesson": null,
+  "id": "Q061"
+ },
+ {
+  "answer": 0,
+  "explain": "P48 is +48 V DC, applied equally to pins 2 and 3 through 6.8 kΩ resistors, with pin 1 as the return. P12 and P24 also exist in IEC 61938 but are rare.",
+  "level": "basic",
+  "options": [
+   "48 V DC",
+   "48 V AC",
+   "12 V DC",
+   "24 V DC"
+  ],
+  "q": "What voltage does standard P48 phantom power supply to a condenser mic?",
+  "topic": "Connectors",
+  "lesson": null,
+  "id": "Q062"
+ },
+ {
+  "answer": 2,
+  "explain": "With a 3:1 distance ratio, the inverse square law drops spill by about 9.5 dB, so the comb filtering in the sum shrinks to a few dB of ripple.",
+  "level": "basic",
+  "options": [
+   "Each mic should be three times louder than the next",
+   "Use three mics for every source",
+   "Keep mics at least three times as far from each other as each one is from its own source",
+   "Place each mic 3 cm from its source"
+  ],
+  "q": "What does the 3:1 rule for multiple mics say?",
+  "topic": "Microphone technique",
+  "lesson": null,
+  "id": "Q063"
+ },
+ {
+  "answer": 1,
+  "explain": "0.5 × 10⁻⁶ × 43,200 s = 0.0216 s = 21.6 ms. A frame at 25 fps lasts 40 ms, so that is just over half a frame. Jamming sets the address once; after that each device's own crystal sets the speed.",
+  "level": "advanced",
+  "options": [
+   "About 2.2 ms, a tiny fraction of a frame",
+   "About 21.6 ms, just over half a frame",
+   "About 216 ms, more than five frames",
+   "None, because jammed timecode cannot drift"
+  ],
+  "q": "A sync box rated at ±0.5 ppm is jammed at 07:00 and free-runs for 12 hours. What is the worst-case timecode drift by 19:00, and what is that at 25 fps?",
+  "topic": "Post workflow",
+  "lesson": null,
+  "id": "Q064"
+ },
+ {
+  "answer": 2,
+  "explain": "Two numbers (00 and 01) are skipped each minute except minutes 00, 10, 20, 30, 40 and 50, so 2 × 54 = 108. That matches the roughly 3.6 s (108 frames at 30 fps) by which a non-drop count at 29.97 falls behind the clock.",
+  "level": "advanced",
+  "options": [
+   "120",
+   "18",
+   "108",
+   "0, because frames of picture are dropped instead"
+  ],
+  "q": "In one hour of 29.97 fps drop-frame timecode, how many frame numbers are skipped?",
+  "topic": "Post workflow",
+  "lesson": null,
+  "id": "Q065"
+ },
+ {
+  "answer": 3,
+  "explain": "94 dB SPL is 1 Pa, so 114 dB SPL is 10 Pa, and the output is 10 × 10 mV = 100 mV. 20·log₁₀(0.1 V / 1 V) = −20 dBV. −40 dBV is the output at 94 dB SPL.",
+  "level": "advanced",
+  "options": [
+   "−40 dBV",
+   "−34 dBV",
+   "0 dBV",
+   "−20 dBV"
+  ],
+  "q": "A condenser mic's sensitivity is 10 mV/Pa. What is its output level, in dBV, at 114 dB SPL?",
+  "topic": "Microphones",
+  "lesson": null,
+  "id": "Q066"
+ },
+ {
+  "answer": 0,
+  "explain": "Small clock errors add up over time, which is drift. A DF/NDF mismatch would show as an offset in the numbers, and LTC is biphase-mark encoded, so its polarity doesn't matter. Genlock or word clock, or more frequent re-jams, fix drift.",
+  "level": "intermediate",
+  "options": [
+   "Their internal clocks run at slightly different rates; timecode only labels frames and doesn't control speed",
+   "The recorder was set to drop-frame while the camera was set to non-drop",
+   "The recorder's 48 kHz sample rate cannot carry 25 fps timecode",
+   "The timecode cable reversed the LTC polarity"
+  ],
+  "q": "A camera and a recorder were jammed to the same timecode at the start of a 90-minute interview, but the audio is late by about a frame at the end. What is the most likely cause?",
+  "topic": "Post workflow",
+  "lesson": null,
+  "id": "Q067"
+ },
+ {
+  "answer": 1,
+  "explain": "BWF's bext chunk holds TimeReference as a 64-bit count of samples since midnight. Software converts it to HH:MM:SS:FF using the sample rate and the project frame rate, which iXML usually also records.",
+  "level": "intermediate",
+  "options": [
+   "In the file name, as HH-MM-SS-FF",
+   "In the bext chunk's TimeReference field, as a sample count since midnight",
+   "In the fmt chunk, as a frame count",
+   "In the file's creation date on disk"
+  ],
+  "q": "Where does a Broadcast WAV file store its start timecode, and in what form?",
+  "topic": "Post workflow",
+  "lesson": null,
+  "id": "Q068"
+ },
+ {
+  "answer": 2,
+  "explain": "Equal-loudness contours (ISO 226) are much steeper at low frequencies and quiet levels. At low volume you push up the lows to compensate, so they come out too big when played loud.",
+  "level": "intermediate",
+  "options": [
+   "It sounds thinner, because the ear is less sensitive to treble at high levels",
+   "Nothing, because the ear's frequency response doesn't depend on level",
+   "Bass and extreme treble sound louder than you intended, because the ear's sensitivity at the extremes rises faster with level than in the midrange",
+   "The stereo image narrows, because ILD cues shrink at high levels"
+  ],
+  "q": "You balance a mix at a very low monitoring level, then play it loud. What usually happens and why?",
+  "topic": "Psychoacoustics",
+  "lesson": null,
+  "id": "Q069"
+ },
+ {
+  "answer": 0,
+  "explain": "European broadcast uses 25 fps (50 Hz). 29.97 and 30 come from North American NTSC practice, and 24 (or 23.976) is the cinema rate.",
+  "level": "basic",
+  "options": [
+   "25 fps",
+   "29.97 fps",
+   "24 fps",
+   "30 fps"
+  ],
+  "q": "What frame rate is standard for broadcast TV in Europe, including Italy?",
+  "topic": "Post workflow",
+  "lesson": null,
+  "id": "Q070"
+ },
+ {
+  "answer": 3,
+  "explain": "48 kHz is the video and broadcast standard. 44.1 kHz comes from the CD. Using 44.1 kHz on a picture job means sample-rate conversion and a chance of sync errors.",
+  "level": "basic",
+  "options": [
+   "44.1 kHz",
+   "32 kHz",
+   "22.05 kHz",
+   "48 kHz"
+  ],
+  "q": "Which sample rate is the normal standard for audio recorded for film and TV?",
+  "topic": "Digital audio",
+  "lesson": null,
+  "id": "Q071"
+ },
+ {
+  "answer": 1,
+  "explain": "Rear-facing or delayed elements cancel low frequencies behind the array and add in front. That cleans up the stage and reduces spill into areas you don't want to reach.",
+  "level": "basic",
+  "options": [
+   "To make the subs louder in front by adding more cabinets",
+   "To reduce low-frequency energy behind the array, such as on stage",
+   "To widen the subs' frequency response upward into the mids",
+   "To give the subs a figure-8 pattern for side coverage"
+  ],
+  "q": "What is the main purpose of a cardioid subwoofer array?",
+  "topic": "Live sound",
+  "lesson": null,
+  "id": "Q072"
+ },
+ {
+  "answer": 2,
+  "explain": "At 90°, cos θ = 0, so r = 0.25. 20·log10(0.25) ≈ −12 dB. The −6 dB figure belongs to the cardioid (0.5 at 90°); the hyper's nulls are near 110°, not 90°.",
+  "level": "advanced",
+  "options": [
+   "−3 dB",
+   "−6 dB",
+   "−12 dB",
+   "It is a complete null"
+  ],
+  "q": "A hypercardioid follows r(θ) = 0.25 + 0.75·cos θ. How far below its on-axis level is sound arriving at exactly 90°?",
+  "topic": "Microphones",
+  "lesson": null,
+  "id": "Q073"
+ },
+ {
+  "answer": 1,
+  "explain": "Distance factor is the square root of 1/(random energy efficiency): √4 = 2. Using the ratio directly (4 m) forgets that direct sound falls with distance squared in energy terms.",
+  "level": "advanced",
+  "options": [
+   "About 1.4 m",
+   "About 2 m",
+   "About 3 m",
+   "About 4 m"
+  ],
+  "q": "In a diffuse room, an omni gives the direct-to-reverberant ratio you want at 1 m. A hypercardioid picks up a quarter of the diffuse energy an omni does. Roughly how far away can it be for the same ratio?",
+  "topic": "Microphones",
+  "lesson": null,
+  "id": "Q074"
+ },
+ {
+  "answer": 1,
+  "explain": "√500 ≈ 22.4, and 0.057 × 22.4 ≈ 1.27 m. A source with Q = 4 would double it to about 2.5 m, since dc scales with √Q.",
+  "level": "advanced",
+  "options": [
+   "About 0.6 m",
+   "About 1.3 m",
+   "About 2.5 m",
+   "About 5.7 m"
+  ],
+  "q": "Using the critical-distance estimate dc ≈ 0.057·√(Q·V/RT60), what is dc for an omni source (Q = 1) in a 500 m³ room with an RT60 of 1.0 s?",
+  "topic": "Acoustics",
+  "lesson": null,
+  "id": "Q075"
+ },
+ {
+  "answer": 3,
+  "explain": "The two cardioids, (0.5 + 0.5 cos θ) and (0.5 − 0.5 cos θ), add to a constant: omni. Inverting one before summing cancels the constant part and leaves cos θ, a figure-8.",
+  "level": "intermediate",
+  "options": [
+   "Figure-8",
+   "Hypercardioid",
+   "Cardioid with 6 dB more output",
+   "Omni"
+  ],
+  "q": "A multi-pattern condenser has two back-to-back cardioid diaphragms. What pattern do you get when both are summed at equal level and the same polarity?",
+  "topic": "Microphones",
+  "lesson": null,
+  "id": "Q076"
+ },
+ {
+  "answer": 0,
+  "explain": "Proximity effect comes from the pressure-gradient part of the response. A sealed pressure omni has none; the figure-8, being pure gradient, has the most.",
+  "level": "intermediate",
+  "options": [
+   "A pressure-operated omni",
+   "A ribbon figure-8",
+   "A large-diaphragm cardioid",
+   "A shotgun with a supercardioid capsule"
+  ],
+  "q": "Which type of microphone shows essentially no proximity effect?",
+  "topic": "Microphones",
+  "lesson": null,
+  "id": "Q077"
+ },
+ {
+  "answer": 2,
+  "explain": "Without dither, truncation error follows the signal and is heard as gritty distortion on fades and reverb tails. Low-level dither noise decorrelates the error so it becomes a steady, low hiss instead.",
+  "level": "intermediate",
+  "options": [
+   "It raises the loudness of quiet passages",
+   "It removes the need for a true-peak limiter",
+   "It makes the quantisation error independent of the signal, turning distortion into benign noise",
+   "It stops intersample peaks"
+  ],
+  "q": "Why should you add dither when reducing a 24-bit mix to 16 bits?",
+  "topic": "Digital audio",
+  "lesson": null,
+  "id": "Q078"
+ },
+ {
+  "answer": 3,
+  "explain": "A cardioid's single null is at 180°. Nulls near 110° belong to the hypercardioid, and at 90° a cardioid is only 6 dB down.",
+  "level": "basic",
+  "options": [
+   "0° (on axis)",
+   "90° (side)",
+   "About 110°",
+   "180° (directly behind)"
+  ],
+  "q": "On a cardioid microphone, at what angle is it least sensitive?",
+  "topic": "Microphones",
+  "lesson": null,
+  "id": "Q079"
+ },
+ {
+  "answer": 0,
+  "explain": "For balanced mono lines, tip is hot, ring is cold and sleeve is the shield. The same plug used for stereo headphones carries left on the tip and right on the ring, which is a different use, not a balanced line.",
+  "level": "basic",
+  "options": [
+   "Tip hot (+), ring cold (−), sleeve ground/shield",
+   "Tip ground, ring hot, sleeve cold",
+   "Tip left, ring right, sleeve ground on every TRS cable",
+   "Tip cold, ring hot, sleeve phantom power"
+  ],
+  "q": "On a balanced TRS jack, what do the tip, ring and sleeve normally carry?",
+  "topic": "Connectors",
+  "lesson": null,
+  "id": "Q080"
+ },
+ {
+  "answer": 1,
+  "explain": "0 dB SPL is 20 µPa, roughly the threshold of hearing at 1 kHz. 1 Pa is 94 dB SPL; 0.775 V is the dBu reference and 1 mW the dBm reference.",
+  "level": "basic",
+  "options": [
+   "1 pascal",
+   "20 micropascals",
+   "0.775 volts",
+   "1 milliwatt"
+  ],
+  "q": "What reference pressure does 0 dB SPL correspond to?",
+  "topic": "Acoustics",
+  "lesson": null,
+  "id": "Q081"
+ },
+ {
+  "answer": 1,
+  "explain": "D0·D1 / (Ds·D2) = 40 / 4 = 10, and 20·log(10) = 20 dB. With one mic the NOM term is 0, and subtracting the 6 dB stability margin leaves 14 dB. Forgetting the margin gives the trap answer of 20 dB.",
+  "level": "advanced",
+  "options": [
+   "8 dB",
+   "14 dB",
+   "20 dB",
+   "26 dB"
+  ],
+  "q": "Using PAG = 20·log(D0·D1 / (Ds·D2)) − 10·log(NOM) − 6 dB, what is the PAG for one open mic with D0 = 10 m, D1 = 4 m, Ds = 0.5 m and D2 = 8 m?",
+  "topic": "Live sound",
+  "lesson": null,
+  "id": "Q082"
+ },
+ {
+  "answer": 2,
+  "explain": "The NOM penalty is 10·log(NOM), so the change is 10·log(8/2) = 10·log(4) ≈ 6 dB. Two doublings at 3 dB each: an automixer that keeps only the active mics open wins this back.",
+  "level": "advanced",
+  "options": [
+   "12 dB",
+   "9 dB",
+   "6 dB",
+   "3 dB"
+  ],
+  "q": "A panel goes from 2 to 8 open microphones, all at the same gain. By how much does potential acoustic gain fall?",
+  "topic": "Live sound",
+  "lesson": null,
+  "id": "Q083"
+ },
+ {
+  "answer": 3,
+  "explain": "64 / 96,000 = 0.000667 s, about 0.67 ms. The round-trip latency through an interface is several buffers plus converter delay, so it is always longer than one buffer.",
+  "level": "advanced",
+  "options": [
+   "1.33 ms",
+   "0.33 ms",
+   "6.4 ms",
+   "0.67 ms"
+  ],
+  "q": "At a 96 kHz sample rate, how long is one 64-sample buffer?",
+  "topic": "Digital audio",
+  "lesson": null,
+  "id": "Q084"
+ },
+ {
+  "answer": 0,
+  "explain": "60 to 15 cm is two halvings of distance, and each halving gives 6 dB by the inverse square law: 20·log(60/15) = 12 dB. The 6 dB answer counts only one halving.",
+  "level": "intermediate",
+  "options": [
+   "+12 dB",
+   "+6 dB",
+   "+3 dB",
+   "+24 dB"
+  ],
+  "q": "In a free field, a presenter's mic moves from 60 cm to 15 cm from the mouth. How much more gain before feedback do you get, all else equal?",
+  "topic": "Live sound",
+  "lesson": null,
+  "id": "Q085"
+ },
+ {
+  "answer": 2,
+  "explain": "FM sidebands appear at carrier ± n × modulator frequency, so here at 100, 300, 400 Hz and so on, all multiples of 100 Hz. A whole-number carrier-to-modulator ratio gives a harmonic sound; the index sets how many sidebands are strong.",
+  "level": "intermediate",
+  "options": [
+   "Only at 100 Hz and 300 Hz, whatever the index",
+   "At random inharmonic frequencies",
+   "At 200 ± n·100 Hz, giving a harmonic spectrum on a 100 Hz fundamental",
+   "At multiples of 200 Hz only"
+  ],
+  "q": "In simple FM synthesis, a 200 Hz carrier is modulated by a 100 Hz sine with a moderate index. Where do the sidebands fall?",
+  "topic": "Synthesis",
+  "lesson": null,
+  "id": "Q086"
+ },
+ {
+  "answer": 1,
+  "explain": "Blending a heavily compressed copy under the dry signal lifts low-level parts, a kind of upward compression, while the dry path keeps the attacks intact. Watch for comb filtering if the compressed path has latency that is not compensated.",
+  "level": "intermediate",
+  "options": [
+   "Reduces the peaks of the dry signal more than series compression would",
+   "Raises quiet detail and sustain while the uncompressed path keeps the transients",
+   "Removes low-frequency rumble",
+   "Lowers the overall loudness without changing the dynamics"
+  ],
+  "q": "What does parallel compression mainly do to a drum bus?",
+  "topic": "Compression",
+  "lesson": null,
+  "id": "Q087"
+ },
+ {
+  "answer": 3,
+  "explain": "Gain before feedback depends most on the talker-to-mic distance: each halving gives 6 dB. Swapping PA level for mic gain leaves the loop gain unchanged.",
+  "level": "basic",
+  "options": [
+   "Boost the high-mid EQ for clarity",
+   "Turn up the main PA and lower the mic gain by the same amount",
+   "Add reverb to mask the ringing",
+   "Get the mic closer to the talker's mouth"
+  ],
+  "q": "A lectern mic starts ringing before the speech is loud enough. What is usually the most effective first fix?",
+  "topic": "Live sound",
+  "lesson": null,
+  "id": "Q088"
+ },
+ {
+  "answer": 0,
+  "explain": "A DI matches an instrument's high-impedance, unbalanced output to a balanced, low-impedance mic input, so long cable runs stay quiet and the pickup is not loaded down. Many also give a ground lift and a pad.",
+  "level": "basic",
+  "options": [
+   "Converts a high-impedance unbalanced instrument signal to a low-impedance balanced signal for a mic input",
+   "Adds phantom power to a dynamic microphone",
+   "Converts analogue audio to Dante",
+   "Boosts a mic signal to line level"
+  ],
+  "q": "What does a DI box mainly do?",
+  "topic": "Connectors",
+  "lesson": null,
+  "id": "Q089"
+ },
+ {
+  "answer": 2,
+  "explain": "Equal-loudness contours dip most around 2–5 kHz, helped by the ear canal's resonance near 3 kHz. That is why harshness in this band is tiring and why small boosts there sound much louder.",
+  "level": "basic",
+  "options": [
+   "Below 100 Hz",
+   "Around 500 Hz",
+   "Roughly 2–5 kHz",
+   "Above 15 kHz"
+  ],
+  "q": "At moderate listening levels, which frequency range is human hearing most sensitive to?",
+  "topic": "Psychoacoustics",
+  "lesson": null,
+  "id": "Q090"
+ },
+ {
+  "answer": 2,
+  "explain": "At 1 kHz λ = 0.343 m, so N = 2 × 0.343 / 0.343 = 2 and A ≈ 10·log10(43) ≈ 16 dB. At 100 Hz, N = 0.2 and the same barrier gives only about 8.5 dB, which is why bass gets over walls.",
+  "level": "advanced",
+  "options": [
+   "About 5 dB",
+   "About 10 dB",
+   "About 16 dB",
+   "About 26 dB"
+  ],
+  "q": "A noise barrier makes sound travel 0.343 m further over its top than the direct path. Using N = 2δ/λ, Maekawa's approximation A ≈ 10·log10(3 + 20N) dB and c = 343 m/s, roughly how much attenuation does it give at 1 kHz?",
+  "topic": "Acoustics",
+  "lesson": null,
+  "id": "Q091"
+ },
+ {
+  "answer": 1,
+  "explain": "115 / 0.23 ≈ 500 Hz. Well below that the speaker radiates into full space and loses up to about 6 dB on axis; well above it the baffle directs sound forwards into half-space.",
+  "level": "advanced",
+  "options": [
+   "About 150 Hz",
+   "About 500 Hz",
+   "About 1.5 kHz",
+   "About 5 kHz"
+  ],
+  "q": "A loudspeaker has a 0.23 m wide front baffle. Using the common estimate f ≈ 115/W, around what frequency is the centre of its baffle-step transition?",
+  "topic": "Acoustics",
+  "lesson": null,
+  "id": "Q092"
+ },
+ {
+  "answer": 0,
+  "explain": "The preamp sees 1500 / (150 + 1500) ≈ 0.91 of the open-circuit voltage, and 20·log10(0.91) ≈ −0.8 dB. A 10:1 bridging ratio is chosen exactly so the loss is small; equal impedances would lose 6 dB.",
+  "level": "advanced",
+  "options": [
+   "About 0.8 dB",
+   "About 3 dB",
+   "About 6 dB",
+   "About 20 dB"
+  ],
+  "q": "A microphone with a 150 Ω output impedance feeds a preamp with a 1.5 kΩ input impedance. Treating them as a simple voltage divider, how much level is lost?",
+  "topic": "Impedance",
+  "lesson": null,
+  "id": "Q093"
+ },
+ {
+  "answer": 3,
+  "explain": "At 60 Hz the wavelength is about 5.7 m, several times the gobo's width, so the sound diffracts round it. Higher frequencies have wavelengths of a few centimetres and are shadowed.",
+  "level": "intermediate",
+  "options": [
+   "Cymbal wash around 8 kHz",
+   "Snare crack around 2 kHz",
+   "Hi-hat around 5 kHz",
+   "Kick drum around 60 Hz"
+  ],
+  "q": "You put a 1.2 m wide gobo between a drum kit and a vocal mic. Which part of the drum spill will it reduce least?",
+  "topic": "Acoustics",
+  "lesson": null,
+  "id": "Q094"
+ },
+ {
+  "answer": 2,
+  "explain": "The head is about 17–18 cm wide. Below about 1.5 kHz wavelengths are long enough to bend round it and time difference dominates; above it the head shadows the far ear and level difference takes over.",
+  "level": "intermediate",
+  "options": [
+   "About 100 Hz",
+   "About 300 Hz",
+   "About 1.5 kHz",
+   "About 15 kHz"
+  ],
+  "q": "Above roughly what frequency does the head start to shadow the far ear enough that interaural level difference becomes the main localisation cue?",
+  "topic": "Psychoacoustics",
+  "lesson": null,
+  "id": "Q095"
+ },
+ {
+  "answer": 1,
+  "explain": "Resonance feeds part of the output back to create a peak at the cutoff frequency. At high settings many filters self-oscillate there. The slope is a separate design choice.",
+  "level": "intermediate",
+  "options": [
+   "Raises the cutoff frequency",
+   "Boosts frequencies around the cutoff",
+   "Steepens the slope from 12 to 24 dB/octave",
+   "Adds a second oscillator"
+  ],
+  "q": "On a subtractive synth's low-pass filter, what does turning up resonance do?",
+  "topic": "Synthesis",
+  "lesson": null,
+  "id": "Q096"
+ },
+ {
+  "answer": 0,
+  "explain": "Diffraction is bending and spreading. Turning into heat is absorption, bouncing back is reflection, and changes in speed with temperature cause refraction.",
+  "level": "basic",
+  "options": [
+   "Sound bending around obstacles and spreading through openings",
+   "Sound turning into heat in an absorber",
+   "Sound bouncing back off a hard wall",
+   "Sound speeding up in warm air"
+  ],
+  "q": "What is diffraction?",
+  "topic": "Acoustics",
+  "lesson": null,
+  "id": "Q097"
+ },
+ {
+  "answer": 3,
+  "explain": "CD audio is 16-bit, 44.1 kHz stereo. 48 kHz is the film and TV standard, so music for picture often needs sample-rate conversion.",
+  "level": "basic",
+  "options": [
+   "32 kHz",
+   "48 kHz",
+   "96 kHz",
+   "44.1 kHz"
+  ],
+  "q": "What sample rate does audio CD use?",
+  "topic": "Digital audio",
+  "lesson": null,
+  "id": "Q098"
+ },
+ {
+  "answer": 2,
+  "explain": "M&E means music and effects: the full mix minus original-language dialogue, so distributors can dub the programme into other languages.",
+  "level": "basic",
+  "options": [
+   "A mono mix for editing",
+   "The master and an extra backup",
+   "A mix of music and effects without dialogue",
+   "A metadata and export file"
+  ],
+  "q": "In film and TV delivery, what is an M&E track?",
+  "topic": "Post workflow",
+  "lesson": null,
+  "id": "Q099"
+ },
+ {
+  "answer": 1,
+  "explain": "V = I × R = 0.02 × 0.05 = 1 mV, and 20·log(1/316) ≈ −50 dB. In an unbalanced cable the shield is the signal return, so this voltage drop adds straight to the audio.",
+  "level": "advanced",
+  "options": [
+   "About 30 dB",
+   "About 50 dB",
+   "About 70 dB",
+   "About 90 dB"
+  ],
+  "q": "In an unbalanced connection, 20 mA of ground-loop current flows through a cable shield with 0.05 Ω resistance. The signal is at −10 dBV (about 316 mV). Roughly how far below the signal is the resulting hum?",
+  "topic": "Grounding",
+  "lesson": null,
+  "id": "Q100"
+ },
+ {
+  "answer": 2,
+  "explain": "60 dB is a voltage ratio of 1,000, so 100 mV of common-mode noise becomes 0.1 mV. CMRR applies only to noise that is equal on both legs; imbalance in source or cable impedances reduces the real-world figure.",
+  "level": "advanced",
+  "options": [
+   "10 mV",
+   "1 mV",
+   "0.1 mV",
+   "0.01 mV"
+  ],
+  "q": "A balanced input has a CMRR of 60 dB at 50 Hz. If 100 mV of 50 Hz hum appears equally on both signal conductors, how much differential hum reaches the output of the input stage?",
+  "topic": "Balanced lines",
+  "lesson": null,
+  "id": "Q101"
+ },
+ {
+  "answer": 0,
+  "explain": "6.02 × 16 + 1.76 ≈ 98.1 dB. The common 96 dB figure is just 6.02 × 16 and leaves out the 1.76 dB term for a sine; 144 dB belongs to 24-bit.",
+  "level": "advanced",
+  "options": [
+   "About 98.1 dB",
+   "About 96.3 dB",
+   "About 90.3 dB",
+   "About 144.5 dB"
+  ],
+  "q": "Using SNR ≈ 6.02·N + 1.76 dB for a full-scale sine wave, what is the theoretical signal-to-quantisation-noise ratio of 16-bit audio?",
+  "topic": "Digital audio",
+  "lesson": null,
+  "id": "Q102"
+ },
+ {
+  "answer": 3,
+  "explain": "A DI with ground lift or an isolation transformer breaks the loop in the audio path while the mains earth keeps protecting people. Removing the safety earth is dangerous, and a longer cable makes the loop bigger, not smaller.",
+  "level": "intermediate",
+  "options": [
+   "Remove the earth pin from the mixer's mains plug",
+   "Lower the mixer's channel gain and raise the laptop's output",
+   "Use the longest cable available so the loop is spread out",
+   "Insert a DI box with its ground lift engaged, or an isolation transformer"
+  ],
+  "q": "A laptop feeding a mixer through an unbalanced cable causes a loud buzz. What is the safe fix?",
+  "topic": "Grounding",
+  "lesson": null,
+  "id": "Q103"
+ },
+ {
+  "answer": 0,
+  "explain": "If shield current enters the circuit-board ground before reaching the chassis, it flows through the audio ground and causes hum even on a balanced line. AES48 calls for the shield to go to chassis at the connector.",
+  "level": "intermediate",
+  "options": [
+   "Equipment that ties the cable shield to internal circuit ground instead of directly to the chassis",
+   "An XLR cable wired with pins 2 and 3 swapped",
+   "Phantom power reaching pin 1 and damaging ribbon microphones",
+   "A connector whose pin 1 contact wears out and becomes intermittent"
+  ],
+  "q": "What is the 'pin 1 problem' described by Neil Muncy?",
+  "topic": "Grounding",
+  "lesson": null,
+  "id": "Q104"
+ },
+ {
+  "answer": 1,
+  "explain": "The first stage, a high shelf of about +4 dB, models the acoustic effect of the head; the second is the RLB high-pass that reduces the weight of low frequencies. It is not A- or C-weighting.",
+  "level": "intermediate",
+  "options": [
+   "A low-shelf boost below 200 Hz and an A-weighting curve",
+   "A high-shelf boost above about 2 kHz and a low-frequency high-pass filter",
+   "A band-pass filter around 1 kHz and a de-emphasis curve",
+   "A C-weighting curve followed by a true-peak oversampler"
+  ],
+  "q": "The K-weighting filter used in ITU-R BS.1770 loudness meters is made of which two stages?",
+  "topic": "Loudness",
+  "lesson": null,
+  "id": "Q105"
+ },
+ {
+  "answer": 1,
+  "explain": "European mains runs at 50 Hz, so hum sits at 50 Hz with buzz harmonics at 100, 150 Hz and up. 60 Hz is the North American mains frequency.",
+  "level": "basic",
+  "options": [
+   "60 Hz",
+   "50 Hz",
+   "100 Hz",
+   "120 Hz"
+  ],
+  "q": "What is the fundamental frequency of mains hum in Italy and the rest of Europe?",
+  "topic": "Grounding",
+  "lesson": null,
+  "id": "Q106"
+ },
+ {
+  "answer": 3,
+  "explain": "Standard audiometry covers about 250 Hz to 8 kHz. Testing above 8 kHz is called extended high-frequency audiometry and can reveal early noise damage that a standard test misses.",
+  "level": "basic",
+  "options": [
+   "2 kHz",
+   "4 kHz",
+   "16 kHz",
+   "8 kHz"
+  ],
+  "q": "Up to what frequency does a standard clinical pure-tone audiogram usually test?",
+  "topic": "Hearing",
+  "lesson": null,
+  "id": "Q107"
+ },
+ {
+  "answer": 2,
+  "explain": "A square wave contains only odd harmonics, falling at 1/n. A sawtooth contains all harmonics, a sine has none, and noise has no harmonic series at all.",
+  "level": "basic",
+  "options": [
+   "Sawtooth",
+   "Sine",
+   "Square",
+   "White noise"
+  ],
+  "q": "Which basic oscillator waveform contains only odd harmonics?",
+  "topic": "Synthesis",
+  "lesson": null,
+  "id": "Q108"
+ },
+ {
+  "answer": 2,
+  "explain": "One octave below the cutoff, a second-order Butterworth is about 12.3 dB down. The trap is thinking the slope starts at the cutoff with 0 dB loss; the cutoff itself is already −3 dB.",
+  "level": "advanced",
+  "options": [
+   "About 3 dB",
+   "About 6 dB",
+   "About 12 dB",
+   "About 24 dB"
+  ],
+  "q": "A second-order (12 dB/octave) Butterworth high-pass filter is set to 100 Hz. Roughly how much does it attenuate a 50 Hz tone?",
+  "topic": "EQ & filters",
+  "lesson": null,
+  "id": "Q109"
+ },
+ {
+  "answer": 3,
+  "explain": "Q = √(2^N) / (2^N − 1). For N = 1 octave that is √2 / 1 ≈ 1.41. Q 4.32 is a third of an octave, and Q 0.67 would be two octaves.",
+  "level": "advanced",
+  "options": [
+   "About 0.71",
+   "About 2.87",
+   "About 4.32",
+   "About 1.41"
+  ],
+  "q": "A bell EQ band is set to exactly one octave of bandwidth between its −3 dB points. What is its Q?",
+  "topic": "EQ & filters",
+  "lesson": null,
+  "id": "Q110"
+ },
+ {
+  "answer": 2,
+  "explain": "A quarter note at 120 BPM is 60,000 ÷ 120 = 500 ms, so an eighth is 250 ms and a dotted eighth is 1.5 × 250 = 375 ms. 333 ms would be a quarter-note triplet.",
+  "level": "advanced",
+  "options": [
+   "250 ms",
+   "333 ms",
+   "375 ms",
+   "500 ms"
+  ],
+  "q": "A song runs at 120 BPM. What delay time gives a dotted-eighth-note echo?",
+  "topic": "Delay & time",
+  "lesson": null,
+  "id": "Q111"
+ },
+ {
+  "answer": 1,
+  "explain": "Linkwitz-Riley filters are two Butterworths in series, so each side is −6 dB at the crossover; the outputs are in phase and add back to 0 dB. A Butterworth crossover's −3 dB points would give a bump when summed in phase.",
+  "level": "intermediate",
+  "options": [
+   "−3 dB each, so the in-phase sum is +3 dB at crossover",
+   "−6 dB each, so the in-phase outputs sum flat",
+   "0 dB each, so the sum is +6 dB",
+   "−12 dB each, leaving a 6 dB dip"
+  ],
+  "q": "In a Linkwitz-Riley crossover, what is the level of each output at the crossover frequency, and how do they sum?",
+  "topic": "EQ & filters",
+  "lesson": null,
+  "id": "Q112"
+ },
+ {
+  "answer": 2,
+  "explain": "A Butterworth filter has 45° of phase shift per order at its cutoff, so a second-order Butterworth is at 90° and a fourth-order at 180°. Steeper filters shift phase more, which is why steep high-passes near a fundamental can change the attack.",
+  "level": "intermediate",
+  "options": [
+   "Both have 0°",
+   "Second order 45°, fourth order 90°",
+   "Second order 90°, fourth order 180°",
+   "Both have 90°"
+  ],
+  "q": "Comparing minimum-phase Butterworth high-pass filters, how much phase shift does each have at its cutoff frequency?",
+  "topic": "EQ & filters",
+  "lesson": null,
+  "id": "Q113"
+ },
+ {
+  "answer": 0,
+  "explain": "Normalisation applies a gain offset equal to the difference: −14 − (−8) = −6 dB. The louder master gains no loudness advantage and keeps whatever dynamics it lost to limiting.",
+  "level": "intermediate",
+  "options": [
+   "It is turned down by about 6 dB",
+   "It is turned up by about 6 dB",
+   "It is turned down by 14 dB",
+   "Nothing changes"
+  ],
+  "q": "A master measures −8 LUFS integrated. A streaming service normalises playback to −14 LUFS. What happens on playback?",
+  "topic": "Loudness",
+  "lesson": null,
+  "id": "Q114"
+ },
+ {
+  "answer": 2,
+  "explain": "Each filter order adds 6 dB per octave, so a first-order filter falls at 6 dB per octave (20 dB per decade). 12 and 24 dB per octave are second and fourth order.",
+  "level": "basic",
+  "options": [
+   "3 dB per octave",
+   "12 dB per octave",
+   "6 dB per octave",
+   "24 dB per octave"
+  ],
+  "q": "What is the slope of a first-order filter?",
+  "topic": "EQ & filters",
+  "lesson": null,
+  "id": "Q115"
+ },
+ {
+  "answer": 3,
+  "explain": "XY places the capsules at the same point, so the stereo image comes only from level differences. ORTF spaces cardioids 17 cm apart at 110°, and AB and the Decca tree use spaced omnis.",
+  "level": "basic",
+  "options": [
+   "ORTF",
+   "Spaced AB",
+   "Decca tree",
+   "XY"
+  ],
+  "q": "Which stereo technique uses two coincident cardioid capsules angled roughly 90° apart with no spacing between them?",
+  "topic": "Microphone technique",
+  "lesson": null,
+  "id": "Q116"
+ },
+ {
+  "answer": 0,
+  "explain": "Wavelength = speed of sound ÷ frequency. The speed stays the same in the same air, so doubling the frequency halves the wavelength.",
+  "level": "basic",
+  "options": [
+   "It halves",
+   "It doubles",
+   "It stays the same",
+   "It quadruples"
+  ],
+  "q": "If the frequency of a sound doubles, what happens to its wavelength in the same air?",
+  "topic": "Acoustics",
+  "lesson": null,
+  "id": "Q117"
+ },
+ {
+  "answer": 2,
+  "explain": "Quantisation noise power is Δ²/12; TPDF dither adds Δ²/6, so the total is three times the power, or 10·log10(3) ≈ 4.77 dB. The trap is 1.76 dB, which is the constant in the 6.02N + 1.76 dB formula, not the dither penalty.",
+  "level": "advanced",
+  "options": [
+   "About 1.76 dB",
+   "About 3 dB",
+   "About 4.77 dB",
+   "About 6.02 dB"
+  ],
+  "q": "Compared with an undithered, ideal quantiser at the same bit depth, roughly how much does adding standard TPDF dither raise the noise floor?",
+  "topic": "Digital audio",
+  "lesson": null,
+  "id": "Q118"
+ },
+ {
+  "answer": 3,
+  "explain": "Each bit is worth about 6 dB, so 30 dB below full scale costs about 5 bits, leaving about 11. This is why gain staging matters more at 16-bit than at 24-bit or in float.",
+  "level": "advanced",
+  "options": [
+   "About 16 bits",
+   "About 14 bits",
+   "About 8 bits",
+   "About 11 bits"
+  ],
+  "q": "A 16-bit file peaks at −30 dBFS. Roughly how many bits' worth of range does the signal use above the 16-bit quantisation floor?",
+  "topic": "Digital audio",
+  "lesson": null,
+  "id": "Q119"
+ },
+ {
+  "answer": 2,
+  "explain": "68.6 cm is a 2 ms delay. Notches fall at odd multiples of 1/(2t): 250 Hz, 750 Hz, 1,250 Hz and so on. 500 Hz and 1,000 Hz are peaks, where the delay equals whole cycles.",
+  "level": "advanced",
+  "options": [
+   "250 Hz",
+   "500 Hz",
+   "750 Hz",
+   "1,000 Hz"
+  ],
+  "q": "Two mics pick up the same source at equal level, but one is 68.6 cm further away (speed of sound 343 m/s). When the mics are summed, where is the second cancellation notch?",
+  "topic": "Phase & polarity",
+  "lesson": null,
+  "id": "Q120"
+ },
+ {
+  "answer": 0,
+  "explain": "Float can hold values above full scale, but a fixed-point format cannot represent anything over 0 dBFS, so those samples are clipped. Pull the level down before the bounce, or render to a float file.",
+  "level": "intermediate",
+  "options": [
+   "Everything above 0 dBFS is clipped in the file",
+   "The file keeps the overs and plays back cleanly",
+   "The DAW automatically normalises it to 0 dBFS",
+   "Only the true-peak meter reading changes"
+  ],
+  "q": "A mix bus in a 32-bit float session peaks at +6 dBFS without audible clipping. What happens if you bounce it to a 24-bit fixed-point WAV without lowering the level?",
+  "topic": "Digital audio",
+  "lesson": null,
+  "id": "Q121"
+ },
+ {
+  "answer": 1,
+  "explain": "Noise shaping redistributes the noise spectrum, mostly toward high frequencies, so it sounds quieter. Its total noise power is actually higher than flat dither; the benefit is perceptual.",
+  "level": "intermediate",
+  "options": [
+   "It removes the noise entirely",
+   "It moves noise toward frequencies where hearing is less sensitive",
+   "It lowers the total noise power below the undithered level",
+   "It only works on 24-bit files"
+  ],
+  "q": "What does noise-shaped dither do compared with flat TPDF dither?",
+  "topic": "Digital audio",
+  "lesson": null,
+  "id": "Q122"
+ },
+ {
+  "answer": 2,
+  "explain": "The front sub's sound needs about 2.9 ms (1 m at 343 m/s) to reach the rear box. Delaying the rear box by that amount, with inverted polarity, makes their outputs arrive together and opposite behind the array, so they cancel there while still adding at the front.",
+  "level": "intermediate",
+  "options": [
+   "0 ms",
+   "1.5 ms",
+   "2.9 ms",
+   "5.8 ms"
+  ],
+  "q": "In a gradient cardioid sub arrangement, a reversed-polarity sub sits 1 m behind the front sub. Roughly what delay is applied to the rear sub so the two cancel behind the array?",
+  "topic": "Live sound",
+  "lesson": null,
+  "id": "Q123"
+ },
+ {
+  "answer": 2,
+  "explain": "Dither belongs at the last step where word length is reduced, such as the 16-bit master. Applying it repeatedly stacks noise, and changing gain after dithering undoes its benefit.",
+  "level": "basic",
+  "options": [
+   "On every track as it is recorded",
+   "After every plugin",
+   "Once, at the final reduction to a lower fixed bit depth",
+   "Never, if the session is 24-bit"
+  ],
+  "q": "When should dither be applied in a typical music or post workflow?",
+  "topic": "Digital audio",
+  "lesson": null,
+  "id": "Q124"
+ },
+ {
+  "answer": 3,
+  "explain": "Masking is a hearing effect: the quieter sound is still in the signal, but the ear cannot detect it. Phase cancellation, by contrast, physically removes energy from the signal.",
+  "level": "basic",
+  "options": [
+   "Phase cancellation",
+   "The precedence effect",
+   "The proximity effect",
+   "Masking"
+  ],
+  "q": "What is it called when a loud sound makes a quieter sound at a nearby frequency inaudible?",
+  "topic": "Psychoacoustics",
+  "lesson": null,
+  "id": "Q125"
+ },
+ {
+  "answer": 1,
+  "explain": "Pin 1 is shield, pin 2 hot and pin 3 cold. Phantom power is carried equally on pins 2 and 3 relative to pin 1, not on a separate pin.",
+  "level": "basic",
+  "options": [
+   "Shield or ground",
+   "The hot (+) signal",
+   "The cold (−) signal",
+   "Phantom power only"
+  ],
+  "q": "On a balanced XLR connection wired to the common AES/IEC standard, what does pin 2 carry?",
+  "topic": "Connectors",
+  "lesson": null,
+  "id": "Q126"
+ },
+ {
+  "level": "advanced",
+  "topic": "Synthesis",
+  "q": "In an ideal sawtooth wave, how far below the fundamental is the 3rd harmonic?",
+  "options": [
+   "About 3 dB",
+   "About 6 dB",
+   "About 9.5 dB",
+   "About 19 dB"
+  ],
+  "answer": 2,
+  "explain": "Sawtooth harmonics fall at 1/n in amplitude, so the 3rd is 20·log10(1/3) ≈ −9.5 dB. The trap is using 10·log, which gives about 4.8 dB, or thinking of a 1/n² law, which applies to a triangle.",
+  "lesson": null,
+  "id": "Q127"
+ },
+ {
+  "level": "advanced",
+  "topic": "Synthesis",
+  "q": "A pulse wave has a 25% duty cycle. Which harmonics are missing from its spectrum?",
+  "options": [
+   "All the even harmonics",
+   "Every 4th harmonic (4, 8, 12…)",
+   "Every 3rd harmonic (3, 6, 9…)",
+   "None; all harmonics are present at equal level"
+  ],
+  "answer": 1,
+  "explain": "A pulse wave's nth harmonic is proportional to sin(nπd)/n, which is zero when n·d is a whole number. With d = 0.25 that happens at n = 4, 8, 12. Only a 50% pulse (a square) loses all even harmonics.",
+  "lesson": null,
+  "id": "Q128"
+ },
+ {
+  "level": "advanced",
+  "topic": "Digital audio",
+  "q": "A synth generates a naive (non-band-limited) 5 kHz square wave at a 48 kHz sample rate. Where does its 7th harmonic appear?",
+  "options": [
+   "13 kHz",
+   "35 kHz",
+   "11 kHz",
+   "19 kHz"
+  ],
+  "answer": 0,
+  "explain": "The 7th harmonic is 35 kHz, above the 24 kHz Nyquist limit, so it folds back to 48 − 35 = 13 kHz, a non-harmonic tone. That is why good soft synths use band-limited oscillators or oversampling.",
+  "lesson": null,
+  "id": "Q129"
+ },
+ {
+  "level": "intermediate",
+  "topic": "Synthesis",
+  "q": "Filter key tracking is set to 100%. You play the same patch one octave higher. What happens to the filter cutoff?",
+  "options": [
+   "It stays where it was",
+   "It rises by 6 dB",
+   "It halves",
+   "It doubles"
+  ],
+  "answer": 3,
+  "explain": "At 100% tracking the cutoff follows pitch exactly, and one octave is a doubling of frequency, so the cutoff doubles too. Keeping the cutoff fixed is what makes high notes sound dull on an untracked patch.",
+  "lesson": null,
+  "id": "Q130"
+ },
+ {
+  "level": "intermediate",
+  "topic": "Synthesis",
+  "q": "A 24 dB/octave low-pass filter is set to 1 kHz with no resonance. Roughly how much is a 4 kHz component attenuated?",
+  "options": [
+   "About 12 dB",
+   "About 24 dB",
+   "About 48 dB",
+   "About 96 dB"
+  ],
+  "answer": 2,
+  "explain": "4 kHz is two octaves above 1 kHz, and well above cutoff the slope is about 24 dB per octave, so roughly 48 dB. Near the cutoff the real curve is gentler, so this is an asymptotic estimate.",
+  "lesson": null,
+  "id": "Q131"
+ },
+ {
+  "level": "intermediate",
+  "topic": "Psychoacoustics",
+  "q": "The same sound comes from two speakers at equal level, with the right one delayed by 10 ms. Where does a listener on the centre line hear it?",
+  "options": [
+   "Mostly at the left speaker",
+   "Mostly at the right speaker",
+   "Exactly in the middle",
+   "As two separate echoes"
+  ],
+  "answer": 0,
+  "explain": "This is the precedence (Haas) effect: for delays of a few milliseconds up to roughly 30–40 ms, the ear localises to the first arrival and fuses the two. Longer delays start to be heard as a distinct echo.",
+  "lesson": null,
+  "id": "Q132"
+ },
+ {
+  "level": "basic",
+  "topic": "Microphone technique",
+  "q": "From which direction does a cardioid microphone pick up the least sound?",
+  "options": [
+   "From the front (0°)",
+   "From directly behind (180°)",
+   "From the side (90°)",
+   "Equally from all directions"
+  ],
+  "answer": 1,
+  "explain": "A cardioid's single null is at the rear, 180°. Supercardioids and hypercardioids have their nulls off to the rear sides, which matters when placing wedges.",
+  "lesson": null,
+  "id": "Q133"
+ },
+ {
+  "level": "basic",
+  "topic": "Digital audio",
+  "q": "What sample rate is the usual standard for film and TV production audio?",
+  "options": [
+   "32 kHz",
+   "44.1 kHz",
+   "88.2 kHz",
+   "48 kHz"
+  ],
+  "answer": 3,
+  "explain": "Picture work standardised on 48 kHz (or multiples such as 96 kHz). 44.1 kHz comes from CD audio and causes sync and conversion issues if it slips into a video project.",
+  "lesson": null,
+  "id": "Q134"
+ },
+ {
+  "level": "basic",
+  "topic": "Phase & polarity",
+  "q": "What does pressing a channel's polarity (Ø) button do to the signal?",
+  "options": [
+   "Inverts the waveform without delaying it",
+   "Delays it by half a cycle at every frequency",
+   "Swaps the left and right channels",
+   "Shifts the phase by 90°"
+  ],
+  "answer": 0,
+  "explain": "A polarity flip multiplies the signal by −1 at every frequency at once. It is not a time delay; a delay of half a cycle only matches the inversion at one frequency.",
+  "lesson": null,
+  "id": "Q135"
+ },
+ {
+  "level": "advanced",
+  "topic": "Acoustics",
+  "q": "A speaker gives 94 dB SPL at 1 m in a free field. At roughly what distance has the level fallen to 80 dB SPL?",
+  "options": [
+   "About 5 m",
+   "About 2.5 m",
+   "About 7 m",
+   "About 14 m"
+  ],
+  "answer": 0,
+  "explain": "A 14 dB drop needs a distance ratio of 10^(14/20) ≈ 5. The trap is treating dB as linear with distance, which leads to 14 m.",
+  "lesson": "L016",
+  "id": "Q136"
+ },
+ {
+  "level": "advanced",
+  "topic": "Acoustics",
+  "q": "Using dc ≈ 0.057·√(Q·V/RT60), what is the critical distance for a loudspeaker with Q = 4 in a 250 m³ room with an RT60 of 0.4 s?",
+  "options": [
+   "About 1.4 m",
+   "About 5.7 m",
+   "About 8.1 m",
+   "About 2.9 m"
+  ],
+  "answer": 3,
+  "explain": "Q·V/RT60 = 4 × 250 / 0.4 = 2500, √2500 = 50, and 0.057 × 50 ≈ 2.85 m. Forgetting the square root gives absurdly large answers.",
+  "lesson": "L016",
+  "id": "Q137"
+ },
+ {
+  "level": "advanced",
+  "topic": "Acoustics",
+  "q": "You add absorption to a room so its RT60 halves. Using the standard critical-distance estimate, what happens to the critical distance?",
+  "options": [
+   "It doubles",
+   "It halves",
+   "It increases by about 1.4 times",
+   "It stays the same"
+  ],
+  "answer": 2,
+  "explain": "dc is proportional to √(1/RT60), so halving RT60 multiplies dc by √2 ≈ 1.41. The trap is assuming a linear relationship.",
+  "lesson": "L016",
+  "id": "Q138"
+ },
+ {
+  "level": "intermediate",
+  "topic": "Acoustics",
+  "q": "In a reverberant hall, you walk from well inside the critical distance of a speaker to far beyond it. How does the total SPL behave?",
+  "options": [
+   "It keeps falling by 6 dB per doubling all the way",
+   "It falls at first, then levels off as the reverberant field dominates",
+   "It rises once you pass the critical distance",
+   "It stays constant everywhere in the room"
+  ],
+  "answer": 1,
+  "explain": "Near the source the direct sound follows the inverse square law; far away the roughly uniform reverberant field sets the level. Treating the room as a free field is the common error.",
+  "lesson": "L016",
+  "id": "Q139"
+ },
+ {
+  "level": "intermediate",
+  "topic": "Acoustics",
+  "q": "A long line array is heard from within its near field. Roughly how much does its level fall per doubling of distance?",
+  "options": [
+   "About 1 dB",
+   "About 3 dB",
+   "About 6 dB",
+   "About 12 dB"
+  ],
+  "answer": 1,
+  "explain": "A line source spreads cylindrically, so intensity falls as 1/r, which is 3 dB per doubling. The 6 dB figure applies to point sources.",
+  "lesson": "L016",
+  "id": "Q140"
+ },
+ {
+  "level": "basic",
+  "topic": "Acoustics",
+  "q": "What is the critical distance in a room?",
+  "options": [
+   "The distance at which direct and reverberant sound levels are equal",
+   "The distance at which the first room mode appears",
+   "The furthest distance at which speech is intelligible",
+   "The distance at which a mic starts to show proximity effect"
+  ],
+  "answer": 0,
+  "explain": "Critical distance is defined by the balance of direct and reverberant energy. It is not a mode, intelligibility limit or proximity-effect boundary.",
+  "lesson": "L016",
+  "id": "Q141"
+ },
+ {
+  "level": "basic",
+  "topic": "Acoustics",
+  "q": "For a point source in a free field, sound intensity is proportional to what?",
+  "options": [
+   "1/r",
+   "1/r³",
+   "r²",
+   "1/r², where r is distance"
+  ],
+  "answer": 3,
+  "explain": "The same power spreads over a sphere of area 4πr², so intensity follows 1/r². 1/r describes sound pressure, not intensity, which is a frequent mix-up.",
+  "lesson": "L016",
+  "id": "Q142"
+ },
+ {
+  "level": "advanced",
+  "topic": "Acoustics",
+  "q": "A room is 5.72 m long. Taking c = 343 m/s, what is the frequency of the second axial mode along its length?",
+  "options": [
+   "About 30 Hz",
+   "About 90 Hz",
+   "About 60 Hz",
+   "About 120 Hz"
+  ],
+  "answer": 2,
+  "explain": "f = n·c/2L = 2 × 343 / 11.44 ≈ 60 Hz. 30 Hz is the first mode; the trap is forgetting to multiply by n.",
+  "lesson": "L017",
+  "id": "Q143"
+ },
+ {
+  "level": "advanced",
+  "topic": "Acoustics",
+  "q": "A 90 m³ control room should have an RT60 of 0.6 s. Using Sabine's formula, how much total absorption does it need?",
+  "options": [
+   "About 9 m² sabins",
+   "About 54 m² sabins",
+   "About 24 m² sabins",
+   "About 87 m² sabins"
+  ],
+  "answer": 2,
+  "explain": "Rearrange RT60 = 0.161·V/A to A = 0.161 × 90 / 0.6 ≈ 24.2 m². Forgetting the 0.161 constant leads to 150, and multiplying by RT60 instead of dividing gives about 9.",
+  "lesson": "L017",
+  "id": "Q144"
+ },
+ {
+  "level": "advanced",
+  "topic": "Acoustics",
+  "q": "Using fs ≈ 2000·√(RT60/V), roughly what is the Schroeder frequency of an 80 m³ room with an RT60 of 0.3 s?",
+  "options": [
+   "About 60 Hz",
+   "About 120 Hz",
+   "About 245 Hz",
+   "About 490 Hz"
+  ],
+  "answer": 1,
+  "explain": "0.3/80 = 0.00375, √0.00375 ≈ 0.061, and 2000 × 0.061 ≈ 122 Hz. Below this the room's bass behaves as individual modes.",
+  "lesson": "L017",
+  "id": "Q145"
+ },
+ {
+  "level": "intermediate",
+  "topic": "Acoustics",
+  "q": "You sit exactly halfway between the front and back walls. How does the first axial length mode sound at that seat?",
+  "options": [
+   "Weak, because that mode has a pressure null at the room's centre",
+   "Strongest, because the centre is a pressure peak",
+   "Unchanged compared with anywhere else",
+   "Doubled in level by both walls"
+  ],
+  "answer": 0,
+  "explain": "The first axial mode has pressure maxima at both walls and a null midway. Odd-numbered length modes all share that centre null.",
+  "lesson": "L017",
+  "id": "Q146"
+ },
+ {
+  "level": "intermediate",
+  "topic": "Acoustics",
+  "q": "Where in a rectangular room do all room modes have a pressure maximum?",
+  "options": [
+   "In the exact centre",
+   "At the listening position",
+   "Halfway up each wall",
+   "In the corners"
+  ],
+  "answer": 3,
+  "explain": "Every mode has a pressure peak at the boundaries it involves, and the corners meet all of them. That is why corner bass traps are effective.",
+  "lesson": "L017",
+  "id": "Q147"
+ },
+ {
+  "level": "basic",
+  "topic": "Acoustics",
+  "q": "What does RT60 measure?",
+  "options": [
+   "The time for sound to reach 60 dB SPL",
+   "The level of the reverb 60 ms after the direct sound",
+   "The frequency of the lowest room mode",
+   "The time for sound to decay by 60 dB after the source stops"
+  ],
+  "answer": 3,
+  "explain": "RT60 is a decay time defined by a 60 dB drop. It is not a level or a frequency.",
+  "lesson": "L017",
+  "id": "Q148"
+ },
+ {
+  "level": "basic",
+  "topic": "Acoustics",
+  "q": "Which type of room mode is usually the strongest?",
+  "options": [
+   "Tangential",
+   "Oblique",
+   "Axial",
+   "Diffuse"
+  ],
+  "answer": 2,
+  "explain": "Axial modes bounce between just two surfaces and lose the least energy. Tangential and oblique modes involve more reflections and are weaker.",
+  "lesson": "L017",
+  "id": "Q149"
+ },
+ {
+  "level": "advanced",
+  "topic": "Psychoacoustics",
+  "q": "1 sone is defined as a loudness level of 40 phon, and loudness doubles for every 10 phon above that. How many sones is a sound at 70 phon?",
+  "options": [
+   "3 sones",
+   "8 sones",
+   "4 sones",
+   "30 sones"
+  ],
+  "answer": 1,
+  "explain": "70 − 40 = 30 phon, which is three doublings: 2³ = 8 sones. The trap is dividing phons by ten or adding linearly.",
+  "lesson": "L018",
+  "id": "Q150"
+ },
+ {
+  "level": "advanced",
+  "topic": "Psychoacoustics",
+  "q": "Using the Glasberg and Moore estimate ERB = 24.7·(4.37·f/1000 + 1) Hz, what is the equivalent rectangular bandwidth of the auditory filter at 1 kHz?",
+  "options": [
+   "About 133 Hz",
+   "About 25 Hz",
+   "About 108 Hz",
+   "About 1,000 Hz"
+  ],
+  "answer": 0,
+  "explain": "24.7 × (4.37 + 1) = 24.7 × 5.37 ≈ 133 Hz. Leaving out the +1 gives about 108 Hz.",
+  "lesson": "L018",
+  "id": "Q151"
+ },
+ {
+  "level": "advanced",
+  "topic": "Psychoacoustics",
+  "q": "A 100 Hz tone and a 1 kHz tone both measure 60 phon. You raise both by 20 dB SPL. What happens to their loudness levels?",
+  "options": [
+   "The 100 Hz tone gains more than 20 phon; the 1 kHz tone gains 20 phon",
+   "Both gain exactly 20 phon",
+   "The 1 kHz tone gains more than the 100 Hz tone",
+   "The 100 Hz tone gains less than 20 phon"
+  ],
+  "answer": 0,
+  "explain": "At 1 kHz phon equals dB SPL by definition. At low frequencies the equal-loudness contours are closer together, so each dB adds more than one phon.",
+  "lesson": "L018",
+  "id": "Q152"
+ },
+ {
+  "level": "intermediate",
+  "topic": "Psychoacoustics",
+  "q": "A loud snare hit can hide a quiet ghost note. Which is true of temporal masking?",
+  "options": [
+   "Backward masking lasts longer than forward masking",
+   "Both last exactly 50 ms",
+   "Temporal masking only happens between sounds of different frequencies",
+   "Forward masking (after the loud sound) lasts much longer than backward masking"
+  ],
+  "answer": 3,
+  "explain": "Forward masking can extend for around 100 to 200 ms, while backward masking is typically a few milliseconds to around 20 ms.",
+  "lesson": "L018",
+  "id": "Q153"
+ },
+ {
+  "level": "intermediate",
+  "topic": "Psychoacoustics",
+  "q": "The A-weighting curve was originally based on approximately which equal-loudness contour?",
+  "options": [
+   "The 0 phon threshold contour",
+   "The 80 phon contour",
+   "The 40 phon contour",
+   "The 100 phon contour"
+  ],
+  "answer": 2,
+  "explain": "A-weighting approximates the ear's response at low levels around 40 phon. That is why it underestimates the loudness of bass at high levels.",
+  "lesson": "L018",
+  "id": "Q154"
+ },
+ {
+  "level": "basic",
+  "topic": "Psychoacoustics",
+  "q": "What is the loudness level in phons of a sound that is judged as loud as a 1 kHz tone at 70 dB SPL?",
+  "options": [
+   "7 phon",
+   "70 phon",
+   "35 phon",
+   "140 phon"
+  ],
+  "answer": 1,
+  "explain": "By definition, phon equals the dB SPL of the equally loud 1 kHz tone. The sound's own SPL may differ if it is at another frequency.",
+  "lesson": "L018",
+  "id": "Q155"
+ },
+ {
+  "level": "basic",
+  "topic": "Psychoacoustics",
+  "q": "Which international standard defines the current equal-loudness contours?",
+  "options": [
+   "ITU-R BS.1770",
+   "ISO 226",
+   "IEC 61938",
+   "AES17"
+  ],
+  "answer": 1,
+  "explain": "ISO 226 replaced earlier Fletcher-Munson and Robinson-Dadson curves. BS.1770 is loudness metering, IEC 61938 covers phantom power and AES17 covers converter measurement.",
+  "lesson": "L018",
+  "id": "Q156"
+ },
+ {
+  "level": "advanced",
+  "topic": "Psychoacoustics",
+  "q": "Using Woodworth's model ITD = (r/c)·(θ + sin θ) with r = 0.0875 m and c = 343 m/s, what is the ITD for a source at 90° (θ = π/2)?",
+  "options": [
+   "About 0.66 ms",
+   "About 0.26 ms",
+   "About 1.3 ms",
+   "About 2.6 ms"
+  ],
+  "answer": 0,
+  "explain": "r/c ≈ 0.000255 s and π/2 + 1 ≈ 2.571, giving about 0.656 ms. Forgetting the sin θ term gives about 0.4 ms, and using diameter instead of radius doubles the answer.",
+  "lesson": "L019",
+  "id": "Q157"
+ },
+ {
+  "level": "advanced",
+  "topic": "Psychoacoustics",
+  "q": "Two omni mics are spaced 60 cm apart. A source is directly off to one side, on the line through both mics. Taking c = 343 m/s, what is the arrival time difference between them?",
+  "options": [
+   "About 0.35 ms",
+   "About 0.87 ms",
+   "About 3.5 ms",
+   "About 1.75 ms"
+  ],
+  "answer": 3,
+  "explain": "Time difference = 0.6 / 343 ≈ 1.75 ms. This is far larger than the ear's natural ITD of about 0.66 ms, which is one reason spaced pairs can sound very wide.",
+  "lesson": "L019",
+  "id": "Q158"
+ },
+ {
+  "level": "advanced",
+  "topic": "Psychoacoustics",
+  "q": "A sound is either directly in front of or directly behind a listener. They turn their head 20° to the right, and the sound now reaches the left ear first. Where is the source?",
+  "options": [
+   "Behind",
+   "Directly overhead",
+   "In front",
+   "It cannot be determined from head movement"
+  ],
+  "answer": 2,
+  "explain": "After turning right, a source in front sits to the left of the new facing direction, so the left ear leads. A source behind would sit to the rear right and reach the right ear first.",
+  "lesson": "L019",
+  "id": "Q159"
+ },
+ {
+  "level": "intermediate",
+  "topic": "Psychoacoustics",
+  "q": "A source directly in front and one directly behind at the same distance give almost identical ITD and ILD. Without moving the head, what mainly lets a listener tell them apart?",
+  "options": [
+   "A larger ITD for sounds behind",
+   "The precedence effect",
+   "Spectral cues from the pinna, described by the HRTF",
+   "Bone conduction through the skull"
+  ],
+  "answer": 2,
+  "explain": "Front and back lie on the same cone of confusion, so ITD and ILD match. The outer ear filters sound differently by direction, mostly above about 5 kHz.",
+  "lesson": "L019",
+  "id": "Q160"
+ },
+ {
+  "level": "intermediate",
+  "topic": "Psychoacoustics",
+  "q": "Why does a dummy-head binaural recording lose most of its 3D effect on a pair of loudspeakers?",
+  "options": [
+   "Loudspeakers cannot reproduce frequencies above 5 kHz",
+   "Each ear hears both speakers, which mixes up the interaural cues",
+   "The recording has no level differences between channels",
+   "Binaural files are always mono"
+  ],
+  "answer": 1,
+  "explain": "Binaural cues assume each channel reaches only one ear. Speaker crosstalk sends both channels to both ears and blurs ITD and ILD.",
+  "lesson": "L019",
+  "id": "Q161"
+ },
+ {
+  "level": "basic",
+  "topic": "Psychoacoustics",
+  "q": "What does ITD stand for in localisation?",
+  "options": [
+   "Interaural time difference",
+   "Internal timing delay",
+   "Interaural tone distortion",
+   "Initial time delay"
+  ],
+  "answer": 0,
+  "explain": "ITD is the difference in arrival time of a sound at the two ears. Initial time delay is a separate room-acoustics term.",
+  "lesson": "L019",
+  "id": "Q162"
+ },
+ {
+  "level": "basic",
+  "topic": "Psychoacoustics",
+  "q": "What does a head-related transfer function (HRTF) describe?",
+  "options": [
+   "The frequency response of a pair of headphones",
+   "The hearing loss of an individual listener",
+   "The delay between two loudspeakers",
+   "How the head, torso and outer ears filter sound arriving from a given direction"
+  ],
+  "answer": 3,
+  "explain": "An HRTF is direction-dependent filtering by the body before sound reaches the eardrum. Headphone response and audiograms are different measurements.",
+  "lesson": "L019",
+  "id": "Q163"
+ },
+ {
+  "level": "advanced",
+  "topic": "Impedance",
+  "q": "A passive DI has a 12:1 step-down transformer. By roughly how much does it reduce the signal voltage?",
+  "options": [
+   "About 10.8 dB",
+   "About 12 dB",
+   "About 43.2 dB",
+   "About 21.6 dB"
+  ],
+  "answer": 3,
+  "explain": "Voltage ratio is 12, and 20·log10(12) ≈ 21.6 dB. Using 10·log gives 10.8 dB, and confusing the turns ratio with the impedance ratio gives 43.2 dB.",
+  "lesson": "L020",
+  "id": "Q164"
+ },
+ {
+  "level": "advanced",
+  "topic": "Impedance",
+  "q": "A DI transformer has a 10:1 turns ratio and drives a preamp with a 2 kΩ input impedance. Roughly what impedance does the instrument see at the DI input?",
+  "options": [
+   "About 20 kΩ",
+   "About 2 MΩ",
+   "About 200 kΩ",
+   "About 200 Ω"
+  ],
+  "answer": 2,
+  "explain": "A transformer reflects load impedance by the square of the turns ratio: 2 kΩ × 10² = 200 kΩ. Multiplying by the turns ratio alone gives 20 kΩ.",
+  "lesson": "L020",
+  "id": "Q165"
+ },
+ {
+  "level": "advanced",
+  "topic": "Impedance",
+  "q": "An instrument with a 20 kΩ source impedance drives 10 m of cable with 150 pF per metre. Treating it as a simple RC low-pass, roughly where is the −3 dB point?",
+  "options": [
+   "About 53 kHz",
+   "About 5.3 kHz",
+   "About 530 Hz",
+   "About 16 kHz"
+  ],
+  "answer": 1,
+  "explain": "C = 10 × 150 pF = 1.5 nF, and f = 1/(2π × 20,000 × 1.5×10⁻⁹) ≈ 5.3 kHz. That audible roll-off is why long unbalanced instrument cables sound dull.",
+  "lesson": "L020",
+  "id": "Q166"
+ },
+ {
+  "level": "intermediate",
+  "topic": "Balanced lines",
+  "q": "An output drives signal on pin 2 only. Pin 3 carries no signal but connects to ground through a resistor equal to pin 2's output impedance. Feeding a balanced input, what do you have?",
+  "options": [
+   "A balanced connection that rejects common-mode noise",
+   "An unbalanced connection with no noise rejection",
+   "A connection that will lose 6 dB and reject nothing",
+   "A short circuit on pin 3"
+  ],
+  "answer": 0,
+  "explain": "Noise rejection depends on equal impedances to ground, not on signal symmetry. This impedance-balanced design is common and works well.",
+  "lesson": "L020",
+  "id": "Q167"
+ },
+ {
+  "level": "intermediate",
+  "topic": "Balanced lines",
+  "q": "How is an active DI box usually powered?",
+  "options": [
+   "By phantom power from the mic preamp or by an internal battery",
+   "By the instrument's pickup signal",
+   "By the speaker output of the amp",
+   "It needs no power at all"
+  ],
+  "answer": 0,
+  "explain": "An active DI contains an amplifier and needs power, normally phantom or a battery. A passive DI uses only a transformer.",
+  "lesson": "L020",
+  "id": "Q168"
+ },
+ {
+  "level": "basic",
+  "topic": "Connectors",
+  "q": "Which of these cables is unbalanced?",
+  "options": [
+   "A 3-pin XLR mic cable",
+   "A TRS cable used for a balanced line",
+   "A star-quad mic cable",
+   "A TS (tip-sleeve) instrument cable"
+  ],
+  "answer": 3,
+  "explain": "A TS cable has one signal conductor and a shield. The others carry two signal conductors plus a shield.",
+  "lesson": "L020",
+  "id": "Q169"
+ },
+ {
+  "level": "basic",
+  "topic": "Balanced lines",
+  "q": "How many signal conductors does a balanced audio line use, not counting the shield?",
+  "options": [
+   "One",
+   "Three",
+   "Two",
+   "Four"
+  ],
+  "answer": 2,
+  "explain": "A balanced line has hot and cold conductors plus a shield. Star-quad cable uses four wires, but they are paired into two conductors.",
+  "lesson": "L020",
+  "id": "Q170"
+ },
+ {
+  "level": "advanced",
+  "topic": "Gain staging",
+  "q": "How many dB higher is professional line level (+4 dBu) than consumer line level (−10 dBV)?",
+  "options": [
+   "About 2.2 dB",
+   "About 11.8 dB",
+   "About 14 dB",
+   "About 16.2 dB"
+  ],
+  "answer": 1,
+  "explain": "−10 dBV = −10 + 2.2 = −7.8 dBu, so the gap is 4 − (−7.8) ≈ 11.8 dB. Subtracting the numbers directly gives 14 dB and ignores the different references.",
+  "lesson": "L021",
+  "id": "Q171"
+ },
+ {
+  "level": "advanced",
+  "topic": "Gain staging",
+  "q": "A calibrator produces a sound pressure of 2 Pa RMS. What is that in dB SPL?",
+  "options": [
+   "About 88 dB SPL",
+   "About 100 dB SPL",
+   "About 97 dB SPL",
+   "About 106 dB SPL"
+  ],
+  "answer": 1,
+  "explain": "1 Pa ≈ 94 dB SPL, and doubling pressure adds 20·log10(2) ≈ 6 dB. Using 10·log for pressure gives about 97 dB.",
+  "lesson": "L021",
+  "id": "Q172"
+ },
+ {
+  "level": "advanced",
+  "topic": "Gain staging",
+  "q": "An amplifier gives a certain SPL with 100 W. With the same speaker and no compression, how much power do you need for 10 dB more SPL?",
+  "options": [
+   "1,000 W",
+   "200 W",
+   "316 W",
+   "10,000 W"
+  ],
+  "answer": 0,
+  "explain": "Power uses 10·log10, so +10 dB means ten times the power. 316 W comes from wrongly applying the 20·log voltage rule.",
+  "lesson": "L021",
+  "id": "Q173"
+ },
+ {
+  "level": "intermediate",
+  "topic": "Gain staging",
+  "q": "What is 0 dBV expressed in dBu?",
+  "options": [
+   "About −2.2 dBu",
+   "0 dBu",
+   "About +4 dBu",
+   "About +2.2 dBu"
+  ],
+  "answer": 3,
+  "explain": "20·log10(1 / 0.775) ≈ +2.2 dB. 1 V is larger than 0.775 V, so the dBu number is higher.",
+  "lesson": "L021",
+  "id": "Q174"
+ },
+ {
+  "level": "intermediate",
+  "topic": "Gain staging",
+  "q": "Which quantities use 20·log10 rather than 10·log10 when expressed in decibels?",
+  "options": [
+   "Power and intensity",
+   "Power and voltage",
+   "Voltage and sound pressure",
+   "Intensity and sound pressure"
+  ],
+  "answer": 2,
+  "explain": "Power and intensity are proportional to the square of voltage or pressure, so 20·log for field quantities gives the same dB change as 10·log for power.",
+  "lesson": "L021",
+  "id": "Q175"
+ },
+ {
+  "level": "basic",
+  "topic": "Gain staging",
+  "q": "What voltage is 0 dBu referenced to?",
+  "options": [
+   "1 V RMS",
+   "1.228 V RMS",
+   "0.775 V RMS",
+   "0.316 V RMS"
+  ],
+  "answer": 2,
+  "explain": "0 dBu is 0.775 V, the voltage that gives 1 mW into 600 Ω. 1 V is the dBV reference, 1.228 V is +4 dBu and 0.316 V is −10 dBV.",
+  "lesson": "L021",
+  "id": "Q176"
+ },
+ {
+  "level": "basic",
+  "topic": "Gain staging",
+  "q": "In a fixed-point digital system, what is the highest level that can be stored?",
+  "options": [
+   "+4 dBFS",
+   "0 dBFS",
+   "+24 dBFS",
+   "−18 dBFS"
+  ],
+  "answer": 1,
+  "explain": "dBFS is referenced to full scale, so 0 dBFS is the ceiling and all valid levels are zero or negative. −18 dBFS is a common alignment level, not a limit.",
+  "lesson": "L021",
+  "id": "Q177"
+ },
+ {
+  "level": "advanced",
+  "topic": "Delay & time",
+  "q": "A linear-phase EQ on a kick channel reports 2048 samples of latency in a 48 kHz session, but delay compensation is switched off. The kick is also in the overheads. What happens?",
+  "options": [
+   "The kick channel is about 2 ms late, which causes mild comb filtering in the low mids",
+   "The kick channel is about 4.3 ms late, which only shifts the stereo image",
+   "The kick channel is about 42.7 ms late, which is heard as a flam or slap against the overheads",
+   "Nothing, because linear-phase EQ adds no phase shift"
+  ],
+  "answer": 2,
+  "explain": "2048 / 48 000 = 0.0427 s, about 42.7 ms. That is long enough to hear as a separate hit, not just a tonal comb. 'Linear-phase' means equal delay at all frequencies, not zero delay.",
+  "lesson": "L022",
+  "id": "Q178"
+ },
+ {
+  "level": "advanced",
+  "topic": "Delay & time",
+  "q": "A symmetric FIR linear-phase filter has 8191 taps and runs at 96 kHz. What latency does it add?",
+  "options": [
+   "About 85.3 ms (8191 samples)",
+   "About 42.7 ms (4095 samples)",
+   "About 21.3 ms (2048 samples)",
+   "None, because FIR filters have no feedback"
+  ],
+  "answer": 1,
+  "explain": "A symmetric FIR delays the signal by (N − 1)/2 samples: (8191 − 1)/2 = 4095 samples, and 4095 / 96 000 ≈ 42.7 ms. The trap is to count the whole filter length as the delay.",
+  "lesson": "L022",
+  "id": "Q179"
+ },
+ {
+  "level": "advanced",
+  "topic": "EQ & filters",
+  "q": "A narrow linear-phase cut at 60 Hz has an impulse response that keeps ringing for about 30 ms after its main peak. When does the ringing start?",
+  "options": [
+   "Exactly at the main peak, as with any filter",
+   "About 15 ms before the main peak",
+   "About 30 ms before the main peak, because the impulse response is symmetric",
+   "About 60 ms before the main peak"
+  ],
+  "answer": 2,
+  "explain": "A linear-phase FIR has a symmetric impulse response, so whatever rings after the peak also rings before it, by the same time. That pre-ringing is what you hear as a swell before transients.",
+  "lesson": "L022",
+  "id": "Q180"
+ },
+ {
+  "level": "intermediate",
+  "topic": "EQ & filters",
+  "q": "On a minimum-phase EQ, which frequencies receive phase shift from a single bell boost?",
+  "options": [
+   "All frequencies equally, from 20 Hz to 20 kHz",
+   "Mainly those around the band, where the gain is changing",
+   "Only frequencies above the centre frequency",
+   "None, unless the Q is above 10"
+  ],
+  "answer": 1,
+  "explain": "In a minimum-phase filter the phase shift follows the change in magnitude, so it is concentrated around the band being altered. Where the response is flat, there is no phase shift.",
+  "lesson": "L022",
+  "id": "Q181"
+ },
+ {
+  "level": "intermediate",
+  "topic": "EQ & filters",
+  "q": "You want to EQ a snare top mic without changing how it sums with the snare bottom mic. Which EQ type keeps the phase relationship between the two unchanged?",
+  "options": [
+   "Linear-phase EQ, with delay compensation on",
+   "Minimum-phase EQ with a high Q",
+   "Minimum-phase EQ with a low Q",
+   "Any EQ, as long as you flip the polarity of the bottom mic"
+  ],
+  "answer": 0,
+  "explain": "Linear-phase EQ delays all frequencies equally, and delay compensation removes that delay, so only the level changes. Any minimum-phase move changes phase around the band and alters how the two mics sum.",
+  "lesson": "L022",
+  "id": "Q182"
+ },
+ {
+  "level": "basic",
+  "topic": "EQ & filters",
+  "q": "Why does a linear-phase EQ add latency?",
+  "options": [
+   "Its symmetric impulse response needs samples from before and after each point, so the output must be delayed",
+   "It runs at a higher sample rate internally",
+   "It uses analogue modelling, which is slow to compute",
+   "It waits for the next audio buffer to check for clipping"
+  ],
+  "answer": 0,
+  "explain": "A linear-phase filter's impulse response extends equally before and after its centre. To produce the 'before' part, the plugin has to hold the signal back by half the filter length.",
+  "lesson": "L022",
+  "id": "Q183"
+ },
+ {
+  "level": "basic",
+  "topic": "EQ & filters",
+  "q": "Which EQ type is the better choice on a live vocal channel, where latency must be as low as possible?",
+  "options": [
+   "Linear-phase EQ",
+   "Long FIR EQ",
+   "Minimum-phase EQ",
+   "Any mastering EQ in high-quality mode"
+  ],
+  "answer": 2,
+  "explain": "Minimum-phase EQ adds no latency beyond the system buffer. Linear-phase EQ adds tens of milliseconds, which a performer hears as a slap in their monitors.",
+  "lesson": "L022",
+  "id": "Q184"
+ },
+ {
+  "level": "advanced",
+  "topic": "Digital audio",
+  "q": "Using SNR = −20·log10(2π·f·tj), what is the best signal-to-noise ratio for a full-scale 20 kHz sine sampled with 1 ns RMS jitter?",
+  "options": [
+   "About 104 dB",
+   "About 60 dB",
+   "About 96 dB",
+   "About 78 dB"
+  ],
+  "answer": 3,
+  "explain": "2π × 20 000 × 1×10⁻⁹ ≈ 1.26×10⁻⁴, and −20·log10 of that is about 78 dB. The 104 dB figure is the result at 1 kHz: the effect of jitter grows with frequency.",
+  "lesson": "L023",
+  "id": "Q185"
+ },
+ {
+  "level": "advanced",
+  "topic": "Digital audio",
+  "q": "Two recorders run at 48 kHz on their own internal clocks. Their rates differ by 20 ppm. After 30 minutes, how far apart are the recordings?",
+  "options": [
+   "About 1.7 samples, or 0.036 ms",
+   "About 576 samples, or 12 ms",
+   "About 17 280 samples, or 360 ms",
+   "About 1728 samples, or 36 ms"
+  ],
+  "answer": 3,
+  "explain": "Samples in 30 min = 48 000 × 1800 = 86.4 million. 20 ppm of that is 1728 samples, which is 1728 / 48 000 = 36 ms. The trap is to apply ppm to one second instead of the whole duration.",
+  "lesson": "L023",
+  "id": "Q186"
+ },
+ {
+  "level": "advanced",
+  "topic": "Digital audio",
+  "q": "A 60-minute production take recorded at 48 kHz is pulled down by 0.1% (played at 48 000/1.001 Hz). How long does it now play?",
+  "options": [
+   "About 59 minutes 56.4 seconds",
+   "About 60 minutes 0.36 seconds",
+   "About 60 minutes 36 seconds",
+   "About 60 minutes 3.6 seconds"
+  ],
+  "answer": 3,
+  "explain": "Slowing by a factor of 1.001 stretches the duration by the same factor: 3600 s × 1.001 = 3603.6 s. Pull-down makes audio play longer, not shorter.",
+  "lesson": "L023",
+  "id": "Q187"
+ },
+ {
+  "level": "intermediate",
+  "topic": "Digital audio",
+  "q": "A digital mixer receives AES3 from a converter, but the mixer is set to its internal clock and is not locked to the converter. What do you most likely hear?",
+  "options": [
+   "A constant hum at the sample rate",
+   "Periodic clicks or drop-outs as samples slip",
+   "A steady loss of high frequencies",
+   "Nothing, because AES3 carries its own sample rate"
+  ],
+  "answer": 1,
+  "explain": "Two free-running clocks are never exactly equal, so the receiver eventually has to drop or repeat samples, which gives clicks. AES3 carries a clock, but the receiver must be set to follow it.",
+  "lesson": "L023",
+  "id": "Q188"
+ },
+ {
+  "level": "intermediate",
+  "topic": "Digital audio",
+  "q": "Where does clock jitter actually degrade the audio signal?",
+  "options": [
+   "At the analogue-to-digital and digital-to-analogue conversion points",
+   "During every digital transfer between devices, even when no data errors occur",
+   "Only when files are copied between drives",
+   "Only in the DAW's mix engine"
+  ],
+  "answer": 0,
+  "explain": "Jitter changes when a sample is taken or reproduced, so it affects the analogue signal only at conversion. In a digital transfer, the numbers are the same as long as no errors occur.",
+  "lesson": "L023",
+  "id": "Q189"
+ },
+ {
+  "level": "basic",
+  "topic": "Digital audio",
+  "q": "In a studio with several interconnected digital devices, how many should act as the clock master?",
+  "options": [
+   "One",
+   "Two, for redundancy",
+   "Every device with a word-clock output",
+   "None; each device should use its internal clock"
+  ],
+  "answer": 0,
+  "explain": "One device sets the timing and every other device follows it. Two masters, or devices on internal clocks, will drift apart and cause clicks.",
+  "lesson": "L023",
+  "id": "Q190"
+ },
+ {
+  "level": "basic",
+  "topic": "Digital audio",
+  "q": "When converting a 96 kHz file to 48 kHz, what must the sample-rate converter remove first?",
+  "options": [
+   "Content above 24 kHz, the new Nyquist frequency",
+   "Content below 20 Hz",
+   "Content above 48 kHz",
+   "Every second bit of the word length"
+  ],
+  "answer": 0,
+  "explain": "Anything above the new Nyquist frequency (half of 48 kHz) would alias back into the audio band. So the converter low-pass filters before it reduces the rate.",
+  "lesson": "L023",
+  "id": "Q191"
+ },
+ {
+  "level": "advanced",
+  "topic": "Microphone technique",
+  "q": "An AB pair of omnis is 60 cm apart. A source is fully to one side, along the line joining the mics (c = 343 m/s). Summed to mono, where is the first comb-filter notch?",
+  "options": [
+   "About 572 Hz",
+   "About 143 Hz",
+   "About 1.75 kHz",
+   "About 286 Hz"
+  ],
+  "answer": 3,
+  "explain": "The path difference is 0.6 m, which is 0.6 / 343 = 1.75 ms. The first notch is at 1/(2t) = 1 / (2 × 0.00175) ≈ 286 Hz. The trap is to use 1/t, which gives the first peak above zero, not the notch.",
+  "lesson": "L024",
+  "id": "Q192"
+ },
+ {
+  "level": "advanced",
+  "topic": "Microphone technique",
+  "q": "In an M/S pair, the mid is a cardioid and the side is a figure-8 with its positive lobe facing left. Both are at equal gain. A source sits exactly 90° to the left. Using L = M + S and R = M − S, what do you get?",
+  "options": [
+   "L is about 9.5 dB louder than R, and R is in opposite polarity",
+   "Only the left channel carries signal; R is silent",
+   "L and R are equal in level and polarity",
+   "R is about 9.5 dB louder than L"
+  ],
+  "answer": 0,
+  "explain": "At 90°, the cardioid gives 0.5 and the figure-8 gives 1. So L = 1.5 and R = 0.5 − 1 = −0.5. The ratio is 3, or 20·log10(3) ≈ 9.5 dB, and R is negative.",
+  "lesson": "L024",
+  "id": "Q193"
+ },
+ {
+  "level": "advanced",
+  "topic": "Microphone technique",
+  "q": "In a Blumlein pair (two figure-8s at 90°, pointing 45° left and 45° right), a source sits behind the pair at 135° to the left. Where does it appear in the stereo image?",
+  "options": [
+   "Hard right, in opposite polarity",
+   "Hard left, in normal polarity",
+   "In the centre",
+   "It is not picked up at all"
+  ],
+  "answer": 0,
+  "explain": "That source is 90° from the left mic's axis, which is its null. It is directly on the rear lobe of the right mic, which picks it up fully but with inverted polarity. Blumlein mirrors the rear: rear-left is heard on the right.",
+  "lesson": "L024",
+  "id": "Q194"
+ },
+ {
+  "level": "intermediate",
+  "topic": "Microphone technique",
+  "q": "What is the standard ORTF configuration?",
+  "options": [
+   "Two cardioids 30 cm apart, angled at 90°",
+   "Two cardioids 17 cm apart, angled at 110°",
+   "Two omnis 17 cm apart, pointing forward",
+   "Two figure-8s at the same point, angled at 90°"
+  ],
+  "answer": 1,
+  "explain": "ORTF was set by French broadcasting: 17 cm and 110°. 30 cm at 90° is NOS, and coincident figure-8s at 90° are Blumlein.",
+  "lesson": "L024",
+  "id": "Q195"
+ },
+ {
+  "level": "intermediate",
+  "topic": "Microphone technique",
+  "q": "Why does a coincident pair fold to mono with less tonal change than a spaced pair?",
+  "options": [
+   "Its capsules are always omnidirectional",
+   "It records the left and right channels at different levels",
+   "Its capsules are always wired in opposite polarity",
+   "Its capsules receive sound at the same time, so summing them causes no comb filtering"
+  ],
+  "answer": 3,
+  "explain": "With no time difference between the capsules, the mono sum is just a change of level at each angle. A spaced pair has time differences, which turn into comb filtering when summed.",
+  "lesson": "L024",
+  "id": "Q196"
+ },
+ {
+  "level": "basic",
+  "topic": "Microphone technique",
+  "q": "What mainly creates the stereo image in a spaced AB pair of omnis?",
+  "options": [
+   "Differences in polar pattern between the two mics",
+   "Differences in arrival time between the two mics",
+   "Polarity inversion of one mic",
+   "The figure-8 side signal"
+  ],
+  "answer": 1,
+  "explain": "Omnis pick up nearly equal levels from most directions, so the image comes mainly from the time it takes sound to reach the farther mic.",
+  "lesson": "L024",
+  "id": "Q197"
+ },
+ {
+  "level": "basic",
+  "topic": "Microphone technique",
+  "q": "What is a Decca Tree?",
+  "options": [
+   "Two coincident figure-8 mics at 90°",
+   "A mid cardioid and a side figure-8",
+   "Three spaced omnidirectional mics, with the centre mic placed forward of the left and right pair",
+   "Two cardioids 17 cm apart at 110°"
+  ],
+  "answer": 2,
+  "explain": "The Decca Tree is a spaced array of three omnis, widely used above and behind the conductor for orchestral and film-score recording.",
+  "lesson": "L024",
+  "id": "Q198"
+ },
+ {
+  "level": "advanced",
+  "topic": "Microphones",
+  "q": "A figure-8 ribbon is 10 cm from a small source. Using f = c/(2πr) with c = 343 m/s, at roughly what frequency has the proximity effect raised the response by 3 dB?",
+  "options": [
+   "About 273 Hz",
+   "About 55 Hz",
+   "About 546 Hz",
+   "About 3.4 kHz"
+  ],
+  "answer": 2,
+  "explain": "f = 343 / (2π × 0.1) ≈ 546 Hz. Below that, the bass keeps rising. 273 Hz would be the +3 dB point for a cardioid at the same distance.",
+  "lesson": "L025",
+  "id": "Q199"
+ },
+ {
+  "level": "advanced",
+  "topic": "Microphones",
+  "q": "A presenter on a cardioid moves from 20 cm to 5 cm. Well below the proximity-effect corner, roughly how much extra bass relative to the mids do they get?",
+  "options": [
+   "About +6 dB",
+   "About +3 dB",
+   "No change, because only the overall level rises",
+   "About +12 dB"
+  ],
+  "answer": 3,
+  "explain": "Well below the corner, the bass rise doubles with each halving of distance, which is about 6 dB. 20 to 5 cm is two halvings, so about 12 dB. That is on top of the overall level rise.",
+  "lesson": "L025",
+  "id": "Q200"
+ },
+ {
+  "level": "advanced",
+  "topic": "Microphones",
+  "q": "A mic has a 25 mm diaphragm. Taking c = 343 m/s, at roughly what frequency does one wavelength equal the diaphragm's diameter?",
+  "options": [
+   "About 1.4 kHz",
+   "About 13.7 kHz",
+   "About 6.9 kHz",
+   "About 27 kHz"
+  ],
+  "answer": 1,
+  "explain": "λ = c/f, so f = 343 / 0.025 ≈ 13.7 kHz. Around and above this, sound from the side partly cancels across the diaphragm and the mic becomes more directional. 27 kHz would be for a 12.7 mm diaphragm.",
+  "lesson": "L025",
+  "id": "Q201"
+ },
+ {
+  "level": "intermediate",
+  "topic": "Microphones",
+  "q": "Ideally, how far below its on-axis level is a cardioid at 90° off-axis?",
+  "options": [
+   "3 dB",
+   "10 dB",
+   "6 dB",
+   "20 dB"
+  ],
+  "answer": 2,
+  "explain": "An ideal cardioid follows 0.5 + 0.5·cos θ. At 90°, cos θ = 0, so the response is 0.5, which is −6 dB.",
+  "lesson": "L025",
+  "id": "Q202"
+ },
+ {
+  "level": "intermediate",
+  "topic": "Microphones",
+  "q": "Why does a figure-8 ribbon show more proximity effect than a cardioid at the same distance?",
+  "options": [
+   "Its ribbon is heavier than a condenser diaphragm",
+   "It has a lower output impedance",
+   "It needs phantom power",
+   "It is a pure pressure-gradient mic, while a cardioid is only partly gradient"
+  ],
+  "answer": 3,
+  "explain": "Proximity effect comes from the gradient part of a mic's response. A figure-8 is all gradient. A cardioid is half pressure and half gradient, so its bass rise is about 6 dB smaller at very low frequencies.",
+  "lesson": "L025",
+  "id": "Q203"
+ },
+ {
+  "level": "basic",
+  "topic": "Microphones",
+  "q": "What is proximity effect?",
+  "options": [
+   "A loss of high frequencies when the mic is far away",
+   "A rise in bass response when a directional mic is close to the source",
+   "Distortion from a source that is too loud",
+   "Feedback when a mic is near a loudspeaker"
+  ],
+  "answer": 1,
+  "explain": "Directional mics respond partly to pressure gradient, and close to a source that gradient carries extra low-frequency energy. The result is more bass at short distances.",
+  "lesson": "L025",
+  "id": "Q204"
+ },
+ {
+  "level": "basic",
+  "topic": "Microphones",
+  "q": "On a typical large-diaphragm mic, how does sound arriving from the side usually compare with on-axis sound?",
+  "options": [
+   "It is duller, with less high-frequency content",
+   "It is brighter, with more high-frequency content",
+   "It has more low-frequency content but identical highs",
+   "It is identical apart from level"
+  ],
+  "answer": 0,
+  "explain": "At high frequencies the diaphragm and body are large compared with the wavelength, so off-axis highs partly cancel. Off-axis sound is usually duller and less even.",
+  "lesson": "L025",
+  "id": "Q205"
+ },
+ {
+  "level": "advanced",
+  "topic": "Dynamics",
+  "q": "A sine at exactly one quarter of the sample rate is sampled 45° away from its crests, and the samples peak at 0 dBFS. What does a true-peak meter read?",
+  "options": [
+   "0 dBTP",
+   "About +6 dBTP",
+   "About −3 dBTP",
+   "About +3 dBTP"
+  ],
+  "answer": 3,
+  "explain": "Every sample lands at sin 45° = 0.707 of the true crest, which is 3 dB below it. If the samples read 0 dBFS, the reconstructed crest is about +3 dBTP.",
+  "lesson": "L026",
+  "id": "Q206"
+ },
+ {
+  "level": "advanced",
+  "topic": "Dynamics",
+  "q": "A downward expander has a threshold of −40 dBFS, a 1:3 ratio and a range of 20 dB. A signal arrives at −60 dBFS. What level comes out?",
+  "options": [
+   "−100 dBFS",
+   "−60 dBFS",
+   "−80 dBFS",
+   "−66.7 dBFS"
+  ],
+  "answer": 2,
+  "explain": "The signal is 20 dB below threshold. At 1:3 it would be pushed 60 dB below threshold, to −100 dBFS, which is 40 dB of attenuation. The 20 dB range caps that, so the output is −60 − 20 = −80 dBFS.",
+  "lesson": "L026",
+  "id": "Q207"
+ },
+ {
+  "level": "advanced",
+  "topic": "Delay & time",
+  "q": "A limiter uses 1.5 ms of lookahead in a 96 kHz session. How many samples of latency does that add?",
+  "options": [
+   "72 samples",
+   "144 samples",
+   "288 samples",
+   "15 samples"
+  ],
+  "answer": 1,
+  "explain": "1.5 ms × 96 000 samples per second = 144 samples. Lookahead delays the audio so the gain can drop before the peak, and that delay is reported as latency.",
+  "lesson": "L026",
+  "id": "Q208"
+ },
+ {
+  "level": "intermediate",
+  "topic": "Dynamics",
+  "q": "Why do gates offer hysteresis?",
+  "options": [
+   "To add a short delay before the gate opens",
+   "So the gate closes at a lower level than it opens, and does not chatter on signals near the threshold",
+   "To filter the sidechain signal",
+   "To limit how much the gate attenuates"
+  ],
+  "answer": 1,
+  "explain": "With one threshold, a decaying note that hovers around it makes the gate open and close rapidly. Hysteresis separates the open and close points to stop this. The range control, not hysteresis, sets the attenuation.",
+  "lesson": "L026",
+  "id": "Q209"
+ },
+ {
+  "level": "intermediate",
+  "topic": "Dynamics",
+  "q": "You gate a floor tom, but the snare keeps opening it. What is usually the best first fix?",
+  "options": [
+   "Set the gate's key filter to the floor tom's frequency range",
+   "Lengthen the release time",
+   "Lower the threshold",
+   "Increase the range"
+  ],
+  "answer": 0,
+  "explain": "A key filter makes the detector listen mainly to the tom's band, where the snare is weaker. Lowering the threshold makes the false triggering worse.",
+  "lesson": "L026",
+  "id": "Q210"
+ },
+ {
+  "level": "basic",
+  "topic": "Dynamics",
+  "q": "What does a true-peak meter show that a sample-peak meter can miss?",
+  "options": [
+   "The average loudness of the programme",
+   "Peaks below the noise floor",
+   "Peaks in the reconstructed waveform that fall between samples",
+   "The level of the left channel only"
+  ],
+  "answer": 2,
+  "explain": "A sample-peak meter reads only the sample values. The waveform rebuilt by a DAC can go higher between them, and true-peak metering oversamples to find those peaks.",
+  "lesson": "L026",
+  "id": "Q211"
+ },
+ {
+  "level": "basic",
+  "topic": "Dynamics",
+  "q": "How does a downward expander differ from a compressor?",
+  "options": [
+   "It turns down signals above its threshold, reducing dynamic range",
+   "It raises signals below its threshold, reducing dynamic range",
+   "It only changes the frequency balance",
+   "It turns down signals below its threshold, increasing dynamic range"
+  ],
+  "answer": 3,
+  "explain": "A compressor acts above the threshold and reduces dynamic range. A downward expander acts below the threshold and makes quiet parts quieter.",
+  "lesson": "L026",
+  "id": "Q212"
+ },
+ {
+  "level": "advanced",
+  "topic": "Reverb & delay",
+  "q": "A delay is set to 375 ms with 50% feedback (each repeat at half the amplitude of the last). Roughly how long does it take for the repeats to fall by 60 dB?",
+  "options": [
+   "About 1.9 seconds",
+   "About 0.75 seconds",
+   "About 3.7 seconds",
+   "About 7.5 seconds"
+  ],
+  "answer": 2,
+  "explain": "Each repeat is 20·log10(0.5) ≈ −6 dB, so 60 dB needs about 10 repeats. 10 × 375 ms ≈ 3.7 s. The trap is to treat 50% as a 3 dB drop per repeat.",
+  "lesson": "L027",
+  "id": "Q213"
+ },
+ {
+  "level": "advanced",
+  "topic": "Reverb & delay",
+  "q": "A 5 ms delay is fed back on itself with high positive feedback. At which frequencies does it resonate?",
+  "options": [
+   "100 Hz, 300 Hz, 500 Hz and so on",
+   "5 kHz only",
+   "200 Hz, 400 Hz, 600 Hz and so on",
+   "500 Hz, 1 kHz, 1.5 kHz and so on"
+  ],
+  "answer": 2,
+  "explain": "A feedback comb filter reinforces frequencies whose period fits the loop a whole number of times: f = n/t = n × 200 Hz. The odd-multiple series at 100, 300, 500 Hz is where a negative-feedback loop would peak.",
+  "lesson": "L027",
+  "id": "Q214"
+ },
+ {
+  "level": "advanced",
+  "topic": "Reverb & delay",
+  "q": "The first reflection travels 6.86 m further than the direct sound (c = 343 m/s). What pre-delay does that correspond to?",
+  "options": [
+   "20 ms",
+   "2 ms",
+   "6.86 ms",
+   "40 ms"
+  ],
+  "answer": 0,
+  "explain": "t = 6.86 / 343 = 0.020 s = 20 ms. Sound travels about 34 cm per millisecond, so each metre of extra path adds about 2.9 ms.",
+  "lesson": "L027",
+  "id": "Q215"
+ },
+ {
+  "level": "intermediate",
+  "topic": "Reverb & delay",
+  "q": "You increase the high-frequency damping on a reverb. What happens to the tail?",
+  "options": [
+   "The whole tail gets shorter at all frequencies equally",
+   "The pre-delay gets longer",
+   "The high frequencies last longer than the low frequencies",
+   "The high frequencies die away faster than the low frequencies, so the tail gets darker"
+  ],
+  "answer": 3,
+  "explain": "Damping shortens the decay time at high frequencies only, as air and soft surfaces do in real rooms. The low-frequency decay is unchanged.",
+  "lesson": "L027",
+  "id": "Q216"
+ },
+ {
+  "level": "intermediate",
+  "topic": "Delay & time",
+  "q": "A song runs at 100 BPM. What delay time gives a quarter-note echo?",
+  "options": [
+   "300 ms",
+   "600 ms",
+   "450 ms",
+   "1.2 s"
+  ],
+  "answer": 1,
+  "explain": "One beat is 60 / 100 = 0.6 s. The other options are an eighth note (300 ms), a dotted eighth (450 ms) and a half note (1.2 s).",
+  "lesson": "L027",
+  "id": "Q217"
+ },
+ {
+  "level": "basic",
+  "topic": "Reverb & delay",
+  "q": "What does RT60 describe?",
+  "options": [
+   "The time before the first reflection arrives",
+   "The time it takes for the reverb to decay by 60 dB",
+   "The reverb level 60 ms after the direct sound",
+   "The time it takes for the reverb to build to full level"
+  ],
+  "answer": 1,
+  "explain": "RT60 is the standard measure of decay time: how long the sound takes to fall by 60 dB after the source stops.",
+  "lesson": "L027",
+  "id": "Q218"
+ },
+ {
+  "level": "basic",
+  "topic": "Reverb & delay",
+  "q": "What does the pre-delay control on a reverb set?",
+  "options": [
+   "The gap between the direct sound and the start of the reverb",
+   "How long the reverb tail lasts",
+   "How quickly the high frequencies die away",
+   "The level of the reverb in the mix"
+  ],
+  "answer": 0,
+  "explain": "Pre-delay delays the start of the reverb. It keeps the source clear and suggests distance to the walls, without lengthening the tail.",
+  "lesson": "L027",
+  "id": "Q219"
+ },
+ {
+  "level": "advanced",
+  "topic": "Immersive",
+  "q": "A Dolby Atmos Renderer session has 128 inputs. You create two 7.1.2 beds, one for music and one for effects. How many objects are left?",
+  "options": [
+   "118",
+   "108",
+   "112",
+   "126"
+  ],
+  "answer": 1,
+  "explain": "Each 7.1.2 bed uses 10 inputs, so 128 − 20 = 108. The trap is remembering '118 objects' as a fixed number; it is only true with a single 7.1.2 bed.",
+  "lesson": "L028",
+  "id": "Q220"
+ },
+ {
+  "level": "advanced",
+  "topic": "Immersive",
+  "q": "In a 5.1 re-render, a dialogue line sits only in the centre channel and peaks at −10 dBFS. With a standard Lo/Ro downmix that adds the centre at −3 dB, what is its peak in the left output?",
+  "options": [
+   "−10 dBFS",
+   "−16 dBFS",
+   "−7 dBFS",
+   "−13 dBFS"
+  ],
+  "answer": 3,
+  "explain": "The centre feeds each side at −3 dB, so −10 − 3 = −13 dBFS. On stereo speakers the two equal feeds rebuild a phantom centre.",
+  "lesson": "L028",
+  "id": "Q221"
+ },
+ {
+  "level": "advanced",
+  "topic": "Immersive",
+  "q": "You change a dialogue object's binaural render mode from Mid to Near. What changes when the mix plays on a 7.1.4 speaker system?",
+  "options": [
+   "Nothing: the setting only affects the binaural headphone render",
+   "The object moves closer to the centre speaker",
+   "The object gets less reverb in all speakers",
+   "The object is routed to the bed instead"
+  ],
+  "answer": 0,
+  "explain": "Binaural render mode is metadata used only by the headphone renderer. Speaker playback ignores it, so check it on headphones.",
+  "lesson": "L028",
+  "id": "Q222"
+ },
+ {
+  "level": "intermediate",
+  "topic": "Immersive",
+  "q": "Why can the same Atmos master play correctly on both a 7.1.4 room and a 5.1.2 room?",
+  "options": [
+   "The master contains a separate pre-mixed version for every layout",
+   "Object positions are metadata, and the renderer computes speaker feeds for the layout in use",
+   "Atmos only uses the bed, which is the same in every room",
+   "The consumer codec converts everything to stereo first"
+  ],
+  "answer": 1,
+  "explain": "Objects carry position metadata, not fixed channel assignments, so the renderer maps them to whatever speakers exist.",
+  "lesson": "L028",
+  "id": "Q223"
+ },
+ {
+  "level": "intermediate",
+  "topic": "Immersive",
+  "q": "A sound designer wants a sub-heavy explosion to feed the LFE channel in an Atmos mix. Where must that LFE content go?",
+  "options": [
+   "Into an object with its size set to maximum",
+   "Into an object placed at floor height",
+   "Into the LFE channel of a bed",
+   "Into the binaural render with mode set to Far"
+  ],
+  "answer": 2,
+  "explain": "Only beds have an LFE channel. Objects have no LFE send, though bass management may still route their low end to subwoofers in playback.",
+  "lesson": "L028",
+  "id": "Q224"
+ },
+ {
+  "level": "basic",
+  "topic": "Immersive",
+  "q": "How many channels does a 7.1.2 bed contain?",
+  "options": [
+   "10",
+   "9",
+   "8",
+   "12"
+  ],
+  "answer": 0,
+  "explain": "Seven main channels, one LFE and two overhead channels: 7 + 1 + 2 = 10.",
+  "lesson": "L028",
+  "id": "Q225"
+ },
+ {
+  "level": "basic",
+  "topic": "Immersive",
+  "q": "What is a Dolby Atmos object?",
+  "options": [
+   "A fixed channel in the bed",
+   "A reverb return used for height",
+   "A stereo stem printed for delivery",
+   "Audio plus metadata, such as position and size, that the renderer places at playback"
+  ],
+  "answer": 3,
+  "explain": "An object is not tied to a speaker. Its metadata tells the renderer where to place it in whatever layout is used.",
+  "lesson": "L028",
+  "id": "Q226"
+ },
+ {
+  "level": "advanced",
+  "topic": "Live sound",
+  "q": "An end-fire array has four subs in a line, each 1.2 m apart (c = 343 m/s). The rear sub has no delay. What delay does the frontmost sub need?",
+  "options": [
+   "3.5 ms",
+   "7.0 ms",
+   "10.5 ms",
+   "14.0 ms"
+  ],
+  "answer": 2,
+  "explain": "The frontmost sub is 3 × 1.2 = 3.6 m ahead, and 3.6 / 343 ≈ 10.5 ms. The trap is counting four gaps instead of three.",
+  "lesson": "L029",
+  "id": "Q227"
+ },
+ {
+  "level": "advanced",
+  "topic": "Live sound",
+  "q": "A two-sub end-fire pair is spaced 1.0 m and delayed correctly for the front (c = 343 m/s). Near which frequency is rear cancellation deepest?",
+  "options": [
+   "About 43 Hz",
+   "About 86 Hz",
+   "About 172 Hz",
+   "About 343 Hz"
+  ],
+  "answer": 1,
+  "explain": "Behind, the arrivals differ by 2d = 2 m. That is half a wavelength when λ = 4 m, so f = 343 / 4 ≈ 86 Hz.",
+  "lesson": "L029",
+  "id": "Q228"
+ },
+ {
+  "level": "advanced",
+  "topic": "Live sound",
+  "q": "A gradient cardioid pair has the rear sub 0.86 m behind the front sub, inverted and delayed by d/c (c = 343 m/s). In front of the array, near which frequency does the sum cancel?",
+  "options": [
+   "About 100 Hz",
+   "About 50 Hz",
+   "About 400 Hz",
+   "About 200 Hz"
+  ],
+  "answer": 3,
+  "explain": "In front, the rear sub arrives 2d/c late and inverted. When 2d equals one full wavelength (d = λ/2), the inversion causes cancellation: 343 / 1.72 ≈ 200 Hz.",
+  "lesson": "L029",
+  "id": "Q229"
+ },
+ {
+  "level": "intermediate",
+  "topic": "Live sound",
+  "q": "In a gradient cardioid sub pair, how is the rear sub set compared with the front sub?",
+  "options": [
+   "Polarity reversed and delayed by the spacing divided by c",
+   "Same polarity and no delay",
+   "Same polarity and 10 dB quieter",
+   "Polarity reversed with no delay"
+  ],
+  "answer": 0,
+  "explain": "Delay lines up the arrivals behind the array, and the polarity flip makes them cancel there.",
+  "lesson": "L029",
+  "id": "Q230"
+ },
+ {
+  "level": "intermediate",
+  "topic": "Live sound",
+  "q": "Why do gradient cardioid sub arrays usually need EQ on the front response?",
+  "options": [
+   "Because the rear sub adds +6 dB at every frequency",
+   "Because the subs face backwards",
+   "Because the front sum falls away at low frequencies where the spacing is a small fraction of a wavelength",
+   "Because delay creates harmonic distortion"
+  ],
+  "answer": 2,
+  "explain": "At low frequencies the inverted rear sub arrives almost in time with the front sub, so they partly cancel in front too. The front sum peaks near d = λ/4.",
+  "lesson": "L029",
+  "id": "Q231"
+ },
+ {
+  "level": "basic",
+  "topic": "Live sound",
+  "q": "In an end-fire sub array, which way do the subwoofers face?",
+  "options": [
+   "Alternately forwards and backwards",
+   "All towards the audience",
+   "All towards the stage",
+   "Sideways, towards the walls"
+  ],
+  "answer": 1,
+  "explain": "All end-fire elements face forward with the same polarity. Only spacing and delay create the directivity.",
+  "lesson": "L029",
+  "id": "Q232"
+ },
+ {
+  "level": "basic",
+  "topic": "Live sound",
+  "q": "Roughly how far does sound travel in air in 2.9 ms?",
+  "options": [
+   "About 0.1 m",
+   "About 2.9 m",
+   "About 10 m",
+   "About 1 m"
+  ],
+  "answer": 3,
+  "explain": "At about 343 m/s, sound covers about 0.343 m per millisecond, so 2.9 ms ≈ 1 m.",
+  "lesson": "L029",
+  "id": "Q233"
+ },
+ {
+  "level": "advanced",
+  "topic": "RF & wireless",
+  "q": "Two radio mics transmit on 550.000 MHz and 550.400 MHz. Where are their third-order intermodulation products?",
+  "options": [
+   "549.600 and 550.800 MHz",
+   "550.200 and 550.600 MHz",
+   "1100.400 and 0.400 MHz",
+   "549.200 and 551.200 MHz"
+  ],
+  "answer": 0,
+  "explain": "2 × 550.000 − 550.400 = 549.600 and 2 × 550.400 − 550.000 = 550.800 MHz. Sums and differences like 1100.4 and 0.4 MHz are second-order and far outside the band.",
+  "lesson": "L030",
+  "id": "Q234"
+ },
+ {
+  "level": "advanced",
+  "topic": "RF & wireless",
+  "q": "Three transmitters are set to 600.0, 600.5 and 601.0 MHz. Which third-order product lands exactly on one of the carriers?",
+  "options": [
+   "600.0 + 600.5 − 601.0 = 599.5 MHz",
+   "2 × 600.0 − 601.0 = 599.0 MHz",
+   "2 × 600.5 − 600.0 = 601.0 MHz",
+   "2 × 601.0 − 600.0 = 602.0 MHz"
+  ],
+  "answer": 2,
+  "explain": "With equal spacing, 2f2 − f1 = f3, so 601.0 MHz is hit. 599.5 and 602.0 MHz are real products but fall outside the plan; equal spacing is what makes 601.0 MHz clash.",
+  "lesson": "L030",
+  "id": "Q235"
+ },
+ {
+  "level": "advanced",
+  "topic": "RF & wireless",
+  "q": "In the ideal model, both carriers feeding a non-linear stage rise by 2 dB. Roughly how much do the third-order products rise?",
+  "options": [
+   "2 dB",
+   "6 dB",
+   "4 dB",
+   "9 dB"
+  ],
+  "answer": 1,
+  "explain": "Third-order products rise about 3 dB per 1 dB of input, so 2 dB more input gives about 6 dB more product. They grow faster than the wanted signals.",
+  "lesson": "L030",
+  "id": "Q236"
+ },
+ {
+  "level": "intermediate",
+  "topic": "RF & wireless",
+  "q": "How many two-transmitter third-order products (of the 2f1 − f2 type) do 4 transmitters produce?",
+  "options": [
+   "4",
+   "6",
+   "8",
+   "12"
+  ],
+  "answer": 3,
+  "explain": "Each ordered pair gives one product: N(N − 1) = 4 × 3 = 12. The trap is counting unordered pairs (6), but each pair makes two products.",
+  "lesson": "L030",
+  "id": "Q237"
+ },
+ {
+  "level": "intermediate",
+  "topic": "RF & wireless",
+  "q": "Why are in-ear monitor transmitters a common source of intermodulation problems?",
+  "options": [
+   "They transmit only in short bursts",
+   "They use a different modulation that cannot mix",
+   "They run continuously at relatively high power and are often installed close together",
+   "They always operate below 470 MHz"
+  ],
+  "answer": 2,
+  "explain": "Continuous, stronger carriers close together produce strong IMD. Use a combiner and keep transmit antennas apart from receive antennas.",
+  "lesson": "L030",
+  "id": "Q238"
+ },
+ {
+  "level": "basic",
+  "topic": "RF & wireless",
+  "q": "After the 700 MHz band was reassigned to mobile services in the EU, where does the UHF TV band used by many radio mics end?",
+  "options": [
+   "694 MHz",
+   "790 MHz",
+   "862 MHz",
+   "960 MHz"
+  ],
+  "answer": 0,
+  "explain": "The EU TV band now runs from 470 to 694 MHz. Exact use for wireless mics depends on national rules.",
+  "lesson": "L030",
+  "id": "Q239"
+ },
+ {
+  "level": "basic",
+  "topic": "RF & wireless",
+  "q": "What is intermodulation in a wireless system?",
+  "options": [
+   "Interference from mains wiring",
+   "Audio feedback between a mic and a wedge",
+   "New frequencies created when two or more signals mix in a non-linear stage",
+   "Loss of signal caused by a body blocking the antenna"
+  ],
+  "answer": 2,
+  "explain": "Non-linear circuits mix carriers and produce sums and differences of their multiples, which can land on channels in use.",
+  "lesson": "L030",
+  "id": "Q240"
+ },
+ {
+  "level": "advanced",
+  "topic": "Acoustics",
+  "q": "A porous panel plus its air gap reaches 0.20 m from a rigid wall (c = 343 m/s). Using the quarter-wavelength rule, down to roughly what frequency does it work well?",
+  "options": [
+   "About 215 Hz",
+   "About 860 Hz",
+   "About 1.7 kHz",
+   "About 430 Hz"
+  ],
+  "answer": 3,
+  "explain": "λ/4 = 0.20 m means λ = 0.80 m, so f = 343 / 0.80 ≈ 429 Hz. Below that, absorption falls off gradually.",
+  "lesson": "L031",
+  "id": "Q241"
+ },
+ {
+  "level": "advanced",
+  "topic": "Acoustics",
+  "q": "A quadratic residue diffuser uses N = 7. What is its well-depth sequence (s = n² mod 7, n = 0 to 6)?",
+  "options": [
+   "0, 1, 4, 2, 2, 4, 1",
+   "0, 1, 4, 9, 16, 25, 36",
+   "0, 1, 2, 3, 4, 5, 6",
+   "1, 4, 2, 2, 4, 1, 0"
+  ],
+  "answer": 0,
+  "explain": "Squares 0, 1, 4, 9, 16, 25, 36 taken mod 7 give 0, 1, 4, 2, 2, 4, 1. The sequence is symmetric, which is a property of quadratic residues.",
+  "lesson": "L031",
+  "id": "Q242"
+ },
+ {
+  "level": "advanced",
+  "topic": "Acoustics",
+  "q": "You place a 5 cm porous panel directly on a rigid wall to tame a 100 Hz mode. Why does it do almost nothing?",
+  "options": [
+   "Porous material only absorbs above 10 kHz",
+   "At the wall particle velocity is near zero, and λ/4 at 100 Hz is about 0.86 m away",
+   "The panel reflects 100 Hz back with more energy",
+   "Porous absorbers need to be in the centre of the room to work"
+  ],
+  "answer": 1,
+  "explain": "Porous absorbers need moving air. At 100 Hz the velocity maximum is about 0.86 m from the wall, far beyond a 5 cm panel.",
+  "lesson": "L031",
+  "id": "Q243"
+ },
+ {
+  "level": "intermediate",
+  "topic": "Acoustics",
+  "q": "Where does a membrane (pressure-based) bass trap work best?",
+  "options": [
+   "In the middle of the room",
+   "Hanging from the ceiling at the listening position",
+   "At boundaries and corners, where pressure is high",
+   "A quarter wavelength from the wall"
+  ],
+  "answer": 2,
+  "explain": "Membrane traps respond to pressure, which is highest at boundaries and especially in corners, where every room mode has a pressure maximum.",
+  "lesson": "L031",
+  "id": "Q244"
+ },
+ {
+  "level": "intermediate",
+  "topic": "Acoustics",
+  "q": "What is the main difference between a diffuser and an absorber?",
+  "options": [
+   "A diffuser removes energy; an absorber spreads it",
+   "A diffuser scatters reflections in many directions; an absorber turns energy into heat",
+   "Diffusers only work below 100 Hz",
+   "They are the same thing with different names"
+  ],
+  "answer": 1,
+  "explain": "Diffusers keep the energy in the room but break up strong reflections. Absorbers reduce the reflected energy.",
+  "lesson": "L031",
+  "id": "Q245"
+ },
+ {
+  "level": "basic",
+  "topic": "Acoustics",
+  "q": "What does an absorption coefficient of 1.0 mean at a given frequency?",
+  "options": [
+   "All the sound energy hitting the surface is reflected",
+   "Half the sound energy is absorbed",
+   "The surface diffuses all the sound",
+   "All the sound energy hitting the surface is absorbed"
+  ],
+  "answer": 3,
+  "explain": "α ranges from 0 (all reflected) to 1 (all absorbed) and changes with frequency.",
+  "lesson": "L031",
+  "id": "Q246"
+ },
+ {
+  "level": "basic",
+  "topic": "Acoustics",
+  "q": "Why are thin foam tiles not enough to control bass in a small studio?",
+  "options": [
+   "They are too thin to reach the high-velocity region of low-frequency waves",
+   "Foam only absorbs at exactly 1 kHz",
+   "Foam reflects bass louder than bare walls",
+   "Bass is controlled only by EQ"
+  ],
+  "answer": 0,
+  "explain": "Low frequencies have long wavelengths, so porous material needs much more depth from the wall to absorb them.",
+  "lesson": "L031",
+  "id": "Q247"
+ },
+ {
+  "level": "advanced",
+  "topic": "Synthesis",
+  "q": "An FM patch has a 200 Hz modulator and a peak deviation of 600 Hz. Using Carson's rule, what is the approximate bandwidth?",
+  "options": [
+   "800 Hz",
+   "1200 Hz",
+   "1600 Hz",
+   "2400 Hz"
+  ],
+  "answer": 2,
+  "explain": "Carson's rule: 2(Δf + fm) = 2(600 + 200) = 1600 Hz. The index here is 600 / 200 = 3.",
+  "lesson": "L032",
+  "id": "Q248"
+ },
+ {
+  "level": "advanced",
+  "topic": "Synthesis",
+  "q": "In simple FM with a sine carrier and sine modulator, the carrier component disappears at a modulation index of about 2.4. Why?",
+  "options": [
+   "The modulator becomes louder than the carrier",
+   "The carrier's amplitude follows the Bessel function J0, which crosses zero near 2.405",
+   "The sidebands fold back and cancel the carrier at any index above 2",
+   "The synth's filter removes the fundamental"
+  ],
+  "answer": 1,
+  "explain": "Each component's amplitude follows a Bessel function of the index. J0 governs the carrier and is zero at about 2.405.",
+  "lesson": "L032",
+  "id": "Q249"
+ },
+ {
+  "level": "advanced",
+  "topic": "Synthesis",
+  "q": "A granular instrument plays 50 ms grains at a density of 40 grains per second. On average, how many grains overlap at any moment?",
+  "options": [
+   "0.5",
+   "4",
+   "1",
+   "2"
+  ],
+  "answer": 3,
+  "explain": "Overlap = size × density = 0.05 s × 40 /s = 2. A new grain starts every 25 ms while each lasts 50 ms.",
+  "lesson": "L032",
+  "id": "Q250"
+ },
+ {
+  "level": "intermediate",
+  "topic": "Synthesis",
+  "q": "Which carrier-to-modulator ratio gives an inharmonic, bell-like FM spectrum?",
+  "options": [
+   "1:1.414",
+   "1:1",
+   "1:2",
+   "2:1"
+  ],
+  "answer": 0,
+  "explain": "Non-integer ratios put sidebands at frequencies that are not multiples of a common fundamental. Integer ratios give harmonic spectra.",
+  "lesson": "L032",
+  "id": "Q251"
+ },
+ {
+  "level": "intermediate",
+  "topic": "Synthesis",
+  "q": "How does a granular instrument stretch a sound to twice its length without changing pitch?",
+  "options": [
+   "It plays the whole sample at half speed",
+   "It moves the read position through the source at half speed while each grain plays at its original pitch",
+   "It lowers the grain size to 1 ms",
+   "It adds reverb to fill the gaps"
+  ],
+  "answer": 1,
+  "explain": "Read position and grain playback rate are independent, so time and pitch can be controlled separately. Half-speed playback would drop the pitch by an octave.",
+  "lesson": "L032",
+  "id": "Q252"
+ },
+ {
+  "level": "basic",
+  "topic": "Synthesis",
+  "q": "In FM synthesis, which control most directly makes the sound brighter?",
+  "options": [
+   "The carrier's output level",
+   "The amplitude envelope release",
+   "The modulation index (modulator level)",
+   "The polarity of the carrier"
+  ],
+  "answer": 2,
+  "explain": "Raising the index pushes energy into more sidebands, which brightens the tone.",
+  "lesson": "L032",
+  "id": "Q253"
+ },
+ {
+  "level": "basic",
+  "topic": "Synthesis",
+  "q": "What is a typical grain length in granular synthesis?",
+  "options": [
+   "About 1 to 100 ms",
+   "About 1 to 10 seconds",
+   "About 1 microsecond",
+   "Exactly one cycle of the source"
+  ],
+  "answer": 0,
+  "explain": "Grains are short, usually from about 1 to 100 ms, and each is shaped by a smooth window.",
+  "lesson": "L032",
+  "id": "Q254"
+ },
+ {
+  "level": "advanced",
+  "topic": "Professional practice",
+  "q": "Your session is on a two-disk RAID 1 in the studio, and a second copy is on a USB drive on the same desk. Does this meet the 3-2-1 rule?",
+  "options": [
+   "Yes, because RAID 1 already counts as two copies",
+   "Yes, because there are three physical disks",
+   "No, because USB drives cannot be used for backup",
+   "No: the RAID mirror is effectively one copy, and nothing is off site"
+  ],
+  "answer": 3,
+  "explain": "A mirror reflects deletions and corruption instantly, so it counts as one copy. A fire or theft in the room would also take both remaining copies.",
+  "lesson": "L033",
+  "id": "Q255"
+ },
+ {
+  "level": "advanced",
+  "topic": "Professional practice",
+  "q": "You accidentally delete a project folder from a folder that syncs to a cloud service with no version history. What is the most likely result?",
+  "options": [
+   "The deletion syncs and the cloud copy is removed too",
+   "The cloud keeps the folder because sync only uploads",
+   "The cloud copy becomes read-only",
+   "The deleted folder is restored automatically at the next sync"
+  ],
+  "answer": 0,
+  "explain": "Sync mirrors changes, including deletions. That is why sync without versioning is not a backup.",
+  "lesson": "L033",
+  "id": "Q256"
+ },
+ {
+  "level": "advanced",
+  "topic": "Professional practice",
+  "q": "After copying a day's recordings to two drives, which check best confirms that each copy is identical to the card?",
+  "options": [
+   "Comparing the total folder size",
+   "Comparing checksums (e.g. MD5 or xxHash) of source and copies",
+   "Checking that the file count matches",
+   "Opening one file and listening to the start"
+  ],
+  "answer": 1,
+  "explain": "Only a hash comparison shows every bit is the same. Size and file count can match while data inside is corrupted.",
+  "lesson": "L033",
+  "id": "Q257"
+ },
+ {
+  "level": "intermediate",
+  "topic": "Professional practice",
+  "q": "Which file name sorts correctly by date in any file browser?",
+  "options": [
+   "07-03-2026_Mix_v02.wav",
+   "March7_2026_Mix_v02.wav",
+   "2026-03-07_Mix_v02.wav",
+   "7.3.26 Mix final.wav"
+  ],
+  "answer": 2,
+  "explain": "YYYY-MM-DD (ISO 8601) puts the largest unit first, so alphabetical order is also chronological.",
+  "lesson": "L033",
+  "id": "Q258"
+ },
+ {
+  "level": "intermediate",
+  "topic": "Professional practice",
+  "q": "Why should you print or commit plugin-processed tracks before handing over a session?",
+  "options": [
+   "It makes the session open faster on the same machine",
+   "The recipient may not have the same plugins or versions, so the sound could change",
+   "Plugins are not allowed in delivered sessions",
+   "Printing tracks improves their sample rate"
+  ],
+  "answer": 1,
+  "explain": "Missing or different plugin versions change or bypass the processing. A printed track keeps the sound you approved.",
+  "lesson": "L033",
+  "id": "Q259"
+ },
+ {
+  "level": "basic",
+  "topic": "Professional practice",
+  "q": "What does the 3-2-1 backup rule ask for?",
+  "options": [
+   "Three drives, two computers and one cloud account",
+   "Backups every 3 days, kept 2 weeks, 1 restore test a year",
+   "Three copies, on two different types of storage, with one off site",
+   "Three versions of each mix, two stems and one master"
+  ],
+  "answer": 2,
+  "explain": "Three copies, two media types, one off site: so no single failure or disaster can destroy all your work.",
+  "lesson": "L033",
+  "id": "Q260"
+ },
+ {
+  "level": "basic",
+  "topic": "Professional practice",
+  "q": "Which item belongs in a session handover note?",
+  "options": [
+   "The client's personal phone contacts",
+   "Your hourly rate",
+   "A list of unused takes deleted from the session",
+   "Sample rate, frame rate and start timecode"
+  ],
+  "answer": 3,
+  "explain": "The recipient needs the technical settings to open, sync and continue the session correctly.",
+  "lesson": "L033",
+  "id": "Q261"
+ }
+]

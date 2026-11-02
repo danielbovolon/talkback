@@ -1,0 +1,90 @@
+[
+ {
+  "body": "New interfaces lead with 32-bit specs, but in most rooms the noise floor lives somewhere else: ground loops, a shared mains strip, an unbalanced cable run, a laptop charger. Before upgrading, record ten seconds of silence through your current chain with gain where you actually use it, then look at a spectrum. Hum at 50 Hz and its harmonics means a grounding problem, and no converter will fix it.",
+  "title": "Find the noise before you buy the converter"
+ },
+ {
+  "body": "Two stories this week come back to one question: who owns and who has cleared the audio you touch. That covers a Suno cue a director drops into the cut, a stem you separate from a master, and a board recording you make at a gig.\n\nAdd two short lines to your standard quote: the client confirms all supplied material is cleared, and the quote states who owns any recordings you make on the job. It takes five minutes once and protects you on every job after.",
+  "title": "Put the rights question in writing"
+ },
+ {
+  "body": "Free tools like Plug-in Bench and the new no-iLok Soft Limit make it a good week to clean your plugin folder. Keep a simple list of every plugin you use on paid work, with version, format, licence type and whether it is confirmed on your current OS.\n\nBefore an OS or DAW update, test the list on a spare machine or a cloned drive, and keep old installers and old versions until every live session has been printed or archived. A session that opens with missing plugins in front of a client costs more than any update saves.",
+  "title": "Audit plugins before the session, not during it"
+ },
+ {
+  "body": "Tools like VoxSplit and FFT can now get things out of a recording that used to be impossible. That makes it easy to forget that every separation is a guess at what was there. Always keep the untouched original on its own track or playlist, and print the separated result next to it, not in its place. Judge the result in the mix at the playback level and on the system it will be heard on, not soloed on headphones. Artefacts that disappear in context are fine, and ones that only show up in the mix are not.\n\nWrite down which tool, version and profile you used in the session notes or clip names. If the editor, mixer or QC flags something weeks later, you can repeat the process or undo it in minutes instead of guessing.",
+  "title": "Treat separation as a destructive edit"
+ },
+ {
+  "body": "Today's tinnitus trial is a reminder that hearing problems are treatable, but only if someone measures them. A baseline audiogram, done when your ears feel fine, gives you and any future audiologist something to compare against. Book it after a quiet day, not the morning after a show, or you will measure temporary threshold shift instead of your real hearing.\n\nKeep a copy of the result with your work records and repeat it every year or two. If a ringing lasts more than a day after a job, or one ear starts to sound duller than the other, go back early. Changes caught soon are easier to manage, and your ears are the one tool you cannot replace.",
+  "title": "Get a baseline audiogram before you need one"
+ },
+ {
+  "body": "The Gorillaz dropouts were found by recording the RF picture over time, not by staring at a scan during soundcheck. Interference between IEM and mic transmitters often appears only at one stage position or one moment in the show, when packs and transmitters line up. Start every show with your scanner or coordination software logging, and note cue times when you hear a problem, so you can line them up afterwards.\n\nKeep IEM transmitters and their antennas well away from mic receive antennas, and treat the IEM bands as part of the coordination, not something you add at the end. When a problem appears, change one thing at a time and keep the log running so you can prove the fix.",
+  "title": "Log your RF before you chase it"
+ },
+ {
+  "body": "Today's APU update changes how LRA is calculated, and that is normal: meters get revised, and two compliant meters can disagree by a few tenths. When a broadcaster queries a delivery months later, the first question is what you measured with.\n\nPut the meter name, version, standard (R128, A/85, platform spec) and the exact file name in every QC note, and measure the bounced file, not the live bus. Keep the report with the session archive. It takes a minute, and it turns an argument about numbers into a quick check.",
+  "title": "Write the meter version on every QC report"
+ },
+ {
+  "body": "This week's lawsuits are about material that was copied and used for training without anyone agreeing to it. Meanwhile, services like TYGER and the AI scoring startups run on exactly what engineers deliver: clean, labelled stems. Once a stem package leaves your hands, you lose control of where it ends up unless the paperwork says so.\n\nAdd two short lines to your quote or delivery note. First, what the delivery may be used for (the named project and its formats). Second, whether it may be used to train or fine-tune AI models, and that this needs separate written consent. It takes a minute, it isn't confrontational, and it gives you something to point to if a stem turns up somewhere it shouldn't.",
+  "title": "Say in writing where your files may go"
+ },
+ {
+  "body": "Most freelance money problems start in documents signed in a hurry: deal memos, letters of direction, split sheets, assignment forms. Before you sign, look for three things: who pays you and from what, whether you keep the right to check the numbers (audit or inspection rights), and any 'release' or 'waiver' wording that settles claims you don't yet know about.\n\nIf a form is called 'standard' and 'unchangeable', ask for the alternative anyway. As the Sony case shows, one may already exist. Keep a dated copy of every version you were sent and the one you signed, and save your royalty statements so a mismatch can be spotted years later.",
+  "title": "Read the paperwork that pays you"
+ },
+ {
+  "body": "The HSE findings are a useful mirror: most failures were not missing earplugs but plugs worn badly, taken out mid-shift or so effective that people could not hear alarms. A roll-down foam plug that is only half inserted can give a fraction of its labelled rating.\n\nBefore a loud shift, fit plugs properly (roll, pull the ear up and back, hold until expanded) and do a quick check: your own voice should sound boomy and the room noticeably duller. Then confirm you can still hear comms and the venue alarm. For mixing, a custom moulded set with flat filters keeps the balance honest at a lower level, and lets you leave them in all day.",
+  "title": "Check your plugs, not just your levels"
+ },
+ {
+  "body": "When your calendar is full, every extra job you accept at an old rate pushes out work you could have priced properly. Busy periods are when clients accept a rate rise most easily, because the alternative is waiting for someone else to be free.\n\nUpdate your rate card for new clients, keep existing clients informed in writing with a date, and make the quote say exactly what is included: number of revision rounds, stem and alt-mix versions, loudness passes and turnaround. Anything beyond that is billed. It protects your income and your ears, because unpaid extra passes are also extra hours of listening.",
+  "title": "Price the busy season, not the quiet one"
+ },
+ {
+  "body": "Integrated loudness tells you the whole programme hits -23 LUFS, but not whether viewers can follow the words. A quiet, dynamic film can pass the target while dialogue sits far below the explosions, and that is the mix that comes back with complaints or gets squashed by a broadcaster's processor.\n\nOn your next mix, measure dialogue loudness on its own alongside the full programme and note the gap. Agree a target range with the client before the final, keep the loudest effects in proportion to the words rather than to the meter, and listen once at a low living-room level. It is quicker than a remix after QC.",
+  "title": "Meter the dialogue, not just the mix"
+ },
+ {
+  "body": "New hardware usually forces a new operating system, and audio software is always the last to catch up. Treat your working machine like a show system: no OS updates in the middle of a project, and no new computer for a paid session until you have run a full session on it.\n\nKeep a one-page list of every driver, plugin, licence manager and control-surface app you depend on, and check it against each vendor's compatibility page before any upgrade. Keep the old machine set up until the new one has finished a real job. Clients never see the upgrade, only the session that wouldn't open.",
+  "title": "Freeze your OS during a job"
+ },
+ {
+  "body": "Steinberg's old download pages are gone, and new Macs only run macOS 27. Both are reminders that a session file is only half an archive: you also need the exact software that opens it. When you close a project, save the DAW installer version, the plugin installers and any interface drivers it used, with a short text note listing versions and licences.\n\nKeep one older machine or a bootable drive on a known-good OS for recalls, and test a restore from your archive once a year. Clients rarely ask for a recall when it is convenient, and 'the vendor took the download down' is not an answer they want to hear.",
+  "title": "Archive the installers, not just the sessions"
+ },
+ {
+  "body": "This week's dialogue debate comes down to one habit: judge the final mix on the system your audience will use. Before you print, play the key scenes on a TV or laptop at couch distance, at a normal home level, with captions off, and note every line you have to strain for.\n\nFix those on the dialogue, not with a blanket boost: a little more level on the line, less music or effects under it, or less compression on the bed. Keep a cheap TV or small speaker permanently wired into your monitor controller so this check costs you two minutes, not a trip to the living room.",
+  "title": "Do the last check where the audience listens"
+ },
+ {
+  "title": "Know what still works when the cloud is down",
+  "body": "This week a hearing-aid maker's outage stopped fittings and apps, and new free plugins arrived tied to a vendor account. Both are fine until the server you depend on is unavailable on the day you need it.\n\nOnce a quarter, take your main laptop offline and open a typical session: note which plugins, licences and apps fail, and fix the ones that would stop a job. Keep offline licence files where vendors offer them, keep installers for the versions you actually use, and know how long each account-based licence works without checking in."
+ },
+ {
+  "body": "This month's alliance of SFX libraries is a reminder that field recordings and designed sounds have real value, including as AI training data.\n\nKeep a simple register of your original recordings: date, place, gear, and who holds rights. When you deliver sounds to a client, say in writing whether they get a licence for this production only or full ownership. It is the same discipline the big libraries use, scaled to one person.",
+  "title": "Treat your own recordings as assets"
+ },
+ {
+  "body": "October's lesson is that a new Mac decides which macOS you run, and your DAW vendor decides whether that is supported. Before buying any machine for client work, list every piece of software and hardware in your chain (DAW, plugins, interface drivers, iLok, control surfaces) and check each against the OS the machine ships with.\n\nIf anything is not qualified, either buy an older model that can still run your current OS, or keep your existing machine as the main rig until the chain catches up. A new laptop that cannot open a client's session is not an upgrade.",
+  "title": "Don't let a new computer choose your OS"
+ },
+ {
+  "body": "This week a court protected a performer's voice, and a commercial model learned to clone one from ten seconds of audio. Dialogue stems, ADR sessions and VO takes on your drives are now raw material for cloning.\n\nKeep voice recordings in folders shared only with the people who need them, remove public links when a job ends, and write into your contracts that the material may not be used to train or clone a voice without the performer's written consent. It costs nothing, and it is the kind of care actors and clients remember.",
+  "title": "Treat every voice you record as someone's identity"
+ },
+ {
+  "body": "Two stories this week point the same way. The Frankfurt court decided a lyrics case on sworn evidence of a human draft, and Reservoir's suits turn on what was copied into training data. In both, records decided the argument.\n\nMake it routine: keep dated drafts, session notes saying who played, wrote or generated each part, and the exact tool and version for anything AI-assisted. Store them with the project backup, and put a line in your contracts about whether recordings may be used to train AI. It costs minutes per session and can be worth a lot later.",
+  "title": "Keep a paper trail of who made what"
+ },
+ {
+  "title": "Freeze your OS until your tools catch up",
+  "body": "New Macs arrived this week on an operating system Pro Tools does not yet support, and the qualified HDX chassis list only just caught up with Thunderbolt 5. If a machine earns you money, the newest OS is a risk, not an upgrade.\n\nKeep a written list of the exact OS, DAW, chassis and plugin versions that work together on your main rig. Turn off automatic OS updates, wait for your DAW maker's compatibility statement, and test a new combination on a spare machine or partition with a real session before a paid job. If you must buy a Mac now, ask the dealer whether it can run the previous OS."
+ },
+ {
+  "body": "This year Atmos, MPEG-H and binaural delivery moved into ordinary DAWs. The tools will keep changing; the formats last longer. Spend a day with the actual delivery specs you are likely to meet (bed and object counts, loudness targets, binaural render modes) so that when a client asks for immersive delivery, the conversation is about creative choices rather than technical surprises.",
+  "title": "Learn the formats, not just the tools"
+ }
+]
