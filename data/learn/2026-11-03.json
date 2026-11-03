@@ -1,0 +1,167 @@
+{
+ "key": "2026-11-03",
+ "label": "Tue 3 Nov 2026",
+ "generated": "2026-11-03T11:59:03+01:00",
+ "auto": true,
+ "lesson": {
+  "title": "Inverse square law and critical distance",
+  "topic": "Physics of sound",
+  "level": "core",
+  "summary": "In a free field, sound from a point source spreads over a sphere, so its intensity falls with the square of distance and its level drops by about 6 dB for every doubling of distance. In a real room the reflected, reverberant sound stays roughly constant, and the critical distance is where the direct and reverberant levels are equal.",
+  "body": "A small source radiating into free space spreads its power over a sphere whose area is 4πr². Double the distance and the same power covers four times the area, so intensity falls to a quarter. That is the inverse square law: intensity is proportional to 1/r². In decibels the level change is 20·log10(r2/r1), which gives about 6 dB per doubling of distance and 20 dB per tenfold change. The law only holds in the far field, once you are several times the size of the source away, and in free-field conditions. A long line source, such as a line array heard within its near field, spreads cylindrically instead and loses only about 3 dB per doubling.\n\nIndoors, every surface adds reflections. Close to the source the direct sound dominates and follows the inverse square law. Further away the reverberant field takes over, and its level is roughly the same throughout the room. The critical distance (dc) is the point where the two are equal. A common estimate is dc ≈ 0.057·√(Q·V/RT60), with V the room volume in m³, RT60 in seconds and Q the directivity factor of the source (1 for an omni). Larger, deader rooms and more directional sources push dc further out. Because dc depends on the square root, halving RT60 only increases it by about 1.4 times.\n\nFor recording, the critical distance tells you how much room you will capture. Inside dc the mic hears mostly direct sound; outside it, mostly room. A directional mic raises the effective distance at which it gives the same direct-to-reverberant ratio, which is why a cardioid can sit further back than an omni for a similar sound. On location, keeping the boom well inside dc keeps dialogue clear in a reflective set.\n\nIn live sound and monitoring the same idea applies. Listeners far beyond dc hear mostly the room, so more level does not buy more clarity. A more directional loudspeaker, aimed at the audience and away from walls, extends the distance over which direct sound dominates. In the studio, a listening position well inside dc of the monitors keeps the stereo image stable.",
+  "keyPoints": [
+   "Point source in free field: −6 dB per doubling of distance.",
+   "Level change = 20·log10(r2/r1); ×10 distance = −20 dB.",
+   "Line source in its near field: about −3 dB per doubling.",
+   "Critical distance: direct level equals reverberant level.",
+   "dc ≈ 0.057·√(Q·V/RT60); grows with directivity and absorption.",
+   "Beyond dc, moving further away barely changes the total level."
+  ],
+  "sayIt": "Close to the source you hear the instrument; past a certain point in this room you mostly hear the room, so moving the mic changes the balance a lot.",
+  "inPractice": "Walk a handheld SPL meter away from a speaker playing pink noise in a live room and note where the level stops falling by 6 dB per doubling. That is roughly your critical distance; place your close mics well inside it and your room mics outside it.",
+  "mistake": "Many people expect the inverse square law to hold everywhere indoors. It only describes the direct sound; past the critical distance the reverberant field dominates and the level stays roughly constant.",
+  "terms": [
+   {
+    "term": "Inverse square law",
+    "def": "Intensity from a point source in a free field falls in proportion to 1/r²."
+   },
+   {
+    "term": "Free field",
+    "def": "A space with no reflections, such as an anechoic chamber or open air well away from surfaces."
+   },
+   {
+    "term": "Critical distance",
+    "def": "The distance from a source at which direct and reverberant sound levels are equal."
+   },
+   {
+    "term": "Directivity factor (Q)",
+    "def": "The ratio of on-axis intensity of a source to that of an omni source radiating the same total power."
+   },
+   {
+    "term": "Reverberant field",
+    "def": "The diffuse sound built up from many reflections, roughly uniform in level through a room."
+   }
+  ]
+ },
+ "quiz": {
+  "questions": [
+   {
+    "level": "advanced",
+    "topic": "Acoustics",
+    "q": "A speaker gives 94 dB SPL at 1 m in a free field. At roughly what distance has the level fallen to 80 dB SPL?",
+    "options": [
+     "About 5 m",
+     "About 2.5 m",
+     "About 7 m",
+     "About 14 m"
+    ],
+    "answer": 0,
+    "explain": "A 14 dB drop needs a distance ratio of 10^(14/20) ≈ 5. The trap is treating dB as linear with distance, which leads to 14 m."
+   },
+   {
+    "level": "advanced",
+    "topic": "Acoustics",
+    "q": "Using dc ≈ 0.057·√(Q·V/RT60), what is the critical distance for a loudspeaker with Q = 4 in a 250 m³ room with an RT60 of 0.4 s?",
+    "options": [
+     "About 1.4 m",
+     "About 5.7 m",
+     "About 8.1 m",
+     "About 2.9 m"
+    ],
+    "answer": 3,
+    "explain": "Q·V/RT60 = 4 × 250 / 0.4 = 2500, √2500 = 50, and 0.057 × 50 ≈ 2.85 m. Forgetting the square root gives absurdly large answers."
+   },
+   {
+    "level": "advanced",
+    "topic": "Delay & time",
+    "q": "A linear-phase EQ on a kick channel reports 2048 samples of latency in a 48 kHz session, but delay compensation is switched off. The kick is also in the overheads. What happens?",
+    "options": [
+     "The kick channel is about 2 ms late, which causes mild comb filtering in the low mids",
+     "The kick channel is about 4.3 ms late, which only shifts the stereo image",
+     "The kick channel is about 42.7 ms late, which is heard as a flam or slap against the overheads",
+     "Nothing, because linear-phase EQ adds no phase shift"
+    ],
+    "answer": 2,
+    "explain": "2048 / 48 000 = 0.0427 s, about 42.7 ms. That is long enough to hear as a separate hit, not just a tonal comb. 'Linear-phase' means equal delay at all frequencies, not zero delay."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Acoustics",
+    "q": "A long line array is heard from within its near field. Roughly how much does its level fall per doubling of distance?",
+    "options": [
+     "About 1 dB",
+     "About 3 dB",
+     "About 6 dB",
+     "About 12 dB"
+    ],
+    "answer": 1,
+    "explain": "A line source spreads cylindrically, so intensity falls as 1/r, which is 3 dB per doubling. The 6 dB figure applies to point sources."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Microphone technique",
+    "q": "Why does a coincident pair fold to mono with less tonal change than a spaced pair?",
+    "options": [
+     "Its capsules are always omnidirectional",
+     "It records the left and right channels at different levels",
+     "Its capsules are always wired in opposite polarity",
+     "Its capsules receive sound at the same time, so summing them causes no comb filtering"
+    ],
+    "answer": 3,
+    "explain": "With no time difference between the capsules, the mono sum is just a change of level at each angle. A spaced pair has time differences, which turn into comb filtering when summed."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Digital audio",
+    "q": "Where does clock jitter actually degrade the audio signal?",
+    "options": [
+     "At the analogue-to-digital and digital-to-analogue conversion points",
+     "During every digital transfer between devices, even when no data errors occur",
+     "Only when files are copied between drives",
+     "Only in the DAW's mix engine"
+    ],
+    "answer": 0,
+    "explain": "Jitter changes when a sample is taken or reproduced, so it affects the analogue signal only at conversion. In a digital transfer, the numbers are the same as long as no errors occur."
+   },
+   {
+    "level": "basic",
+    "topic": "Acoustics",
+    "q": "What is the critical distance in a room?",
+    "options": [
+     "The distance at which direct and reverberant sound levels are equal",
+     "The distance at which the first room mode appears",
+     "The furthest distance at which speech is intelligible",
+     "The distance at which a mic starts to show proximity effect"
+    ],
+    "answer": 0,
+    "explain": "Critical distance is defined by the balance of direct and reverberant energy. It is not a mode, intelligibility limit or proximity-effect boundary."
+   },
+   {
+    "level": "basic",
+    "topic": "Live sound",
+    "q": "In an end-fire sub array, which way do the subwoofers face?",
+    "options": [
+     "Alternately forwards and backwards",
+     "All towards the audience",
+     "All towards the stage",
+     "Sideways, towards the walls"
+    ],
+    "answer": 1,
+    "explain": "All end-fire elements face forward with the same polarity. Only spacing and delay create the directivity."
+   },
+   {
+    "level": "basic",
+    "topic": "Dynamics",
+    "q": "What does a true-peak meter show that a sample-peak meter can miss?",
+    "options": [
+     "The average loudness of the programme",
+     "Peaks below the noise floor",
+     "Peaks in the reconstructed waveform that fall between samples",
+     "The level of the left channel only"
+    ],
+    "answer": 2,
+    "explain": "A sample-peak meter reads only the sample values. The waveform rebuilt by a DAC can go higher between them, and true-peak metering oversamples to find those peaks."
+   }
+  ]
+ }
+}

@@ -1,0 +1,320 @@
+{
+ "period": "day",
+ "key": "2026-11-03",
+ "label": "Tue 3 Nov 2026",
+ "range": "1 Nov – 3 Nov 2026",
+ "generated": "2026-11-03T11:59:03+01:00",
+ "auto": true,
+ "headline": "Today's sound headlines",
+ "lead": "30 new stories from 17 sound and audio news sources over the last 48 hours, including Sound On Sound, Production Expert, ProSoundWeb, FOH, TV Technology and 12 more. This edition is assembled automatically from the outlets' own feeds: titles and summaries are theirs, sorted into sections. Open a story for the full article.",
+ "items": [
+  {
+   "cat": "plugins",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-03",
+   "title": "ARA Plugins In 2026 - What’s Available And Why You Should Care",
+   "take": "Since its beginnings in the early 2010s, ARA has since become the plugin format to be reckoned with. With an ever expanding pool of processors that can access the tech, here we roundup not only what’s out there, but also what ARA-enabled magic means for you and your timeline.",
+   "source": "Production Expert",
+   "url": "https://www.production-expert.com/production-expert-1/ara-plugins-in-2026-whats-available-and-why-you-should-care"
+  },
+  {
+   "cat": "gear",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-03",
+   "title": "Myburgh launch the M28",
+   "take": "Said to be the ideal choice for engineers in search of a mic with a sound of its own rather than a remake of a classic design, the M28 centres around a German-made CK12 capsule, but is said to offer a distinctive sound to your usual C12-inspired designs.",
+   "source": "Sound On Sound",
+   "url": "https://www.soundonsound.com/news/myburgh-launch-m28"
+  },
+  {
+   "cat": "live",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-02",
+   "title": "NEXO & Yamaha Team Up On Unique Sonic Upgrade At St. Frances Cabrini Catholic Church In Colorado",
+   "take": "Integration firm AcousTech outfits sanctuary in Littleton known for its reverberant acoustics and wraparound seating with a new system incorporating M620, P12+, M1012 and M1025 loudspeakers working with a DM7 mixing console.",
+   "source": "ProSoundWeb",
+   "url": "https://www.prosoundweb.com/nexo-yamaha-team-up-on-unique-sonic-upgrade-at-st-frances-cabrini-catholic-church-in-colorado/?utm_source=rss&utm_medium=rss&utm_campaign=nexo-yamaha-team-up-on-unique-sonic-upgrade-at-st-frances-cabrini-catholic-church-in-colorado"
+  },
+  {
+   "cat": "software",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-03",
+   "title": "Mixxx could unlock free and open standalone DJing — but, like, stable",
+   "take": "Daniel Schürmann of the long-running libre/free DJ software project Mixxx has a compelling proposal for uniting efforts to develop their DJ software on embedded hardware, from emerging cheap \"open\" hardware to DIY projects.",
+   "source": "CDM",
+   "url": "https://cdm.link/mixxx-could-unlock-free-and-open-standalone-djing/",
+   "free": true
+  },
+  {
+   "cat": "software",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-03",
+   "title": "Steven Slate Audio VSX Horizon One: A Major Update for the Flexible VSX Ecosystem",
+   "take": "The Steven Slate Audio VSX Horizon One expands the popular VSX headphone range, alongside the release of MSX for AirPods Pro and VSX 8.0.",
+   "source": "Gearnews",
+   "url": "https://www.gearnews.com/steven-slate-audio-vsx-horizon-one-studio/"
+  },
+  {
+   "cat": "live",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-03",
+   "title": "‘Combat Audio:’ Inside Dude Perfect’s Live Mix",
+   "take": "Go behind the live mix of Dude Perfect’s Squad Games tour with FOH engineer Jeff Sandstrom. With no script, no rehearsal, and headset mics in front of the PA all night, see why Jeff calls the gig “Combat Audio” - and why he relies on Waves LV1 Classic to keep up with the action.",
+   "source": "FOH",
+   "url": "https://fohonline.com/fohtv/combat-audio-inside-dude-perfects-live-mix/"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-03",
+   "title": "LOVE Synthesizers Ships First Love : Revolutionary interface, portability, and integrated feature set in a compact affordable design",
+   "take": "LOVE Synthesizers has announcesd the official launch of FIRST LOVE , the company's s...",
+   "source": "Sonicstate",
+   "url": "https://sonicstate.com/news/2026/11/03/love-synthesizers-launches-first-love-synthesizer/"
+  },
+  {
+   "cat": "post",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-02",
+   "title": "Nugen Audio Unveils VisLM 3 Loudness Metering",
+   "take": "VisLM 3 combines precise loudness measurement with detailed historical analysis",
+   "source": "TV Technology",
+   "url": "https://www.tvtechnology.com/production/nugen-audio-unveils-vislm-3-loudness-metering"
+  },
+  {
+   "cat": "ai",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-02",
+   "title": "Oticon Reveal Now Available on VA Contract, Bringing Dual AI Technology to Veterans",
+   "take": "Oticon’s Reveal hearing aid, powered by a Dual AI system that simultaneously processes speech and contextual sounds, is now available on the Department of Veterans Affairs contract.",
+   "source": "Hearing Review",
+   "url": "https://hearingreview.com/hearing-products/hearing-aids/oticon-reveal-now-available-on-va-contract-bringing-dual-ai-technology-to-veterans"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-02",
+   "title": "BangZilla releases Wave Theory, a MIDI plugin that turns waveforms into melodies",
+   "take": "BangZilla has released Wave Theory, a MIDI sequencer that turns the shape of a waveform into melodies for your software and hardware instruments. Created with UK instrument makers Boxed Ear, Wave Theory costs $59 / €49 / £49.",
+   "source": "Bedroom Producers Blog",
+   "url": "https://bedroomproducersblog.com/2026/11/02/bangzilla-wave-theory/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-02",
+   "title": "DROIDS: How a Lucasfilm team invented the DAW – go behind Matteo Milani’s new book (and get it for free!)",
+   "take": "Matteo Milani takes you behind his new book + shares stories behind synthesized arrows for Indiana Jones, washing-machine-sized hard disks - and how Hollywood reacted to seeing sound for the first time:",
+   "source": "A Sound Effect",
+   "url": "https://www.asoundeffect.com/droids-book/",
+   "free": true
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-03",
+   "title": "“If I can’t hear it in my head, I can’t play it”: Brian May on his thoughtful, noodle-free guitar style",
+   "take": "Plus he puts the record straight on future Queen touring",
+   "source": "MusicRadar",
+   "url": "https://www.musicradar.com/artists/guitarists/the-guitar-is-a-voice-and-if-you-dont-know-what-youre-gonna-say-its-pointless-opening-your-mouth-brian-may-on-his-thoughtful-noodle-free-guitar-style",
+   "free": true
+  },
+  {
+   "cat": "post",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-03",
+   "title": "OFFBIT M1 Announced – E-Paper Display for Lens Charts, Crew Lists and Notes, Three-Week Battery",
+   "take": "Barcelona-based startup OFFBIT has announced the M1, a small e-paper display for the camera department that replaces the paper lens chart on the camera body. It also holds the crew list, notes and a gallery of custom images, and everything is set up in a free iOS app.",
+   "source": "CineD",
+   "url": "https://www.cined.com/offbit-m1-announced-e-paper-display-for-lens-charts-crew-lists-and-notes-three-week-battery/"
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-03",
+   "title": "Timbaland Sues Former Managers Alleging $15 Million Fraud Scheme",
+   "take": "Timbaland files a $15 million lawsuit against his former managers, alleging fraud, breach of fiduciary duty, and civil theft, among other claims.",
+   "source": "Digital Music News",
+   "url": "https://www.digitalmusicnews.com/2026/11/02/timbaland-lawsuit-former-managers/"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-02",
+   "title": "MONAD turns the Maschine MK3 MIDI controller into an 8-part sampling groovebox",
+   "take": "MONAD is a personal project by Shift Sync that turns the Maschine MK3 MIDI controller into an 8-part sampling groovebox with multiple engines. Over the past few weeks, many music tech products have been turned [...]",
+   "source": "Synth Anatomy",
+   "url": "https://synthanatomy.com/2026/11/monad-turns-the-maschine-mk3-midi-controller-into-an-8-part-sampling-groovebox.html"
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-02",
+   "title": "FTC and four states demand jury trial in BOTS Act lawsuit against Live Nation and Ticketmaster",
+   "take": "The US Federal Trade Commission and four states have demanded a jury trial in their lawsuit against Live Nation and its ticketing subsidiary, Ticketmaster.",
+   "source": "Music Business Worldwide",
+   "url": "https://www.musicbusinessworldwide.com/ftc-and-four-states-demand-jury-trial-in-bots-act-lawsuit-against-live-nation-and-ticketmaster/"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-02",
+   "title": "Behringer Teases $200 Polykeys 61 MIDI Controller With Polyphonic Aftertouch",
+   "take": "The POLYKEYS 61 will offer 61 mini keys with polyphonic aftertouch, plus a ribbon controller.… Read More Behringer Teases $200 Polykeys 61 MIDI Controller With Polyphonic Aftertouch",
+   "source": "Synthtopia",
+   "url": "https://www.synthtopia.com/content/2026/11/02/behringer-teases-200-polykeys-61-midi-controller-with-polyphonic-aftertouch/"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-02",
+   "title": "Blox Rack from Pine DSP",
+   "take": "Pine DSP’s latest offering brings together a set of six virtual processors, houses them in a 500-series-style layout and complements them with a detailed horizontal editing panel.",
+   "source": "Sound On Sound",
+   "url": "https://www.soundonsound.com/news/blox-rack-pine-dsp"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-02",
+   "title": "How Bogren A-Class Vocal Recreates Type-A Vocal Sheen",
+   "take": "Hoping to summon the elixir of noise-reduction hardware used with a twist, Bogren’s latest foray into the world of plugin effects for any instrument promises big studio sheen for voices and more. Here we strap A-Class Vocal across our tracks to see if its aeriated signature can deliver.",
+   "source": "Production Expert",
+   "url": "https://www.production-expert.com/production-expert-1/how-bogren-a-class-vocal-recreates-type-a-vocal-sheen"
+  },
+  {
+   "cat": "software",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-02",
+   "title": "New KLANG KOS 6.1 Update Adds Reverb To Every Mix",
+   "take": "Latest operating system and KLANG:app update also adds a safety limiter and an ambience ducker to KLANG:kontroller.",
+   "source": "ProSoundWeb",
+   "url": "https://www.prosoundweb.com/new-klang-kos-6-1-update-adds-reverb-to-every-mix/?utm_source=rss&utm_medium=rss&utm_campaign=new-klang-kos-6-1-update-adds-reverb-to-every-mix"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-03",
+   "title": "Who Said We Need All This Outboard Gear?",
+   "take": "Danny Abelson chats with Dave Natale about the nuanced benefits of outboard gear, and the risks of going overboard with it.",
+   "source": "FOH",
+   "url": "https://fohonline.com/blogs/tip-of-the-week/who-said-we-need-all-this-outboard-gear-2/"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-03",
+   "title": "Peterson Launches StroboStomp EVH : Tune just like Eddie - sweetened tunings mirror the songs on the 1978 debut album",
+   "take": "Peterson has launched StroboStomp EVH , a new version of their stompbox tuner dedica...",
+   "source": "Sonicstate",
+   "url": "https://sonicstate.com/news/2026/11/03/peterson-launches-strobostomp-evh/"
+  },
+  {
+   "cat": "games",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-02",
+   "title": "CBS Stations Brings AR/VR Coverage to Midterms",
+   "take": "Group is believed to be the first to deploy AR/VR news studios at all of its stations",
+   "source": "TV Technology",
+   "url": "https://www.tvtechnology.com/production/virtual-production/cbs-stations-brings-ar-vr-coverage-to-midterms"
+  },
+  {
+   "cat": "hearing",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-02",
+   "title": "Signia Pure C&G MaX AI Hearing Aid Platform Now Available to Veterans Through VA, DoD, and IHS",
+   "take": "Signia’s AI-powered Pure Charge&Go MaX hearing aid platform and Active Mini IX are now accessible to veterans and active-duty personnel through the VA, DoD, and Indian Health Service.",
+   "source": "Hearing Review",
+   "url": "https://hearingreview.com/hearing-products/hearing-aids/signia-pure-cg-max-ai-hearing-aid-platform-now-available-to-veterans-through-va-dod-and-ihs"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-02",
+   "title": "The Best Pocket Synths: 5 Ways to Get Creative on the Go",
+   "take": "Ever get a creative itch for synths in situations where a mobile app simply won't do? Let's check out some of the best pocket synths!",
+   "source": "Gearnews",
+   "url": "https://www.gearnews.com/best-pocket-synths/"
+  },
+  {
+   "cat": "post",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-02",
+   "title": "12 great new sound effects libraries: Cinematic explosions, barking dogs, Roman ambiences, jungles of Laos & more",
+   "take": "Explore 12 new sound effects libraries, including cinematic explosions, dogs barking across a Spanish valley, Roman ambiences, the jungles of Laos, and more.",
+   "source": "A Sound Effect",
+   "url": "https://www.asoundeffect.com/12-new-sound-effects-libraries-explosions-dog-barks/"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-02",
+   "title": "PSP Audioware releases ClassicQlite, a FREE British-style EQ plugin",
+   "take": "PSP Audioware has released PSP ClassicQlite, a free British-style equalizer plugin for macOS and Windows, inspired by classic console designs, including early Neve EQs.",
+   "source": "Bedroom Producers Blog",
+   "url": "https://bedroomproducersblog.com/2026/11/02/psp-audioware-releases-classicqlite-a-free-british-style-eq-plugin/",
+   "free": true
+  },
+  {
+   "cat": "software",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-01",
+   "title": "The techno originator, Juan Atkins, has died at 64",
+   "take": "It's a loss that's beyond words. Juan Atkins, who coined the term \"techno\" and is often called \"the originator,\" has died at 64. My deepest condolences to friends, family, and so many people I know who worked with and were inspired by this singular human being.",
+   "source": "CDM",
+   "url": "https://cdm.link/the-techno-originator-juan-atkins-has-died-at-64/"
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-02",
+   "title": "Never Too Soon (Or Is It?)—Mariah Carey Ramps Up the Ultra-Lucrative Christmas Machine, This Time with Gucci On Board",
+   "take": "November is here, and so is Mariah Carey’s latest “It’s Time” video, featuring a deep cut for longtime fans, alongside a Gucci tie-up for the season.",
+   "source": "Digital Music News",
+   "url": "https://www.digitalmusicnews.com/2026/11/02/mariah-carey-christmas-gucci/"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-02",
+   "title": "“This new rack trims the often labour-intensive task of setting up an e-kit by a fair margin”: Roland TD-07KV2 review",
+   "take": "Roland borrows from its excellent 3 Series hardware to revamp the beginner to intermediate-friendly TD-07 series",
+   "source": "MusicRadar",
+   "url": "https://www.musicradar.com/drums/electronic-drums/this-new-rack-trims-the-often-labour-intensive-task-of-setting-up-an-e-kit-by-a-fair-margin-roland-td-07kv2-review"
+  }
+ ],
+ "craft": {
+  "body": "This month's alliance of SFX libraries is a reminder that field recordings and designed sounds have real value, including as AI training data.\n\nKeep a simple register of your original recordings: date, place, gear, and who holds rights. When you deliver sounds to a client, say in writing whether they get a licence for this production only or full ownership. It is the same discipline the big libraries use, scaled to one person.",
+  "title": "Treat your own recordings as assets"
+ }
+}
