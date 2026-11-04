@@ -1,0 +1,318 @@
+{
+ "period": "day",
+ "key": "2026-11-04",
+ "label": "Wed 4 Nov 2026",
+ "range": "2 Nov – 4 Nov 2026",
+ "generated": "2026-11-04T14:02:34+01:00",
+ "auto": true,
+ "headline": "Today's sound headlines",
+ "lead": "30 new stories from 16 sound and audio news sources over the last 48 hours, including Sound On Sound, Production Expert, ProSoundWeb, FOH, TV Technology and 11 more. This edition is assembled automatically from the outlets' own feeds: titles and summaries are theirs, sorted into sections. Open a story for the full article.",
+ "items": [
+  {
+   "cat": "speakers",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-04",
+   "title": "Steven Slate Audio Releases VSX Horizon One Headphones And VSX 8.0",
+   "take": "Steven Slate Audio has released the VSX Horizon One reference headphone and VSX 8.0 software, which adds a Room control and works with existing VSX headphones. We have the details.",
+   "source": "Production Expert",
+   "url": "https://www.production-expert.com/production-expert-1/steven-slate-audio-releases-vsx-horizon-one-headphones-and-vsx-80"
+  },
+  {
+   "cat": "software",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-04",
+   "title": "Modartt add YFX Japanese Grand to Pianoteq",
+   "take": "Modartt’s much-loved virtual piano suite has just been treated to another update, gaining a new instrument pack that recreates the sound of a popular Japanese-made grand piano.",
+   "source": "Sound On Sound",
+   "url": "https://www.soundonsound.com/news/modartt-add-yfx-japanese-grand-pianoteq"
+  },
+  {
+   "cat": "games",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-03",
+   "title": "Lectrosonics Captures The Action For NBA 2K Audio Production",
+   "take": "Composer/sound designer Bill Kole evaluates the new S1 shotgun microphone in studio and field recording applications for video game production, including 2K Games’ NBA and WWE franchises.",
+   "source": "ProSoundWeb",
+   "url": "https://www.prosoundweb.com/lectrosonics-captures-the-action-for-nba-2k-audio-production/?utm_source=rss&utm_medium=rss&utm_campaign=lectrosonics-captures-the-action-for-nba-2k-audio-production"
+  },
+  {
+   "cat": "software",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-04",
+   "title": "Steinberg Cubase 16: Exciting New Creative Production Features",
+   "take": "In Steinberg Cubase 16, the professional DAW offers intelligent upgrades across the board, from audio and MIDI editing to flexible processing tools.",
+   "source": "Gearnews",
+   "url": "https://www.gearnews.com/steinberg-cubase-daw-studio/"
+  },
+  {
+   "cat": "live",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-04",
+   "title": "Madonna & Stuart Price on the Power Mac G5 : 20 simultaneous Logic sessions for Confessions Tour",
+   "take": "Madonna has recently been sharing videos of her work behind the...",
+   "source": "Sonicstate",
+   "url": "https://sonicstate.com/news/2026/11/04/madonna-stuart-price-on-the-power-mac-g5/"
+  },
+  {
+   "cat": "live",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-03",
+   "title": "‘Hedwig’ in Hong Kong Includes L-ISA, L-Acoustics DJ",
+   "take": "HONG KONG – A production of Hedwig and the Angry Inch at The Box at Freespace, in Hong Kong’s West Kowloon Cultural District, featured a sound design from Can Ha that included L-ISA and the first L-Acoustics DJ deployment in Asia.",
+   "source": "FOH",
+   "url": "https://fohonline.com/featured/hedwig-in-hong-kong-includes-l-isa-l-acoustics-dj/"
+  },
+  {
+   "cat": "hearing",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-03",
+   "title": "Financing the Newest Hearing Aids",
+   "take": "AI-enhanced hearing technology is exciting. Helping patients take it home can be, too.",
+   "source": "Hearing Review",
+   "url": "https://hearingreview.com/practice-building/marketing/financial-services/financing-the-newest-hearing-aids"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-03",
+   "title": "Rethink: SRT Is ‘De Facto’ Standard Among Open Internet Transport Protocols",
+   "take": "New report assesses current market and tech trends for open internet contribution protocols",
+   "source": "TV Technology",
+   "url": "https://www.tvtechnology.com/platform/streaming/rethink-srt-de-facto-standard-among-open-internet-transport-protocols"
+  },
+  {
+   "cat": "software",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-03",
+   "title": "Black Salt Audio offers Low Control bass processor FREE until November 12",
+   "take": "Black Salt Audio is offering Low Control, its $79 low-end compressor and harmonic enhancer for macOS and Windows, for free until November 12. This one is pretty useful if you work with a lot of heavy bass, whether for sound design or electronic music.",
+   "source": "Bedroom Producers Blog",
+   "url": "https://bedroomproducersblog.com/2026/11/03/black-salt-audio-low-control/",
+   "free": true
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-03",
+   "title": "Deity has released the PR-2ii Pocket Recorder",
+   "take": "Deity Microphones has released the PR-2ii, the second generation of its PR-2 pocket recorder. The PR-2ii is now available at B&H for $259 USD with a lavalier microphone included.",
+   "source": "Newsshooter (audio)",
+   "url": "https://www.newsshooter.com/2026/11/02/deity-has-released-the-pr-2ii-pocket-recorder/"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-04",
+   "title": "“Billy Idol went, ‘Bloody hell, that's David Bowie!’ And as he says ‘Bowie’, he barfs. Vomits all over the place”",
+   "take": "“Billy and I were like absolute best friends. We’d go out together almost every night”",
+   "source": "MusicRadar",
+   "url": "https://www.musicradar.com/artists/billy-idol-went-bloody-hell-thats-david-bowie-and-as-he-says-bowie-he-barfs-vomits-all-over-the-place-nile-rodgers-recalls-his-embarrassing-first-meeting-with-the-thin-white-duke"
+  },
+  {
+   "cat": "software",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-04",
+   "title": "Nikon ZR Firmware 2.00 Detailed – Log3G10 in H.265, Selectable High ISO NR and 3D LUT over HDMI",
+   "take": "Nikon has published the full feature list of firmware version 2.00 for the Nikon ZR, the first major update for its RED-developed full-frame cinema camera.",
+   "source": "CineD",
+   "url": "https://www.cined.com/nikon-zr-firmware-2-00-detailed-log3g10-in-h-265-selectable-high-iso-nr-and-3d-lut-over-hdmi/"
+  },
+  {
+   "cat": "ai",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-04",
+   "title": "MLC Formally Opposes Udio’s Streaming-Data Subpoena, Says Complying ‘Would Require Approximately Two to Three Weeks of Staff Time’ At an Hourly Rate of $150 to $315 Per Employee",
+   "take": "The Mechanical Licensing Collective (MLC) is doubling down on its opposition to Udio’s (and Suno’s) streaming-data subpoena, claiming that complying with the demand “would require approximately two to three weeks of staff time” at a staggering hourly rate of between $150 and $315 per employee.",
+   "source": "Digital Music News",
+   "url": "https://www.digitalmusicnews.com/2026/11/03/udio-mlc-subpoena-opposition/"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-04",
+   "title": "Synthux Academy Audrey III: the evolution of the feedback-driven Synthesizer",
+   "take": "Synthux Academy Audrey III is the third version of the unique feedback-driven horroscape Synthesizer, now with three engines and more. Many synthesizers are out there, but some stand out—making the market diverse and interesting. The [...]",
+   "source": "Synth Anatomy",
+   "url": "https://synthanatomy.com/2026/11/synthux-academy-audrey-iii-the-evolution-of-the-feedback-driven-synthesizer.html"
+  },
+  {
+   "cat": "software",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-03",
+   "title": "How To ‘Vibe Code’ Your Own Firmware For The M-Vave FM-1 Synthesizer",
+   "take": "In his latest video, synthesist Floyd Steinberg looks at the alternate firmware revolution of the M-Vave FM-1 synthesizer. … Read More How To ‘Vibe Code’ Your Own Firmware For The M-Vave FM-1 Synthesizer",
+   "source": "Synthtopia",
+   "url": "https://www.synthtopia.com/content/2026/11/03/how-to-vibe-code-your-own-firmware-for-the-m-vave-fm-1-synthesizer/"
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-03",
+   "title": "‘Supercharged’ royalties, Downtown’s margins, and cost cuts: What I learned from UMG’s Q3 earnings",
+   "take": "The latest 'Tim's Take' from Music Business Worldwide founder, Tim Ingham Source",
+   "source": "Music Business Worldwide",
+   "url": "https://www.musicbusinessworldwide.com/supercharged-downtowns-margins-and-more-cost-cuts-what-i-learned-from-umgs-q3-earnings/"
+  },
+  {
+   "cat": "post",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-04",
+   "title": "What Makes a Foley Session Perfect? Perspectives from Industry Pros",
+   "take": "Tom Soumm is a Foley artist and co-owner of the Foley Makers studio. With every new project, he learns more about this craft. Naturally, he is personally interested in what a perfect Foley session looks like in clients' eyes.",
+   "source": "Production Expert",
+   "url": "https://www.production-expert.com/production-expert-1/what-makes-a-foley-session-perfect-perspectives-from-industry-pros"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-03",
+   "title": "Expressive E release GForce Collection",
+   "take": "GForce Collection brings together GForce’s MAP and Prophet-5 plug-ins, pairing each of them with 250 presets that take full advantage of the MPE protocol.",
+   "source": "Sound On Sound",
+   "url": "https://www.soundonsound.com/news/expressive-e-release-gforce-collection"
+  },
+  {
+   "cat": "speakers",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-03",
+   "title": "d&b audiotechnik Brings MVR Support To ArrayCalc",
+   "take": "Allows sharing project information among CAD, lighting and visualization platforms in supporting the exchange of venue geometry, staging, lighting and loudspeaker data.",
+   "source": "ProSoundWeb",
+   "url": "https://www.prosoundweb.com/db-audiotechnik-brings-mvr-support-to-arraycalc/?utm_source=rss&utm_medium=rss&utm_campaign=db-audiotechnik-brings-mvr-support-to-arraycalc"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-04",
+   "title": "Blackstar Beam Control: Wireless Footswitch for the Beam Series, Plus a New Rig!",
+   "take": "With Beam Control, you get a wireless, Bluetooth-powered footswitch for the Blackstar Beam Mini. And there's a new rig, too!",
+   "source": "Gearnews",
+   "url": "https://www.gearnews.com/blackstar-beam-control-guitar/"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-04",
+   "title": "Lisa Maffia on So Solid Crew & Solo Fame : With Mo Gilligan on The Beginning, Middle and End",
+   "take": "Lisa Maffia is a singer-songwriter, musician, rapper, actress, fashion designer, model and presenter, who originally ...",
+   "source": "Sonicstate",
+   "url": "https://sonicstate.com/news/2026/11/04/lisa-maffia-on-so-solid-crew-solo-fame/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-03",
+   "title": "Raye Engineers Getting Quantum Flexibility with DiGiCo Consoles",
+   "take": "WORLD – Along with a headlining arena tour and opening performances for some of Bruno Mars’ stadium shows, Raye has been performing at festivals staged on both sides of the Atlantic this year.",
+   "source": "FOH",
+   "url": "https://fohonline.com/featured/raye-engineers-getting-quantum-flexibility-with-digico-consoles/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-03",
+   "title": "Cheddar Turns to Playbox Neo for Playout",
+   "take": "24/7 news outlet is using a Playbox Neo tools suite for cloud-based playout",
+   "source": "TV Technology",
+   "url": "https://www.tvtechnology.com/infrastructure/cloud/cheddar-turns-to-playbox-neo-for-playout"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-03",
+   "title": "Expetri is a petri-dish synth with a FREE version, but I still much prefer regular synths",
+   "take": "Expetri is an experimental synthesizer for macOS and Windows with a free version that lets you build sounds by stirring cells in a virtual petri dish. Simply put, Expetri swaps the usual panel of synth knobs for drifting cells that split and blend into each other’s waveforms.",
+   "source": "Bedroom Producers Blog",
+   "url": "https://bedroomproducersblog.com/2026/11/03/expetri-neural-synth/",
+   "free": true
+  },
+  {
+   "cat": "hearing",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-02",
+   "title": "Phonak Eon Hearing Aid Portfolio Now Available to US Military Service Members and Veterans",
+   "take": "Phonak’s next-generation Eon hearing aid portfolio, powered by the new Hypersonic chip and dual AI processing, is now available to U.S. military service members and veterans through VA and DOD audiology programs.",
+   "source": "Hearing Review",
+   "url": "https://hearingreview.com/hearing-products/hearing-aids/phonak-eon-hearing-aid-portfolio-now-available-to-us-military-service-members-and-veterans"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-04",
+   "title": "“Sobbing like a baby”: Dave Grohl reveals how jamming with AC/DC reduced him to a blubbing wreck",
+   "take": "It was a “full-circle” moment in his life, he says",
+   "source": "MusicRadar",
+   "url": "https://www.musicradar.com/artists/guitarists/i-broke-down-in-tears-sobbing-like-a-baby-i-was-sobbing-like-wailing-sobbing-and-i-couldnt-believe-it-dave-grohl-reveals-how-jamming-with-ac-dc-reduced-him-to-a-blubbing-wreck"
+  },
+  {
+   "cat": "software",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-04",
+   "title": "DJI Osmo Pocket 4P Firmware V01.02.1149 Released – 18x Zoom, Smoother Lens Switching and Scene Presets",
+   "take": "DJI has released firmware V01.02.1149 for the Osmo Pocket 4P, and it is the biggest update the dual-camera pocket gimbal has received so far.",
+   "source": "CineD",
+   "url": "https://www.cined.com/dji-osmo-pocket-4p-firmware-v01-02-1149-released-18x-zoom-smoother-lens-switching-and-scene-presets/"
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-04",
+   "title": "Billboard Latin Music Week 2026: Celebrating Partnerships, Culture, and Creativity",
+   "take": "Now in its 37th edition, Billboard Latin Music Week 2026 returned to the Faena Forum in Miami Beach. The weeklong event showcased exclusive artist conversations, business panels with key executives, cross-city networking, rooftop performances, and other events across the city.",
+   "source": "Digital Music News",
+   "url": "https://www.digitalmusicnews.com/2026/11/03/billboard-latin-music-week-2026/"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-03",
+   "title": "Dreadbox Dysphonia, Antiphon & Hypnosis synths & multi-FX are back as limited time reissues",
+   "take": "Dreadbox has released reissues of its Eurorack-compatible Dysphonia and Antiphon analog synthesizers and of the Hypnosis multi-FX processor Today, Dreadbox released the Alecto, a new drum synthesizer in the same format as the Hades, Erebus, [...]",
+   "source": "Synth Anatomy",
+   "url": "https://synthanatomy.com/2026/11/dreadbox-dysphonia-antiphon-hypnosis-synths-multi-fx-are-back-as-limited-time-reissues.html"
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-03",
+   "title": "Former Kobalt exec Simon Dennett joins Spanish Point, developer of music rights platform Matching Engine, as Chief Product Officer",
+   "take": "Matching Engine is used by Collective Management Organisations (CMOs) including IMRO, SOCAN, TONO, and KODA across 13 countries in Europe and North America. Source",
+   "source": "Music Business Worldwide",
+   "url": "https://www.musicbusinessworldwide.com/former-kobalt-exec-simon-dennett-joins-music-rights-tech-firm-spanish-point-as-chief-product-officer/"
+  }
+ ],
+ "craft": {
+  "body": "October's lesson is that a new Mac decides which macOS you run, and your DAW vendor decides whether that is supported. Before buying any machine for client work, list every piece of software and hardware in your chain (DAW, plugins, interface drivers, iLok, control surfaces) and check each against the OS the machine ships with.\n\nIf anything is not qualified, either buy an older model that can still run your current OS, or keep your existing machine as the main rig until the chain catches up. A new laptop that cannot open a client's session is not an upgrade.",
+  "title": "Don't let a new computer choose your OS"
+ }
+}

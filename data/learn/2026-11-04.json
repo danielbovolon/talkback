@@ -1,0 +1,167 @@
+{
+ "key": "2026-11-04",
+ "label": "Wed 4 Nov 2026",
+ "generated": "2026-11-04T14:02:34+01:00",
+ "auto": true,
+ "lesson": {
+  "title": "Masking and equal-loudness contours",
+  "topic": "Hearing and psychoacoustics",
+  "level": "core",
+  "summary": "Masking is when one sound makes another harder or impossible to hear, either at the same time or just before or after it. Equal-loudness contours show the sound pressure level needed at each frequency to sound as loud as a 1 kHz reference, and they change shape with level.",
+  "body": "The ear analyses sound in overlapping frequency bands called critical bands. A loud sound raises the threshold of hearing for quieter sounds near its frequency; that is simultaneous masking. Masking spreads further upward in frequency than downward, especially at high levels. One common measure of auditory filter width is the equivalent rectangular bandwidth (ERB), which Glasberg and Moore estimate as 24.7·(4.37·f/1000 + 1) Hz, about 130 Hz at 1 kHz. Two sounds inside the same band compete hard; sounds further apart in frequency compete much less.\n\nMasking also works in time. A loud sound hides quieter sounds that follow it for a while; this forward masking can last around 100 to 200 ms. Backward masking, where a later loud sound hides an earlier quiet one, is much shorter, typically a few milliseconds up to roughly 20 ms. Perceptual codecs such as MP3 and AAC rely on both kinds of masking to decide which parts of a signal can be coded with less precision.\n\nEqual-loudness contours, first measured by Fletcher and Munson and now standardised in ISO 226, plot the SPL needed at each frequency for a pure tone to sound as loud as a 1 kHz tone. The unit of loudness level is the phon: a sound at N phon is as loud as a 1 kHz tone at N dB SPL. The ear is most sensitive around 2 to 5 kHz and much less sensitive in the low bass. At low levels the contours rise steeply at low frequencies, and they bunch closer together there, so bass loudness grows faster than midrange loudness as you turn up. Perceived loudness in sones doubles for about every 10 phon increase above 40 phon, where 40 phon is 1 sone.\n\nIn a mix, masking explains why a bass and kick that both sit around the same low frequencies blur together, and why dialogue gets buried under music or effects sharing its 1 to 4 kHz range. Cutting space in one track often works better than boosting another. Equal-loudness contours explain why mixes balanced quietly sound bass-heavy when played loud, so check at a calibrated reference level, such as the level your delivery standard or room calls for.",
+  "keyPoints": [
+   "Simultaneous masking is strongest within a critical band.",
+   "Masking spreads more upward in frequency than downward.",
+   "Forward masking lasts much longer than backward masking.",
+   "Phon: loudness level equal to the dB SPL of an equally loud 1 kHz tone.",
+   "40 phon = 1 sone; +10 phon roughly doubles loudness.",
+   "Contours bunch at low frequencies, so bass gets louder faster as level rises."
+  ],
+  "sayIt": "The guitar is hiding the vocal because they live in the same frequency range, so I'm carving a little space rather than just turning the vocal up.",
+  "inPractice": "On your next dialogue mix, solo the music and find where it sits in the 1 to 4 kHz range. Dip it a few dB there only while dialogue plays and compare intelligibility against simply lowering the music.",
+  "mistake": "People often fix a masked sound by boosting it. Reducing the competing sound in the shared band usually restores clarity with less level build-up and less harshness.",
+  "terms": [
+   {
+    "term": "Simultaneous masking",
+    "def": "A sound becoming inaudible because another sound near its frequency is present at the same time."
+   },
+   {
+    "term": "Forward masking",
+    "def": "A loud sound raising the threshold for quiet sounds that follow it in time."
+   },
+   {
+    "term": "Critical band",
+    "def": "The frequency range over which the ear integrates energy; sounds within it mask each other strongly."
+   },
+   {
+    "term": "Phon",
+    "def": "Unit of loudness level, equal to the SPL of a 1 kHz tone judged equally loud."
+   },
+   {
+    "term": "Sone",
+    "def": "Unit of perceived loudness; 1 sone is the loudness of a 40 phon sound."
+   }
+  ]
+ },
+ "quiz": {
+  "questions": [
+   {
+    "level": "advanced",
+    "topic": "Psychoacoustics",
+    "q": "A 100 Hz tone and a 1 kHz tone both measure 60 phon. You raise both by 20 dB SPL. What happens to their loudness levels?",
+    "options": [
+     "The 100 Hz tone gains more than 20 phon; the 1 kHz tone gains 20 phon",
+     "Both gain exactly 20 phon",
+     "The 1 kHz tone gains more than the 100 Hz tone",
+     "The 100 Hz tone gains less than 20 phon"
+    ],
+    "answer": 0,
+    "explain": "At 1 kHz phon equals dB SPL by definition. At low frequencies the equal-loudness contours are closer together, so each dB adds more than one phon."
+   },
+   {
+    "level": "advanced",
+    "topic": "Psychoacoustics",
+    "q": "Using the Glasberg and Moore estimate ERB = 24.7·(4.37·f/1000 + 1) Hz, what is the equivalent rectangular bandwidth of the auditory filter at 1 kHz?",
+    "options": [
+     "About 133 Hz",
+     "About 25 Hz",
+     "About 108 Hz",
+     "About 1,000 Hz"
+    ],
+    "answer": 0,
+    "explain": "24.7 × (4.37 + 1) = 24.7 × 5.37 ≈ 133 Hz. Leaving out the +1 gives about 108 Hz."
+   },
+   {
+    "level": "advanced",
+    "topic": "Acoustics",
+    "q": "You place a 5 cm porous panel directly on a rigid wall to tame a 100 Hz mode. Why does it do almost nothing?",
+    "options": [
+     "Porous material only absorbs above 10 kHz",
+     "At the wall particle velocity is near zero, and λ/4 at 100 Hz is about 0.86 m away",
+     "The panel reflects 100 Hz back with more energy",
+     "Porous absorbers need to be in the centre of the room to work"
+    ],
+    "answer": 1,
+    "explain": "Porous absorbers need moving air. At 100 Hz the velocity maximum is about 0.86 m from the wall, far beyond a 5 cm panel."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Psychoacoustics",
+    "q": "A loud snare hit can hide a quiet ghost note. Which is true of temporal masking?",
+    "options": [
+     "Backward masking lasts longer than forward masking",
+     "Both last exactly 50 ms",
+     "Temporal masking only happens between sounds of different frequencies",
+     "Forward masking (after the loud sound) lasts much longer than backward masking"
+    ],
+    "answer": 3,
+    "explain": "Forward masking can extend for around 100 to 200 ms, while backward masking is typically a few milliseconds to around 20 ms."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Acoustics",
+    "q": "Where does a membrane (pressure-based) bass trap work best?",
+    "options": [
+     "In the middle of the room",
+     "Hanging from the ceiling at the listening position",
+     "At boundaries and corners, where pressure is high",
+     "A quarter wavelength from the wall"
+    ],
+    "answer": 2,
+    "explain": "Membrane traps respond to pressure, which is highest at boundaries and especially in corners, where every room mode has a pressure maximum."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Digital audio",
+    "q": "A digital mixer receives AES3 from a converter, but the mixer is set to its internal clock and is not locked to the converter. What do you most likely hear?",
+    "options": [
+     "A constant hum at the sample rate",
+     "Periodic clicks or drop-outs as samples slip",
+     "A steady loss of high frequencies",
+     "Nothing, because AES3 carries its own sample rate"
+    ],
+    "answer": 1,
+    "explain": "Two free-running clocks are never exactly equal, so the receiver eventually has to drop or repeat samples, which gives clicks. AES3 carries a clock, but the receiver must be set to follow it."
+   },
+   {
+    "level": "basic",
+    "topic": "Psychoacoustics",
+    "q": "Which international standard defines the current equal-loudness contours?",
+    "options": [
+     "ITU-R BS.1770",
+     "ISO 226",
+     "IEC 61938",
+     "AES17"
+    ],
+    "answer": 1,
+    "explain": "ISO 226 replaced earlier Fletcher-Munson and Robinson-Dadson curves. BS.1770 is loudness metering, IEC 61938 covers phantom power and AES17 covers converter measurement."
+   },
+   {
+    "level": "basic",
+    "topic": "Acoustics",
+    "q": "Why are thin foam tiles not enough to control bass in a small studio?",
+    "options": [
+     "They are too thin to reach the high-velocity region of low-frequency waves",
+     "Foam only absorbs at exactly 1 kHz",
+     "Foam reflects bass louder than bare walls",
+     "Bass is controlled only by EQ"
+    ],
+    "answer": 0,
+    "explain": "Low frequencies have long wavelengths, so porous material needs much more depth from the wall to absorb them."
+   },
+   {
+    "level": "basic",
+    "topic": "Reverb & delay",
+    "q": "What does the pre-delay control on a reverb set?",
+    "options": [
+     "The gap between the direct sound and the start of the reverb",
+     "How long the reverb tail lasts",
+     "How quickly the high frequencies die away",
+     "The level of the reverb in the mix"
+    ],
+    "answer": 0,
+    "explain": "Pre-delay delays the start of the reverb. It keeps the source clear and suggests distance to the walls, without lengthening the tail."
+   }
+  ]
+ }
+}
