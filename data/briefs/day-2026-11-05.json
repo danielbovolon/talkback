@@ -1,0 +1,318 @@
+{
+ "period": "day",
+ "key": "2026-11-05",
+ "label": "Thu 5 Nov 2026",
+ "range": "3 Nov – 5 Nov 2026",
+ "generated": "2026-11-05T14:16:16+01:00",
+ "auto": true,
+ "headline": "Today's sound headlines",
+ "lead": "30 new stories from 18 sound and audio news sources over the last 48 hours, including Sound On Sound, Production Expert, ProSoundWeb, FOH, TPi and 13 more. This edition is assembled automatically from the outlets' own feeds: titles and summaries are theirs, sorted into sections. Open a story for the full article.",
+ "items": [
+  {
+   "cat": "plugins",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-05",
+   "title": "Acon Restoration Suite 3 Analyses Your Audio And Builds The Repair Chain For You",
+   "take": "Acon Digital’s Restoration Suite 3 adds a plugin that listens to a recording, diagnoses noise, hum, clicks and clipping, then builds its own repair chain.",
+   "source": "Production Expert",
+   "url": "https://www.production-expert.com/production-expert-1/acon-restoration-suite-3-analyses-your-audio-and-builds-the-repair-chain-for-you"
+  },
+  {
+   "cat": "software",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-05",
+   "title": "GForce Releases New Oberheim Matrix-12 Software Instrument",
+   "take": "Software for macOS and Windows designed to recreate the 1985 analog synthesizer and its extensive modulation capabilities.",
+   "source": "ProSoundWeb",
+   "url": "https://www.prosoundweb.com/gforce-releases-oberheim-matrix-12-software-instrument/?utm_source=rss&utm_medium=rss&utm_campaign=gforce-releases-oberheim-matrix-12-software-instrument"
+  },
+  {
+   "cat": "live",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-05",
+   "title": "Allen & Health announce the Qu-3 & Qu-3D",
+   "take": "Allen & Health's new Qu-3 & Qu-3D consoles are said to be perfectly suited to a wide range of tasks including corporate AV, broadcast, installed audio, live sound and home recording.",
+   "source": "Sound On Sound",
+   "url": "https://www.soundonsound.com/news/allen-health-announce-qu-3-qu-3d"
+  },
+  {
+   "cat": "instruments",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-05",
+   "title": "Meat Beats releases Sublime, a FREE bass synth with 125 presets",
+   "take": "Meat Beats has released Sublime, a free bass synthesizer for macOS and Windows with 125 presets aimed at house, garage, and related electronic styles. We’ve covered the developer’s Micro Keys and HERA-ONE instruments before.",
+   "source": "Bedroom Producers Blog",
+   "url": "https://bedroomproducersblog.com/2026/11/05/meat-beats-sublime/",
+   "free": true
+  },
+  {
+   "cat": "software",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-05",
+   "title": "Ableton Live 13 LEAK: A Funky New Step Sequencer and Multiple Devices!",
+   "take": "Videos of Ableton Live 13, which is still unreleased at this point, have leaked on YouTube, giving us some insight into some of the new features.",
+   "source": "Gearnews",
+   "url": "https://www.gearnews.com/ableton-live-13-studio/"
+  },
+  {
+   "cat": "live",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-05",
+   "title": "Yamaha introduces the DM5 Series to the market",
+   "take": "Why bring a product to market for the small- to mid-sized live sound sector? The live sound market is incredibly diverse across theatre, broadcast, live music and corporate AV. Engineers work across different industry sectors every day, and production companies supply a wide range of industries.",
+   "source": "TPi",
+   "url": "https://www.tpimagazine.com/yamaha-introduces-the-dm5-series-to-the-market/"
+  },
+  {
+   "cat": "games",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-05",
+   "title": "How CONTROL Resonant makes the ordinary sound strange: Behind the superb game audio",
+   "take": "What does a city sound like when otherworldly forces warp everyday life? The CONTROL Resonant audio team takes you behind the game's superb sound design in this exclusive interview:",
+   "source": "A Sound Effect",
+   "url": "https://www.asoundeffect.com/control-resonant-game-audio/"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-05",
+   "title": "SonicLAB: Stylophone On The Fly Sequencer : Compact sequencer packed with features (video)",
+   "take": "Matt came down to show us the Stylophone On The Fly , the first product in the company's new Music L...",
+   "source": "Sonicstate",
+   "url": "https://sonicstate.com/news/2026/11/05/soniclab-stylophone-on-the-fly-sequencer/"
+  },
+  {
+   "cat": "post",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-05",
+   "title": "KV2 Audio Enhances UK-based AV Attraction",
+   "take": "PORTSMOUTH, UK – KV2 Audio loudspeakers helped bring immersive storytelling to life inside Holovis’ dome attraction at Portsmouth’s Gunwharf Quays shopping center.",
+   "source": "FOH",
+   "url": "https://fohonline.com/newsroom/international-news/kv2-audio-enhances-uk-based-av-attraction/"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-05",
+   "title": "Canon DM-E10D Compact Supercardioid Microphone for Multi-Shoe Cameras",
+   "take": "Canon has unveiled its new DM-E10D Compact Supercardioid Microphone, which was designed to offer an upgrade over built-in camera audio in an ultracompact, lightweight form.",
+   "source": "Newsshooter (audio)",
+   "url": "https://www.newsshooter.com/2026/11/04/canon-dm-e10d-compact-supercardioid-microphone-for-multi-shoe-cameras/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-04",
+   "title": "Roku Introduces Roku Outcomes to Optimize Ad Delivery",
+   "take": "Machine learning-powered tool lets marketers target spots to consumer actions",
+   "source": "TV Technology",
+   "url": "https://www.tvtechnology.com/platform/streaming/roku-introduces-roku-outcomes-to-optimize-ad-delivery"
+  },
+  {
+   "cat": "software",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-04",
+   "title": "Productions gone live, as Jlin joins Third Coast Percussion on “Vernacular”",
+   "take": "If today is a day to celebrate good things happening in the USA, you better also be listening to the epic collaboration between Jlin and Chicago's Third Coast Percussion.",
+   "source": "CDM",
+   "url": "https://cdm.link/productions-gone-live-as-jlin-joins-third-coast-percussion-on-vernacular/"
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-05",
+   "title": "Spotify Takes to the Sky with United Airlines Partnership",
+   "take": "Spotify is bringing personal account streaming to United Airlines seatback displays using a simple QR code scan on Starlink-equipped aircraft. Today, Spotify has announced a new partnership that brings personal account streaming to United Airlines seatback displays.",
+   "source": "Digital Music News",
+   "url": "https://www.digitalmusicnews.com/2026/11/05/spotify-united-airlines-partnership/"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-05",
+   "title": "Shed Seven tell us why their own gold-tipped single deserves its moment of Olympic glory",
+   "take": "In our recent first-hand exploration of a certified indie classic, Shed Seven’s Rick Witter told us why he always rolls his eyes when Olympics season comes around…",
+   "source": "MusicRadar",
+   "url": "https://www.musicradar.com/artists/i-had-a-moan-on-stage-about-why-its-always-spandau-ballet-were-always-the-bridesmaid-to-gary-kemp-shed-seven-tell-us-why-their-own-gold-tipped-single-deserves-its-moment-of-olympic-glory"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-05",
+   "title": "GForce Software Oberheim Matrix-12: the modulation matrix pioneer returns as a synth plugin",
+   "take": "GForce Software Oberheim Matrix-12 emulates the 1985 flagship analog polyphonic Synthesizer that pioneered the modulation matrix. The 1970s and 80s gave rise to many polyphonic analog synthesizers – instruments that are now legendary, rare, and [...]",
+   "source": "Synth Anatomy",
+   "url": "https://synthanatomy.com/2026/11/gforce-software-oberheim-matrix-12-the-modulation-matrix-pioneer-returns-as-a-synth-plugin.html"
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-05",
+   "title": "BTS ‘SWIM’ copyright lawsuit against HYBE dropped by songwriters less than four months after filing",
+   "take": "Dismissal comes less than four months after the songwriters filed their complaint on July 8 Source",
+   "source": "Music Business Worldwide",
+   "url": "https://www.musicbusinessworldwide.com/bts-swim-copyright-lawsuit-against-hybe-dropped-by-songwriters-less-than-four-months-after-filing/"
+  },
+  {
+   "cat": "software",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-05",
+   "title": "Canon EOS C400, EOS C80 and EOS C50 Firmware Update Announced – Expanding Cinema EOS Capabilities",
+   "take": "Canon has announced a new Cinema EOS firmware update for three cameras: the EOS C400, EOS C80, and EOS C50. It adds Multi-Matrix color control for camera matching and LED volume work, autofocus at more Slow & Fast frame rates, several broadcast and virtual production features, wider button…",
+   "source": "CineD",
+   "url": "https://www.cined.com/canon-eos-c400-eos-c80-and-eos-c50-firmware-update-announced-expanding-cinema-eos-capabilities/"
+  },
+  {
+   "cat": "software",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-05",
+   "title": "Cubase 16 Adds Instrument Layering, Spectral AudioWarp & Expanded MIDI 2.0 Support",
+   "take": "Steinberg's Cubase 16 introduces instrument layering, expanded stem separation, new MIDI editing functions and workflow improvements for electronic music production and recording.… Read More Cubase 16 Adds Instrument Layering, Spectral AudioWarp & Expanded MIDI 2.0 Support",
+   "source": "Synthtopia",
+   "url": "https://www.synthtopia.com/content/2026/11/04/cubase-16-adds-instrument-layering-spectral-audiowarp-expanded-midi-2-0-support/"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-05",
+   "title": "Have FireWire Audio Interfaces And An Apple Silicon Mac? You Might Be Able To Use Them",
+   "take": "ASFireWire is a free, open-source driver that brings FireWire audio back to macOS Tahoe. See which interfaces work, what adapters you need and the risks.",
+   "source": "Production Expert",
+   "url": "https://www.production-expert.com/production-expert-1/have-firewire-audio-interfaces-and-an-apple-silicon-mac-you-might-be-able-to-use-them"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-04",
+   "title": "Universal Audio capture Capitol Studios",
+   "take": "Universal Audio’s latest native room-modelling and reverb plug-in captures the sound of one of the world’s most iconic recording facilities, Capitol Studios.",
+   "source": "Sound On Sound",
+   "url": "https://www.soundonsound.com/news/universal-audio-capture-capitol-studios"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-04",
+   "title": "PA Optimization Simplified: A Guide To Tuning A System Without Bells & Whistles (Or Software)",
+   "take": "A veteran audio professional's advice on making EQ and delay time adjustments followed by a quick-start checklist of the steps to improve the overall balance of the system.",
+   "source": "ProSoundWeb",
+   "url": "https://www.prosoundweb.com/pa-optimization-simplified-a-guide-to-tuning-a-system-without-bells-whistles-or-software/?utm_source=rss&utm_medium=rss&utm_campaign=pa-optimization-simplified-a-guide-to-tuning-a-system-without-bells-whistles-or-software"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-05",
+   "title": "NedAcoustics lifts the lid on the Venue Sound Baffle LT05",
+   "take": "Can you tell us about NedAcoustics? We founded NedAcoustics, having learned over the past 20 years that there is a large demand for temporary acoustical measures.",
+   "source": "TPi",
+   "url": "https://www.tpimagazine.com/nedacoustics-lifts-the-lid-on-the-venue-sound-baffle-lt05/"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-05",
+   "title": "GForce Software Oberheim Matrix-12 – Big, Official and Built for the 21st Century",
+   "take": "Oberheim's finest hour receives its only official software version as GForce take on the Matrix-12, with the help of one of its original designers.",
+   "source": "Gearnews",
+   "url": "https://www.gearnews.com/gforce-software-oberheim-matrix-12-synths/"
+  },
+  {
+   "cat": "software",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-05",
+   "title": "GForce Releases Oberheim Matrix-12 : The only official Matrix-12 and Xpander software",
+   "take": "GForce Software has released Oberheim Matrix-12 for macOS and Windows, the only off...",
+   "source": "Sonicstate",
+   "url": "https://sonicstate.com/news/2026/11/05/gforce-releases-oberheim-matrix-12/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-05",
+   "title": "NEXO microNXAMP4X1 Amp/DSP Solution",
+   "take": "NEXO's microNXAMP4X1 brings a flexible and cost-effective new amplification and DSP processing solution for NEXO systems",
+   "source": "FOH",
+   "url": "https://fohonline.com/blogs/new-gear/nexo-micronxamp4x1-amp-dsp-solution/"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-04",
+   "title": "Sonuscore releases The Score Elements, a FREE cinematic library for Kontakt Player",
+   "take": "Sonuscore has released The Score Elements, a free cinematic scoring library for Kontakt Player that turns your chords into orchestral arrangements.",
+   "source": "Bedroom Producers Blog",
+   "url": "https://bedroomproducersblog.com/2026/11/04/sonuscore-score-elements/",
+   "free": true
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-04",
+   "title": "RTÉ Combines Calrec Type R, ST 2110 for World Cup Commentary",
+   "take": "Irish national broadcaster’s approach produced significant productivity benefits",
+   "source": "TV Technology",
+   "url": "https://www.tvtechnology.com/production/sports-production/rte-combines-calrec-type-r-smpte-st-2110-for-world-cup-commentary"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-05",
+   "title": "“To add energy and bring the power\": Anika Nilles launches her new artist collection with thicker drumsticks",
+   "take": "Sticks built for rock rather than fusion, she explains",
+   "source": "MusicRadar",
+   "url": "https://www.musicradar.com/artists/drummers/anika-nilles-launches-her-new-artist-collection-with-designer-heads-and-signature-drumsticks"
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-05",
+   "title": "Sony generated a record $3.15B from recorded music and publishing in calendar Q3 2026, up 8.9% YoY",
+   "take": "Recorded music streaming revenues hit USD $1.52 billion, up 7.4% YoY Source",
+   "source": "Music Business Worldwide",
+   "url": "https://www.musicbusinessworldwide.com/sony-generated-a-record-3-15b-from-recorded-music-and-publishing-in-calendar-q3-2026-up-9-yoy/"
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-05",
+   "title": "Sony Music Q3 2026 Revenue Approaches $3.2 Billion Amid Double-Digit Recorded Music and Live/Merch Growth",
+   "take": "Thanks to solid overall revenue growth across streaming, physical, and live/licensing, Sony Music generated nearly $3.2 billion (up 17.7% and 8.9% in constant currency year over year) during Q3 2026. The overarching Sony Group Corp.",
+   "source": "Digital Music News",
+   "url": "https://www.digitalmusicnews.com/2026/11/05/sony-music-revenue-q3-2026/"
+  }
+ ],
+ "craft": {
+  "body": "This week a court protected a performer's voice, and a commercial model learned to clone one from ten seconds of audio. Dialogue stems, ADR sessions and VO takes on your drives are now raw material for cloning.\n\nKeep voice recordings in folders shared only with the people who need them, remove public links when a job ends, and write into your contracts that the material may not be used to train or clone a voice without the performer's written consent. It costs nothing, and it is the kind of care actors and clients remember.",
+  "title": "Treat every voice you record as someone's identity"
+ }
+}

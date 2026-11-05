@@ -1,0 +1,167 @@
+{
+ "key": "2026-11-05",
+ "label": "Thu 5 Nov 2026",
+ "generated": "2026-11-05T14:16:16+01:00",
+ "auto": true,
+ "lesson": {
+  "title": "Room modes and RT60",
+  "topic": "Physics of sound",
+  "level": "core",
+  "summary": "Room modes are standing waves that form between surfaces at frequencies set by the room's dimensions, giving uneven bass from seat to seat. RT60 is the time sound takes to decay by 60 dB after the source stops, and Sabine's formula estimates it from room volume and total absorption.",
+  "body": "Between two parallel walls a distance L apart, sound reinforces itself whenever a whole number of half-wavelengths fits between them. These axial modes fall at f = n·c/2L, where c is the speed of sound (about 343 m/s) and n = 1, 2, 3 and so on. A 5.72 m room has its first length mode near 30 Hz, then 60, 90, 120 Hz. Tangential modes involve four surfaces and oblique modes all six. They are generally weaker; axial modes are usually the strongest and cause the most trouble. Every rectangular room has modes along length, width and height, and their spacing determines how even the low end sounds.\n\nEach mode has pressure peaks and nulls in fixed places. All modes have a pressure maximum at the walls and in the corners, which is why bass traps work best there. The first axial mode has a null halfway between its two walls, so a seat in the exact middle of the room hears that frequency weakly. As frequency rises, modes become more numerous and overlap until the room behaves statistically. The Schroeder frequency, roughly 2000·√(RT60/V), marks that transition. Below it, think in modes; above it, think in reflections and reverberation time.\n\nRT60 is the time for sound to fall 60 dB after the source stops. Sabine's formula estimates it as RT60 = 0.161·V/A, where V is the volume in m³ and A is total absorption in metric sabins (m²), the sum of each surface area multiplied by its absorption coefficient. Double the absorption and RT60 halves. Sabine works best in fairly live rooms; in very absorbent rooms the Eyring formula is more accurate. Since absorption coefficients vary with frequency, RT60 is quoted per octave band.\n\nIn practice, a vocal booth or control room with modes that pile up near the same frequency gives a boomy note on certain bass pitches and a thin one on others. On location you hear the same thing in small rooms: some dialogue gets boomy. Move the listening position or mic off the room's centre lines, treat corners with thick absorption, and check RT60 per band so the low end is not much longer than the mids.",
+  "keyPoints": [
+   "Axial modes: f = n·c/2L; strongest of the three mode types.",
+   "All modes peak at boundaries and corners.",
+   "The first axial mode has a null at the room's centre line.",
+   "Schroeder frequency ≈ 2000·√(RT60/V) separates modal and statistical behaviour.",
+   "Sabine: RT60 = 0.161·V/A; doubling absorption halves RT60.",
+   "RT60 varies with frequency, so measure it per octave band."
+  ],
+  "sayIt": "This room boosts some bass notes and swallows others because of its shape, so we'll adjust where we sit and treat the corners before we touch the EQ.",
+  "inPractice": "Calculate the first three axial modes for each dimension of your control room and play sine sweeps through that range. Walk the room and note where each one peaks and dips, then pick a mix position away from the nulls.",
+  "mistake": "A common belief is that EQ can fix room modes for every seat. Modes change from place to place, so EQ that flattens one position can make others worse; position and treatment come first.",
+  "terms": [
+   {
+    "term": "Room mode",
+    "def": "A resonance of the room at which sound reflecting between surfaces forms a standing wave."
+   },
+   {
+    "term": "Axial mode",
+    "def": "A mode between one pair of parallel surfaces, f = n·c/2L."
+   },
+   {
+    "term": "RT60",
+    "def": "Time for sound to decay by 60 dB after the source stops."
+   },
+   {
+    "term": "Metric sabin",
+    "def": "Unit of absorption equal to one square metre of perfectly absorbing surface."
+   },
+   {
+    "term": "Schroeder frequency",
+    "def": "Approximate frequency above which modes overlap densely enough for the room to behave statistically."
+   }
+  ]
+ },
+ "quiz": {
+  "questions": [
+   {
+    "level": "advanced",
+    "topic": "Acoustics",
+    "q": "A 90 m³ control room should have an RT60 of 0.6 s. Using Sabine's formula, how much total absorption does it need?",
+    "options": [
+     "About 9 m² sabins",
+     "About 54 m² sabins",
+     "About 24 m² sabins",
+     "About 87 m² sabins"
+    ],
+    "answer": 2,
+    "explain": "Rearrange RT60 = 0.161·V/A to A = 0.161 × 90 / 0.6 ≈ 24.2 m². Forgetting the 0.161 constant leads to 150, and multiplying by RT60 instead of dividing gives about 9."
+   },
+   {
+    "level": "advanced",
+    "topic": "Acoustics",
+    "q": "A room is 5.72 m long. Taking c = 343 m/s, what is the frequency of the second axial mode along its length?",
+    "options": [
+     "About 30 Hz",
+     "About 90 Hz",
+     "About 60 Hz",
+     "About 120 Hz"
+    ],
+    "answer": 2,
+    "explain": "f = n·c/2L = 2 × 343 / 11.44 ≈ 60 Hz. 30 Hz is the first mode; the trap is forgetting to multiply by n."
+   },
+   {
+    "level": "advanced",
+    "topic": "RF & wireless",
+    "q": "Three transmitters are set to 600.0, 600.5 and 601.0 MHz. Which third-order product lands exactly on one of the carriers?",
+    "options": [
+     "600.0 + 600.5 − 601.0 = 599.5 MHz",
+     "2 × 600.0 − 601.0 = 599.0 MHz",
+     "2 × 600.5 − 600.0 = 601.0 MHz",
+     "2 × 601.0 − 600.0 = 602.0 MHz"
+    ],
+    "answer": 2,
+    "explain": "With equal spacing, 2f2 − f1 = f3, so 601.0 MHz is hit. 599.5 and 602.0 MHz are real products but fall outside the plan; equal spacing is what makes 601.0 MHz clash."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Acoustics",
+    "q": "Where in a rectangular room do all room modes have a pressure maximum?",
+    "options": [
+     "In the exact centre",
+     "At the listening position",
+     "Halfway up each wall",
+     "In the corners"
+    ],
+    "answer": 3,
+    "explain": "Every mode has a pressure peak at the boundaries it involves, and the corners meet all of them. That is why corner bass traps are effective."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Balanced lines",
+    "q": "An output drives signal on pin 2 only. Pin 3 carries no signal but connects to ground through a resistor equal to pin 2's output impedance. Feeding a balanced input, what do you have?",
+    "options": [
+     "A balanced connection that rejects common-mode noise",
+     "An unbalanced connection with no noise rejection",
+     "A connection that will lose 6 dB and reject nothing",
+     "A short circuit on pin 3"
+    ],
+    "answer": 0,
+    "explain": "Noise rejection depends on equal impedances to ground, not on signal symmetry. This impedance-balanced design is common and works well."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Psychoacoustics",
+    "q": "A source directly in front and one directly behind at the same distance give almost identical ITD and ILD. Without moving the head, what mainly lets a listener tell them apart?",
+    "options": [
+     "A larger ITD for sounds behind",
+     "The precedence effect",
+     "Spectral cues from the pinna, described by the HRTF",
+     "Bone conduction through the skull"
+    ],
+    "answer": 2,
+    "explain": "Front and back lie on the same cone of confusion, so ITD and ILD match. The outer ear filters sound differently by direction, mostly above about 5 kHz."
+   },
+   {
+    "level": "basic",
+    "topic": "Acoustics",
+    "q": "What does RT60 measure?",
+    "options": [
+     "The time for sound to reach 60 dB SPL",
+     "The level of the reverb 60 ms after the direct sound",
+     "The frequency of the lowest room mode",
+     "The time for sound to decay by 60 dB after the source stops"
+    ],
+    "answer": 3,
+    "explain": "RT60 is a decay time defined by a 60 dB drop. It is not a level or a frequency."
+   },
+   {
+    "level": "basic",
+    "topic": "Psychoacoustics",
+    "q": "What is the loudness level in phons of a sound that is judged as loud as a 1 kHz tone at 70 dB SPL?",
+    "options": [
+     "7 phon",
+     "70 phon",
+     "35 phon",
+     "140 phon"
+    ],
+    "answer": 1,
+    "explain": "By definition, phon equals the dB SPL of the equally loud 1 kHz tone. The sound's own SPL may differ if it is at another frequency."
+   },
+   {
+    "level": "basic",
+    "topic": "Gain staging",
+    "q": "What voltage is 0 dBu referenced to?",
+    "options": [
+     "1 V RMS",
+     "1.228 V RMS",
+     "0.775 V RMS",
+     "0.316 V RMS"
+    ],
+    "answer": 2,
+    "explain": "0 dBu is 0.775 V, the voltage that gives 1 mW into 600 Ω. 1 V is the dBV reference, 1.228 V is +4 dBu and 0.316 V is −10 dBV."
+   }
+  ]
+ }
+}
