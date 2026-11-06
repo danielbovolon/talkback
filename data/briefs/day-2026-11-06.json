@@ -1,0 +1,319 @@
+{
+ "period": "day",
+ "key": "2026-11-06",
+ "label": "Fri 6 Nov 2026",
+ "range": "4 Nov – 6 Nov 2026",
+ "generated": "2026-11-06T13:59:35+01:00",
+ "auto": true,
+ "headline": "Today's sound headlines",
+ "lead": "30 new stories from 19 sound and audio news sources over the last 48 hours, including Sound On Sound, Production Expert, ProSoundWeb, FOH, TPi and 14 more. This edition is assembled automatically from the outlets' own feeds: titles and summaries are theirs, sorted into sections. Open a story for the full article.",
+ "items": [
+  {
+   "cat": "post",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-06",
+   "title": "The In-Session Decisions That Actually Make A Better Vocal Recording",
+   "take": "Modern recording tools offer endless ways to rescue or rework a vocal. You can nudge timing, tune pitches, build thick stacks, or reshape tones long after the singer has packed up and gone home.",
+   "source": "Production Expert",
+   "url": "https://www.production-expert.com/production-expert-1/the-in-session-decisions-that-actually-make-a-better-vocal-recording"
+  },
+  {
+   "cat": "gear",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-06",
+   "title": "GForce launch Oberheim Matrix-12",
+   "take": "Designed in collaboration with Oberheim and Marcus Ryle, GForce's latest instrument is the only official software version of the Matrix-12 and Xpander, and pairs the iconic instrument’s modulation system with a modern, visual interface.",
+   "source": "Sound On Sound",
+   "url": "https://www.soundonsound.com/news/gforce-launch-oberheim-matrix-12"
+  },
+  {
+   "cat": "plugins",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-05",
+   "title": "Universal Audio Releases New Capitol Studios Plugin",
+   "take": "Recreates the acoustics and recording equipment of Capitol Studios A and B, including the facility’s underground echo chambers, for use within a DAW.",
+   "source": "ProSoundWeb",
+   "url": "https://www.prosoundweb.com/universal-audio-releases-new-capitol-studios-plugin/?utm_source=rss&utm_medium=rss&utm_campaign=universal-audio-releases-new-capitol-studios-plugin"
+  },
+  {
+   "cat": "science",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-05",
+   "title": "A clever molecular trick unlocks previously impossible properties in glass",
+   "take": "Scientists have discovered how to reprogram the internal structure of glass using a special molecule that rearranges chemical bonds while lowering the melting temperature.",
+   "source": "ScienceDaily (acoustics)",
+   "url": "https://www.sciencedaily.com/releases/2026/11/261103003202.htm"
+  },
+  {
+   "cat": "instruments",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-06",
+   "title": "Dreadbox Releases Alecto Analog Drum Synth : Powerful sound design combines with with polymetric sequencing",
+   "take": "Dreadbox describes Alecto as a dual-voice analog drum synthesizer combining po...",
+   "source": "Sonicstate",
+   "url": "https://sonicstate.com/news/2026/11/06/dreadbox-releases-alecto-analog-drum-synthesizer/"
+  },
+  {
+   "cat": "software",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-06",
+   "title": "Splice Create: A Flexible New Splice-Powered DAW",
+   "take": "With Splice Create, you have access to an endless collection of sounds, with instruments and effects to turn your ideas into fully-fledged productions.",
+   "source": "Gearnews",
+   "url": "https://www.gearnews.com/splice-create-studio/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-06",
+   "title": "Sommer Cable America Subsidiary to Close",
+   "take": "Based on changes in international trade and import policies, Sommer Cable will close its U.S. subsidiary, at the end of 2026 and move to direct sales from Germany.",
+   "source": "FOH",
+   "url": "https://fohonline.com/newsroom/on-the-move/sommer-cable-america-subsidiary-to-close/"
+  },
+  {
+   "cat": "software",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-06",
+   "title": "Avid Pro Tools 2026.11",
+   "take": "Avid has released Pro Tools 2026.11, which features AI-powered stem separation and a new Extensions format that brings third-party sound libraries and creative tools directly into Pro Tools.",
+   "source": "Newsshooter (audio)",
+   "url": "https://www.newsshooter.com/2026/11/05/avid-pro-tools-2026-11/"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-05",
+   "title": "Mods for everyone: inMusic is opening up MPC, more new gear to coders",
+   "take": "You may have seen Akai tease an “open-source” MPC keyboard running vibe-coded mods. But there’s more coming—a lot more. inMusic, parent of Moog, Akai, Numark, Alesis, Denon, and others, promises that many of its 22 product launches coming in January will be open to modders and developer.",
+   "source": "CDM",
+   "url": "https://cdm.link/inmusic-opens-up-for-namm/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-05",
+   "title": "FCC Releases More Details on Nationwide EAS Test",
+   "take": "Public notice lays out test and reporting requirements for participants",
+   "source": "TV Technology",
+   "url": "https://www.tvtechnology.com/regulatory-legal/fcc/fcc-releases-more-details-on-nationwide-eas-test"
+  },
+  {
+   "cat": "ai",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-05",
+   "title": "Rogervoice Launches Free In-Person Captioning Feature",
+   "take": "Rogervoice has expanded its AI-powered captioning platform with a free, on-device feature designed to provide real-time, offline transcripts for face-to-face conversations.",
+   "source": "Hearing Review",
+   "url": "https://hearingreview.com/hearing-products/amplification/amplified-caption-phones/rogervoice-launches-free-in-person-captioning-feature",
+   "free": true
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-05",
+   "title": "KB Event and H2 Equity Partners acquires Crossland",
+   "take": "KB Event and H2 Equity Partners have completed the purchase of Crossland, reshaping its ownership and leadership as of 30 October 2026. Founded in 2006 by Malachy McMullan, the Irish-based company is a specialist in bussing and trucking services for high-proﬁle live-event clients.",
+   "source": "TPi",
+   "url": "https://www.tpimagazine.com/kb-event-and-h2-equity-partners-acquires-crossland/"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-05",
+   "title": "Musical Arts School releases Live Grand Light, a FREE Steinway D Model for Kontakt Player",
+   "take": "Musical Arts School has just released its first virtual piano, Live Grand Modern D ($149), and we’re taking a look at the free version, Live Grand Light. Dominik Schulte is a pianist, educator, developer, and the founder of Musical Arts School.",
+   "source": "Bedroom Producers Blog",
+   "url": "https://bedroomproducersblog.com/2026/11/05/musical-arts-school-live-grand-light/",
+   "free": true
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-06",
+   "title": "Akai Force G2 has leaked – the second generation of the clip-based workstation",
+   "take": "Akai Force G2 is coming soon; a US shop leaked the second-generation Force clip-based groove workstation on Instagram. Last year, Akai ushered in a new generation of standalone MPCs with the Live III. This was [...]",
+   "source": "Synth Anatomy",
+   "url": "https://synthanatomy.com/2026/11/akai-force-g2.html"
+  },
+  {
+   "cat": "speakers",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-06",
+   "title": "iVANKY FusionDock Ultra Review – 26 Ports, 10GbE and a Dual-Cable Design for the Mac Desk",
+   "take": "I constantly run out of ports on my MacBook Pro. My desk is full of RAIDs, card readers for various camera memory cards, an iodyne Pro Data and two high-resolution monitors, and every single one of them wants a cable.",
+   "source": "CineD",
+   "url": "https://www.cined.com/ivanky-fusiondock-ultra-review-26-ports-10gbe-and-a-dual-cable-design-for-the-mac-desk/"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-06",
+   "title": "Jack White, Pink, Blondie and ZZ Top all nominated for 2027 Songwriters Hall Of Fame",
+   "take": "Voters have to pick six from two lists of thirteen nominees",
+   "source": "MusicRadar",
+   "url": "https://www.musicradar.com/artists/singers-songwriters/jack-white-zz-top-pink-and-blondie-all-nominated-for-2027-songwriters-hall-of-fame"
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-06",
+   "title": "Dolly Parton Estate Drops Contentious Lawsuit Against Late Singer’s Nephew",
+   "take": "Dolly Parton’s estate has dropped its contentious lawsuit against Bryan Seaver, the nephew of the country music icon and former head of security. On Thursday, Dolly Parton’s estate dropped its contentious lawsuit against Bryan Seaver, the beloved singer’s nephew and former head of security.",
+   "source": "Digital Music News",
+   "url": "https://www.digitalmusicnews.com/2026/11/05/dolly-parton-estate-drops-nephew-lawsuit/"
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-05",
+   "title": "Kroger asks court to dismiss Sony Music’s social media ads lawsuit, citing Supreme Court’s Cox ruling",
+   "take": "The Kroger Co. and 17 affiliated companies filed the motion on Monday (November 2) in the US District Court for the Central District of California. Source",
+   "source": "Music Business Worldwide",
+   "url": "https://www.musicbusinessworldwide.com/kroger-asks-court-to-dismiss-sony-musics-social-media-ads-lawsuit-citing-supreme-courts-cox-ruling/"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-05",
+   "title": "GForce Releases Official Oberheim Matrix-12 Software Synthesizer",
+   "take": "GForce Software has released an official software recreation of the Oberheim Matrix-12, bringing its extensive 12-voice architecture and modulation system to macOS and Windows.… Read More GForce Releases Official Oberheim Matrix-12 Software Synthesizer",
+   "source": "Synthtopia",
+   "url": "https://www.synthtopia.com/content/2026/11/05/gforce-releases-official-oberheim-matrix-12-software-synthesizer/"
+  },
+  {
+   "cat": "post",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-05",
+   "title": "Toontrack LA Sessions SDX - Tested By Pros",
+   "take": "Carrying on a tradition of meticulously captured sounds for Superiour Drummer 3, LA Sessions SDX calls upon the talents of Niko Bolas. Promising even more platinum-selling sounds from the Toontrack team, here we give it to the Experts to try out expanded sounds emanating from The Village studios.",
+   "source": "Production Expert",
+   "url": "https://www.production-expert.com/production-expert-1/toontrack-la-sessions-sdx-tested-by-pros"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-05",
+   "title": "Open To Everyone? Can “Just Anyone” Be A Sound Engineer?",
+   "take": "As with just about any other profession, some people have more natural ability or aptitude than others, but it usually takes everyone years of training, researching and learning to become successful.",
+   "source": "ProSoundWeb",
+   "url": "https://www.prosoundweb.com/open-to-everyone-can-just-anyone-be-a-sound-engineer/?utm_source=rss&utm_medium=rss&utm_campaign=open-to-everyone-can-just-anyone-be-a-sound-engineer"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-05",
+   "title": "Apple MacBook Pro PROLED XDR: First Impressions",
+   "take": "Apple's newly announced MacBook Pro features a cutting-edge tandem OLED display with touch — both firsts for the Mac.",
+   "source": "Sound On Sound",
+   "url": "https://www.soundonsound.com/news/apple-macbook-pro-proled-xdr-first-impressions"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-06",
+   "title": "Arca on Music, Sound Design and Workflow : Cutting-edge Venezuelan DJ, producer & visual artist",
+   "take": "We recently shared a Madon...",
+   "source": "Sonicstate",
+   "url": "https://sonicstate.com/news/2026/11/06/arca-interview-/"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-06",
+   "title": "Inspiring Effects Pedals That Help You Think Differently",
+   "take": "We explore some inspiring effects pedals that can help you to think differently about the sound creation process in any style of music under the sun.",
+   "source": "Gearnews",
+   "url": "https://www.gearnews.com/inspiring-effects-pedals/"
+  },
+  {
+   "cat": "ai",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-06",
+   "title": "iZotope Photon GPU-powered audio processing software",
+   "take": "iZotope has announced Photon, GPU-powered audio processing software that features 12 machine learning models and performs high-speed processing for noise removal and audio separation. It also supports direct input and output of video files.",
+   "source": "Newsshooter (audio)",
+   "url": "https://www.newsshooter.com/2026/11/05/izotope-photon-gpu-powered-audio-processing-software/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-05",
+   "title": "NEP Americas Adds IP-Based Flypack Kits to Production Lineup",
+   "take": "Flypacks provide the same production capabilities as mobile units but are more portable",
+   "source": "TV Technology",
+   "url": "https://www.tvtechnology.com/production/remote-production/nep-americas-adds-ip-based-flypack-kits-to-production-lineup"
+  },
+  {
+   "cat": "hearing",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-05",
+   "title": "Starkey’s Tani Austin Named a 2026 Herizon Award Honoree",
+   "take": "Starkey Vice Chair and Starkey Hearing Foundation Co-Founder Tani Austin has been named a 2026 Herizon Award honoree for her decades of humanitarian leadership expanding global access to hearing care.",
+   "source": "Hearing Review",
+   "url": "https://hearingreview.com/inside-hearing/people/starkeys-tani-austin-named-a-2026-herizon-award-honoree"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-05",
+   "title": "Pol Fernansez discusses industry trends, what technology has opened new creative possibilities and whats next for High Scream Studios",
+   "take": "Having worked with numerous artists, from DJ Snake to David Guetta, could you describe how you and the team begin a collaboration with an artist, and how those initial conversations eventually evolve into the content used during a live show?",
+   "source": "TPi",
+   "url": "https://www.tpimagazine.com/pol-fernansez-discusses-industry-trends-what-technology-has-opened-new-creative-possibilities-and-whats-next-for-high-scream-studios/"
+  },
+  {
+   "cat": "software",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-05",
+   "title": "Tracktion Waveform 14.1 introduces new features to paid and Free versions",
+   "take": "Many people consider Tracktion’s Waveform Free the gold standard for free digital audio workstations, and for good reason. It feels more like a robust, fully-fledged DAW with fewer restrictions than many free alternatives, which is why it often serves as the benchmark for newcomers like MorningDAW.",
+   "source": "Bedroom Producers Blog",
+   "url": "https://bedroomproducersblog.com/2026/11/05/tracktion-waveform-14-1/",
+   "free": true
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-05",
+   "title": "Grapes 3D Audio Control 2.0 for Spatial Sound Design Available",
+   "take": "Not a Number Studio's Grapes 3D Audio Control 2.0 software for spatial sound design is now available",
+   "source": "FOH",
+   "url": "https://fohonline.com/blogs/new-gear/grapes-3d-audio-control-2-0-for-spatial-sound-design-available/"
+  }
+ ],
+ "craft": {
+  "body": "Two stories this week point the same way. The Frankfurt court decided a lyrics case on sworn evidence of a human draft, and Reservoir's suits turn on what was copied into training data. In both, records decided the argument.\n\nMake it routine: keep dated drafts, session notes saying who played, wrote or generated each part, and the exact tool and version for anything AI-assisted. Store them with the project backup, and put a line in your contracts about whether recordings may be used to train AI. It costs minutes per session and can be worth a lot later.",
+  "title": "Keep a paper trail of who made what"
+ }
+}

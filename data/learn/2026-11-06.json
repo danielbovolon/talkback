@@ -1,0 +1,167 @@
+{
+ "key": "2026-11-06",
+ "label": "Fri 6 Nov 2026",
+ "generated": "2026-11-06T13:59:35+01:00",
+ "auto": true,
+ "lesson": {
+  "title": "Localisation: ITD, ILD and HRTF",
+  "topic": "Hearing and psychoacoustics",
+  "level": "deeper",
+  "summary": "We locate sounds mainly through the interaural time difference (ITD) and interaural level difference (ILD) between our two ears, plus the direction-dependent filtering of the head, torso and outer ear described by the head-related transfer function (HRTF). Each cue works best in a different frequency range.",
+  "body": "A sound from one side reaches the near ear first. That interaural time difference is zero straight ahead and reaches roughly 0.6 to 0.7 ms for a source at 90°. Woodworth's model estimates it as ITD = (r/c)·(θ + sin θ), with r the head radius (about 8.75 cm) and θ in radians. At low frequencies, below about 1.5 kHz, the ear compares the phase of the waveform at each ear. Above that, a wavelength is short compared with the head and phase becomes ambiguous, so timing comes mainly from the envelope of the sound.\n\nThe head also blocks sound. At high frequencies the far ear sits in an acoustic shadow, creating an interaural level difference that can exceed 20 dB at some angles and frequencies. Low frequencies diffract around the head, so ILD is small there. This split, timing at low frequencies and level at high frequencies, is Rayleigh's duplex theory.\n\nITD and ILD alone cannot tell front from back or up from down. Every point on a 'cone of confusion' around the axis through the ears gives the same pair of values. The HRTF resolves this. The folds of the pinna, plus reflections from the shoulders and torso, add direction-dependent peaks and notches, mostly above about 5 kHz. The brain learns these patterns for your own ears. Small head movements also help: turning the head changes ITD and ILD in opposite ways for a source in front and one behind.\n\nThese cues explain much of everyday practice. Spaced microphone pairs record time differences; coincident pairs record level differences. Pan pots create level differences between speakers, and the listener's ears turn those into usable cues. Binaural recording with a dummy head captures ITD, ILD and a generic HRTF, which works on headphones but loses its effect on speakers, where each ear hears both channels. Immersive mixing for headphones uses HRTF rendering, and results vary between listeners because their ears differ from the model. On set, a lavalier mic sitting on the chest misses the head and pinna filtering altogether, which is part of why it sounds different from a boom.",
+  "keyPoints": [
+   "ITD: up to about 0.6 to 0.7 ms at 90°; dominant below about 1.5 kHz.",
+   "ILD: from head shadowing; significant at high frequencies.",
+   "Duplex theory: time cues low, level cues high.",
+   "Cone of confusion: ITD and ILD alone cannot separate front, back and elevation.",
+   "HRTF: pinna, head and torso filtering, mostly above about 5 kHz.",
+   "Head movement resolves front/back ambiguity."
+  ],
+  "sayIt": "Your ears place sounds using tiny timing and level differences plus the way your outer ear colours sound, so headphone surround never sounds exactly the same for everyone.",
+  "inPractice": "Record the same source with a spaced omni pair and a coincident XY pair, then listen on speakers and headphones. Note how timing differences give width and spaciousness, while level differences give a sharper, more stable image.",
+  "mistake": "Many assume binaural recordings work equally well on loudspeakers. On speakers each ear hears both channels, which scrambles the interaural cues unless crosstalk cancellation is used.",
+  "terms": [
+   {
+    "term": "ITD",
+    "def": "Interaural time difference: the difference in arrival time of a sound at the two ears."
+   },
+   {
+    "term": "ILD",
+    "def": "Interaural level difference: the difference in level at the two ears, caused mainly by head shadowing."
+   },
+   {
+    "term": "HRTF",
+    "def": "Head-related transfer function: the direction-dependent filtering of sound by the head, torso and pinnae."
+   },
+   {
+    "term": "Cone of confusion",
+    "def": "The set of source positions that produce the same ITD and ILD."
+   },
+   {
+    "term": "Duplex theory",
+    "def": "Rayleigh's model that ITD governs low-frequency and ILD high-frequency lateral localisation."
+   }
+  ]
+ },
+ "quiz": {
+  "questions": [
+   {
+    "level": "advanced",
+    "topic": "Psychoacoustics",
+    "q": "Using Woodworth's model ITD = (r/c)·(θ + sin θ) with r = 0.0875 m and c = 343 m/s, what is the ITD for a source at 90° (θ = π/2)?",
+    "options": [
+     "About 0.66 ms",
+     "About 0.26 ms",
+     "About 1.3 ms",
+     "About 2.6 ms"
+    ],
+    "answer": 0,
+    "explain": "r/c ≈ 0.000255 s and π/2 + 1 ≈ 2.571, giving about 0.656 ms. Forgetting the sin θ term gives about 0.4 ms, and using diameter instead of radius doubles the answer."
+   },
+   {
+    "level": "advanced",
+    "topic": "Psychoacoustics",
+    "q": "A sound is either directly in front of or directly behind a listener. They turn their head 20° to the right, and the sound now reaches the left ear first. Where is the source?",
+    "options": [
+     "Behind",
+     "Directly overhead",
+     "In front",
+     "It cannot be determined from head movement"
+    ],
+    "answer": 2,
+    "explain": "After turning right, a source in front sits to the left of the new facing direction, so the left ear leads. A source behind would sit to the rear right and reach the right ear first."
+   },
+   {
+    "level": "advanced",
+    "topic": "Microphones",
+    "q": "A presenter on a cardioid moves from 20 cm to 5 cm. Well below the proximity-effect corner, roughly how much extra bass relative to the mids do they get?",
+    "options": [
+     "About +6 dB",
+     "About +3 dB",
+     "No change, because only the overall level rises",
+     "About +12 dB"
+    ],
+    "answer": 3,
+    "explain": "Well below the corner, the bass rise doubles with each halving of distance, which is about 6 dB. 20 to 5 cm is two halvings, so about 12 dB. That is on top of the overall level rise."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Psychoacoustics",
+    "q": "Why does a dummy-head binaural recording lose most of its 3D effect on a pair of loudspeakers?",
+    "options": [
+     "Loudspeakers cannot reproduce frequencies above 5 kHz",
+     "Each ear hears both speakers, which mixes up the interaural cues",
+     "The recording has no level differences between channels",
+     "Binaural files are always mono"
+    ],
+    "answer": 1,
+    "explain": "Binaural cues assume each channel reaches only one ear. Speaker crosstalk sends both channels to both ears and blurs ITD and ILD."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Gain staging",
+    "q": "What is 0 dBV expressed in dBu?",
+    "options": [
+     "About −2.2 dBu",
+     "0 dBu",
+     "About +4 dBu",
+     "About +2.2 dBu"
+    ],
+    "answer": 3,
+    "explain": "20·log10(1 / 0.775) ≈ +2.2 dB. 1 V is larger than 0.775 V, so the dBu number is higher."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Acoustics",
+    "q": "You sit exactly halfway between the front and back walls. How does the first axial length mode sound at that seat?",
+    "options": [
+     "Weak, because that mode has a pressure null at the room's centre",
+     "Strongest, because the centre is a pressure peak",
+     "Unchanged compared with anywhere else",
+     "Doubled in level by both walls"
+    ],
+    "answer": 0,
+    "explain": "The first axial mode has pressure maxima at both walls and a null midway. Odd-numbered length modes all share that centre null."
+   },
+   {
+    "level": "basic",
+    "topic": "Psychoacoustics",
+    "q": "What does ITD stand for in localisation?",
+    "options": [
+     "Interaural time difference",
+     "Internal timing delay",
+     "Interaural tone distortion",
+     "Initial time delay"
+    ],
+    "answer": 0,
+    "explain": "ITD is the difference in arrival time of a sound at the two ears. Initial time delay is a separate room-acoustics term."
+   },
+   {
+    "level": "basic",
+    "topic": "Acoustics",
+    "q": "What does an absorption coefficient of 1.0 mean at a given frequency?",
+    "options": [
+     "All the sound energy hitting the surface is reflected",
+     "Half the sound energy is absorbed",
+     "The surface diffuses all the sound",
+     "All the sound energy hitting the surface is absorbed"
+    ],
+    "answer": 3,
+    "explain": "α ranges from 0 (all reflected) to 1 (all absorbed) and changes with frequency."
+   },
+   {
+    "level": "basic",
+    "topic": "Live sound",
+    "q": "Roughly how far does sound travel in air in 2.9 ms?",
+    "options": [
+     "About 0.1 m",
+     "About 2.9 m",
+     "About 10 m",
+     "About 1 m"
+    ],
+    "answer": 3,
+    "explain": "At about 343 m/s, sound covers about 0.343 m per millisecond, so 2.9 ms ≈ 1 m."
+   }
+  ]
+ }
+}
