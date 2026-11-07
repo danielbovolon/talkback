@@ -1,0 +1,171 @@
+{
+ "key": "2026-11-07",
+ "label": "Sat 7 Nov 2026",
+ "generated": "2026-11-07T12:46:24+01:00",
+ "auto": true,
+ "lesson": {
+  "title": "Balanced and unbalanced lines, and DI boxes",
+  "topic": "Electronics and signal flow",
+  "level": "core",
+  "summary": "A balanced line carries signal on two conductors with equal impedances to ground, plus a separate shield, so interference that hits both conductors equally is rejected at a differential input. An unbalanced line uses one conductor and the shield as the return. A DI box converts a high-impedance unbalanced source into a low-impedance balanced signal for a mic input.",
+  "body": "In an unbalanced connection the shield carries both the signal return and any interference or ground current. Any voltage dropped along the shield adds directly to the signal. That is why unbalanced lines are kept short and are prone to hum. A balanced connection has two signal conductors, hot (pin 2) and cold (pin 3), plus a shield (pin 1). The receiving input amplifies only the difference between hot and cold. Noise picked up equally on both conductors, called common-mode noise, cancels. How well it cancels is the common-mode rejection ratio (CMRR), quoted in dB.\n\nWhat makes a line balanced is equal impedance from each conductor to ground, not equal and opposite signals. An impedance-balanced output drives signal on pin 2 only and ties pin 3 to ground through a resistor matching pin 2's output impedance. It still rejects interference perfectly well. Symmetrical signals simply add headroom. Transformer-balanced inputs and outputs give galvanic isolation as well, which can break ground loops.\n\nA DI (direct injection) box solves a different problem. Guitars, basses and many keyboards have high source impedances and unbalanced outputs. Long cables add capacitance that, with a high source impedance, forms a low-pass filter: 20 kΩ driving 1.5 nF of cable gives a corner around 5 kHz. A DI presents a high input impedance to the instrument and delivers a low-impedance balanced signal at roughly mic level. A passive DI uses a step-down transformer: a 12:1 turns ratio drops voltage by about 21.6 dB and reflects the load impedance up by 144 times. An active DI uses an amplifier, usually powered by phantom power or a battery, and typically offers an input impedance around 1 MΩ.\n\nOn stage, a DI lets you run a bass or keyboard down a long multicore with mic channels. In the studio it gives a clean DI track alongside the amp mic for reamping. Most DIs also have a ground-lift switch and a thru jack to feed the amp. In post and field work, DIs and line-to-mic transformers isolate a client's laptop or a venue feed from your recorder and cut hum.",
+  "keyPoints": [
+   "Balanced = equal impedances to ground on hot and cold.",
+   "The differential input rejects common-mode noise; CMRR measures how well.",
+   "Impedance-balanced outputs are still balanced connections.",
+   "Unbalanced lines carry signal return on the shield, so they pick up hum.",
+   "Passive DI: step-down transformer; active DI: powered, high input impedance.",
+   "A transformer's impedance ratio is the square of its turns ratio."
+  ],
+  "sayIt": "I'm running your keyboard through a DI so it can travel the length of the stage without picking up hum or losing top end.",
+  "inPractice": "Plug a passive bass into a line input through 10 m of instrument cable, then through a DI at the bass with a long mic cable to the desk. Compare top end and hum; then try the DI's ground lift if there is any buzz.",
+  "mistake": "Many believe balanced means two opposite-polarity copies of the signal. Rejection depends on matched impedances to ground; a line with signal on only one leg can still be fully balanced.",
+  "terms": [
+   {
+    "term": "Balanced line",
+    "def": "Two signal conductors with equal impedances to ground, received by a differential input."
+   },
+   {
+    "term": "Common-mode noise",
+    "def": "Interference that appears equally on both conductors of a balanced line."
+   },
+   {
+    "term": "CMRR",
+    "def": "Common-mode rejection ratio: how strongly an input rejects common-mode signals, in dB."
+   },
+   {
+    "term": "Impedance-balanced output",
+    "def": "An output driving one leg while the other has matching impedance to ground but no signal."
+   },
+   {
+    "term": "DI box",
+    "def": "A device converting a high-impedance unbalanced source to a low-impedance balanced output."
+   },
+   {
+    "term": "Ground lift",
+    "def": "A switch that breaks the shield connection between input and output grounds to stop ground-loop hum."
+   }
+  ]
+ },
+ "quiz": {
+  "questions": [
+   {
+    "level": "advanced",
+    "topic": "Impedance",
+    "q": "An instrument with a 20 kΩ source impedance drives 10 m of cable with 150 pF per metre. Treating it as a simple RC low-pass, roughly where is the −3 dB point?",
+    "options": [
+     "About 53 kHz",
+     "About 5.3 kHz",
+     "About 530 Hz",
+     "About 16 kHz"
+    ],
+    "answer": 1,
+    "explain": "C = 10 × 150 pF = 1.5 nF, and f = 1/(2π × 20,000 × 1.5×10⁻⁹) ≈ 5.3 kHz. That audible roll-off is why long unbalanced instrument cables sound dull."
+   },
+   {
+    "level": "advanced",
+    "topic": "Impedance",
+    "q": "A passive DI has a 12:1 step-down transformer. By roughly how much does it reduce the signal voltage?",
+    "options": [
+     "About 10.8 dB",
+     "About 12 dB",
+     "About 43.2 dB",
+     "About 21.6 dB"
+    ],
+    "answer": 3,
+    "explain": "Voltage ratio is 12, and 20·log10(12) ≈ 21.6 dB. Using 10·log gives 10.8 dB, and confusing the turns ratio with the impedance ratio gives 43.2 dB."
+   },
+   {
+    "level": "advanced",
+    "topic": "Microphone technique",
+    "q": "An AB pair of omnis is 60 cm apart. A source is fully to one side, along the line joining the mics (c = 343 m/s). Summed to mono, where is the first comb-filter notch?",
+    "options": [
+     "About 572 Hz",
+     "About 143 Hz",
+     "About 1.75 kHz",
+     "About 286 Hz"
+    ],
+    "answer": 3,
+    "explain": "The path difference is 0.6 m, which is 0.6 / 343 = 1.75 ms. The first notch is at 1/(2t) = 1 / (2 × 0.00175) ≈ 286 Hz. The trap is to use 1/t, which gives the first peak above zero, not the notch."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Balanced lines",
+    "q": "How is an active DI box usually powered?",
+    "options": [
+     "By phantom power from the mic preamp or by an internal battery",
+     "By the instrument's pickup signal",
+     "By the speaker output of the amp",
+     "It needs no power at all"
+    ],
+    "answer": 0,
+    "explain": "An active DI contains an amplifier and needs power, normally phantom or a battery. A passive DI uses only a transformer."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Dynamics",
+    "q": "You gate a floor tom, but the snare keeps opening it. What is usually the best first fix?",
+    "options": [
+     "Set the gate's key filter to the floor tom's frequency range",
+     "Lengthen the release time",
+     "Lower the threshold",
+     "Increase the range"
+    ],
+    "answer": 0,
+    "explain": "A key filter makes the detector listen mainly to the tom's band, where the snare is weaker. Lowering the threshold makes the false triggering worse."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Acoustics",
+    "q": "In a reverberant hall, you walk from well inside the critical distance of a speaker to far beyond it. How does the total SPL behave?",
+    "options": [
+     "It keeps falling by 6 dB per doubling all the way",
+     "It falls at first, then levels off as the reverberant field dominates",
+     "It rises once you pass the critical distance",
+     "It stays constant everywhere in the room"
+    ],
+    "answer": 1,
+    "explain": "Near the source the direct sound follows the inverse square law; far away the roughly uniform reverberant field sets the level. Treating the room as a free field is the common error."
+   },
+   {
+    "level": "basic",
+    "topic": "Connectors",
+    "q": "Which of these cables is unbalanced?",
+    "options": [
+     "A 3-pin XLR mic cable",
+     "A TRS cable used for a balanced line",
+     "A star-quad mic cable",
+     "A TS (tip-sleeve) instrument cable"
+    ],
+    "answer": 3,
+    "explain": "A TS cable has one signal conductor and a shield. The others carry two signal conductors plus a shield."
+   },
+   {
+    "level": "basic",
+    "topic": "EQ & filters",
+    "q": "Which EQ type is the better choice on a live vocal channel, where latency must be as low as possible?",
+    "options": [
+     "Linear-phase EQ",
+     "Long FIR EQ",
+     "Minimum-phase EQ",
+     "Any mastering EQ in high-quality mode"
+    ],
+    "answer": 2,
+    "explain": "Minimum-phase EQ adds no latency beyond the system buffer. Linear-phase EQ adds tens of milliseconds, which a performer hears as a slap in their monitors."
+   },
+   {
+    "level": "basic",
+    "topic": "Microphone technique",
+    "q": "What mainly creates the stereo image in a spaced AB pair of omnis?",
+    "options": [
+     "Differences in polar pattern between the two mics",
+     "Differences in arrival time between the two mics",
+     "Polarity inversion of one mic",
+     "The figure-8 side signal"
+    ],
+    "answer": 1,
+    "explain": "Omnis pick up nearly equal levels from most directions, so the image comes mainly from the time it takes sound to reach the farther mic."
+   }
+  ]
+ }
+}

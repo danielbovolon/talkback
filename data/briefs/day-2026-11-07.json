@@ -1,0 +1,321 @@
+{
+ "period": "day",
+ "key": "2026-11-07",
+ "label": "Sat 7 Nov 2026",
+ "range": "5 Nov – 7 Nov 2026",
+ "generated": "2026-11-07T12:46:24+01:00",
+ "auto": true,
+ "headline": "Today's sound headlines",
+ "lead": "30 new stories from 17 sound and audio news sources over the last 48 hours, including Sound On Sound, Production Expert, ProSoundWeb, FOH, TPi and 12 more. This edition is assembled automatically from the outlets' own feeds: titles and summaries are theirs, sorted into sections. Open a story for the full article.",
+ "items": [
+  {
+   "cat": "post",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-07",
+   "title": "Sonuscore's Free Kontakt Instruments Are Well Worth Installing",
+   "take": "Sonuscore gives away LUX Strings, The Score, Orchestra, Pulse and Elysion Elements in Kontakt Player. Which are worth the disk space and what's missing?",
+   "source": "Production Expert",
+   "url": "https://www.production-expert.com/production-expert-1/sonuscores-free-kontakt-instruments-are-well-worth-installing",
+   "free": true
+  },
+  {
+   "cat": "ai",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-07",
+   "title": "Tracktion Waveform Free 14.1 now available",
+   "take": "Tracktion's free DAW software has just been treated to an update that introduces an AI-powered Mix Analysis tool along with an array of other additions and improvements.",
+   "source": "Sound On Sound",
+   "url": "https://www.soundonsound.com/news/tracktion-waveform-free-141-now-available",
+   "free": true
+  },
+  {
+   "cat": "live",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-06",
+   "title": "Sontronics Announces New SOLO W2 Wireless Vocal Capsule",
+   "take": "Designed for live vocals and speech, dynamic microphone capsule offers compatibility with Sennheiser handheld wireless transmitters.",
+   "source": "ProSoundWeb",
+   "url": "https://www.prosoundweb.com/sontronics-announces-new-solo-w2-wireless-vocal-capsule/?utm_source=rss&utm_medium=rss&utm_campaign=sontronics-announces-new-solo-w2-wireless-vocal-capsule"
+  },
+  {
+   "cat": "instruments",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-07",
+   "title": "Polyend offers Patch modular effects sample pack for FREE",
+   "take": "Polyend is offering Patch, a sample pack featuring 101 experimental Eurorack effects, for free with the code PROMOPATCH at checkout. Simply add the pack to your cart and apply the code before completing checkout. Thanks to BPB reader Stan for the info!",
+   "source": "Bedroom Producers Blog",
+   "url": "https://bedroomproducersblog.com/2026/11/07/polyend-patch/",
+   "free": true
+  },
+  {
+   "cat": "gear",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-07",
+   "title": "Thomann Giveaways: Save €100s on Really Useful Gear for Free!",
+   "take": "These Thomann Giveaways are thanks to the Cyber Deals event. Here's how it works: you buy cool gear, and Thomann gives you extra stuff for free!",
+   "source": "Gearnews",
+   "url": "https://www.gearnews.com/thomann-giveaways-save-100s-really-useful-gear/",
+   "free": true
+  },
+  {
+   "cat": "hearing",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-06",
+   "title": "Amplifon Receives European Commission Approval for GN Hearing Acquisition",
+   "take": "Amplifon has secured final regulatory approval from the European Commission for its acquisition of GN Hearing, paving the way for the transaction to close by the end of 2026.",
+   "source": "Hearing Review",
+   "url": "https://hearingreview.com/hearing-products/hearing-aids/amplifon-receives-european-commission-approval-for-gn-hearing-acquisition"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-06",
+   "title": "Audio Engineer Rachel Saldivar Deploys Sony Shotgun Mic for ‘Drifter’ Shoot",
+   "take": "ECM-778 was well-suited to capturing the intensity and nuance of the movie’s story, she says",
+   "source": "TV Technology",
+   "url": "https://www.tvtechnology.com/production/audio-engineer-rachel-saldivar-deploys-sony-shotgun-mic-for-drifter-shoot"
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-06",
+   "title": "2026 Nashville AES Show is a Hit with Exhibitors and Attendees",
+   "take": "New York, NY — The Audio Engineering Society (AES) celebrated a successful AES Show Nashville 2026, held October 30 – November 1 at the Gaylord Opryland Resort & Convention Center.",
+   "source": "FOH",
+   "url": "https://fohonline.com/newsroom/news/2026-nashville-aes-show-is-a-hit-with-exhibitors-and-attendees/"
+  },
+  {
+   "cat": "software",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-06",
+   "title": "There’s a Zelda-friendly ocarina app for FM-1, and you can try it in a browser",
+   "take": "Now Ocarina of Time meets up with the other big trend of the fall, with OCA, an ocarina app and soundbook for the M-VAVE FM-1. You don't even need an FM-1 to play with it; it runs perfectly in a browser, including on a phone. Developer Charles Vestal gives us a look.",
+   "source": "CDM",
+   "url": "https://cdm.link/theres-a-zelda-friendly-ocarina-app-for-fm-1-and-you-can-try-it-in-a-browser/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-06",
+   "title": "DPA Microphones delivers for Hilary Duff’s The Lucky Me Tour",
+   "take": "For a tour built around bringing an audience closer to the artist, what happens beyond the stage can be just as important as what happens on it.",
+   "source": "TPi",
+   "url": "https://www.tpimagazine.com/dpa-microphones-delivers-for-hilary-duffs-the-lucky-me-tour/"
+  },
+  {
+   "cat": "post",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-06",
+   "title": "Living Sky: GPU-Powered Spatial Audio Engine : Up to 64 sources for Stereo, Binaural, Dolby Atmos, Ambisonics & more",
+   "take": "MNTRA have just announced the release of Living Sky , a collab...",
+   "source": "Sonicstate",
+   "url": "https://sonicstate.com/news/2026/11/06/living-sky-gpu-powered-spatial-audio-engine/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-07",
+   "title": "Latest Music Industry Hires: RCS Worldwide, Ground Control Touring, Arc28 Entertainment, Nebula17, SeatGeek, Dolly Parton Estate, More",
+   "take": "Here’s a recap of recent music industry hires and in-house promotions as of November 6th, 2026. If you have a job shuffle to share, we’re all ears. Send us a note to news@digitalmusicnews.com. If you’d like to post a job on our Job Board, just send us a request to noah@digitalmusicnews.com.",
+   "source": "Digital Music News",
+   "url": "https://www.digitalmusicnews.com/2026/11/06/music-industry-hires-nov-6-2026/"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-07",
+   "title": "Is a new Oberheim Eight Voice Synthesizer on the way? No!",
+   "take": "A new photo has surfaced that shows a potential new Oberheim Eight Voice polyphonic analog Synthesizer. Well, that didn’t pan out. Sequential/Oberheim’s communications department has reached out to clarify that there is no new Eight [...]",
+   "source": "Synth Anatomy",
+   "url": "https://synthanatomy.com/2026/11/is-a-new-oberheim-eight-voice-synthesizer-on-the-way.html"
+  },
+  {
+   "cat": "software",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-06",
+   "title": "Avid Introduces Pro Tools Extensions, Opening DAW To Third-Party Workflows",
+   "take": "Avid's new Pro Tools Extensions format allows developers to bring sound libraries, collaboration tools and other integrated workflows directly into the DAW, expanding its capabilities beyond traditional track-based plug-ins.… Read More Avid Introduces Pro Tools Extensions, Opening DAW To…",
+   "source": "Synthtopia",
+   "url": "https://www.synthtopia.com/content/2026/11/06/avid-introduces-pro-tools-extensions-opening-daw-to-third-party-workflows/"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-06",
+   "title": "“Maybe they’re a virtuoso on their home planet”: Angine De Poitrine add a third member… on triangle",
+   "take": "Curiouser and curiouser...",
+   "source": "MusicRadar",
+   "url": "https://www.musicradar.com/artists/bands/maybe-theyre-a-virtuoso-on-their-home-planet-and-we-are-simply-unable-to-comprehend-it-angine-de-poitrine-debut-new-track-with-a-new-member-who-plays-the-triangle"
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-06",
+   "title": "Live Nation generated $10.1B in Q3, up 19% YoY – as international markets overtook the US in fan attendance this year",
+   "take": "That's according to Live Nation's latest quarterly results, published on Thursday (November 5). Source",
+   "source": "Music Business Worldwide",
+   "url": "https://www.musicbusinessworldwide.com/live-nation-generated-10-1b-in-q3-up-19-yoy-as-international-markets-overtook-the-us-in-fan-attendance-this-year/"
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-06",
+   "title": "HONOR Magic9 Pro Max First Look – ARRI Color Science at a Fraction of the Price",
+   "take": "Imagine a world where anyone who cares about storytelling and picture aesthetics can carry an ARRI camera in their pocket and instantly shoot video. Would you opt in if such a device existed?",
+   "source": "CineD",
+   "url": "https://www.cined.com/honor-magic9-pro-max-first-look-arri-color-science-at-a-fraction-of-the-price/"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-07",
+   "title": "Apogee Plugins Move To Plugin Alliance, Drop iLok And Gain Resizable Interfaces",
+   "take": "Apogee has announced in October 2026 that its plugins have moved to Plugin Alliance, which now sells and develops the full range, including the Bob Clearmountain series and Apogee’s Pultec emulations. The new versions drop iLok and gain resizable interfaces.",
+   "source": "Production Expert",
+   "url": "https://www.production-expert.com/production-expert-1/apogee-plugins-move-to-plugin-alliance-drop-ilok-and-gain-resizable-interfaces"
+  },
+  {
+   "cat": "software",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-06",
+   "title": "Heritage Audio’s i73 Pro gains NAM A2 support",
+   "take": "Heritage Audio have just launched a firmware update that makes it possible for their i73 Pro audio interfaces to host NAM (Neural Amp Modeler) A2 captures on their internal DSP.",
+   "source": "Sound On Sound",
+   "url": "https://www.soundonsound.com/news/heritage-audios-i73-pro-gains-nam-a2-support"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-06",
+   "title": "IDL Microphones To Capture The Orchestra Now (TŌN) Performances At Bard College In New York",
+   "take": "Recording engineer Marlan Barry to deploy a primary array of four IDL-3203 omnidirectional microphones for the unique production on November 14-15 at the Fisher Center's Sosnoff Theater.",
+   "source": "ProSoundWeb",
+   "url": "https://www.prosoundweb.com/idl-microphones-to-capture-the-orchestra-now-ton-performances-at-bard-college-in-new-york/?utm_source=rss&utm_medium=rss&utm_campaign=idl-microphones-to-capture-the-orchestra-now-ton-performances-at-bard-college-in-new-york"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-07",
+   "title": "ILIO adds 2,000 more FREE Low End Theory 2 licenses for BPB readers",
+   "take": "ILIO has added 2,000 more free licenses for Low End Theory 2, giving BPB readers another chance to grab Sean Divine’s 100-preset sound pack with the free AAS Player. The first batch from our giveaway earlier this week went quickly, and I’ve received quite a few emails from readers who missed out.",
+   "source": "Bedroom Producers Blog",
+   "url": "https://bedroomproducersblog.com/2026/11/07/low-end-theory-2-more/",
+   "free": true
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-06",
+   "title": "AKAI Force G2 Leak: The Force Awakens",
+   "take": "AKAI’s clip launcher groovebox appears to be getting a new model, with a leaked video showing a box for the Force G2.",
+   "source": "Gearnews",
+   "url": "https://www.gearnews.com/akai-force-g2-synth/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-06",
+   "title": "RCI Custom Selects Neutrik as Primary Source for Connectors",
+   "take": "Manufacturer has ‘led with Neutrik’ for its custom and standard products fro many years",
+   "source": "TV Technology",
+   "url": "https://www.tvtechnology.com/infrastructure/rci-custom-selects-neutrik-as-primary-source-for-connectors"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-06",
+   "title": "d&b brings MVR Exchange to ArrayCalc",
+   "take": "d&b audiotechnik has introduced MVR Exchange, a new feature available as part of the latest ArrayCalc beta version. Enabling users to import, export and update venue and loudspeaker system data using the open MVR (My Virtual Rig) standard, MVR Exchange helps audio professionals and production teams…",
+   "source": "TPi",
+   "url": "https://www.tpimagazine.com/db-brings-mvr-exchange-to-arraycalc/"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-06",
+   "title": "Play One Of The Tallest Pianos Ever : NI releases Vertikal - the sound of Nils Frahm's monumental piano",
+   "take": "Native Instruments has released Vertikal , which they say offers the sound of Nils F...",
+   "source": "Sonicstate",
+   "url": "https://sonicstate.com/news/2026/11/06/play-one-of-the-tallest-pianos-ever/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-07",
+   "title": "MSG Bluntly Responds to Macklemore Allegations: ‘He’s Not an Arena-Level Act’",
+   "take": "Macklemore claims that several arenas are refusing to book him for his ‘Free Palestine’ tour in an attempt to silence him, but MSG says he just isn’t a big enough artist.",
+   "source": "Digital Music News",
+   "url": "https://www.digitalmusicnews.com/2026/11/06/msg-macklemore-arena-level-comments/"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-06",
+   "title": "“I’m not sure it’s even possible”: James Hype says he’s going to try to mix 1,000 tracks in two hours",
+   "take": "That’s a different track every eight seconds",
+   "source": "MusicRadar",
+   "url": "https://www.musicradar.com/artists/djs-producers/im-not-sure-its-even-possible-but-were-going-to-try-dj-james-hype-says-hes-going-to-try-to-mix-1-000-tracks-in-just-two-hours"
+  },
+  {
+   "cat": "post",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-06",
+   "title": "iZotope Photon Offers Stem Separation For Music, Video And Dialogue",
+   "take": "iZotope's new Photon software uses locally processed AI models to separate finished audio into stems and clean up recordings, including dialogue and environmental noise.… Read More iZotope Photon Offers Stem Separation For Music, Video And Dialogue",
+   "source": "Synthtopia",
+   "url": "https://www.synthtopia.com/content/2026/11/06/izotope-photon-offers-stem-separation-for-music-video-and-dialogue/"
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-06",
+   "title": "inMusic at NAMM 2027: 22 new products and the Creator Lab for modders",
+   "take": "At NAMM 2027, inMusic will host the Creator Lab, a space for modders, and unveil 22 new products, some of which can be expanded with extensions. Akai recently released a teaser for the SampleKey keyboard [...]",
+   "source": "Synth Anatomy",
+   "url": "https://synthanatomy.com/2026/11/inmusic-at-namm-2027-22-new-products-and-the-creator-lab-for-modders.html"
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-06",
+   "title": "Warner Chappell boss Guy Moot, the first music publisher to receive the UK’s MITS Award, on A&R, catalog, My Chemical Romance, and the PROs",
+   "take": "This coming Monday (November 9), at London’s Grosvenor House Hotel, Guy Moot, Chair and CEO of Warner Chappell Music (WCM), will become the first music publisher to receive the award in its 34-year history. Source",
+   "source": "Music Business Worldwide",
+   "url": "https://www.musicbusinessworldwide.com/warner-chappell-boss-guy-moot-the-first-music-publisher-to-receive-the-uks-mits-award-on-ar-catalog-my-chemical-romance-and-the-pros/"
+  }
+ ],
+ "craft": {
+  "title": "Freeze your OS until your tools catch up",
+  "body": "New Macs arrived this week on an operating system Pro Tools does not yet support, and the qualified HDX chassis list only just caught up with Thunderbolt 5. If a machine earns you money, the newest OS is a risk, not an upgrade.\n\nKeep a written list of the exact OS, DAW, chassis and plugin versions that work together on your main rig. Turn off automatic OS updates, wait for your DAW maker's compatibility statement, and test a new combination on a spare machine or partition with a real session before a paid job. If you must buy a Mac now, ask the dealer whether it can run the previous OS."
+ }
+}
