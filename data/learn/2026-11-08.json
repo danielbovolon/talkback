@@ -1,0 +1,166 @@
+{
+ "key": "2026-11-08",
+ "label": "Sun 8 Nov 2026",
+ "generated": "2026-11-08T12:58:18+01:00",
+ "auto": true,
+ "lesson": {
+  "title": "Linear-phase vs minimum-phase EQ",
+  "topic": "Phase, polarity and time",
+  "level": "deeper",
+  "summary": "A minimum-phase EQ, like any analogue EQ, shifts phase wherever it changes gain, but adds no latency and puts all of its ringing after the input. A linear-phase EQ delays every frequency by the same amount, so it adds no phase distortion, at the cost of latency and ringing that starts before the sound it is filtering (pre-ringing).",
+  "body": "Every analogue EQ and most digital ones are minimum-phase. In a minimum-phase filter, the phase response is fixed by the magnitude response: wherever the gain changes, the phase shifts, and where the response is flat, it does not. Different frequencies come out with slightly different delays. The output never comes before the input, so the only ringing is after the event. The filter adds no latency beyond the system's normal buffer, which is why it is the right choice for tracking, live mixing and monitoring.\n\nA linear-phase EQ is built as a finite impulse response (FIR) filter with a symmetric impulse response. Every frequency is delayed by the same time, so the waveform shape is kept and only the tone changes. A symmetric FIR of N taps delays everything by (N − 1)/2 samples. That delay is the plugin's latency. A filter reporting 3072 samples of latency at 48 kHz is 64 ms late. The DAW's delay compensation hides this on playback, but it makes the plugin useless for live monitoring.\n\nThe symmetric impulse response also means that any ringing appears equally before and after the main peak. This is pre-ringing. It grows with the narrowness, depth and steepness of the EQ move and with lower frequencies, because those filters need longer impulse responses. A steep linear-phase high-pass or a narrow low-frequency cut on a kick or snare can produce an audible swell or 'suck' before each hit. Ears are much less forgiving of energy before a transient than after it, because post-ringing is masked by the transient itself.\n\nChoose by the job. Use linear-phase when you EQ one of several correlated signals and must not change their phase relationship. Examples are a snare top mic against its bottom mic, the mid or side of an M/S signal, a band in a multiband split, or parallel paths that will be summed again. In mastering it is also used for gentle broad moves. Use minimum-phase for steep or narrow corrective moves on transient material, for anything live, and whenever latency matters. On dialogue, a minimum-phase high-pass is usually the cleaner choice, because pre-ringing on plosives and footsteps is easy to hear.",
+  "keyPoints": [
+   "Minimum-phase: phase shift only where the gain changes, no latency, ringing only after the event.",
+   "Linear-phase: equal delay at all frequencies, so no phase distortion.",
+   "Symmetric FIR latency = (N − 1)/2 samples; 3072 samples at 48 kHz is 64 ms.",
+   "Pre-ringing grows with steep, narrow and low-frequency moves.",
+   "Use linear-phase on correlated or parallel signals; minimum-phase for live work and transients."
+  ],
+  "sayIt": "This EQ keeps the timing of every frequency identical, but it needs a little time to work, so we use it in the mix rather than while you are recording.",
+  "inPractice": "Put a steep 80 Hz high-pass on a dry snare, first in minimum-phase mode and then in linear-phase mode, and compare. Zoom in on the waveform and you will see energy appear before each hit in linear-phase mode; listen for the soft swell that comes with it.",
+  "mistake": "Many people assume linear-phase EQ is always higher quality. It only removes phase shift; it adds latency and pre-ringing, and on transient material a minimum-phase EQ often sounds cleaner.",
+  "terms": [
+   {
+    "term": "Minimum-phase filter",
+    "def": "A filter whose phase shift is fixed by its magnitude response and whose output never comes before its input. All analogue EQs are minimum-phase."
+   },
+   {
+    "term": "Linear-phase filter",
+    "def": "A filter that delays all frequencies by the same time, so the waveform shape is kept. In audio it is built as a symmetric FIR filter."
+   },
+   {
+    "term": "Pre-ringing",
+    "def": "Filter ringing that appears before a transient. It comes from the symmetric impulse response of a linear-phase filter."
+   },
+   {
+    "term": "Group delay",
+    "def": "The time delay a filter gives to each frequency. It is constant for a linear-phase filter and varies with frequency for a minimum-phase one."
+   },
+   {
+    "term": "Delay compensation",
+    "def": "The DAW feature that delays other tracks by a plugin's reported latency so everything stays in time."
+   }
+  ]
+ },
+ "quiz": {
+  "questions": [
+   {
+    "level": "advanced",
+    "topic": "EQ & filters",
+    "q": "A narrow linear-phase cut at 60 Hz has an impulse response that keeps ringing for about 30 ms after its main peak. When does the ringing start?",
+    "options": [
+     "Exactly at the main peak, as with any filter",
+     "About 15 ms before the main peak",
+     "About 30 ms before the main peak, because the impulse response is symmetric",
+     "About 60 ms before the main peak"
+    ],
+    "answer": 2,
+    "explain": "A linear-phase FIR has a symmetric impulse response, so whatever rings after the peak also rings before it, by the same time. That pre-ringing is what you hear as a swell before transients."
+   },
+   {
+    "level": "advanced",
+    "topic": "Delay & time",
+    "q": "A symmetric FIR linear-phase filter has 8191 taps and runs at 96 kHz. What latency does it add?",
+    "options": [
+     "About 85.3 ms (8191 samples)",
+     "About 42.7 ms (4095 samples)",
+     "About 21.3 ms (2048 samples)",
+     "None, because FIR filters have no feedback"
+    ],
+    "answer": 1,
+    "explain": "A symmetric FIR delays the signal by (N − 1)/2 samples: (8191 − 1)/2 = 4095 samples, and 4095 / 96 000 ≈ 42.7 ms. The trap is to count the whole filter length as the delay."
+   },
+   {
+    "level": "advanced",
+    "topic": "Live sound",
+    "q": "A two-sub end-fire pair is spaced 1.0 m and delayed correctly for the front (c = 343 m/s). Near which frequency is rear cancellation deepest?",
+    "options": [
+     "About 43 Hz",
+     "About 86 Hz",
+     "About 172 Hz",
+     "About 343 Hz"
+    ],
+    "answer": 1,
+    "explain": "Behind, the arrivals differ by 2d = 2 m. That is half a wavelength when λ = 4 m, so f = 343 / 4 ≈ 86 Hz."
+   },
+   {
+    "level": "intermediate",
+    "topic": "EQ & filters",
+    "q": "On a minimum-phase EQ, which frequencies receive phase shift from a single bell boost?",
+    "options": [
+     "All frequencies equally, from 20 Hz to 20 kHz",
+     "Mainly those around the band, where the gain is changing",
+     "Only frequencies above the centre frequency",
+     "None, unless the Q is above 10"
+    ],
+    "answer": 1,
+    "explain": "In a minimum-phase filter the phase shift follows the change in magnitude, so it is concentrated around the band being altered. Where the response is flat, there is no phase shift."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Professional practice",
+    "q": "Why should you print or commit plugin-processed tracks before handing over a session?",
+    "options": [
+     "It makes the session open faster on the same machine",
+     "The recipient may not have the same plugins or versions, so the sound could change",
+     "Plugins are not allowed in delivered sessions",
+     "Printing tracks improves their sample rate"
+    ],
+    "answer": 1,
+    "explain": "Missing or different plugin versions change or bypass the processing. A printed track keeps the sound you approved."
+   },
+   {
+    "level": "intermediate",
+    "topic": "RF & wireless",
+    "q": "How many two-transmitter third-order products (of the 2f1 − f2 type) do 4 transmitters produce?",
+    "options": [
+     "4",
+     "6",
+     "8",
+     "12"
+    ],
+    "answer": 3,
+    "explain": "Each ordered pair gives one product: N(N − 1) = 4 × 3 = 12. The trap is counting unordered pairs (6), but each pair makes two products."
+   },
+   {
+    "level": "basic",
+    "topic": "EQ & filters",
+    "q": "Why does a linear-phase EQ add latency?",
+    "options": [
+     "Its symmetric impulse response needs samples from before and after each point, so the output must be delayed",
+     "It runs at a higher sample rate internally",
+     "It uses analogue modelling, which is slow to compute",
+     "It waits for the next audio buffer to check for clipping"
+    ],
+    "answer": 0,
+    "explain": "A linear-phase filter's impulse response extends equally before and after its centre. To produce the 'before' part, the plugin has to hold the signal back by half the filter length."
+   },
+   {
+    "level": "basic",
+    "topic": "Microphone technique",
+    "q": "What is a Decca Tree?",
+    "options": [
+     "Two coincident figure-8 mics at 90°",
+     "A mid cardioid and a side figure-8",
+     "Three spaced omnidirectional mics, with the centre mic placed forward of the left and right pair",
+     "Two cardioids 17 cm apart at 110°"
+    ],
+    "answer": 2,
+    "explain": "The Decca Tree is a spaced array of three omnis, widely used above and behind the conductor for orchestral and film-score recording."
+   },
+   {
+    "level": "basic",
+    "topic": "Gain staging",
+    "q": "In a fixed-point digital system, what is the highest level that can be stored?",
+    "options": [
+     "+4 dBFS",
+     "0 dBFS",
+     "+24 dBFS",
+     "−18 dBFS"
+    ],
+    "answer": 1,
+    "explain": "dBFS is referenced to full scale, so 0 dBFS is the ceiling and all valid levels are zero or negative. −18 dBFS is a common alignment level, not a limit."
+   }
+  ]
+ }
+}

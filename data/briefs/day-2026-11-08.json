@@ -1,0 +1,319 @@
+{
+ "period": "day",
+ "key": "2026-11-08",
+ "label": "Sun 8 Nov 2026",
+ "range": "6 Nov – 8 Nov 2026",
+ "generated": "2026-11-08T12:58:18+01:00",
+ "auto": true,
+ "headline": "Today's sound headlines",
+ "lead": "30 new stories from 13 sound and audio news sources over the last 48 hours, including Sound On Sound, Production Expert, ProSoundWeb, TPi, TV Technology and 8 more. This edition is assembled automatically from the outlets' own feeds: titles and summaries are theirs, sorted into sections. Open a story for the full article.",
+ "items": [
+  {
+   "cat": "plugins",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-08",
+   "title": "Acon Digital release Restoration Suite 3",
+   "take": "Acon Digital’s all-in-one restoration plug-in now boasts an Analyze button that allows it to automatically identify issues and present users with a set of modules and settings tailored to their source material.",
+   "source": "Sound On Sound",
+   "url": "https://www.soundonsound.com/news/acon-digital-release-restoration-suite-3"
+  },
+  {
+   "cat": "plugins",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-06",
+   "title": "Vienna Performer Renders MIDI With Real Players For €9.99 A Month",
+   "take": "Vienna Symphonic Library has released Vienna Performer, a subscription plugin that renders your MIDI as a performed take using players recorded at Synchron Stage. Here are the details.",
+   "source": "Production Expert",
+   "url": "https://www.production-expert.com/production-expert-1/vienna-performer-renders-midi-with-real-players-for-999-a-month"
+  },
+  {
+   "cat": "live",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-06",
+   "title": "The Magnitude Fallacy: Why Some Things Matter – But Maybe Not As Much As We Think",
+   "take": "The fact that a certain phenomenon or scientific principle exists – in pro audio and otherwise – does not necessarily mean it's likely to be a cause of concern in a practical situation. (An audio version of this article is also available for download.)",
+   "source": "ProSoundWeb",
+   "url": "https://www.prosoundweb.com/the-magnitude-fallacy-why-some-things-matter-but-maybe-not-as-much-as-we-think/?utm_source=rss&utm_medium=rss&utm_campaign=the-magnitude-fallacy-why-some-things-matter-but-maybe-not-as-much-as-we-think"
+  },
+  {
+   "cat": "plugins",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-08",
+   "title": "tinyant releases purpl, a FREE chorus and shimmer reverb plugin",
+   "take": "tinyant has released purpl, a free chorus and reverb plugin for Windows and Linux. It felt super refreshing to discover a free plugin from a developer I haven’t heard of before, and to find a website without the AI design and bombastic marketing messages we’re seeing everywhere nowadays.",
+   "source": "Bedroom Producers Blog",
+   "url": "https://bedroomproducersblog.com/2026/11/08/tinyant-purpl-shimmer-reverb/",
+   "free": true
+  },
+  {
+   "cat": "plugins",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-08",
+   "title": "ZL Limiter, ClassicQlite, simpleTapeStop: Free Plugins of the Week",
+   "take": "ZL Limiter is a free limiter from the creator of ZL Equalizer, ClassicQlite is a British-style EQ, and simpleTapeStop does just what it says.",
+   "source": "Gearnews",
+   "url": "https://www.gearnews.com/zl-limiter-free-plugins/",
+   "free": true
+  },
+  {
+   "cat": "live",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-06",
+   "title": "Pink Bows Foundation honours Madison Dubiski’s legacy",
+   "take": "Five years ago, 10 young people lost their lives at the Travis Scott Astroworld Festival tragedy in Houston, including 23-year-old Madison Dubiski, who attended the event with her younger brother, Ty. Madison never returned home.",
+   "source": "TPi",
+   "url": "https://www.tpimagazine.com/pink-bows-foundation-honours-madison-dubiskis-legacy/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-06",
+   "title": "Democratic Senator Sends Warning to FCC Chairman Carr",
+   "take": "Sen. Blumenthal says chairman must release records by Nov. 30 pertaining to investigations into First Amendment violations",
+   "source": "TV Technology",
+   "url": "https://www.tvtechnology.com/regulatory-legal/fcc/democratic-senator-sends-warning-to-fcc-chairman-carr"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-08",
+   "title": "Isla Electronics VANIX: a Yamaha AN1X Synthesizer emulation is coming soon",
+   "take": "Isla Electronics VANIX is an upcoming emulation of the popular 1997 digital keyboard Synthesizer, the Yamaha AN1X. The Yamaha AN1X, a digital synthesizer released in 1997, remains popular today. As one of the early virtual [...]",
+   "source": "Synth Anatomy",
+   "url": "https://synthanatomy.com/2026/11/isla-electronics-vanix.html"
+  },
+  {
+   "cat": "software",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-07",
+   "title": "AudioThingies MicroMonsta 2 Firmware 3.0 Adds Polyphonic Aftertouch & Expanded Chord Tools",
+   "take": "AudioThingies has released firmware 3.0 for its MicroMonsta 2 synthesizer, adding polyphonic aftertouch, expanded scale and chord capabilities, a second modulation sequencer and additional modulation destinations.… Read More AudioThingies MicroMonsta 2 Firmware 3.0 Adds Polyphonic Aftertouch &…",
+   "source": "Synthtopia",
+   "url": "https://www.synthtopia.com/content/2026/11/07/audiothingies-micromonsta-2-firmware-3-0-adds-polyphonic-aftertouch-expanded-chord-tools/"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-07",
+   "title": "Sting admits that his country house is a rock star cliché – but it inspired one of his best-loved songs",
+   "take": "“What’s nice about this house is that it’s quite close to Stonehenge”",
+   "source": "MusicRadar",
+   "url": "https://www.musicradar.com/artists/theres-something-inherently-sexy-about-the-sight-something-primal-as-if-the-wind-were-making-love-to-the-barley-sting-admits-that-his-country-house-is-a-rock-star-cliche-but-it-inspired-one-of-his-best-loved-songs"
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-06",
+   "title": "What Lawsuits? Live Nation Posts ‘Record’ Q3 2026 Financials, Now Expects ‘To Welcome Nearly 180 Million Fans’ This Year",
+   "take": "What FTC and attorneys general lawsuits? Live Nation has posted an 18.9% year-over-year (YoY) revenue hike for Q3 2026, when international fan attendance surged 29.2% YoY to top 25 million.",
+   "source": "Digital Music News",
+   "url": "https://www.digitalmusicnews.com/2026/11/06/live-nation-revenue-q3-2026/"
+  },
+  {
+   "cat": "ai",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-06",
+   "title": "Rotor Videos opens Artist Unlimited to any artist from $9.99 a month, with unlimited release visuals and a library of 17M+, non-AI-generated clips",
+   "take": "The plans give artists unlimited access to Rotor's tools for making visual assets for release campaigns, including music videos, lyric videos, Spotify Canvas, and Apple Music Album Motion. Source",
+   "source": "Music Business Worldwide",
+   "url": "https://www.musicbusinessworldwide.com/rotor-videos-opens-artist-unlimited-to-any-artist-from-9-99-a-month-with-unlimited-release-visuals-and-a-library-of-17m-non-ai-generated-clips/"
+  },
+  {
+   "cat": "post",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-06",
+   "title": "How “You Can See Everything” Was Shot – No Lights, Three Cameras, and a Day of Getting It Wrong",
+   "take": "You Can See Everything is the film everyone is talking about right now: $64.7 million in US ticket sales after three weekends, the first non-concert documentary since Fahrenheit 9/11 to finish a weekend at No.",
+   "source": "CineD",
+   "url": "https://www.cined.com/how-you-can-see-everything-was-shot-no-lights-three-cameras-and-a-day-of-getting-it-wrong/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-06",
+   "title": "Martin Audio At The Heart Of Sonic Upgrade At Satan’s Hollow In The UK",
+   "take": "Integrator Neuron AV implements new system to support DJ nights and live performances that's headed by BlacklineQ loudspeakers working with Q218 subwoofers.",
+   "source": "ProSoundWeb",
+   "url": "https://www.prosoundweb.com/martin-audio-at-the-heart-of-sonic-upgrade-at-satans-hollow-in-the-uk/?utm_source=rss&utm_medium=rss&utm_campaign=martin-audio-at-the-heart-of-sonic-upgrade-at-satans-hollow-in-the-uk"
+  },
+  {
+   "cat": "software",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-06",
+   "title": "Avid introduce Pro Tools 2026.11",
+   "take": "Pro Tools 2026.11 introduces built-in stem separation, a new Extensions format that brings an assortment of third-party sound libraries and creative tools directly into the Pro Tools environment, support for MPE and more.",
+   "source": "Sound On Sound",
+   "url": "https://www.soundonsound.com/news/avid-introduce-pro-tools-202611"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-07",
+   "title": "5 Forgotten Synths: Lost to Time",
+   "take": "Not every synth can be a classic. There are countless that never make it into the collective unconscious. These are five of those forgotten synths.",
+   "source": "Gearnews",
+   "url": "https://www.gearnews.com/5-forgotten-synths/"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-07",
+   "title": "Krotos offers Simple Monsters and 10.5 GB Starter Library FREE until November 11",
+   "take": "Krotos is giving away Dehumaniser Simple Monsters and the Krotos Starter Sound Effects Library, a voice-processing plugin and sound effects collection normally priced at $298 combined. The Free Sound Design Kit offer ends on November 11, 2026, at 23:59 GMT.",
+   "source": "Bedroom Producers Blog",
+   "url": "https://bedroomproducersblog.com/2026/11/07/krotos-simple-monsters-free/",
+   "free": true
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-06",
+   "title": "Engineers choose DiGiCo Quantum flexibility and power for RAYE",
+   "take": "RAYE is an artist with huge global appeal and a long list of awards to prove it. Matthias Simmons is her front of house engineer and Joe Standen is monitor engineer. With such a wide fan base, the tour includes a variety of venues across the world.",
+   "source": "TPi",
+   "url": "https://www.tpimagazine.com/engineers-choose-digico-quantum-flexibility-and-power-for-raye/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-06",
+   "title": "CNN Reports Record Setting Viewership Numbers for Midterms Coverage",
+   "take": "News network also says it attracted the youngest audience in cable news during its primetime coverage",
+   "source": "TV Technology",
+   "url": "https://www.tvtechnology.com/business/cnn-reports-record-setting-viewership-numbers-for-midterms-coverage"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-08",
+   "title": "Rubén Terron Rodriguez’s new iOS app blends Kalimba playing with a Synthesizer",
+   "take": "Rubén Terron Rodriguez has released Kalimba: Pocket Synth, a new iOS app that blends the character of a Kalimba with a Synthesizer. At this year’s Superbooth, Bastl Instruments unveiled the Kalimba Synthesizer that became an [...]",
+   "source": "Synth Anatomy",
+   "url": "https://synthanatomy.com/2026/11/ruben-terron-rodriguez-s-new-ios-app-blends-kalimba-playing-with-a-synthesizer.html"
+  },
+  {
+   "cat": "ai",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-07",
+   "title": "Splice Create Combines A Full DAW With Integrated Sound Library & AI Assistance",
+   "take": "Splice has introduced Create, a new digital audio workstation that combines its extensive sample library, virtual instruments and effects with AI-assisted production tools and interactive tutorials.… Read More Splice Create Combines A Full DAW With Integrated Sound Library & AI Assistance",
+   "source": "Synthtopia",
+   "url": "https://www.synthtopia.com/content/2026/11/07/splice-create-combines-a-full-daw-with-integrated-sound-library-ai-assistance/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-07",
+   "title": "Elton John’s guitarist Davey Johnstone on the bittersweet triumph of their 1975 Dodger Stadium show",
+   "take": "Davey Johnstone takes MusicRadar back to a pivotal moment in Elton history, when the Rock of the Westies Tour made rock history in LA",
+   "source": "MusicRadar",
+   "url": "https://www.musicradar.com/artists/davey-johnstone-on-the-bittersweet-triumph-of-elton-john-1975-dodger-stadium-show"
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-06",
+   "title": "Critical Casting Decisions Finalized in Upcoming Snoop Dogg Biopic",
+   "take": "Universal Pictures unveils several new casting choices in the upcoming Snoop Dogg biopic, including Cynthia Erivo, Zachariah Rogers, and Hercy Miller. The film is due out on August 6, 2027.",
+   "source": "Digital Music News",
+   "url": "https://www.digitalmusicnews.com/2026/11/06/snoop-dogg-biopic-casting-finalized/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-06",
+   "title": "LEA Professional Names Sigmet Corporation As Rep In New York Metro Area",
+   "take": "With more than 80 years of combined industry experience, Sigmet team is representing the company's Network Connect and Dante Connect amplifier series.",
+   "source": "ProSoundWeb",
+   "url": "https://www.prosoundweb.com/lea-professional-names-sigmet-corporation-as-rep-in-new-york-metro-area/?utm_source=rss&utm_medium=rss&utm_campaign=lea-professional-names-sigmet-corporation-as-rep-in-new-york-metro-area"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-07",
+   "title": "Meet NOMN, the Tokyo studio making bubble synths and unusual spatial effects",
+   "take": "NOMN is a Tokyo-based software studio whose range includes a bubble synthesizer, an evolving MIDI composer, spatial effects, and a remote listening service. NOMN develops tools rooted in the developer’s own music, research, and client work.",
+   "source": "Bedroom Producers Blog",
+   "url": "https://bedroomproducersblog.com/2026/11/07/nomn-tokyo-studio/"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-06",
+   "title": "Modern Synth Classics: 9 Incredible Synthesizers We’ll Still Be Talking About in 30 Years",
+   "take": "These are the modern synth classics that we’ll wax nostalgic over in decades to come. Did your favorite make the list?",
+   "source": "Gearnews",
+   "url": "https://www.gearnews.com/modern-synth-classics-synth/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-06",
+   "title": "Sue Mudge joins EM Acoustics",
+   "take": "EM Acoustics has appointed Sue Mudge (formerly Sue Gould) as Communications Manager as she embarks on a freelance consultancy role drawing extensively on three decades of industry experience.",
+   "source": "TPi",
+   "url": "https://www.tpimagazine.com/sue-mudge-joins-em-acoustics/"
+  },
+  {
+   "cat": "software",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-06",
+   "title": "Sage Issues Mandatory Security Update for ENDECS",
+   "take": "It removes compromised eMudhra root certificates and resolves other issues",
+   "source": "TV Technology",
+   "url": "https://www.tvtechnology.com/regulatory-legal/fcc/sage-issues-mandatory-security-update-for-endecs"
+  },
+  {
+   "cat": "software",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-07",
+   "title": "Unfiltered Audio Sinusoidal Run Rhythm: a unique pulsating FX fueled by wave interference (desktop and now iOS)",
+   "take": "Unfiltered Audio Sinusoidal Run Rhythm adds movement to your sounds through rhythmic patterns created through mathematical wave interference Update: Sinusoidal Run Rhythm is also now available for iOS on the Apple App Store at a [...]",
+   "source": "Synth Anatomy",
+   "url": "https://synthanatomy.com/2026/11/unfiltered-audio-sinusoidal-run-rhythm-a-unique-pulsating-fx-fueled-by-wave-interference.html"
+  },
+  {
+   "cat": "ai",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-07",
+   "title": "Sampleson Wavefinder Uses Local AI To Search Audio Libraries By Sound",
+   "take": "Rather than relying on filenames or manually assigned tags, Wavefinder analyzes audio files and ranks them by similarity to a text description or reference recording.… Read More Sampleson Wavefinder Uses Local AI To Search Audio Libraries By Sound",
+   "source": "Synthtopia",
+   "url": "https://www.synthtopia.com/content/2026/11/07/sampleson-wavefinder-uses-local-ai-to-search-audio-libraries-by-sound/"
+  }
+ ],
+ "craft": {
+  "body": "This year Atmos, MPEG-H and binaural delivery moved into ordinary DAWs. The tools will keep changing; the formats last longer. Spend a day with the actual delivery specs you are likely to meet (bed and object counts, loudness targets, binaural render modes) so that when a client asks for immersive delivery, the conversation is about creative choices rather than technical surprises.",
+  "title": "Learn the formats, not just the tools"
+ }
+}
