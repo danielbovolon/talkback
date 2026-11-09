@@ -1,0 +1,167 @@
+{
+ "key": "2026-11-09",
+ "label": "Mon 9 Nov 2026",
+ "generated": "2026-11-09T14:58:42+01:00",
+ "auto": true,
+ "lesson": {
+  "title": "dB scales: dBu, dBV, dBFS and dB SPL",
+  "topic": "Electronics and signal flow",
+  "level": "core",
+  "summary": "A decibel is a logarithmic ratio, so every dB scale needs a stated reference. dBu is referenced to 0.775 V, dBV to 1 V, dBFS to digital full scale and dB SPL to 20 µPa of sound pressure.",
+  "body": "The decibel expresses a ratio on a logarithmic scale. For power quantities it is 10·log10(P1/P0). For field quantities such as voltage and sound pressure it is 20·log10(V1/V0), because power is proportional to the square of voltage or pressure. Doubling voltage is +6 dB; doubling power is +3 dB. Ten times the power is +10 dB; ten times the voltage is +20 dB. A bare 'dB' is only a difference. Adding a suffix fixes the reference and turns it into an absolute level.\n\ndBu is referenced to 0.775 V RMS, the voltage that delivers 1 mW into 600 Ω. Professional line level is +4 dBu, about 1.23 V. dBV is referenced to 1 V RMS. Consumer line level is −10 dBV, about 0.316 V. The two scales differ by a fixed 2.2 dB: 0 dBV = +2.2 dBu. So the gap between +4 dBu and −10 dBV is about 11.8 dB, not 14 dB. The older dBm refers to 1 mW of power and only matches dBu when the load is 600 Ω.\n\ndBFS is referenced to digital full scale, the largest value a fixed-point converter can code. Levels in dBFS are zero or negative, and nothing above 0 dBFS can be stored in fixed point. The analogue voltage that matches 0 dBFS depends on the converter's alignment; common studio and broadcast alignments put it anywhere from around +18 to +24 dBu. dB SPL measures sound pressure against 20 µPa, the nominal threshold of hearing at 1 kHz. 1 Pa is about 94 dB SPL, which is why calibrators use 94 dB and 114 dB.\n\nIn practice you move between these scales all the time. A mic turns dB SPL into a voltage in dBV. A preamp adds gain in dB and outputs dBu. A converter maps dBu to dBFS. On location, matching a mixer's output to a camera input means knowing whether each end works at mic level, −10 dBV or +4 dBu. On a PA, amplifier power follows the 10·log rule, so ten times the power gives only 10 dB more level.",
+  "keyPoints": [
+   "Power: 10·log10. Voltage and pressure: 20·log10.",
+   "0 dBu = 0.775 V; 0 dBV = 1 V; 0 dBV ≈ +2.2 dBu.",
+   "+4 dBu ≈ 1.23 V; −10 dBV ≈ 0.316 V; gap ≈ 11.8 dB.",
+   "0 dBFS is the fixed-point ceiling; its analogue level depends on alignment.",
+   "0 dB SPL = 20 µPa; 1 Pa ≈ 94 dB SPL.",
+   "A bare dB is a ratio; a suffix makes it an absolute level."
+  ],
+  "sayIt": "That number is a level relative to a reference, so +4 on the console and −10 on the camera are not the same thing; I'll match them so nothing distorts.",
+  "inPractice": "Send a 1 kHz tone at a known dBFS from your recorder and measure the output voltage with a true-RMS meter. Convert it to dBu and dBV and write down your device's alignment for the next job.",
+  "mistake": "People often treat +4 dBu and −10 dBV as 14 dB apart. Because the references differ by 2.2 dB, the real gap is about 11.8 dB.",
+  "terms": [
+   {
+    "term": "dBu",
+    "def": "Voltage level referenced to 0.775 V RMS."
+   },
+   {
+    "term": "dBV",
+    "def": "Voltage level referenced to 1 V RMS."
+   },
+   {
+    "term": "dBFS",
+    "def": "Digital level referenced to the full-scale maximum of a fixed-point system."
+   },
+   {
+    "term": "dB SPL",
+    "def": "Sound pressure level referenced to 20 µPa."
+   },
+   {
+    "term": "Alignment level",
+    "def": "The agreed relationship between an analogue level and a digital level, such as a reference tone in dBFS."
+   }
+  ]
+ },
+ "quiz": {
+  "questions": [
+   {
+    "level": "advanced",
+    "topic": "Gain staging",
+    "q": "A calibrator produces a sound pressure of 2 Pa RMS. What is that in dB SPL?",
+    "options": [
+     "About 88 dB SPL",
+     "About 100 dB SPL",
+     "About 97 dB SPL",
+     "About 106 dB SPL"
+    ],
+    "answer": 1,
+    "explain": "1 Pa ≈ 94 dB SPL, and doubling pressure adds 20·log10(2) ≈ 6 dB. Using 10·log for pressure gives about 97 dB."
+   },
+   {
+    "level": "advanced",
+    "topic": "Gain staging",
+    "q": "How many dB higher is professional line level (+4 dBu) than consumer line level (−10 dBV)?",
+    "options": [
+     "About 2.2 dB",
+     "About 11.8 dB",
+     "About 14 dB",
+     "About 16.2 dB"
+    ],
+    "answer": 1,
+    "explain": "−10 dBV = −10 + 2.2 = −7.8 dBu, so the gap is 4 − (−7.8) ≈ 11.8 dB. Subtracting the numbers directly gives 14 dB and ignores the different references."
+   },
+   {
+    "level": "advanced",
+    "topic": "Dynamics",
+    "q": "A downward expander has a threshold of −40 dBFS, a 1:3 ratio and a range of 20 dB. A signal arrives at −60 dBFS. What level comes out?",
+    "options": [
+     "−100 dBFS",
+     "−60 dBFS",
+     "−80 dBFS",
+     "−66.7 dBFS"
+    ],
+    "answer": 2,
+    "explain": "The signal is 20 dB below threshold. At 1:3 it would be pushed 60 dB below threshold, to −100 dBFS, which is 40 dB of attenuation. The 20 dB range caps that, so the output is −60 − 20 = −80 dBFS."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Gain staging",
+    "q": "Which quantities use 20·log10 rather than 10·log10 when expressed in decibels?",
+    "options": [
+     "Power and intensity",
+     "Power and voltage",
+     "Voltage and sound pressure",
+     "Intensity and sound pressure"
+    ],
+    "answer": 2,
+    "explain": "Power and intensity are proportional to the square of voltage or pressure, so 20·log for field quantities gives the same dB change as 10·log for power."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Synthesis",
+    "q": "Which carrier-to-modulator ratio gives an inharmonic, bell-like FM spectrum?",
+    "options": [
+     "1:1.414",
+     "1:1",
+     "1:2",
+     "2:1"
+    ],
+    "answer": 0,
+    "explain": "Non-integer ratios put sidebands at frequencies that are not multiples of a common fundamental. Integer ratios give harmonic spectra."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Microphone technique",
+    "q": "What is the standard ORTF configuration?",
+    "options": [
+     "Two cardioids 30 cm apart, angled at 90°",
+     "Two cardioids 17 cm apart, angled at 110°",
+     "Two omnis 17 cm apart, pointing forward",
+     "Two figure-8s at the same point, angled at 90°"
+    ],
+    "answer": 1,
+    "explain": "ORTF was set by French broadcasting: 17 cm and 110°. 30 cm at 90° is NOS, and coincident figure-8s at 90° are Blumlein."
+   },
+   {
+    "level": "basic",
+    "topic": "Gain staging",
+    "q": "In a fixed-point digital system, what is the highest level that can be stored?",
+    "options": [
+     "+4 dBFS",
+     "0 dBFS",
+     "+24 dBFS",
+     "−18 dBFS"
+    ],
+    "answer": 1,
+    "explain": "dBFS is referenced to full scale, so 0 dBFS is the ceiling and all valid levels are zero or negative. −18 dBFS is a common alignment level, not a limit."
+   },
+   {
+    "level": "basic",
+    "topic": "Psychoacoustics",
+    "q": "What does a head-related transfer function (HRTF) describe?",
+    "options": [
+     "The frequency response of a pair of headphones",
+     "The hearing loss of an individual listener",
+     "The delay between two loudspeakers",
+     "How the head, torso and outer ears filter sound arriving from a given direction"
+    ],
+    "answer": 3,
+    "explain": "An HRTF is direction-dependent filtering by the body before sound reaches the eardrum. Headphone response and audiograms are different measurements."
+   },
+   {
+    "level": "basic",
+    "topic": "Acoustics",
+    "q": "For a point source in a free field, sound intensity is proportional to what?",
+    "options": [
+     "1/r",
+     "1/r³",
+     "r²",
+     "1/r², where r is distance"
+    ],
+    "answer": 3,
+    "explain": "The same power spreads over a sphere of area 4πr², so intensity follows 1/r². 1/r describes sound pressure, not intensity, which is a frequent mix-up."
+   }
+  ]
+ }
+}

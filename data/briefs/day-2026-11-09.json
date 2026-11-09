@@ -1,0 +1,321 @@
+{
+ "period": "day",
+ "key": "2026-11-09",
+ "label": "Mon 9 Nov 2026",
+ "range": "6 Nov – 9 Nov 2026",
+ "generated": "2026-11-09T14:58:42+01:00",
+ "auto": true,
+ "headline": "Today's sound headlines",
+ "lead": "30 new stories from 13 sound and audio news sources over the last 72 hours, including Sound On Sound, Production Expert, ProSoundWeb, TPi, CineD and 8 more. This edition is assembled automatically from the outlets' own feeds: titles and summaries are theirs, sorted into sections. Open a story for the full article.",
+ "items": [
+  {
+   "cat": "live",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-09",
+   "title": "Four New Account Managers Join The Music People",
+   "take": "Chris Mehalso, Mike Harris, Jerry Wild and Ricardo “Richie” Cintron Jimenez added to team led by Austin Waynick that supports customer and partner relationships across audio, video and lighting (AVL) markets.",
+   "source": "ProSoundWeb",
+   "url": "https://www.prosoundweb.com/four-new-account-managers-join-the-music-people/?utm_source=rss&utm_medium=rss&utm_campaign=four-new-account-managers-join-the-music-people"
+  },
+  {
+   "cat": "software",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-09",
+   "title": "Steinberg Ends Full Support For Nuendo 13 And SpectraLayers 11 In January 2027",
+   "take": "Steinberg has today announced that it will end full technical support for Nuendo 13 and SpectraLayers 11 on 1 January 2027. From that date, help for both products will be limited to licensing questions and startup problems on compatible systems.",
+   "source": "Production Expert",
+   "url": "https://www.production-expert.com/production-expert-1/steinberg-ends-full-support-for-nuendo-13-and-spectralayers-11-in-january-2027"
+  },
+  {
+   "cat": "ai",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-09",
+   "title": "Vertikal from Native Instruments",
+   "take": "Developed by Galaxy Instruments, Vertikal turns a 4.5-meter, custom-built instrument that most musicians will never touch into a playable library with pure and felt versions and an expanded Particles 2.0 generative engine.",
+   "source": "Sound On Sound",
+   "url": "https://www.soundonsound.com/news/vertikal-native-instruments"
+  },
+  {
+   "cat": "live",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-09",
+   "title": "ADC26: Intro And Walkabout : We have a quick tour the Audio Dev 26 (video)",
+   "take": "We took a brief walk through Audio Dev 26 at the Delta Hotels in Bristol, giving us a look at the layout and a...",
+   "source": "Sonicstate",
+   "url": "https://sonicstate.com/news/2026/11/09/adc26-intro-and-walkabout/"
+  },
+  {
+   "cat": "instruments",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-09",
+   "title": "Pulsar Modular releases Q BIT, a FREE bitcrusher with rhythmic Time Hold",
+   "take": "Pulsar Modular has released Q BIT, a free bitcrusher that combines digital distortion inspired by vintage hardware with a Time Hold effect for some pretty interesting rhythmic results.",
+   "source": "Bedroom Producers Blog",
+   "url": "https://bedroomproducersblog.com/2026/11/09/pulsar-modular-qbit/",
+   "free": true
+  },
+  {
+   "cat": "gear",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-09",
+   "title": "Sundragon Dragonette: Jimmy Page Signature Combo",
+   "take": "The Sundragon Dragonette is a 6-watt tube combo designed with Jimmy Page for a Led Zeppelin tone",
+   "source": "Gearnews",
+   "url": "https://www.gearnews.com/sundragon-dragonette-jimmy-page-signature-combo/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-09",
+   "title": "Europalco launches EMove",
+   "take": "Europalco has taken a significant step in its innovation strategy with the formal launch of EMove, its new brand dedicated entirely to automation and stage movement.",
+   "source": "TPi",
+   "url": "https://www.tpimagazine.com/europalco-launches-emove/"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-09",
+   "title": "Céline Dion plays air bass and headbangs to Enter Sandman as she enters her hard rock era with Metallica",
+   "take": "She's been spotted at two of the band's shows in the past week",
+   "source": "MusicRadar",
+   "url": "https://www.musicradar.com/artists/thank-you-james-lars-kirk-and-robert-celine-dion-enters-her-hard-rock-era-as-she-plays-air-bass-and-headbangs-to-enter-sandman-during-a-wild-weekend-with-metallica-at-the-sphere"
+  },
+  {
+   "cat": "post",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-09",
+   "title": "Portkeys OVF-Z380 Eyepiece Kit Released for Sony PXW-Z380/Z300 – Flip-Up Optical Loupe, -3 to +8 Diopter",
+   "take": "Portkeys has released the OVF-Z380, an optical eyepiece kit for the Sony PXW-Z380 and PXW-Z300 camcorders. The loupe clips onto the camera’s LCD and turns it into an eye-level viewfinder, with a -3 to +8 diopter, an adjustable silicone eyecup, and an internal dust-proof structure.",
+   "source": "CineD",
+   "url": "https://www.cined.com/portkeys-ovf-z380-eyepiece-kit-released-for-sony-pxw-z380-z300-flip-up-optical-loupe-3-to-8-diopter/"
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-09",
+   "title": "Warner Music France invests in Délicieuse Musique, the Bordeaux-based label group with a roster of 1,200+ artists",
+   "take": "Délicieuse's portfolio includes the labels Délicieuse Records, Nice Guys, Noire & Blanche, Egoplanet, Crosswalk, and Hip Dozer. Source",
+   "source": "Music Business Worldwide",
+   "url": "https://www.musicbusinessworldwide.com/warner-music-france-invests-in-delicieuse-musique-the-bordeaux-based-label-group-with-a-roster-of-1200-artists/"
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-09",
+   "title": "No More Link-in-Bio Fandom: Frenzy Keeps Fan Experiences In-House",
+   "take": "Every artist knows the drill: “Check out our merch, check out our socials, check out our setlist.” Fans get bounced between five different apps and three different checkout carts just to feel connected to the show they’re already attending.",
+   "source": "Digital Music News",
+   "url": "https://www.digitalmusicnews.com/2026/11/09/frenzy-superfan-engagement-for-live-events/"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-09",
+   "title": "Feedback Modules The Matrix: a no-nonsense matrix mixer for Eurorack",
+   "take": "Feedback Modules The Matrix is a super hands-on, straightforward 4×4 matrix mixer for Eurorack, developed in collaboration with CMS-LAB. In the Eurorack world, certain topics are always in vogue. One moment it’s granular modules, the [...]",
+   "source": "Synth Anatomy",
+   "url": "https://synthanatomy.com/2026/11/feedback-modules-the-matrix-a-no-nonsense-matrix-mixer-for-eurorack.html"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-09",
+   "title": "Morpheral Machines Introduces The Swarm, A New Approach To Wavetable Synthesis",
+   "take": "Morpheral Machines introduces The Swarm, a wavetable synthesizer that uses up to 24 independently moving oscillators per voice.",
+   "source": "Synthtopia",
+   "url": "https://www.synthtopia.com/content/2026/11/08/morpheral-machines-introduces-the-swarm-a-new-approach-to-wavetable-synthesis/"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-09",
+   "title": "Vienna Symphonic Library Debuts New Vienna Performer Plugin",
+   "take": "Rather than generating compositions, the software uses AI models trained exclusively on recordings made by the company with musicians from the Vienna Synchron Orchestra at Vienna Synchron Stage.",
+   "source": "ProSoundWeb",
+   "url": "https://www.prosoundweb.com/vienna-symphonic-library-debuts-new-vienna-performer-plugin/?utm_source=rss&utm_medium=rss&utm_campaign=vienna-symphonic-library-debuts-new-vienna-performer-plugin"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-09",
+   "title": "Manley ecliptic: First Manley EQ Plugin May Become Hardware",
+   "take": "Four months after buying back Brainworx and Plugin Alliance, Dirk Ulrich has published his third open letter to users, and it introduces the first product of the RCKFRC era.",
+   "source": "Production Expert",
+   "url": "https://www.production-expert.com/production-expert-1/manley-ecliptic-first-manley-eq-plugin-may-become-hardware"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-08",
+   "title": "AnalogX launch Genesis",
+   "take": "Genesis is powered by GPU Audio Soundcore Technology, and offloads intensive processing to the user’s graphics card, allowing them to load any AnalogX Neural Expansion Pack or NAM A2 models without taxing their CPU.",
+   "source": "Sound On Sound",
+   "url": "https://www.soundonsound.com/news/analogx-launch-genesis"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-09",
+   "title": "Scrap Brain Audio releases 2G, a FREE lo-fi sampler with a retro phone interface",
+   "take": "Scrap Brain Audio’s 2G is a free lo-fi sampler inspired by early-2000s mobile phones, with text-to-sound generation. I’m absolutely in love with the interface. In fact, it’s one of the coolest and most fun plugin interfaces I’ve ever used.",
+   "source": "Bedroom Producers Blog",
+   "url": "https://bedroomproducersblog.com/2026/11/09/scrap-brain-audio-26/",
+   "free": true
+  },
+  {
+   "cat": "ai",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-09",
+   "title": "Free ReBirth RB-338 Clone Released : Bit-perfect AI assisted open source re-implementation",
+   "take": "Bittersweet news for those into classic music software but against AI proliferation - this new <a href=\"https://githu...",
+   "source": "Sonicstate",
+   "url": "https://sonicstate.com/news/2026/11/09/free-rebirth-rb-338-clone-released-/",
+   "free": true
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-09",
+   "title": "JBL Professional VTX A12 makes Italian arena debut with Fulminacci",
+   "take": "JBL Professional VTX A12 made its Italian arena tour debut during Fulminacci’s performance at Nelson Mandela Forum in Florence, marking the first deployment of the line array system on an Italian arena tour.",
+   "source": "TPi",
+   "url": "https://www.tpimagazine.com/jbl-professional-vtx-a12-makes-italian-arena-debut-with-fulminacci/"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-09",
+   "title": "Fender Brent Mason Telecaster: ’67 Back in Black!",
+   "take": "Fender Brent Mason Telecaster signature model a limited edition in black based on his original 1967 guitar",
+   "source": "Gearnews",
+   "url": "https://www.gearnews.com/fender-brent-mason-telecaster-67-back-in-black/"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-09",
+   "title": "“They thought I was a crackpot”: Wah wah inventor Del Casher has died, aged 88",
+   "take": "He had been suffering from cancer",
+   "source": "MusicRadar",
+   "url": "https://www.musicradar.com/guitars/guitar-pedals/i-would-just-like-guitar-players-to-think-of-me-once-in-a-while-the-only-thing-i-ask-is-remember-me-wah-wah-inventor-del-casher-has-died-aged-88"
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-09",
+   "title": "SoundExchange’s unpaid royalties lawsuit against Music Choice heads back to court, more than seven years after it was filed",
+   "take": "The case was filed in April 2019 and has been largely on hold since December 2021. Source",
+   "source": "Music Business Worldwide",
+   "url": "https://www.musicbusinessworldwide.com/soundexchanges-unpaid-royalties-lawsuit-against-music-choice-heads-back-to-court-more-than-seven-years-after-it-was-filed/"
+  },
+  {
+   "cat": "speakers",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-09",
+   "title": "Director Mode App Released for iPhone and iPad – Four-Camera Monitoring, REC ALL, and USB-C Control for Canon and Sony",
+   "take": "Director Mode is a new iPhone and iPad app that monitors and controls selected Canon and Sony cameras, and it can show up to four of them side by side, even when you mix the two brands.",
+   "source": "CineD",
+   "url": "https://www.cined.com/director-mode-app-released-for-iphone-and-ipad-four-camera-monitoring-rec-all-and-usb-c-control-for-canon-and-sony/"
+  },
+  {
+   "cat": "ai",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-09",
+   "title": "5 Keys to Music Attribution",
+   "take": "AI may become very good at identifying influence without becoming any better at paying creators. Attribution has become one of the music industry’s favorite answers to the AI problem.",
+   "source": "Digital Music News",
+   "url": "https://www.digitalmusicnews.com/2026/11/08/5-keys-to-music-attribution/"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-09",
+   "title": "Aqeel Aadam Grasswhistle: a free arpeggiator plugin (mac, win & iOS) built to inspire",
+   "take": "Aqeel Aadam Grasswhistle is a new, free, colorful arpeggiator plugin for macOS, Windows, and iOS (AUv3) built to inspire. Aqeel Aadam Sounds is one of my favorite plugin and iOS app developers. Their design language [...]",
+   "source": "Synth Anatomy",
+   "url": "https://synthanatomy.com/2026/11/aqeel-aadam-grasswhistle-a-free-arpeggiator-plugin-mac-win-ios-built-to-inspire.html",
+   "free": true
+  },
+  {
+   "cat": "software",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-08",
+   "title": "Free, Open-Source OpenRB-338 Brings ReBirth Back For Modern Computers",
+   "take": "OpenRB-338 is a free, open-source reimplementation of Propellerhead's ReBirth RB-338, bringing its combination of two TB-303 basslines and TR-808 and TR-909 drum machines to modern macOS, Windows, and Linux computers.… Read More Free, Open-Source OpenRB-338 Brings ReBirth Back For Modern Computers",
+   "source": "Synthtopia",
+   "url": "https://www.synthtopia.com/content/2026/11/08/free-open-source-openrb-338-brings-rebirth-back-for-modern-computers/",
+   "free": true
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-09",
+   "title": "Focusrite At The Heart Of “Red Couch Show” Recording Sessions",
+   "take": "YouTube series executive producer and co-founder Nico Pagni has implemented an ISA C8X interface as the centerpiece of his studio recording setup.",
+   "source": "ProSoundWeb",
+   "url": "https://www.prosoundweb.com/focusrite-at-the-heart-of-red-couch-show-recording-sessions/?utm_source=rss&utm_medium=rss&utm_campaign=focusrite-at-the-heart-of-red-couch-show-recording-sessions"
+  },
+  {
+   "cat": "post",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-09",
+   "title": "I Vibe Coded Something, But I'd Never Sell It",
+   "take": "It seems everyone is vibe coding right now, and Russ is no exception. Two weeks of vibe coding produced a publishing back end at version 221. Here's why audio professionals should think hard before selling what they build.",
+   "source": "Production Expert",
+   "url": "https://www.production-expert.com/production-expert-1/i-vibe-coded-something-but-id-never-sell-it"
+  },
+  {
+   "cat": "ai",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-09",
+   "title": "Tuned launches its V2 vocal plugin bundle for $9.99 with “F*CK AI SLOP” campaign",
+   "take": "Tuned Plugins has released Vocal Essentials Bundle V2, a collection of four updated vocal effects for macOS and Windows, with a 72-hour launch offer priced at $9.99.",
+   "source": "Bedroom Producers Blog",
+   "url": "https://bedroomproducersblog.com/2026/11/09/tuned-fck-ai-slop/"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-09",
+   "title": "Mr. Scruff & His Most Iconic Track : Deb Grant explores 'Get a Move On' for Reform Radio",
+   "take": "We've covered the <a href=\"https://sonicstate.com/news/2024/09/19/mr-scruff-favourite-gear-polyrhythms-and-field-reco...",
+   "source": "Sonicstate",
+   "url": "https://sonicstate.com/news/2026/11/09/mr-scruff-his-most-iconic-track/"
+  }
+ ],
+ "craft": {
+  "body": "New interfaces lead with 32-bit specs, but in most rooms the noise floor lives somewhere else: ground loops, a shared mains strip, an unbalanced cable run, a laptop charger. Before upgrading, record ten seconds of silence through your current chain with gain where you actually use it, then look at a spectrum. Hum at 50 Hz and its harmonics means a grounding problem, and no converter will fix it.",
+  "title": "Find the noise before you buy the converter"
+ }
+}
