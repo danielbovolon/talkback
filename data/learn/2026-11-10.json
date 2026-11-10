@@ -1,0 +1,167 @@
+{
+ "key": "2026-11-10",
+ "label": "Tue 10 Nov 2026",
+ "generated": "2026-11-10T14:31:09+01:00",
+ "auto": true,
+ "lesson": {
+  "title": "Clocking, jitter and sample-rate conversion",
+  "topic": "Digital audio",
+  "level": "deeper",
+  "summary": "Every digital audio device needs a sample clock, and devices that exchange digital audio must share one clock or their sample rates will drift apart. Jitter is short-term variation in the timing of that clock; it only degrades audio at the moments of conversion. Sample-rate conversion recalculates a signal at a new rate, filtering to the new Nyquist limit.",
+  "body": "When digital devices pass audio to each other, they must run at exactly the same rate. One device is the master and every other device follows it, through word clock on 75 Ω coaxial cable, through the clock embedded in an AES3 or ADAT stream, or from a video reference such as black burst or tri-level sync. If two devices each run on their own crystal, their rates differ by a few parts per million. At 48 kHz, a 20 ppm difference adds up to 1728 samples, or 36 ms, in 30 minutes. The receiver must then drop or repeat samples, and you hear periodic clicks. Daisy-chained word clock should be terminated in 75 Ω at the last device, or reflections can make the clock unreliable.\n\nJitter is the random or periodic wobble in the timing of each clock edge. Interface jitter on a cable only matters if it causes data errors. It does not change the samples themselves. Sampling jitter at the ADC or DAC does matter, because a sample taken or played at the wrong moment has the wrong value. For a full-scale sine, the best possible signal-to-noise ratio is SNR = −20·log10(2π·f·tj), where tj is the RMS jitter. At 1 kHz with 1 ns of jitter, that is about 104 dB. At 20 kHz it falls to about 78 dB. Good converters use a phase-locked loop (PLL) to clean up an incoming clock. Independent tests have shown that an external master clock rarely improves a good converter's internal clock, and can make it slightly worse.\n\nSample-rate conversion (SRC) rebuilds the signal at a new rate. When going down, it must low-pass filter below the new Nyquist frequency to stop aliasing. 96 kHz to 48 kHz is a simple 2:1 ratio. 48 kHz to 44.1 kHz is a ratio of 147/160. Synchronous SRC works between rates locked to the same clock. Asynchronous SRC (ASRC) also tracks two independent clocks, which is how many digital inputs accept an unlocked source.\n\nIn film and TV, sample rate and speed are linked. Pull-down slows audio by 0.1% (a factor of 1000/1001) to follow picture running at 23.976 or 29.97 fps. A 60-minute 48 kHz take played at 48 000/1.001 Hz lasts 60 minutes 3.6 seconds. On location, keep recorder and camera on the same project rate and frame rate, and jam timecode. In the studio, choose one clock master and check every device reports it is locked.",
+  "keyPoints": [
+   "One master clock; every other device locks to it.",
+   "Unlocked devices drift: 20 ppm at 48 kHz is 36 ms in 30 minutes.",
+   "Only jitter at the ADC or DAC degrades the audio.",
+   "Jitter-limited SNR = −20·log10(2π·f·tj).",
+   "Downward SRC must filter below the new Nyquist frequency.",
+   "Pull-up and pull-down change speed by 0.1% (1000/1001)."
+  ],
+  "sayIt": "All the digital gear has to tick to the same clock, otherwise the audio slowly slips out of step and starts to click.",
+  "inPractice": "Before the next multi-device session, draw the clock chain on paper: name the master, then check each device's lock indicator and sample-rate display. Leave a 10-minute test recording running and listen for clicks at the end before you commit to the take.",
+  "mistake": "People often buy an external master clock expecting better sound from one converter. A good converter usually performs best on its own internal clock; an external clock exists to keep several devices in step.",
+  "terms": [
+   {
+    "term": "Word clock",
+    "def": "A square-wave clock at the sample rate, sent on 75 Ω coaxial cable, used to lock digital devices together."
+   },
+   {
+    "term": "Jitter",
+    "def": "Short-term variation in the timing of clock edges. It degrades audio only at the point of conversion."
+   },
+   {
+    "term": "PLL",
+    "def": "Phase-locked loop: a circuit that locks a local oscillator to an incoming clock and filters out much of its jitter."
+   },
+   {
+    "term": "ASRC",
+    "def": "Asynchronous sample-rate converter: converts between two clocks that are not locked to each other."
+   },
+   {
+    "term": "Pull-down",
+    "def": "Slowing audio by 0.1% (1000/1001) to match picture running at 23.976 or 29.97 fps."
+   }
+  ]
+ },
+ "quiz": {
+  "questions": [
+   {
+    "level": "advanced",
+    "topic": "Digital audio",
+    "q": "A 60-minute production take recorded at 48 kHz is pulled down by 0.1% (played at 48 000/1.001 Hz). How long does it now play?",
+    "options": [
+     "About 59 minutes 56.4 seconds",
+     "About 60 minutes 0.36 seconds",
+     "About 60 minutes 36 seconds",
+     "About 60 minutes 3.6 seconds"
+    ],
+    "answer": 3,
+    "explain": "Slowing by a factor of 1.001 stretches the duration by the same factor: 3600 s × 1.001 = 3603.6 s. Pull-down makes audio play longer, not shorter."
+   },
+   {
+    "level": "advanced",
+    "topic": "Digital audio",
+    "q": "Two recorders run at 48 kHz on their own internal clocks. Their rates differ by 20 ppm. After 30 minutes, how far apart are the recordings?",
+    "options": [
+     "About 1.7 samples, or 0.036 ms",
+     "About 576 samples, or 12 ms",
+     "About 17 280 samples, or 360 ms",
+     "About 1728 samples, or 36 ms"
+    ],
+    "answer": 3,
+    "explain": "Samples in 30 min = 48 000 × 1800 = 86.4 million. 20 ppm of that is 1728 samples, which is 1728 / 48 000 = 36 ms. The trap is to apply ppm to one second instead of the whole duration."
+   },
+   {
+    "level": "advanced",
+    "topic": "Impedance",
+    "q": "A DI transformer has a 10:1 turns ratio and drives a preamp with a 2 kΩ input impedance. Roughly what impedance does the instrument see at the DI input?",
+    "options": [
+     "About 20 kΩ",
+     "About 2 MΩ",
+     "About 200 kΩ",
+     "About 200 Ω"
+    ],
+    "answer": 2,
+    "explain": "A transformer reflects load impedance by the square of the turns ratio: 2 kΩ × 10² = 200 kΩ. Multiplying by the turns ratio alone gives 20 kΩ."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Digital audio",
+    "q": "A digital mixer receives AES3 from a converter, but the mixer is set to its internal clock and is not locked to the converter. What do you most likely hear?",
+    "options": [
+     "A constant hum at the sample rate",
+     "Periodic clicks or drop-outs as samples slip",
+     "A steady loss of high frequencies",
+     "Nothing, because AES3 carries its own sample rate"
+    ],
+    "answer": 1,
+    "explain": "Two free-running clocks are never exactly equal, so the receiver eventually has to drop or repeat samples, which gives clicks. AES3 carries a clock, but the receiver must be set to follow it."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Immersive",
+    "q": "Why can the same Atmos master play correctly on both a 7.1.4 room and a 5.1.2 room?",
+    "options": [
+     "The master contains a separate pre-mixed version for every layout",
+     "Object positions are metadata, and the renderer computes speaker feeds for the layout in use",
+     "Atmos only uses the bed, which is the same in every room",
+     "The consumer codec converts everything to stereo first"
+    ],
+    "answer": 1,
+    "explain": "Objects carry position metadata, not fixed channel assignments, so the renderer maps them to whatever speakers exist."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Live sound",
+    "q": "Why do gradient cardioid sub arrays usually need EQ on the front response?",
+    "options": [
+     "Because the rear sub adds +6 dB at every frequency",
+     "Because the subs face backwards",
+     "Because the front sum falls away at low frequencies where the spacing is a small fraction of a wavelength",
+     "Because delay creates harmonic distortion"
+    ],
+    "answer": 2,
+    "explain": "At low frequencies the inverted rear sub arrives almost in time with the front sub, so they partly cancel in front too. The front sum peaks near d = λ/4."
+   },
+   {
+    "level": "basic",
+    "topic": "Digital audio",
+    "q": "When converting a 96 kHz file to 48 kHz, what must the sample-rate converter remove first?",
+    "options": [
+     "Content above 24 kHz, the new Nyquist frequency",
+     "Content below 20 Hz",
+     "Content above 48 kHz",
+     "Every second bit of the word length"
+    ],
+    "answer": 0,
+    "explain": "Anything above the new Nyquist frequency (half of 48 kHz) would alias back into the audio band. So the converter low-pass filters before it reduces the rate."
+   },
+   {
+    "level": "basic",
+    "topic": "Microphones",
+    "q": "What is proximity effect?",
+    "options": [
+     "A loss of high frequencies when the mic is far away",
+     "A rise in bass response when a directional mic is close to the source",
+     "Distortion from a source that is too loud",
+     "Feedback when a mic is near a loudspeaker"
+    ],
+    "answer": 1,
+    "explain": "Directional mics respond partly to pressure gradient, and close to a source that gradient carries extra low-frequency energy. The result is more bass at short distances."
+   },
+   {
+    "level": "basic",
+    "topic": "Synthesis",
+    "q": "What is a typical grain length in granular synthesis?",
+    "options": [
+     "About 1 to 100 ms",
+     "About 1 to 10 seconds",
+     "About 1 microsecond",
+     "Exactly one cycle of the source"
+    ],
+    "answer": 0,
+    "explain": "Grains are short, usually from about 1 to 100 ms, and each is shaped by a smooth window."
+   }
+  ]
+ }
+}

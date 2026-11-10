@@ -1,0 +1,319 @@
+{
+ "period": "day",
+ "key": "2026-11-10",
+ "label": "Tue 10 Nov 2026",
+ "range": "8 Nov – 10 Nov 2026",
+ "generated": "2026-11-10T14:31:09+01:00",
+ "auto": true,
+ "headline": "Today's sound headlines",
+ "lead": "30 new stories from 17 sound and audio news sources over the last 48 hours, including Sound On Sound, Production Expert, ProSoundWeb, FOH, TPi and 12 more. This edition is assembled automatically from the outlets' own feeds: titles and summaries are theirs, sorted into sections. Open a story for the full article.",
+ "items": [
+  {
+   "cat": "post",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-10",
+   "title": "Soundbar Reality Check: How Your Immersive Mix Sounds At Home",
+   "take": "If you’re mixing in Dolby Atmos, your work is far more likely to be heard on a living-room soundbar than on anything resembling a calibrated 7.1.4 studio.",
+   "source": "Production Expert",
+   "url": "https://www.production-expert.com/production-expert-1/soundbar-reality-check-how-your-immersive-mix-sounds-at-home"
+  },
+  {
+   "cat": "plugins",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-10",
+   "title": "PSPaudioware release PSP ClassicQlite",
+   "take": "PSPaudioware have just launched their latest free plug-in, along with a set of updates that bring modern OS compatibility and an assortment of new features to four of their existing EQ offerings.",
+   "source": "Sound On Sound",
+   "url": "https://www.soundonsound.com/news/pspaudioware-release-psp-classicqlite"
+  },
+  {
+   "cat": "live",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-09",
+   "title": "A Tale Of Two Load-Ins: Lessons In Organization & Efficiency On The Job Site",
+   "take": "Most of us can probably remember working a couple of gigs that were polar opposites from an organizational perspective – here are some friendly guidelines for those in charge of making logistical decisions at events.",
+   "source": "ProSoundWeb",
+   "url": "https://www.prosoundweb.com/a-tale-of-two-load-ins-lessons-in-organization-efficiency-on-the-job-site/?utm_source=rss&utm_medium=rss&utm_campaign=a-tale-of-two-load-ins-lessons-in-organization-efficiency-on-the-job-site"
+  },
+  {
+   "cat": "live",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-10",
+   "title": "Skydance Confirms HBO-Paramount+ Bundle",
+   "take": "“By bringing these services together, we are well positioned to deliver for a broad range of audience cohorts.\"",
+   "source": "TV Technology",
+   "url": "https://www.tvtechnology.com/business/skydance-confirms-hbo-paramount-bundle"
+  },
+  {
+   "cat": "plugins",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-10",
+   "title": "Fuse Audio Labs releases Amber Drive, a FREE British guitar amp plugin",
+   "take": "Fuse Audio Labs has released Amber Drive, a free British-style guitar amp plugin for macOS and Windows. I love Fuse Audio Labs’ software, and we’ve covered several of their freebies, including VREV-666 Spring Reverb and the VPRE-72 vintage tube preamp.",
+   "source": "Bedroom Producers Blog",
+   "url": "https://bedroomproducersblog.com/2026/11/10/fuse-audio-labs-amber-drive/",
+   "free": true
+  },
+  {
+   "cat": "gear",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-10",
+   "title": "ADC26: Thawney Surround System : A portable surround system (video)",
+   "take": "We heard from Robin about Thawny 24 , a prototype USB audio interface and multi-channel amplifier system for sp...",
+   "source": "Sonicstate",
+   "url": "https://sonicstate.com/news/2026/11/10/adc26-thawney-surround-system/"
+  },
+  {
+   "cat": "software",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-10",
+   "title": "Ableton Live 13 hands-on: ARA 2, Drum Synth, new effects, more",
+   "take": "Ableton Live 13 is now in public beta. That includes a lot of what you've asked for, like multi-band Racks, overhauled preset navigation, and ARA 2 support for tools like Melodyne.",
+   "source": "CDM",
+   "url": "https://cdm.link/ableton-live-13-hands-on-whats-new/"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-10",
+   "title": "Fender Japan F-Hole Telecaster Thinline is back: Same literal F-hole, new specs",
+   "take": "The F-Hole Telecaster Thinline models are back! Literal F-Hole, HH variants, and a very beautiful Indigo model!",
+   "source": "Gearnews",
+   "url": "https://www.gearnews.com/fender-japan-f-hole-telecaster-thinline-guitar/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-10",
+   "title": "Meyer Sound promotes Owen Ironside to Senior Sales Director, APAC",
+   "take": "Meyer Sound has promoted Owen Ironside to Senior Sales Director, APAC, expanding his leadership responsibilities as the company continues to strengthen its presence across the Asia Pacific region.",
+   "source": "TPi",
+   "url": "https://www.tpimagazine.com/meyer-sound-promotes-owen-ironside-to-senior-sales-director-apac/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-10",
+   "title": "LEA Pro Announces Partnership with Sigmet Corporation",
+   "take": "LEA Professional announced a partnership with Sigmet Corporation, a New Jersey-based manufacturer’s representative, to expand LEA’s presence in the New York metropolitan area.",
+   "source": "FOH",
+   "url": "https://fohonline.com/newsroom/on-the-move/lea-pro-announces-partnership-with-sigmet-corporation/"
+  },
+  {
+   "cat": "ai",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-09",
+   "title": "Starkey’s Omega AI+ Named CES 2027 Innovation Awards Honoree",
+   "take": "Starkey's Omega AI+ hearing platform has been named a CES 2027 Innovation Awards Honoree in the Accessibility & Longevity category for its advanced AI and wellness features.",
+   "source": "Hearing Review",
+   "url": "https://hearingreview.com/hearing-products/hearing-aids/starkeys-omega-ai-named-ces-2027-innovation-awards-honoree"
+  },
+  {
+   "cat": "ai",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-10",
+   "title": "Instagram Edits for Mac Released – Multi-Track Timeline, LUT Import and Watermark-Free 4K Export",
+   "take": "Instagram has released Edits for Mac, a free desktop version of its video editing app. The first desktop build adds a multi-track timeline with keyframes and audio waveforms, color wheels, curves, Log conversions and LUT import, plus custom keyboard shortcuts and an MCP connection for AI agents.",
+   "source": "CineD",
+   "url": "https://www.cined.com/instagram-edits-for-mac-released-multi-track-timeline-lut-import-and-watermark-free-4k-export/",
+   "free": true
+  },
+  {
+   "cat": "software",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-10",
+   "title": "One of Logic Pro 13’s biggest new features can only be had on subscription: is that fair, and should you care?",
+   "take": "A DAW update that might feel unlucky for some",
+   "source": "MusicRadar",
+   "url": "https://www.musicradar.com/music-tech/one-of-logic-pro-13s-biggest-new-features-can-only-be-had-on-subscription-is-that-fair-and-should-you-care"
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-10",
+   "title": "Ye and Ty Dolla $ign sued by producers who claim ‘Vultures’ used music sent to Ty as an MP3 – without a license or payment",
+   "take": "Ye's companies Yeezy Record Label LLC and Yeezy LLC are also named as defendants, as is distributor Create Music Group. Source",
+   "source": "Music Business Worldwide",
+   "url": "https://www.musicbusinessworldwide.com/ye-and-ty-dolla-ign-sued-by-producers-who-claim-vultures-used-music-sent-to-ty-as-an-mp3-without-a-license-or-payment/"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-10",
+   "title": "Audio Damage Sandbender: a modern FM synth (desktop/iOS) that puts playability first",
+   "take": "Audio Damage Sandbender is a new modern 4-operator FM Synthesizer plugin for macOS, Linux, Windows, and iOS that puts playability first. Alongside additive synthesis, 2026 was also a big year for FM synthesis. A whole [...]",
+   "source": "Synth Anatomy",
+   "url": "https://synthanatomy.com/2026/11/audio-damage-sandbender-a-modern-fm-synth-plugin-desktop-ios-that-puts-playability-first.html"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-10",
+   "title": "After Santa Monica’s Ocean Way Crashes, Venice Beach Hatches a New Music Festival",
+   "take": "Venice Beach gets primed for a massive new music festival with the two-day 1905 Fest due for fall 2027, featuring five stages and a dozen-plus bars. Santa Monica’s inaugural Ocean Way Festival didn’t turn out this year, thanks to erosion of the beach caused by Hurricane Marie.",
+   "source": "Digital Music News",
+   "url": "https://www.digitalmusicnews.com/2026/11/09/venice-beach-new-music-festival-2027/"
+  },
+  {
+   "cat": "ai",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-09",
+   "title": "What’s All The Hype About The M-Vave FM-1?",
+   "take": "The M-Vave FM-1 is evolving beyond its original design, as independent developers use custom firmware and AI-assisted coding to create entirely new instruments.… Read More What’s All The Hype About The M-Vave FM-1?",
+   "source": "Synthtopia",
+   "url": "https://www.synthtopia.com/content/2026/11/09/155951/"
+  },
+  {
+   "cat": "software",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-10",
+   "title": "John Walden Cubase Essentials promotion",
+   "take": "Following the recent release of Cubase 16, regular SOS contributor John Walden has announced that he will be running a 25% promotional discount on his Udemy-based Cubase Essentials course until the end of November 2026.",
+   "source": "Sound On Sound",
+   "url": "https://www.soundonsound.com/news/john-walden-cubase-essentials-promotion"
+  },
+  {
+   "cat": "software",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-09",
+   "title": "ClipMap Review: Is This The Multi-Session Pro Tools Fix?",
+   "take": "ClipMap from Sparks Audio seeks to solve the issue of Pro Tools only allowing one session to be open at a time. ClipMap reads .ptx sessions directly, allowing you to browse, audition, and retrieve material and import it into your currently open session in Pro Tools.",
+   "source": "Production Expert",
+   "url": "https://www.production-expert.com/production-expert-1/clipmap-review-is-this-the-multi-session-pro-tools-fix"
+  },
+  {
+   "cat": "post",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-09",
+   "title": "Placing Lavalier Mics: The Art, Science & Nuances Of The Corporate Events Market",
+   "take": "When your mic stands are walking, talking human beings, mic technique and etiquette can collide -- a long-practicing audio veteran provides key points and approaches to keep in mind. (Part 1 of 2.)",
+   "source": "ProSoundWeb",
+   "url": "https://www.prosoundweb.com/placing-lavalier-mics-part-1-the-art-science-nuances-of-the-corporate-events-market/?utm_source=rss&utm_medium=rss&utm_campaign=placing-lavalier-mics-part-1-the-art-science-nuances-of-the-corporate-events-market"
+  },
+  {
+   "cat": "ai",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-10",
+   "title": "Avid’s Ready to Edit Brings AI to Media Composer",
+   "take": "New Media Composer extension enables projects to move forward even when footage is missing",
+   "source": "TV Technology",
+   "url": "https://www.tvtechnology.com/production/avids-ready-to-edit-brings-ai-to-media-composer"
+  },
+  {
+   "cat": "software",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-10",
+   "title": "noshigeSound releases noshige73 LITE, a FREE 1073-style EQ for macOS and Windows",
+   "take": "noshigeSound has released noshige73, a 1073-style console EQ with a free LITE version for macOS and Windows. Before you continue reading, note that this plugin is very CPU-heavy. Using a GPU can reduce the load, but if that’s not your style, feel free to skip this one.",
+   "source": "Bedroom Producers Blog",
+   "url": "https://bedroomproducersblog.com/2026/11/10/noshigesound-noshige73-lite/",
+   "free": true
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-10",
+   "title": "ttiimmee: Turn Signals into Grain Clouds : Dilating time with effect pedal project",
+   "take": "Here's a nice little 'old time' youtube video showing a guitar effect pedal made form scratch. It's the work of ...",
+   "source": "Sonicstate",
+   "url": "https://sonicstate.com/news/2026/11/10/ttiimmee-turn-signals-grain-clouds/"
+  },
+  {
+   "cat": "software",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-10",
+   "title": "Ableton Live 13: ARA 2, Step Sequencer, New Devices and More!",
+   "take": "Ableton Live 13 has arrived with exciting new features, along with a new update for Push 3, and a 20% Off Sale on Live, Move, and Push.",
+   "source": "Gearnews",
+   "url": "https://www.gearnews.com/ableton-live-13-studio/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-10",
+   "title": "Paco Yonque Steakhouse Upgrades to a 1 SOUND System",
+   "take": "Paco Yonque, a steakhouse in the heart of Miraflores in Lima, Peru, just upgraded to a premium audio system incorporating 1 SOUND components.",
+   "source": "FOH",
+   "url": "https://fohonline.com/newsroom/international-news/paco-yonque-steakhouse-upgrades-to-a-1-sound-system/"
+  },
+  {
+   "cat": "software",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-09",
+   "title": "Logic Pro 13 gets touch right, but stumbles on “intelligent assistant”",
+   "take": "Look past Logic Pro 13's new dark Liquid Glass theme and updated browser, and you'll find Apple focused on two core technologies, touch and \"intelligence\" -- and two very different upgrades.",
+   "source": "CDM",
+   "url": "https://cdm.link/logic-pro-13-touch-and-intelligence/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-09",
+   "title": "PRG welcomes Drew Wilson as Chief Financial Officer",
+   "take": "PRG (Production Resource Group) has appointed Drew Wilson as Chief Financial Officer. Wilson brings more than 20 years of financial and operational leadership across music, media, entertainment and technology, most recently serving as Chief Operating and Financial Officer of SoundCloud.",
+   "source": "TPi",
+   "url": "https://www.tpimagazine.com/prg-welcomes-drew-wilson-as-chief-financial-officer/"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-10",
+   "title": "Paul McCartney is officially now a billionaire, but not because of The Beatles",
+   "take": "Macca now 3rd in the musical rich list",
+   "source": "MusicRadar",
+   "url": "https://www.musicradar.com/artists/singers-songwriters/paul-mccartney-is-officially-now-a-billionaire-but-most-of-his-wealth-comes-from-shrewd-investments-not-the-beatles"
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-10",
+   "title": "SiriusXM’s Jennifer Witz steps down after nearly 25 years; Tubi’s Anjali Sud named CEO from 2027",
+   "take": "Jennifer Witz will remain at the company in an advisory role until the end of 2027. Source",
+   "source": "Music Business Worldwide",
+   "url": "https://www.musicbusinessworldwide.com/siriusxms-jennifer-witz-steps-down-after-nearly-25-years-tubis-anjali-sud-named-ceo-from-2027/"
+  },
+  {
+   "cat": "speakers",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-10",
+   "title": "Flanders Scientific VP and V Series Introduced – Seven QD-OLED Monitors, Up to 4,000 Nits, 12G-SDI and 3D",
+   "take": "Flanders Scientific has announced seven new QD-OLED monitors in two new lines, the VP Series and the V Series. They use the same panels, the same color engine and the same GaiaColor calibration tools as the flagship XMP monitors, but they leave out the onboard scopes, Look LUTs and Livegrade…",
+   "source": "CineD",
+   "url": "https://www.cined.com/flanders-scientific-vp-and-v-series-introduced-seven-qd-oled-monitors-up-to-4000-nits-12g-sdi-and-3d/"
+  }
+ ],
+ "craft": {
+  "body": "Two stories this week come back to one question: who owns and who has cleared the audio you touch. That covers a Suno cue a director drops into the cut, a stem you separate from a master, and a board recording you make at a gig.\n\nAdd two short lines to your standard quote: the client confirms all supplied material is cleared, and the quote states who owns any recordings you make on the job. It takes five minutes once and protects you on every job after.",
+  "title": "Put the rights question in writing"
+ }
+}
