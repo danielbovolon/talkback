@@ -1,0 +1,167 @@
+{
+ "key": "2026-11-11",
+ "label": "Wed 11 Nov 2026",
+ "generated": "2026-11-11T13:46:15+01:00",
+ "auto": true,
+ "lesson": {
+  "title": "Stereo mic techniques compared",
+  "topic": "Microphones",
+  "level": "core",
+  "summary": "Stereo mic techniques create an image from level differences, time differences or both. Coincident pairs (XY, Blumlein, M/S) use level only and fold to mono cleanly. Spaced pairs (AB, Decca Tree) use time differences and give more spaciousness, at the cost of mono compatibility. Near-coincident pairs (ORTF) combine the two.",
+  "body": "Coincident pairs place two capsules as close together as possible, so sound reaches both at the same time. XY uses two cardioids angled between about 90° and 135°. Blumlein uses two figure-8s at 90°. It picks up the rear as strongly as the front, so the room becomes part of the sound. Sources in the side quadrants come out in opposite polarity in the two channels. Sources behind the pair appear mirrored, so rear-left is heard on the right. Because coincident pairs have no time differences, the mono sum has no comb filtering.\n\nM/S uses a forward-facing mid mic (often a cardioid) and a sideways figure-8. You decode it as L = M + S and R = M − S, with the positive lobe of the figure-8 facing left. Raising S widens the image; muting S leaves pure mono from the mid mic. Width can be set after the recording, which is why M/S is common on location for film and TV. An M/S shotgun fits on a single boom pole, and the mid channel alone is a usable mono track.\n\nSpaced pairs (AB) use two mics, usually omnis, from about 40 cm to a few metres apart. Time differences create the image and give a strong sense of space. Omnis also tend to have better low-frequency extension than directional mics. Summed to mono, the time differences turn into comb filtering. With 60 cm spacing, a source fully to one side arrives 1.75 ms later at the far mic, which puts the first mono notch near 286 Hz. The Decca Tree is a spaced array of three omnis. Left and right are about 2 m apart, with a centre mic forward of them. It is placed above and behind the conductor and is standard for orchestral film scoring, often with outrigger mics.\n\nNear-coincident pairs mix the two cues. ORTF uses two cardioids 17 cm apart at 110°. The largest time difference is about 0.5 ms. NOS uses 30 cm and 90°. In practice, use XY or M/S when mono compatibility matters, as in broadcast, dialogue ambiences and overheads that may fold down. Use AB or a Decca Tree for large, natural rooms. Use ORTF as a dependable all-rounder on drums, choirs and ensembles.",
+  "keyPoints": [
+   "Coincident (XY, Blumlein, M/S): level differences only, clean mono sum.",
+   "Spaced (AB, Decca): time differences, spacious, comb filtering in mono.",
+   "ORTF: cardioids 17 cm apart at 110°; NOS: 30 cm at 90°.",
+   "M/S decode: L = M + S, R = M − S; width is adjustable afterwards.",
+   "Blumlein hears the rear fully and mirrors it left to right.",
+   "Decca Tree: three omnis, standard for orchestral film scoring."
+  ],
+  "sayIt": "We are using two mics arranged so the recording keeps where everything sits from left to right, and it will still sound right if someone plays it in mono.",
+  "inPractice": "On your next room or ambience recording, set up an M/S pair and a 60 cm AB pair side by side. Fold both to mono and compare: the M/S pair should only lose width, while the AB pair will change in tone as well.",
+  "mistake": "A common belief is that wider spacing always means a better stereo image. Too wide an AB pair leaves a 'hole in the middle', and any spacing adds comb filtering when the mix folds to mono.",
+  "terms": [
+   {
+    "term": "Coincident pair",
+    "def": "Two capsules placed at the same point, so the stereo image comes from level differences only."
+   },
+   {
+    "term": "Spaced pair (AB)",
+    "def": "Two mics, usually omnis, set apart so the stereo image comes mainly from time differences."
+   },
+   {
+    "term": "ORTF",
+    "def": "A near-coincident pair of cardioids 17 cm apart, angled at 110°."
+   },
+   {
+    "term": "M/S",
+    "def": "Mid-side: a forward mid mic and a sideways figure-8, decoded as L = M + S and R = M − S."
+   },
+   {
+    "term": "Decca Tree",
+    "def": "Three spaced omnis, with the centre mic forward of the left and right pair, used mainly for orchestras."
+   }
+  ]
+ },
+ "quiz": {
+  "questions": [
+   {
+    "level": "advanced",
+    "topic": "Microphone technique",
+    "q": "In an M/S pair, the mid is a cardioid and the side is a figure-8 with its positive lobe facing left. Both are at equal gain. A source sits exactly 90° to the left. Using L = M + S and R = M − S, what do you get?",
+    "options": [
+     "L is about 9.5 dB louder than R, and R is in opposite polarity",
+     "Only the left channel carries signal; R is silent",
+     "L and R are equal in level and polarity",
+     "R is about 9.5 dB louder than L"
+    ],
+    "answer": 0,
+    "explain": "At 90°, the cardioid gives 0.5 and the figure-8 gives 1. So L = 1.5 and R = 0.5 − 1 = −0.5. The ratio is 3, or 20·log10(3) ≈ 9.5 dB, and R is negative."
+   },
+   {
+    "level": "advanced",
+    "topic": "Microphone technique",
+    "q": "In a Blumlein pair (two figure-8s at 90°, pointing 45° left and 45° right), a source sits behind the pair at 135° to the left. Where does it appear in the stereo image?",
+    "options": [
+     "Hard right, in opposite polarity",
+     "Hard left, in normal polarity",
+     "In the centre",
+     "It is not picked up at all"
+    ],
+    "answer": 0,
+    "explain": "That source is 90° from the left mic's axis, which is its null. It is directly on the rear lobe of the right mic, which picks it up fully but with inverted polarity. Blumlein mirrors the rear: rear-left is heard on the right."
+   },
+   {
+    "level": "advanced",
+    "topic": "Acoustics",
+    "q": "A porous panel plus its air gap reaches 0.20 m from a rigid wall (c = 343 m/s). Using the quarter-wavelength rule, down to roughly what frequency does it work well?",
+    "options": [
+     "About 215 Hz",
+     "About 860 Hz",
+     "About 1.7 kHz",
+     "About 430 Hz"
+    ],
+    "answer": 3,
+    "explain": "λ/4 = 0.20 m means λ = 0.80 m, so f = 343 / 0.80 ≈ 429 Hz. Below that, absorption falls off gradually."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Microphone technique",
+    "q": "Why does a coincident pair fold to mono with less tonal change than a spaced pair?",
+    "options": [
+     "Its capsules are always omnidirectional",
+     "It records the left and right channels at different levels",
+     "Its capsules are always wired in opposite polarity",
+     "Its capsules receive sound at the same time, so summing them causes no comb filtering"
+    ],
+    "answer": 3,
+    "explain": "With no time difference between the capsules, the mono sum is just a change of level at each angle. A spaced pair has time differences, which turn into comb filtering when summed."
+   },
+   {
+    "level": "intermediate",
+    "topic": "RF & wireless",
+    "q": "Why are in-ear monitor transmitters a common source of intermodulation problems?",
+    "options": [
+     "They transmit only in short bursts",
+     "They use a different modulation that cannot mix",
+     "They run continuously at relatively high power and are often installed close together",
+     "They always operate below 470 MHz"
+    ],
+    "answer": 2,
+    "explain": "Continuous, stronger carriers close together produce strong IMD. Use a combiner and keep transmit antennas apart from receive antennas."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Reverb & delay",
+    "q": "You increase the high-frequency damping on a reverb. What happens to the tail?",
+    "options": [
+     "The whole tail gets shorter at all frequencies equally",
+     "The pre-delay gets longer",
+     "The high frequencies last longer than the low frequencies",
+     "The high frequencies die away faster than the low frequencies, so the tail gets darker"
+    ],
+    "answer": 3,
+    "explain": "Damping shortens the decay time at high frequencies only, as air and soft surfaces do in real rooms. The low-frequency decay is unchanged."
+   },
+   {
+    "level": "basic",
+    "topic": "Microphone technique",
+    "q": "What mainly creates the stereo image in a spaced AB pair of omnis?",
+    "options": [
+     "Differences in polar pattern between the two mics",
+     "Differences in arrival time between the two mics",
+     "Polarity inversion of one mic",
+     "The figure-8 side signal"
+    ],
+    "answer": 1,
+    "explain": "Omnis pick up nearly equal levels from most directions, so the image comes mainly from the time it takes sound to reach the farther mic."
+   },
+   {
+    "level": "basic",
+    "topic": "Microphones",
+    "q": "On a typical large-diaphragm mic, how does sound arriving from the side usually compare with on-axis sound?",
+    "options": [
+     "It is duller, with less high-frequency content",
+     "It is brighter, with more high-frequency content",
+     "It has more low-frequency content but identical highs",
+     "It is identical apart from level"
+    ],
+    "answer": 0,
+    "explain": "At high frequencies the diaphragm and body are large compared with the wavelength, so off-axis highs partly cancel. Off-axis sound is usually duller and less even."
+   },
+   {
+    "level": "basic",
+    "topic": "Acoustics",
+    "q": "Which type of room mode is usually the strongest?",
+    "options": [
+     "Tangential",
+     "Oblique",
+     "Axial",
+     "Diffuse"
+    ],
+    "answer": 2,
+    "explain": "Axial modes bounce between just two surfaces and lose the least energy. Tangential and oblique modes involve more reflections and are weaker."
+   }
+  ]
+ }
+}

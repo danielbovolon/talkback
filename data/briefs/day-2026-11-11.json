@@ -1,0 +1,319 @@
+{
+ "period": "day",
+ "key": "2026-11-11",
+ "label": "Wed 11 Nov 2026",
+ "range": "9 Nov – 11 Nov 2026",
+ "generated": "2026-11-11T13:46:15+01:00",
+ "auto": true,
+ "headline": "Today's sound headlines",
+ "lead": "30 new stories from 17 sound and audio news sources over the last 48 hours, including Sound On Sound, Production Expert, ProSoundWeb, FOH, TPi and 12 more. This edition is assembled automatically from the outlets' own feeds: titles and summaries are theirs, sorted into sections. Open a story for the full article.",
+ "items": [
+  {
+   "cat": "plugins",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-11",
+   "title": "Pulsar Audio Releases DigiTape, A Free Early Digital Tape Plugin",
+   "take": "Pulsar Audio has released DigiTape, a free plugin combining two early 2000s digital tape algorithms with a modern interface and five tape types. Here are the details.",
+   "source": "Production Expert",
+   "url": "https://www.production-expert.com/production-expert-1/pulsar-audio-releases-digitape-a-free-early-digital-tape-plugin",
+   "free": true
+  },
+  {
+   "cat": "instruments",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-11",
+   "title": "Spitfire Audio & Eric Whitacre launch Eternity",
+   "take": "Captured in the same sessions that shaped Whitacre’s latest album, the new arrival combines an array of analogue synth sounds with pianos and warped choir recordings, delivering an ambient electronic sound palette that complements the existing Choir and Contrast libraries.",
+   "source": "Sound On Sound",
+   "url": "https://www.soundonsound.com/news/spitfire-audio-eric-whitacre-launch-eternity"
+  },
+  {
+   "cat": "live",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-10",
+   "title": "St Paul’s Church In Australia Expands Audio Footprint With DiGiCo",
+   "take": "Sanctuary in Sydney implements dual Quantum225 digital consoles and a 4REA4 system processor to support three weekly Sunday services, concerts, livestream productions and more.",
+   "source": "ProSoundWeb",
+   "url": "https://www.prosoundweb.com/st-pauls-church-in-australia-expands-audio-footprint-with-digico/?utm_source=rss&utm_medium=rss&utm_campaign=st-pauls-church-in-australia-expands-audio-footprint-with-digico"
+  },
+  {
+   "cat": "plugins",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-11",
+   "title": "Universal Audio Cooper Time Cube: The Garden Hose Delay is Now Native!",
+   "take": "It's been a favorite amongst Apollo users for years, and now the Universal Audio Cooper Time Cube plugin is available for all DAW users.",
+   "source": "Gearnews",
+   "url": "https://www.gearnews.com/universal-audio-cooper-time-cube-studio/"
+  },
+  {
+   "cat": "live",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-11",
+   "title": "GIG’s Bonnie May wins Business Leader of the Year at Buckinghamshire Business Awards",
+   "take": "Global Infusion Group’s CEO Bonnie May has been crowned Business Leader of the Year at the Buckinghamshire Business Awards 2026.",
+   "source": "TPi",
+   "url": "https://www.tpimagazine.com/gigs-bonnie-may-wins-business-leader-of-the-year-at-buckinghamshire-business-awards/"
+  },
+  {
+   "cat": "instruments",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-11",
+   "title": "Funniest User Reviews from the SonicState Archives: Oberheim Matrix 6 : Trawling the Legacy Site of Candid Opinions",
+   "take": "The Oberheim Matrix 6 is really an instrument of two halves. It's an Oberheim (with the classic logo...",
+   "source": "Sonicstate",
+   "url": "https://sonicstate.com/news/2026/11/11/funniest-user-reviews-from-the-sonicstate-archives-oberheim-matrix-6/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-11",
+   "title": "African Space Agency HQ Connects Nations with JBL and Soundcraft",
+   "take": "NEW CAIRO, Egypt – The African Space Agency has completed a multi-year audiovisual integration project at its headquarters within Egypt’s Space City in New Cairo, creating a fully automated conferencing environment designed to support collaboration between African member states.",
+   "source": "FOH",
+   "url": "https://fohonline.com/newsroom/international-news/african-space-agency-hq-connects-nations-with-jbl-and-soundcraft/"
+  },
+  {
+   "cat": "hearing",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-11",
+   "title": "NAL-NL3: Advancing Hearing Aid Prescription for Modern Clinical Practice",
+   "take": "This article provides clinical and research evidence to support the use of the new NAL-NL3 prescription for hearing aid fittings.",
+   "source": "Hearing Review",
+   "url": "https://hearingreview.com/hearing-products/testing-equipment/fitting-equipment/nal-nl3-advancing-hearing-aid-prescription-for-modern-clinical-practice"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-10",
+   "title": "Senator Questions Carr’s Future at FCC",
+   "take": "Lujan: ‘I don't think Chairman Carr is going to be around more than another three or four months’",
+   "source": "TV Technology",
+   "url": "https://www.tvtechnology.com/regulatory-legal/fcc/senator-questions-carrs-future-at-fcc"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-10",
+   "title": "RØDE Capture now available for Android",
+   "take": "RØDE has released RØDE Capture for Android. The free video recording app, which launched on iOS in 2023, combines basic camera controls with in-app control of compatible RØDE microphones. It’s now available on the Google Play Store.",
+   "source": "Newsshooter (audio)",
+   "url": "https://www.newsshooter.com/2026/11/10/rode-capture-now-available-for-android/"
+  },
+  {
+   "cat": "software",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-10",
+   "title": "DW-303 by DJW Audio emulates the TB-303 for FREE",
+   "take": "DJW Audio has released DW-303, a free, open-source TB-303-style bass synthesizer and step sequencer for macOS, Windows, and Linux. DW-303 recreates the original 303’s oscillator, filter, envelopes, and amplifier stages.",
+   "source": "Bedroom Producers Blog",
+   "url": "https://bedroomproducersblog.com/2026/11/10/djw-audio-dw-303/",
+   "free": true
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-11",
+   "title": "Seymour Duncan pays tribute to Eddie Van Halen with Custom Shop Frankenstein Pickup Collection",
+   "take": "Three takes on the classic Frankenstein humbucker are now available with the choice of four stripe finishes",
+   "source": "MusicRadar",
+   "url": "https://www.musicradar.com/guitars/seymour-duncan-custom-shop-frankenstein-collection-eddie-van-halen-humbucker"
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-11",
+   "title": "D.C. asks court to reject SeatGeek and Vivid Seats’ bid to block 10% ticket resale cap, says platforms want a ‘judicial veto’",
+   "take": "DC argues that the resale platforms \"dressed their policy objections up in constitutional garb and turned to this Court for a judicial veto.\" Source",
+   "source": "Music Business Worldwide",
+   "url": "https://www.musicbusinessworldwide.com/d-c-asks-court-to-reject-seatgeek-and-vivid-seats-bid-to-block-10-ticket-resale-cap-says-platforms-want-a-judicial-veto/"
+  },
+  {
+   "cat": "ai",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-11",
+   "title": "Adobe Premiere 27.0 Released – Color Mode, AI Assistant Panel, and Generative Audio Tools",
+   "take": "Adobe has released Premiere 27.0 with Color Mode, an AI Assistant panel, and tools that generate music, sound effects, and soundscapes in the timeline.",
+   "source": "CineD",
+   "url": "https://www.cined.com/adobe-premiere-27-0-released-color-mode-ai-assistant-panel-and-generative-audio-tools/"
+  },
+  {
+   "cat": "ai",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-11",
+   "title": "The “Blue Wave” Could Change the Rules for Music AI",
+   "take": "A skeptical but hopeful look at the opportunity to protect music and the people who make it. The Democratic victory in the midterms gives Congress a chance to change the terms under which AI uses music.",
+   "source": "Digital Music News",
+   "url": "https://www.digitalmusicnews.com/2026/11/10/blue-wave-change-rules-for-music-ai/"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-11",
+   "title": "Larix Elektro Origami Duo: it’s a dual complex oscillator, a synth voice, and more",
+   "take": "Larix Elektro Origami Duo is a dual analog complex oscillator module that is a synth voice, a stereo waveshaper, and more. Some products take longer to develop, and occasionally, they end up being completely overhauled [...]",
+   "source": "Synth Anatomy",
+   "url": "https://synthanatomy.com/2026/11/larix-elektro-origami-duo-it-s-a-dual-complex-oscillator-a-synth-voice-and-more.html"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-10",
+   "title": "Universal Audio Plug-In Lets You Record Like You Are At Capitol Studios",
+   "take": "Universal Audio has introduced a room-modeling and reverb plug-in that recreates Capitol Studios A and B, including their microphones, consoles, outboard gear and underground echo chambers… Read More Universal Audio Plug-In Lets You Record Like You Are At Capitol Studios",
+   "source": "Synthtopia",
+   "url": "https://www.synthtopia.com/content/2026/11/10/universal-audio-plug-in-lets-you-record-like-you-are-at-capitol-studios/"
+  },
+  {
+   "cat": "post",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-11",
+   "title": "How To Name Mix Versions So Nobody Plays The Wrong One",
+   "take": "Label a mix “final” and the changes start arriving, until you’re sending “Final Final v4” and nobody is sure which one is the last.",
+   "source": "Production Expert",
+   "url": "https://www.production-expert.com/production-expert-1/how-to-name-mix-versions-so-nobody-plays-the-wrong-one"
+  },
+  {
+   "cat": "software",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-10",
+   "title": "OWC Updates ThunderBay 4 Storage System With Thunderbolt 5",
+   "take": "Unit now includes two Thunderbolt 5 ports that allow users to connect a host computer and daisy-chain additional Thunderbolt, USB4 and USB-C devices.",
+   "source": "ProSoundWeb",
+   "url": "https://www.prosoundweb.com/owc-updates-thunderbay-4-storage-system-with-thunderbolt-5/?utm_source=rss&utm_medium=rss&utm_campaign=owc-updates-thunderbay-4-storage-system-with-thunderbolt-5"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-10",
+   "title": "MONO Music Conference 2026",
+   "take": "The MONO Music Conference (formerly Music Expo SF) is fast approaching, and is set to take over The Midway, San Francisco this coming weekend: 13–14 November 2026.",
+   "source": "Sound On Sound",
+   "url": "https://www.soundonsound.com/news/mono-music-conference-2026-0"
+  },
+  {
+   "cat": "software",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-11",
+   "title": "Yamaha URX, MGX, and CC1 Update: Deeper Integration and Customization Features",
+   "take": "With this new update, there are new features and improvements for the Yamaha URX audio interfaces, the MGX digital mixers, and the CC1 controllers.",
+   "source": "Gearnews",
+   "url": "https://www.gearnews.com/yamaha-urx-cc1-studio/"
+  },
+  {
+   "cat": "post",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-11",
+   "title": "Green Hippo to power LDI’s Battle of the Busk",
+   "take": "Seven LED screens, a crowd of people who do this for a living, and a handful of programmers making their debut at the pro level. No timecode. No safety net. Just music, Green Hippo Hippotizer, and one place for programmers to prove their skills.",
+   "source": "TPi",
+   "url": "https://www.tpimagazine.com/green-hippo-to-power-ldis-battle-of-the-busk/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-11",
+   "title": "Central Christian Church Using Clear-Com Gen-IC Virtual Intercom",
+   "take": "MT. VERNON, IL – Clear-Com noted that Central Christian Church has transformed communication across its live production operations by implementing Clear-Com’s LQ Series IP interfaces, Gen-IC Virtual Intercom, Agent-IC mobile app and Station-IC desktop client.",
+   "source": "FOH",
+   "url": "https://fohonline.com/newsroom/news/central-christian-church-using-clear-com-gen-ic-virtual-intercom/"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-11",
+   "title": "200 Patches For The KORG ARP2600 VST : ARP Foundation releases Starpath Vol. 1 with all proceeds supporting the Foundation's archives",
+   "take": "The Alan R. Pearlman Foundation has announced Starpath Vol. 1 , a collection of 200 ...",
+   "source": "Sonicstate",
+   "url": "https://sonicstate.com/news/2026/11/11/200-patches-for-the-korg-arp2600-vst/"
+  },
+  {
+   "cat": "hearing",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-11",
+   "title": "LexCare Hearing Foundation Brings Hearoes Tour to Washington, DC for Veterans Week",
+   "take": "The LexCare Hearing Foundation is bringing its 10th annual Hearoes Tour to Washington, DC, for Veterans Week 2026, offering free hearing screenings and care navigation to highlight service-connected hearing loss and tinnitus.",
+   "source": "Hearing Review",
+   "url": "https://hearingreview.com/inside-hearing/events/lexcare-hearing-foundation-brings-hearoes-tour-to-washington-dc-for-veterans-week"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-10",
+   "title": "Apple TV to Debut Sign Language Option",
+   "take": "Signing will be available Nov. 13 with the film ‘Being Heumann’",
+   "source": "TV Technology",
+   "url": "https://www.tvtechnology.com/platform/streaming/apple-tv-to-debut-sign-language-option"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-10",
+   "title": "Maono PD500W 2.4GHz wireless microphone with USB-C and XLR connectivity & built-in recording",
+   "take": "The Maono PD500W combines 2.4GHz wireless, USB-C and XLR connectivity with built-in recording capabilities. The microphone was primarily designed for podcasting, streaming, interviews, and on-location applications.",
+   "source": "Newsshooter (audio)",
+   "url": "https://www.newsshooter.com/2026/11/09/maono-pd500w-2-4ghz-wireless-microphone-with-usb-c-and-xlr-connectivity-built-in-recording/"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-09",
+   "title": "Never Found Audio releases MG-Mini, a FREE MIDI grabber plugin for Windows",
+   "take": "Never Found Audio, a new plugin developer based in Lower Saxony, Germany, has released MG-Mini, a free MIDI grabber plugin for Windows. We recently covered the developer’s debut plugin, VT-Mini, a free vocal tuner.",
+   "source": "Bedroom Producers Blog",
+   "url": "https://bedroomproducersblog.com/2026/11/09/never-found-audio-mg-mini/",
+   "free": true
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-11",
+   "title": "Exploring The Beatles’ riff-led Revolver highlight that John Lennon considered a throwaway",
+   "take": "One of Revolver’s most life-affirming moments, And Your Bird Can Sing signposted the Beatles’ philosophical development–and featured perhaps the Fab’s greatest ever guitar riff",
+   "source": "MusicRadar",
+   "url": "https://www.musicradar.com/artists/its-one-of-the-best-songs-ever-written-and-its-only-a-minute-and-a-half-long-exploring-the-beatles-riff-led-revolver-highlight-that-john-lennon-considered-a-throwaway"
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-11",
+   "title": "Samsung’s Harman launches Drops, a TikTok-style music discovery app, with Universal, Beggars and EMPIRE among its partners",
+   "take": "The app lets users listen to song clips lasting between 10 and 30 seconds, shared by friends and tastemakers on the platform. Source",
+   "source": "Music Business Worldwide",
+   "url": "https://www.musicbusinessworldwide.com/samsungs-harman-launches-drops-a-tiktok-style-music-discovery-app-with-universal-beggars-and-empire-among-its-partners/"
+  }
+ ],
+ "craft": {
+  "body": "Free tools like Plug-in Bench and the new no-iLok Soft Limit make it a good week to clean your plugin folder. Keep a simple list of every plugin you use on paid work, with version, format, licence type and whether it is confirmed on your current OS.\n\nBefore an OS or DAW update, test the list on a spare machine or a cloned drive, and keep old installers and old versions until every live session has been printed or archived. A session that opens with missing plugins in front of a client costs more than any update saves.",
+  "title": "Audit plugins before the session, not during it"
+ }
+}
