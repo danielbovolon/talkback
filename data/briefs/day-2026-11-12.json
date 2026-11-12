@@ -1,0 +1,318 @@
+{
+ "period": "day",
+ "key": "2026-11-12",
+ "label": "Thu 12 Nov 2026",
+ "range": "10 Nov – 12 Nov 2026",
+ "generated": "2026-11-12T14:49:19+01:00",
+ "auto": true,
+ "headline": "Today's sound headlines",
+ "lead": "30 new stories from 17 sound and audio news sources over the last 48 hours, including Sound On Sound, Production Expert, ProSoundWeb, FOH, TV Technology and 12 more. This edition is assembled automatically from the outlets' own feeds: titles and summaries are theirs, sorted into sections. Open a story for the full article.",
+ "items": [
+  {
+   "cat": "software",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-12",
+   "title": "Neural DSP Releases NanOS 2.3.0 Offering New Effects & Metronome",
+   "take": "Update adds five effects, a metronome with customizable practice settings and improvements to the accompanying Cortex Cloud mobile app.",
+   "source": "ProSoundWeb",
+   "url": "https://www.prosoundweb.com/neural-dsp-releases-nanos-2-3-0-offering-new-effects-metronome/?utm_source=rss&utm_medium=rss&utm_campaign=neural-dsp-releases-nanos-2-3-0-offering-new-effects-metronome"
+  },
+  {
+   "cat": "software",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-12",
+   "title": "Why Cloning Pro Tools Is Not a Protest: Our Verdict",
+   "take": "Open-source clones of Pro Tools and Adobe apps are being celebrated. We examine the ethics, the copyright questions, and what professionals are paying for.",
+   "source": "Production Expert",
+   "url": "https://www.production-expert.com/production-expert-1/why-cloning-pro-tools-is-not-a-protest-our-verdict"
+  },
+  {
+   "cat": "gear",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-12",
+   "title": "UVI release Twin 88 Keys",
+   "take": "UVI’s latest release combines a concert grand with a vintage electric piano in a single instrument, and kits users out with an array of tools that make it possible to blend and shape the distinct samples into new and interesting sounds.",
+   "source": "Sound On Sound",
+   "url": "https://www.soundonsound.com/news/uvi-release-twin-88-keys"
+  },
+  {
+   "cat": "instruments",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-12",
+   "title": "Reading Rainbow, the Buchla synth’s “MARF,” and a prototype’s live debut",
+   "take": "Hold on for a wormhole between different nerd universes. Steve Horelick, the prolific composer behind the music for Reading Rainbow, meets the classic Buchla 200, meets a new prototype of an official recreation of the Multiple Arbitrary Function Generator (MARF). Also, Star Trek.",
+   "source": "CDM",
+   "url": "https://cdm.link/reading-rainbow-buchla-marf-steve-horelick/"
+  },
+  {
+   "cat": "software",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-12",
+   "title": "Void Enemy releases Plenitude, a FREE synthesizer for macOS and Windows",
+   "take": "Void Enemy has released Plenitude, a free virtual analog synthesizer with three oscillators, a modulation matrix, and built-in effects for macOS and Windows. Plenitude started during Covid as Marco’s personal project, mostly out of boredom.",
+   "source": "Bedroom Producers Blog",
+   "url": "https://bedroomproducersblog.com/2026/11/12/void-enemy-plenitude/",
+   "free": true
+  },
+  {
+   "cat": "live",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-12",
+   "title": "CES Honors LG's Signature OLED, Wallpaper TVs",
+   "take": "In addition to video displays, LG won CES2027 Innovation Awards art tech, gaming & eSports and home appliances",
+   "source": "TV Technology",
+   "url": "https://www.tvtechnology.com/events/ces-honors-lgs-signature-oled-wallpaper-tvs"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-12",
+   "title": "Tone King Royce: AC-voiced Tube Preamp",
+   "take": "The Tone King Royce is a dual channel tube preamp based on the classic '60s AC amp tone",
+   "source": "Gearnews",
+   "url": "https://www.gearnews.com/tone-king-royce-ac-voiced-tube-preamp/"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-12",
+   "title": "Freqport Announces Availability Of FreqLift : Dynamics, harmonics, and sound enhancement in one plug-in",
+   "take": "Freqport describes FreqLift as framing next-generation dynamics, harmonics, and...",
+   "source": "Sonicstate",
+   "url": "https://sonicstate.com/news/2026/11/12/freqport-announces-availability-of-freqlift/"
+  },
+  {
+   "cat": "post",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-11",
+   "title": "Lucas Museum of Narrative Art Opens with Meyer Sound Systems",
+   "take": "LOS ANGELES – The Lucas Museum of Narrative Art, which opened Sept. 22 in Los Angeles’ Exposition Park, includes two theaters with identical systems supporting 5.1, 7.1, and Dolby Atmos formats. Designed by Sandhill Media, the sound systems make use of Meyer Sound Acheron cinema loudspeakers.",
+   "source": "FOH",
+   "url": "https://fohonline.com/newsroom/news/lucas-museum-of-narrative-art-opens-with-meyer-sound-systems/"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-11",
+   "title": "Blackmagic Ambisonic Microphone",
+   "take": "Blackmagic Design has announced the Blackmagic Ambisonic Microphone. According to the company, it is the world’s first 7th-order ambisonic microphone with 108 MEMS microphones and a built-in spatial encoder, allowing capture of spatial audio over a single USB-C cable The microphone consists of 108…",
+   "source": "Newsshooter (audio)",
+   "url": "https://www.newsshooter.com/2026/11/11/blackmagic-ambisonic-microphone/"
+  },
+  {
+   "cat": "hearing",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-11",
+   "title": "Yeasound Launches Robin CIC60, an OTC Completely-in-Canal Hearing Aid with Bluetooth Streaming",
+   "take": "Yeasound’s new FDA-regulated Robin CIC60 combines an ultra-compact, completely-in-canal design with Bluetooth streaming and case-mounted controls.",
+   "source": "Hearing Review",
+   "url": "https://hearingreview.com/hearing-products/hearing-aids/otc/yeasound-launches-robin-cic60-an-otc-completely-in-canal-hearing-aid-with-bluetooth-streaming"
+  },
+  {
+   "cat": "ai",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-12",
+   "title": "Matt Bellamy thinks that \"Instagram-type\" guitarists are the future",
+   "take": "He also wants to incorporate AI into a guitar",
+   "source": "MusicRadar",
+   "url": "https://www.musicradar.com/artists/guitarists/matt-bellamy-thinks-that-instagram-type-guitarists-are-the-future-they-have-this-new-way-of-monetising-what-they-do"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-12",
+   "title": "Blackmagic Ambisonic Microphone Announced – 7th Order Ambisonics, 108 MEMS Microphones, Single USB-C Cable",
+   "take": "Blackmagic Design has announced the Blackmagic Ambisonic Microphone, a 7th order ambisonic microphone with 108 digital MEMS capsules in a faceted metal sphere.",
+   "source": "CineD",
+   "url": "https://www.cined.com/blackmagic-ambisonic-microphone-announced-7th-order-ambisonics-108-mems-microphones-single-usb-c-cable/"
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-12",
+   "title": "Coachella’s 2027 Stacked Lineup Revealed — Dua Lipa, Tame Impala, SZA, Madonna, Phoebe Bridgers , Daddy Yankee Among the Bevy of Big Names",
+   "take": "The Coachella 2027 lineup has been announced, with Dua Lipa, Tame Impala, and SZA headlining Friday, Saturday, and Sunday on both weekends in April.",
+   "source": "Digital Music News",
+   "url": "https://www.digitalmusicnews.com/2026/11/11/coachella-2027-lineup-revealed/"
+  },
+  {
+   "cat": "software",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-12",
+   "title": "Elastic OSC: iOS/Android polysynth with MI algorithms: update 2.2 with mod animations, better MIDI & more",
+   "take": "Elastic OSC is the latest Synthesizer app from developer Oliver Greschke that takes the Mutable Instruments algorithms on a wild, modulating trip. Elastic OSC is one of my favorite synthesizers on iOS from the last [...]",
+   "source": "Synth Anatomy",
+   "url": "https://synthanatomy.com/2026/11/elastic-osc-review-ios-polysynth-takes-the-mutable-instruments-algorithms-on-a-wild-trip.html"
+  },
+  {
+   "cat": "ai",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-12",
+   "title": "Elvis Presley Enterprises is putting Tennessee’s ELVIS Act to the test in its voice-imitation lawsuit against Suno",
+   "take": "Elvis Presley Enterprises sued Suno in California on Friday (November 6) Source",
+   "source": "Music Business Worldwide",
+   "url": "https://www.musicbusinessworldwide.com/elvis-presley-enterprises-is-putting-tennessees-elvis-act-to-the-test-in-its-voice-imitation-lawsuit-against-suno/"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-11",
+   "title": "Schmidt Eight Voice Polyphonic Software Synthesizer Now Available",
+   "take": "Schmidt Synthesizer has introduced Schmidt Vi, a software recreation of its flagship analog synthesizer, bringing its four-oscillator architecture, five-filter signal path and extensive modulation capabilities to digital music production.… Read More Schmidt Eight Voice Polyphonic Software…",
+   "source": "Synthtopia",
+   "url": "https://www.synthtopia.com/content/2026/11/11/schmidt-eight-voice-polyphonic-software-synthesizer-now-available/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-12",
+   "title": "New System At Cultural Center Stadium In China Headed By Electro-Voice & Dynacord",
+   "take": "60,000-seat outdoor venue in Guangzhou that hosts a range of events outfitted with new system utilizing X1i fixed-installation line arrays and more driven by IPX power amplifiers.",
+   "source": "ProSoundWeb",
+   "url": "https://www.prosoundweb.com/new-system-at-cultural-center-stadium-in-china-headed-by-electro-voice-dynacord/?utm_source=rss&utm_medium=rss&utm_campaign=new-system-at-cultural-center-stadium-in-china-headed-by-electro-voice-dynacord"
+  },
+  {
+   "cat": "post",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-11",
+   "title": "Kaizen Audio Axis Upmixer And Vortex Downmixer First Look",
+   "take": "Kaizen Audio offer a range of plug-ins and tools for audio post. Among them are AXIS Upmixer and Vortex Downmixer. Designed to upmix stereo to 9.1.6 Dolby Atmos, AXIS creates upmixes which Kaizen claim fold back down to stereo with a perfect null.",
+   "source": "Production Expert",
+   "url": "https://www.production-expert.com/production-expert-1/kaizen-audio-axis-upmixer-and-vortex-downmixer-first-look"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-11",
+   "title": "Modbap release Wax Theory",
+   "take": "The second member of Modbap's all-new plug-in family has now arrived, and this time around, the company have drawn their inspiration from vinyl records.",
+   "source": "Sound On Sound",
+   "url": "https://www.soundonsound.com/news/modbap-release-wax-theory"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-12",
+   "title": "Analog Obsession releases MasterTone, a FREE Baxandall EQ plugin",
+   "take": "Analog Obsession has released MasterTone, a free Baxandall EQ plugin for macOS and Windows. Here’s a developer who was delivering quality freebies long before the current AI wave.",
+   "source": "Bedroom Producers Blog",
+   "url": "https://bedroomproducersblog.com/2026/11/12/analog-obsession-mastertone/",
+   "free": true
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-12",
+   "title": "Blackmagic Design Announces Blackmagic Ambisonic Microphone",
+   "take": "New 7th order ambisonic microphone features 108 MEMS microphones and a built in spatial encoder, allowing capture of spatial audio over a single USB-C cable",
+   "source": "TV Technology",
+   "url": "https://www.tvtechnology.com/production/live-production/blackmagic-design-announces-blackmagic-ambisonic-microphone"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-12",
+   "title": "Epiphone EDS-1275 Doubleneck: Back & Upgraded for 2026",
+   "take": "The Epiphone EDS-1275 Doubleneck is back and has been upgraded for the latest release",
+   "source": "Gearnews",
+   "url": "https://www.gearnews.com/epiphone-eds-1275-doubleneck/"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-12",
+   "title": "Acustica Releases SKY SA-1A : Recreation of the SA-1A tube opto compressor, in collaboration with Stam Audio",
+   "take": "Acustica describes their new SKY SA-1A as the faithful plugin recreation of th...",
+   "source": "Sonicstate",
+   "url": "https://sonicstate.com/news/2026/11/12/acustica-releases-sky-sa-1a-/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-11",
+   "title": "2026 MTV Video Music Awards Supported by Shure",
+   "take": "LOS ANGELES – The 2026 MTV Video Music Awards, broadcast live and streamed on CBS, Paramount+ and MTV from the Peacock Theater on Sept. 27, got an audio assist from Shure technologies including Axient Digital, KSM11 microphones and PSM 1000 IEMs.",
+   "source": "FOH",
+   "url": "https://fohonline.com/featured/2026-mtv-video-music-awards-supported-by-shure/"
+  },
+  {
+   "cat": "hearing",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-10",
+   "title": "Amplifon Americas Discloses Security Incident Affecting Patient and Member Data",
+   "take": "The managed hearing care network is notifying affected individuals and offering complimentary credit monitoring services, highlighting ongoing cybersecurity risks within the audiology ecosystem.",
+   "source": "Hearing Review",
+   "url": "https://hearingreview.com/inside-hearing/industry-news/amplifon-americas-discloses-security-incident-affecting-patient-and-member-data"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-12",
+   "title": "\"Have you ever played a piano that’s 14 feet tall? Now you can\": 5 new plugins you need to know about",
+   "take": "Nils Frahm's supersized piano tops our regular shortlist of new releases that deserve a place in your plugin folder",
+   "source": "MusicRadar",
+   "url": "https://www.musicradar.com/music-tech/have-you-ever-played-a-piano-thats-14-feet-tall-now-you-can-5-new-plugins-you-need-to-know-about"
+  },
+  {
+   "cat": "post",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-12",
+   "title": "NANLITE Rapid Square, Rectangular and Octagonal Softboxes Announced – Bowens Mount, Eggcrate Included, Plus a 10cm NANLUX Diffusion Ball",
+   "take": "NANLITE has added three umbrella-style softboxes to its Rapid line: the Rapid 90 Square, the Rapid 100×70 Rectangular and the Rapid 120 Octagonal.",
+   "source": "CineD",
+   "url": "https://www.cined.com/nanlite-rapid-square-rectangular-and-octagonal-softboxes-announced-bowens-mount-eggcrate-included-plus-a-10cm-nanlux-diffusion-ball/"
+  },
+  {
+   "cat": "ai",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-12",
+   "title": "Nvidia Moves to Quash ‘Burdensome’ UMG v. Suno Deposition Subpoena, Says It’s Already Produced Over 6,300 Documents",
+   "take": "The third-party subpoena disputes aren’t finished in UMG v. Suno: Now, Nvidia is firing back against the non-Warner majors’ demand for information about its investment in the AI music platform, said platform’s possible impact on the industry, and more.",
+   "source": "Digital Music News",
+   "url": "https://www.digitalmusicnews.com/2026/11/11/nvidia-suno-umg-subpoena-quash-motion/"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-12",
+   "title": "Pittsburgh Modular Microvolt 3901: the 3900 semi-modular synth returns as a plugin (desktop/iPadOS)",
+   "take": "Pittsburgh Modular goes software with the Microvolt 3901, a desktop and iPadOS emulation of the Microvolt 3900 semi-modular synth plus extras. Update: out now for iPadOS! Pittsburgh Modular, led by Richard Nicol, is a US-based [...]",
+   "source": "Synth Anatomy",
+   "url": "https://synthanatomy.com/2026/11/pittsburgh-modular-microvolt-3901-the-3900-semi-modular-synth-returns-as-a-plugin-desktop-ipados.html"
+  }
+ ],
+ "craft": {
+  "body": "Tools like VoxSplit and FFT can now get things out of a recording that used to be impossible. That makes it easy to forget that every separation is a guess at what was there. Always keep the untouched original on its own track or playlist, and print the separated result next to it, not in its place. Judge the result in the mix at the playback level and on the system it will be heard on, not soloed on headphones. Artefacts that disappear in context are fine, and ones that only show up in the mix are not.\n\nWrite down which tool, version and profile you used in the session notes or clip names. If the editor, mixer or QC flags something weeks later, you can repeat the process or undo it in minutes instead of guessing.",
+  "title": "Treat separation as a destructive edit"
+ }
+}

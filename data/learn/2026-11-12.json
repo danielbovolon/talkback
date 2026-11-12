@@ -1,0 +1,171 @@
+{
+ "key": "2026-11-12",
+ "label": "Thu 12 Nov 2026",
+ "generated": "2026-11-12T14:49:19+01:00",
+ "auto": true,
+ "lesson": {
+  "title": "Limiters, true peak, gates and expanders",
+  "topic": "Processing",
+  "level": "core",
+  "summary": "A limiter is a fast, high-ratio compressor that holds peaks under a ceiling. Sample-peak meters can miss the true peak of the reconstructed waveform, which can lie between samples; true-peak meters oversample to find it. Gates and downward expanders do the opposite of a compressor: they turn down signals below a threshold.",
+  "body": "A limiter is a compressor with a very high ratio, usually 10:1 or more, and a fast attack. A brickwall limiter aims for an infinite ratio, so nothing passes the ceiling. To catch fast transients without distortion, many limiters use lookahead. They delay the audio by a few milliseconds so the gain can start to fall before the peak arrives. 5 ms of lookahead at 48 kHz is 240 samples of latency. Fast release on bass-heavy material modulates the waveform and adds distortion, so good limiters use adaptive or program-dependent release.\n\nA sample-peak meter only reads the values of the samples. The DAC rebuilds a smooth waveform that can rise above them, between samples. These are inter-sample peaks. A sine at a quarter of the sample rate, sampled 45° away from its crests, has every sample at 0.707 of the true peak. Normalised to 0 dBFS samples, its true peak is +3 dB. ITU-R BS.1770 defines true-peak measurement. It oversamples the signal, at least 4× at 48 kHz, and reports the result in dBTP. EBU R128 sets a −1 dBTP maximum, and ATSC A/85 recommends −2 dBTP. Lossy codecs can also raise peaks, so leave more headroom for streaming encodes. Use a true-peak limiter or an oversampled limiter as the last stage of a master.\n\nA downward expander increases the dynamic range below its threshold. With a 1:2 ratio and a threshold of −40 dBFS, a −50 dBFS input comes out at −60 dBFS. A gate is an expander with a very high ratio. The range (or depth) control sets the most attenuation it can apply. Hold keeps it open for a set time after the signal drops. Hysteresis sets the close threshold lower than the open threshold, so it does not chatter on signals that hover near the threshold. A key (sidechain) filter makes the detector listen to only part of the spectrum.\n\nIn the studio, gate toms with the key filter tuned to the drum, so snare and cymbals do not open them. Use a small range rather than full muting so the kit still sounds natural. In post, a gentle expander with 6–10 dB of range lowers room tone and noise between dialogue lines with fewer audible jumps than a hard gate. Live, gates on toms and expanders on lectern mics reduce spill and help gain before feedback. For delivery, check the spec's true-peak limit and meter in dBTP, not just sample peaks.",
+  "keyPoints": [
+   "Limiter: ratio 10:1 or more, fast attack; brickwall aims for ∞:1.",
+   "Lookahead removes overshoot but adds latency (5 ms = 240 samples at 48 kHz).",
+   "Inter-sample peaks can exceed sample peaks; meter in dBTP.",
+   "EBU R128: −1 dBTP max; ATSC A/85: −2 dBTP.",
+   "Expander 1:2 below threshold: every 1 dB down becomes 2 dB down.",
+   "Gate controls: threshold, range, attack, hold, release, hysteresis, key filter."
+  ],
+  "sayIt": "The limiter stops the loudest moments from going over, and the gate quietly turns the mic down when nobody is playing into it.",
+  "inPractice": "Take a finished master that peaks at 0 dBFS on a sample-peak meter and put a true-peak meter on it. Note how far over 0 dBTP it goes, then set a true-peak limiter to the delivery ceiling and check again after encoding to AAC.",
+  "mistake": "Many engineers assume a master that peaks at 0 dBFS on a sample meter cannot clip. The reconstructed waveform can exceed 0 dBFS between samples, so a DAC or codec can clip it; measure true peak instead.",
+  "terms": [
+   {
+    "term": "Limiter",
+    "def": "A compressor with a very high ratio and fast attack that holds the signal under a ceiling."
+   },
+   {
+    "term": "Inter-sample peak",
+    "def": "A peak in the reconstructed analogue waveform that lies between samples and is higher than any sample value."
+   },
+   {
+    "term": "True peak (dBTP)",
+    "def": "The peak level of the reconstructed waveform, measured by oversampling as defined in ITU-R BS.1770."
+   },
+   {
+    "term": "Downward expander",
+    "def": "A processor that reduces level below a threshold by a ratio, increasing the dynamic range of quiet signals."
+   },
+   {
+    "term": "Hysteresis",
+    "def": "A gap between a gate's open and close thresholds that stops it chattering on signals near the threshold."
+   },
+   {
+    "term": "Range",
+    "def": "The maximum attenuation a gate or expander can apply."
+   }
+  ]
+ },
+ "quiz": {
+  "questions": [
+   {
+    "level": "advanced",
+    "topic": "Delay & time",
+    "q": "A limiter uses 1.5 ms of lookahead in a 96 kHz session. How many samples of latency does that add?",
+    "options": [
+     "72 samples",
+     "144 samples",
+     "288 samples",
+     "15 samples"
+    ],
+    "answer": 1,
+    "explain": "1.5 ms × 96 000 samples per second = 144 samples. Lookahead delays the audio so the gain can drop before the peak, and that delay is reported as latency."
+   },
+   {
+    "level": "advanced",
+    "topic": "Dynamics",
+    "q": "A sine at exactly one quarter of the sample rate is sampled 45° away from its crests, and the samples peak at 0 dBFS. What does a true-peak meter read?",
+    "options": [
+     "0 dBTP",
+     "About +6 dBTP",
+     "About −3 dBTP",
+     "About +3 dBTP"
+    ],
+    "answer": 3,
+    "explain": "Every sample lands at sin 45° = 0.707 of the true crest, which is 3 dB below it. If the samples read 0 dBFS, the reconstructed crest is about +3 dBTP."
+   },
+   {
+    "level": "advanced",
+    "topic": "Immersive",
+    "q": "A Dolby Atmos Renderer session has 128 inputs. You create two 7.1.2 beds, one for music and one for effects. How many objects are left?",
+    "options": [
+     "118",
+     "108",
+     "112",
+     "126"
+    ],
+    "answer": 1,
+    "explain": "Each 7.1.2 bed uses 10 inputs, so 128 − 20 = 108. The trap is remembering '118 objects' as a fixed number; it is only true with a single 7.1.2 bed."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Dynamics",
+    "q": "Why do gates offer hysteresis?",
+    "options": [
+     "To add a short delay before the gate opens",
+     "So the gate closes at a lower level than it opens, and does not chatter on signals near the threshold",
+     "To filter the sidechain signal",
+     "To limit how much the gate attenuates"
+    ],
+    "answer": 1,
+    "explain": "With one threshold, a decaying note that hovers around it makes the gate open and close rapidly. Hysteresis separates the open and close points to stop this. The range control, not hysteresis, sets the attenuation."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Psychoacoustics",
+    "q": "The A-weighting curve was originally based on approximately which equal-loudness contour?",
+    "options": [
+     "The 0 phon threshold contour",
+     "The 80 phon contour",
+     "The 40 phon contour",
+     "The 100 phon contour"
+    ],
+    "answer": 2,
+    "explain": "A-weighting approximates the ear's response at low levels around 40 phon. That is why it underestimates the loudness of bass at high levels."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Professional practice",
+    "q": "Which file name sorts correctly by date in any file browser?",
+    "options": [
+     "07-03-2026_Mix_v02.wav",
+     "March7_2026_Mix_v02.wav",
+     "2026-03-07_Mix_v02.wav",
+     "7.3.26 Mix final.wav"
+    ],
+    "answer": 2,
+    "explain": "YYYY-MM-DD (ISO 8601) puts the largest unit first, so alphabetical order is also chronological."
+   },
+   {
+    "level": "basic",
+    "topic": "Dynamics",
+    "q": "How does a downward expander differ from a compressor?",
+    "options": [
+     "It turns down signals above its threshold, reducing dynamic range",
+     "It raises signals below its threshold, reducing dynamic range",
+     "It only changes the frequency balance",
+     "It turns down signals below its threshold, increasing dynamic range"
+    ],
+    "answer": 3,
+    "explain": "A compressor acts above the threshold and reduces dynamic range. A downward expander acts below the threshold and makes quiet parts quieter."
+   },
+   {
+    "level": "basic",
+    "topic": "Synthesis",
+    "q": "In FM synthesis, which control most directly makes the sound brighter?",
+    "options": [
+     "The carrier's output level",
+     "The amplitude envelope release",
+     "The modulation index (modulator level)",
+     "The polarity of the carrier"
+    ],
+    "answer": 2,
+    "explain": "Raising the index pushes energy into more sidebands, which brightens the tone."
+   },
+   {
+    "level": "basic",
+    "topic": "RF & wireless",
+    "q": "What is intermodulation in a wireless system?",
+    "options": [
+     "Interference from mains wiring",
+     "Audio feedback between a mic and a wedge",
+     "New frequencies created when two or more signals mix in a non-linear stage",
+     "Loss of signal caused by a body blocking the antenna"
+    ],
+    "answer": 2,
+    "explain": "Non-linear circuits mix carriers and produce sums and differences of their multiples, which can land on channels in use."
+   }
+  ]
+ }
+}
