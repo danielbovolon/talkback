@@ -1,0 +1,167 @@
+{
+ "key": "2026-11-13",
+ "label": "Fri 13 Nov 2026",
+ "generated": "2026-11-13T14:10:47+01:00",
+ "auto": true,
+ "lesson": {
+  "title": "Proximity effect and off-axis colour",
+  "topic": "Microphones",
+  "level": "deeper",
+  "summary": "Proximity effect is the rise in bass response of a pressure-gradient (directional) mic when the source is close. Off-axis response is how a mic's frequency response changes away from its main axis. Both decide how close sources and spill sound, not just how loud they are.",
+  "body": "A pressure-gradient mic responds to the difference in pressure between the front and back of its diaphragm. Far from a source, that difference grows with frequency, and the mic's design corrects for it. Close to a small source, the sound waves are curved and the level falls quickly with distance. That adds an extra part to the pressure difference that does not depend on frequency. At low frequencies, this near-field part dominates, so the bass rises. A pure pressure mic (an omni) has no proximity effect.\n\nFor an ideal point source and a figure-8 mic, the bass rise compared with the far field is √(1 + 1/(kr)²), where k = 2πf/c and r is the distance. It reaches +3 dB where kr = 1, that is f = c/(2πr). At 10 cm that is about 546 Hz. A cardioid is half pressure and half gradient, so its rise is √(1 + 1/(2kr)²). It reaches +3 dB at half that frequency, about 273 Hz at 10 cm, and is about 6 dB less than a figure-8's at very low frequencies. Well below that frequency, each halving of distance adds about 6 dB of bass relative to the mids. That is on top of the general level rise.\n\nOff-axis response is a separate effect. An ideal cardioid is 6 dB down at 90° and has its null at 180°. Real mics drift from the ideal at the extremes of the spectrum. At high frequencies, the diaphragm and body become large compared with the wavelength. A 25 mm diaphragm equals one wavelength at about 13.7 kHz, so sound from the side partly cancels across its surface and the mic becomes more directional. Off-axis sound becomes duller and often uneven. Shotgun mics are very directional at high frequencies but much less so in the bass, and their off-axis sound is clearly coloured.\n\nThis shapes daily work. A singer who 'works the mic' uses proximity effect as an EQ. A presenter who leans in sounds boomy. On a boom, keep the distance and angle consistent, because the tone of the dialogue changes with both. Lavaliers are usually omnis, partly to avoid proximity effect so close to the mouth. Spill from cymbals into a tom mic, or from the band into a vocal mic, arrives off-axis, so the tone of that spill matters as much as its level. A bass-cut switch on the mic or preamp counters proximity effect at short distances.",
+  "keyPoints": [
+   "Only pressure-gradient (directional) mics show proximity effect.",
+   "Figure-8: +3 dB at f = c/(2πr); about 546 Hz at 10 cm.",
+   "Cardioid: +3 dB at half that frequency; about 6 dB less bass rise than a figure-8.",
+   "Well below the corner, halving the distance adds about 6 dB of bass.",
+   "Ideal cardioid: −6 dB at 90°, null at 180°.",
+   "Off-axis sound usually gets duller as frequency rises."
+  ],
+  "sayIt": "The closer you get to this mic, the more bass it gives you, so keep a steady distance and your voice will stay the same.",
+  "inPractice": "Record a talker at 5, 10, 20 and 40 cm on a cardioid, then match the levels and compare the low end. Repeat with a figure-8 ribbon and an omni, and note which mic changes most.",
+  "mistake": "Some people think proximity effect is just the mic getting louder when you get closer. It is a change in tonal balance: the bass rises more than the mids, and only on directional mics.",
+  "terms": [
+   {
+    "term": "Proximity effect",
+    "def": "The rise in bass response of a pressure-gradient mic when the source is close."
+   },
+   {
+    "term": "Pressure-gradient mic",
+    "def": "A mic that responds to the pressure difference between the two sides of its diaphragm. Figure-8s are pure gradient; cardioids are partly gradient."
+   },
+   {
+    "term": "Near field",
+    "def": "The region close to a source where the waves are strongly curved and level falls quickly with distance."
+   },
+   {
+    "term": "Off-axis colouration",
+    "def": "The change in a mic's frequency response for sound arriving away from its main axis."
+   },
+   {
+    "term": "Bass-cut switch",
+    "def": "A built-in high-pass filter used to counter proximity effect and low-frequency rumble."
+   }
+  ]
+ },
+ "quiz": {
+  "questions": [
+   {
+    "level": "advanced",
+    "topic": "Microphones",
+    "q": "A mic has a 25 mm diaphragm. Taking c = 343 m/s, at roughly what frequency does one wavelength equal the diaphragm's diameter?",
+    "options": [
+     "About 1.4 kHz",
+     "About 13.7 kHz",
+     "About 6.9 kHz",
+     "About 27 kHz"
+    ],
+    "answer": 1,
+    "explain": "λ = c/f, so f = 343 / 0.025 ≈ 13.7 kHz. Around and above this, sound from the side partly cancels across the diaphragm and the mic becomes more directional. 27 kHz would be for a 12.7 mm diaphragm."
+   },
+   {
+    "level": "advanced",
+    "topic": "Microphones",
+    "q": "A figure-8 ribbon is 10 cm from a small source. Using f = c/(2πr) with c = 343 m/s, at roughly what frequency has the proximity effect raised the response by 3 dB?",
+    "options": [
+     "About 273 Hz",
+     "About 55 Hz",
+     "About 546 Hz",
+     "About 3.4 kHz"
+    ],
+    "answer": 2,
+    "explain": "f = 343 / (2π × 0.1) ≈ 546 Hz. Below that, the bass keeps rising. 273 Hz would be the +3 dB point for a cardioid at the same distance."
+   },
+   {
+    "level": "advanced",
+    "topic": "Digital audio",
+    "q": "Using SNR = −20·log10(2π·f·tj), what is the best signal-to-noise ratio for a full-scale 20 kHz sine sampled with 1 ns RMS jitter?",
+    "options": [
+     "About 104 dB",
+     "About 60 dB",
+     "About 96 dB",
+     "About 78 dB"
+    ],
+    "answer": 3,
+    "explain": "2π × 20 000 × 1×10⁻⁹ ≈ 1.26×10⁻⁴, and −20·log10 of that is about 78 dB. The 104 dB figure is the result at 1 kHz: the effect of jitter grows with frequency."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Microphones",
+    "q": "Ideally, how far below its on-axis level is a cardioid at 90° off-axis?",
+    "options": [
+     "3 dB",
+     "10 dB",
+     "6 dB",
+     "20 dB"
+    ],
+    "answer": 2,
+    "explain": "An ideal cardioid follows 0.5 + 0.5·cos θ. At 90°, cos θ = 0, so the response is 0.5, which is −6 dB."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Acoustics",
+    "q": "What is the main difference between a diffuser and an absorber?",
+    "options": [
+     "A diffuser removes energy; an absorber spreads it",
+     "A diffuser scatters reflections in many directions; an absorber turns energy into heat",
+     "Diffusers only work below 100 Hz",
+     "They are the same thing with different names"
+    ],
+    "answer": 1,
+    "explain": "Diffusers keep the energy in the room but break up strong reflections. Absorbers reduce the reflected energy."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Immersive",
+    "q": "A sound designer wants a sub-heavy explosion to feed the LFE channel in an Atmos mix. Where must that LFE content go?",
+    "options": [
+     "Into an object with its size set to maximum",
+     "Into an object placed at floor height",
+     "Into the LFE channel of a bed",
+     "Into the binaural render with mode set to Far"
+    ],
+    "answer": 2,
+    "explain": "Only beds have an LFE channel. Objects have no LFE send, though bass management may still route their low end to subwoofers in playback."
+   },
+   {
+    "level": "basic",
+    "topic": "Microphones",
+    "q": "On a typical large-diaphragm mic, how does sound arriving from the side usually compare with on-axis sound?",
+    "options": [
+     "It is duller, with less high-frequency content",
+     "It is brighter, with more high-frequency content",
+     "It has more low-frequency content but identical highs",
+     "It is identical apart from level"
+    ],
+    "answer": 0,
+    "explain": "At high frequencies the diaphragm and body are large compared with the wavelength, so off-axis highs partly cancel. Off-axis sound is usually duller and less even."
+   },
+   {
+    "level": "basic",
+    "topic": "Immersive",
+    "q": "How many channels does a 7.1.2 bed contain?",
+    "options": [
+     "10",
+     "9",
+     "8",
+     "12"
+    ],
+    "answer": 0,
+    "explain": "Seven main channels, one LFE and two overhead channels: 7 + 1 + 2 = 10."
+   },
+   {
+    "level": "basic",
+    "topic": "Balanced lines",
+    "q": "How many signal conductors does a balanced audio line use, not counting the shield?",
+    "options": [
+     "One",
+     "Three",
+     "Two",
+     "Four"
+    ],
+    "answer": 2,
+    "explain": "A balanced line has hot and cold conductors plus a shield. Star-quad cable uses four wires, but they are paired into two conductors."
+   }
+  ]
+ }
+}

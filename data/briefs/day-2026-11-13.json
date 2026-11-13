@@ -1,0 +1,319 @@
+{
+ "period": "day",
+ "key": "2026-11-13",
+ "label": "Fri 13 Nov 2026",
+ "range": "11 Nov – 13 Nov 2026",
+ "generated": "2026-11-13T14:10:47+01:00",
+ "auto": true,
+ "headline": "Today's sound headlines",
+ "lead": "30 new stories from 16 sound and audio news sources over the last 48 hours, including Sound On Sound, Production Expert, ProSoundWeb, FOH, TPi and 11 more. This edition is assembled automatically from the outlets' own feeds: titles and summaries are theirs, sorted into sections. Open a story for the full article.",
+ "items": [
+  {
+   "cat": "plugins",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-13",
+   "title": "Studio Subscription Cost Tracker for Audio Pros - Find Out How Much You Are Spending",
+   "take": "Our calculator totals your DAW, plugin and cloud subscriptions in one place. See your true monthly and yearly spend.",
+   "source": "Production Expert",
+   "url": "https://www.production-expert.com/production-expert-1/what-does-your-studio-software-really-cost"
+  },
+  {
+   "cat": "live",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-13",
+   "title": "HLabs reveal the CL089",
+   "take": "HLabs' new CL089 module recreates the PWM compressor found in the iconic Studer 089 console, and joins their Studer 169-based preamp and EQ offerings.",
+   "source": "Sound On Sound",
+   "url": "https://www.soundonsound.com/news/hlabs-reveal-cl089"
+  },
+  {
+   "cat": "live",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-12",
+   "title": "Shure Wireless Deployed For 2026 MTV Video Music Awards In Los Angeles",
+   "take": "Axient Digital systems handled the production’s microphone channels while PSM 1000 systems provided performers with in-ear monitoring.",
+   "source": "ProSoundWeb",
+   "url": "https://www.prosoundweb.com/shure-wireless-deployed-for-2026-mtv-video-music-awards-in-los-angeles/"
+  },
+  {
+   "cat": "plugins",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-13",
+   "title": "Hainbach & AudioThing: Seconds : 48-band spectral sound design effect out now",
+   "take": "Hainbach and Audiothing are back with another plugin - <a hr...",
+   "source": "Sonicstate",
+   "url": "https://sonicstate.com/news/2026/11/13/hainbach-audiothing-seconds-/"
+  },
+  {
+   "cat": "industry",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-13",
+   "title": "Disguise joins the Yamaha group",
+   "take": "Yamaha Corporation has announced that it has decided to acquire Disguise. The acquisition brings together Yamaha’s heritage in music and Disguise’s leadership in visual technology, creating one partner for ambitious venues, attractions, and live events.",
+   "source": "TPi",
+   "url": "https://www.tpimagazine.com/disguise-joins-the-yamaha-group/"
+  },
+  {
+   "cat": "plugins",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-13",
+   "title": "DZTL8 releases Merg, a FREE stereo-to-mono plugin for macOS and Windows",
+   "take": "DZTL8 has released Merg, a free stereo-to-mono utility plugin for macOS and Windows that lets you adjust how much of each channel makes it into the mono mix.",
+   "source": "Bedroom Producers Blog",
+   "url": "https://bedroomproducersblog.com/2026/11/13/dztl8-merg/",
+   "free": true
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-13",
+   "title": "Drum Replacement Tools: New Sound, Same Feel",
+   "take": "We check out some essential drum replacement tools that can save the day when you're working with recordings captured in less-than-ideal spaces.",
+   "source": "Gearnews",
+   "url": "https://www.gearnews.com/drum-replacement-tools-studio/"
+  },
+  {
+   "cat": "post",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-12",
+   "title": "Funktion-One Commended at the 2026 AV Awards",
+   "take": "At the 2026 AV Awards, Funktion-One was “highly commended” in the “Venue Project of the Year” category for its work on the installation of an immersive audio system at Neushoorn, a 750-capacity live venue in Leeuwarden, Netherlands.",
+   "source": "FOH",
+   "url": "https://fohonline.com/newsroom/international-news/funktion-one-commended-at-the-2026-av-awards/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-12",
+   "title": "Tegna Promotes 3 Sales Executives to President and GM",
+   "take": "Ryan Drake, Tony Motta and Angela New to lead stations in Iowa, Arizona and Virginia",
+   "source": "TV Technology",
+   "url": "https://www.tvtechnology.com/business/people/tegna-promotes-3-sales-executives-to-president-and-gm"
+  },
+  {
+   "cat": "hearing",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-12",
+   "title": "Vybronics Introduces 4mm Coin LRA Claimed as Smallest-Diameter Haptic Motor on the Market",
+   "take": "Vybronics has launched the VG0415001W-240H to provide crisp haptic feedback for ultra-compact hearables.",
+   "source": "Hearing Review",
+   "url": "https://hearingreview.com/hearing-products/accessories/components/vybronics-introduces-4mm-coin-lra-claimed-as-smallest-diameter-haptic-motor-on-the-market"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-13",
+   "title": "Can't get into Berghain? Download this free warehouse techno sample pack instead",
+   "take": "Our latest SampleRadar drop is inspired by the industrial sounds of heavyweight techno",
+   "source": "MusicRadar",
+   "url": "https://www.musicradar.com/music-tech/samples/cant-get-into-berghain-download-this-free-warehouse-techno-sample-pack-instead",
+   "free": true
+  },
+  {
+   "cat": "software",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-13",
+   "title": "Nikon Z30 Wonder Lantern Mod Adds Higher Bitrates – 200 Mbps 4K, 25-Minute Slow Motion, Photo Zebras",
+   "take": "Wonder Lantern is an experimental firmware mod for the Nikon Z30 that raises bitrates to up to 200 Mbps in 4K and 108 Mbps in Full HD, extends slow-motion recording from 3 to 25 minutes and adds zebras, a date stamp and custom aspect ratios.",
+   "source": "CineD",
+   "url": "https://www.cined.com/nikon-z30-wonder-lantern-mod-adds-higher-bitrates-200-mbps-4k-25-minute-slow-motion-photo-zebras/"
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-13",
+   "title": "A Strange Kind of Blindness",
+   "take": "Jensen Huang, Arthur Schopenhauer, and all the things we risk losing. On November 12, 2026, Jensen Huang resigned as president and CEO of Nvidia, the company he co-founded in 1993 and spent thirty-three years transforming into one of the most valuable enterprises in the world.",
+   "source": "Digital Music News",
+   "url": "https://www.digitalmusicnews.com/2026/11/12/jensen-huang-strange-kind-of-blindness/"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-13",
+   "title": "Patchwerk Turns The M-VAVE FM-1 Into A Modular Synthesizer",
+   "take": "Patchwerk is a modular synthesizer firmware project for the M-VAVE FM-1, adding more than 80 modules, including oscillators, filters, samplers, sequencers and effects, along with a browser-based editor and emulator.… Read More Patchwerk Turns The M-VAVE FM-1 Into A Modular Synthesizer",
+   "source": "Synthtopia",
+   "url": "https://www.synthtopia.com/content/2026/11/12/patchwerk-turns-the-m-vave-fm-1-into-a-modular-synthesizer/"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-13",
+   "title": "Melodee: a custom MPC Sample groovebox firmware with VST support",
+   "take": "Melodee by Keremimo is a new custom firmware that turns the Akai MPC Sample into a 16-track groovebox with VST3 plugins, running from a microSD card. Yesterday, Akai took a major step toward an open [...]",
+   "source": "Synth Anatomy",
+   "url": "https://synthanatomy.com/2026/11/melodee-a-custom-mpc-sample-groovebox-firmware-with-vst-support.html"
+  },
+  {
+   "cat": "ai",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-12",
+   "title": "beatBread forms advisory board including executives from Meta and Suno",
+   "take": "Announcement follows the appointment of Andreea Gleeson as CEO of beatBread in September Source",
+   "source": "Music Business Worldwide",
+   "url": "https://www.musicbusinessworldwide.com/beatbread-forms-advisory-board-including-executives-from-meta-and-suno/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-12",
+   "title": "Audient launch the iD Mk3 line-up",
+   "take": "The third-generation iD range includes four units: the iD1, iD2, iD2+ and iD4+, all of which feature a front end derived from Audient's ASP8024-HE console and boast onboard room correction.",
+   "source": "Sound On Sound",
+   "url": "https://www.soundonsound.com/news/audient-launch-id-mk3-line"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-12",
+   "title": "Audient iD MKIII First Look 2026: RoomTune and Smart Gain",
+   "take": "The third generation of Audient’s well-loved iD audio interfaces is here. With some exclusive sweeteners that cannot be found anywhere else, here we explore iD MKIII for anyone looking for desktop audio production done better.",
+   "source": "Production Expert",
+   "url": "https://www.production-expert.com/production-expert-1/audient-id-mkiii-first-look-2026-roomtune-and-smart-gain"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-12",
+   "title": "Audient Launches New iD MK3 Audio Interface Range",
+   "take": "The four models in the series offer mic preamps with 75 dB of gain, 32-bit conversion with 128 dB of dynamic range, onboard DSP for EQ, compression and reverb, and USB-C bus power.",
+   "source": "ProSoundWeb",
+   "url": "https://www.prosoundweb.com/audient-launches-new-id-mk3-audio-interface-range/"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-13",
+   "title": "Sounds Of The Behringer MS-5 - 5 Minutes With : Unique routing, unusual sounds (video)",
+   "take": "Chris Black of Battery Operated Orchestra, has a new synth on the table - the Behringer MS-5 - a rem...",
+   "source": "Sonicstate",
+   "url": "https://sonicstate.com/news/2026/11/13/sounds-of-the-behringer-ms-5-5-minutes-with/"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-13",
+   "title": "Behringer AQ64L: Open-Source Clip Launcher With 64 Pads – How Much Will it Cost?",
+   "take": "Behringer has announced the AQ64L, an AKAI APC-like clip launcher controller. It’s open source too!",
+   "source": "Gearnews",
+   "url": "https://www.gearnews.com/behringer-aq64l-synth/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-12",
+   "title": "The Studio B&H, Riedel to Equip SMPTE Media Tech Summit",
+   "take": "B&H will design and integrate production systems, while Riedel supplies video infrastructure and comms tech",
+   "source": "TV Technology",
+   "url": "https://www.tvtechnology.com/events/the-studio-b-and-h-riedel-to-equip-smpte-media-tech-summit"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-12",
+   "title": "Jerry Harvey Audio Universal Plus",
+   "take": "Jerry Harvey Audio (JH Audio) announced Universal Plus, a new personalization program bringing many of the customization options available for JH Audio custom IEMs to its universal-fit range.",
+   "source": "FOH",
+   "url": "https://fohonline.com/blogs/new-gear/jerry-harvey-audio-universal-plus/"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-12",
+   "title": "Freakshow Industries releases Dicksmasher with FREE download option",
+   "take": "No Freakshow Industries release comes without a certain level of implied danger. This time, with Dicksmasher, we get an explicit warning that this weaponised distortion is “unsafe for use,” and confirmation that safety is just an illusion.",
+   "source": "Bedroom Producers Blog",
+   "url": "https://bedroomproducersblog.com/2026/11/12/freakshow-industries-dicksmasher/",
+   "free": true
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-12",
+   "title": "Florence + the Machine’s Everybody Scream Tour supported by Cohesion",
+   "take": "Earlier this year, Florence + the Machine debuted the Everybody Scream tour in support of their titular 2025 album. The theatrical extravaganza, which Pitchfork named one of the most anticipated tours of the year, was replete with an ethereal folk-horror aesthetic, a cloaked quartet of dancers, and…",
+   "source": "TPi",
+   "url": "https://www.tpimagazine.com/florence-the-machines-everybody-scream-tour-supported-by-cohesion/"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-13",
+   "title": "A rechristened Beach Boys play their first show without any of the founding members",
+   "take": "With Mike Love unable to perform, it was left to 'John Stamos and the California Sound' to fill the void",
+   "source": "MusicRadar",
+   "url": "https://www.musicradar.com/artists/bands/a-rechristened-beach-boys-play-their-first-show-without-any-of-the-founding-members-and-cancel-all-remaining-2026-dates"
+  },
+  {
+   "cat": "post",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-13",
+   "title": "ARRI Publishes Legacy Analog Camera Archive – ARRIFLEX 35, 16SR and 416 Manuals, Brochures and Specs Online",
+   "take": "ARRI has opened a Legacy Analog Cameras section on its website, with history, technical data and archive downloads for its film cameras from the ARRIFLEX 35 of 1937 to the ARRIFLEX 416 Plus HS of 2008.",
+   "source": "CineD",
+   "url": "https://www.cined.com/arri-publishes-legacy-analog-camera-archive-arriflex-35-16sr-and-416-manuals-brochures-and-specs-online/"
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-13",
+   "title": "Rock Isn’t Dead, It Just Has A Very Stable Floor — Takeaways From The Value of Rock Webinar",
+   "take": "Rock has been declared dead so many times that the declaration has become a tradition of its own, though the catalog deals, sold-out arenas, and streaming numbers keep refusing to flatline.",
+   "source": "Digital Music News",
+   "url": "https://www.digitalmusicnews.com/2026/11/12/the-value-of-rock-webinar-transcript/"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-13",
+   "title": "Konstrukt 1.2 Combines MIDI Sequencing, AUv3 Instruments And Modular Audio Routing",
+   "take": "Konstrukt combines customizable performance interfaces, MIDI processing, sequencing, sound generation, third-party plugin hosting and audio routing within a single environment.… Read More Konstrukt 1.2 Combines MIDI Sequencing, AUv3 Instruments And Modular Audio Routing",
+   "source": "Synthtopia",
+   "url": "https://www.synthtopia.com/content/2026/11/12/konstrukt-1-2-combines-midi-sequencing-auv3-instruments-and-modular-audio-routing/"
+  },
+  {
+   "cat": "ai",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-12",
+   "title": "NVIDIA’s venture arm asks court to block UMG and Sony’s demand for testimony in Suno lawsuit, calling itself a ‘passive minority investor’",
+   "take": "NVentures says it has already handed the labels 6,324 documents running to 28,194 pages. Source",
+   "source": "Music Business Worldwide",
+   "url": "https://www.musicbusinessworldwide.com/nvidias-venture-arm-asks-court-to-block-umg-and-sonys-demand-for-testimony-in-suno-lawsuit-calling-itself-a-passive-minority-investor/"
+  }
+ ],
+ "craft": {
+  "body": "Today's tinnitus trial is a reminder that hearing problems are treatable, but only if someone measures them. A baseline audiogram, done when your ears feel fine, gives you and any future audiologist something to compare against. Book it after a quiet day, not the morning after a show, or you will measure temporary threshold shift instead of your real hearing.\n\nKeep a copy of the result with your work records and repeat it every year or two. If a ringing lasts more than a day after a job, or one ear starts to sound duller than the other, go back early. Changes caught soon are easier to manage, and your ears are the one tool you cannot replace.",
+  "title": "Get a baseline audiogram before you need one"
+ }
+}
