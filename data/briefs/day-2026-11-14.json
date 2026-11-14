@@ -1,0 +1,319 @@
+{
+ "period": "day",
+ "key": "2026-11-14",
+ "label": "Sat 14 Nov 2026",
+ "range": "12 Nov – 14 Nov 2026",
+ "generated": "2026-11-14T13:15:55+01:00",
+ "auto": true,
+ "headline": "Today's sound headlines",
+ "lead": "30 new stories from 17 sound and audio news sources over the last 48 hours, including Sound On Sound, Production Expert, ProSoundWeb, FOH, TPi and 12 more. This edition is assembled automatically from the outlets' own feeds: titles and summaries are theirs, sorted into sections. Open a story for the full article.",
+ "items": [
+  {
+   "cat": "plugins",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-14",
+   "title": "Is Protility The Best Free Utility Plugin In 2026?",
+   "take": "Mike came across Protility, a versatile tool for gain staging, stereo width control, and phase correction. Designed to streamline essential mix tasks, Protility helps producers achieve a clean, balanced, professional sound, and it struck him that Protility would replace the favourite utility plugin…",
+   "source": "Production Expert",
+   "url": "https://www.production-expert.com/production-expert-1/is-protility-the-best-free-utility-plugin-in-2026",
+   "free": true
+  },
+  {
+   "cat": "gear",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-14",
+   "title": "Rotary Exciter & Resonator Clamps from ADDAC System",
+   "take": "ADDAC System's new Rotary Exciter Clamp and Resonator Clamp promise to provide an entirely new way for musicians to evoke sounds from guitars and other stringed instruments.",
+   "source": "Sound On Sound",
+   "url": "https://www.soundonsound.com/news/rotary-exciter-resonator-clamps-addac-system"
+  },
+  {
+   "cat": "live",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-13",
+   "title": "d&b audiotechnik Supports Shakira’s Madrid Residency",
+   "take": "Clair Global supplies a large-scale system headed by SL-Series arrays and more in support of the artist's performances at purpose-built Shakira Stadium at Iberdrola Music in Madrid.",
+   "source": "ProSoundWeb",
+   "url": "https://www.prosoundweb.com/db-audiotechnik-supports-shakiras-madrid-residency/"
+  },
+  {
+   "cat": "hearing",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-14",
+   "title": "ReSound Launches 7th Annual Gift of Hearing Campaign on Nov. 17",
+   "take": "ReSound has announced the launch of its seventh annual Gift of Hearing campaign, running from Nov. 17-20, which pairs hearing care professionals with patients in need of financial assistance.",
+   "source": "Hearing Review",
+   "url": "https://hearingreview.com/hearing-products/hearing-aids/resound-launches-7th-annual-gift-of-hearing-campaign-on-nov-17"
+  },
+  {
+   "cat": "live",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-13",
+   "title": "FCC Sends 2027 Upper C-Band Auction Plan Into Motion",
+   "take": "Public notice establishes dates by which existing satellite operators must migrate",
+   "source": "TV Technology",
+   "url": "https://www.tvtechnology.com/regulatory-legal/fcc/fcc-sends-2027-upper-c-band-auction-plan-into-motion"
+  },
+  {
+   "cat": "live",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-13",
+   "title": "Snow Patrol Performs with Sennheiser Spectera at Royal Albert Hall",
+   "take": "LONDON – The crew supporting Snow Patrol had adopted Sennheiser’s Spectera system for the band’s IEMs, then added Sennheiser’s Spectera SKM handheld mics for the band’s three shows at London’s Royal Albert Hall in September.",
+   "source": "FOH",
+   "url": "https://fohonline.com/featured/snow-patrol-performs-with-sennheiser-spectera-at-royal-albert-hall/"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-13",
+   "title": "Iconic Synths: 10 Game-Changing Synthesizers",
+   "take": "These are the iconic synths that made the biggest impact on music - and how you can get their sound even today.",
+   "source": "Gearnews",
+   "url": "https://www.gearnews.com/iconic-synths-1/"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-13",
+   "title": "StereoGhost releases PhaseKicker, an automatic kick-bass phase alignment plugin",
+   "take": "StereoGhost has released PhaseKicker, a plugin that automatically adjusts the phase relationship between your kick and bass on every kick hit. The Swiss developer is offering PhaseKicker for $35/€39 during its introductory sale, advertised to run until November 30, 2026.",
+   "source": "Bedroom Producers Blog",
+   "url": "https://bedroomproducersblog.com/2026/11/13/stereoghost-releases-phasekicker-an-automatic-kick-bass-phase-alignment-plugin/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-13",
+   "title": "Jerry Harvey Audio launches Universal Plus",
+   "take": "Jerry Harvey Audio has announced Universal Plus, a new personalisation program bringing many of the customisation options available for JH Audio custom IEMs to its universal-fit range.",
+   "source": "TPi",
+   "url": "https://www.tpimagazine.com/jerry-harvey-audio-launches-universal-plus/"
+  },
+  {
+   "cat": "software",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-13",
+   "title": "Harps with flowers that bloom and more fanciful creations of Monique Evette",
+   "take": "If you don't know her work, computer scientist Monique \"Evette\" Byars has built spectacular, animated instruments, merging digital modeling and fabrication techniques. Flowers bloom. Guitars are reimagined as koi ponds. Sounds get transformed into wearable resin structures.",
+   "source": "CDM",
+   "url": "https://cdm.link/fanciful-creations-of-monique-evette/"
+  },
+  {
+   "cat": "software",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-13",
+   "title": "Looping Tips For Oddment ODD-1 : New firmware features",
+   "take": "Oddment Audio have posted a video showing off the creative possibilities of the ODD-1, the bright yellow granular sam...",
+   "source": "Sonicstate",
+   "url": "https://sonicstate.com/news/2026/11/13/looping-tips-for-oddment-odd-1/"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-14",
+   "title": "“A producer’s role in a rap record is different to what it is in a rock record”: How Rick Rubin broke the mould",
+   "take": "In a classic interview, Rubin discusses the Beastie Boys, Slayer, The Cult, Roy Orbison and more",
+   "source": "MusicRadar",
+   "url": "https://www.musicradar.com/artists/a-producers-role-in-a-rap-record-is-different-to-what-it-is-in-a-rock-record-how-rick-rubin-broke-the-mould-as-a-producer-and-record-company-mogul-and-why-he-rates-mutt-lange-as-the-goat"
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-14",
+   "title": "Az Cohen’s AZTEC, a joint venture label with Believe, has signed its first artist",
+   "take": "Believe unveiled AZTEC in May, describing it as its first JV in the United States. Source",
+   "source": "Music Business Worldwide",
+   "url": "https://www.musicbusinessworldwide.com/az-cohens-aztec-a-joint-venture-label-with-believe-has-signed-its-first-artist/"
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-14",
+   "title": "Latest Music Industry Hires: SiriusXM, AIM, beatBread, BMI, Prescription Songs, PRG, TuneCore, USO, More",
+   "take": "Here’s a recap of recent music industry hires and in-house promotions as of November 13th, 2026. If you have a job shuffle to share, we’re all ears. Send us a note to news@digitalmusicnews.com. If you’d like to post a job on our Job Board, just send us a request to noah@digitalmusicnews.com.",
+   "source": "Digital Music News",
+   "url": "https://www.digitalmusicnews.com/2026/11/13/music-industry-hires-nov-13-2026/"
+  },
+  {
+   "cat": "software",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-14",
+   "title": "Behringer Opens New AQ64L 64-Pad MIDI Controller To Custom Firmware",
+   "take": "Behringer’s AQ64L is an 8×8 RGB clip-launch controller with dedicated Ableton Live and FL Studio integration. Music Tribe has also published a developer kit for creating and installing custom firmware.… Read More Behringer Opens New AQ64L 64-Pad MIDI Controller To Custom Firmware",
+   "source": "Synthtopia",
+   "url": "https://www.synthtopia.com/content/2026/11/13/behringer-opens-new-aq64l-64-pad-midi-controller-to-custom-firmware/"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-13",
+   "title": "Xfer Records Shrub: little Serum as a free plugin for mac, Linux and Windows",
+   "take": "Xfer Records Shrub is also a free mini Serum wavetable Synthesizer plugin for macOS, Linux, Windows, and hardware with a VST3 host. This evening, Steve Duda released the Shrub custom firmware for the M-VAVE FM-1 [...]",
+   "source": "Synth Anatomy",
+   "url": "https://synthanatomy.com/2026/11/xfer-record-shrub-little-serum-as-a-free-plugin-for-mac-linux-and-windows.html",
+   "free": true
+  },
+  {
+   "cat": "post",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-13",
+   "title": "Save Hundreds on Your Next Cinema Camera – MZed Pro Members Now Get B&H Education Pricing",
+   "take": "MZed Pro annual members can now join the B&H EDU Advantage program, the education discount scheme B&H Photo Video runs for film students and educators. It took us the better part of a year to set up, and I am glad to finally write this.",
+   "source": "CineD",
+   "url": "https://www.cined.com/save-hundreds-on-your-next-cinema-camera-mzed-pro-members-now-get-bh-education-pricing/"
+  },
+  {
+   "cat": "speakers",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-13",
+   "title": "Void Acoustics Installs Systems At Avalon Hollywood & SIDEPIECE Block Party",
+   "take": "Avalon's design centers on a custom five-way configuration based on Void's Incubus System, while SIDEPIECE temporary system utilized eight inward-facing loudspeaker positions arranged around the audience.",
+   "source": "ProSoundWeb",
+   "url": "https://www.prosoundweb.com/void-acoustics-installs-systems-at-avalon-hollywood-sidepiece-block-party/"
+  },
+  {
+   "cat": "post",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-13",
+   "title": "Surround Client Reviews Without the Room: Source-Nexus 2026",
+   "take": "Source Elements added a real-time surround downmixer to Source-Nexus Review in Source-Nexus Suite 1.6. In this article we look at why you might want to run a remote review session, and how Source-Nexus takes most of the work out of it.",
+   "source": "Production Expert",
+   "url": "https://www.production-expert.com/production-expert-1/remote-surround-review-source-nexus-downmix-session"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-12",
+   "title": "Universal Audio reintroduce UAD Cooper Time Cube Delay",
+   "take": "UA's recreation of the rather unique hardware delay unit designed by Bill Putnam Sr. and Duane H. Cooper in 1971 is now available natively.",
+   "source": "Sound On Sound",
+   "url": "https://www.soundonsound.com/news/universal-audio-reintroduce-uad-cooper-time-cube-delay"
+  },
+  {
+   "cat": "post",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-14",
+   "title": "Houston’s Health Museum Opens Permanent Exhibit Exploring the Science of Sound Perception",
+   "take": "Opening in November 2026, Houston's Health Museum's new permanent exhibit, *Sensing Sound: A Perception Box Experience*, explores the intersection of auditory science, neuroscience, and individual perception through immersive multi-sensory zones.",
+   "source": "Hearing Review",
+   "url": "https://hearingreview.com/inside-hearing/events/houstons-health-museum-opens-permanent-exhibit-exploring-the-science-of-sound-perception"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-13",
+   "title": "Political Ads Spiked a Week Before Midterm Elections, Nielsen Says",
+   "take": "Compared to the preceding six weeks, campaign spots climbed to 2.9 times their prior level in the week before the vote",
+   "source": "TV Technology",
+   "url": "https://www.tvtechnology.com/business/political-ads-spiked-a-week-before-midterm-elections-nielsen-says"
+  },
+  {
+   "cat": "speakers",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-13",
+   "title": "RCF Strengthens Global Brand Protection with Further Legal Outcomes",
+   "take": "REGGIO EMILIA, Italy – RCF S.p.A. has secured additional favorable outcomes in China in trademark infringement and loudspeaker design patent cases.",
+   "source": "FOH",
+   "url": "https://fohonline.com/newsroom/international-news/rcf-strengthens-global-brand-protection-with-further-legal-outcomes/"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-13",
+   "title": "Solar Guitars Type H Guillotine Headless Multiscale Travel Guitars",
+   "take": "Solar Guitars launches two new Type H Guillotine Headless Multiscale Travel Guitars!",
+   "source": "Gearnews",
+   "url": "https://www.gearnews.com/solar-guitars-type-h-guillotine/"
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-13",
+   "title": "DistroKid Launches Music Publishing Service : Designed to help independent artists collect songwriting royalties worldwide",
+   "take": "DistroKid , a distributor of music, has announced the launch of DistroKid Publishi...",
+   "source": "Sonicstate",
+   "url": "https://sonicstate.com/news/2026/11/13/distrokid-launches-music-publishing-service-/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-12",
+   "title": "CHAUVET Professional and ChamSys become Production Futures’ first Platinum Plus partner",
+   "take": "Sister brands CHAUVET Professional and ChamSys have further strengthened their commitment to helping young people and newcomers into the production industries, by jointly becoming Production Futures’ first Platinum Plus partner for 2026/27.",
+   "source": "TPi",
+   "url": "https://www.tpimagazine.com/chauvet-professional-and-chamsys-become-production-futures-first-platinum-plus-partner/"
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-14",
+   "title": "‘Peanuts’ Music Copyrights Owner Lee Mendelson Film Productions Settles Infringement Suit Against ‘Snoopy & The Great Mystery Club’ Publisher GameMill",
+   "take": "Six months later, Peanuts music owner Lee Mendelson Film Productions (LMFP) and video game publisher GameMill Entertainment have settled their copyright dispute.",
+   "source": "Digital Music News",
+   "url": "https://www.digitalmusicnews.com/2026/11/13/lee-mendelson-film-productions/"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-14",
+   "title": "DJW Audio Intros DW-303, a Free Open-Source TB-303-Style Synthesizer",
+   "take": "DJW Audio's DW-303 is a free, open-source TB-303-style bass synthesizer featuring circuit-modeled sound generation, a 16-step sequencer, 64 patterns and support for multiple plugin formats and operating systems.… Read More DJW Audio Intros DW-303, a Free Open-Source TB-303-Style Synthesizer",
+   "source": "Synthtopia",
+   "url": "https://www.synthtopia.com/content/2026/11/13/djw-audio-intros-dw-303-a-free-open-source-tb-303-style-synthesizer/",
+   "free": true
+  },
+  {
+   "cat": "speakers",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-13",
+   "title": "“There’s no hyped low end, and the highs are crisp and detailed without sounding overly harsh at higher listening levels”: HEDD HEDDphone Two headphones review",
+   "take": "Premium audiophile headphones cost serious money. Can the latest HEDD Audio design justify its price tag? Let’s find out",
+   "source": "MusicRadar",
+   "url": "https://www.musicradar.com/music-tech/headphones/hedd-heddphone-two-headphones-review"
+  },
+  {
+   "cat": "ai",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-13",
+   "title": "Reservoir expands copyright lawsuits against Suno and Anthropic to more than 2,500 songs combined",
+   "take": "Reservoir first sued the two AI companies in October Source",
+   "source": "Music Business Worldwide",
+   "url": "https://www.musicbusinessworldwide.com/reservoir-expands-copyright-lawsuits-against-suno-and-anthropic-to-more-than-2500-songs-combined/"
+  }
+ ],
+ "craft": {
+  "body": "The Gorillaz dropouts were found by recording the RF picture over time, not by staring at a scan during soundcheck. Interference between IEM and mic transmitters often appears only at one stage position or one moment in the show, when packs and transmitters line up. Start every show with your scanner or coordination software logging, and note cue times when you hear a problem, so you can line them up afterwards.\n\nKeep IEM transmitters and their antennas well away from mic receive antennas, and treat the IEM bands as part of the coordination, not something you add at the end. When a problem appears, change one thing at a time and keep the log running so you can prove the fix.",
+  "title": "Log your RF before you chase it"
+ }
+}

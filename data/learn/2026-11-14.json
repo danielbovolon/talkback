@@ -1,0 +1,171 @@
+{
+ "key": "2026-11-14",
+ "label": "Sat 14 Nov 2026",
+ "generated": "2026-11-14T13:15:55+01:00",
+ "auto": true,
+ "lesson": {
+  "title": "Reverb and delay design",
+  "topic": "Processing",
+  "level": "core",
+  "summary": "Artificial reverb and delay are built from delayed copies of a signal. Pre-delay sets the gap before the reverb starts, early reflections suggest the size and shape of the space, and decay time and damping set how long the tail lasts and how its tone changes. In a delay, feedback sets how quickly the repeats die away.",
+  "body": "In a real room, the direct sound arrives first, then a set of early reflections, then a dense, decaying tail. Reverb plugins copy this structure. Pre-delay sets the gap between the direct sound and the start of the reverb. In concert-hall acoustics, the gap before the first reflection is called the initial time delay gap. Sound travels about 34 cm per millisecond, so a reflection with 6.86 m of extra path arrives 20 ms after the direct sound. Longer pre-delay keeps a vocal or dialogue line clear of its reverb, and makes a space feel larger without a longer tail.\n\nEarly reflections, roughly the first 50 to 80 ms, tell the ear about the size and shape of the space and the source's position in it. Decay time is usually given as RT60, the time for the tail to fall by 60 dB. Damping makes high frequencies die away faster than low ones, as air and soft surfaces do in real rooms. More damping gives a darker, more natural tail that sits behind the mix. Many reverbs also have a bass multiplier for the decay at low frequencies. Diffusion sets how quickly the echoes blur into a smooth tail.\n\nA feedback delay sends part of its output back to its input. With feedback gain g, each repeat is 20·log10(g) dB below the last. At 50% (g = 0.5) each repeat is about 6 dB down, so it takes about 10 repeats to fall 60 dB. With a 375 ms delay that is about 3.7 s. Gain at or above 1 never decays and runs away. Short delays with feedback form a feedback comb filter with resonant peaks every 1/t Hz. A 5 ms loop rings at 200, 400, 600 Hz and so on, which is the metallic tone of flanging and of a badly tuned reverb. Algorithmic reverbs avoid this by mixing many such loops of unrelated lengths, as in Schroeder designs and feedback delay networks.\n\nIn practice, set the pre-delay first, then the decay, then the damping. For music, delay times are often set to tempo: a quarter note at 100 BPM is 600 ms. In post, match a reverb to the location by its early reflections and decay, and use damping so ADR sits with production dialogue. Live, keep reverb tails short in reverberant venues, because the room adds its own decay.",
+  "keyPoints": [
+   "Pre-delay: gap before the reverb; about 2.9 ms per metre of extra path.",
+   "Early reflections give size, shape and position cues.",
+   "RT60 is the time for the tail to fall by 60 dB.",
+   "Damping shortens the high-frequency decay.",
+   "Each repeat falls by 20·log10(g) dB; g = 0.5 gives about 6 dB per repeat.",
+   "A short feedback loop rings at multiples of 1/t."
+  ],
+  "sayIt": "The gap before the reverb lets your voice speak clearly first, and then the space blooms behind it.",
+  "inPractice": "On a dry vocal, set a plate to 2 s decay and sweep the pre-delay from 0 to 60 ms. Note where the words stay clear but the space still feels joined to the voice, then adjust the damping until the tail stops competing with the consonants.",
+  "mistake": "People often lengthen the decay to make a space sound bigger, and the mix turns muddy. Pre-delay and early reflections convey size more cleanly; keep the tail only as long as the tempo or scene allows.",
+  "terms": [
+   {
+    "term": "Pre-delay",
+    "def": "The time between the direct sound and the start of the reverb."
+   },
+   {
+    "term": "Early reflections",
+    "def": "The first distinct reflections, roughly within 50–80 ms, which give cues about the size and shape of a space."
+   },
+   {
+    "term": "RT60",
+    "def": "The time it takes for the reverb tail to decay by 60 dB."
+   },
+   {
+    "term": "Damping",
+    "def": "A control that makes high frequencies decay faster than low frequencies."
+   },
+   {
+    "term": "Feedback",
+    "def": "The part of a delay's output fed back to its input, which sets how many repeats you hear."
+   },
+   {
+    "term": "Initial time delay gap",
+    "def": "In concert-hall acoustics, the time between the direct sound and the first reflection."
+   }
+  ]
+ },
+ "quiz": {
+  "questions": [
+   {
+    "level": "advanced",
+    "topic": "Reverb & delay",
+    "q": "A delay is set to 375 ms with 50% feedback (each repeat at half the amplitude of the last). Roughly how long does it take for the repeats to fall by 60 dB?",
+    "options": [
+     "About 1.9 seconds",
+     "About 0.75 seconds",
+     "About 3.7 seconds",
+     "About 7.5 seconds"
+    ],
+    "answer": 2,
+    "explain": "Each repeat is 20·log10(0.5) ≈ −6 dB, so 60 dB needs about 10 repeats. 10 × 375 ms ≈ 3.7 s. The trap is to treat 50% as a 3 dB drop per repeat."
+   },
+   {
+    "level": "advanced",
+    "topic": "Reverb & delay",
+    "q": "The first reflection travels 6.86 m further than the direct sound (c = 343 m/s). What pre-delay does that correspond to?",
+    "options": [
+     "20 ms",
+     "2 ms",
+     "6.86 ms",
+     "40 ms"
+    ],
+    "answer": 0,
+    "explain": "t = 6.86 / 343 = 0.020 s = 20 ms. Sound travels about 34 cm per millisecond, so each metre of extra path adds about 2.9 ms."
+   },
+   {
+    "level": "advanced",
+    "topic": "Live sound",
+    "q": "A gradient cardioid pair has the rear sub 0.86 m behind the front sub, inverted and delayed by d/c (c = 343 m/s). In front of the array, near which frequency does the sum cancel?",
+    "options": [
+     "About 100 Hz",
+     "About 50 Hz",
+     "About 400 Hz",
+     "About 200 Hz"
+    ],
+    "answer": 3,
+    "explain": "In front, the rear sub arrives 2d/c late and inverted. When 2d equals one full wavelength (d = λ/2), the inversion causes cancellation: 343 / 1.72 ≈ 200 Hz."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Delay & time",
+    "q": "A song runs at 100 BPM. What delay time gives a quarter-note echo?",
+    "options": [
+     "300 ms",
+     "600 ms",
+     "450 ms",
+     "1.2 s"
+    ],
+    "answer": 1,
+    "explain": "One beat is 60 / 100 = 0.6 s. The other options are an eighth note (300 ms), a dotted eighth (450 ms) and a half note (1.2 s)."
+   },
+   {
+    "level": "intermediate",
+    "topic": "EQ & filters",
+    "q": "You want to EQ a snare top mic without changing how it sums with the snare bottom mic. Which EQ type keeps the phase relationship between the two unchanged?",
+    "options": [
+     "Linear-phase EQ, with delay compensation on",
+     "Minimum-phase EQ with a high Q",
+     "Minimum-phase EQ with a low Q",
+     "Any EQ, as long as you flip the polarity of the bottom mic"
+    ],
+    "answer": 0,
+    "explain": "Linear-phase EQ delays all frequencies equally, and delay compensation removes that delay, so only the level changes. Any minimum-phase move changes phase around the band and alters how the two mics sum."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Live sound",
+    "q": "In a gradient cardioid sub pair, how is the rear sub set compared with the front sub?",
+    "options": [
+     "Polarity reversed and delayed by the spacing divided by c",
+     "Same polarity and no delay",
+     "Same polarity and 10 dB quieter",
+     "Polarity reversed with no delay"
+    ],
+    "answer": 0,
+    "explain": "Delay lines up the arrivals behind the array, and the polarity flip makes them cancel there."
+   },
+   {
+    "level": "basic",
+    "topic": "Reverb & delay",
+    "q": "What does RT60 describe?",
+    "options": [
+     "The time before the first reflection arrives",
+     "The time it takes for the reverb to decay by 60 dB",
+     "The reverb level 60 ms after the direct sound",
+     "The time it takes for the reverb to build to full level"
+    ],
+    "answer": 1,
+    "explain": "RT60 is the standard measure of decay time: how long the sound takes to fall by 60 dB after the source stops."
+   },
+   {
+    "level": "basic",
+    "topic": "RF & wireless",
+    "q": "After the 700 MHz band was reassigned to mobile services in the EU, where does the UHF TV band used by many radio mics end?",
+    "options": [
+     "694 MHz",
+     "790 MHz",
+     "862 MHz",
+     "960 MHz"
+    ],
+    "answer": 0,
+    "explain": "The EU TV band now runs from 470 to 694 MHz. Exact use for wireless mics depends on national rules."
+   },
+   {
+    "level": "basic",
+    "topic": "Professional practice",
+    "q": "What does the 3-2-1 backup rule ask for?",
+    "options": [
+     "Three drives, two computers and one cloud account",
+     "Backups every 3 days, kept 2 weeks, 1 restore test a year",
+     "Three copies, on two different types of storage, with one off site",
+     "Three versions of each mix, two stems and one master"
+    ],
+    "answer": 2,
+    "explain": "Three copies, two media types, one off site: so no single failure or disaster can destroy all your work."
+   }
+  ]
+ }
+}
