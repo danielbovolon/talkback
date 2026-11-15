@@ -1,0 +1,167 @@
+{
+ "key": "2026-11-15",
+ "label": "Sun 15 Nov 2026",
+ "generated": "2026-11-15T13:48:13+01:00",
+ "auto": true,
+ "lesson": {
+  "title": "Dolby Atmos: beds, objects and re-renders",
+  "topic": "Film and post",
+  "level": "deeper",
+  "summary": "Dolby Atmos mixes combine beds, which are channel-based stems tied to fixed speaker positions, with objects, which are audio plus position metadata. A renderer turns both into speaker feeds or a binaural headphone signal at playback, so one master can play on many speaker layouts.",
+  "body": "A bed is a channel-based stem, up to 7.1.2: L, R, C, LFE, two side surrounds, two rear surrounds and two top surrounds. Each bed channel goes to a fixed place. Beds suit ambiences, music stems and anything you would mix in channels anyway. The LFE channel exists only in a bed. An object is a mono signal with metadata, mainly X, Y and Z position and size. It has no fixed speaker. The renderer works out which speakers play it, based on the layout in the room.\n\nThe Dolby Atmos Renderer accepts 128 inputs. A typical session uses one 7.1.2 bed (10 channels), which leaves 118 objects. Every extra bed costs inputs: two 7.1.2 beds leave 108. Dialogue is often kept as objects or in the bed centre, depending on the facility and the deliverable. Because the speaker feeds are computed at playback, the same master plays on 7.1.4, 9.1.6 or a soundbar. The master is delivered as an ADM BWF file or a Dolby Atmos master file set. Consumer codecs such as Dolby Digital Plus with Joint Object Coding use spatial coding, which groups objects into a smaller number of elements.\n\nHeadphones get a binaural render. Each object has a binaural render mode: Off, Near, Mid or Far. This setting only changes the headphone render. It does nothing to speaker playback. Near keeps a sound close to the head; Far adds more distance and room. Check the binaural render on real headphones, because many listeners will hear the mix that way.\n\nThe renderer can also make channel-based re-renders, such as 7.1, 5.1 and 2.0. Trim and downmix controls set how heights and surrounds fold into smaller layouts. A standard Lo/Ro stereo downmix (ITU-R BS.775) adds the centre and surrounds to left and right at −3 dB. Lt/Rt instead matrix-encodes surround information for a decoder. Re-renders are where problems appear: dialogue masked by folded-down effects, phasey height content, or a loudness change. Listen to every re-render you deliver and measure its loudness separately.",
+  "keyPoints": [
+   "Bed = channels at fixed positions, up to 7.1.2; object = mono audio + position metadata.",
+   "Renderer: 128 inputs. One 7.1.2 bed (10 ch) leaves 118 objects.",
+   "LFE exists only in a bed; objects have no LFE send.",
+   "Binaural render mode (Off/Near/Mid/Far) affects headphones only.",
+   "Re-renders (5.1, 2.0) depend on trim and downmix settings: always listen to them.",
+   "Lo/Ro stereo adds centre and surrounds at −3 dB."
+  ],
+  "sayIt": "In Atmos, some sounds are locked to channels and others carry their own position, so the same mix adapts to cinemas, living rooms and headphones.",
+  "inPractice": "On your next Atmos mix, solo the 2.0 re-render for a dialogue-heavy scene and compare it with the 7.1.4 playback. Note where effects mask speech and adjust the trims or the object balance, then re-measure loudness on each deliverable.",
+  "mistake": "Assuming the binaural setting also changes the speaker mix. It only changes the headphone render, so judge Near/Mid/Far on headphones, not on the room speakers.",
+  "terms": [
+   {
+    "term": "Bed",
+    "def": "Channel-based stem (up to 7.1.2) with each channel tied to a fixed speaker position."
+   },
+   {
+    "term": "Object",
+    "def": "Mono audio plus metadata (position, size) that the renderer places at playback."
+   },
+   {
+    "term": "Renderer",
+    "def": "Software or hardware that turns beds and object metadata into speaker or headphone feeds."
+   },
+   {
+    "term": "Re-render",
+    "def": "A channel-based version (e.g. 5.1, 2.0) generated from the Atmos mix."
+   },
+   {
+    "term": "ADM BWF",
+    "def": "Broadcast WAV file carrying audio plus Audio Definition Model metadata; a common Atmos master format."
+   }
+  ]
+ },
+ "quiz": {
+  "questions": [
+   {
+    "level": "advanced",
+    "topic": "Immersive",
+    "q": "You change a dialogue object's binaural render mode from Mid to Near. What changes when the mix plays on a 7.1.4 speaker system?",
+    "options": [
+     "Nothing: the setting only affects the binaural headphone render",
+     "The object moves closer to the centre speaker",
+     "The object gets less reverb in all speakers",
+     "The object is routed to the bed instead"
+    ],
+    "answer": 0,
+    "explain": "Binaural render mode is metadata used only by the headphone renderer. Speaker playback ignores it, so check it on headphones."
+   },
+   {
+    "level": "advanced",
+    "topic": "Immersive",
+    "q": "In a 5.1 re-render, a dialogue line sits only in the centre channel and peaks at −10 dBFS. With a standard Lo/Ro downmix that adds the centre at −3 dB, what is its peak in the left output?",
+    "options": [
+     "−10 dBFS",
+     "−16 dBFS",
+     "−7 dBFS",
+     "−13 dBFS"
+    ],
+    "answer": 3,
+    "explain": "The centre feeds each side at −3 dB, so −10 − 3 = −13 dBFS. On stereo speakers the two equal feeds rebuild a phantom centre."
+   },
+   {
+    "level": "advanced",
+    "topic": "Professional practice",
+    "q": "Your session is on a two-disk RAID 1 in the studio, and a second copy is on a USB drive on the same desk. Does this meet the 3-2-1 rule?",
+    "options": [
+     "Yes, because RAID 1 already counts as two copies",
+     "Yes, because there are three physical disks",
+     "No, because USB drives cannot be used for backup",
+     "No: the RAID mirror is effectively one copy, and nothing is off site"
+    ],
+    "answer": 3,
+    "explain": "A mirror reflects deletions and corruption instantly, so it counts as one copy. A fire or theft in the room would also take both remaining copies."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Immersive",
+    "q": "A sound designer wants a sub-heavy explosion to feed the LFE channel in an Atmos mix. Where must that LFE content go?",
+    "options": [
+     "Into an object with its size set to maximum",
+     "Into an object placed at floor height",
+     "Into the LFE channel of a bed",
+     "Into the binaural render with mode set to Far"
+    ],
+    "answer": 2,
+    "explain": "Only beds have an LFE channel. Objects have no LFE send, though bass management may still route their low end to subwoofers in playback."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Microphones",
+    "q": "Why does a figure-8 ribbon show more proximity effect than a cardioid at the same distance?",
+    "options": [
+     "Its ribbon is heavier than a condenser diaphragm",
+     "It has a lower output impedance",
+     "It needs phantom power",
+     "It is a pure pressure-gradient mic, while a cardioid is only partly gradient"
+    ],
+    "answer": 3,
+    "explain": "Proximity effect comes from the gradient part of a mic's response. A figure-8 is all gradient. A cardioid is half pressure and half gradient, so its bass rise is about 6 dB smaller at very low frequencies."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Synthesis",
+    "q": "How does a granular instrument stretch a sound to twice its length without changing pitch?",
+    "options": [
+     "It plays the whole sample at half speed",
+     "It moves the read position through the source at half speed while each grain plays at its original pitch",
+     "It lowers the grain size to 1 ms",
+     "It adds reverb to fill the gaps"
+    ],
+    "answer": 1,
+    "explain": "Read position and grain playback rate are independent, so time and pitch can be controlled separately. Half-speed playback would drop the pitch by an octave."
+   },
+   {
+    "level": "basic",
+    "topic": "Immersive",
+    "q": "What is a Dolby Atmos object?",
+    "options": [
+     "A fixed channel in the bed",
+     "A reverb return used for height",
+     "A stereo stem printed for delivery",
+     "Audio plus metadata, such as position and size, that the renderer places at playback"
+    ],
+    "answer": 3,
+    "explain": "An object is not tied to a speaker. Its metadata tells the renderer where to place it in whatever layout is used."
+   },
+   {
+    "level": "basic",
+    "topic": "Professional practice",
+    "q": "Which item belongs in a session handover note?",
+    "options": [
+     "The client's personal phone contacts",
+     "Your hourly rate",
+     "A list of unused takes deleted from the session",
+     "Sample rate, frame rate and start timecode"
+    ],
+    "answer": 3,
+    "explain": "The recipient needs the technical settings to open, sync and continue the session correctly."
+   },
+   {
+    "level": "basic",
+    "topic": "Digital audio",
+    "q": "In a studio with several interconnected digital devices, how many should act as the clock master?",
+    "options": [
+     "One",
+     "Two, for redundancy",
+     "Every device with a word-clock output",
+     "None; each device should use its internal clock"
+    ],
+    "answer": 0,
+    "explain": "One device sets the timing and every other device follows it. Two masters, or devices on internal clocks, will drift apart and cause clicks."
+   }
+  ]
+ }
+}
