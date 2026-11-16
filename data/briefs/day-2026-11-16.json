@@ -1,0 +1,321 @@
+{
+ "period": "day",
+ "key": "2026-11-16",
+ "label": "Mon 16 Nov 2026",
+ "range": "13 Nov – 16 Nov 2026",
+ "generated": "2026-11-16T14:43:48+01:00",
+ "auto": true,
+ "headline": "Today's sound headlines",
+ "lead": "30 new stories from 16 sound and audio news sources over the last 72 hours, including Sound On Sound, Production Expert, ProSoundWeb, FOH, TPi and 11 more. This edition is assembled automatically from the outlets' own feeds: titles and summaries are theirs, sorted into sections. Open a story for the full article.",
+ "items": [
+  {
+   "cat": "software",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-16",
+   "title": "Apogee Symphony I/O MK I Revived For Modern Macs By Free Open-Source Drivers",
+   "take": "Independent developer Daniel Raffel has released free, open-source drivers and a replacement control app for Apogee’s original Symphony I/O, after Apogee gave him access to its legacy source code. Apogee’s support for the 2010 interface ended with macOS 14 Sonoma.",
+   "source": "Production Expert",
+   "url": "https://www.production-expert.com/production-expert-1/apogee-symphony-i/o-mk-i-revived-for-modern-macs-by-free-open-source-drivers",
+   "free": true
+  },
+  {
+   "cat": "gear",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-16",
+   "title": "Anukari 1.1 now available",
+   "take": "Anukari 1.1 adds resonating strings, bars, plates, membranes, tubes and bells to the existing masses, springs and mallets models, and introduces a new mouthpiece that lets players blow into their creations like a wind instrument.",
+   "source": "Sound On Sound",
+   "url": "https://www.soundonsound.com/news/anukari-11-now-available"
+  },
+  {
+   "cat": "science",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-16",
+   "title": "Physicists defy expectations by controlling the magnetic heart of a single atom",
+   "take": "Scientists have unexpectedly discovered how to control the magnetic spin inside a single atom's nucleus using radio waves, overturning previous assumptions about atomic behavior.",
+   "source": "ScienceDaily (acoustics)",
+   "url": "https://www.sciencedaily.com/releases/2026/11/261114202232.htm"
+  },
+  {
+   "cat": "science",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-15",
+   "title": "A simple supplement could help your immune system fight cancer and viral infections",
+   "take": "A surprising discovery from Rockefeller University suggests that a common amino acid could play a powerful role in protecting against cancer and viral infections.",
+   "source": "ScienceDaily (hearing)",
+   "url": "https://www.sciencedaily.com/releases/2026/11/261113232000.htm"
+  },
+  {
+   "cat": "live",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-13",
+   "title": "JH Audio Introduces New Universal Plus IEM Customization Program",
+   "take": "The personalization program offers custom artwork, color and cable options while retaining the original acoustic designs and performance.",
+   "source": "ProSoundWeb",
+   "url": "https://www.prosoundweb.com/jh-audio-introduces-new-universal-plus-iem-customization-program/"
+  },
+  {
+   "cat": "live",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-16",
+   "title": "NBC Celebrates Centennial",
+   "take": "Network was launched Nov. 15, 1926",
+   "source": "TV Technology",
+   "url": "https://www.tvtechnology.com/business/people/nbc-celebrates-centennial"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-16",
+   "title": "In Session Audio offers Dyad: Solo Kalimba FREE for Kontakt Player",
+   "take": "In Session Audio is offering Dyad: Solo Kalimba, a kalimba sample library for the free Kontakt Player, as a free download through November 25. We’ve previously covered their Fruit Shake giveaways, which focused on sequenced shaker performances.",
+   "source": "Bedroom Producers Blog",
+   "url": "https://bedroomproducersblog.com/2026/11/16/dyal-solo-kalimba/",
+   "free": true
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-16",
+   "title": "E-MU Xtreme Lead-1 Synthesizer Module : Retro review from Alamo Music Sound Lab",
+   "take": "I'm a huge sucker for the rack mounted E-MU units, and always have been. The Mo' Phatt, Proetus 2000, Planet Phatt, O...",
+   "source": "Sonicstate",
+   "url": "https://sonicstate.com/news/2026/11/16/e-mu-xtreme-lead-1-synthesizer-module/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-16",
+   "title": "HOF announces a new dimension of pre rig truss",
+   "take": "On December 1, 2026, HOF will unveil a new Pre Rig Truss that expands its proven MLT portfolio with a whole new range of possibilities.",
+   "source": "TPi",
+   "url": "https://www.tpimagazine.com/hof-announces-a-new-dimension-of-pre-rig-truss/"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-16",
+   "title": "A Complete Gig-Ready Guitar Rig Under €1,000: Guitar, Amp, and Everything Else You Need to Plug and Play",
+   "take": "Looking to step it up and play shows regularly? Then you might need a gig-ready guitar rig. Check out these suggestions for under 1,000 euros.",
+   "source": "Gearnews",
+   "url": "https://www.gearnews.com/gig-ready-guitar-rig-under-1000-guitar/"
+  },
+  {
+   "cat": "games",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-15",
+   "title": "Plunge Audio Unity Stage Premium IEMs",
+   "take": "Plunge Audio unveils a new premium edition of its Canadian-made, Unity Stage universal-fit IEMs bringing a refined new look to the company’s most trusted performance in-ear monitors",
+   "source": "FOH",
+   "url": "https://fohonline.com/blogs/new-gear/plunge-audio-unity-stage-premium-iems/"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-16",
+   "title": "Bad Company drummer Simon Kirke on the making of the band’s biggest hit song",
+   "take": "“I think we did it in two takes. It was it was such a jazz to play”",
+   "source": "MusicRadar",
+   "url": "https://www.musicradar.com/artists/paul-had-this-riff-mick-had-this-little-country-verse-and-neither-idea-was-going-anywhere-so-i-said-hang-on-why-dont-you-combine-them-bad-company-drummer-simon-kirke-on-the-making-of-the-bands-biggest-hit-song"
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-16",
+   "title": "What Makes an Arena Artist In 2026?",
+   "take": "Not long ago, selling out Madison Square Garden meant chart hits and a household name. Now artists like Slayyyter, FKA twigs, and Cleo Sol are filling arenas on the strength of something else. So what does it actually take to be an arena artist today?",
+   "source": "Digital Music News",
+   "url": "https://www.digitalmusicnews.com/2026/11/16/what-makes-an-arena-artist-in-2026/"
+  },
+  {
+   "cat": "post",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-16",
+   "title": "New York Closes In on California as Top US Production State – California Answers With $1 Billion Tax Credit Plan",
+   "take": "New York is now within reach of California as the biggest film and TV production hub in the United States. According to ProdPro’s quarterly snapshot for Q3 2026, production spend in New York rose 87% year over year to $1.61 billion, while California kept first place with $1.76 billion, up 17%.",
+   "source": "CineD",
+   "url": "https://www.cined.com/new-york-closes-in-on-california-as-top-us-production-state-california-answers-with-1-billion-tax-credit-plan/"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-16",
+   "title": "Lifeforms Voltage Lab V: Pittsburgh Modular’s West-Coast semi-modular synth as a plugin (iPadOS)",
+   "take": "Lifeforms Voltage Lab V is an emulation of Pittsburgh Modular’s West Coast semi-modular Synthesizer from 2019, available as an iPadOS AUv3 plugin. Pittsburgh Modular recently released the Microvolt 3901 plugin—an emulation of their Microvolt 3900 [...]",
+   "source": "Synth Anatomy",
+   "url": "https://synthanatomy.com/2026/11/lifeforms-voltage-lab-v-pittsburgh-modulars-west-coast-semi-modular-synth-as-a-plugin-ipados.html"
+  },
+  {
+   "cat": "software",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-16",
+   "title": "Deluge 1.3 ‘Derbyshire’ Firmware Hands-On Demo",
+   "take": "The Deluge Community Firmware 1.3 “Derbyshire” update adds expanded modulation, new effects, a substantially enhanced arpeggiator, pattern saving and improved MIDI/CV control.… Read More Deluge 1.3 ‘Derbyshire’ Firmware Hands-On Demo",
+   "source": "Synthtopia",
+   "url": "https://www.synthtopia.com/content/2026/11/15/deluge-1-3-derbyshire-firmware-hands-on-demo/"
+  },
+  {
+   "cat": "software",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-16",
+   "title": "INSEKTIQ TONIQ Converts Audio To MIDI Inside Pro Tools Using ARA 2",
+   "take": "INSEKTIQ has announced TONIQ, an audio-to-MIDI plugin that works directly on clips in the Pro Tools timeline through ARA 2. It converts chords, vocals, drums and full mixes to MIDI on the computer, and the free version has no length limit or watermark.",
+   "source": "Production Expert",
+   "url": "https://www.production-expert.com/production-expert-1/insektiq-toniq-converts-audio-to-midi-inside-pro-tools-using-ara-2"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-16",
+   "title": "New plug-in suite from Berry Effects",
+   "take": "Berry Effects have introduced their first five plug-ins, and between them they cover reverb, delay and compression, as well as providing a handy free metering tool.",
+   "source": "Sound On Sound",
+   "url": "https://www.soundonsound.com/news/new-plug-suite-berry-effects"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-13",
+   "title": "Evangelical Chinese Church (ECC) In Washington Upgrades With NEXO",
+   "take": "New system designed to improve consistency, simplify operation and accommodate different congregations headed by GEO M10 line arrays and more.",
+   "source": "ProSoundWeb",
+   "url": "https://www.prosoundweb.com/evangelical-chinese-church-ecc-in-washington-upgrades-with-nexo/"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-16",
+   "title": "Soundtrap adds VST instrument support and partners with Arturia",
+   "take": "Soundtrap has added VST instrument support to its cloud-based music production platform, with Arturia’s Pigments synth and Efx MOTIONS joining the launch. The update lets producers bring virtual instruments into their Soundtrap projects alongside third-party effects.",
+   "source": "Bedroom Producers Blog",
+   "url": "https://bedroomproducersblog.com/2026/11/16/soundtrap-arturia-partnership/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-16",
+   "title": "Follow-Me announces Swiss distribution partnership with menzi ebz",
+   "take": "Follow-Me has appointed menzi ebz, a Swiss company based in Horgen that specialises in professional lighting, lighting control systems, rigging and event technology, as its exclusive distributor in Switzerland and Liechtenstein.",
+   "source": "TPi",
+   "url": "https://www.tpimagazine.com/follow-me-announces-swiss-distribution-partnership-with-menzi-ebz/"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-16",
+   "title": "Four Oscillator Plugins For KORG's NTS-1 mkII : Sinevibes releases Dense, Groove, Node and Odds",
+   "take": "Sinevibes has announced that four of its most advanced oscillator plugins are now available for...",
+   "source": "Sonicstate",
+   "url": "https://sonicstate.com/news/2026/11/16/-four-oscillator-plugins-for-korg-nts-1-mkii-/"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-16",
+   "title": "Xfer Records Shrub: Serum for Free?!",
+   "take": "Xfer Records Shrub is a free version of Serum that runs in your DAW as a VST and also the M-Wave FM-1. But is this really Serum? Like really?",
+   "source": "Gearnews",
+   "url": "https://www.gearnews.com/xfer-records-shrub-serum-synth/",
+   "free": true
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-16",
+   "title": "“Beneath the beautiful '80s graphics lies a musical engine which Cherry has re-engineered, giving it life way beyond the original”: Cherry Audio Ensoniq ESQ-1 review",
+   "take": "Cherry Audio’s reincarnation embraces a hybrid classic from the mid-to-late '80s. What’s more, this is no Mirage!",
+   "source": "MusicRadar",
+   "url": "https://www.musicradar.com/music-tech/synths/cherry-audio-ensoniq-esq-1-review"
+  },
+  {
+   "cat": "post",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-16",
+   "title": "Memory Costs Hit Canon, FUJIFILM, Nikon and Sony – Canon Plans Price Increases From 2027",
+   "take": "Canon says it will offset higher component costs “through price increases from next year onward,” after memory prices reduced its third-quarter profit by ¥19.8 billion.",
+   "source": "CineD",
+   "url": "https://www.cined.com/memory-costs-hit-canon-fujifilm-nikon-and-sony-canon-plans-price-increases-from-2027/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-16",
+   "title": "Kate Nash Reveals Losing $16,000 on Her Current Tour, With Plans to Help Cover the Cost on OnlyFans",
+   "take": "Kate Nash says she expects to lose around $16k on her current tour and plans to help make up the difference by posting content to OnlyFans. Kate Nash revealed last week that she expects to lose approximately $16,000 on her current tour and intends to make up as much of the difference as she can […]",
+   "source": "Digital Music News",
+   "url": "https://www.digitalmusicnews.com/2026/11/15/kate-nash-onlyfans-to-support-tour/"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-16",
+   "title": "Steve Duda’s Free Shrub Brings Serum Wavetable Synthesizer To The M-VAVE FM-1",
+   "take": "Xfer Records developer Steve Duda has released Shrub, a free, stripped-down version of Serum designed for the M-VAVE FM-1.",
+   "source": "Synthtopia",
+   "url": "https://www.synthtopia.com/content/2026/11/15/steve-dudas-free-shrub-brings-serum-wavetable-synthesizer-to-the-m-vave-fm-1/",
+   "free": true
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-15",
+   "title": "The Signal Supply Gigantic: a former NI employee reimagines the OG Massive synth",
+   "take": "The Signal Supply Gigantic, by a former NI employee, reimagines the OG Massive synth with a new modern UI, features, and more. At the end of October, Native Instruments released the Massive XL Synthesizer, while [...]",
+   "source": "Synth Anatomy",
+   "url": "https://synthanatomy.com/2026/11/the-signal-supply-gigantic-a-former-ni-employee-reinvents-the-og-massive-synth.html"
+  },
+  {
+   "cat": "hearing",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-16",
+   "title": "How To Get A Professional Hearing Assessment: A Practical Guide for Audio Engineers",
+   "take": "In our article on tinnitus, we discussed the importance of audio professionals getting regular hearing tests. In this article, we look in much greater detail at what we need from a hearing test as audio professionals and how to find and ask for the right kind of tests and care.",
+   "source": "Production Expert",
+   "url": "https://www.production-expert.com/production-expert-1/how-to-get-a-professional-hearing-assessment-a-practical-guide-for-audio-engineers"
+  },
+  {
+   "cat": "software",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-16",
+   "title": "Audiomodern updates FREE Filterstep 2 with new effects and sequencing modes",
+   "take": "Audiomodern has released Filterstep 2, a free rhythmic filter plugin for macOS and Windows with expanded sequencing options and five additional effect engines. We covered the original Filterstep back in 2020.",
+   "source": "Bedroom Producers Blog",
+   "url": "https://bedroomproducersblog.com/2026/11/16/audiomodern-filterstep-2/",
+   "free": true
+  }
+ ],
+ "craft": {
+  "body": "This week's lawsuits are about material that was copied and used for training without anyone agreeing to it. Meanwhile, services like TYGER and the AI scoring startups run on exactly what engineers deliver: clean, labelled stems. Once a stem package leaves your hands, you lose control of where it ends up unless the paperwork says so.\n\nAdd two short lines to your quote or delivery note. First, what the delivery may be used for (the named project and its formats). Second, whether it may be used to train or fine-tune AI models, and that this needs separate written consent. It takes a minute, it isn't confrontational, and it gives you something to point to if a stem turns up somewhere it shouldn't.",
+  "title": "Say in writing where your files may go"
+ }
+}

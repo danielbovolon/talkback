@@ -1,0 +1,162 @@
+{
+ "key": "2026-11-16",
+ "label": "Mon 16 Nov 2026",
+ "generated": "2026-11-16T14:43:48+01:00",
+ "auto": true,
+ "lesson": {
+  "title": "Cardioid sub arrays and end-fire",
+  "topic": "Live sound",
+  "level": "deeper",
+  "summary": "Subwoofers are almost omnidirectional, so arrays use spacing, delay and sometimes polarity inversion to add in front and cancel behind. The two common forms are the gradient (cardioid) pair and the end-fire line.",
+  "body": "A single sub radiates nearly equally in all directions, because its wavelengths are much larger than the box. To steer it you need more than one source. You set delay and polarity so the sources add in one direction and cancel in another. All the maths comes from path difference: sound travels about 0.343 m per millisecond, so a spacing d corresponds to a time of d/c.\n\nIn a gradient pair, a rear sub sits a distance d behind the front sub, with its polarity reversed and a delay of d/c. Behind the array, the front sub's sound has to travel the extra distance d, so it arrives at the same moment as the delayed rear sub. Equal level and opposite polarity cancel. In front, the rear sub's sound arrives 2d/c late and inverted. At the frequency where d is a quarter wavelength, that delay is half a period, so the inversion turns it back into addition: about +6 dB. At low frequencies the front sum falls, so gradient arrays usually need EQ. Where d is half a wavelength, the front sum cancels. With d = 0.86 m that happens near 200 Hz, usually above the sub band.\n\nIn an end-fire line, all subs face the audience with normal polarity. They are spaced along the throw axis, often around 1 m, and each sub further forward is delayed by d/c relative to the one behind it. In front, every wavefront arrives together and adds. Behind, adjacent subs arrive 2d/c apart, so the sum cancels at some frequencies and only partly at others. For two subs, the deepest rear cancellation is where 2d is half a wavelength, f = c/4d: about 86 Hz for 1 m. More elements widen the rear rejection range.\n\nIn practice, rear rejection is never perfect across the whole band. It depends on matched boxes, accurate delays and temperature. Measure behind the array, at the stage or the mix position, and check the front response at the audience. Cardioid subs reduce low-frequency build-up on stage and help keep the low end out of microphones and monitors.",
+  "keyPoints": [
+   "Delay per metre: d/c, about 2.92 ms per metre at 343 m/s.",
+   "Gradient pair: rear sub inverted and delayed by d/c; cancels behind.",
+   "End-fire: all same polarity, each forward sub delayed by d/c; adds in front.",
+   "Two-element end-fire rear null: f = c/4d (≈86 Hz at 1 m).",
+   "Rejection is frequency-dependent: always measure front and back."
+  ],
+  "sayIt": "We arrange and delay the subs so the bass adds up towards the audience and cancels on stage, which keeps the stage cleaner and the mix tighter.",
+  "inPractice": "When you set up a two-box end-fire, set the front box delay to spacing ÷ 343 in milliseconds, then measure with a mic 5 m behind and 5 m in front. Note the frequency of the deepest rear null and compare it with c/4d.",
+  "mistake": "Thinking end-fire needs a polarity flip like a gradient pair. End-fire uses only spacing and delay; the polarity inversion belongs to the gradient (cardioid) arrangement.",
+  "terms": [
+   {
+    "term": "Gradient array",
+    "def": "Front sub plus a rear sub with reversed polarity and delay d/c, cancelling behind."
+   },
+   {
+    "term": "End-fire array",
+    "def": "Subs in a line along the throw axis, delayed so their outputs add in front."
+   },
+   {
+    "term": "Path difference",
+    "def": "Difference in distance travelled by two sounds; divided by c it gives the time difference."
+   },
+   {
+    "term": "Rear rejection",
+    "def": "How much lower the level is behind an array than in front, at a given frequency."
+   }
+  ]
+ },
+ "quiz": {
+  "questions": [
+   {
+    "level": "advanced",
+    "topic": "Live sound",
+    "q": "An end-fire array has four subs in a line, each 1.2 m apart (c = 343 m/s). The rear sub has no delay. What delay does the frontmost sub need?",
+    "options": [
+     "3.5 ms",
+     "7.0 ms",
+     "10.5 ms",
+     "14.0 ms"
+    ],
+    "answer": 2,
+    "explain": "The frontmost sub is 3 × 1.2 = 3.6 m ahead, and 3.6 / 343 ≈ 10.5 ms. The trap is counting four gaps instead of three."
+   },
+   {
+    "level": "advanced",
+    "topic": "Live sound",
+    "q": "A gradient cardioid pair has the rear sub 0.86 m behind the front sub, inverted and delayed by d/c (c = 343 m/s). In front of the array, near which frequency does the sum cancel?",
+    "options": [
+     "About 100 Hz",
+     "About 50 Hz",
+     "About 400 Hz",
+     "About 200 Hz"
+    ],
+    "answer": 3,
+    "explain": "In front, the rear sub arrives 2d/c late and inverted. When 2d equals one full wavelength (d = λ/2), the inversion causes cancellation: 343 / 1.72 ≈ 200 Hz."
+   },
+   {
+    "level": "advanced",
+    "topic": "Acoustics",
+    "q": "You add absorption to a room so its RT60 halves. Using the standard critical-distance estimate, what happens to the critical distance?",
+    "options": [
+     "It doubles",
+     "It halves",
+     "It increases by about 1.4 times",
+     "It stays the same"
+    ],
+    "answer": 2,
+    "explain": "dc is proportional to √(1/RT60), so halving RT60 multiplies dc by √2 ≈ 1.41. The trap is assuming a linear relationship."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Live sound",
+    "q": "In a gradient cardioid sub pair, how is the rear sub set compared with the front sub?",
+    "options": [
+     "Polarity reversed and delayed by the spacing divided by c",
+     "Same polarity and no delay",
+     "Same polarity and 10 dB quieter",
+     "Polarity reversed with no delay"
+    ],
+    "answer": 0,
+    "explain": "Delay lines up the arrivals behind the array, and the polarity flip makes them cancel there."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Psychoacoustics",
+    "q": "You balance a mix at a very low monitoring level, then play it loud. What usually happens and why?",
+    "options": [
+     "It sounds thinner, because the ear is less sensitive to treble at high levels",
+     "Nothing, because the ear's frequency response doesn't depend on level",
+     "Bass and extreme treble sound louder than you intended, because the ear's sensitivity at the extremes rises faster with level than in the midrange",
+     "The stereo image narrows, because ILD cues shrink at high levels"
+    ],
+    "answer": 2,
+    "explain": "Equal-loudness contours (ISO 226) are much steeper at low frequencies and quiet levels. At low volume you push up the lows to compensate, so they come out too big when played loud."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Professional practice",
+    "q": "Why should you print or commit plugin-processed tracks before handing over a session?",
+    "options": [
+     "It makes the session open faster on the same machine",
+     "The recipient may not have the same plugins or versions, so the sound could change",
+     "Plugins are not allowed in delivered sessions",
+     "Printing tracks improves their sample rate"
+    ],
+    "answer": 1,
+    "explain": "Missing or different plugin versions change or bypass the processing. A printed track keeps the sound you approved."
+   },
+   {
+    "level": "basic",
+    "topic": "Live sound",
+    "q": "In an end-fire sub array, which way do the subwoofers face?",
+    "options": [
+     "Alternately forwards and backwards",
+     "All towards the audience",
+     "All towards the stage",
+     "Sideways, towards the walls"
+    ],
+    "answer": 1,
+    "explain": "All end-fire elements face forward with the same polarity. Only spacing and delay create the directivity."
+   },
+   {
+    "level": "basic",
+    "topic": "Connectors",
+    "q": "On a balanced XLR connection wired to the common AES/IEC standard, what does pin 2 carry?",
+    "options": [
+     "Shield or ground",
+     "The hot (+) signal",
+     "The cold (−) signal",
+     "Phantom power only"
+    ],
+    "answer": 1,
+    "explain": "Pin 1 is shield, pin 2 hot and pin 3 cold. Phantom power is carried equally on pins 2 and 3 relative to pin 1, not on a separate pin."
+   },
+   {
+    "level": "basic",
+    "topic": "Synthesis",
+    "q": "Which basic oscillator waveform contains only odd harmonics?",
+    "options": [
+     "Sawtooth",
+     "Sine",
+     "Square",
+     "White noise"
+    ],
+    "answer": 2,
+    "explain": "A square wave contains only odd harmonics, falling at 1/n. A sawtooth contains all harmonics, a sine has none, and noise has no harmonic series at all."
+   }
+  ]
+ }
+}
