@@ -1,0 +1,162 @@
+{
+ "key": "2026-11-17",
+ "label": "Tue 17 Nov 2026",
+ "generated": "2026-11-17T15:32:13+01:00",
+ "auto": true,
+ "lesson": {
+  "title": "Bass traps, absorbers and diffusers",
+  "topic": "Studio acoustics and monitoring",
+  "level": "core",
+  "summary": "Porous absorbers turn sound into heat as air moves through them, so they work where particle velocity is high. Pressure-based traps work where pressure is high, and diffusers scatter sound instead of absorbing it.",
+  "body": "A porous absorber, such as mineral wool or open-cell foam, works by friction. Air particles move through the fibres and lose energy as heat. At a rigid wall the air cannot move, so particle velocity is zero there and pressure is at its maximum. Velocity reaches its first maximum a quarter wavelength from the wall. This is the quarter-wavelength rule: a porous absorber works well down to roughly the frequency whose quarter wavelength equals its depth from the wall. A 0.20 m depth (material plus air gap) reaches λ/4 at about 429 Hz. For 100 Hz, λ/4 is about 0.86 m. Below that frequency absorption falls off gradually rather than stopping.\n\nThat is why thin foam tiles control the highs but leave the bass untouched. It is also why spacing a panel off the wall helps: an air gap moves the material towards higher velocity and extends useful absorption lower. Thick porous traps across corners give large depth from both walls. Every room mode has a pressure maximum in the corners, which also makes corners the natural place for pressure-based traps.\n\nPressure-based traps include membrane (panel) absorbers and Helmholtz resonators. A membrane trap has a sealed air space behind a limp panel. The panel and air spring resonate and absorb a band around their resonant frequency. These traps work best where pressure is high, at boundaries and in corners. They are tuned, so they target a specific problem, such as a strong mode you have measured.\n\nAbsorption is given by a coefficient α from 0 (all reflected) to 1 (all absorbed), and it varies with frequency. Diffusers do something different. A quadratic residue diffuser (QRD) has wells whose depths follow s = n² mod N for a prime N; for N = 7 the sequence is 0, 1, 4, 2, 2, 4, 1. The wells scatter reflections over many directions, so energy stays in the room but no single strong reflection arrives at the listener. Deeper wells are needed to work at lower frequencies. Measure the room before and after any treatment.",
+  "keyPoints": [
+   "Porous absorbers need particle velocity: max at λ/4 from a wall.",
+   "Depth of 0.20 m reaches λ/4 at about 429 Hz; 100 Hz needs about 0.86 m.",
+   "Air gaps and thick corner traps extend porous absorption lower.",
+   "Membrane and Helmholtz traps work on pressure, best at walls and corners.",
+   "Diffusers scatter energy; QRD wells follow n² mod N."
+  ],
+  "sayIt": "Thin panels only tame the treble; to control the bass we need deep traps in the right places, and diffusers to keep the room sounding open.",
+  "inPractice": "Measure a room's low-frequency response at the listening position, then add thick porous traps across the front corners and measure again. Compare the decay of the strongest modes in a waterfall plot, not just the level.",
+  "mistake": "Calling thin foam a 'bass trap'. A 5 cm panel flat on a wall barely affects frequencies below a few hundred hertz; low-frequency control needs depth or a tuned pressure trap.",
+  "terms": [
+   {
+    "term": "Porous absorber",
+    "def": "Material that absorbs by friction as air moves through it, e.g. mineral wool."
+   },
+   {
+    "term": "Absorption coefficient (α)",
+    "def": "Fraction of incident sound energy absorbed at a given frequency, from 0 to 1."
+   },
+   {
+    "term": "Membrane absorber",
+    "def": "Panel over a sealed air space that resonates and absorbs a low-frequency band."
+   },
+   {
+    "term": "Quadratic residue diffuser",
+    "def": "Diffuser with well depths set by n² mod N, scattering reflections over many angles."
+   }
+  ]
+ },
+ "quiz": {
+  "questions": [
+   {
+    "level": "advanced",
+    "topic": "Acoustics",
+    "q": "A quadratic residue diffuser uses N = 7. What is its well-depth sequence (s = n² mod 7, n = 0 to 6)?",
+    "options": [
+     "0, 1, 4, 2, 2, 4, 1",
+     "0, 1, 4, 9, 16, 25, 36",
+     "0, 1, 2, 3, 4, 5, 6",
+     "1, 4, 2, 2, 4, 1, 0"
+    ],
+    "answer": 0,
+    "explain": "Squares 0, 1, 4, 9, 16, 25, 36 taken mod 7 give 0, 1, 4, 2, 2, 4, 1. The sequence is symmetric, which is a property of quadratic residues."
+   },
+   {
+    "level": "advanced",
+    "topic": "Acoustics",
+    "q": "A porous panel plus its air gap reaches 0.20 m from a rigid wall (c = 343 m/s). Using the quarter-wavelength rule, down to roughly what frequency does it work well?",
+    "options": [
+     "About 215 Hz",
+     "About 860 Hz",
+     "About 1.7 kHz",
+     "About 430 Hz"
+    ],
+    "answer": 3,
+    "explain": "λ/4 = 0.20 m means λ = 0.80 m, so f = 343 / 0.80 ≈ 429 Hz. Below that, absorption falls off gradually."
+   },
+   {
+    "level": "advanced",
+    "topic": "Psychoacoustics",
+    "q": "Two omni mics are spaced 60 cm apart. A source is directly off to one side, on the line through both mics. Taking c = 343 m/s, what is the arrival time difference between them?",
+    "options": [
+     "About 0.35 ms",
+     "About 0.87 ms",
+     "About 3.5 ms",
+     "About 1.75 ms"
+    ],
+    "answer": 3,
+    "explain": "Time difference = 0.6 / 343 ≈ 1.75 ms. This is far larger than the ear's natural ITD of about 0.66 ms, which is one reason spaced pairs can sound very wide."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Acoustics",
+    "q": "What is the main difference between a diffuser and an absorber?",
+    "options": [
+     "A diffuser removes energy; an absorber spreads it",
+     "A diffuser scatters reflections in many directions; an absorber turns energy into heat",
+     "Diffusers only work below 100 Hz",
+     "They are the same thing with different names"
+    ],
+    "answer": 1,
+    "explain": "Diffusers keep the energy in the room but break up strong reflections. Absorbers reduce the reflected energy."
+   },
+   {
+    "level": "intermediate",
+    "topic": "EQ & filters",
+    "q": "You want to EQ a snare top mic without changing how it sums with the snare bottom mic. Which EQ type keeps the phase relationship between the two unchanged?",
+    "options": [
+     "Linear-phase EQ, with delay compensation on",
+     "Minimum-phase EQ with a high Q",
+     "Minimum-phase EQ with a low Q",
+     "Any EQ, as long as you flip the polarity of the bottom mic"
+    ],
+    "answer": 0,
+    "explain": "Linear-phase EQ delays all frequencies equally, and delay compensation removes that delay, so only the level changes. Any minimum-phase move changes phase around the band and alters how the two mics sum."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Loudness",
+    "q": "What integrated loudness target does ATSC A/85 set for US television?",
+    "options": [
+     "−23 LUFS",
+     "−24 LKFS",
+     "−16 LUFS",
+     "−27 LKFS"
+    ],
+    "answer": 1,
+    "explain": "A/85 uses −24 LKFS with a −2 dBTP true-peak ceiling. −23 LUFS is EBU R128, and −27 LKFS is Netflix's dialogue-gated target."
+   },
+   {
+    "level": "basic",
+    "topic": "Acoustics",
+    "q": "What does an absorption coefficient of 1.0 mean at a given frequency?",
+    "options": [
+     "All the sound energy hitting the surface is reflected",
+     "Half the sound energy is absorbed",
+     "The surface diffuses all the sound",
+     "All the sound energy hitting the surface is absorbed"
+    ],
+    "answer": 3,
+    "explain": "α ranges from 0 (all reflected) to 1 (all absorbed) and changes with frequency."
+   },
+   {
+    "level": "basic",
+    "topic": "Microphone technique",
+    "q": "From which direction does a cardioid microphone pick up the least sound?",
+    "options": [
+     "From the front (0°)",
+     "From directly behind (180°)",
+     "From the side (90°)",
+     "Equally from all directions"
+    ],
+    "answer": 1,
+    "explain": "A cardioid's single null is at the rear, 180°. Supercardioids and hypercardioids have their nulls off to the rear sides, which matters when placing wedges."
+   },
+   {
+    "level": "basic",
+    "topic": "Live sound",
+    "q": "What is the main purpose of a cardioid subwoofer array?",
+    "options": [
+     "To make the subs louder in front by adding more cabinets",
+     "To reduce low-frequency energy behind the array, such as on stage",
+     "To widen the subs' frequency response upward into the mids",
+     "To give the subs a figure-8 pattern for side coverage"
+    ],
+    "answer": 1,
+    "explain": "Rear-facing or delayed elements cancel low frequencies behind the array and add in front. That cleans up the stage and reduces spill into areas you don't want to reach."
+   }
+  ]
+ }
+}

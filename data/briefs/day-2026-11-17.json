@@ -1,0 +1,318 @@
+{
+ "period": "day",
+ "key": "2026-11-17",
+ "label": "Tue 17 Nov 2026",
+ "range": "15 Nov – 17 Nov 2026",
+ "generated": "2026-11-17T15:32:13+01:00",
+ "auto": true,
+ "headline": "Today's sound headlines",
+ "lead": "30 new stories from 16 sound and audio news sources over the last 48 hours, including Sound On Sound, Production Expert, ProSoundWeb, FOH, TPi and 11 more. This edition is assembled automatically from the outlets' own feeds: titles and summaries are theirs, sorted into sections. Open a story for the full article.",
+ "items": [
+  {
+   "cat": "gear",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-17",
+   "title": "Drummer Dan Flint Relies On Audient To Create Original Breakbeats",
+   "take": "Expands recording setup with an ASP880 mic preamp in support of multichannel tracking and collaborative electronic music production.",
+   "source": "ProSoundWeb",
+   "url": "https://www.prosoundweb.com/drummer-dan-flint-relies-on-audient-to-create-original-breakbeats/"
+  },
+  {
+   "cat": "plugins",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-17",
+   "title": "Freqport introduce FreqLift plug-in",
+   "take": "Freqport’s latest plug-in combines multiband upward and downward dynamics with the company’s renowned saturation processing, and can be used either alongside their FT1 hardware unit or as a standalone plug-in.",
+   "source": "Sound On Sound",
+   "url": "https://www.soundonsound.com/news/freqport-introduce-freqlift-plug"
+  },
+  {
+   "cat": "post",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-17",
+   "title": "WaveMachine Labs ReSpace Removes And Replaces Reverb - Our Reaction",
+   "take": "WaveMachine Labs ReSpace claims to strip the recorded reverb from audio parts and replace it with one of 500 MoReVoX rooms. Find out more.",
+   "source": "Production Expert",
+   "url": "https://www.production-expert.com/production-expert-1/wavemachine-labs-respace-removes-and-replaces-reverb-on-single-tracks-and-full-mixes"
+  },
+  {
+   "cat": "plugins",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-17",
+   "title": "Get UAD Vibe Analog Machines for $10, plus a FREE Plugin Boutique gift",
+   "take": "Universal Audio’s Vibe Analog Machines is available for $10 at Plugin Boutique, with a free gift included with the purchase. Plugin Boutique has reduced the price from $99 to $10 through November 30.",
+   "source": "Bedroom Producers Blog",
+   "url": "https://bedroomproducersblog.com/2026/11/17/uad-vibe-analog-machines/",
+   "free": true
+  },
+  {
+   "cat": "live",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-17",
+   "title": "Colorfront’s Color Management Added to RED Camera Feeds",
+   "take": "Partnership enables advanced colour grading and SDR/HDR mapping of RAW R3D files in real time, with playout in HD, 4K, and 8K",
+   "source": "TV Technology",
+   "url": "https://www.tvtechnology.com/business/partnerships/colorfronts-color-management-added-to-red-camera-feeds"
+  },
+  {
+   "cat": "speakers",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-17",
+   "title": "Competition: Win ADAM Audio D3V Active Monitors : Ends Dec 8th - details here..",
+   "take": "<span style=\"font-size:10pt; font-variant:normal; white...",
+   "source": "Sonicstate",
+   "url": "https://sonicstate.com/news/2026/11/17/competition-win-adam-audio-d3v-active-monitors/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-17",
+   "title": "National Theatre hosts first SkillsLab EXE Basic Maintenance training course",
+   "take": "Building on the National Theatre’s commitment to training development, knowledge sharing and industry collaboration, the venue proudly hosted the first SkillsLab EXE Basic Maintenance Training course, welcoming a record number of attendees from both its own technical teams, freelancers and external…",
+   "source": "TPi",
+   "url": "https://www.tpimagazine.com/national-theatre-hosts-first-skillslab-exe-basic-maintenance-training-course/"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-17",
+   "title": "Gibson Billy Gibbons Pearly Gates Les Pauls: $20k Murphy Lab & USA Standard",
+   "take": "Gibson has announced two Billy Gibbons Pearly Gates Les Pauls. A high-end $20k version and a Standard USA model",
+   "source": "Gearnews",
+   "url": "https://www.gearnews.com/gibson-billy-gibbons-pearly-gates-les-pauls/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-17",
+   "title": "Luxury Development in Bangkok Invests in Harman Systems",
+   "take": "BANGKOK, Thailand – Harman Professional distributor Mahajak Co., Ltd. and integration company Atkrist Co., Ltd. provided JBL, Crown and other Harman Professional audio products for Dusit Central Park, a mixed-use development in central Bangkok.",
+   "source": "FOH",
+   "url": "https://fohonline.com/featured/luxury-development-in-bangkok-invests-in-harman-systems/"
+  },
+  {
+   "cat": "software",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-16",
+   "title": "Ryo Fujimoto, performing live in Tokyo, asks how to be in an age of violence",
+   "take": "The masterful artist Ryo Fujimoto works in electronics not just as a passive actor behind machines, but fully embodied in physicality, voice, and sometimes screams.",
+   "source": "CDM",
+   "url": "https://cdm.link/ryo-fujimoto-live-in-tokyo/"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-17",
+   "title": "Forever 89 miniFM: an FM Synthesizer that is as immediate as a Minimoog",
+   "take": "Forever 89 miniFM is a new FM Synthesizer plugin that promises to be as immediate and hands-on as a 1970 Moog Minimoog. When you think of FM synthesizers—or FM synthesis in general—terms like “operators” and [...]",
+   "source": "Synth Anatomy",
+   "url": "https://synthanatomy.com/2026/11/forever-89-minifm-an-fm-synthesizer-that-is-as-immediate-as-a-minimoog.html"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-17",
+   "title": "Panasonic LUMIX AU-SHX1 Announced – 6K Full-Frame Box Camera, OLPF, Blackmagic RAW Recording to SSD, ARRI LogC3 Pre-installed",
+   "take": "Panasonic has announced the LUMIX AU-SHX1, a compact box-style cinema camera that brings its LUMIX and professional AV lines together in one body.",
+   "source": "CineD",
+   "url": "https://www.cined.com/panasonic-lumix-au-shx1-announced-6k-full-frame-box-camera-olpf-blackmagic-raw-recording-to-ssd-arri-logc3-pre-installed/"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-17",
+   "title": "“A lot of sweat has gone into the wood”: Rick Parfitt’s “unbelievably weathered” No. 1 Tele is up for auction this month",
+   "take": "Along with a load of his other guitars and amps",
+   "source": "MusicRadar",
+   "url": "https://www.musicradar.com/guitars/a-lot-of-sweat-has-gone-into-the-wood-and-the-fibres-have-swollen-and-shrunk-rick-parfitts-unbelievably-weathered-no-1-tele-is-up-for-auction-this-month"
+  },
+  {
+   "cat": "ai",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-17",
+   "title": "80% of people want AI music labeled, says Deezer/Ipsos survey – as 37% of Americans now see AI as a ‘valuable tool’ for musicians, down from 54% in 2025",
+   "take": "Deezer says US respondents were \"significantly more negative\" in 2026 than in 2025 on all questions about general attitudes to AI in music. Source",
+   "source": "Music Business Worldwide",
+   "url": "https://www.musicbusinessworldwide.com/80-of-people-want-ai-music-labeled-says-deezer-ipsos-survey-as-37-of-americans-now-see-ai-as-a-valuable-tool-for-musicians-down-from-54-in-2025/"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-17",
+   "title": "Luke Bryan & Jason Aldean Clap Back Against $1.4M Lawsuit Over Nashville Steakhouse",
+   "take": "Jason Aldean and Luke Bryan fire back against a $1.4 million lawsuit over their closed restaurant, E3 Chophouse, denying responsibility for the damages.",
+   "source": "Digital Music News",
+   "url": "https://www.digitalmusicnews.com/2026/11/16/luke-bryan-jason-aldean-steakhouse-lawsuit/"
+  },
+  {
+   "cat": "software",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-17",
+   "title": "discoDSP Updates OB-Xd and Retromulator With New Hardware-Inspired Features",
+   "take": "discoDSP has released OB-Xd 4, a major update modeled against a real Oberheim OB-X8, and Retromulator 2.4, which adds Nord Lead 2 and MiniD recreations, plus support for multi-core instrument racks.… Read More discoDSP Updates OB-Xd and Retromulator With New Hardware-Inspired Features",
+   "source": "Synthtopia",
+   "url": "https://www.synthtopia.com/content/2026/11/16/discodsp-updates-ob-xd-and-retromulator-with-new-hardware-inspired-features/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-17",
+   "title": "Dusit Central Park In Bangkok Integrates A Range Of Networked HARMAN Components",
+   "take": "New AV installation spanning a five-star hotel, luxury residences, retail areas, offices and a rooftop park utilizes technologies from JBL Professional, Crown, BSS Audio, Soundcraft and AMX.",
+   "source": "ProSoundWeb",
+   "url": "https://www.prosoundweb.com/dusit-central-park-in-bangkok-integrates-a-range-of-networked-harman-components/"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-17",
+   "title": "The Experts’ Favourite New Plugins And Gear: November 2026",
+   "take": "Following October 2026’s roundup of brand new gear and plugins, we decided to expand on some of our top choices as well as throw in a few new ones.",
+   "source": "Production Expert",
+   "url": "https://www.production-expert.com/production-expert-1/the-experts-favourite-new-plugins-and-gear-november-2026"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-16",
+   "title": "Eventide to launch SplitEQ 2",
+   "take": "The latest version of Eventide's innovate SplitEQ plug-in builds on the capabilities of the original with new dynamics-based controls and even more detailed control over how a source sits in the mix.",
+   "source": "Sound On Sound",
+   "url": "https://www.soundonsound.com/news/eventide-launch-spliteq-2"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-17",
+   "title": "HoRNet TrackUtility is FREE again until November 19",
+   "take": "HoRNet is offering TrackUtility, its gain, stereo, and metering utility plugin for macOS and Windows, for free again until November 19, 2026, with the code TRACKFREE. We covered the previous TrackUtility giveaway in March, so this is another chance to grab it if you missed that offer.",
+   "source": "Bedroom Producers Blog",
+   "url": "https://bedroomproducersblog.com/2026/11/17/hornet-trackutility-free-again/",
+   "free": true
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-17",
+   "title": "NAB Promotes Broadcast Positioning System Amid Tech Outages",
+   "take": "“America needs a backup plan. Luckily, broadcasters have one”",
+   "source": "TV Technology",
+   "url": "https://www.tvtechnology.com/platform/broadcast/nab-promotes-bps-amid-recent-tech-failures"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-17",
+   "title": "MiniFM from Forever 89 : 3-OP FM with Harmonic Interpolation Synthesis Engine",
+   "take": "Forever 89 have returned with a new 3-OP FM Synth, wh...",
+   "source": "Sonicstate",
+   "url": "https://sonicstate.com/news/2026/11/17/minifm-from-forever-89/"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-17",
+   "title": "Martin D-28 Robbie Robertson: A €26,999 Reimagining of Robbie’s 1951 Classic",
+   "take": "The D-28 Robbie Robertson honors 50 years of The Last Waltz, The Band's legendary farewell concert from 1976.",
+   "source": "Gearnews",
+   "url": "https://www.gearnews.com/martin-d-28-robbie-robertson-guitar/"
+  },
+  {
+   "cat": "hearing",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-17",
+   "title": "Professional Orchestras Using Sensaphonics Products",
+   "take": "CHICAGO – Professional orchestras are using Sensaphonics products as part of a broader movement toward helping musicians guard against hearing loss.",
+   "source": "FOH",
+   "url": "https://fohonline.com/newsroom/news/professional-orchestras-using-sensaphonics-products/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-16",
+   "title": "ET50 names Europalco CEO Pedro Magalhães among the 50 most influential people in event technology",
+   "take": "Pedro Magalhães, founder and CEO of Europalco, has been named to Event Tech Live’s inaugural ET50, a global list of the 50 most influential people in event technology.",
+   "source": "TPi",
+   "url": "https://www.tpimagazine.com/et50-names-europalco-ceo-pedro-magalhaes-among-the-50-most-influential-people-in-event-technology/"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-17",
+   "title": "Panasonic LUMIX SHX1 Review and Mini-Documentary – One Box Camera to Rule Them All?",
+   "take": "Before Panasonic announced the new LUMIX AU-SHX1, I got my hands on it to take it for a spin. This 6K full-frame camera is an important step forward for Panasonic, as it brings a very important product to the table that can finally fill a missing niche.",
+   "source": "CineD",
+   "url": "https://www.cined.com/panasonic-lumix-shx1-review-and-mini-documentary-one-box-camera-to-rule-them-all/"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-17",
+   "title": "“I looked at Taylor and said, ‘Oh my gosh, can I do this?’”: Hayley Williams on the hit song that reinvented Paramore’s sound",
+   "take": "The lyrics were written about her relationship with New Found Glory guitarist Chad Gilbert",
+   "source": "MusicRadar",
+   "url": "https://www.musicradar.com/artists/i-was-writing-the-lyrics-and-melody-for-the-chorus-and-i-looked-at-taylor-and-said-oh-my-gosh-can-i-do-this-it-sounds-really-poppy-hayley-williams-on-the-hit-song-that-reinvented-paramores-sound"
+  },
+  {
+   "cat": "ai",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-17",
+   "title": "Elvis Presley rightsholders amend Suno lawsuit, adding more than 100 allegedly infringing AI tracks",
+   "take": "The amended filing now leads with copyright infringement and alleges that Suno has created infringing output for all 859 songs in the suit. Source",
+   "source": "Music Business Worldwide",
+   "url": "https://www.musicbusinessworldwide.com/elvis-presley-rightsholders-amend-suno-lawsuit-adding-more-than-100-allegedly-infringing-ai-tracks/"
+  },
+  {
+   "cat": "ai",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-17",
+   "title": "Elvis Presley Enterprises and Authentic Brands Group Amend Their Suno Copyright and NIL Suit, Adding ‘A Multitude’ of Allegedly Infringing Outputs",
+   "take": "Just one week after filing a copyright infringement and NIL suit against Suno, Elvis Presley Enterprises has fired off an amended action – complete with an expanded list of allegedly infringing outputs.",
+   "source": "Digital Music News",
+   "url": "https://www.digitalmusicnews.com/2026/11/16/elvis-presley-enterprises-amended-suno-lawsuit/"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-17",
+   "title": "Decent Sampler makes custom instrument building easier with auto-sampler, preset editor & more",
+   "take": "Decent Sampler, the popular free sampler plugin, makes it easier to build your own instruments with an auto-sampler, preset editor, and more. In recent years, Decent Sampler has become an excellent free alternative to Native [...]",
+   "source": "Synth Anatomy",
+   "url": "https://synthanatomy.com/2026/11/decent-sampler-makes-custom-instrument-building-easier-with-auto-sampler-preset-editor-more.html"
+  }
+ ],
+ "craft": {
+  "body": "Most freelance money problems start in documents signed in a hurry: deal memos, letters of direction, split sheets, assignment forms. Before you sign, look for three things: who pays you and from what, whether you keep the right to check the numbers (audit or inspection rights), and any 'release' or 'waiver' wording that settles claims you don't yet know about.\n\nIf a form is called 'standard' and 'unchangeable', ask for the alternative anyway. As the Sony case shows, one may already exist. Keep a dated copy of every version you were sent and the one you signed, and save your royalty statements so a mismatch can be spotted years later.",
+  "title": "Read the paperwork that pays you"
+ }
+}
