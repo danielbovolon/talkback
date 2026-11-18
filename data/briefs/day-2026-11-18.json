@@ -1,0 +1,318 @@
+{
+ "period": "day",
+ "key": "2026-11-18",
+ "label": "Wed 18 Nov 2026",
+ "range": "16 Nov – 18 Nov 2026",
+ "generated": "2026-11-18T15:08:24+01:00",
+ "auto": true,
+ "headline": "Today's sound headlines",
+ "lead": "30 new stories from 16 sound and audio news sources over the last 48 hours, including Sound On Sound, Production Expert, ProSoundWeb, FOH, TPi and 11 more. This edition is assembled automatically from the outlets' own feeds: titles and summaries are theirs, sorted into sections. Open a story for the full article.",
+ "items": [
+  {
+   "cat": "live",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-18",
+   "title": "Martin Audio Leads Sonic Upgrade At Historic Michigan Church",
+   "take": "Integration firm BC Sound implements new system utilizing a O-Line compact array to support growing use of live music during services at First Presbyterian Church in Battle Creek.",
+   "source": "ProSoundWeb",
+   "url": "https://www.prosoundweb.com/martin-audio-leads-sonic-upgrade-at-historic-michigan-church/"
+  },
+  {
+   "cat": "software",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-18",
+   "title": "Track Pin In Pro Tools For Audio Post",
+   "take": "The larger a Pro Tools session gets, the more scrolling you inevitably have to do in order to locate the tracks you need to work on. This is especially a problem in large post-production sessions where track counts can easily run into the hundreds and beyond.",
+   "source": "Production Expert",
+   "url": "https://www.production-expert.com/production-expert-1/track-pin-in-pro-tools-for-audio-post"
+  },
+  {
+   "cat": "gear",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-18",
+   "title": "IK Multimedia announce Tonex Parametric",
+   "take": "IK Multimedia have just announced the launch of Parametric Tone Models, a new technology that captures not only the sound of guitar amps and pedals, but also how their controls respond and interact.",
+   "source": "Sound On Sound",
+   "url": "https://www.soundonsound.com/news/ik-multimedia-announce-tonex-parametric"
+  },
+  {
+   "cat": "live",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-18",
+   "title": "Monthly Subscription Streaming Service Prices Up Just 8% Since 2022",
+   "take": "Parks Associate's report shows the influence of bundling, AVOD on keeping streaming subscription prices relatively stable over the four-year period",
+   "source": "TV Technology",
+   "url": "https://www.tvtechnology.com/platform/streaming/monthly-subscription-streaming-service-prices-up-just-8-percent-since-2022"
+  },
+  {
+   "cat": "live",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-18",
+   "title": "Production Futures launches Switched On Campaign",
+   "take": "To mark its tenth anniversary, Production Futures will launch Switched On at its ON TOUR careers event at Production Park, Wakefield, on Thursday 19 November 2026.",
+   "source": "TPi",
+   "url": "https://www.tpimagazine.com/production-futures-launches-switched-on-campaign/"
+  },
+  {
+   "cat": "gear",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-18",
+   "title": "Shure MV360: A Plug-and-Play Spatial Mic for Any Situation",
+   "take": "The Shure MV360 is a versatile ambisonic microphone for creators that delivers clarity and realism with a straightforward capture workflow.",
+   "source": "Gearnews",
+   "url": "https://www.gearnews.com/shure-mv360-tech/"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-18",
+   "title": "Knob Knobs - Artisinal Knobs for Your Gear : An Interview with Designer Violeta Azevedo",
+   "take": "Knobs are a way of life; your *synth came with knobs, your pedal came with knobs and sometimes - you might think...",
+   "source": "Sonicstate",
+   "url": "https://sonicstate.com/news/2026/11/18/knob-knobs-artisinal-knobs-for-your-gear/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-18",
+   "title": "PAMA Introduces ‘Give Sound a Voice;’ Open Forum Set for Dec. 3",
+   "take": "LEMOYNE, PA – The Professional Audio Manufacturers Alliance (PAMA) is inviting manufacturers, consultants, designers, engineers, integrators, producers, educators, students and other audio professionals to participate in “Give Sound a Voice,” an open forum set for Dec. 3, 2026.",
+   "source": "FOH",
+   "url": "https://fohonline.com/newsroom/news/pama-introduces-give-sound-a-voice-open-forum-set-for-dec-3/"
+  },
+  {
+   "cat": "ai",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-17",
+   "title": "Auditdata and Neurotone AI Partner to Integrate Lace Pro Auditory Training into Manage PMS",
+   "take": "The collaboration streamlines patient license provisioning, enabling clinics to seamlessly incorporate cognitive hearing therapy into routine hearing aid fittings.",
+   "source": "Hearing Review",
+   "url": "https://hearingreview.com/practice-building/practice-management/auditdata-and-neurotone-ai-partner-to-integrate-lace-pro-auditory-training-into-manage-pms"
+  },
+  {
+   "cat": "ai",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-17",
+   "title": "Berlin’s largest electronic music venue, now a stage for debuting military AI",
+   "take": "Berlin Kraftwerk, the former power plant in Berlin Mitte associated with Tresor and Ohm, was the venue last week for Helsing's launch of new agentic technology, Clarity.",
+   "source": "CDM",
+   "url": "https://cdm.link/berlin-clarity-launch-at-kraftwerk/"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-17",
+   "title": "MTHRBORD releases ACL2500, a FREE API 2500-style bus compressor",
+   "take": "MTHRBORD.STUDIO has released ACL2500, a free stereo VCA bus compressor for macOS and Windows, modeled from measurements and recordings of a real API 2500. The developer measured how the hardware responds across different threshold, ratio, attack, release, and knee settings.",
+   "source": "Bedroom Producers Blog",
+   "url": "https://bedroomproducersblog.com/2026/11/17/mthrbord-acl2500/",
+   "free": true
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-18",
+   "title": "“I said, ‘Let’s get Prince to produce our album.’ Prince’s reply was, ‘I don’t produce no white boys!’”",
+   "take": "“Maybe we could have become one of the biggest bands in the world, butwe just wanted to be the coolest”",
+   "source": "MusicRadar",
+   "url": "https://www.musicradar.com/artists/i-said-lets-get-prince-to-produce-our-album-it-would-be-so-cool-so-outrageously-different-but-princes-reply-was-i-dont-produce-no-white-boys-singer-michael-monroe-relives-the-glory-days-of-hanoi-rocks-the-band-guns-n-roses-wanted-to-be"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-18",
+   "title": "Pikoto Four-Operator FM Groovebox For iOS, Android",
+   "take": "Pikoto is a new FM groovebox for iPhone, iPad and Android. It pairs a four-operator FM synth with a four-track step sequencer, inspired by the Elektron Digitone, OP-Z, Volca FM, and Akemie’s Castle, rolled into an interface drawn like a handheld game cartridge.",
+   "source": "Synthtopia",
+   "url": "https://www.synthtopia.com/content/2026/11/18/pikoto-four-operator-fm-groovebox-for-ios-android/"
+  },
+  {
+   "cat": "post",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-18",
+   "title": "Magic Lantern for Canon DSLRs in 2026 – 14-Bit RAW Video, Film Roll, Soup Engine and M-Film",
+   "take": "More than 15 years after it first ran on the Canon EOS 5D Mark II, Magic Lantern is still the base for new camera software, and a César-winning filmmaker still shoots 14-bit RAW with it on a 5D Mark III.",
+   "source": "CineD",
+   "url": "https://www.cined.com/magic-lantern-canon-2026-raw-video-film-roll-soup-engine-m-film/"
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-18",
+   "title": "TikTok says 94% of songs that entered the Billboard Global 200 in 2025 went viral on its platform first",
+   "take": "That figure is up from 84% in 2024, according to the platform's 2026 Music Impact Report, which was prepared by Luminate and published on Wednesday (November 18). Source",
+   "source": "Music Business Worldwide",
+   "url": "https://www.musicbusinessworldwide.com/tiktok-says-94-of-songs-that-entered-the-billboard-global-200-in-2025-went-viral-on-its-platform-first/"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-18",
+   "title": "AARMTEC ADEPT: a multi-playhead hardware MIDI/CV sequencer playground",
+   "take": "AARMTEC ADEPT, a multi-playhead hardware MIDI/CV sequencer playground with eleven different sequencer types, is now on Kickstarter: Hardware MIDI-to-CV sequencers are found in many studios. Most of them are based on sequencing notes in a [...]",
+   "source": "Synth Anatomy",
+   "url": "https://synthanatomy.com/2026/11/aarmtec-adept-a-multi-playhead-hardware-midi-cv-sequencer-playground.html"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-18",
+   "title": "Dynacord Launches New PowerMate 3000-X Digital Mixer",
+   "take": "Includes a four-channel DSP amplifier, eight-input digital mixer, onboard effects and browser-based control combined in a rack-mount platform designed for installed sound and live applications.",
+   "source": "ProSoundWeb",
+   "url": "https://www.prosoundweb.com/dynacord-launches-new-powermate-3000-x-digital-mixer/"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-17",
+   "title": "Nektar Launches Impact GX49 And GX61 mk3 MIDI Controllers",
+   "take": "Nektar has today announced the Impact GX49 mk3 and Impact GX61 mk3, the third generation of its compact USB MIDI controller keyboards.",
+   "source": "Production Expert",
+   "url": "https://www.production-expert.com/production-expert-1/nektar-launches-impact-gx49-and-gx61-mk3-midi-controllers"
+  },
+  {
+   "cat": "speakers",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-17",
+   "title": "Studio 5X: Debut monitors from Teufel Audio",
+   "take": "The Studio 5X and Studio 5X BT both feature active three-way designs that pair a coaxial midrange/high-frequency driver with a 5.25-inch woofer, while the latter offers wireless connectivity via Bluetooth 5.0.",
+   "source": "Sound On Sound",
+   "url": "https://www.soundonsound.com/news/studio-5x-debut-monitors-teufel-audio"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-18",
+   "title": "A Small Production Workflow Has to Work Beyond the Shoot",
+   "take": "Professional video production includes the entire path from choosing an appropriate setup to recording, organizing, editing, and delivering the result",
+   "source": "TV Technology",
+   "url": "https://www.tvtechnology.com/insights/opinion/a-small-production-workflow-has-to-work-beyond-the-shoot"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-18",
+   "title": "Hamlet Hail to the Thief : Shakespeare's masterpiece & Radiohead album collide",
+   "take": "An unlikely coming together of worlds, Radiohead's 6th album 'Hail to The Thief' and Hamlet will be performed to...",
+   "source": "Sonicstate",
+   "url": "https://sonicstate.com/news/2026/11/18/hamlet-hail-to-the-thief/"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-18",
+   "title": "Epiphone Joe Bonamassa Skinnerburst: Another ’59 Les Paul Standard!",
+   "take": "New Epiphone Joe Bonamassa Skinnerburst '59 Les Paul Standard limited run signature model",
+   "source": "Gearnews",
+   "url": "https://www.gearnews.com/epiphone-joe-bonamassa-skinnerburst/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-18",
+   "title": "FOH Engineer Ron Gardner Using SSL Live L550 for Jelly Roll’s Shows",
+   "take": "ESCONDIDO, CA – After comparing consoles in an April 2025 shootout at the headquarters for Sound Image, a Clair Global Brand, FOH engineer Ron Gardner chose an SSL Live L550 Plus desk. He’s since used it for Jelly Roll’s Little Ass Shed Tour 2026, which wrapped up in late July.",
+   "source": "FOH",
+   "url": "https://fohonline.com/newsroom/news/foh-engineer-ron-gardner-using-ssl-live-l550-for-jelly-rolls-shows/"
+  },
+  {
+   "cat": "hearing",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-17",
+   "title": "ShokzHear’s OpenHear BM420 Named a CES 2027 Innovation Awards Honoree",
+   "take": "ShokzHear’s OpenHear BM420 bone conduction hearing aid has been named a CES 2027 Innovation Awards Honoree in the Accessibility & Longevity category.",
+   "source": "Hearing Review",
+   "url": "https://hearingreview.com/hearing-products/implants-bone-conduction/bone-conduction-solutions/shokzhears-openhear-bm420-named-a-ces-2027-innovation-awards-honoree"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-17",
+   "title": "zc devices releases thicket modular synth at a $99 intro price",
+   "take": "zc devices has released thicket, a polyphonic modular synthesizer for Windows, macOS, and Linux, with a $99 introductory price through November (regularly $159). We covered thicket’s free open beta back in October.",
+   "source": "Bedroom Producers Blog",
+   "url": "https://bedroomproducersblog.com/2026/11/17/zc-devices-thicket-2/"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-18",
+   "title": "Korg's Phase8 gets a free web-based editor with 32-step sequencing, Euclidean rhythms and visual automation",
+   "take": "Phase8 enters a new phase",
+   "source": "MusicRadar",
+   "url": "https://www.musicradar.com/music-tech/korgs-phase8-gets-a-free-web-based-editor-with-32-step-sequencing-euclidean-rhythms-and-visual-automation",
+   "free": true
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-18",
+   "title": "rushes Rentals Launched – Vimeo On Demand Alternative with 90% Revenue Share and Rentals from Your Own Website",
+   "take": "Today, video-hosting and review platform rushes launches Rentals, a way for filmmakers to rent their films directly to audiences, two days before Vimeo On Demand closes for good on November 20, 2026.",
+   "source": "CineD",
+   "url": "https://www.cined.com/rushes-rentals-launched-vimeo-on-demand-alternative-with-90-revenue-share-and-rentals-from-your-own-website/"
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-18",
+   "title": "Carlyle-backed Litmus Music secures $475m in new capital, with KKR joining as an investor",
+   "take": "Litmus' portfolio includes more than 100,000 copyrights and recordings, featuring music from Katy Perry, Benny Blanco, Randy Newman, and Keith Urban. Source",
+   "source": "Music Business Worldwide",
+   "url": "https://www.musicbusinessworldwide.com/carlyle-backed-litmus-music-secures-475m-in-new-capital-with-kkr-joining-as-an-investor/"
+  },
+  {
+   "cat": "software",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-18",
+   "title": "LinkEffekt Lets You Route Audio & MIDI Between iPhone, iPad & Mac",
+   "take": "LinkEffekt 2.1 expands its audio-routing system with MIDI controller sharing, virtual MIDI ports and MIDI clock distribution, connecting iPhone, iPad and Mac music setups with Ableton Link synchronization.… Read More LinkEffekt Lets You Route Audio & MIDI Between iPhone, iPad & Mac",
+   "source": "Synthtopia",
+   "url": "https://www.synthtopia.com/content/2026/11/17/linkeffekt-lets-you-route-audio-midi-between-iphone-ipad-mac/"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-17",
+   "title": "Magerit Laniakea Pro: multi-engine polyphonic Synthesizer for standalone and Eurorack",
+   "take": "Magerit Laniakea Pro is a new multi-engine polyphonic Synthesizer that works as a battery-powered standalone instrument or as a Eurorack module. In 2022, the Spanish company Magerit released the digital Laniakea synth voice for Eurorack, [...]",
+   "source": "Synth Anatomy",
+   "url": "https://synthanatomy.com/2026/11/magerit-laniakea-pro-multi-engine-polyphonic-synthesizer-for-standalone-and-eurorack.html"
+  }
+ ],
+ "craft": {
+  "body": "The HSE findings are a useful mirror: most failures were not missing earplugs but plugs worn badly, taken out mid-shift or so effective that people could not hear alarms. A roll-down foam plug that is only half inserted can give a fraction of its labelled rating.\n\nBefore a loud shift, fit plugs properly (roll, pull the ear up and back, hold until expanded) and do a quick check: your own voice should sound boomy and the room noticeably duller. Then confirm you can still hear comms and the venue alarm. For mixing, a custom moulded set with flat filters keeps the balance honest at a lower level, and lets you leave them in all day.",
+  "title": "Check your plugs, not just your levels"
+ }
+}

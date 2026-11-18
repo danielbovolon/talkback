@@ -1,0 +1,166 @@
+{
+ "key": "2026-11-18",
+ "label": "Wed 18 Nov 2026",
+ "generated": "2026-11-18T15:08:24+01:00",
+ "auto": true,
+ "lesson": {
+  "title": "RF coordination and intermodulation",
+  "topic": "Live sound",
+  "level": "core",
+  "summary": "When two or more radio transmitters operate near each other, non-linear circuits mix their signals and create new frequencies called intermodulation products. Frequency coordination chooses channels so these products do not land on any frequency in use.",
+  "body": "Intermodulation happens in any non-linear stage: transmitter output stages, receiver front ends and amplifiers. Two carriers f1 and f2 produce sums and differences of their multiples. The ones that matter most are the third-order products, 2f1 − f2 and 2f2 − f1. They fall close to the original carriers, inside the same band, so a receiver cannot filter them out. With three or more transmitters you also get three-transmitter products such as f1 + f2 − f3. Fifth-order products, such as 3f1 − 2f2, are weaker but can still matter in a crowded plan.\n\nThe arithmetic is simple. If f1 = 550.000 MHz and f2 = 550.400 MHz, the third-order products sit at 549.600 and 550.800 MHz. That is one spacing below and one spacing above the pair. This leads to an important rule: equally spaced channels clash. With 600.0, 600.5 and 601.0 MHz, 2 × 600.5 − 600.0 = 601.0 MHz, which lands right on the third carrier. The number of products grows fast. N transmitters give N(N − 1) two-transmitter third-order products, so 4 transmitters give 12 and 10 transmitters give 90.\n\nThird-order products also rise faster than the signals that create them. In the ideal model, a 1 dB increase in both carriers raises the third-order products by 3 dB. That is why transmitter power, distance between transmitters and gain staging matter. Bodypacks touching each other in a rack or on a costume rail produce strong products. In-ear monitor transmitters are high-power and run continuously, so they are a classic source. Combine them through a proper combiner and keep their antennas apart from receive antennas.\n\nIn practice, use coordination software or the manufacturer's tools, which calculate the products and check them against your channels and a scan of the venue. In the EU, the UHF TV band now ends at 694 MHz after the 700 MHz band was reassigned to mobile services, so available space is tighter. Licensing and allowed frequencies are set nationally, so check the rules where you work. Always scan the venue first, then coordinate, then do a walk test with every transmitter on.",
+  "keyPoints": [
+   "Third-order IMD: 2f1 − f2 and 2f2 − f1, close to the carriers.",
+   "Equally spaced channels put IMD products on other carriers.",
+   "N transmitters → N(N − 1) two-transmitter third-order products.",
+   "1 dB more drive → about 3 dB more third-order product.",
+   "Separate transmitters, combine IEMs, scan and walk-test."
+  ],
+  "sayIt": "Radio mics can create interference between themselves, so we plan the frequencies as a set and test them all running together before the show.",
+  "inPractice": "Before your next multi-channel job, take your planned frequencies and calculate 2f1 − f2 and 2f2 − f1 for each pair by hand or in a spreadsheet. Compare the result with your coordination software, then walk-test with all transmitters and IEMs on.",
+  "mistake": "Picking channels with neat, equal spacing because it looks tidy. Equal spacing guarantees third-order products land on other channels; coordinated plans look irregular for a reason.",
+  "terms": [
+   {
+    "term": "Intermodulation (IMD)",
+    "def": "New frequencies created when two or more signals pass through a non-linear stage."
+   },
+   {
+    "term": "Third-order product",
+    "def": "IMD product such as 2f1 − f2; strong and close to the carriers."
+   },
+   {
+    "term": "Frequency coordination",
+    "def": "Choosing a set of channels so no IMD product or outside signal lands on a channel in use."
+   },
+   {
+    "term": "Combiner",
+    "def": "Device that joins several transmitter outputs into one antenna while limiting interaction between them."
+   },
+   {
+    "term": "Walk test",
+    "def": "Moving a transmitter around the performance area while monitoring receivers for dropouts and noise."
+   }
+  ]
+ },
+ "quiz": {
+  "questions": [
+   {
+    "level": "advanced",
+    "topic": "RF & wireless",
+    "q": "In the ideal model, both carriers feeding a non-linear stage rise by 2 dB. Roughly how much do the third-order products rise?",
+    "options": [
+     "2 dB",
+     "6 dB",
+     "4 dB",
+     "9 dB"
+    ],
+    "answer": 1,
+    "explain": "Third-order products rise about 3 dB per 1 dB of input, so 2 dB more input gives about 6 dB more product. They grow faster than the wanted signals."
+   },
+   {
+    "level": "advanced",
+    "topic": "RF & wireless",
+    "q": "Two radio mics transmit on 550.000 MHz and 550.400 MHz. Where are their third-order intermodulation products?",
+    "options": [
+     "549.600 and 550.800 MHz",
+     "550.200 and 550.600 MHz",
+     "1100.400 and 0.400 MHz",
+     "549.200 and 551.200 MHz"
+    ],
+    "answer": 0,
+    "explain": "2 × 550.000 − 550.400 = 549.600 and 2 × 550.400 − 550.000 = 550.800 MHz. Sums and differences like 1100.4 and 0.4 MHz are second-order and far outside the band."
+   },
+   {
+    "level": "advanced",
+    "topic": "Psychoacoustics",
+    "q": "1 sone is defined as a loudness level of 40 phon, and loudness doubles for every 10 phon above that. How many sones is a sound at 70 phon?",
+    "options": [
+     "3 sones",
+     "8 sones",
+     "4 sones",
+     "30 sones"
+    ],
+    "answer": 1,
+    "explain": "70 − 40 = 30 phon, which is three doublings: 2³ = 8 sones. The trap is dividing phons by ten or adding linearly."
+   },
+   {
+    "level": "intermediate",
+    "topic": "RF & wireless",
+    "q": "How many two-transmitter third-order products (of the 2f1 − f2 type) do 4 transmitters produce?",
+    "options": [
+     "4",
+     "6",
+     "8",
+     "12"
+    ],
+    "answer": 3,
+    "explain": "Each ordered pair gives one product: N(N − 1) = 4 × 3 = 12. The trap is counting unordered pairs (6), but each pair makes two products."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Gain staging",
+    "q": "What RMS voltage corresponds to the professional line level of +4 dBu?",
+    "options": [
+     "About 1.23 V",
+     "0.775 V",
+     "1.0 V",
+     "About 1.58 V"
+    ],
+    "answer": 0,
+    "explain": "0 dBu is 0.775 V RMS, so +4 dBu = 0.775 × 10^(4/20) ≈ 1.23 V. 1.0 V is 0 dBV, and 1.58 V would be +4 dBV. Mixing up dBu and dBV is the usual trap."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Immersive",
+    "q": "A sound designer wants a sub-heavy explosion to feed the LFE channel in an Atmos mix. Where must that LFE content go?",
+    "options": [
+     "Into an object with its size set to maximum",
+     "Into an object placed at floor height",
+     "Into the LFE channel of a bed",
+     "Into the binaural render with mode set to Far"
+    ],
+    "answer": 2,
+    "explain": "Only beds have an LFE channel. Objects have no LFE send, though bass management may still route their low end to subwoofers in playback."
+   },
+   {
+    "level": "basic",
+    "topic": "RF & wireless",
+    "q": "After the 700 MHz band was reassigned to mobile services in the EU, where does the UHF TV band used by many radio mics end?",
+    "options": [
+     "694 MHz",
+     "790 MHz",
+     "862 MHz",
+     "960 MHz"
+    ],
+    "answer": 0,
+    "explain": "The EU TV band now runs from 470 to 694 MHz. Exact use for wireless mics depends on national rules."
+   },
+   {
+    "level": "basic",
+    "topic": "Acoustics",
+    "q": "For a point source in a free field, sound intensity is proportional to what?",
+    "options": [
+     "1/r",
+     "1/r³",
+     "r²",
+     "1/r², where r is distance"
+    ],
+    "answer": 3,
+    "explain": "The same power spreads over a sphere of area 4πr², so intensity follows 1/r². 1/r describes sound pressure, not intensity, which is a frequent mix-up."
+   },
+   {
+    "level": "basic",
+    "topic": "Loudness",
+    "q": "What does a change of 1 LU correspond to?",
+    "options": [
+     "1 dB",
+     "3 dB",
+     "10% loudness",
+     "0.5 dB"
+    ],
+    "answer": 0,
+    "explain": "Loudness Units are on a decibel scale: a change of 1 LU is a level change of 1 dB."
+   }
+  ]
+ }
+}
