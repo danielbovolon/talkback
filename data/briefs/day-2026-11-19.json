@@ -1,0 +1,318 @@
+{
+ "period": "day",
+ "key": "2026-11-19",
+ "label": "Thu 19 Nov 2026",
+ "range": "17 Nov – 19 Nov 2026",
+ "generated": "2026-11-19T15:28:48+01:00",
+ "auto": true,
+ "headline": "Today's sound headlines",
+ "lead": "30 new stories from 17 sound and audio news sources over the last 48 hours, including Sound On Sound, Production Expert, ProSoundWeb, FOH, TPi and 12 more. This edition is assembled automatically from the outlets' own feeds: titles and summaries are theirs, sorted into sections. Open a story for the full article.",
+ "items": [
+  {
+   "cat": "plugins",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-19",
+   "title": "Spitfire Audio LABS Discontinued, 2 Packs Left Behind In The Move To Splice INSTRUMENT",
+   "take": "Spitfire Audio has discontinued its free LABS plugin and the LABS+ subscription, which stopped receiving updates, content and support on 31 October 2026. LABS content now lives in Splice INSTRUMENT, the plugin from Spitfire’s owner, Splice.",
+   "source": "Production Expert",
+   "url": "https://www.production-expert.com/production-expert-1/spitfire-audio-labs-discontinued-2-packs-left-behind-in-the-move-to-splice-instrument"
+  },
+  {
+   "cat": "software",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-19",
+   "title": "Impact GX49 & GX61 Mk3 from Nektar",
+   "take": "Nektar’s new Impact GX49 Mk3 and Impact GX61 Mk3 come equipped with the same keyboard found in the Impact LX Mk3 and benefit from enhanced Nektar DAW integration features.",
+   "source": "Sound On Sound",
+   "url": "https://www.soundonsound.com/news/impact-gx49-gx61-mk3-nektar"
+  },
+  {
+   "cat": "live",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-18",
+   "title": "Thunder Productions Deploys JBL Professional For 360-Degree At ACCESS In Texas",
+   "take": "Worship event at AT&T Stadium in Arlington supported by a main system incorporating more than 70 VTX line array loudspeakers and supporting components.",
+   "source": "ProSoundWeb",
+   "url": "https://www.prosoundweb.com/thunder-productions-deploys-jbl-professional-for-360-degree-at-access-in-texas/"
+  },
+  {
+   "cat": "live",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-19",
+   "title": "Charting the Progress of Brazil TV 3.0 with VVC",
+   "take": "Luiz Fausto, ATSC VP of Standards Development discusses the role VVC plays in advancing Brazil's TV 3.0",
+   "source": "TV Technology",
+   "url": "https://www.tvtechnology.com/platform/broadcast/charting-the-progress-of-brazil-tv-3-0-with-vvc"
+  },
+  {
+   "cat": "instruments",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-19",
+   "title": "Sonicware CyDrums’ – Powerful Digital Drum Synth Reimagined",
+   "take": "Sonicware's new CyDrums' puts their unashamedly digital drum synth into a more traditional groovebox format, but does it translate?",
+   "source": "Gearnews",
+   "url": "https://www.gearnews.com/sonicware-cydrums-groovebox-synths/"
+  },
+  {
+   "cat": "plugins",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-19",
+   "title": "Audiolatry releases UZAT, a FREE lo-fi multi-effect plugin for Windows and macOS",
+   "take": "Audiolatry has released UZAT, a free lo-fi multi-effect plugin for Windows and macOS that adds movement, worn textures, and digital degradation to your audio. I’ll start with the obvious here.",
+   "source": "Bedroom Producers Blog",
+   "url": "https://bedroomproducersblog.com/2026/11/19/audiolatry-uzat/",
+   "free": true
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-19",
+   "title": "Mercuriall Introduces A New Virtual Amp : Hazel-50 DX is inspired by the Friedman BE-50 Deluxe",
+   "take": "Mercuriall has introduced Hazel-50 DX which they say is a new virtual amp ins...",
+   "source": "Sonicstate",
+   "url": "https://sonicstate.com/news/2026/11/19/-mercuriall-introduces-a-new-virtual-amp/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-19",
+   "title": "Meyer Sound Brings Germany’s First Tigra System to Alte Oper Frankfurt",
+   "take": "FRANKFURT, Germany – The Alte Oper Frankfurt is home to the first Meyer Sound TIGRA™ line array system in Germany. Installed in the venue’s 2,400-seat Großer Saal, or Great Hall, the system is also the first TIGRA installation in Europe to operate on an entirely digital audio signal path.",
+   "source": "FOH",
+   "url": "https://fohonline.com/featured/meyer-sound-brings-germanys-first-tigra-system-to-alte-oper-frankfurt/"
+  },
+  {
+   "cat": "software",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-18",
+   "title": "Seek sick sets from SITKA, Zuggamasta, hellocatfood, in cables and code",
+   "take": "It may seem the world is closing in, the internet is dying, tides of slop are rising -- don't believe it. The underground shares signs of hope, from Kyiv's SITKA to Köln's Zuggamasta to Earth's hellocatfood. It's got modules. It's got (entirely human!) coding. It's got trippy visuals.",
+   "source": "CDM",
+   "url": "https://cdm.link/seek-sick-sets-from-sitka-zuggamasta-hellocatfood/"
+  },
+  {
+   "cat": "hearing",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-18",
+   "title": "Phonak and Pickleball: Serving Up Hearing Health Awareness",
+   "take": "Phonak’s championship sponsorship and partnership with USA Pickleball aim to raise hearing health awareness and drive consumers to local clinics. This campaign leverages the sport's social nature to normalize hearing care and highlight modern technology.",
+   "source": "Hearing Review",
+   "url": "https://hearingreview.com/hearing-loss/health-wellness/phonak-and-pickleball-serving-up-hearing-health-awareness"
+  },
+  {
+   "cat": "post",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-18",
+   "title": "TAIT appoints emerging tech & entertainment veteran Rebecca Barkin",
+   "take": "TAIT has announced the appointment of Rebecca Barkin as Chief Executive, Product and Platform Technology. Barkin brings more than 20 years of experience developing emerging technologies, immersive experiences, and products that connect innovation with real-world applications across entertainment.",
+   "source": "TPi",
+   "url": "https://www.tpimagazine.com/tait-appoints-emerging-tech-entertainment-veteran-rebecca-barkin/"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-19",
+   "title": "Ella Langley and Choosin’ Texas dominate at the CMAs as Taylor Swift performs",
+   "take": "Swift sang a mash-up of I Knew It, I Knew You and Our Song while accompanied by Keith Urban on banjo.",
+   "source": "MusicRadar",
+   "url": "https://www.musicradar.com/artists/singers-songwriters/we-just-sat-in-a-room-and-did-our-best-one-afternoon-and-it-is-the-gift-that-just-keeps-on-giving-ella-langley-and-choosin-texas-dominate-at-the-cmas-as-taylor-swift-performs-at-the-ceremony-for-the-first-time-in-13-years"
+  },
+  {
+   "cat": "software",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-19",
+   "title": "Exquis+ Combines Expressive MIDI Control With a Built-In Composition Environment",
+   "take": "Intuitive Instruments' Exquis+ updates its isomorphic MPE controller with a revised enclosure and silicone key mat, while retaining the original instrument's expressive MIDI and CV control, harmony tools and companion composition software.… Read More Exquis+ Combines Expressive MIDI Control With a…",
+   "source": "Synthtopia",
+   "url": "https://www.synthtopia.com/content/2026/11/19/exquis-combines-expressive-midi-control-with-a-built-in-composition-environment/"
+  },
+  {
+   "cat": "ai",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-19",
+   "title": "Instagram Content Protection Launched – Automatic Repost Detection, Credit Links and AI Spoken-Word Matching Test",
+   "take": "Meta has brought content protection to Instagram. The tool automatically scans Instagram and Facebook for copies of an enrolled creator’s original videos, sends an alert for each match, and lets the creator track it, hide it, add an “original by” credit link, or release it.",
+   "source": "CineD",
+   "url": "https://www.cined.com/instagram-content-protection-launched-automatic-repost-detection-credit-links-and-ai-spoken-word-matching-test/"
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-19",
+   "title": "Now is the time to embrace change and The Age of Ideas",
+   "take": "The following MBW op/ed comes from Darren Hemmings, Founder of Motive Unknown Source",
+   "source": "Music Business Worldwide",
+   "url": "https://www.musicbusinessworldwide.com/now-is-the-time-to-embrace-change-and-the-age-of-ideas/"
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-19",
+   "title": "NMPA and NSAI Double Down on Their Push to Subpoena MLC v. Spotify Documents Amid Intensifying Phonorecords V Rate-Setting Battle",
+   "take": "Amid an intensifying Phonorecords V rate-setting battle, the National Music Publishers’ Association (NMPA) and the Nashville Songwriters Association International (NSAI) are doubling down on their push to subpoena bundle-related documents from MLC v. Spotify.",
+   "source": "Digital Music News",
+   "url": "https://www.digitalmusicnews.com/2026/11/18/nmpa-phonorecords-v-subpoena/"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-19",
+   "title": "UDO Audio DMNO ON is available now: desktop version of the DMNO synth with a twist",
+   "take": "UDO Audio DMNO ON is the desktop version of its dual-layer DMNO hybrid Synthesizer, expandable in controls with the ON System. Update: good news, the DMNO ON is available now at Thomann! A year ago, [...]",
+   "source": "Synth Anatomy",
+   "url": "https://synthanatomy.com/2026/11/udo-audio-dmno-on-the-hybrid-synth-gets-a-desktop-unit-with-the-on-system.html"
+  },
+  {
+   "cat": "ai",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-19",
+   "title": "AI Plugin Clones: What Vibe Coding Means For Indie Devs",
+   "take": "We have talked about AI here on Production Expert. Recently, we came across an article on the Audio Damage blog where Chris Randall likens the impact of AI-assisted vibe coding and Big Tech on small plugin developers.",
+   "source": "Production Expert",
+   "url": "https://www.production-expert.com/production-expert-1/ai-plugin-clones-what-vibe-coding-means-for-indie-devs"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-19",
+   "title": "Korg introduce phase8 companion",
+   "take": "Korg's acoustic synthesizer now benefits from a web-based application that offers an expanded sequencer, automation, patch management and more.",
+   "source": "Sound On Sound",
+   "url": "https://www.soundonsound.com/news/korg-introduce-phase8-companion"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-18",
+   "title": "Heroic Productions Saves The Day With Sound Devices",
+   "take": "Minneapolis-based company has integrated Astral wireless systems with DiGiCo Quantum 225, SD8 and S21 consoles in its work supporting the various needs of corporate events.",
+   "source": "ProSoundWeb",
+   "url": "https://www.prosoundweb.com/heroic-productions-saves-the-day-with-sound-devices/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-19",
+   "title": "Samba Combines Streaming, Linear TV Data",
+   "take": "Move provides clients with a methodology that reflects cross-screen, cross-platform viewing",
+   "source": "TV Technology",
+   "url": "https://www.tvtechnology.com/business/samba-combines-streaming-linear-tv-data"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-19",
+   "title": "Verstaerker VORM FB01 Dualfilter: A FREE Plugin Version of the Famous Sherman Filterbank",
+   "take": "The Verstaerker VORM FB01 Dualfilter is a donationware plugin recreation of the Sherman Filterbank, a piece of gear that has achieved cult status over the years.",
+   "source": "Gearnews",
+   "url": "https://www.gearnews.com/verstaerker-vorm-fb01-dualfilter-studio/",
+   "free": true
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-19",
+   "title": "Spitfire Audio LABS sails off into the sunset. What happens now?",
+   "take": "Spitfire Audio LABS is no more! Spitfire Audio initially launched LABS instruments for Kontakt as a donationware project. In 2018, the company reformatted LABS as a completely free entity with a dedicated plugin, and it quickly became a must-have for hordes of bedroom producers.",
+   "source": "Bedroom Producers Blog",
+   "url": "https://bedroomproducersblog.com/2026/11/19/spitfire-audio-labs-farewell/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-19",
+   "title": "Build Your Own Wireless MIDI Tools : CME shares technical resources to explore new applications for WIDI Core",
+   "take": "CME has let us know that they are sharing technical resources for experienced builders creating MIDI...",
+   "source": "Sonicstate",
+   "url": "https://sonicstate.com/news/2026/11/19/build-your-own-wireless-midi-tools/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-18",
+   "title": "Adaptive Technologies Group Steerables Line Array Wall Mounts",
+   "take": "Adaptive Technologies Group's SAS-500-WM Steerables Line Array Wall Mount installs and aims line arrays on either side of a stage or building",
+   "source": "FOH",
+   "url": "https://fohonline.com/blogs/new-gear/adaptive-technologies-group-steerables-line-array-wall-mounts/"
+  },
+  {
+   "cat": "hearing",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-18",
+   "title": "HearUSA Adds Widex Allure AI RIC to Premium Hearing Aid Portfolio",
+   "take": "HearUSA has added the Widex Allure AI RIC to its nationwide portfolio, expanding patient access to the device's wearer-activated AI denoising and natural sound processing. The new offering also reintroduces Widex Zen Therapy to support patients managing tinnitus.",
+   "source": "Hearing Review",
+   "url": "https://hearingreview.com/hearing-products/hearing-aids/hearusa-adds-widex-allure-ai-ric-to-premium-hearing-aid-portfolio"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-18",
+   "title": "Ryan Penny appointed Vice President of Sales, U.S. at d&b audiotechnik",
+   "take": "d&b audiotechnik has appointed Ryan Penny as Vice President of Sales, U.S., effective 1 November 2026. In this role, Penny will lead d&b’s sales organisation across the United States, reporting to Jan Scheffels, Acting Territory Manager Americas.",
+   "source": "TPi",
+   "url": "https://www.tpimagazine.com/ryan-penny-appointed-vice-president-of-sales-u-s-at-db-audiotechnik/"
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-19",
+   "title": "Switzerland’s MusicBird secures up to $200M revolving credit facility arranged by Truist and Fifth Third",
+   "take": "MusicBird says the new financing will help it scale its portfolio Source",
+   "source": "Music Business Worldwide",
+   "url": "https://www.musicbusinessworldwide.com/switzerlands-musicbird-secures-up-to-200m-revolving-credit-facility-arranged-by-truist-and-fifth-third/"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-19",
+   "title": "How The Beatles’ Abbey Road inspired Billy Joel’s masterpiece",
+   "take": "“I had always admired the B-side of Abbey Road, which was essentially a bunch of songs strung together. And that’s pretty much what I did”",
+   "source": "MusicRadar",
+   "url": "https://www.musicradar.com/artists/how-the-beatles-abbey-road-inspired-billy-joels-masterpiece-i-dont-think-i-could-do-a-show-without-performing-that-song"
+  },
+  {
+   "cat": "post",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-19",
+   "title": "Hasselblad X2D, FUJIFILM X70 and Ricoh GR Community Mods – Film Looks, AF-C, 400MP Pixel Shift and 65:24",
+   "take": "The camera hack wave is not only about video. On the Ricoh GR III, GR IIIx and GR IV, three community projects add film looks, extra aspect ratios, a date imprint and the GR IV Monochrome’s black-and-white profiles, and on Hasselblad’s X2D cameras, independent developers added continuous autofocus,…",
+   "source": "CineD",
+   "url": "https://www.cined.com/ricoh-gr-iv-hasselblad-x2d-community-mods-film-looks-af-c-400mp-pixel-shift/"
+  }
+ ],
+ "craft": {
+  "body": "When your calendar is full, every extra job you accept at an old rate pushes out work you could have priced properly. Busy periods are when clients accept a rate rise most easily, because the alternative is waiting for someone else to be free.\n\nUpdate your rate card for new clients, keep existing clients informed in writing with a date, and make the quote say exactly what is included: number of revision rounds, stem and alt-mix versions, loudness passes and turnaround. Anything beyond that is billed. It protects your income and your ears, because unpaid extra passes are also extra hours of listening.",
+  "title": "Price the busy season, not the quiet one"
+ }
+}

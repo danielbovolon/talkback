@@ -1,0 +1,167 @@
+{
+ "key": "2026-11-19",
+ "label": "Thu 19 Nov 2026",
+ "generated": "2026-11-19T15:28:48+01:00",
+ "auto": true,
+ "lesson": {
+  "title": "FM and granular synthesis",
+  "topic": "Sound design and synthesis",
+  "level": "deeper",
+  "summary": "FM synthesis uses one oscillator to modulate the frequency of another, creating sidebands whose strength depends on the modulation index. Granular synthesis builds sound from many very short, enveloped grains taken from a sample or oscillator.",
+  "body": "In FM, a modulator at fm changes the frequency of a carrier at fc. The result has sidebands at fc ± n·fm. The modulation index I = Δf / fm sets how much energy moves into the sidebands, where Δf is the peak frequency deviation. The amplitude of each sideband follows a Bessel function, Jn(I). As the index rises, energy spreads further out and the sound gets brighter. The carrier itself can disappear: J0 is zero at an index of about 2.405. Carson's rule estimates the bandwidth as 2(Δf + fm). With fm = 200 Hz and Δf = 600 Hz, that is about 1600 Hz.\n\nThe carrier-to-modulator ratio (C:M) sets the type of spectrum. Simple integer ratios such as 1:1 or 1:2 give harmonic spectra. Sidebands below 0 Hz fold back as positive frequencies with inverted phase, which also lands on harmonics with integer ratios. Non-integer ratios, such as 1:1.414, give inharmonic spectra that suit bells, metal and clangs. John Chowning described the technique in 1973. Yamaha's DX7 used six operators arranged in 32 algorithms; in practice its oscillators use phase modulation, which behaves very much like FM. Envelopes on the modulator levels make the brightness change over time, which is the key to expressive FM sounds.\n\nGranular synthesis cuts a source into grains, usually between about 1 and 100 ms long. Each grain gets a smooth window, such as a Gaussian or Hann shape, to avoid clicks. The main controls are grain size, density (grains per second), read position, pitch and random spread (jitter) on these values. Overlap is size times density: 50 ms grains at 40 per second give an average of two grains at once. At low density you hear separate particles; at high density they fuse into a continuous texture.\n\nBecause read position and grain pitch are independent, granular methods can stretch time without changing pitch, or change pitch without changing duration. Freezing the read position turns one moment of a recording into a sustained pad. In sound design this gives ambiences, risers and tonal beds from production sound or effects, while staying connected to the original source.",
+  "keyPoints": [
+   "FM sidebands at fc ± n·fm; strength set by Bessel functions of I.",
+   "Index I = Δf / fm; more index, brighter sound.",
+   "Carson's rule: bandwidth ≈ 2(Δf + fm).",
+   "Integer C:M → harmonic; non-integer → inharmonic (bells).",
+   "Grains about 1–100 ms, windowed; overlap = size × density.",
+   "Granular separates time from pitch."
+  ],
+  "sayIt": "FM gets complex tones from just a few oscillators, and granular rebuilds a recording from tiny slices so we can stretch or freeze it without changing its pitch.",
+  "inPractice": "Take a 3-second production effect, load it into a granular instrument and freeze the read position on its most interesting moment. Then raise density until the grains fuse, and add a little position jitter to build a usable ambience bed.",
+  "mistake": "Thinking the modulator frequency alone sets FM brightness. Brightness is mainly set by the index (deviation relative to fm); the ratio sets where the partials fall.",
+  "terms": [
+   {
+    "term": "Carrier",
+    "def": "The oscillator you hear, whose frequency is being modulated."
+   },
+   {
+    "term": "Modulator",
+    "def": "The oscillator that varies the carrier's frequency."
+   },
+   {
+    "term": "Modulation index (I)",
+    "def": "Peak frequency deviation divided by the modulator frequency."
+   },
+   {
+    "term": "Grain",
+    "def": "A very short, windowed slice of sound, usually about 1–100 ms."
+   },
+   {
+    "term": "Density",
+    "def": "Number of grains started per second."
+   }
+  ]
+ },
+ "quiz": {
+  "questions": [
+   {
+    "level": "advanced",
+    "topic": "Synthesis",
+    "q": "A granular instrument plays 50 ms grains at a density of 40 grains per second. On average, how many grains overlap at any moment?",
+    "options": [
+     "0.5",
+     "4",
+     "1",
+     "2"
+    ],
+    "answer": 3,
+    "explain": "Overlap = size × density = 0.05 s × 40 /s = 2. A new grain starts every 25 ms while each lasts 50 ms."
+   },
+   {
+    "level": "advanced",
+    "topic": "Synthesis",
+    "q": "In simple FM with a sine carrier and sine modulator, the carrier component disappears at a modulation index of about 2.4. Why?",
+    "options": [
+     "The modulator becomes louder than the carrier",
+     "The carrier's amplitude follows the Bessel function J0, which crosses zero near 2.405",
+     "The sidebands fold back and cancel the carrier at any index above 2",
+     "The synth's filter removes the fundamental"
+    ],
+    "answer": 1,
+    "explain": "Each component's amplitude follows a Bessel function of the index. J0 governs the carrier and is zero at about 2.405."
+   },
+   {
+    "level": "advanced",
+    "topic": "Acoustics",
+    "q": "Using fs ≈ 2000·√(RT60/V), roughly what is the Schroeder frequency of an 80 m³ room with an RT60 of 0.3 s?",
+    "options": [
+     "About 60 Hz",
+     "About 120 Hz",
+     "About 245 Hz",
+     "About 490 Hz"
+    ],
+    "answer": 1,
+    "explain": "0.3/80 = 0.00375, √0.00375 ≈ 0.061, and 2000 × 0.061 ≈ 122 Hz. Below this the room's bass behaves as individual modes."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Synthesis",
+    "q": "How does a granular instrument stretch a sound to twice its length without changing pitch?",
+    "options": [
+     "It plays the whole sample at half speed",
+     "It moves the read position through the source at half speed while each grain plays at its original pitch",
+     "It lowers the grain size to 1 ms",
+     "It adds reverb to fill the gaps"
+    ],
+    "answer": 1,
+    "explain": "Read position and grain playback rate are independent, so time and pitch can be controlled separately. Half-speed playback would drop the pitch by an octave."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Impedance",
+    "q": "You plug a passive bass guitar straight into a 10 kΩ line input. What do you hear?",
+    "options": [
+     "A louder, brighter signal",
+     "A quieter, duller signal, because the input loads the pickup's high, inductive source impedance",
+     "No change, since impedance only matters for speakers",
+     "A hum caused by a ground loop"
+    ],
+    "answer": 1,
+    "explain": "Passive pickups need a load of around 1 MΩ. A 10 kΩ input loads them heavily, which loses level and treble. Use a Hi-Z input or a DI box."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Microphone technique",
+    "q": "What is the 3:1 rule in multi-mic recording meant to reduce?",
+    "options": [
+     "Proximity effect",
+     "Comb filtering when one source reaches two mics at different times",
+     "Plosives",
+     "Wind noise"
+    ],
+    "answer": 1,
+    "explain": "Keeping the second mic at least three times as far from the source as the first keeps its spill about 9 dB or more lower, so the comb filtering when the two are summed is much milder."
+   },
+   {
+    "level": "basic",
+    "topic": "Synthesis",
+    "q": "What is a typical grain length in granular synthesis?",
+    "options": [
+     "About 1 to 100 ms",
+     "About 1 to 10 seconds",
+     "About 1 microsecond",
+     "Exactly one cycle of the source"
+    ],
+    "answer": 0,
+    "explain": "Grains are short, usually from about 1 to 100 ms, and each is shaped by a smooth window."
+   },
+   {
+    "level": "basic",
+    "topic": "Phase & polarity",
+    "q": "You mix a signal with a polarity-inverted copy of itself at exactly the same level. What do you get?",
+    "options": [
+     "Twice the level",
+     "Silence (total cancellation)",
+     "A 3 dB boost",
+     "A comb filter"
+    ],
+    "answer": 1,
+    "explain": "Every sample of one copy is the negative of the other, so they sum to zero. Partial cancellation of this kind is why a polarity check on multi-mic sources matters."
+   },
+   {
+    "level": "basic",
+    "topic": "Impedance",
+    "q": "What unit is impedance measured in?",
+    "options": [
+     "Volts",
+     "Farads",
+     "Ohms",
+     "Decibels"
+    ],
+    "answer": 2,
+    "explain": "Impedance, resistance and reactance are all measured in ohms (Ω)."
+   }
+  ]
+ }
+}
