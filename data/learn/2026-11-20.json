@@ -1,0 +1,166 @@
+{
+ "key": "2026-11-20",
+ "label": "Fri 20 Nov 2026",
+ "generated": "2026-11-20T15:05:43+01:00",
+ "auto": true,
+ "lesson": {
+  "title": "Backups, naming and session handover",
+  "topic": "Professional practice",
+  "level": "core",
+  "summary": "Good practice means keeping several independent copies of your work, naming files so anyone can find and sort them, and handing over sessions with enough documentation that someone else can open and finish them. The 3-2-1 rule is the usual baseline for backups.",
+  "body": "The 3-2-1 rule says: keep three copies of your data, on two different types of storage, with one copy off site. A drive failure, a theft, a fire or a ransomware attack should never destroy every copy. A RAID mirror is not a backup: it protects against one disk failing, but a deletion or corruption is mirrored instantly. The same is true of simple cloud sync. If you delete a folder, the sync service deletes it everywhere. You need versioning or a separate backup that keeps older states.\n\nA copy is only useful if it is correct. On location and in post, verify copies with checksums such as MD5 or xxHash. The software reads the source and the copy and compares the hashes. Matching hashes show the files are bit-identical; a matching file size does not. Film crews often use offload tools that write a media hash list (MHL) so the next person can check the files again. Test restores from time to time. A backup you have never restored is a hope, not a plan.\n\nNaming should sort correctly and survive any operating system. Use dates as YYYY-MM-DD (ISO 8601), so alphabetical order is also chronological. Avoid spaces and special characters such as / \\ : * ? \" < > |, and do not rely on upper versus lower case to tell files apart. Use a clear structure: project, episode or reel, content, version. Write 'v03', not 'final_final2'. On set, name scenes and takes consistently and fill in the metadata, because it travels with the Broadcast WAV files to the editor.\n\nA handover should let someone else open the session without calling you. Include a short document with sample rate, bit depth, frame rate, start timecode, track layout and the software version. List the plugins and print or commit any processed tracks, because the recipient may not own the same plugins. Deliver stems and mixes as agreed, with a sound report or cue sheet where needed. Agree in writing what will be delivered, in which formats, and how long you will keep the archive. Ownership of session files and raw recordings depends on the contract, so make it explicit.",
+  "keyPoints": [
+   "3-2-1: three copies, two media types, one off site.",
+   "RAID and sync are not backups: they copy mistakes too.",
+   "Verify copies with checksums, and test restores.",
+   "Dates as YYYY-MM-DD; no spaces or special characters; versions as v01, v02.",
+   "Handover notes: rates, timecode, plugins, printed tracks, deliverables list."
+  ],
+  "sayIt": "Your project is stored in three places, one of them off site, and every handover comes with notes so anyone can open it.",
+  "inPractice": "At the end of your next session, copy the project to two other destinations, one off site, and verify one copy with checksums. Then write a one-page handover note listing sample rate, frame rate, start timecode, plugins and printed stems.",
+  "mistake": "Treating a RAID array or a synced cloud folder as a backup. Both copy deletions and corruption immediately; a real backup keeps independent, versioned copies.",
+  "terms": [
+   {
+    "term": "3-2-1 rule",
+    "def": "Three copies of data, on two different types of storage, with one copy off site."
+   },
+   {
+    "term": "Checksum (hash)",
+    "def": "A short value calculated from a file's content; matching values show two copies are identical."
+   },
+   {
+    "term": "ISO 8601 date",
+    "def": "Date written as YYYY-MM-DD, which sorts correctly as text."
+   },
+   {
+    "term": "Media hash list (MHL)",
+    "def": "A file recording checksums of offloaded media so later copies can be verified."
+   },
+   {
+    "term": "Stem",
+    "def": "A submix of related elements (e.g. dialogue, music, effects) delivered as its own file."
+   }
+  ]
+ },
+ "quiz": {
+  "questions": [
+   {
+    "level": "advanced",
+    "topic": "Professional practice",
+    "q": "After copying a day's recordings to two drives, which check best confirms that each copy is identical to the card?",
+    "options": [
+     "Comparing the total folder size",
+     "Comparing checksums (e.g. MD5 or xxHash) of source and copies",
+     "Checking that the file count matches",
+     "Opening one file and listening to the start"
+    ],
+    "answer": 1,
+    "explain": "Only a hash comparison shows every bit is the same. Size and file count can match while data inside is corrupted."
+   },
+   {
+    "level": "advanced",
+    "topic": "Professional practice",
+    "q": "You accidentally delete a project folder from a folder that syncs to a cloud service with no version history. What is the most likely result?",
+    "options": [
+     "The deletion syncs and the cloud copy is removed too",
+     "The cloud keeps the folder because sync only uploads",
+     "The cloud copy becomes read-only",
+     "The deleted folder is restored automatically at the next sync"
+    ],
+    "answer": 0,
+    "explain": "Sync mirrors changes, including deletions. That is why sync without versioning is not a backup."
+   },
+   {
+    "level": "advanced",
+    "topic": "Digital audio",
+    "q": "A 30 kHz tone reaches a 48 kHz converter with no anti-aliasing filter. At what frequency does it appear in the recording?",
+    "options": [
+     "18 kHz",
+     "30 kHz",
+     "6 kHz",
+     "24 kHz"
+    ],
+    "answer": 0,
+    "explain": "Aliases land at |f − n·fs|. The nearest multiple of 48 kHz is 48 kHz itself, so 48 − 30 = 18 kHz. It cannot stay at 30 kHz because nothing above Nyquist (24 kHz) can be represented."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Professional practice",
+    "q": "Why should you print or commit plugin-processed tracks before handing over a session?",
+    "options": [
+     "It makes the session open faster on the same machine",
+     "The recipient may not have the same plugins or versions, so the sound could change",
+     "Plugins are not allowed in delivered sessions",
+     "Printing tracks improves their sample rate"
+    ],
+    "answer": 1,
+    "explain": "Missing or different plugin versions change or bypass the processing. A printed track keeps the sound you approved."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Balanced lines",
+    "q": "What actually makes a balanced connection reject interference?",
+    "options": [
+     "The cold wire carries an inverted copy of the signal",
+     "Both conductors have equal impedance to ground, so noise induces equally on both and the differential input cancels it",
+     "The shield carries the audio, protecting it",
+     "Balanced lines run at a higher voltage, so noise is relatively smaller"
+    ],
+    "answer": 1,
+    "explain": "Common-mode rejection depends on equal impedances from each conductor to ground. Noise picked up equally on both wires is cancelled by the differential input. Many balanced outputs do send an inverted signal on pin 3, but it's the impedance balance, not that mirror signal, that rejects the noise."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Digital audio",
+    "q": "Why do many saturation and clipper plugins offer oversampling?",
+    "options": [
+     "To lower their latency",
+     "To increase the bit depth of the output",
+     "So harmonics created above Nyquist do not fold back as inharmonic aliases",
+     "To widen the stereo image"
+    ],
+    "answer": 2,
+    "explain": "Saturation creates new harmonics, and those above fs/2 alias back into the audible band. Running the process at a higher internal rate keeps them above the audio band until they are filtered out. It usually adds latency rather than removing it."
+   },
+   {
+    "level": "basic",
+    "topic": "Professional practice",
+    "q": "Which item belongs in a session handover note?",
+    "options": [
+     "The client's personal phone contacts",
+     "Your hourly rate",
+     "A list of unused takes deleted from the session",
+     "Sample rate, frame rate and start timecode"
+    ],
+    "answer": 3,
+    "explain": "The recipient needs the technical settings to open, sync and continue the session correctly."
+   },
+   {
+    "level": "basic",
+    "topic": "Connectors",
+    "q": "In a standard balanced XLR (AES/IEC wiring), what are pins 1, 2 and 3?",
+    "options": [
+     "1 hot, 2 cold, 3 ground",
+     "1 ground/shield, 2 hot, 3 cold",
+     "1 cold, 2 ground, 3 hot",
+     "1 ground, 2 cold, 3 hot"
+    ],
+    "answer": 1,
+    "explain": "Pin 1 is shield or ground, pin 2 is hot (+) and pin 3 is cold (−). This is the AES14/IEC standard, and the 'pin 2 hot' convention is now universal."
+   },
+   {
+    "level": "basic",
+    "topic": "Microphone technique",
+    "q": "A singer moves from 30 cm to 5 cm away from a cardioid microphone. What changes most in the tone?",
+    "options": [
+     "High frequencies rise",
+     "The mic becomes omnidirectional",
+     "Nothing, cardioids are immune to distance",
+     "Low frequencies rise (proximity effect)"
+    ],
+    "answer": 3,
+    "explain": "Directional (pressure-gradient) mics boost bass as the source gets close. Pure pressure omnis show little or no proximity effect, which is why they are often chosen for close vocals that move."
+   }
+  ]
+ }
+}

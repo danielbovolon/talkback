@@ -1,0 +1,320 @@
+{
+ "period": "day",
+ "key": "2026-11-20",
+ "label": "Fri 20 Nov 2026",
+ "range": "18 Nov – 20 Nov 2026",
+ "generated": "2026-11-20T15:05:43+01:00",
+ "auto": true,
+ "headline": "Today's sound headlines",
+ "lead": "30 new stories from 17 sound and audio news sources over the last 48 hours, including Sound On Sound, Production Expert, ProSoundWeb, FOH, TPi and 12 more. This edition is assembled automatically from the outlets' own feeds: titles and summaries are theirs, sorted into sections. Open a story for the full article.",
+ "items": [
+  {
+   "cat": "live",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-20",
+   "title": "Candlebox Takes dBTechnologies On The “Can’t Quit You Tour”",
+   "take": "Seattle rock band's 32-date run that kicked off in September supported by six VIO W12T monitor wedges joined by a pair of VIO X315 loudspeakers as side fills.",
+   "source": "ProSoundWeb",
+   "url": "https://www.prosoundweb.com/candlebox-takes-dbtechnologies-on-the-cant-quit-you-tour/"
+  },
+  {
+   "cat": "software",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-20",
+   "title": "How To Get The Best From Pro Tools Pre And Post Roll For Music",
+   "take": "Handing engineers powerful command over Pro Tools’ transport behaviour for recording, the workstation’s Pre and Post roll functions have much to offer. Here we highlight all of the ways to harness Pre and Post roll for better punch-ins and more.",
+   "source": "Production Expert",
+   "url": "https://www.production-expert.com/production-expert-1/how-to-get-the-best-from-pro-tools-pre-and-post-roll-for-music"
+  },
+  {
+   "cat": "gear",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-20",
+   "title": "Lemur Audio release Dorothée",
+   "take": "Dorothée draws its inspiration from a sought-after valve EQ unit from the 1990s, and expands on the original design with an additional midrange band, high- and low-pass filters and Mid-Side operation.",
+   "source": "Sound On Sound",
+   "url": "https://www.soundonsound.com/news/lemur-audio-release-dorothee"
+  },
+  {
+   "cat": "plugins",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-20",
+   "title": "RiverFlux Audio adds RF-201 FREE tape echo and spring reverb to Relic",
+   "take": "RiverFlux Audio has released RF-201, a free tape echo with spring reverb, as part of the Relic 0.4.8 update for macOS, Windows, and Linux. The collection is now up to eighteen free plugins, just days after the RF-BUS compressor joined the bundle.",
+   "source": "Bedroom Producers Blog",
+   "url": "https://bedroomproducersblog.com/2026/11/20/riverflux-audio-rf-201/",
+   "free": true
+  },
+  {
+   "cat": "live",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-20",
+   "title": "NBC Adds New Stats Feature for Premier League",
+   "take": "Starting on Saturday, “Peacock Performance View” will be available for one match each week for the remainder of the season.",
+   "source": "TV Technology",
+   "url": "https://www.tvtechnology.com/production/sports-production/nbc-adds-new-stats-feature-for-premier-league"
+  },
+  {
+   "cat": "instruments",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-20",
+   "title": "7 Minutes, 7 Turntables, 7 Weeks Prep : Outrageous display of turntablism from JFB",
+   "take": "This years DMC World Finals 2026 crowned 4 Champions, in the fol...",
+   "source": "Sonicstate",
+   "url": "https://sonicstate.com/news/2026/11/20/7-minutes-7-turntables-7-weeks-prep/"
+  },
+  {
+   "cat": "software",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-20",
+   "title": "Hip-Hop Sampling: 3 Tools That Make Beat Creation More Fun",
+   "take": "As an art form, Hip-Hop Sampling goes back decades and has evolved from performance-based turntable techniques to precise DAW workflows.",
+   "source": "Gearnews",
+   "url": "https://www.gearnews.com/hip-hop-sampling-synth-studio/"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-20",
+   "title": "Blackmagic Ambisonic Microphone First Look at Inter BEE 2026",
+   "take": "At Inter BEE 2026 in Japan, Blackmagic Design was showing its upcoming Blackmagic Ambisonic Microphone, a new professional microphone that captures true spatial audio for immersive video production.",
+   "source": "Newsshooter (audio)",
+   "url": "https://www.newsshooter.com/2026/11/19/blackmagic-ambisonic-microphone-first-look-at-inter-bee-2026/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-19",
+   "title": "KV2 Audio Names AV MATTR GmbH Partner in Austria",
+   "take": "VIENNA / SALZBURG, Austria – AV MATTR GmbH has become an authorized KV2 Audio Dealer and Integration Partner in Austria. Pictured here, during a factory tour at KV2 Audio, are (from left): George Krampera, Andrew Austin-Brown, Simon Kopfberger, Tim Niedermeier and Johannes Haidin.",
+   "source": "FOH",
+   "url": "https://fohonline.com/newsroom/on-the-move/kv2-audio-names-av-mattr-gmbh-partner-in-austria/"
+  },
+  {
+   "cat": "software",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-19",
+   "title": "Korg’s phase8 acoustic synthesizer adds companion app, updated firmware",
+   "take": "Korg's phase8 remains an acoustic, resonating fascination, just at a time when everything seems lost in a sea of software.",
+   "source": "CDM",
+   "url": "https://cdm.link/korgs-phase8-update-companion/"
+  },
+  {
+   "cat": "ai",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-19",
+   "title": "MDHearing Launches AI-Powered MD Coach App in Partnership with Tuned",
+   "take": "MDHearing has partnered with hearing-care technology company Tuned to launch MD Coach, an AI-powered companion app designed to improve OTC hearing aid onboarding and reduce early device adoption drop-off. The platform provides access to licensed professionals when human intervention is needed.",
+   "source": "Hearing Review",
+   "url": "https://hearingreview.com/hearing-products/hearing-aids/apps/mdhearing-launches-ai-powered-md-coach-app-in-partnership-with-tuned"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-19",
+   "title": "Backup Tech announces collaboration with British Association for Performing Arts Medicine",
+   "take": "Backup Tech has announced its latest collaboration with BAPAM, the British Association for Performing Arts Medicine, which provides clinical assessments and advice for work-related health problems.",
+   "source": "TPi",
+   "url": "https://www.tpimagazine.com/backup-tech-announces-collaboration-with-british-association-for-performing-arts-medicine/"
+  },
+  {
+   "cat": "ai",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-20",
+   "title": "Peter Gabriel makes his stance on AI clear",
+   "take": "Peter Gabriel reaffirms his AI-aligned vision of the future",
+   "source": "MusicRadar",
+   "url": "https://www.musicradar.com/artists/singers-songwriters/if-you-cant-defeat-it-you-have-to-join-it-peter-gabriel-makes-his-stance-on-ai-clear"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-20",
+   "title": "Phase Fiasco Kazu: a sequenceable multi-FX plugin from the Tape Fiasco 2 creator – now for iPadOS",
+   "take": "Phase Fiasco Kazu is a new, powerful, sequenceable multi-FX plugin for macOS, Linux, Windows, and now for iPadOS, from the creator of the Tape Fiasco 2 plugin. Update: out now for iPadOS on the App [...]",
+   "source": "Synth Anatomy",
+   "url": "https://synthanatomy.com/2026/11/phase-fiasco-kazu-a-sequenceable-multi-fx-plugin-from-the-tape-fiasco-2-creator.html"
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-20",
+   "title": "Ex-Hipgnosis exec Alexander Bonavia launches Rendezvous Sound via JVs with Create-backed broke and Enhanced",
+   "take": "Create Music Group owns broke and acquired a 50% stake in Enhanced in December 2024. Source",
+   "source": "Music Business Worldwide",
+   "url": "https://www.musicbusinessworldwide.com/ex-hipgnosis-exec-alexander-bonavia-launches-rendezvous-sound-via-jvs-with-create-backed-broke-and-enhanced/"
+  },
+  {
+   "cat": "software",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-20",
+   "title": "Camera Firmware Hacks Explained – How Card Loaders, Service Mode and Patched Firmware Work, and What Can Go Wrong",
+   "take": "Before you install a community mod on your camera, the method matters more than the feature list. This explainer, the last part of our camera firmware hacks series, looks at the three ways current mods get into a camera, why every one of them is tied to one firmware version, how recovery works, and…",
+   "source": "CineD",
+   "url": "https://www.cined.com/how-camera-firmware-hacks-work-risks-recovery-explained/"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-19",
+   "title": "KeySolutions Sounds Releases Voyages, a Traveler Soundbank Supporting the Bob Moog Foundation",
+   "take": "KeySolutions Sounds has released Voyages, a collection of 215 presets for its Traveler synthesizer created by eight sound designers.",
+   "source": "Synthtopia",
+   "url": "https://www.synthtopia.com/content/2026/11/19/keysolutions-sounds-releases-voyages-a-traveler-soundbank-supporting-the-bob-moog-foundation/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-20",
+   "title": "AV MATTR Named KV2 Audio Dealer & Integration Partner In Austria",
+   "take": "The audiovisual integration company will incorporate the manufacturer's components into its portfolio and expand its demonstration and technical support capabilities.",
+   "source": "ProSoundWeb",
+   "url": "https://www.prosoundweb.com/av-mattr-named-kv2-audio-dealer-integration-partner-in-austria/"
+  },
+  {
+   "cat": "speakers",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-19",
+   "title": "IK Multimedia unveil the iLoud Micro Monitor 2",
+   "take": "A decade on from the launch of its predecessor, the iLoud Micro Monitor 2 has appeared, and promises to outperform the original while retaining its portable design.",
+   "source": "Sound On Sound",
+   "url": "https://www.soundonsound.com/news/ik-multimedia-unveil-iloud-micro-monitor-2"
+  },
+  {
+   "cat": "software",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-19",
+   "title": "Exploring fMusic Extension Organisation For Pro Tools",
+   "take": "Bringing a new way to organise sessions automatically, the fMusic Extension brings existing Forte functions directly into Pro Tools. Here we look at how its virtual assistance can let engineers prep imports, reorganise existing sessions, and oversee deliverables.",
+   "source": "Production Expert",
+   "url": "https://www.production-expert.com/production-expert-1/exploring-fmusic-extension-organisation-for-pro-tools"
+  },
+  {
+   "cat": "ai",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-20",
+   "title": "World’s First Hybrid Film Production Platform Debuts",
+   "take": "Platform lets filmmakers combine live-action performances with AI-generated environments, shots, and visual effects",
+   "source": "TV Technology",
+   "url": "https://www.tvtechnology.com/production/scripted-production/worlds-first-hybrid-film-production-platform-debuts"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-20",
+   "title": "Preset Library For The Crumar Mojo 61 : PatchVault releases Mojo 61 Companion App",
+   "take": "PatchVault has released the Mojo 61 Companion App for the digital drawbar organ.&nb...",
+   "source": "Sonicstate",
+   "url": "https://sonicstate.com/news/2026/11/20/preset-library-for-the-crumar-mojo-61/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-19",
+   "title": "Waves Better U Brings Hands-on LV1 Classic Training to Worley Studios in Nashville",
+   "take": "NASHVILLE – On Oct. 30, Waves brought its Better U educational event to Worley Studios in Nashville, welcoming approximately 35 participants for hands-on LV1 Classic training, live mixing demonstrations and conversations with touring engineers Jeff Sandstrom and Lloyd Williams.",
+   "source": "FOH",
+   "url": "https://fohonline.com/featured/waves-better-u-brings-hands-on-lv1-classic-training-to-worley-studios-in-nashville/"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-19",
+   "title": "The Top 5 Best-Rated Standalone DJ Controllers: All Hands on Decks",
+   "take": "In the market for a new controller but can’t make up your mind? Check out these best-rated standalone DJ controllers.",
+   "source": "Gearnews",
+   "url": "https://www.gearnews.com/the-top-5-best-rated-standalone-dj-controllers-dj/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-19",
+   "title": "ETC goes bigger at JTSE 2026 with its GIGA Blackbox",
+   "take": "ETC is set to return to JTSE in Paris on 25–26 November 2026, with an expanded presence and exciting new product launches and previews. Beyond the show floor, this year ETC will present its biggest-ever off-site demonstration space: the GIGA Blackbox.",
+   "source": "TPi",
+   "url": "https://www.tpimagazine.com/etc-goes-bigger-at-jtse-2026-with-its-giga-blackbox/"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-19",
+   "title": "13x Audio releases LOFT, a FREE vintage reverb with drawable envelopes",
+   "take": "13x Audio has released LOFT, a free vintage reverb plugin for macOS, Windows, and Linux that lets you draw how the tail moves over time. We’ve previously covered the developer’s Aurora dynamic EQ and Colony multi-effect.",
+   "source": "Bedroom Producers Blog",
+   "url": "https://bedroomproducersblog.com/2026/11/19/13x-audio-loft/",
+   "free": true
+  },
+  {
+   "cat": "ai",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-18",
+   "title": "Auracast and AI: Natural Partners",
+   "take": "Hearing aid manufacturers are embracing Auracast as the new standard, with many new AI hearing devices being released as Auracast-compatible or ready for future firmware updates.",
+   "source": "Hearing Review",
+   "url": "https://hearingreview.com/hearing-products/hearing-aids/auracast-and-ai-natural-partners"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-20",
+   "title": "SampleRadar: 475 free drum 'n' bass essentials samples",
+   "take": "Loops, one-shots, FX and airhorns ideally suited for use in D'n'B productions",
+   "source": "MusicRadar",
+   "url": "https://www.musicradar.com/music-tech/sampleradar-475-free-drum-n-bass-essentials-samples",
+   "free": true
+  },
+  {
+   "cat": "post",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-20",
+   "title": "NANLITE vela Series Launched – Compact 150W and 300W all-in-one Spotlights",
+   "take": "NANLITE has announced its new vela series consisting of compact all-in-one LED spotlights in two sizes. The vela 150 and vela 300 each come in a bi-color (b) and a full-color (c) version, and all four lights have a Bowens mount and a built-in power supply.",
+   "source": "CineD",
+   "url": "https://www.cined.com/nanlite-vela-series-launched-compact-150w-and-300w-all-in-one-spotlights/"
+  },
+  {
+   "cat": "software",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-20",
+   "title": "AudioKit Pro Super 909 Drums for iOS/macOS: a free TR-909 emulation for everyone",
+   "take": "AudioKit Pro Super 909 Drums is a new free, hybrid-synthesis TR-909 emulation for iOS and macOS and probably the best you can get. Last August, Matthew Fecher from AudioKit Pro released the excellent Super 606 [...]",
+   "source": "Synth Anatomy",
+   "url": "https://synthanatomy.com/2026/11/audiokit-pro-super-909-drums-for-ios-macos-a-free-tr-909-emulation-for-ios-and-macos.html",
+   "free": true
+  }
+ ],
+ "craft": {
+  "body": "Integrated loudness tells you the whole programme hits -23 LUFS, but not whether viewers can follow the words. A quiet, dynamic film can pass the target while dialogue sits far below the explosions, and that is the mix that comes back with complaints or gets squashed by a broadcaster's processor.\n\nOn your next mix, measure dialogue loudness on its own alongside the full programme and note the gap. Agree a target range with the client before the final, keep the loudest effects in proportion to the words rather than to the meter, and listen once at a low living-room level. It is quicker than a remix after QC.",
+  "title": "Meter the dialogue, not just the mix"
+ }
+}
