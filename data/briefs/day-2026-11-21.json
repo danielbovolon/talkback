@@ -1,0 +1,320 @@
+{
+ "period": "day",
+ "key": "2026-11-21",
+ "label": "Sat 21 Nov 2026",
+ "range": "19 Nov – 21 Nov 2026",
+ "generated": "2026-11-21T14:31:23+01:00",
+ "auto": true,
+ "headline": "Today's sound headlines",
+ "lead": "30 new stories from 15 sound and audio news sources over the last 48 hours, including Sound On Sound, Production Expert, ProSoundWeb, FOH, TPi and 10 more. This edition is assembled automatically from the outlets' own feeds: titles and summaries are theirs, sorted into sections. Open a story for the full article.",
+ "items": [
+  {
+   "cat": "plugins",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-21",
+   "title": "7 Free Plugins From Lydtrold That Support AAX DSP",
+   "take": "Lydtrold has a free collection of 16 plug-ins, and all of them support AAX Native. Seven also support AAX DSP, which is good news for Pro Tools users with HDX cards and for Avid Carbon users.",
+   "source": "Production Expert",
+   "url": "https://www.production-expert.com/production-expert-1/7-free-plugins-from-lydtrold-that-support-aax-dsp",
+   "free": true
+  },
+  {
+   "cat": "gear",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-21",
+   "title": "fedDSP introduce Kami",
+   "take": "Kami brings together compression and subtle saturation, and is said to combine the immediacy of a compressor pedal with the flexibility of a fully fledged studio tool.",
+   "source": "Sound On Sound",
+   "url": "https://www.soundonsound.com/news/feddsp-introduce-kami"
+  },
+  {
+   "cat": "post",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-20",
+   "title": "Signal To Noise, Episode 337: Sound Designer Luke Swaffield On Immersive Audio & More",
+   "take": "Digging into surround reverbs, show control, performer tracking, and how several audio platforms help bring immersive worlds to life.",
+   "source": "ProSoundWeb",
+   "url": "https://www.prosoundweb.com/signal-to-noise-episode-337-sound-designer-luke-swaffield-on-immersive-audio-more/"
+  },
+  {
+   "cat": "plugins",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-21",
+   "title": "Never Found Audio releases VF-Mini, a FREE reverse riser plugin for vocals",
+   "take": "The latest release from the developer Never Found Audio is the VF-Mini, a free reverse riser plugin for vocals. Like Never Found Audio’s previous Mini series FX plugins, VF-Mini is the free version of a paid product: VF-Pro.",
+   "source": "Bedroom Producers Blog",
+   "url": "https://bedroomproducersblog.com/2026/11/21/never-found-audio-vf-mini/",
+   "free": true
+  },
+  {
+   "cat": "live",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-20",
+   "title": "ATSC’s Jerry Whitaker, Zandra Clarke Receive SMPTE Honors",
+   "take": "Whitaker received the David Sarnoff Medal, while Clarke was inducted as a SMPTE Fellow",
+   "source": "TV Technology",
+   "url": "https://www.tvtechnology.com/business/people/atscs-jerry-whitaker-zandra-clarke-receive-smpte-honors"
+  },
+  {
+   "cat": "live",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-20",
+   "title": "QSC CS Series Compact Powered Subwoofers",
+   "take": "QSC's new CS15 and CS18 combine powerful LF performance, intuitive control and flexible deployment with exceptional value for live sound applications.",
+   "source": "FOH",
+   "url": "https://fohonline.com/blogs/new-gear/qsc-cs-series-compact-powered-subwoofers/"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-20",
+   "title": "Teenage Engineering EP BC-1: Now Available for Pre-Order!",
+   "take": "You can now pre-order the new Teenage Engineering EP BC-1 professional CD player, and it ships next week! Just in time for the holiday season.",
+   "source": "Gearnews",
+   "url": "https://www.gearnews.com/teenage-engineering-ep-bc-1-dj/"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-20",
+   "title": "7 Pearls of Wisdom for Autistic/AuDHD Electronic Musicians : Paulee Bow Asks what Success Even is...",
+   "take": "From the outside - one could look at Paulee Alex Bow ; Autistic Composer, Latex Clad Synthfluenc...",
+   "source": "Sonicstate",
+   "url": "https://sonicstate.com/news/2026/11/20/7-pearls-of-wisdom-for-autistic-musicians/"
+  },
+  {
+   "cat": "software",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-20",
+   "title": "Nine Inch Nails fans can now stream nearly 2000 live recordings",
+   "take": "NIN fans, it's a momentous week. For nearly 20 years, the Nine Inch Nails archive has been compiling live shows from 1988 to today; that's now nearly 2000 recordings of over 1200 concerts. The site is a pleasure to navigate now, and this week came big news: streaming, on demand.",
+   "source": "CDM",
+   "url": "https://cdm.link/nin-live-streaming/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-19",
+   "title": "André Petrus sets mood for Kacey Musgraves with help From CHAUVET Professional",
+   "take": "Kacey Musgraves wanted the arena to feel like a rodeo, with an ‘in-the-round’ feel which is what André Petrus of Outrage Media Group delivered.",
+   "source": "TPi",
+   "url": "https://www.tpimagazine.com/andre-petrus-sets-mood-for-kacey-musgraves-with-help-from-chauvet-professional/"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-21",
+   "title": "The War on Drugs’ Robbie Bennett shares the high bar the band have when it comes to finishing songs",
+   "take": "In our recent catch-up with The War on Drugs’ Robbie Bennett, he shared that it can take his band many iterations before landing on the definitive cut – and often it might have been the very first take",
+   "source": "MusicRadar",
+   "url": "https://www.musicradar.com/artists/the-war-on-drugs-spend-years-on-records-sometimes-there-are-90-versions-of-a-song-but-it-can-be-the-first-one-where-the-spark-stuck-the-war-on-drugs-robbie-bennett-shares-the-high-bar-the-band-have-when-it-comes-to-finishing-songs"
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-21",
+   "title": "Apple Music’s Club Live Transforms Into The Vault From Grand Theft Auto VI for Free CircoLoco Records Radio Livestream",
+   "take": "Apple Music hosts an exclusive Club Live livestream to celebrate the launch of Grand Theft Auto VI and its in-game radio station, CircoLoco Records Radio.",
+   "source": "Digital Music News",
+   "url": "https://www.digitalmusicnews.com/2026/11/20/apple-music-club-live-gta-vi-circoloco/",
+   "free": true
+  },
+  {
+   "cat": "software",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-21",
+   "title": "j0kerpack InfeKt-FM1: Access Virus-inspired VA synth firmware for the M-VAVE FM-1",
+   "take": "j0kerpack InfeKt-FM1 is a new custom virtual analog synth firmware for the M-VAVE FM-1, modeled after the Access Virus B/C synthesizers. Last week, Steve Duda released the “Shrub” firmware for the M-VAVE FM-1, effectively packing [...]",
+   "source": "Synth Anatomy",
+   "url": "https://synthanatomy.com/2026/11/j0kerpack-infekt-fm1-acess-virus-inspired-va-synth-firmware-for-the-m-vave-fm-1.html"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-20",
+   "title": "KONDOR BLUE and Markiplier Launch GoPro MISSION 1 Cage Ecosystem – Media I/O Hub, NP-F Power Grip, Dual NATO Rails",
+   "take": "KONDOR BLUE has teamed up with filmmaker and YouTuber Mark Fischbach, better known as Markiplier, on a modular rigging system for GoPro’s MISSION 1 cameras.",
+   "source": "CineD",
+   "url": "https://www.cined.com/kondor-blue-and-markiplier-launch-gopro-mission-1-cage-ecosystem-media-i-o-hub-np-f-power-grip-dual-nato-rails/"
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-20",
+   "title": "Vevo dscvr artists to watch 2027: Dalvin La Melodía, Conep, Devon Again, Mari Froes, Die Spitz",
+   "take": "Introducing the first batch of Vevo's Artists To Watch for 2027... Source",
+   "source": "Music Business Worldwide",
+   "url": "https://www.musicbusinessworldwide.com/vevo-dscvr-artists-to-watch-2027-dalvin-la-melodia-conep-devon-again-mari-froes-die-spitz/"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-20",
+   "title": "SoundGhost release Fragment",
+   "take": "Described as a “cycling audio fragmenter”, the latest addition to the SoundGhost range draws its inspiration from tape phasing, and divides audio into four sections that can be looped and processed independently.",
+   "source": "Sound On Sound",
+   "url": "https://www.soundonsound.com/news/soundghost-release-fragment"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-20",
+   "title": "3 Ways To Control Vocal Vibrato In AutoTune Advanced",
+   "take": "Created in the image of an industry titan of tuning, Antares’ AutoTune Advanced features a raft of functions to help vocal producers. Following on from our exploration of advanced earlier this year, here we revisit the plugin to explore its brand new functionality for all-things vibrato-based.",
+   "source": "Production Expert",
+   "url": "https://www.production-expert.com/production-expert-1/3-ways-to-control-vocal-vibrato-in-autotune-advanced"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-20",
+   "title": "Focusrite & 22rivrs Reunite Producers For Chicago Retreat",
+   "take": "\"Flow State: Chicago\" documentary follows five hip-hop producers reconnecting, sharing ideas and examining the role of community and well-being in the creative process.",
+   "source": "ProSoundWeb",
+   "url": "https://www.prosoundweb.com/focusrite-22rivrs-reunite-producers-for-chicago-retreat/"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-21",
+   "title": "Minimal Audio Static is FREE again with 180 dubstep samples",
+   "take": "Minimal Audio is offering Static, a collection of 180 samples inspired by underground bass music, as a free download again. We previously covered Static’s giveaway in December 2024, so check if you already have it before downloading it again.",
+   "source": "Bedroom Producers Blog",
+   "url": "https://bedroomproducersblog.com/2026/11/21/minimal-audio-static-free/",
+   "free": true
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-20",
+   "title": "Media Professional Sue Mudge Joins EM Acoustics",
+   "take": "EM Acoustics has appointed Sue Mudge (formerly Sue Gould) as Communications Manager",
+   "source": "FOH",
+   "url": "https://fohonline.com/newsroom/on-the-move/media-professional-sue-mudge-joins-em-acoustics/"
+  },
+  {
+   "cat": "post",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-20",
+   "title": "5 of the Best Pad Machines: Atmospheric Synths",
+   "take": "Ease into the sound bath and let the chords take you away with the best pad machine hardware synthesizers available.",
+   "source": "Gearnews",
+   "url": "https://www.gearnews.com/5-of-the-best-pad-machines-synth/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-20",
+   "title": "Can a Democratic Congress Revive Public Media Funding?",
+   "take": "Both sides of the debate weigh in",
+   "source": "TV Technology",
+   "url": "https://www.tvtechnology.com/regulatory-legal/can-a-democratic-congress-revive-public-media-funding"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-20",
+   "title": "Odd Duck Audio Contraband - A Synth. A Rack. An Alien. : A Hand-drawn & Hand-coded Delight",
+   "take": "Odd Duck Audio has teased a brand-new audio playground called Contraband ...",
+   "source": "Sonicstate",
+   "url": "https://sonicstate.com/news/2026/11/20/odd-duck-audio-contraband-a-synth-a-rack-an-alien/"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-21",
+   "title": "How Danzig harnessed the power of three chords and MTV for the mother of all metal anthems",
+   "take": "Danzig's Rick Rubin-produced debut LP was destined to be a dark masterpiece, and Mother was the song to break on through and corrupt the mainstream",
+   "source": "MusicRadar",
+   "url": "https://www.musicradar.com/artists/danzig-mother-glenn-danzig-john-christ-the-making-of-a-metal-anthem"
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-21",
+   "title": "Federal Judge Partially Dismisses Wixen’s Second Amended Complaint Against Meta, Allows Core Infringement and Defamation Claims to Proceed",
+   "take": "After 10 months of intense litigation, a federal judge has partially dismissed Wixen Music Publishing’s lawsuit against Meta – while allowing a substantial portion of the infringement and defamation action to proceed.",
+   "source": "Digital Music News",
+   "url": "https://www.digitalmusicnews.com/2026/11/20/wixen-meta-sac-partial-dismissal/"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-20",
+   "title": "Teenage Engineering EP/BC-1: the EP series gets a CD player with hidden talents",
+   "take": "Teenage Engineering EP/BC-1 is the latest addition to the EP series: a performance CD player with creative features. Almost a month ago, Teenage Engineering released the EP-35—a portable amp for the EP series that offers [...]",
+   "source": "Synth Anatomy",
+   "url": "https://synthanatomy.com/2026/11/teenage-engineering-ep-bc-1-the-ep-series-gets-a-cd-player-with-hidden-talents.html"
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-20",
+   "title": "Duetti raises $665M, Warner posts a record $2B quarter… It’s MBW’s Weekly Round-Up",
+   "take": "This week, Duetti confirmed it had raised USD $665 million, with the round led by a Carlyle-anchored ABS. That wasn’t the only time Carlyle – perhaps best known in music to date for backing Scooter Braun’s Ithaca Holdings – appeared in MBW’s stories in recent days.",
+   "source": "Music Business Worldwide",
+   "url": "https://www.musicbusinessworldwide.com/duetti-raises-665m-warner-posts-a-record-2b-quarter-its-mbws-weekly-round-up/"
+  },
+  {
+   "cat": "post",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-20",
+   "title": "The Shape of Dread – Different Forms a Suspense Curve Can Take",
+   "take": "Every tense scene you’ve ever sat through, eyes wide-open, phone forgotten in your hand, works because someone carefully constructed it. And one of the tools a filmmaker has at hand is the so-called suspense curve. It’s not a storyboard, not a shot list, not a carefully crafted previs.",
+   "source": "CineD",
+   "url": "https://www.cined.com/the-shape-of-dread-different-forms-a-suspense-curve-can-take/"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-20",
+   "title": "Heritage Audio’s Herchild 670 goes virtual",
+   "take": "The Herchild 670 plug-in is said to closely match the sound of its hardware counterpart, but includes an Advanced Mode that expands on the features provided by the physical unit.",
+   "source": "Sound On Sound",
+   "url": "https://www.soundonsound.com/news/heritage-audios-herchild-670-goes-virtual"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-20",
+   "title": "QSC Launches New CS15 & CS18 Self-Powered Subwoofers",
+   "take": "Both 15- and 18-inch models have Class D amplification, Bluetooth connectivity and cardioid configuration options for a range of portable sound reinforcement applications.",
+   "source": "ProSoundWeb",
+   "url": "https://www.prosoundweb.com/qsc-launches-new-cs15-cs18-self-powered-subwoofers/"
+  }
+ ],
+ "craft": {
+  "body": "New hardware usually forces a new operating system, and audio software is always the last to catch up. Treat your working machine like a show system: no OS updates in the middle of a project, and no new computer for a paid session until you have run a full session on it.\n\nKeep a one-page list of every driver, plugin, licence manager and control-surface app you depend on, and check it against each vendor's compatibility page before any upgrade. Keep the old machine set up until the new one has finished a real job. Clients never see the upgrade, only the session that wouldn't open.",
+  "title": "Freeze your OS during a job"
+ }
+}

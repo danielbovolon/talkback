@@ -1,0 +1,166 @@
+{
+ "key": "2026-11-21",
+ "label": "Sat 21 Nov 2026",
+ "generated": "2026-11-21T14:31:23+01:00",
+ "auto": true,
+ "lesson": {
+  "body": "Resistance turns energy into heat and is the same at every frequency. Reactance stores and releases energy instead. A capacitor's reactance falls as frequency rises (Xc = 1/2πfC), and an inductor's rises (XL = 2πfL). Impedance (Z) is the combination of the two. That is why a single number on a spec sheet is only a 'nominal' value: an 8 Ω loudspeaker can dip close to 3 Ω in one band and rise well above 30 Ω at its bass resonance.\n\nModern audio connects equipment by voltage bridging, not impedance matching. A low source impedance drives an input with a much higher impedance, roughly ten times or more, so nearly all the signal voltage arrives. A dynamic mic of about 150–300 Ω feeds a preamp input of about 1.5–3 kΩ. A line output of around 100 Ω feeds an input of 10 kΩ or more. A power amp's output impedance is a small fraction of an ohm against a 4–8 Ω speaker. Matching 600 Ω to 600 Ω comes from telephone lines and old broadcast practice, where very long lines and power transfer mattered. It is rarely what you want today.\n\nImpedance becomes audible when that rule is broken. A guitar pickup has a high, inductive source impedance, so plugged into a 10 kΩ line input it loses level and top end. That is why it needs a Hi-Z input of about 1 MΩ or a DI. A high source impedance driving a long cable forms a low-pass filter with the cable's capacitance. Ribbon and some dynamic mics change tone with preamp input impedance, which is why some preamps let you switch it. A headphone amp with high output impedance changes the frequency response of headphones whose impedance varies with frequency.",
+  "inPractice": "On your next session with a dynamic or ribbon mic, switch the preamp's input impedance (if it has the option) and listen to the low end and presence change. When a bass or keyboard sounds dull through a line input, put it through a DI before you reach for EQ.",
+  "keyPoints": [
+   "Impedance = resistance + reactance; it varies with frequency, measured in ohms.",
+   "Bridging: low-impedance outputs into inputs about 10× higher or more. Don't 'match' unless a spec says so.",
+   "Nominal speaker and headphone impedances are averages; the real curve swings widely.",
+   "High-Z sources (guitar pickups, piezos) need about 1 MΩ inputs or a DI box.",
+   "Keep source impedance low when driving long cables, or the cable capacitance rolls off the highs."
+  ],
+  "level": "core",
+  "mistake": "Thinking impedances must be 'matched'. Into a 600 Ω load, a modern line output loses level and may distort. What matters is that the input impedance is well above the output impedance.",
+  "sayIt": "Impedance is how hard a circuit pushes back against an audio signal; we keep outputs low and inputs high so the signal arrives without losing level or tone.",
+  "summary": "Impedance is the total opposition a circuit offers to an alternating signal, measured in ohms (Ω). It combines plain resistance with reactance from capacitance and inductance, so unlike resistance it changes with frequency.",
+  "terms": [
+   {
+    "def": "Frequency-dependent opposition from capacitance or inductance, in ohms.",
+    "term": "Reactance (X)"
+   },
+   {
+    "def": "Connecting a low-impedance output to a much higher-impedance input so voltage transfers almost fully.",
+    "term": "Bridging"
+   },
+   {
+    "def": "High-impedance input (about 1 MΩ) for instruments with passive pickups.",
+    "term": "Hi-Z"
+   },
+   {
+    "def": "Load impedance divided by the amplifier's output impedance (plus cable); how well the amp controls the driver.",
+    "term": "Damping factor"
+   },
+   {
+    "def": "A single representative figure for a component whose real impedance varies with frequency.",
+    "term": "Nominal impedance"
+   }
+  ],
+  "title": "Impedance, explained properly",
+  "topic": "Electronics & signal flow"
+ },
+ "quiz": {
+  "questions": [
+   {
+    "level": "advanced",
+    "topic": "Gain staging",
+    "q": "You sum two uncorrelated noise sources, each measuring −60 dBFS RMS. What is the RMS level of the sum?",
+    "options": [
+     "−63 dBFS",
+     "−60 dBFS",
+     "−54 dBFS",
+     "−57 dBFS"
+    ],
+    "answer": 3,
+    "explain": "Uncorrelated signals add in power, so two equal ones give +3 dB: −57 dBFS. +6 dB applies only to identical, in-phase (correlated) signals."
+   },
+   {
+    "level": "advanced",
+    "topic": "Synthesis",
+    "q": "An FM patch has a 200 Hz modulator and a peak deviation of 600 Hz. Using Carson's rule, what is the approximate bandwidth?",
+    "options": [
+     "800 Hz",
+     "1200 Hz",
+     "1600 Hz",
+     "2400 Hz"
+    ],
+    "answer": 2,
+    "explain": "Carson's rule: 2(Δf + fm) = 2(600 + 200) = 1600 Hz. The index here is 600 / 200 = 3."
+   },
+   {
+    "level": "advanced",
+    "topic": "Impedance",
+    "q": "A headphone amp with a 10 Ω output impedance drives headphones whose impedance swings from 30 Ω to 120 Ω across the spectrum. What happens?",
+    "options": [
+     "The frequency response changes, because the output impedance and the varying headphone impedance form a frequency-dependent voltage divider",
+     "Nothing audible, because headphones only respond to current",
+     "Stereo crosstalk rises, but frequency response is unaffected",
+     "The amp clips in the bass because the impedance rises there"
+    ],
+    "answer": 0,
+    "explain": "Output and load form a voltage divider. Where the headphone impedance is low, more voltage drops across the amp's 10 Ω and that band gets quieter. A common rule of thumb is to keep output impedance at or below one eighth of the headphone's minimum impedance."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Psychoacoustics",
+    "q": "Two speakers play the same signal at equal level. At your seat, the left speaker's sound arrives 5 ms before the right's. Where do you hear the source?",
+    "options": [
+     "Dead centre",
+     "As two separate echoes",
+     "At the right speaker",
+     "At or towards the left speaker"
+    ],
+    "answer": 3,
+    "explain": "This is the precedence (Haas) effect: for short delays of a few milliseconds, the sounds fuse and localisation follows the first arrival. Clear echoes appear only at much longer delays."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Compression",
+    "q": "A hard-knee compressor has its threshold at −20 dBFS and a 4:1 ratio. A steady tone goes in at −8 dBFS. With no make-up gain, what level comes out once the compressor has settled?",
+    "options": [
+     "−14 dBFS",
+     "−20 dBFS",
+     "−11 dBFS",
+     "−17 dBFS"
+    ],
+    "answer": 3,
+    "explain": "The input is 12 dB over the threshold. At 4:1 that becomes 3 dB over, so the output is −20 + 3 = −17 dBFS, which is 9 dB of gain reduction. A common mistake is to divide the whole input level by the ratio."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Hearing protection",
+    "q": "A foam earplug is labelled SNR 30 dB. Why might a user get much less than 30 dB of real protection?",
+    "options": [
+     "SNR is measured with C-weighting only",
+     "The rating comes from lab tests with an ideal fit; real-world insertion is often poor",
+     "SNR ratings only apply above 4 kHz",
+     "Foam plugs lose all attenuation after one hour"
+    ],
+    "answer": 1,
+    "explain": "Ratings come from lab testing with trained subjects and a careful fit. In real use, shallow or rushed insertion reduces the attenuation a lot, so fit matters more than the number on the box."
+   },
+   {
+    "level": "basic",
+    "topic": "Hearing protection",
+    "q": "Under the EU noise directive (and Italy's D.Lgs. 81/2008), at what daily exposure must workers wear hearing protection (the upper exposure action value)?",
+    "options": [
+     "80 dB(A)",
+     "87 dB(A)",
+     "85 dB(A)",
+     "90 dB(A)"
+    ],
+    "answer": 2,
+    "explain": "At 85 dB(A) LEX,8h (or 137 dB(C) peak), protection must be used. 80 dB(A) is the lower action value, where protection must be made available. 87 dB(A) is the limit value at the ear, which takes protection into account."
+   },
+   {
+    "level": "basic",
+    "topic": "Microphones",
+    "q": "What is the standard phantom-power voltage on most professional mic preamps (IEC 61938 P48)?",
+    "options": [
+     "+12 V",
+     "+24 V",
+     "+9 V",
+     "+48 V"
+    ],
+    "answer": 3,
+    "explain": "P48 supplies +48 V DC through matched resistors on pins 2 and 3, with pin 1 as the return. P12 and P24 also exist in the standard but are much less common on studio preamps."
+   },
+   {
+    "level": "basic",
+    "topic": "Digital audio",
+    "q": "What is the Nyquist frequency of a 48 kHz session?",
+    "options": [
+     "48 kHz",
+     "96 kHz",
+     "24 kHz",
+     "12 kHz"
+    ],
+    "answer": 2,
+    "explain": "The Nyquist frequency is half the sample rate: 48 / 2 = 24 kHz. Doubling the rate is what oversampling does, not what Nyquist means."
+   }
+  ]
+ }
+}
