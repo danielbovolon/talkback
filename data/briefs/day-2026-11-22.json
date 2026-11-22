@@ -1,0 +1,322 @@
+{
+ "period": "day",
+ "key": "2026-11-22",
+ "label": "Sun 22 Nov 2026",
+ "range": "20 Nov – 22 Nov 2026",
+ "generated": "2026-11-22T14:24:30+01:00",
+ "auto": true,
+ "headline": "Today's sound headlines",
+ "lead": "30 new stories from 13 sound and audio news sources over the last 48 hours, including Sound On Sound, ProSoundWeb, FOH, TV Technology, Gearnews and 8 more. This edition is assembled automatically from the outlets' own feeds: titles and summaries are theirs, sorted into sections. Open a story for the full article.",
+ "items": [
+  {
+   "cat": "instruments",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-22",
+   "title": "Synthoid: Browser-based modular synth",
+   "take": "If you’re looking for a way to explore modular synthesis without having to spend any money, then it’s worth taking a look at Synthoid.",
+   "source": "Sound On Sound",
+   "url": "https://www.soundonsound.com/news/synthoid-browser-based-modular-synth"
+  },
+  {
+   "cat": "science",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-21",
+   "title": "A decades-old mystery about light could hold the key to faster internet",
+   "take": "A promising material for ultra-fast optical communications has held a secret for decades, but scientists may have finally cracked it.",
+   "source": "ScienceDaily (acoustics)",
+   "url": "https://www.sciencedaily.com/releases/2026/11/261119194544.htm"
+  },
+  {
+   "cat": "live",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-20",
+   "title": "Renkus-Heinz Announces Executive Leadership Transition",
+   "take": "Jonathan Phillips named president while Monika Smetona has assumed the role of chief financial officer and is continuing to serve on the company’s board of directors.",
+   "source": "ProSoundWeb",
+   "url": "https://www.prosoundweb.com/renkus-heinz-announces-executive-leadership-transition/"
+  },
+  {
+   "cat": "plugins",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-22",
+   "title": "fedDSP offers KAMI compressor pedal plugin FREE until December 2",
+   "take": "Developer fedDSP is offering KAMI, a compressor pedal plugin for macOS and Windows, free until December 2, 2026. The regular price is $39, but the launch offer gives you a perpetual license with free updates and three activations.",
+   "source": "Bedroom Producers Blog",
+   "url": "https://bedroomproducersblog.com/2026/11/22/feddsp-kami-free/",
+   "free": true
+  },
+  {
+   "cat": "plugins",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-22",
+   "title": "LOFT, UZAT, THE_PITCH 2 MINI: Free Plugins of the Week",
+   "take": "LOFT is a reverb with drawable tails, UZAT is a lo-fi multi-effect, and THE_PITCH 2 MINI is a free pitch correction plugin: Free Plugins of the Week!",
+   "source": "Gearnews",
+   "url": "https://www.gearnews.com/loft-uzat-free-plugins/",
+   "free": true
+  },
+  {
+   "cat": "live",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-20",
+   "title": "Renkus-Heinz Names Jonathan Phillips President; Monika Smetona CFO",
+   "take": "FOOTHILL RANCH, CA – Renkus-Heinz named Jonathan Phillips president and Monika Smetona chief financial officer. Smetona is pictured here at left with Phillips and, at right, Ralph Heinz, chief technology officer.",
+   "source": "FOH",
+   "url": "https://fohonline.com/newsroom/on-the-move/renkus-heinz-names-jonathan-phillips-president-monika-smetona-cfo/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-20",
+   "title": "FIFA Finds Few U.S. Networks Interested in 2030 World Cup Broadcast Rights",
+   "take": "Fox and Univision are reported to have been the only U.S. networks to submit bids by the Thursday deadline",
+   "source": "TV Technology",
+   "url": "https://www.tvtechnology.com/business/fifa-finds-few-u-s-networks-interested-in-2030-world-cup-broadcast-rights"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-20",
+   "title": "Better Living Through Chemistry : 30th Anniversary of Fatboy Slim's first album",
+   "take": "Fatboy Slim's seminal first album 'Better Living Through Chemistry' is having a (now obligatory) <a href=\"http://fatb...",
+   "source": "Sonicstate",
+   "url": "https://sonicstate.com/news/2026/11/20/better-living-through-chemistry-micro-documentary/"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-22",
+   "title": "How progressive rock legends Yes created their majestic magnum opus",
+   "take": "“When we did the tape loop, it must have been forty-foot long”",
+   "source": "MusicRadar",
+   "url": "https://www.musicradar.com/artists/my-head-was-spinning-every-time-i-listened-to-it-or-sang-it-its-like-wed-climbed-the-mountain-how-progressive-rock-legends-yes-created-their-majestic-magnum-opus-digging-into-jazz-classical-and-a-little-eastern-mysticism"
+  },
+  {
+   "cat": "software",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-22",
+   "title": "Toybox Audio FM Zone: hybrid FM Synthesizer gets major free 3.0 update with new features",
+   "take": "ToyBox Audio FM Zone melts deep FM synthesis and sample playback into a new, easy-to-use Synthesizer plugin for Mac, Windows, and iPad: update 3.0 brings new features! Over the past few months, Toybox Audio has [...]",
+   "source": "Synth Anatomy",
+   "url": "https://synthanatomy.com/2026/11/toybox-audio-fm-zone-deep-fm-sample-synthesizer-plugin-for-mac-win-and-ipad.html",
+   "free": true
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-22",
+   "title": "Reverse-Engineered Roland DSP Could Turn ‘Plug-Out’ Synths Into Open Platforms",
+   "take": "A new reverse-engineering project has produced an SDK for developing custom synthesizer engines for Roland SYSTEM-1 and SYSTEM-8 hardware, opening the door to new synthesis architectures and community-developed Plug-Out instruments.… Read More Reverse-Engineered Roland DSP Could Turn ‘Plug-Out’…",
+   "source": "Synthtopia",
+   "url": "https://www.synthtopia.com/content/2026/11/21/reverse-engineered-roland-dsp-could-turn-plug-out-synths-into-open-platforms/"
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-21",
+   "title": "Latest Music Industry Hires: ASCAP, Universal Music Group, HYBE, BET, Pophouse, Prescription Songs, Iron Mountain, More",
+   "take": "Here’s a recap of recent music industry hires, departures, and in-house promotions as of November 20th, 2026. If you have a job shuffle to share, we’re all ears. Send us a note to news@digitalmusicnews.com.",
+   "source": "Digital Music News",
+   "url": "https://www.digitalmusicnews.com/2026/11/20/latest-music-industry-hires-ascap-universal-music-group-hybe-bet-pophouse-prescription-songs-iron-mountain-more/"
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-20",
+   "title": "Pophouse appoints Oak View Group’s Kristina Heney and Netflix’s Greg Lombardo as Presidents",
+   "take": "Heney joins as President, Commercial & Marketing, and Lombardo joins as President, Pophouse Avatar Network. Source",
+   "source": "Music Business Worldwide",
+   "url": "https://www.musicbusinessworldwide.com/pophouse-appoints-oak-view-groups-kristina-heney-and-netflixs-greg-lombardo-as-presidents/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-20",
+   "title": "Waves Hosts Better U Educational Event At Worley Studios In Nashville",
+   "take": "Brought together approximately 35 audio professionals for hands-on training, live mixing demonstrations and discussions with touring engineers Jeff Sandstrom and Lloyd Williams.",
+   "source": "ProSoundWeb",
+   "url": "https://www.prosoundweb.com/waves-hosts-better-u-educational-event-at-worley-studios-in-nashville/"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-22",
+   "title": "Mercurial Tones releases Siren, a FREE pitch correction plugin with a note editor",
+   "take": "Mercurial Tones offers Siren, a free vocal pitch correction plugin with automatic tuning and a graphical note editor. I find it hard to believe how many free autotune plugins are out there now compared to just two or three years ago. The options keep adding up, and this week we got two new ones.",
+   "source": "Bedroom Producers Blog",
+   "url": "https://bedroomproducersblog.com/2026/11/22/mercurial-tones-siren/",
+   "free": true
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-21",
+   "title": "Why a Semi-Hollow Guitar belongs in your rig",
+   "take": "This week I talk about my love of semi-hollow electric guitars and why you should try one out in your rig",
+   "source": "Gearnews",
+   "url": "https://www.gearnews.com/why-a-semi-hollow-guitar/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-20",
+   "title": "5SOS Audio Setup Includes DiGiCo Flexibility",
+   "take": "WORLD – 5 Seconds of Summer hit the road this year on their Everyone’s a Star! world tour, which kicked off in March and wraps up Dec. 6. FOH and monitor engineers Sebastien Teti and Mike Platt have been using DiGiCo Quantum338 consoles supplied by Pulse, with upgrades by Adlib.",
+   "source": "FOH",
+   "url": "https://fohonline.com/featured/5sos-audio-setup-includes-digico-flexibility/"
+  },
+  {
+   "cat": "software",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-22",
+   "title": "New Memorymoog Plus Firmware ‘Makes It A Whole New Machine’",
+   "take": "The new firmware solves many of the timing issues that plagued the instrument, adds a bunch of new features, and \"makes it a whole new machine.\"… Read More New Memorymoog Plus Firmware ‘Makes It A Whole New Machine’",
+   "source": "Synthtopia",
+   "url": "https://www.synthtopia.com/content/2026/11/21/new-memorymoog-plus-firmware-makes-it-a-whole-new-machine/"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-21",
+   "title": "“I recorded almost 70 tracks in two months”: How lockdown turmoil, studio setbacks and a 14-year-old VST inspired John Talabot's new album as OR",
+   "take": "Oriol Riverola explains how a series of beatless sketches recorded during the pandemic became the 90-minute electronic odyssey Music for Empty Stadiums",
+   "source": "MusicRadar",
+   "url": "https://www.musicradar.com/artists/i-recorded-almost-70-tracks-in-two-months-how-lockdown-turmoil-studio-setbacks-and-a-14-year-old-vst-inspired-john-talabots-new-album-as-or"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-21",
+   "title": "Roland Plug-Out unlocked: new SDK enables custom synth engines",
+   "take": "Through reverse engineering, enorrmann has unlocked the Roland Plug-Out system and created a new SDK for developing custom plug-outs. In 2014, Roland introduced the SYSTEM-1 Synthesizer, later followed by the SYSTEM-1M and SYSTEM-8. All three [...]",
+   "source": "Synth Anatomy",
+   "url": "https://synthanatomy.com/2026/11/roland-plug-out-unlocked-new-sdk-enables-custom-synth-engines.html"
+  },
+  {
+   "cat": "ai",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-20",
+   "title": "Eminem Publisher Eight Mile Style Files Amended Suno Copyright and DMCA Suit, Adding 100+ Allegedly Infringing Outputs — ‘Lose Yourself,’ ‘Without Me,’ and More",
+   "take": "Suno is facing yet another expanded copyright infringement lawsuit – this time from Eminem publisher Eight Mile Style, which has joined Elvis Presley Enterprises, Reservoir, and others in bolstering its high-stakes claims.",
+   "source": "Digital Music News",
+   "url": "https://www.digitalmusicnews.com/2026/11/20/eight-mile-style-v-suno-amended-suit/"
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-20",
+   "title": "NetEase Cloud Music’s Q3 revenues fell 0.9% YoY to $290m – after subscription revenues grew 5.3% in H1",
+   "take": "NetEase Cloud Music has re-signed with all three majors this year, but its subscription revenue growth has slowed to roughly a third of its pace a year earlier. Source",
+   "source": "Music Business Worldwide",
+   "url": "https://www.musicbusinessworldwide.com/netease-cloud-musics-q3-revenues-fell-0-9-yoy-to-290m-after-subscription-revenues-grew-5-3-in-h1/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-20",
+   "title": "Simple Yet Vital: Best Practices In Developing Input Lists And Stage Plots",
+   "take": "A range of best practices for getting these two vital yet too-often overlooked aspects right.",
+   "source": "ProSoundWeb",
+   "url": "https://www.prosoundweb.com/simple-yet-vital-best-practices-in-developing-input-lists-and-stage-plots/"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-22",
+   "title": "Pro Sound Effects offers Odyssey Collection: Design Elements FREE for a limited time",
+   "take": "Pro Sound Effects is offering Odyssey Collection: Design Elements, a cinematic sound effects library normally priced at $149, for free with the code ODYSSEY26 at checkout. I successfully claimed it on November 22, so the code is still working at the time of writing.",
+   "source": "Bedroom Producers Blog",
+   "url": "https://bedroomproducersblog.com/2026/11/22/pro-sound-effects-odyssey-collection/",
+   "free": true
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-20",
+   "title": "Guitar String Changes: 7 Essential Steps for a Guitar Glow Up",
+   "take": "Guitar string changes are one of the most therapeutic and productive things that any player can do. Here's what I like to use.",
+   "source": "Gearnews",
+   "url": "https://www.gearnews.com/guitar-string-changes-7-essential-steps/"
+  },
+  {
+   "cat": "software",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-22",
+   "title": "New Firmware, InfeKt-FM1, Turns M-Vave FM-1 Into Access Virus Compatible Synthesizer",
+   "take": "J0KERPACK's free InfeKt-FM1 firmware transforms the M-VAVE FM-1 into a 16-voice virtual analog synthesizer, with Access Virus patch compatibility, dual filters, effects, sequencing and an integrated drum machine.… Read More New Firmware, InfeKt-FM1, Turns M-Vave FM-1 Into Access Virus Compatible…",
+   "source": "Synthtopia",
+   "url": "https://www.synthtopia.com/content/2026/11/21/new-firmware-infekt-fm1-turns-m-vave-fm-1-into-access-virus-compatible-synthesizer/"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-21",
+   "title": "Watch a new video for The Beatles’ classic In My Life",
+   "take": "Starring Owen Cooper from Adolescence, the video features a number of Liverpool landmarks",
+   "source": "MusicRadar",
+   "url": "https://www.musicradar.com/artists/singles-albums/watch-a-new-video-for-the-beatles-classic-in-my-life"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-21",
+   "title": "Audiomodern Filterstep 2: free rhythmic filter plugin evolves into a multi-FX",
+   "take": "Audiomodern Filterstep 2 is the successor to its free rhythmic filter plugin (Mac, Windows, iOS), evolving into a deeper multi-FX processor. In 2020, Audiomodern released Filterstep, a free rhythmic filter plugin that makes it easy [...]",
+   "source": "Synth Anatomy",
+   "url": "https://synthanatomy.com/2026/11/audiomodern-filterstep-2-0-free-rhythmic-filter-plugin-evolves-into-a-multi-fx.html",
+   "free": true
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-20",
+   "title": "Federal Judge Tosses Harassment Lawsuit Against 50 Cent; Rapper’s Attorney Calls Case ‘Nothing More Than a Stunt to Garner Media Attention’",
+   "take": "A federal judge has dismissed the case filed against 50 Cent by a former executive at his company who claims he threatened and harassed her.",
+   "source": "Digital Music News",
+   "url": "https://www.digitalmusicnews.com/2026/11/20/50-cent-harrassment-lawsuit-tossed/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-20",
+   "title": "LEA Professional Is Now Live In Specifi For Expanded Integrator Access",
+   "take": "Partnership allows integrators to include the company’s amplifiers in room-by-room proposals and access product information when developing system designs.",
+   "source": "ProSoundWeb",
+   "url": "https://www.prosoundweb.com/lea-professional-is-now-live-in-specifi-for-expanded-integrator-access/"
+  }
+ ],
+ "craft": {
+  "body": "Steinberg's old download pages are gone, and new Macs only run macOS 27. Both are reminders that a session file is only half an archive: you also need the exact software that opens it. When you close a project, save the DAW installer version, the plugin installers and any interface drivers it used, with a short text note listing versions and licences.\n\nKeep one older machine or a bootable drive on a known-good OS for recalls, and test a restore from your archive once a year. Clients rarely ask for a recall when it is convenient, and 'the vendor took the download down' is not an answer they want to hear.",
+  "title": "Archive the installers, not just the sessions"
+ }
+}

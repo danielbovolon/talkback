@@ -1,0 +1,166 @@
+{
+ "key": "2026-11-22",
+ "label": "Sun 22 Nov 2026",
+ "generated": "2026-11-22T14:24:30+01:00",
+ "auto": true,
+ "lesson": {
+  "body": "Sampling takes a snapshot of the voltage fs times a second. At 48 kHz that is every 20.8 microseconds. The sampling theorem (Nyquist–Shannon) says that if the input is band-limited below fs/2, those snapshots hold all the information, and an ideal reconstruction filter rebuilds the original waveform exactly, not an approximation. So 44.1 kHz covers content up to 22.05 kHz and 48 kHz up to 24 kHz, both above the roughly 20 kHz limit of young human hearing.\n\nThe condition matters. A component above Nyquist produces exactly the same samples as one below it, so the converter cannot tell them apart. It appears at |f − n·fs|, the distance to the nearest multiple of the sample rate. A 30 kHz tone sampled at 48 kHz lands at 18 kHz, and a 40 kHz tone lands at 8 kHz. Aliases are not harmonically related to the source, so they sound like dirty, inharmonic tones that move the wrong way when the pitch moves. That is why every ADC has an anti-aliasing low-pass filter before the sampling stage, and every DAC has a reconstruction filter after it. Modern delta-sigma converters sample at a very high internal rate and use steep digital filters to bring the rate down, which is how they get flat response close to 20 kHz.\n\nThe problem returns inside the computer. Anything nonlinear, such as saturation, clipping, fast limiting or FM synthesis, creates new harmonics, and some of them land above Nyquist and fold back. Oversampling runs the process at two to sixteen times the rate, filters off the excess and comes back down. The cost is CPU and a little latency, like the 16 samples Apogee's Soft Limit adds at any oversampling setting. Linear processes such as gain, EQ and most reverbs create no new frequencies, so they have no aliasing to remove, although some EQs oversample to keep their curves accurate near Nyquist.\n\nHigher session rates have practical uses. At 96 kHz, recordings keep content up to 48 kHz, so sound designers can pitch them down an octave and still fill the audible band. Film and TV work at 48 kHz because that is the video standard. Whatever the rate, check that content above about 20 kHz is not hitting IEMs, tweeters or a later process that will fold it back.",
+  "inPractice": "Put a sine sweep from 1 kHz to 20 kHz through your favourite saturation plugin at 48 kHz with oversampling off, and watch a spectrum analyser: aliases show up as tones that fall while the sweep rises. Turn oversampling on and compare, then decide where it is worth the CPU in your template.",
+  "keyPoints": [
+   "Nyquist frequency = fs / 2: 22.05 kHz at 44.1 kHz, 24 kHz at 48 kHz.",
+   "Content above Nyquist folds back to |f − n·fs|: 30 kHz at 48 kHz becomes 18 kHz.",
+   "Anti-aliasing filters before the ADC and reconstruction filters after the DAC are part of every converter.",
+   "Nonlinear plugins create harmonics that can alias; oversampling reduces this at a CPU and latency cost.",
+   "Properly reconstructed digital audio is a smooth waveform, not a staircase."
+  ],
+  "level": "core",
+  "mistake": "Many people think samples make a stepped 'staircase' that higher rates smooth out. The reconstruction filter rebuilds a smooth waveform, and a higher rate only extends the bandwidth; it does not make audible content more accurate.",
+  "sayIt": "Digital audio captures everything below half the sample rate perfectly, and anything above that has to be filtered out first or it comes back as false tones lower down.",
+  "summary": "A digital system measures the signal at a fixed rate, the sample rate fs. The sampling theorem says a signal can be rebuilt exactly if it contains nothing at or above half that rate, the Nyquist frequency fs/2. Anything above Nyquist does not disappear: it folds back into the audio band as aliasing.",
+  "terms": [
+   {
+    "def": "How many times per second the signal is measured, e.g. 48,000 Hz.",
+    "term": "Sample rate (fs)"
+   },
+   {
+    "def": "Half the sample rate; the highest frequency a system can represent.",
+    "term": "Nyquist frequency"
+   },
+   {
+    "def": "Content above Nyquist that folds back into the audio band as a false frequency.",
+    "term": "Aliasing"
+   },
+   {
+    "def": "A low-pass filter that removes content above Nyquist before sampling.",
+    "term": "Anti-aliasing filter"
+   },
+   {
+    "def": "Running a process at a multiple of the sample rate so new harmonics stay below the raised Nyquist, then filtering and converting back.",
+    "term": "Oversampling"
+   }
+  ],
+  "title": "Sampling, Nyquist and aliasing",
+  "topic": "Digital audio"
+ },
+ "quiz": {
+  "questions": [
+   {
+    "level": "advanced",
+    "topic": "Gain staging",
+    "q": "A converter is aligned so that a −18 dBFS sine wave reads +4 dBu at its analogue output. What analogue level corresponds to 0 dBFS?",
+    "options": [
+     "+18 dBu",
+     "+4 dBu",
+     "+14 dBu",
+     "+22 dBu"
+    ],
+    "answer": 3,
+    "explain": "0 dBFS is 18 dB above −18 dBFS, so the output is +4 + 18 = +22 dBu. The alignment level fixes one point, and every dB of digital level above it adds one dB of analogue level."
+   },
+   {
+    "level": "advanced",
+    "topic": "Acoustics",
+    "q": "A room has a volume of 100 m³ and total absorption of 20 m² sabins. Using Sabine's formula, what is the RT60?",
+    "options": [
+     "0.32 s",
+     "1.61 s",
+     "0.81 s",
+     "8.05 s"
+    ],
+    "answer": 2,
+    "explain": "Sabine's formula in metric units is RT60 = 0.161 × V / A = 0.161 × 100 / 20 ≈ 0.81 s. Dropping the 0.161 constant gives 5 s, and slipping a decimal place gives 8.05 s."
+   },
+   {
+    "level": "advanced",
+    "topic": "Phase & polarity",
+    "q": "You sum two identical tracks, one delayed by 5 ms. Which statement is true?",
+    "options": [
+     "It is the same as flipping the polarity of one track",
+     "It cancels around 100 Hz, 300 Hz, 500 Hz and so on, and reinforces at 200 Hz, 400 Hz…: a comb filter",
+     "It cancels all frequencies equally",
+     "It only affects frequencies above 5 kHz"
+    ],
+    "answer": 1,
+    "explain": "A 5 ms delay is half a cycle (180°) at 100 Hz and at odd multiples of it, and a full cycle at 200 Hz and its multiples, so the sum forms a comb filter. A polarity flip inverts every frequency at once with no time shift, which is a different thing."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Psychoacoustics",
+    "q": "A loud 1 kHz tone is playing. Where is it most effective at masking quieter tones?",
+    "options": [
+     "At frequencies well below 1 kHz",
+     "Equally at all frequencies",
+     "Only at exactly 2 kHz",
+     "At frequencies somewhat above 1 kHz"
+    ],
+    "answer": 3,
+    "explain": "Masking spreads more upwards in frequency than downwards, especially at high levels. This is why loud low-mid content can hide detail above it, while high content rarely masks the low end."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Acoustics",
+    "q": "Why can't you fill an SBIR null by boosting that frequency with EQ?",
+    "options": [
+     "Because the reflection is boosted by the same amount, so the cancellation remains and you only use up headroom",
+     "Because monitor DSP cannot apply boosts below 200 Hz",
+     "Because EQ moves the null to a lower frequency",
+     "Because boosting a narrow band causes aliasing"
+    ],
+    "answer": 0,
+    "explain": "The null comes from the direct sound and its delayed reflection being out of phase. Any boost reaches both equally, so they still cancel at the listening position."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Loudness",
+    "q": "What are the EBU R128 targets for a broadcast programme's integrated loudness and maximum true peak?",
+    "options": [
+     "−16 LUFS and −1 dBTP",
+     "−23 LUFS and −1 dBTP",
+     "−24 LKFS and −2 dBTP",
+     "−14 LUFS and −1 dBTP"
+    ],
+    "answer": 1,
+    "explain": "EBU R128 sets −23 LUFS integrated with a −1 dBTP maximum. −24 LKFS and −2 dBTP is the US ATSC A/85 practice, and −14 or −16 LUFS are common streaming references."
+   },
+   {
+    "level": "basic",
+    "topic": "Acoustics",
+    "q": "In a free field, by how much does the level from a point source drop when you double your distance from it?",
+    "options": [
+     "3 dB",
+     "6 dB",
+     "10 dB",
+     "12 dB"
+    ],
+    "answer": 1,
+    "explain": "Inverse square law: intensity falls to a quarter, which is 20·log10(2) ≈ 6 dB of SPL. 3 dB per doubling applies to an idealised line source in its near field."
+   },
+   {
+    "level": "basic",
+    "topic": "Digital audio",
+    "q": "What does the anti-aliasing filter in an analogue-to-digital converter do?",
+    "options": [
+     "Removes content above the Nyquist frequency before sampling",
+     "Adds dither to the lowest bit",
+     "Smooths the 'steps' between samples on playback",
+     "Limits peaks to avoid clipping"
+    ],
+    "answer": 0,
+    "explain": "It is a low-pass filter ahead of sampling, so nothing above fs/2 can fold back. The filter that rebuilds the waveform on playback is the reconstruction filter in the DAC."
+   },
+   {
+    "level": "basic",
+    "topic": "Live sound",
+    "q": "A wedge monitor sits directly behind a vocal mic (at 180°). Which polar pattern has its deepest rejection in that direction?",
+    "options": [
+     "Omnidirectional",
+     "Figure-8",
+     "Cardioid",
+     "Hypercardioid"
+    ],
+    "answer": 2,
+    "explain": "A cardioid's null is at 180°. Super- and hypercardioids have nulls off to the sides of the rear (roughly 110–130°) and a small rear lobe, so a wedge straight behind suits a cardioid best."
+   }
+  ]
+ }
+}
