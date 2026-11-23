@@ -1,0 +1,319 @@
+{
+ "period": "day",
+ "key": "2026-11-23",
+ "label": "Mon 23 Nov 2026",
+ "range": "20 Nov – 23 Nov 2026",
+ "generated": "2026-11-23T17:04:24+01:00",
+ "auto": true,
+ "headline": "Today's sound headlines",
+ "lead": "30 new stories from 15 sound and audio news sources over the last 72 hours, including Sound On Sound, Production Expert, FOH, TPi, TV Technology and 10 more. This edition is assembled automatically from the outlets' own feeds: titles and summaries are theirs, sorted into sections. Open a story for the full article.",
+ "items": [
+  {
+   "cat": "plugins",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-23",
+   "title": "Shy Audio launch 80s Samplez & Mini bundle",
+   "take": "With a collection of 1990’s home-studio hardware emulations already under their belt, Shy Audio have rolled the clock back a bit further and created two plug-ins based on the Akai S612.",
+   "source": "Sound On Sound",
+   "url": "https://www.soundonsound.com/news/shy-audio-launch-80s-samplez-mini-bundle"
+  },
+  {
+   "cat": "post",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-23",
+   "title": "PT EDL 3 Adds Multitrack Expand, Dialogue Search And Pro Tools PTX Conform",
+   "take": "Free Range Audio has released PT EDL 3, a substantial rework of Pete Gates' Mac app for reconforming Pro Tools sessions and assembling sound rushes from an edit. It's built for dialogue editors, sound editors, and re-recording mixers who deal with picture recuts and turnovers.",
+   "source": "Production Expert",
+   "url": "https://www.production-expert.com/production-expert-1/pt-edl-3-adds-multitrack-expand-dialogue-search-and-pro-tools-ptx-conform"
+  },
+  {
+   "cat": "instruments",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-23",
+   "title": "Photophore 2, a 100-oscillator iOS/AUv3 flock synth twelve years in the making",
+   "take": "Photophore renders a swarm of one hundred oscillators as a flock navigating a three-dimensional habitat. First seen on CDM in 2014, version 2 of Taika Systems' instrument adds AUv3 support on iOS -- and parameters modeling predators, hunger, and fear.",
+   "source": "CDM",
+   "url": "https://cdm.link/photophore-2-auv3/"
+  },
+  {
+   "cat": "software",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-23",
+   "title": "LIVE Green launches updated Clauses for artists booking contracts",
+   "take": "LIVE Green has launched its updated template clauses for artist booking contracts, celebrating the continued use of sustainability clauses across the live music industry and making it easier for more artists and their teams to adopt green working practices.",
+   "source": "TPi",
+   "url": "https://www.tpimagazine.com/live-green-launches-updated-clauses-for-artists-booking-contracts/"
+  },
+  {
+   "cat": "plugins",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-23",
+   "title": "Knightsnare offers KNS16 and Knightverb 2000 reverb plugins for FREE",
+   "take": "Jonathan Knightsnare is offering KNS16 and Knightverb 2000, two free reverb plugins inspired by the AMS RMX16 and Lexicon Model 200. Both plugins mimic the keypad-driven workflow of early digital rack effects.",
+   "source": "Bedroom Producers Blog",
+   "url": "https://bedroomproducersblog.com/2026/11/23/knightsnare-knightverb-2000/",
+   "free": true
+  },
+  {
+   "cat": "live",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-23",
+   "title": "Panasonic Launches First Compact LUMIX Cinema Camera",
+   "take": "Combining cinematic image quality with autofocus and image stabilization in a compact form, the LUMIX SHX1 aims to integrate into a wide range of production environments",
+   "source": "TV Technology",
+   "url": "https://www.tvtechnology.com/production/panasonic-launches-first-compact-lumix-cinema-camera"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-23",
+   "title": "MusicChina26: The Giant Music-X Booth : Easy access to China show (video)",
+   "take": "This is the last of our videos from China, we talked to TamiX about Music-X , the dedicated electronic mu...",
+   "source": "Sonicstate",
+   "url": "https://sonicstate.com/news/2026/11/23/musicchina26-the-music-x-booth/"
+  },
+  {
+   "cat": "speakers",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-22",
+   "title": "NEXO Alpha+ Drives the Malaysian Grand Prix",
+   "take": "NEXO Alpha+ speakers covered the total crowd of 261,000 at the Sepang International Circuit (Malaysian Grand Prix)",
+   "source": "FOH",
+   "url": "https://fohonline.com/newsroom/international-news/nexo-alpha-drives-the-malaysian-grand-prix/"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-22",
+   "title": "The Smells Like Teen Spirit Guitar Tone: Sound like Nirvana with Plugins, Budget Setup, or Studio Gear",
+   "take": "Are you looking for tips on how to get the Smells Like Teen Spirit guitar tone? check out these tips for plugins and gear!",
+   "source": "Gearnews",
+   "url": "https://www.gearnews.com/smells-like-teen-spirit-guitar-tone/"
+  },
+  {
+   "cat": "speakers",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-23",
+   "title": "“An excellent option that delivers both power and finesse”: Eve Audio EXO 28 review",
+   "take": "If you have the space for larger nearfield monitors then this new design could be the perfect choice",
+   "source": "MusicRadar",
+   "url": "https://www.musicradar.com/music-tech/studio-monitors/eve-audio-exo-28-review"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-23",
+   "title": "Conductive Labs Terrain: multi-timbral morphing terrain hardware Synthesizer is now shipping",
+   "take": "Conductive Labs Terrain, unveiled at Knobcon 2025, is a powerful, multi-timbral, morphing terrain hardware Synthesizer- and is now shipping. Over a year ago at Knobcon 2025, Conductive Labs—the creators of the NDLR and MRCC—introduced their [...]",
+   "source": "Synth Anatomy",
+   "url": "https://synthanatomy.com/2026/11/conductive-labs-terrain-a-multi-timbral-morphing-hardware-synthesizer-with-terrain-synthesis.html"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-23",
+   "title": "Neutone Terra Explores New Territory In Neural Drum Synthesis (Sneak Preview)",
+   "take": "Designed around a map-based interface, Terra features continuously explorable sound spaces covering analog and digital drum machines, FM sounds, Foley, sound effects and other percussive textures.… Read More Neutone Terra Explores New Territory In Neural Drum Synthesis (Sneak Preview)",
+   "source": "Synthtopia",
+   "url": "https://www.synthtopia.com/content/2026/11/23/neutone-terra-explores-new-territory-in-neural-drum-synthesis-sneak-preview/"
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-23",
+   "title": "Belgium’s streaming pay right for artists must prevent ‘double payment,’ EU Advocate General says in Spotify and majors case",
+   "take": "Maciej Szpunar said the right is not, in principle, incompatible with EU law, but that some of its detailed rules breach the freedom to provide services. Source",
+   "source": "Music Business Worldwide",
+   "url": "https://www.musicbusinessworldwide.com/belgiums-streaming-pay-right-for-artists-must-prevent-double-payment-eu-advocate-general-says-in-spotify-and-majors-case/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-23",
+   "title": "SIRUI PC03 ScopeGrip Introduced – 3x Telephoto Lens Kit with Grip and Bluetooth Remote for iPhone Pro",
+   "take": "SIRUI has introduced the PC03 ScopeGrip, a 3x telephoto lens kit for the iPhone 16 Pro, 17 Pro and 18 Pro models. The kit combines an optical telephoto attachment with a camera-style photography grip and a wireless Bluetooth remote, and SIRUI designed the system for compact, all-in-one storage.",
+   "source": "CineD",
+   "url": "https://www.cined.com/sirui-pc03-scopegrip-introduced-3x-telephoto-lens-kit-with-grip-and-bluetooth-remote-for-iphone-pro/"
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-23",
+   "title": "Did You Find Counterfeit Merch on Temu? — Here’s How to Report",
+   "take": "After a year of trial and error, a T-shirt business owner has shared with Digital Music News their best practices for reporting counterfeit merch on Temu.",
+   "source": "Digital Music News",
+   "url": "https://www.digitalmusicnews.com/2026/11/22/counterfeit-merch-reporting-guide-for-musicians/"
+  },
+  {
+   "cat": "ai",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-23",
+   "title": "Who Trains The Next Mix Engineer When AI Does the Prep Work?",
+   "take": "Over the past few months, more and more people have been asking mixing and mastering engineer Balázs Katona, \" Aren't you afraid that because of AI, mix engineers won't be needed anymore?” It's a timely question, and in this article, Balázs disagrees with the premise.",
+   "source": "Production Expert",
+   "url": "https://www.production-expert.com/production-expert-1/who-trains-the-next-mix-engineer-when-ai-does-the-prep-work"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-23",
+   "title": "RiverFlux Audio releases Spatial EQ, a FREE equalizer plugin",
+   "take": "RiverFlux Audio has released Spatial EQ, a free eight-band equalizer with per-band depth controls for Windows, macOS, and Linux. We recently covered RiverFlux Audio’s RF-201 tape echo and spring reverb.",
+   "source": "Bedroom Producers Blog",
+   "url": "https://bedroomproducersblog.com/2026/11/23/riverflux-audio-spatial-eq/",
+   "free": true
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-23",
+   "title": "Vizrt CEO Discusses Road Map for Chyron's Future",
+   "take": "With the company’s acquisition of the iconic graphics brand now in the rearview mirror, Vizrt CEO Rohit Nagarajan discusses what’s next",
+   "source": "TV Technology",
+   "url": "https://www.tvtechnology.com/business/vizrt-ceo-discusses-roadmap-for-chyrons-future"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-23",
+   "title": "Guitar Multi-FX Pedal Supports NAM Capture : XRecer partner with TONE3000 to launch the XR1 with native NAM A2 support",
+   "take": "XRecer has launched XR1 , a new floor multi-effects processor with native Neural Amp...",
+   "source": "Sonicstate",
+   "url": "https://sonicstate.com/news/2026/11/23/guitar-multi-effects-pedal-supports-nam-capture/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-23",
+   "title": "Donny Osmond says he and his brothers were “the first boy band”",
+   "take": "The former child star tours the UK in January",
+   "source": "MusicRadar",
+   "url": "https://www.musicradar.com/artists/singers-songwriters/joe-jackson-disclosed-something-to-my-dad-that-the-world-doesnt-know-about-everybody-said-the-osmonds-are-copying-the-jacksons-actually-it-was-just-the-opposite-donny-osmond-says-he-and-his-brothers-were-the-first-boy-band"
+  },
+  {
+   "cat": "ai",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-23",
+   "title": "Eminem co-publisher Eight Mile Style adds 108 allegedly infringing AI tracks to $47.7m Suno lawsuit, calling Suno’s denials ‘false’",
+   "take": "The amended filing now accuses Suno of stealing Eminem's voice and likeness, but it adds no claim over them, and the damages it seeks are unchanged. Source",
+   "source": "Music Business Worldwide",
+   "url": "https://www.musicbusinessworldwide.com/eminem-co-publisher-eight-mile-style-adds-108-allegedly-infringing-ai-tracks-to-47-7m-suno-lawsuit-calling-sunos-denials-false/"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-23",
+   "title": "Panasonic AU-SHX1 – Newly Added to Camera Database",
+   "take": "New in the CineD Camera Database: Panasonic AU-SHX1 – check and compare Lab Test data and Recording Modes & Times.",
+   "source": "CineD",
+   "url": "https://www.cined.com/camera-database/?camera=AU-SHX1#new_tab"
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-23",
+   "title": "Peachtree Entertainment’s Shutdown Leaves the Future of Rock the South on Rocky Ground",
+   "take": "Nashville-based promoter Peachree Entertainment lays off employees and winds down operations, leaving the future of its recent partnerships uncertain.",
+   "source": "Digital Music News",
+   "url": "https://www.digitalmusicnews.com/2026/11/22/peachtree-entertainment-shut-down/"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-23",
+   "title": "Noise Lab Beat Designer: a Eurorack drum sequencer that does things differently",
+   "take": "Noise Lab Beat Designer is a new Eurorack drum sequencer you don’t program; instead, you work with a beat map. At the beginning of the year, Swedish developer Noise Lab released the Drum Designer, a [...]",
+   "source": "Synth Anatomy",
+   "url": "https://synthanatomy.com/2026/11/noise-lab-beat-designer-a-eurorack-drum-sequencer-that-does-things-differently.html"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-22",
+   "title": "Conductive Labs Terrain Synth Audio Demo By Jexus",
+   "take": "The sound library offers a preview of the range of sonic possibilities available on the Terrrain Synth. … Read More Conductive Labs Terrain Synth Audio Demo By Jexus",
+   "source": "Synthtopia",
+   "url": "https://www.synthtopia.com/content/2026/11/22/conductive-labs-terrain-synth-audio-demo-by-jexus/"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-23",
+   "title": "Untitled Audio Syndicate releases Khorde, a FREE MIDI chord generator",
+   "take": "Untitled Audio Syndicate has released Khorde, a free MIDI plugin that lets you play full chords with one finger on macOS and Windows. That developer name kinda sounds like an underground organization that decided to get into developing plugins now that everyone else seems to be doing it.",
+   "source": "Bedroom Producers Blog",
+   "url": "https://bedroomproducersblog.com/2026/11/23/untitled-audio-syndicate-khorde/",
+   "free": true
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-23",
+   "title": "Mulab Updates : MuTools releases MuLab App and MuLab Plugin 10.3",
+   "take": "MuTools tells us that MuLab App and MuLab Plugin 10.3 have been re...",
+   "source": "Sonicstate",
+   "url": "https://sonicstate.com/news/2026/11/23/mulab-updates/"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-23",
+   "title": "\"People foolishly think it's the swing on the MPC, but it's not\": Prince Fatty on the secret behind J Dilla's \"genius\" beats",
+   "take": "Producer, engineer and dub hero Michael Pelanconi invites us into his London-based studio to recall working with Dilla in the '90s and break down his latest remix for Defected Records",
+   "source": "MusicRadar",
+   "url": "https://www.musicradar.com/artists/people-foolishly-think-its-the-swing-on-the-mpc-but-its-not-prince-fatty-on-the-secret-behind-j-dillas-genius-beats"
+  },
+  {
+   "cat": "ai",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-23",
+   "title": "5 things to know about Suno’s move into AI video, the DistroKid documents, and the fight over v6",
+   "take": "Suno moved into video this week, while DistroKid handed over AI-detection documents and UMG and Sony fought to keep their second lawsuit moving. Source",
+   "source": "Music Business Worldwide",
+   "url": "https://www.musicbusinessworldwide.com/5-things-to-know-about-sunos-move-into-ai-video-the-distrokid-documents-and-the-fight-over-v6/"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-23",
+   "title": "Modulaire Maritime D RÊVE: stereo synth voice module squeezes a lot into 6HP",
+   "take": "Modulaire Maritime D RÊVE is a new Eurorack synth voice that packs a lot of synthesis into 6HP, including granular, physical modeling, FM, and wavetable. Yesterday, I reported on another major update to the Antigone [...]",
+   "source": "Synth Anatomy",
+   "url": "https://synthanatomy.com/2026/11/modulaire-maritime-d-reve-synth-voice-module-squeezes-a-lot-into-6hp.html"
+  }
+ ],
+ "craft": {
+  "body": "This week's dialogue debate comes down to one habit: judge the final mix on the system your audience will use. Before you print, play the key scenes on a TV or laptop at couch distance, at a normal home level, with captions off, and note every line you have to strain for.\n\nFix those on the dialogue, not with a blanket boost: a little more level on the line, less music or effects under it, or less compression on the bed. Keep a cheap TV or small speaker permanently wired into your monitor controller so this check costs you two minutes, not a trip to the living room.",
+  "title": "Do the last check where the audience listens"
+ }
+}
