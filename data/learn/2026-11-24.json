@@ -1,0 +1,167 @@
+{
+ "key": "2026-11-24",
+ "label": "Tue 24 Nov 2026",
+ "generated": "2026-11-24T16:56:35+01:00",
+ "auto": true,
+ "lesson": {
+  "body": "At low frequencies most monitors radiate almost equally in all directions, so energy goes backwards as well as forwards. That energy hits the front wall behind the speaker and comes back towards you. For a listener on axis, the reflected path is about twice the distance d from the speaker's acoustic centre to the wall, so the reflection arrives with a delay of 2d/c. Where that extra path equals half a wavelength, the two waves are out of phase and cancel. The first and deepest cancellation is at f = c / (4d). With c = 343 m/s, a speaker 1 m from the wall has its first null near 86 Hz; at 0.5 m it moves to about 172 Hz; at 2 m it falls to about 43 Hz. Further nulls follow at 3, 5, 7… times that frequency, getting shallower because the reflection is weaker at higher frequencies.\n\nThe same thing happens with every nearby boundary: side walls, the floor and the desk. Each distance gives its own null, and when two distances are similar, the dips pile up in one region. At very low frequencies, where the wall is much less than a quarter wavelength away, the reflection adds in phase instead, giving boundary gain of up to about +6 dB per boundary in theory. This is why monitors have 'half space', 'quarter space' or bass-tilt switches.\n\nYou cannot fix an SBIR null with EQ. Boosting the frequency raises the direct and reflected sound equally, so they still cancel, and you only spend amplifier and driver headroom. The fixes are geometric. Move the speaker very close to the wall, so the first null moves above the woofer's working range, or flush-mount it so there is no gap at all. Alternatively, move it far enough away that the null falls below the range the speaker reproduces strongly, or use a subwoofer placed near the wall with a crossover chosen to avoid the null. Thick porous absorption behind the speaker helps only if it is deep enough; a panel needs to approach a quarter wavelength in depth to be effective, which at 86 Hz is about 1 m.\n\nSBIR is easy to measure. Put a measurement mic at the listening position, sweep one speaker at a time, and look for a dip whose frequency moves when you move the speaker. In post rooms, height and surround speakers close to walls and ceilings show the same effect, and so do PA subs placed near a stage wall.",
+  "inPractice": "Measure one monitor at your mix position with REW or similar, then move it 20 cm closer to the wall and measure again. Note how the low-frequency dip moves, and pick the position where it does the least damage before you touch any EQ.",
+  "keyPoints": [
+   "First SBIR null: f = c / (4d), with d from the acoustic centre to the boundary.",
+   "1 m from the wall gives about 86 Hz; 0.5 m gives about 172 Hz.",
+   "Further nulls fall at 3, 5, 7 × that frequency and get shallower.",
+   "EQ cannot fill an SBIR null; it only wastes headroom.",
+   "Fix it with placement: very close, flush-mounted or far from the boundary.",
+   "SBIR dips move when the speaker moves; room modes do not."
+  ],
+  "level": "deeper",
+  "mistake": "Many people boost the missing bass with room-correction EQ. A cancellation is a timing problem, not a level problem, so the boost does not help and can push the woofer into distortion.",
+  "sayIt": "The wall behind your speakers sends some of the bass back late enough to cancel itself out, so a certain band disappears at your chair, and moving the speakers is the only real cure.",
+  "summary": "Speaker-boundary interference is the comb-filter pattern created when sound from a loudspeaker reflects off a nearby wall, floor or desk and combines with the direct sound at the listening position. The delayed reflection cancels the direct sound at frequencies where it arrives half a wavelength late, producing a deep dip in the low-frequency response that depends on the distance to the boundary.",
+  "terms": [
+   {
+    "def": "Speaker-boundary interference response: the comb filtering caused by reflections from boundaries close to a loudspeaker.",
+    "term": "SBIR"
+   },
+   {
+    "def": "The point from which a loudspeaker's sound appears to radiate at a given frequency; used to measure distances for SBIR and alignment.",
+    "term": "Acoustic centre"
+   },
+   {
+    "def": "The low-frequency level increase when a source is close to a boundary and its reflection adds in phase, up to about +6 dB per boundary in theory.",
+    "term": "Boundary gain"
+   },
+   {
+    "def": "Building the speaker into the wall so its front baffle is level with the wall surface, removing the rear-wall reflection gap.",
+    "term": "Flush mounting"
+   },
+   {
+    "def": "A frequency response with regularly spaced peaks and dips, caused by adding a signal to a delayed copy of itself.",
+    "term": "Comb filter"
+   }
+  ],
+  "title": "Speaker-boundary interference (SBIR)",
+  "topic": "Studio acoustics and monitoring"
+ },
+ "quiz": {
+  "questions": [
+   {
+    "level": "advanced",
+    "topic": "Loudness",
+    "q": "After the −70 LUFS absolute gate, a programme measures −20 LUFS. Where does the BS.1770 relative gate sit for the integrated measurement?",
+    "options": [
+     "−40 LUFS",
+     "−28 LUFS",
+     "−30 LUFS",
+     "−70 LUFS"
+    ],
+    "answer": 2,
+    "explain": "For integrated loudness the relative gate is 10 LU below the absolute-gated level, so −30 LUFS. The 20 LU relative gate belongs to the LRA calculation, not to integrated loudness."
+   },
+   {
+    "level": "advanced",
+    "topic": "Phase & polarity",
+    "q": "At 48 kHz, how many samples of delay line up a close mic with one that is 1.715 m farther from the source (c = 343 m/s)?",
+    "options": [
+     "120 samples",
+     "240 samples",
+     "480 samples",
+     "82 samples"
+    ],
+    "answer": 1,
+    "explain": "1.715 m ÷ 343 m/s = 5 ms, and 5 ms × 48,000 samples/s = 240 samples. Delaying the close mic by that amount aligns the arrivals."
+   },
+   {
+    "level": "advanced",
+    "topic": "Impedance",
+    "q": "An amp with 0.02 Ω output impedance drives an 8 Ω speaker through cable with 0.2 Ω round-trip resistance. Roughly what is the effective damping factor at the speaker?",
+    "options": [
+     "About 400",
+     "About 36",
+     "About 8",
+     "It depends only on the amplifier, so still about 400"
+    ],
+    "answer": 1,
+    "explain": "Damping factor is the load divided by everything in series on the source side: 8 / (0.02 + 0.2) ≈ 36. Cable resistance often limits real-world damping far more than the amp's quoted figure, so keep speaker runs short and thick."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Microphone technique",
+    "q": "In an M/S recording (cardioid mid, figure-8 side), what happens when you raise the side level in the decoder?",
+    "options": [
+     "The image gets narrower",
+     "The mono sum gets louder",
+     "The stereo image gets wider",
+     "The polarity of the left channel flips"
+    ],
+    "answer": 2,
+    "explain": "Decoding is L = M + S and R = M − S. More S increases the difference between the channels, so the image widens. In mono the S components cancel, so the mono sum is unchanged."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Acoustics",
+    "q": "A source gives 100 dB SPL at 2 m in a free field. What level do you expect at 8 m?",
+    "options": [
+     "94 dB SPL",
+     "88 dB SPL",
+     "82 dB SPL",
+     "97 dB SPL"
+    ],
+    "answer": 1,
+    "explain": "Free-field level falls 6 dB per doubling of distance. 2 m to 8 m is two doublings, so 100 − 12 = 88 dB SPL. Indoors, reverberant sound makes the real drop smaller beyond the critical distance."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Loudness",
+    "q": "How does EBU Tech 3342 define Loudness Range (LRA)?",
+    "options": [
+     "The difference between maximum and minimum momentary loudness",
+     "The ratio of true peak to integrated loudness",
+     "The difference between maximum true peak and integrated loudness",
+     "The difference between the 10th and 95th percentiles of gated short-term loudness"
+    ],
+    "answer": 3,
+    "explain": "LRA uses the distribution of 3 s short-term values after gating and ignores the extremes, so a single loud hit or a fade-out does not set the result. Peak-to-loudness ratio is a different measure."
+   },
+   {
+    "level": "basic",
+    "topic": "Acoustics",
+    "q": "With the speed of sound taken as 343 m/s, what is the wavelength of a 343 Hz tone?",
+    "options": [
+     "343 m",
+     "0.5 m",
+     "2 m",
+     "1 m"
+    ],
+    "answer": 3,
+    "explain": "Wavelength = speed ÷ frequency = 343 ÷ 343 = 1 m."
+   },
+   {
+    "level": "basic",
+    "topic": "Compression",
+    "q": "What does an RMS detector in a compressor respond to?",
+    "options": [
+     "Only the single highest sample",
+     "The frequency of the signal",
+     "An average of the signal's power over a short time window",
+     "The phase of the signal"
+    ],
+    "answer": 2,
+    "explain": "RMS detection averages power over a window, so it follows perceived loudness more closely than a peak detector, which reacts to instantaneous peaks."
+   },
+   {
+    "level": "basic",
+    "topic": "Digital audio",
+    "q": "Roughly what is the theoretical dynamic range of 24-bit linear PCM?",
+    "options": [
+     "96 dB",
+     "120 dB",
+     "144 dB",
+     "192 dB"
+    ],
+    "answer": 2,
+    "explain": "Each bit adds about 6.02 dB, so 24 × 6.02 ≈ 144 dB. 96 dB is 16-bit. Real converters achieve less because of analogue noise."
+   }
+  ]
+ }
+}

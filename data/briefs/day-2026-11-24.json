@@ -1,0 +1,317 @@
+{
+ "period": "day",
+ "key": "2026-11-24",
+ "label": "Tue 24 Nov 2026",
+ "range": "22 Nov – 24 Nov 2026",
+ "generated": "2026-11-24T16:56:35+01:00",
+ "auto": true,
+ "headline": "Today's sound headlines",
+ "lead": "30 new stories from 14 sound and audio news sources over the last 48 hours, including Sound On Sound, Production Expert, ProSoundWeb, FOH, TPi and 9 more. This edition is assembled automatically from the outlets' own feeds: titles and summaries are theirs, sorted into sections. Open a story for the full article.",
+ "items": [
+  {
+   "cat": "live",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-24",
+   "title": "Noble Audio Announces Debut Of Paladin In-Ear Monitors",
+   "take": "New 12-driver tribrid IEM offers eight balanced armature drivers, two Sonion bone-conduction drivers and two Super-Magnetic planar drivers.",
+   "source": "ProSoundWeb",
+   "url": "https://www.prosoundweb.com/noble-audio-announces-debut-of-paladin-in-ear-monitors/"
+  },
+  {
+   "cat": "speakers",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-24",
+   "title": "HEDDphone DX Open-Back Headphones, 50mm Carbon Driver - Announced",
+   "take": "HEDD Audio's HEDDphone DX is £999 / $1,199, with 20Hz bass output claimed and a 310g headband. How it stacks up against the D1, Neumann NDH 30 and HD 800 S.",
+   "source": "Production Expert",
+   "url": "https://www.production-expert.com/production-expert-1/heddphone-dx-open-back-headphones-50mm-carbon-driver-announced"
+  },
+  {
+   "cat": "gear",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-24",
+   "title": "Gear of the Year 2026",
+   "take": "The December 2026 issue of SOS is now live, and as always, we’ve rounded up our favourite hardware and software products from this year in our annual Gear of the Year feature.",
+   "source": "Sound On Sound",
+   "url": "https://www.soundonsound.com/news/gear-year-2026"
+  },
+  {
+   "cat": "software",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-24",
+   "title": "Kemper Profiler Native: Play all your Kemper profiles in your DAW",
+   "take": "Kemper Profiler Native lets you play and modify Kemper profiles from all generations of the modeler in your DAW - or standalone.",
+   "source": "Gearnews",
+   "url": "https://www.gearnews.com/kemper-profiler-native-guitar/"
+  },
+  {
+   "cat": "instruments",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-24",
+   "title": "Waldorf Music Brings Attack 3 To iPad : Rhythm synthesizer app has a workflow designed specifically for iPad",
+   "take": "Waldorf Music has announced Attack 3 for iPad, bringing its percussion synthes...",
+   "source": "Sonicstate",
+   "url": "https://sonicstate.com/news/2026/11/24/waldorf-music-brings-attack-3-to-ipad/"
+  },
+  {
+   "cat": "live",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-24",
+   "title": "PRG supports The Pussycat Dolls’ PCD FOREVER arena tour",
+   "take": "The Pussycat Dolls’ first headline tour in almost two decades took PCD FOREVER into arenas across Europe and the UK. TAWBOX created the complete show design under one creative direction. With PRG supplying an integrated lighting & video solution.",
+   "source": "TPi",
+   "url": "https://www.tpimagazine.com/prg-supports-the-pussycat-dolls-pcd-forever-arena-tour/"
+  },
+  {
+   "cat": "software",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-24",
+   "title": "InnerMost47 releases GRM Guitar, a FREE physically modeled acoustic guitar for Windows and Linux",
+   "take": "Developer InnerMost47 has released GRM Guitar, a free physically modelled acoustic guitar for Windows and Linux. GRM Guitar is a free, open-source, physically modelled acoustic guitar instrument available in VST3 and Standalone formats for Windows and Linux.",
+   "source": "Bedroom Producers Blog",
+   "url": "https://bedroomproducersblog.com/2026/11/24/innermost47-grm-guitar/",
+   "free": true
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-24",
+   "title": "Paris Hotel & Casino in Las Vegas Upgrades with 1 Sound",
+   "take": "Jason Ojeda, president of Global AV Group, discusses the audio design and integration for the Paris Hotel and Casino, which features a distributed 1 Sound audio system.",
+   "source": "FOH",
+   "url": "https://fohonline.com/fohtv/paris-hotel-casino-in-las-vegas-upgrades-with-1-sound/"
+  },
+  {
+   "cat": "hearing",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-24",
+   "title": "HearingLife Opens 20 New Clinics in 2026, Eyes 1,000-Location Milestone",
+   "take": "HearingLife is accelerating its Greenfield clinic strategy with 20 new locations in 2026, advancing the Demant Group-owned provider toward a long-term goal of 1,000 nationwide centers.",
+   "source": "Hearing Review",
+   "url": "https://hearingreview.com/inside-hearing/industry-news/hearinglife-opens-20-new-clinics-in-2026-eyes-1000-location-milestone"
+  },
+  {
+   "cat": "ai",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-24",
+   "title": "Breaking: TIDAL Fully Bans AI-Generated Music",
+   "take": "Escalating its summer demonetization policy, the streaming service will delete roughly 27 million synthetic tracks and block distributors from uploading wholly AI-created audio.",
+   "source": "Digital Music News",
+   "url": "https://www.digitalmusicnews.com/2026/11/24/tidal-bans-ai-generated-music/"
+  },
+  {
+   "cat": "ai",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-24",
+   "title": "Dutch collecting society BumaStemra threatens legal action against AI background music supplier YourNeuroTune, alleging it uses Suno",
+   "take": "YourNeuroTune is based in the Netherlands, and markets its catalog to gyms, hospitality venues, and retailers Source",
+   "source": "Music Business Worldwide",
+   "url": "https://www.musicbusinessworldwide.com/dutch-collecting-society-bumastemra-threatens-legal-action-against-ai-background-music-supplier-yourneurotune-alleging-it-uses-suno/"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-24",
+   "title": "Waldorf Attack 3 review: classic drum Synthesizer plugin taken to 2026 – now for iPad",
+   "take": "Review: With Attack 3, Waldorf brings its percussive Synthesizer plugin back into focus with smoother control, expanded synthesis, and greater flexibility: now for iPadOS At the beginning of the year, Waldorf released the Attack 3 [...]",
+   "source": "Synth Anatomy",
+   "url": "https://synthanatomy.com/2026/11/waldorf-attack-3-review-classic-drum-synthesizer-plugin-taken-to-2026.html"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-24",
+   "title": "New iPad Drum Synth Features Dual Oscillators, FM And A Modulation Sequencer",
+   "take": "Liljeholmen DSP has released Trumsynt-16 for iPad, an analog-modeled percussion synthesizer featuring dual oscillators, FM, hard sync and a 16-step sequencer with independently configurable modulation lanes.… Read More New iPad Drum Synth Features Dual Oscillators, FM And A Modulation Sequencer",
+   "source": "Synthtopia",
+   "url": "https://www.synthtopia.com/content/2026/11/24/new-ipad-drum-synth-features-dual-oscillators-fm-and-a-modulation-sequencer/"
+  },
+  {
+   "cat": "speakers",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-24",
+   "title": "FUJIFILM GFX ETERNA 55 Body-Only Version for $9,999 Now Up for Pre-order – Without Monitor, Top Handle, and AC Adapter",
+   "take": "A second, cheaper way into FUJIFILM’s large-format cinema camera has appeared: the GFX ETERNA 55 is now listed as a body-only version for $9,999.95, which is $6,499 less than the standard package. The camera itself is the same 102MP, 4:3 open gate model.",
+   "source": "CineD",
+   "url": "https://www.cined.com/fujifilm-gfx-eterna-55-body-only-version-for-9999-now-up-for-pre-order-without-monitor-top-handle-and-ac-adapter/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-24",
+   "title": "Peavey Commercial Audio Names Ryan Xiao As Sales Manager In China",
+   "take": "Overseeing sales and channel development for Crest Audio and MediaMatrix, working with dealers and systems integrators to support existing customers, and growing new business.",
+   "source": "ProSoundWeb",
+   "url": "https://www.prosoundweb.com/peavey-commercial-audio-names-ryan-xiao-as-sales-manager-in-china/"
+  },
+  {
+   "cat": "speakers",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-24",
+   "title": "HEDD Audio announce the HEDDphone DX",
+   "take": "Said to build on the natural-sounding midrange of the D1, the HEDDphone DX employ a 50mm high excursion Thin-Ply Carbon Diaphragm (TPCD) driver that delivers deep, controlled bass down to 20Hz.",
+   "source": "Sound On Sound",
+   "url": "https://www.soundonsound.com/news/hedd-audio-announce-heddphone-dx"
+  },
+  {
+   "cat": "software",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-24",
+   "title": "DAW Stem Separators Tested - Listen Here",
+   "take": "Being capable of things that were thought impossible only a few years ago, in the 2020s engineers can press a button to deconstruct a mix in seconds. With stem separation built right into many DAWs, here we present their results for you to compare side by side. Which sounds best? Listen and decide…",
+   "source": "Production Expert",
+   "url": "https://www.production-expert.com/production-expert-1/daw-stem-separators-tested-listen-here"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-24",
+   "title": "DiGiCo’s Quantum225 DS Pulse makes sure Geese deliver on fly dates",
+   "take": "Geese’s Getting Killed World Tour in support of their fourth studio album, set off in 2025 and will end 13 months later in Washington, D.C.",
+   "source": "TPi",
+   "url": "https://www.tpimagazine.com/digicos-quantum225-ds-pulse-makes-sure-geese-deliver-on-fly-dates/"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-24",
+   "title": "Fender Godzilla Black Paisley Telecaster: 2 Monsters Revealed!",
+   "take": "Fender launches Godzilla Black Paisley Telecaster and limited run Custom Shop edition. With monstrous specifications and looks!",
+   "source": "Gearnews",
+   "url": "https://www.gearnews.com/fender-godzilla-black-paisley-telecasters-2-monsters-revealed/"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-24",
+   "title": "Luma Audio offers Luma and Luma FX bundle for $99 until December 1",
+   "take": "Luma Audio is offering Luma and Luma FX, its textural instrument and audio effect plugins, together for $99 during Black Friday. The Luma bundle offer ends on December 1, 2026. The two plugins normally cost $228 when purchased separately, while the bundle will cost $149 after the promotion.",
+   "source": "Bedroom Producers Blog",
+   "url": "https://bedroomproducersblog.com/2026/11/24/luma-audio-bundle/"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-24",
+   "title": "James Acaster on his Debut Album : Drowned in Sound talk The Wow! Scenario",
+   "take": "Professional funny man James Acaster has recently released his first album (<a href=\"http://jamesacaster.bandcamp.com...",
+   "source": "Sonicstate",
+   "url": "https://sonicstate.com/news/2026/11/24/james-acaster-on-his-debut-album/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-24",
+   "title": "Tuning vs. Toning a System",
+   "take": "With her Nov. 2026 “View from the Road” column, system engineer Samantha Boone notes that system tuning - getting a system to a measurably correct, consistent, time aligned, state - needs to be followed up with toning - minor tweaks up to and during performances that account for changes in…",
+   "source": "FOH",
+   "url": "https://fohonline.com/blogs/tip-of-the-week/tuning-vs-toning-a-system-2/"
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-24",
+   "title": "Judge denies Designer Shoe Warehouse bid to dismiss Warner Music’s social media copyright lawsuit",
+   "take": "Warner's labels and publishers sued DSW on May 1, 2025 Source",
+   "source": "Music Business Worldwide",
+   "url": "https://www.musicbusinessworldwide.com/judge-denies-designer-shoe-warehouse-bid-to-dismiss-warner-musics-social-media-copyright-lawsuit/"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-24",
+   "title": "Iftah Sting 2: the brilliant, inspiring acid line generator for mac, linux, win, M4L and now iOS",
+   "take": "Iftah Sting 2 is an expressive and improvisational acid line generator for Ableton M4L and now also a plugin for macOS, Linux, Windows, and iOS. In September, Berlin-based musician and former Skinnerbox member Iftah Gabbai—known [...]",
+   "source": "Synth Anatomy",
+   "url": "https://synthanatomy.com/2026/11/iftah-sting-2-an-expressive-acid-line-generator-for-ableton-max-for-live-and-push.html"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-24",
+   "title": "20CC TXX-1 Spectron Brings Classic Mellotron Sounds To Eurorack",
+   "take": "20CC has released the TXX-1 Spectron, a dual-oscillator Eurorack module that transforms vintage tape-instrument recordings into continuously tunable oscillators, with FM, sync, CV-controlled tape selection and built-in modulation.… Read More 20CC TXX-1 Spectron Brings Classic Mellotron Sounds To…",
+   "source": "Synthtopia",
+   "url": "https://www.synthtopia.com/content/2026/11/24/20cc-txx-1-spectron-brings-classic-mellotron-sounds-to-eurorack/"
+  },
+  {
+   "cat": "post",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-24",
+   "title": "HONOR Magic9 Pro Max Global Rollout Begins – ARRI LogC3, APV 10-Bit 4:2:2, Dual 200MP Cameras",
+   "take": "HONOR starts the global rollout of the Magic9 Pro Max in Malaysia, with more markets to follow in the coming weeks. The phone records ARRI LogC3 in ARRI Wide Gamut 3 with 10-bit color in a dedicated ARRI CINEMA Mode, uses two 200MP rear cameras, and records APV 10-bit 4:2:2, while new…",
+   "source": "CineD",
+   "url": "https://www.cined.com/honor-magic9-pro-max-global-rollout-begins-arri-logc3-apv-10-bit-422-dual-200mp-cameras/"
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-24",
+   "title": "Too Lost Powers the Launch of New Label from Management Collective Six Degrees",
+   "take": "Six Degrees Music, the new label from artist management company Six Degrees Management, is launching with Too Lost as its distribution partner. The move takes the company beyond managing artists and into releasing their recorded music.",
+   "source": "Digital Music News",
+   "url": "https://www.digitalmusicnews.com/2026/11/24/six-degrees-new-label-too-lost-launch/"
+  },
+  {
+   "cat": "speakers",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-24",
+   "title": "Audient At The Heart Of New Studios At The Glasgow School Of Art In Scotland",
+   "take": "New central audio production facility's Ambisonics research studio equipped with an ORIA interface and monitor controller working with a 16-loudspeaker Genelec 8010A array.",
+   "source": "ProSoundWeb",
+   "url": "https://www.prosoundweb.com/audient-at-the-heart-of-new-studios-at-the-glasgow-school-of-art-in-scotland/"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-24",
+   "title": "UJAM introduce Beatmaker & Usynth Suave",
+   "take": "UJAM’s Beatmaker series has just gained two new virtual instruments that have been inspired by the sounds of modern funk, hip-hop, soul and electronic dance music.",
+   "source": "Sound On Sound",
+   "url": "https://www.soundonsound.com/news/ujam-introduce-beatmaker-usynth-suave"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-23",
+   "title": "Kaizen Infinity Rack Review: 54 Processors In One Plugin",
+   "take": "Ten inserts sounds like plenty, and for many purposes it is. However, if you build a complex effects chain you can end up bouncing tracks, spilling onto auxes, or juggling plugin windows just to see what’s going on. Kaizen Audio’s Infinity Rack takes a different approach.",
+   "source": "Production Expert",
+   "url": "https://www.production-expert.com/production-expert-1/kaizen-infinity-rack-review-54-processors-in-one-plugin"
+  }
+ ],
+ "craft": {
+  "title": "Know what still works when the cloud is down",
+  "body": "This week a hearing-aid maker's outage stopped fittings and apps, and new free plugins arrived tied to a vendor account. Both are fine until the server you depend on is unavailable on the day you need it.\n\nOnce a quarter, take your main laptop offline and open a typical session: note which plugins, licences and apps fail, and fix the ones that would stop a job. Keep offline licence files where vendors offer them, keep installers for the versions you actually use, and know how long each account-based licence works without checking in."
+ }
+}
