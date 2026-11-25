@@ -1,0 +1,167 @@
+{
+ "key": "2026-11-25",
+ "label": "Wed 25 Nov 2026",
+ "generated": "2026-11-25T16:41:57+01:00",
+ "auto": true,
+ "lesson": {
+  "body": "A compressor has two parts: a detector that measures level and a gain computer that decides how much to turn down. Above the threshold, a hard-knee compressor's output rises by 1 dB for every R dB of input, where R is the ratio. Gain reduction is therefore (input − threshold) × (1 − 1/R). A peak 12 dB over the threshold at 4:1 comes out 3 dB over, so it is reduced by 9 dB.\n\nAttack and release are time constants, not fixed delays. In most designs, gain reduction moves exponentially towards its target, and the quoted time is how long it takes to get most of the way there; manufacturers define this differently, so the same '10 ms' does not sound identical on two units. Typical ranges show the spread: a classic FET design such as the 1176 attacks in 20–800 microseconds, while the SSL-style bus compressor offers 0.1 to 30 ms attack and 0.1 to 1.2 s release plus Auto. Program-dependent or auto release recovers quickly after short peaks and more slowly after sustained ones.\n\nTime constants interact with frequency. A 50 Hz waveform has a 20 ms period. If attack and release are only a few milliseconds, the gain changes within each cycle and reshapes the waveform itself, which adds harmonic distortion. That can be useful as an effect, but on bass, kick or a full mix it usually sounds grainy. Slower attack lets the transient through before the gain comes down, which is why a 10–30 ms attack on a drum bus makes the hits punchier.\n\nDetection matters as much. A peak detector reacts to the highest instantaneous values and is good for catching transients. An RMS detector averages the signal's power over a window, so it reacts more like the ear does to loudness and gives smoother control on vocals and mixes. Many units also put a high-pass filter in the side-chain so low frequencies don't drive the gain reduction, which stops a mix bus pumping with the kick.",
+  "inPractice": "On a drum bus, set 4:1 and about 6 dB of gain reduction, then sweep attack from fastest to 30 ms while watching the meter and listening to the snare crack. Set release so the gain-reduction meter returns close to zero just before the next beat.",
+  "keyPoints": [
+   "Gain reduction = (input − threshold) × (1 − 1/ratio) for a hard knee.",
+   "Attack and release are time constants; definitions differ between manufacturers.",
+   "Time constants shorter than a waveform's period distort low frequencies.",
+   "Slower attack lets transients through and adds punch.",
+   "RMS detection follows loudness; peak detection catches transients.",
+   "A side-chain HPF stops bass from driving the compressor."
+  ],
+  "level": "core",
+  "mistake": "Many people think a faster attack is always more controlled and therefore better. It also removes the transient that gives a sound its definition, and on bass it adds distortion; choose attack to keep or remove the transient on purpose.",
+  "sayIt": "Attack and release decide how fast the compressor reacts and lets go, and that timing is what makes it sound punchy, smooth or squashed.",
+  "summary": "Attack and release set how quickly a compressor's gain reduction responds when the signal rises above and falls back below the threshold. The detector decides what level the compressor reacts to, from instantaneous peaks to an average over a time window, and together these settings shape the sound far more than the ratio does.",
+  "terms": [
+   {
+    "def": "The level above which the compressor starts reducing gain.",
+    "term": "Threshold"
+   },
+   {
+    "def": "How gradually the ratio changes around the threshold; a soft knee blends compression in over a range of levels.",
+    "term": "Knee"
+   },
+   {
+    "def": "Measuring level as an average of signal power over a short window, closer to perceived loudness.",
+    "term": "RMS detection"
+   },
+   {
+    "def": "A release time that changes with the material, faster after brief peaks and slower after sustained loud passages.",
+    "term": "Program-dependent release"
+   },
+   {
+    "def": "The signal path that feeds the detector, which can be filtered or taken from another source.",
+    "term": "Side-chain"
+   }
+  ],
+  "title": "Compressor attack, release and detection",
+  "topic": "Processing"
+ },
+ "quiz": {
+  "questions": [
+   {
+    "level": "advanced",
+    "topic": "Phase & polarity",
+    "q": "A spill signal arrives 6 dB below the direct signal, with some delay. What are the largest boost and deepest cut in the summed response?",
+    "options": [
+     "+6 dB peaks, complete cancellation",
+     "About +3.5 dB peaks and −6 dB notches",
+     "About +1 dB peaks and −1 dB notches",
+     "+3 dB peaks and −3 dB notches"
+    ],
+    "answer": 1,
+    "explain": "−6 dB is half the amplitude. In phase: 1 + 0.5 = 1.5, which is +3.5 dB. In antiphase: 1 − 0.5 = 0.5, which is −6 dB. Complete cancellation needs equal levels."
+   },
+   {
+    "level": "advanced",
+    "topic": "Compression",
+    "q": "A hard-knee compressor is set to a −18 dBFS threshold and 4:1 ratio. A peak arrives at −6 dBFS. How much gain reduction is applied to it?",
+    "options": [
+     "3 dB",
+     "6 dB",
+     "9 dB",
+     "12 dB"
+    ],
+    "answer": 2,
+    "explain": "The peak is 12 dB over threshold. At 4:1 it comes out 3 dB over, at −15 dBFS, so gain reduction is 12 − 3 = 9 dB. The trap is answering 3 dB, which is the overshoot after compression."
+   },
+   {
+    "level": "advanced",
+    "topic": "Hearing protection",
+    "q": "An engineer is exposed to a steady 94 dB(A) for 2 hours and to negligible noise for the rest of the day. What is their daily exposure LEX,8h?",
+    "options": [
+     "94 dB(A)",
+     "91 dB(A)",
+     "88 dB(A)",
+     "82 dB(A)"
+    ],
+    "answer": 2,
+    "explain": "LEX,8h = 94 + 10·log10(2/8) = 94 − 6 = 88 dB(A), which is above the EU upper action value of 85. Traps: subtracting only 3 dB for a single halving (91), or using 20·log and subtracting 12 dB (82)."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Psychoacoustics",
+    "q": "A delay speaker is timed so its sound arrives about 10 ms after the main PA, at a similar level. What do most listeners hear?",
+    "options": [
+     "A distinct echo from the delay speaker",
+     "One fused sound that seems to come from the main PA",
+     "Sound that seems to come from the delay speaker",
+     "Strong comb filtering heard as two pitches"
+    ],
+    "answer": 1,
+    "explain": "This is the precedence (Haas) effect. For delays of roughly 1 to 30 ms, the brain fuses the two arrivals and places the sound at the first one. That is why delays are set slightly late relative to the mains."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Phase & polarity",
+    "q": "Two equal-level mics are 1 ms apart in time. If you invert the polarity of one, what happens?",
+    "options": [
+     "The notches move to 0 Hz, 1 kHz, 2 kHz…, so the low end cancels",
+     "The comb filtering disappears",
+     "The notches stay at 500 Hz, 1.5 kHz… but become shallower",
+     "Only frequencies above 1 kHz are affected"
+    ],
+    "answer": 0,
+    "explain": "Inversion multiplies every frequency by −1, so the old peaks become notches. The new notches fall at multiples of 1/t, starting at DC. Only a time shift removes the comb."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Gain staging",
+    "q": "Professional line level is +4 dBu. Roughly what RMS voltage is that? (0 dBu = 0.775 V)",
+    "options": [
+     "0.316 V",
+     "4.0 V",
+     "1.23 V",
+     "0.775 V"
+    ],
+    "answer": 2,
+    "explain": "V = 0.775 × 10^(4/20) ≈ 0.775 × 1.585 ≈ 1.23 V. The trap is 0.316 V, which is −10 dBV, the consumer reference referenced to 1 V."
+   },
+   {
+    "level": "basic",
+    "topic": "Compression",
+    "q": "What does a 4:1 ratio mean on a compressor?",
+    "options": [
+     "The output is always 4 dB quieter",
+     "The compressor reacts four times faster",
+     "Gain reduction is 4 dB for every 1 dB over threshold",
+     "Above threshold, a 4 dB rise in input gives a 1 dB rise in output"
+    ],
+    "answer": 3,
+    "explain": "Ratio describes the slope above the threshold: input increase divided by output increase. Below the threshold the signal is not changed at all."
+   },
+   {
+    "level": "basic",
+    "topic": "Microphone technique",
+    "q": "What does the 3:1 rule for multiple mics say?",
+    "options": [
+     "Each mic should be three times louder than the next",
+     "Use three mics for every source",
+     "Keep mics at least three times as far from each other as each one is from its own source",
+     "Place each mic 3 cm from its source"
+    ],
+    "answer": 2,
+    "explain": "With a 3:1 distance ratio, the inverse square law drops spill by about 9.5 dB, so the comb filtering in the sum shrinks to a few dB of ripple."
+   },
+   {
+    "level": "basic",
+    "topic": "Connectors",
+    "q": "What voltage does standard P48 phantom power supply to a condenser mic?",
+    "options": [
+     "48 V DC",
+     "48 V AC",
+     "12 V DC",
+     "24 V DC"
+    ],
+    "answer": 0,
+    "explain": "P48 is +48 V DC, applied equally to pins 2 and 3 through 6.8 kΩ resistors, with pin 1 as the return. P12 and P24 also exist in IEC 61938 but are rare."
+   }
+  ]
+ }
+}

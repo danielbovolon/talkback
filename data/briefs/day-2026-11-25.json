@@ -1,0 +1,320 @@
+{
+ "period": "day",
+ "key": "2026-11-25",
+ "label": "Wed 25 Nov 2026",
+ "range": "23 Nov – 25 Nov 2026",
+ "generated": "2026-11-25T16:41:57+01:00",
+ "auto": true,
+ "headline": "Today's sound headlines",
+ "lead": "30 new stories from 17 sound and audio news sources over the last 48 hours, including Sound On Sound, Production Expert, ProSoundWeb, FOH, TPi and 12 more. This edition is assembled automatically from the outlets' own feeds: titles and summaries are theirs, sorted into sections. Open a story for the full article.",
+ "items": [
+  {
+   "cat": "live",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-25",
+   "title": "Martin Audio Delivers At Chaturmas Bhakti Concert In India",
+   "take": "Evening of devotional music and live performances at the Police Hockey Ground in Mumbai supported by a main system headed by WPC line arrays, TORUS loudspeakers, and more.",
+   "source": "ProSoundWeb",
+   "url": "https://www.prosoundweb.com/martin-audio-delivers-at-chaturmas-bhakti-concert-in-india/"
+  },
+  {
+   "cat": "post",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-25",
+   "title": "Kraxton Labs Master QC Runs Delivery Checks On Audio And Picture",
+   "take": "Kraxton Labs has launched MasterQC, a macOS app that checks printmasters, stems, M&E and Atmos ADM masters against your delivery specification. Here are the details.",
+   "source": "Production Expert",
+   "url": "https://www.production-expert.com/production-expert-1/kraxton-labs-master-qc-runs-delivery-checks-on-audio-and-picture"
+  },
+  {
+   "cat": "software",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-25",
+   "title": "Novation update the Launchkey Mk4 & FLkey 2",
+   "take": "Novation say that the V2.0 update for the Launchkey Mk4 and FLkey 2has been designed to inspire fresh ideas, and introduces major updates to the built-in arpeggiator along with improved plug-in integration and new custom behaviour options for the rotary encoders.",
+   "source": "Sound On Sound",
+   "url": "https://www.soundonsound.com/news/novation-update-launchkey-mk4-flkey-2"
+  },
+  {
+   "cat": "software",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-25",
+   "title": "The Synth Palace is a FREE collection of nine vintage synths for macOS and Windows",
+   "take": "Synth Palace has released The Synth Palace, a free instrument featuring nine vintage-inspired synthesizers for macOS and Windows. First of all, until this year, a free plugin on this scale was almost unimaginable.",
+   "source": "Bedroom Producers Blog",
+   "url": "https://bedroomproducersblog.com/2026/11/25/the-synth-palace-collection/",
+   "free": true
+  },
+  {
+   "cat": "live",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-25",
+   "title": "FCC Outlines 'More Flexible Approach' in Approving Broadcast Ownership Transactions",
+   "take": "‘The Commission will no longer formally define a product market for purposes of our local television competitive analysis but will now consider both broadcast and nonbroadcast platforms’",
+   "source": "TV Technology",
+   "url": "https://www.tvtechnology.com/regulatory-legal/fcc/fcc-outlines-more-flexible-approach-in-approving-broadcast-ownership-transactions"
+  },
+  {
+   "cat": "live",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-25",
+   "title": "NOWIE launches reverse mentoring pilot for senior events leaders",
+   "take": "NOWIE opens applications for Shift, the events industry’s first reverse mentorship programme, running alongside Level Up The Network of Women in Events CIC (NOWIE) has opened applications for Shift, a reverse mentoring programme that pairs senior events leaders with emerging professionals who will…",
+   "source": "TPi",
+   "url": "https://www.tpimagazine.com/nowie-launches-reverse-mentoring-pilot-for-senior-events-leaders/"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-25",
+   "title": "FL Studio 2026.2 Update: New Plugins and Workflow Features",
+   "take": "In the latest FL Studio 2026.2 update, you can find two new plugins and some exciting new workflow enhancements and improvements to the mixer.",
+   "source": "Gearnews",
+   "url": "https://www.gearnews.com/fl-studio-daw-software/"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-25",
+   "title": "Neon Egg OBSOLESCENCE : Mindbending stereo multi-effects unit",
+   "take": "We all see the good the bad and the ugly of music tech releases, but once in a while something which seems to break t...",
+   "source": "Sonicstate",
+   "url": "https://sonicstate.com/news/2026/11/25/neon-egg-obsolescence-/"
+  },
+  {
+   "cat": "hearing",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-25",
+   "title": "Starkey’s Brandon Sawalich Named Executive of the Year by Business Intelligence Group",
+   "take": "Starkey President and CEO Brandon Sawalich has been named Executive of the Year by the Business Intelligence Group in recognition of his leadership in driving record company growth and advancing AI-powered hearing technology, including the Omega AI+ platform.",
+   "source": "Hearing Review",
+   "url": "https://hearingreview.com/inside-hearing/people/starkeys-brandon-sawalich-named-executive-of-the-year-by-business-intelligence-group"
+  },
+  {
+   "cat": "software",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-24",
+   "title": "Jamaica Suk, producer, DJ, and friend, has died",
+   "take": "We lost Jamaica Suk yesterday, the singular musical force. To say this hits close to home is an understatement; few people have been a better friend or a greater inspiration. My thoughts are with her family, in particular, right now.",
+   "source": "CDM",
+   "url": "https://cdm.link/jamaica-suk-producer-dj-and-friend-has-died/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-24",
+   "title": "Behind the Scenes Wellness Lounge Returns to LDI 2026",
+   "take": "LAS VEGAS – Behind the Scenes announced the return of its Wellness Lounge at LDI Booth #510 during the event, which is set for Dec. 6-8, 2026 at the Las Vegas Convention Center.",
+   "source": "FOH",
+   "url": "https://fohonline.com/newsroom/news/behind-the-scenes-wellness-lounge-returns-to-ldi-2026-2/"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-25",
+   "title": "Doves talk us through the making of their 2002 breakthrough hit",
+   "take": "With one of the oddest launch plans in history, the release of Doves’ There Goes the Fear became something of an indie event. Jez Williams reflects on the legacy of the band's biggest chart hit",
+   "source": "MusicRadar",
+   "url": "https://www.musicradar.com/artists/its-one-of-those-songs-thats-punched-through-the-decades-doves-talk-us-through-the-making-of-their-2002-breakthrough-hit"
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-25",
+   "title": "Believe fully acquires Lili Louise Musique, parent of French indie tôt Ou tard, after buying 49% stake in 2018",
+   "take": "Founder Vincent Frèrebeau stays at the helm, eight years after Believe paid €12.3 million for its first 49% stake in the group. Source",
+   "source": "Music Business Worldwide",
+   "url": "https://www.musicbusinessworldwide.com/believe-fully-acquires-lili-louise-musique-parent-of-french-indie-tot-ou-tard-after-acquiring-49-stake-in-2018/"
+  },
+  {
+   "cat": "ai",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-25",
+   "title": "Movity Video Platform Launched – A Vimeo Alternative with Frame-Level Search, H.265 4K Streaming, AI-Made Work Excluded",
+   "take": "Movity is a new video hosting and portfolio platform for filmmakers, built by cinematographer and director Arkadiy Kreslov. It combines hosting, client review, and embeds with a search engine that finds films by their key frames, color palette, and dialogue.",
+   "source": "CineD",
+   "url": "https://www.cined.com/movity-video-platform-launched-a-vimeo-alternative-with-frame-level-search-h-265-4k-streaming-ai-made-work-excluded/"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-25",
+   "title": "FieldSynth Brings Generative Particle Synthesis To iPhone, iPad & Desktop",
+   "take": "FieldSynth is a generative synthesizer that turns particle and cursor movement into evolving melodies and rhythms. It combines FM and subtractive synthesis, modulation, effects and MIDI, with desktop, iOS and browser versions.… Read More FieldSynth Brings Generative Particle Synthesis To iPhone,…",
+   "source": "Synthtopia",
+   "url": "https://www.synthtopia.com/content/2026/11/25/fieldsynth-brings-generative-particle-synthesis-to-iphone-ipad-desktop/"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-25",
+   "title": "Elektron Tonverk 1.5: 16-track performance sampler gets new machines, FXs and more",
+   "take": "Elektron Tonverk is a new 16-track performance polyphonic sampler with multi-samples and the potential to be the spiritual successor to the Octatrack: Firmware 1.5 out now! Amid the rush for hardware and software deals this [...]",
+   "source": "Synth Anatomy",
+   "url": "https://synthanatomy.com/2026/11/elektron-tonverk-a-polyphonic-multi-sampler-with-the-potential-to-be-a-spiritual-octatrack.html"
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-25",
+   "title": "City of Baltimore Sues Vivid Seats Over Four Bait-and-Switch Pricing Tricks",
+   "take": "The city of Baltimore has filed suit against Vivid Seats over allegations of systematic deception and bait-and-switch ticket pricing. On Monday, Baltimore Mayor Brandon M.",
+   "source": "Digital Music News",
+   "url": "https://www.digitalmusicnews.com/2026/11/24/baltimore-sues-vivid-seats-bait-and-switch/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-25",
+   "title": "HK Audio Names Isabelle Wear As Head Of Sales EMEA",
+   "take": "Expands her responsibilities to include Europe alongside her existing international territories that comprise the Middle East, Africa, and the Asia-Pacific region.",
+   "source": "ProSoundWeb",
+   "url": "https://www.prosoundweb.com/hk-audio-names-isabelle-wear-as-head-of-sales-emea/"
+  },
+  {
+   "cat": "post",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-25",
+   "title": "Sound Radix POWAIR 2 And MuteØmatic Studio Arrive With Radical Bundle 5: What Existing Owners Should Check",
+   "take": "Sound Radix has announced POWAIR 2, a rebuild of its loudness leveller and compressor that adds a true-peak brick-wall limiter, a clipper and saturator stage, and a new ducking mode called Delta Duck.",
+   "source": "Production Expert",
+   "url": "https://www.production-expert.com/production-expert-1/sound-radix-powair-2-and-mutematic-studio-arrive-with-radical-bundle-5-what-existing-owners-should-check"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-24",
+   "title": "iZotope release Nectar 5",
+   "take": "Nectar 5 introduces some new processing tools, bringing the total count to 18, and also features an innovative function that makes quick work of applying processing to specific words or phrases.",
+   "source": "Sound On Sound",
+   "url": "https://www.soundonsound.com/news/izotope-release-nectar-5"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-25",
+   "title": "Valhalla Supermassive 6.0 adds Helios mode to the FREE reverb and delay plugin",
+   "take": "Valhalla DSP has updated Valhalla Supermassive to version 6.0.0, adding the new Helios mode to its free reverb and delay plugin for macOS and Windows. We covered the Sirius update last year, and Supermassive is also the top pick in our free reverb plugins list.",
+   "source": "Bedroom Producers Blog",
+   "url": "https://bedroomproducersblog.com/2026/11/25/valhalla-supermassive-helios/",
+   "free": true
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-25",
+   "title": "AIMS Announces Winter 2027 IPMX Product Testing and Certification Event",
+   "take": "Hosted by AIMS, VSF, and EBU, January 2027 event in Geneva will add USB 2.0 transport to IPMX Test Plan",
+   "source": "TV Technology",
+   "url": "https://www.tvtechnology.com/standards/aims-announces-winter-2027-ipmx-product-testing-and-certification-event"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-25",
+   "title": "Way Huge Smalls Green Rhino Overdrive: ’95 Style!",
+   "take": "The Way Huge Smalls Green Rhino Overdrive takes us back to 1995 and offers classic drive tones in a modern compact package",
+   "source": "Gearnews",
+   "url": "https://www.gearnews.com/way-huge-smalls-green-rhino-overdrive/"
+  },
+  {
+   "cat": "software",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-25",
+   "title": "Akai Professional Updates MPC Sample : Free Firmware 1.4 allows community-built custom effects",
+   "take": "<p style=\"caret-color: rgb(34, 34, 34); color: rgb(34, 34, 34); font-style: normal; fon...",
+   "source": "Sonicstate",
+   "url": "https://sonicstate.com/news/2026/11/25/akai-professional-updates-mpc-sample/",
+   "free": true
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-24",
+   "title": "Renkus-Heinz announces Executive Leadership Transition",
+   "take": "Renkus-Heinz has announced an important evolution in its leadership. Effective November 16, 2026, Jonathan Phillips has assumed the role of President of Renkus-Heinz, and Monika Smetona has assumed the role of Chief Financial Officer while remaining a member of the board of directors.",
+   "source": "TPi",
+   "url": "https://www.tpimagazine.com/renkus-heinz-announces-executive-leadership-transition/"
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-24",
+   "title": "Show Report: Live Audio Hits from AES Nashville 2026",
+   "take": "NASHVILLE - For 2026, the annual AES convention came to Nashville for the first time. FOH columnist John McJunkin was one of close to 3,000 attending the event, which included educational sessions and a big boost in exhibitor participation. Here's his show report.",
+   "source": "FOH",
+   "url": "https://fohonline.com/newsroom/news/show-report-live-audio-hits-from-aes-nashville-2026/"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-25",
+   "title": "Revisit the glory days of '90s rave with this free euphoric trance sample pack",
+   "take": "Put your hands in the air!",
+   "source": "MusicRadar",
+   "url": "https://www.musicradar.com/music-tech/samples/revisit-the-glory-days-of-90s-rave-with-this-free-euphoric-trance-sample-pack",
+   "free": true
+  },
+  {
+   "cat": "ai",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-25",
+   "title": "With friends like these: Suno and MiniMax team up",
+   "take": "The following MBW op/ed comes from Victoria Furniss, Executive Director and CEO of ARIAM (the Alliance for Responsible Innovation in the Arts & Media) Source",
+   "source": "Music Business Worldwide",
+   "url": "https://www.musicbusinessworldwide.com/with-friends-like-these-suno-and-minimax-team-up/"
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-25",
+   "title": "Kodak Reports Growth in Motion Picture Film – The Odyssey Returns to IMAX 70mm in December",
+   "take": "Kodak has reported a third quarter with higher revenue, higher profit, and less debt, and CEO Jim Continenza told investors that the company continues “to see growth in motion picture films.” Two days later, Universal confirmed that Christopher Nolan’s The Odyssey, shot completely on KODAK 65mm…",
+   "source": "CineD",
+   "url": "https://www.cined.com/kodak-reports-growth-in-motion-picture-film-the-odyssey-returns-to-imax-70mm-in-december/"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-25",
+   "title": "Full Bucket Music goes MPC: MPS Synth and FB Phaser kick off its plugin lineup",
+   "take": "Full Bucket Music goes MPC and has launched MPS Synth and FB Phaser, the first two plugins for the MPC platform. On November 12, 2026, a new era began for the MPC platform. Akai released [...]",
+   "source": "Synth Anatomy",
+   "url": "https://synthanatomy.com/2026/11/full-bucket-music-goes-mpc-mps-synth-and-fb-phaser-kick-off-its-plugin-lineup.html"
+  }
+ ],
+ "craft": {
+  "body": "This month's alliance of SFX libraries is a reminder that field recordings and designed sounds have real value, including as AI training data.\n\nKeep a simple register of your original recordings: date, place, gear, and who holds rights. When you deliver sounds to a client, say in writing whether they get a licence for this production only or full ownership. It is the same discipline the big libraries use, scaled to one person.",
+  "title": "Treat your own recordings as assets"
+ }
+}
