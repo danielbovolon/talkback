@@ -1,0 +1,167 @@
+{
+ "key": "2026-11-26",
+ "label": "Thu 26 Nov 2026",
+ "generated": "2026-11-26T16:23:44+01:00",
+ "auto": true,
+ "lesson": {
+  "body": "K-weighting is two filters in series: a high shelf of about +4 dB in the upper frequencies, which models the acoustic effect of the head, and a high-pass (the RLB curve) that rolls off the low bass. The filtered signal of each channel is squared and averaged. Left, right and centre have a weight of 1.0, the surrounds 1.41 (about +1.5 dB), and the LFE channel is not counted. The weighted powers are added and converted to a logarithmic value. As a reference point, a 0 dBFS 1 kHz sine in one front channel reads −3.01 LUFS.\n\nThe same calculation runs over different time windows. Momentary loudness uses a 400 ms window, short-term uses 3 s. Integrated loudness covers the whole programme but is gated: it uses 400 ms blocks overlapping by 75%, discards blocks below −70 LUFS (the absolute gate), measures the rest, then discards blocks more than 10 LU below that result (the relative gate) and measures again. Gating stops silence and quiet passages from dragging the number down.\n\nLoudness Range (EBU Tech 3342) describes how much the loudness varies. It takes the short-term values, applies an absolute gate at −70 LUFS and a relative gate 20 LU below, and reports the difference between the 10th and 95th percentiles of what remains. Ignoring the quietest 10% and the loudest 5% keeps a single fade-out or explosion from dominating. True peak is a separate measurement: the signal is oversampled (four times at 48 kHz) so that peaks between samples, which can appear after conversion or lossy encoding, are caught.\n\nTargets: EBU R128 asks for −23 LUFS integrated (±0.5 LU, ±1 LU for live) and a maximum of −1 dBTP. ATSC A/85 in the US uses −24 LKFS with −2 dBTP. Netflix measures dialogue-gated loudness at −27 LKFS. In film and TV post the integrated number is the pass or fail figure, LRA tells you whether the mix will sit well on a television, and true peak protects the encoder.",
+  "inPractice": "Bounce a finished mix, measure it in two different meters, and write down integrated loudness, LRA and true peak from each. Then remove the LFE channel from a 5.1 mix and check that the integrated figure does not change.",
+  "keyPoints": [
+   "LUFS and LKFS are the same unit; 1 LU = 1 dB.",
+   "K-weighting: +4 dB high shelf plus a low-bass high-pass; LFE is not measured.",
+   "Momentary 400 ms, short-term 3 s, integrated is gated (−70 LUFS, then −10 LU).",
+   "LRA = 95th minus 10th percentile of gated short-term loudness.",
+   "R128: −23 LUFS, −1 dBTP. A/85: −24 LKFS, −2 dBTP.",
+   "Measure the bounced file, and use true peak, not sample peak."
+  ],
+  "level": "core",
+  "mistake": "Many people think a quiet intro or a long silence lowers the integrated reading enough to let the rest run hot. Gating discards silence and very quiet blocks, so the loud sections largely set the number.",
+  "sayIt": "A loudness meter measures how loud the whole programme feels on average, weighted the way our ears hear, so every broadcast sits at the same level and nobody reaches for the remote.",
+  "summary": "Loudness meters following ITU-R BS.1770 filter the signal with K-weighting, take the mean-square power of each channel, apply channel weights, sum, and express the result in LUFS (LKFS), where 1 LU equals 1 dB. EBU R128 and ATSC A/85 build delivery targets on that measurement, using gating for integrated loudness and a statistical measure (LRA) for loudness range.",
+  "terms": [
+   {
+    "def": "Loudness Units relative to Full Scale; the absolute loudness unit of BS.1770. The two names mean the same thing.",
+    "term": "LUFS / LKFS"
+   },
+   {
+    "def": "The frequency weighting used by BS.1770: a high shelf plus a low-frequency high-pass.",
+    "term": "K-weighting"
+   },
+   {
+    "def": "Leaving out measurement blocks below a threshold so that silence and quiet passages do not lower the integrated value.",
+    "term": "Gating"
+   },
+   {
+    "def": "Loudness Range, defined in EBU Tech 3342: the spread between the 10th and 95th percentiles of gated short-term loudness, in LU.",
+    "term": "LRA"
+   },
+   {
+    "def": "Decibels true peak: the peak level measured after oversampling, catching inter-sample peaks.",
+    "term": "dBTP"
+   }
+  ],
+  "title": "How a loudness meter actually measures",
+  "topic": "Mixing and mastering"
+ },
+ "quiz": {
+  "questions": [
+   {
+    "level": "advanced",
+    "topic": "Acoustics",
+    "q": "Two parallel walls are 4.3 m apart. Taking the speed of sound as 343 m/s, what is the lowest axial room mode between them?",
+    "options": [
+     "About 80 Hz",
+     "About 160 Hz",
+     "About 40 Hz",
+     "About 20 Hz"
+    ],
+    "answer": 2,
+    "explain": "The first axial mode is f = c / 2L = 343 / 8.6 ≈ 40 Hz. Forgetting the factor of 2 gives 80 Hz, which is the second mode."
+   },
+   {
+    "level": "advanced",
+    "topic": "Microphones",
+    "q": "A condenser mic's sensitivity is 10 mV/Pa. What is its output level, in dBV, at 114 dB SPL?",
+    "options": [
+     "−40 dBV",
+     "−34 dBV",
+     "0 dBV",
+     "−20 dBV"
+    ],
+    "answer": 3,
+    "explain": "94 dB SPL is 1 Pa, so 114 dB SPL is 10 Pa, and the output is 10 × 10 mV = 100 mV. 20·log₁₀(0.1 V / 1 V) = −20 dBV. −40 dBV is the output at 94 dB SPL."
+   },
+   {
+    "level": "advanced",
+    "topic": "Post workflow",
+    "q": "In one hour of 29.97 fps drop-frame timecode, how many frame numbers are skipped?",
+    "options": [
+     "120",
+     "18",
+     "108",
+     "0, because frames of picture are dropped instead"
+    ],
+    "answer": 2,
+    "explain": "Two numbers (00 and 01) are skipped each minute except minutes 00, 10, 20, 30, 40 and 50, so 2 × 54 = 108. That matches the roughly 3.6 s (108 frames at 30 fps) by which a non-drop count at 29.97 falls behind the clock."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Post workflow",
+    "q": "Where does a Broadcast WAV file store its start timecode, and in what form?",
+    "options": [
+     "In the file name, as HH-MM-SS-FF",
+     "In the bext chunk's TimeReference field, as a sample count since midnight",
+     "In the fmt chunk, as a frame count",
+     "In the file's creation date on disk"
+    ],
+    "answer": 1,
+    "explain": "BWF's bext chunk holds TimeReference as a 64-bit count of samples since midnight. Software converts it to HH:MM:SS:FF using the sample rate and the project frame rate, which iXML usually also records."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Dynamics",
+    "q": "You gate a floor tom, but the snare keeps opening it. What is usually the best first fix?",
+    "options": [
+     "Set the gate's key filter to the floor tom's frequency range",
+     "Lengthen the release time",
+     "Lower the threshold",
+     "Increase the range"
+    ],
+    "answer": 0,
+    "explain": "A key filter makes the detector listen mainly to the tom's band, where the snare is weaker. Lowering the threshold makes the false triggering worse."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Phase & polarity",
+    "q": "Two equal-level mics are 1 ms apart in time. If you invert the polarity of one, what happens?",
+    "options": [
+     "The notches move to 0 Hz, 1 kHz, 2 kHz…, so the low end cancels",
+     "The comb filtering disappears",
+     "The notches stay at 500 Hz, 1.5 kHz… but become shallower",
+     "Only frequencies above 1 kHz are affected"
+    ],
+    "answer": 0,
+    "explain": "Inversion multiplies every frequency by −1, so the old peaks become notches. The new notches fall at multiples of 1/t, starting at DC. Only a time shift removes the comb."
+   },
+   {
+    "level": "basic",
+    "topic": "Digital audio",
+    "q": "Which sample rate is the normal standard for audio recorded for film and TV?",
+    "options": [
+     "44.1 kHz",
+     "32 kHz",
+     "22.05 kHz",
+     "48 kHz"
+    ],
+    "answer": 3,
+    "explain": "48 kHz is the video and broadcast standard. 44.1 kHz comes from the CD. Using 44.1 kHz on a picture job means sample-rate conversion and a chance of sync errors."
+   },
+   {
+    "level": "basic",
+    "topic": "Post workflow",
+    "q": "What frame rate is standard for broadcast TV in Europe, including Italy?",
+    "options": [
+     "25 fps",
+     "29.97 fps",
+     "24 fps",
+     "30 fps"
+    ],
+    "answer": 0,
+    "explain": "European broadcast uses 25 fps (50 Hz). 29.97 and 30 come from North American NTSC practice, and 24 (or 23.976) is the cinema rate."
+   },
+   {
+    "level": "basic",
+    "topic": "Acoustics",
+    "q": "Roughly how far does sound travel in air at 20 °C in 1 millisecond?",
+    "options": [
+     "3.4 m",
+     "3.4 cm",
+     "1 m",
+     "34 cm"
+    ],
+    "answer": 3,
+    "explain": "At about 343 m/s, 1 ms is 0.343 m, or about 34 cm. A handy rule of thumb: roughly 1 ft per millisecond."
+   }
+  ]
+ }
+}

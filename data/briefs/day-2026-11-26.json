@@ -1,0 +1,318 @@
+{
+ "period": "day",
+ "key": "2026-11-26",
+ "label": "Thu 26 Nov 2026",
+ "range": "24 Nov – 26 Nov 2026",
+ "generated": "2026-11-26T16:23:44+01:00",
+ "auto": true,
+ "headline": "Today's sound headlines",
+ "lead": "30 new stories from 17 sound and audio news sources over the last 48 hours, including Sound On Sound, Production Expert, ProSoundWeb, FOH, TPi and 12 more. This edition is assembled automatically from the outlets' own feeds: titles and summaries are theirs, sorted into sections. Open a story for the full article.",
+ "items": [
+  {
+   "cat": "post",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-26",
+   "title": "Want To Work In Audio Post Production? Advice From Experienced Professionals",
+   "take": "In this article, our Expert Panel give their wisdom on how best to get started in the audio post-production industry and to make sure the next generation don’t miss out on the advice they wished they had been given. Read, listen and follow their wisdom….",
+   "source": "Production Expert",
+   "url": "https://www.production-expert.com/production-expert-1/want-to-work-in-audio-post-production-advice-from-experienced-professionals"
+  },
+  {
+   "cat": "plugins",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-26",
+   "title": "Blox Grain from Pine DSP",
+   "take": "Pine DSP have just introduced a new granular effect that can run as a standalone plug-in, or as a module within their recently released Blox Rack.",
+   "source": "Sound On Sound",
+   "url": "https://www.soundonsound.com/news/blox-grain-pine-dsp"
+  },
+  {
+   "cat": "plugins",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-25",
+   "title": "Sound Radix Releases Radical Bundle 5 Offering Three New Plugins",
+   "take": "New plugins include POWAIR 2, MuteØmatic Studio and Radical1; the seven-plugin bundle also offers Auto-Align 2, Drum Leveler, SurferEQ 2 and Pi.",
+   "source": "ProSoundWeb",
+   "url": "https://www.prosoundweb.com/sound-radix-updates-radical-bundle-5-offering-three-new-plugins/"
+  },
+  {
+   "cat": "software",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-26",
+   "title": "Laurie Spiegel’s cosmic sounds of Kepler passed one light day from Earth",
+   "take": "Earlier this month, NASA's Voyager 1 spacecraft traveled beyond 25.902 billion km from Earth, a distance light would travel in 24 hours. Now is a great time to listen to Laurie Spiegel's contribution to that record -- a dizzying sonic model of Kepler's Harmonice Mundi.",
+   "source": "CDM",
+   "url": "https://cdm.link/laurie-spiegel-in-space/"
+  },
+  {
+   "cat": "instruments",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-26",
+   "title": "5 Eurorack Oscillators You Should Check Out : Analogue, digital, budget-friendly, polyphonic and under-the-radar (video)",
+   "take": "We've teamed up with Signal Sounds in the UK to bring a look at five Eurorack oscillato...",
+   "source": "Sonicstate",
+   "url": "https://sonicstate.com/news/2026/11/26/top-5-eurorack-oscillators/"
+  },
+  {
+   "cat": "gear",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-26",
+   "title": "Sterling StingRay 50th Anniversary LTD: Less gold, more bass",
+   "take": "Music Man continues celebrating their most famous bass model with the Sterling StingRay 50th Anniversary LTD. This time, it's less gold!",
+   "source": "Gearnews",
+   "url": "https://www.gearnews.com/sterling-stingray-50th-anniversary-ltd-guitar/"
+  },
+  {
+   "cat": "ai",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-26",
+   "title": "Rylo and Raz Mobility Partner to Bring Real-Time AI Call Captions to Seniors",
+   "take": "Rylo and Raz Mobility have partnered to integrate real-time, AI-powered call captions directly into the Raz Memory Cell Phone, expanding accessible communication for seniors with hearing loss and cognitive challenges.",
+   "source": "Hearing Review",
+   "url": "https://hearingreview.com/inside-hearing/industry-news/rylo-and-raz-mobility-partner-to-bring-real-time-ai-call-captions-to-seniors"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-26",
+   "title": "Avolites Golden Console Winner receives Unique D3-010",
+   "take": "The lucky winner of the Avolites D3-010 Golden Console competition, Emmanuel “Manu” Peyre from France, immediately put his unique new 24-carat gold-plated D3-010 to work lighting a show at the Espace Culturel Philippe Torreton for The Picture of Dorian Gray by Oscar Wilde, adapted by theatre…",
+   "source": "TPi",
+   "url": "https://www.tpimagazine.com/avolites-golden-console-winner-receives-unique-d3-010/"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-26",
+   "title": "Kaleidon Spark is a FREE effects sequencer that can also host plugins",
+   "take": "Dylan Mixer offers Kaleidon Spark, a free effects sequencer for macOS and Windows that turns your existing plugins into rhythmic patterns. Before we continue, please note that this one requires the Pulse Downloader, so if that’s not your style, feel free to skip.",
+   "source": "Bedroom Producers Blog",
+   "url": "https://bedroomproducersblog.com/2026/11/26/kaleidon-spark-free/",
+   "free": true
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-26",
+   "title": "RevolutionTF Audio Analysis Software, V1.6",
+   "take": "Designed by veteran systems engineer Ofer Dvir, RevolutionTF is a pro-level FFT RTA dual-channel live analyzer offering real-time insights for optimal sound quality.",
+   "source": "FOH",
+   "url": "https://fohonline.com/blogs/new-gear/revolutiontf-audio-analysis-software-v1-6/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-25",
+   "title": "The Thanksgiving 1986 DX Opening That Flooded North American Dials",
+   "take": "An oral history of the tropospheric ducting event 40 years ago",
+   "source": "TV Technology",
+   "url": "https://www.tvtechnology.com/platform/broadcast/the-thanksgiving-1986-dx-opening-that-flooded-north-american-dials"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-26",
+   "title": "Mick Jagger just reminded everyone that he came up with one of the Rolling Stones’ most famous guitar riffs",
+   "take": "Jagger does also say, though, that he always hopes that Richards will come up with something better than he has",
+   "source": "MusicRadar",
+   "url": "https://www.musicradar.com/artists/bands/mick-jagger-just-reminded-everyone-that-he-came-up-with-one-of-the-rolling-stones-most-famous-guitar-riffs-keith-just-played-exactly-what-i-played-on-the-original-when-i-originally-wrote-it"
+  },
+  {
+   "cat": "software",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-26",
+   "title": "Nikon ZR Firmware 2.0 Finally Out + FUJIFILM GFX ETERNA 55 Now Under $10,000 – Focus Check ep144",
+   "take": "Nikon ZR firmware 2.00 is finally here, bringing Log3G10 to H.265 – and FUJIFILM has cut the GFX ETERNA 55 to $9,999 body-only, down from roughly $17,000 at launch.",
+   "source": "CineD",
+   "url": "https://www.cined.com/nikon-zr-firmware-2-0-finally-out-fujifilm-gfx-eterna-55-now-under-10000-focus-check-ep144/"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-26",
+   "title": "Little Machines Ocarina 3DS Turns Nintendo’s Handheld Into A Wind Synth",
+   "take": "Little Machines Ocarina 3DS is a free Nintendo 3DS and 2DS music app that uses the handheld's buttons and microphone for wind-instrument-style playing, with 23 voices and three loopers.… Read More Little Machines Ocarina 3DS Turns Nintendo’s Handheld Into A Wind Synth",
+   "source": "Synthtopia",
+   "url": "https://www.synthtopia.com/content/2026/11/26/little-machines-ocarina-3ds-wind-synth/"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-26",
+   "title": "Patching Panda Holograms: a dual analog complex oscillator with digital control",
+   "take": "Patching Panda Holograms is a new dual-analog complex oscillator module for Eurorack, with a digital control brain and presets. You typically start your Eurorack adventure with a classic analog or digital oscillator that covers all [...]",
+   "source": "Synth Anatomy",
+   "url": "https://synthanatomy.com/2026/11/patching-panda-holograms-a-dual-analog-complex-oscillator-with-digital-control.html"
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-26",
+   "title": "Vevo dscvr artists to watch 2027: AZ Chike, 54 Ultra, Barry B, FreshMula",
+   "take": "Introducing four more artists from Vevo's Artists To Watch 2027 roster... Source",
+   "source": "Music Business Worldwide",
+   "url": "https://www.musicbusinessworldwide.com/vevo-dscvr-artists-to-watch-2027-az-chike-54-ultra-barry-b-freshmula/"
+  },
+  {
+   "cat": "games",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-26",
+   "title": "Grammy-Winning Cover Band Removes 37 Tracks from YouTube/DSPs After Nintendo Licensing Problems",
+   "take": "Video game music cover group 8-Bit Big Band removes 37 tracks from YouTube and some streaming services amid copyright issues with Nintendo. 8-Bit Big Band, a video game music cover group, has removed 37 Nintendo-related songs from their YouTube channel—including Grammy-winning arrangements.",
+   "source": "Digital Music News",
+   "url": "https://www.digitalmusicnews.com/2026/11/25/unlicensed-nintendo-tracks-removed-youtube/"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-25",
+   "title": "Aim Audio introduce the Essence+ Pack",
+   "take": "Aim Audio have just introduced a new hardware bundle that combines their cardioid condenser mic with a shockmount, pop filter and a hard carry case.",
+   "source": "Sound On Sound",
+   "url": "https://www.soundonsound.com/news/aim-audio-introduce-essence-pack"
+  },
+  {
+   "cat": "ai",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-25",
+   "title": "Tidal Will Remove Fully AI-Generated Music From 9 December, Deleting Around 29 Million Tracks",
+   "take": "Tidal has today announced that it will remove all music generated entirely with AI from its streaming service, starting on 9 December. New fully AI-generated uploads will also be rejected. AI-assisted music made by artists stays on the platform.",
+   "source": "Production Expert",
+   "url": "https://www.production-expert.com/production-expert-1/tidal-will-remove-fully-ai-generated-music-from-9-december-deleting-around-29-million-tracks"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-25",
+   "title": "Genelec Adds Sales & Support Staff In Western Europe",
+   "take": "Gilles Pétrotey and Nicolas Cherencq focusing on the company's sales and customer/technical support in French-speaking markets.",
+   "source": "ProSoundWeb",
+   "url": "https://www.prosoundweb.com/genelec-adds-sales-support-staff-in-western-europe/"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-26",
+   "title": "Orange Tiny Terror 20th Anniversary Models in British Racing Green",
+   "take": "Orange Tiny Terror 20th Anniversary a limited run of 1000 in British Racing Green finish, the OG Lunch Box amp!",
+   "source": "Gearnews",
+   "url": "https://www.gearnews.com/orange-tiny-terror-20th-anniversary/"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-26",
+   "title": "Loop Starter from FL Studio : Become a Loop Master with library of 2m+ Samples",
+   "take": "FL Studio is here to ensure your tracks start off on the right foot with Loop Starter. It builds a stack of genr...",
+   "source": "Sonicstate",
+   "url": "https://sonicstate.com/news/2026/11/26/loop-starter-from-fl-studio/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-26",
+   "title": "22live invests in Sennheiser Spectera to broaden its rental and sales offering",
+   "take": "22live has invested in Spectera wideband wireless and is putting it to work across a growing number of tours and productions.",
+   "source": "TPi",
+   "url": "https://www.tpimagazine.com/22live-invests-in-sennheiser-spectera-to-broaden-its-rental-and-sales-offering/"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-26",
+   "title": "Nail The Mix offers FreqSniper resonance-removal plugin for FREE",
+   "take": "Nail The Mix is offering FreqSniper, a resonance-removal EQ plugin developed with Joey Sturgis Tones, as a free download. The plugin analyzes your audio and suggests what frequencies to cut, as well as whether to use static or dynamic processing.",
+   "source": "Bedroom Producers Blog",
+   "url": "https://bedroomproducersblog.com/2026/11/26/nail-the-mix-freqsniper/",
+   "free": true
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-26",
+   "title": "Peavey Commercial Audio Names Ryan Xiao as China Sales Manager",
+   "take": "Peavey Commercial Audio has appointed Ryan Xiao as Sales Manager for China",
+   "source": "FOH",
+   "url": "https://fohonline.com/newsroom/on-the-move/peavey-commercial-audio-names-ryan-xiao-as-china-sales-manager/"
+  },
+  {
+   "cat": "hearing",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-25",
+   "title": "Closing the Cognitive Care Gap",
+   "take": "In this feature article, the authors propose that audiology lead early detection of cognitive decline through an integrated allied health model.",
+   "source": "Hearing Review",
+   "url": "https://hearingreview.com/hearing-loss/patient-care/evaluation/closing-the-cognitive-care-gap"
+  },
+  {
+   "cat": "software",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-25",
+   "title": "The gentle sounds of a tiny acoustic piano from Denmark",
+   "take": "In northern Europe, it's that time of year that disappears under a thick blanket of cloud, and the hours of daylight seem to melt away into cinder gray. That calls for some cozy comforts. And look at this: some new acoustic instrument engineering, and a tiny acoustic piano.",
+   "source": "CDM",
+   "url": "https://cdm.link/the-gentle-sounds-of-a-tiny-acoustic-piano-from-denmark/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-25",
+   "title": "DoubleVerify to Support LG Ad Solutions’ Home Screen Inventory",
+   "take": "Advertisers can use the same verification standards as elsewhere",
+   "source": "TV Technology",
+   "url": "https://www.tvtechnology.com/platform/streaming/doubleverify-to-support-lg-ad-solutions-home-screen-inventory"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-26",
+   "title": "touski Releases ChanceBloom Generative Slice Sampler",
+   "take": "touski's ChanceBloom is a generative slice sampler for macOS and Windows that turns loops into tempo-synced patterns, with adjustable variation, a step sequencer and drag-and-drop WAV export.… Read More touski Releases ChanceBloom Generative Slice Sampler",
+   "source": "Synthtopia",
+   "url": "https://www.synthtopia.com/content/2026/11/26/touski-chancebloom-generative-slice-sampler/"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-26",
+   "title": "U2 honour Dolly Parton with the first performance of Torn at the NFL’s Thanksgiving Eve game’s halftime show",
+   "take": "Bono ‘duets’ with recording of the late singer’s voice",
+   "source": "MusicRadar",
+   "url": "https://www.musicradar.com/artists/shows-festivals/u2-honour-dolly-parton-with-the-first-live-performance-of-torn-at-the-nfls-thanksgiving-eve-games-halftime-show"
+  }
+ ],
+ "craft": {
+  "body": "October's lesson is that a new Mac decides which macOS you run, and your DAW vendor decides whether that is supported. Before buying any machine for client work, list every piece of software and hardware in your chain (DAW, plugins, interface drivers, iLok, control surfaces) and check each against the OS the machine ships with.\n\nIf anything is not qualified, either buy an older model that can still run your current OS, or keep your existing machine as the main rig until the chain catches up. A new laptop that cannot open a client's session is not an upgrade.",
+  "title": "Don't let a new computer choose your OS"
+ }
+}
