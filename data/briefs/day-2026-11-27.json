@@ -1,0 +1,320 @@
+{
+ "period": "day",
+ "key": "2026-11-27",
+ "label": "Fri 27 Nov 2026",
+ "range": "25 Nov – 27 Nov 2026",
+ "generated": "2026-11-27T16:11:17+01:00",
+ "auto": true,
+ "headline": "Today's sound headlines",
+ "lead": "30 new stories from 15 sound and audio news sources over the last 48 hours, including Sound On Sound, Production Expert, FOH, TPi, TV Technology and 10 more. This edition is assembled automatically from the outlets' own feeds: titles and summaries are theirs, sorted into sections. Open a story for the full article.",
+ "items": [
+  {
+   "cat": "plugins",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-27",
+   "title": "KIT Plugins release H2 0011 & H2 Comp",
+   "take": "KIT Plugins' first collaboration with H2 Studios recreates the company's original Helios 0011 Series mic preamp/EQ and H760 FET Compressor/Limiter.",
+   "source": "Sound On Sound",
+   "url": "https://www.soundonsound.com/news/kit-plugins-release-h2-0011-h2-comp"
+  },
+  {
+   "cat": "ai",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-26",
+   "title": "AI Voice Production Directly In Pro Tools With VoiceWunder",
+   "take": "Voice generation for voice-over and post-production has increasingly become an online process, with audio typically being generated through a web service before being downloaded and imported into your DAW. Only then can you properly audition it in the context of your project.",
+   "source": "Production Expert",
+   "url": "https://www.production-expert.com/production-expert-1/ai-voice-production-directly-in-pro-tools-with-voicewunder"
+  },
+  {
+   "cat": "hearing",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-27",
+   "title": "Civil Rights Group Sues Three Telehealth Providers Over Deaf and Hard of Hearing Access",
+   "take": "The Equal Rights Center alleges that the providers' platforms fail to provide essential ASL interpretation and live captioning for d/Deaf and hard of hearing patients.",
+   "source": "Hearing Review",
+   "url": "https://hearingreview.com/practice-building/office-services/telehealth/civil-rights-group-sues-three-telehealth-providers-over-deaf-and-hard-of-hearing-access"
+  },
+  {
+   "cat": "gear",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-27",
+   "title": "Behringer CS Mini: Available now!",
+   "take": "Behringer's CS Mini is finally available to order, but has it been worth the wait?",
+   "source": "Gearnews",
+   "url": "https://www.gearnews.com/behringer-cs-mini-its-a-cs-80-in-a-teeny-tiny-box/"
+  },
+  {
+   "cat": "software",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-27",
+   "title": "Polyend Mess 1.3 With Endless Player Support : Load Plates patches, free update",
+   "take": "Polyend has released firmware 1.3 for the Mess multi-effect pedal, the new firmware adds supp...",
+   "source": "Sonicstate",
+   "url": "https://sonicstate.com/news/2026/11/27/polyend-mess-1-3-endless-effects-support/",
+   "free": true
+  },
+  {
+   "cat": "plugins",
+   "signal": 2,
+   "auto": true,
+   "date": "2026-11-27",
+   "title": "Get Zero-G Total Bass Drums FREE, exclusively on BPB",
+   "take": "Zero-G is offering Total Bass Drums, a sample library containing 10,750 kick drums, as a free download exclusively for BPB readers until Cyber Monday. The pack normally costs $34.99, but you can get it for free with the coupon code BPBFREEKICKS as an exclusive Black Friday freebie.",
+   "source": "Bedroom Producers Blog",
+   "url": "https://bedroomproducersblog.com/2026/11/27/zerog-total-bass-drums-free/",
+   "free": true
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-26",
+   "title": "Backup Tech welcomes two new Ambassadors",
+   "take": "The role of Backup Tech Ambassador is a vital part of the charity. Overseen by Trustee Koy Neminathan, Backup Ambassadors not only spread the word about what the charity is up to, they also help deliver specific initiatives, attend activities, meetings and events, working behind the scenes to…",
+   "source": "TPi",
+   "url": "https://www.tpimagazine.com/backup-tech-welcomes-two-new-ambassadors/"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-26",
+   "title": "InSight Systems Welcomes Vizcom Technologies to the Hibino Group",
+   "take": "MELBOURNE, AU — Two leading Australian audiovisual companies are joining forces as part of the Hibino Group, combining InSight Systems’ eastern-state presence, Vizcom Technologies’ Western Australian reach and shared expertise to pursue opportunities on a national scale.",
+   "source": "FOH",
+   "url": "https://fohonline.com/newsroom/international-news/insight-systems-welcomes-vizcom-technologies-to-the-hibino-group/"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-25",
+   "title": "Blue Lucy, Moments Lab Integrate Solutions",
+   "take": "Combined technologies make it easier for rights holders to extract value from their catalogs",
+   "source": "TV Technology",
+   "url": "https://www.tvtechnology.com/production/postproduction/blue-lucy-moments-lab-integrate-solutions"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-27",
+   "title": "Dreadbox Nymphes: a compact analog polyphonic Synthesizer says goodbye",
+   "take": "Dreadbox has announced the discontinuation of the Nymphes 6-voice analog polyphonic Synthesizer and says goodbye with a special offer. At Superbooth 2021, the Greek company Dreadbox released Nymphes, a budget-friendly, compact 6-voice analog polysynth. In [...]",
+   "source": "Synth Anatomy",
+   "url": "https://synthanatomy.com/2026/11/dreadbox-nymphes-a-compact-analog-polyphonic-synthesizer-says-goodbye.html"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-27",
+   "title": "Killers guitarist Dave Keuning reveals he had a major stroke in October",
+   "take": "“I feel extremely fortunate that I am alive and well, and that I can use my hands and feet and talk just like before”",
+   "source": "MusicRadar",
+   "url": "https://www.musicradar.com/artists/guitarists/killers-guitarist-dave-keuning-reveals-he-had-a-major-stroke-in-october"
+  },
+  {
+   "cat": "post",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-27",
+   "title": "CineD Lab Test Compendium Released: Dynamic Range, Latitude and Rolling Shutter for 102 Cameras",
+   "take": "Eight years of CineD Lab Tests are now in one book. The CineD Lab Test Compendium, 2026 Edition, collects dynamic range, exposure latitude and rolling shutter results for 102 cameras from 14 brands: 437 dynamic range measurements and 341 rolling shutter measurements, all made by Gunther Machu in…",
+   "source": "CineD",
+   "url": "https://www.cined.com/cined-lab-test-compendium-2026-ebook/"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-27",
+   "title": "All The Machines Releases UN/T-02 Semi-Modular FM Drum Machine",
+   "take": "All The Machines’ UN/T-02 is a semi-modular FM drum machine plugin with six FM voices, extensive patch-cord modulation, polymetric sequencing and built-in effects for Windows and macOS.… Read More All The Machines Releases UN/T-02 Semi-Modular FM Drum Machine",
+   "source": "Synthtopia",
+   "url": "https://www.synthtopia.com/content/2026/11/27/all-the-machines-releases-un-t-02-semi-modular-fm-drum-machine/"
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-26",
+   "title": "Matador secures worldwide rights to Belle and Sebastian’s complete catalog, licensing titles from the band and Bella Figura",
+   "take": "The Beggars Group label first released the Glasgow band's music in the US in 1998. Source",
+   "source": "Music Business Worldwide",
+   "url": "https://www.musicbusinessworldwide.com/matador-secures-worldwide-rights-to-belle-and-sebastians-complete-catalog-licensing-titles-from-the-band-and-bella-figura/"
+  },
+  {
+   "cat": "ai",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-26",
+   "title": "Exclusive: Federal Judge Refuses to Dismiss Jason Isbell’s Class Action Against Suno as Expanded NIL Complaint Takes Center Stage",
+   "take": "Yesterday, DMN was first to report that Jason Isbell and David Lowery had dramatically expanded their Suno class action lawsuit. Now, the presiding judge has officially rejected the AI music platform’s dismissal motion.",
+   "source": "Digital Music News",
+   "url": "https://www.digitalmusicnews.com/2026/11/25/lowery-v-suno-dismissal-motion-rejected/"
+  },
+  {
+   "cat": "software",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-26",
+   "title": "Akai update the MPC Sample",
+   "take": "Akai’s portable MPC has just received a firmware update that introduces a range of user-requested features and tackles a couple of known bugs.",
+   "source": "Sound On Sound",
+   "url": "https://www.soundonsound.com/news/akai-update-mpc-sample"
+  },
+  {
+   "cat": "software",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-26",
+   "title": "Neyrinck V-90 Complete Models 24 Yamaha SPX 90 Effects For DAWs And Live Sound",
+   "take": "Neyrinck has released V-90 Complete, a bundle of five plugins that recreates 24 effects from the Yamaha SPX 90, the 1985 rack processor that has been on records and in live sound racks since the mid-1980s.",
+   "source": "Production Expert",
+   "url": "https://www.production-expert.com/production-expert-1/neyrinck-v-90-complete-models-24-yamaha-spx-90-effects-for-daws-and-live-sound"
+  },
+  {
+   "cat": "instruments",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-27",
+   "title": "How Chris Cunningham Made The 90's Weird : Studying the work of influential artist & director",
+   "take": "Chris Cunningham's past work reads like a who's who of the biggest electronic artists, including Autechre, Aphex...",
+   "source": "Sonicstate",
+   "url": "https://sonicstate.com/news/2026/11/27/how-chris-cunningham-made-the-90s-weird/"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-27",
+   "title": "BPB Exclusive: SoundMorph DUST for $9.99 and Universe Bundle for $299",
+   "take": "SoundMorph is offering two exclusive Black Friday deals for BPB readers, with DUST for $9.99 and the Universe Bundle for $299 until November 30. You can get DUST for $9.99 using the code BPBDUST, or the Universe Bundle for $299 using BPBUNIVERSE299.",
+   "source": "Bedroom Producers Blog",
+   "url": "https://bedroomproducersblog.com/2026/11/27/bpb-exclusive-soundmorph/"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-27",
+   "title": "Mooer GTRS Wing 1000: Intelligent Headless Guitar with NAM!",
+   "take": "Mooer GTRS Wing 1000 an intelligent headless guitar that supports Neural Amp Models and a whole lot more!",
+   "source": "Gearnews",
+   "url": "https://www.gearnews.com/mooer-gtrs-wing-1000/"
+  },
+  {
+   "cat": "hearing",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-25",
+   "title": "Survey Finds Americans View Memory Loss Nearly on Par with Hearing Loss as a Normal Part of Aging",
+   "take": "A new national survey reveals that 75% of Americans view memory loss as a normal part of aging, nearly matching the 77% who say the same about hearing loss.",
+   "source": "Hearing Review",
+   "url": "https://hearingreview.com/hearing-loss/survey-finds-americans-view-memory-loss-nearly-on-par-with-hearing-loss-as-a-normal-part-of-aging"
+  },
+  {
+   "cat": "live",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-25",
+   "title": "Riedel DIVA+ Connects Linzer Klangwolke with Easy5G",
+   "take": "LINZ, Austria – Riedel Communications supported the Klangwolke festival in Linz with a comprehensive DIVA+ infrastructure.",
+   "source": "FOH",
+   "url": "https://fohonline.com/newsroom/international-news/riedel-diva-connects-linzer-klangwolke-with-easy5g/"
+  },
+  {
+   "cat": "gear",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-27",
+   "title": "Love Quiz All Around: It's MusicRadar's Quiz of the Week #32!",
+   "take": "Flex your mind with our fun (and informative) look back at this week's hottest music news",
+   "source": "MusicRadar",
+   "url": "https://www.musicradar.com/artists/bands/love-quiz-all-around-its-musicradars-quiz-of-the-week-32"
+  },
+  {
+   "cat": "software",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-27",
+   "title": "Kodamo Essence FM 8.0: major free characterful update for the flagship FM synth",
+   "take": "Kodamo Essence FM 8.0 is out now as a major free update, bringing improved feedback FM and filter, new FX, and more. With the Essence FM, the one-man French company Kodamo offers one of the [...]",
+   "source": "Synth Anatomy",
+   "url": "https://synthanatomy.com/2026/11/kodamo-essence-fm-8-0-major-free-characterful-update-for-the-flagship-fm-synth.html",
+   "free": true
+  },
+  {
+   "cat": "post",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-27",
+   "title": "NiSi UHC VND 1-5 Stops Launched – True Color Variable ND With Hard Stops and a Detachable Knob for Lens Hoods",
+   "take": "NiSi has launched the UHC VND 1-5 Stops, a new screw-in variable ND filter that covers 1 to 5 stops (ND 0.3 to 1.5). It has hard stops at both ends, uses NiSi’s True Color technology, and comes in eight sizes from 49mm to 82mm.",
+   "source": "CineD",
+   "url": "https://www.cined.com/nisi-uhc-vnd-1-5-stops-true-color-variable-nd-hard-stops-detachable-knob/"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-27",
+   "title": "Pine DSP Blox Grain Adds Granular Cloud Processing For $3",
+   "take": "Pine DSP Blox Grain is a granular effect plugin with freeze, pitch, drift and extended grain controls. It is available for macOS and Windows in VST3, AU and AAX formats.… Read More Pine DSP Blox Grain Adds Granular Cloud Processing For $3",
+   "source": "Synthtopia",
+   "url": "https://www.synthtopia.com/content/2026/11/26/pine-dsp-blox-grain-adds-granular-cloud-processing-for-3/"
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-26",
+   "title": "Universal, Warner, and the BPI back charter to tackle barriers keeping people with dementia from accessing music",
+   "take": "Only 3 in 10 older family caregivers can stream music with the person they care for, according to Music for Dementia. Source",
+   "source": "Music Business Worldwide",
+   "url": "https://www.musicbusinessworldwide.com/universal-warner-and-the-bpi-back-charter-to-tackle-barriers-keeping-people-with-dementia-from-accessing-music/"
+  },
+  {
+   "cat": "industry",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-26",
+   "title": "LiveOne Issues Global Music Rights 40,000 Shares to Cover ‘Outstanding’ Licensing Fees, Teases Its ‘Biggest B2B Partnership’ Ever",
+   "take": "LiveOne (NASDAQ: LVO) has officially issued 40,000 shares to Global Music Rights (GMR), and any net proceeds will cover the Slacker parent’s due licensing payments. LA-headquartered LiveOne recently shed light on the transaction in a lengthy prospectus supplement.",
+   "source": "Digital Music News",
+   "url": "https://www.digitalmusicnews.com/2026/11/25/liveone-stock-issuance-global-music-rights/"
+  },
+  {
+   "cat": "hearing",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-27",
+   "title": "Every Sample on Justice's Cross : Flash Gordon, Pharoahe Monch, Cassius & more",
+   "take": "Justice's Cross was an era-defining electronic album, which I still remember hearing for the first time on a drive fr...",
+   "source": "Sonicstate",
+   "url": "https://sonicstate.com/news/2026/11/27/every-sample-on-justices-cross/"
+  },
+  {
+   "cat": "plugins",
+   "signal": 1,
+   "auto": true,
+   "date": "2026-11-27",
+   "title": "Kate McGill offers 3 FREE vocal toplines exclusively for BPB readers",
+   "take": "Kate McGill Vocals is a free sample pack featuring three full-length female vocal toplines, available exclusively to BPB readers. Kate McGill is a UK vocalist and songwriter who spent ten years fronting indie-folk band Meadowlark before moving into electronic music toplines in 2023.",
+   "source": "Bedroom Producers Blog",
+   "url": "https://bedroomproducersblog.com/2026/11/27/kate-mcgill-free-vocal-toplines/",
+   "free": true
+  }
+ ],
+ "craft": {
+  "body": "This week a court protected a performer's voice, and a commercial model learned to clone one from ten seconds of audio. Dialogue stems, ADR sessions and VO takes on your drives are now raw material for cloning.\n\nKeep voice recordings in folders shared only with the people who need them, remove public links when a job ends, and write into your contracts that the material may not be used to train or clone a voice without the performer's written consent. It costs nothing, and it is the kind of care actors and clients remember.",
+  "title": "Treat every voice you record as someone's identity"
+ }
+}

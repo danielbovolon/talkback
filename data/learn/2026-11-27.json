@@ -1,0 +1,167 @@
+{
+ "key": "2026-11-27",
+ "label": "Fri 27 Nov 2026",
+ "generated": "2026-11-27T16:11:17+01:00",
+ "auto": true,
+ "lesson": {
+  "body": "Take a delay of t seconds between two copies of the same signal. A frequency cancels when the delay equals half its period, or any odd number of half periods. So the notches fall at f = (2n − 1) / (2t): the first at 1/(2t), then every 1/t above that. With 1 ms of delay, the notches sit at 500 Hz, 1.5 kHz, 2.5 kHz and so on, 1 kHz apart. Sound travels about 343 m/s at 20 °C, so 1 ms is about 34 cm of path difference. Two mics on one source with a 34 cm difference in distance give you exactly that comb.\n\nHow deep the notches go depends on the level difference between the two copies. At equal level, the peaks reach +6 dB and the notches cancel completely. If the second copy is 6 dB down (half the amplitude), the peaks are 20·log(1.5) ≈ +3.5 dB and the notches 20·log(0.5) = −6 dB. At about 10 dB down, the ripple shrinks to roughly +2.5 dB and −3.5 dB. This is why the 3:1 rule works: keep the second mic at least three times farther from a source than that source's own mic, and the inverse square law drops the spill by about 9.5 dB.\n\nFlipping polarity does not remove comb filtering. It multiplies every frequency by −1, so the peaks and notches swap places. With 1 ms of delay and one copy inverted, the notches move to 0 Hz, 1 kHz, 2 kHz and so on, which means the low end cancels. The polarity switch helps when the offset is small compared with the wavelengths you care about, such as kick in and kick out, or snare top and bottom. Only delay can actually line up two arrivals in time.\n\nYou will hear this everywhere. You get it with overheads against close drum mics, a DI against a miked bass cab, a boom against a lav on the same actor, a desk reflection into a talk mic, and a delay speaker that is out of time with the main PA. In post, a lav sitting about 30 cm closer than the boom gives roughly 0.9 ms of offset. Sliding one track by that amount, or with a time-alignment plugin, often helps more than any EQ.",
+  "inPractice": "On the next drum or dialogue session, zoom in on a transient in the close mic and the distant mic, measure the offset in samples, and slide the distant mic to match. Solo both, compare aligned and unaligned, and listen for the low mids coming back.",
+  "keyPoints": [
+   "First notch at 1/(2t); notches repeat every 1/t.",
+   "1 ms ≈ 34 cm of path at 343 m/s.",
+   "Equal levels: +6 dB peaks, full cancellation at the notches.",
+   "A 10 dB level difference cuts the ripple to a few dB, which is why the 3:1 rule works.",
+   "Polarity swaps peaks and notches; only delay aligns arrivals.",
+   "Measure the offset on the waveform, then nudge by samples."
+  ],
+  "level": "core",
+  "mistake": "People often assume the polarity button fixes 'phase problems' between any two mics. It only inverts the signal. For mics at different distances it moves the comb to different frequencies, and a time shift is the real fix.",
+  "sayIt": "When two mics hear the same sound at slightly different times, some frequencies cancel, so we line them up in time before we touch the EQ.",
+  "summary": "Comb filtering happens when a signal is added to a delayed copy of itself. Frequencies whose delayed copy arrives in phase are reinforced, and those that arrive half a cycle late cancel. The result is a run of evenly spaced peaks and notches whose positions depend only on the delay time.",
+  "terms": [
+   {
+    "def": "A frequency response with evenly spaced peaks and notches, caused by adding a signal to a delayed copy of itself.",
+    "term": "Comb filter"
+   },
+   {
+    "def": "The sign of the signal. Inverting it multiplies the waveform by −1 at every frequency, with no time shift.",
+    "term": "Polarity"
+   },
+   {
+    "def": "The position within a cycle at a given frequency. A time delay produces a phase shift that grows with frequency.",
+    "term": "Phase"
+   },
+   {
+    "def": "Keep the distance between mics at least three times each mic's distance to its own source, so spill is about 9.5 dB down.",
+    "term": "3:1 rule"
+   },
+   {
+    "def": "Delaying the earlier signal so that both arrivals line up, removing the comb caused by the offset.",
+    "term": "Time alignment"
+   }
+  ],
+  "title": "Comb filtering and mic time alignment",
+  "topic": "Phase, polarity and time"
+ },
+ "quiz": {
+  "questions": [
+   {
+    "level": "advanced",
+    "topic": "Acoustics",
+    "q": "A 200 m³ room has 40 m² of total absorption (metric sabins). Using Sabine's formula RT60 = 0.161·V/A, what is the reverberation time?",
+    "options": [
+     "0.32 s",
+     "1.24 s",
+     "0.50 s",
+     "0.81 s"
+    ],
+    "answer": 3,
+    "explain": "0.161 × 200 / 40 = 0.805 s, so about 0.81 s. Doubling the absorption would halve it. Sabine's formula becomes unreliable in very absorbent rooms, where the Eyring formula is better."
+   },
+   {
+    "level": "advanced",
+    "topic": "Phase & polarity",
+    "q": "Two microphones pick up the same source. Mic B is 34.3 cm further away than mic A (c = 343 m/s). Summed at equal level, where is the first comb-filter notch?",
+    "options": [
+     "500 Hz",
+     "250 Hz",
+     "1 kHz",
+     "343 Hz"
+    ],
+    "answer": 0,
+    "explain": "34.3 cm at 343 m/s is a 1 ms delay. The first notch falls where the delay equals half a period: f = 1/(2 × 0.001 s) = 500 Hz, with further notches at 1.5, 2.5 kHz and so on. 1 kHz is the first frequency where they add again in phase."
+   },
+   {
+    "level": "advanced",
+    "topic": "Digital audio",
+    "q": "A system samples at 48 kHz with no anti-aliasing filter. A 30 kHz tone reaches the converter. At what frequency does it appear in the recording?",
+    "options": [
+     "6 kHz",
+     "12 kHz",
+     "30 kHz, unchanged",
+     "18 kHz"
+    ],
+    "answer": 3,
+    "explain": "Nyquist is 24 kHz. A tone above it folds back to fs − f = 48 − 30 = 18 kHz. It cannot be stored at 30 kHz because that is above the Nyquist frequency."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Post workflow",
+    "q": "A camera and a recorder were jammed to the same timecode at the start of a 90-minute interview, but the audio is late by about a frame at the end. What is the most likely cause?",
+    "options": [
+     "Their internal clocks run at slightly different rates; timecode only labels frames and doesn't control speed",
+     "The recorder was set to drop-frame while the camera was set to non-drop",
+     "The recorder's 48 kHz sample rate cannot carry 25 fps timecode",
+     "The timecode cable reversed the LTC polarity"
+    ],
+    "answer": 0,
+    "explain": "Small clock errors add up over time, which is drift. A DF/NDF mismatch would show as an offset in the numbers, and LTC is biphase-mark encoded, so its polarity doesn't matter. Genlock or word clock, or more frequent re-jams, fix drift."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Microphones",
+    "q": "A multi-pattern condenser has two back-to-back cardioid diaphragms. What pattern do you get when both are summed at equal level and the same polarity?",
+    "options": [
+     "Figure-8",
+     "Hypercardioid",
+     "Cardioid with 6 dB more output",
+     "Omni"
+    ],
+    "answer": 3,
+    "explain": "The two cardioids, (0.5 + 0.5 cos θ) and (0.5 − 0.5 cos θ), add to a constant: omni. Inverting one before summing cancels the constant part and leaves cos θ, a figure-8."
+   },
+   {
+    "level": "intermediate",
+    "topic": "Digital audio",
+    "q": "Why should you add dither when reducing a 24-bit mix to 16 bits?",
+    "options": [
+     "It raises the loudness of quiet passages",
+     "It removes the need for a true-peak limiter",
+     "It makes the quantisation error independent of the signal, turning distortion into benign noise",
+     "It stops intersample peaks"
+    ],
+    "answer": 2,
+    "explain": "Without dither, truncation error follows the signal and is heard as gritty distortion on fades and reverb tails. Low-level dither noise decorrelates the error so it becomes a steady, low hiss instead."
+   },
+   {
+    "level": "basic",
+    "topic": "Acoustics",
+    "q": "What reference pressure does 0 dB SPL correspond to?",
+    "options": [
+     "1 pascal",
+     "20 micropascals",
+     "0.775 volts",
+     "1 milliwatt"
+    ],
+    "answer": 1,
+    "explain": "0 dB SPL is 20 µPa, roughly the threshold of hearing at 1 kHz. 1 Pa is 94 dB SPL; 0.775 V is the dBu reference and 1 mW the dBm reference."
+   },
+   {
+    "level": "basic",
+    "topic": "Microphones",
+    "q": "On a cardioid microphone, at what angle is it least sensitive?",
+    "options": [
+     "0° (on axis)",
+     "90° (side)",
+     "About 110°",
+     "180° (directly behind)"
+    ],
+    "answer": 3,
+    "explain": "A cardioid's single null is at 180°. Nulls near 110° belong to the hypercardioid, and at 90° a cardioid is only 6 dB down."
+   },
+   {
+    "level": "basic",
+    "topic": "Connectors",
+    "q": "On a balanced TRS jack, what do the tip, ring and sleeve normally carry?",
+    "options": [
+     "Tip hot (+), ring cold (−), sleeve ground/shield",
+     "Tip ground, ring hot, sleeve cold",
+     "Tip left, ring right, sleeve ground on every TRS cable",
+     "Tip cold, ring hot, sleeve phantom power"
+    ],
+    "answer": 0,
+    "explain": "For balanced mono lines, tip is hot, ring is cold and sleeve is the shield. The same plug used for stereo headphones carries left on the tip and right on the ring, which is a different use, not a balanced line."
+   }
+  ]
+ }
+}
